@@ -1043,59 +1043,6 @@
           }
         },
         {
-          "id": "thapcam-249ae6b4fb",
-          "name": "Ipswich Town vs Queens Park Rangers | 18:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-249ae6b4fb",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-249ae6b4fb",
-                  "name": "Ipswich Town vs Queens Park Rangers",
-                  "streams": [
-                    {
-                      "id": "st-249ae6b4fb",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Football League Championship",
-            "team_a": "Ipswich Town",
-            "team_b": "Queens Park Rangers",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cec3eaaa5271c1f2f036469593ecbcd8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/701e0713c180fa36266b425447d2f9c0.png",
-            "time": "18:30 02/05",
-            "blv": "BLV Người Băng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-249ae6b4fb_460f20da.png?v=460f20da",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-5369317f0a",
           "name": "Wrexham vs Middlesbrough | 18:30 02/05",
           "type": "single",
@@ -1400,7 +1347,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c7140efe06d93642fcc9805077c49aa5.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f0856c1b16c32245a8d2c702ffe89ac5.png",
             "time": "20:00 02/05",
-            "blv": "BLV Người Nhện",
+            "blv": "BLV Người Băng",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -2089,7 +2036,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3b720f181ce9993f9422d276acf7b292.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b593727321793084b1f7804aebedc31a.png",
             "time": "22:00 02/05",
-            "blv": "BLV Siêu Quậy",
+            "blv": "BLV Người Nhện",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -3016,82 +2963,11 @@
     },
     {
       "id": "grp-0b6b498c58",
-      "name": "🏸 Cầu Lông (1 LIVE)",
+      "name": "🏸 Cầu Lông",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-05af0aa0a9",
-          "name": "Thailand vs Denmark | 23:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-05af0aa0a9",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-05af0aa0a9",
-                  "name": "Thailand vs Denmark",
-                  "streams": [
-                    {
-                      "id": "st-05af0aa0a9",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-17df1ed044",
-                          "name": "BLV Chân Đất",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f4c458137e4_145/index.m3u8?expire=1778253528&sign=192e437b550de4650fce4ef016e950cc",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BWF Thomas & Uber Cup Finals 2026 - SÂN 1",
-            "team_a": "Thailand",
-            "team_b": "Denmark",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d4c55c5dad7e0ab17fecc33d1fe08e57.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/602b5c241c8e2f7f6d29e030dfd78b6d.png",
-            "time": "23:00 01/05",
-            "blv": "BLV Chân Đất",
-            "is_live": true,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-05af0aa0a9_fd3fa24b.png?v=fd3fa24b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-74a27ed192",
           "name": "China vs Japan | 17:00 02/05",
