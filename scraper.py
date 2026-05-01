@@ -78,7 +78,7 @@ HEADERS = {
 BASE_URL      = "https://thapcam24h.net"
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
-THUMB_VERSION = "v6"
+THUMB_VERSION = "v7"
 
 CATE_MAP = {
     "Bóng đá":     "⚽ Bóng Đá",
@@ -251,21 +251,21 @@ def make_thumbnail(match, channel_id):
         anchor="mm",
     )
 
-    # Tên đội — 2 dòng nếu quá dài
+    # Tên đội — 1 dòng
     def draw_team_name(text, cx):
-        max_chars = 16
-        if len(text) <= max_chars:
-            draw.text((cx, name_center), text, fill=(20, 20, 20), font=font_team, anchor="mm")
-        else:
-            mid   = len(text) // 2
-            split = text.rfind(" ", 0, mid + 6)
-            if split == -1:
-                split = max_chars
-            line1    = text[:split].strip()
-            line2    = text[split:].strip()
-            line_gap = 44
-            draw.text((cx, name_center - line_gap // 2), line1, fill=(20, 20, 20), font=font_team, anchor="mm")
-            draw.text((cx, name_center + line_gap // 2 + line_gap // 2), line2, fill=(20, 20, 20), font=font_team, anchor="mm")
+        max_width = W // 2 - 60  # tối đa nửa canvas trừ padding
+        font_size = 58
+        f         = font_team
+        while font_size >= 28:
+            try:
+                f = ImageFont.truetype(FONT_BOLD, font_size)
+            except:
+                f = ImageFont.load_default()
+            bbox = draw.textbbox((0, 0), text, font=f)
+            if (bbox[2] - bbox[0]) <= max_width:
+                break
+            font_size -= 3
+        draw.text((cx, name_center), text, fill=(20, 20, 20), font=f, anchor="mm")
 
     if match.get("team_a"):
         draw_team_name(match["team_a"], W // 4)
