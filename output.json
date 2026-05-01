@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -154,148 +154,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6ba3aa0fd2_7817c75b.png?v=7817c75b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-01a8c69c93",
-          "name": "Gazisehir Gaziantep vs Besiktas JK",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-01a8c69c93",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-01a8c69c93",
-                  "name": "Gazisehir Gaziantep vs Besiktas JK",
-                  "streams": [
-                    {
-                      "id": "st-01a8c69c93",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-076b48885e",
-                          "name": "BLV Người Cò",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f4d8e051ddb_14559/index.m3u8?expire=1778258784&sign=943e43679e5e87429074b6f29f8af0fc",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Turkish Super League",
-            "team_a": "Gazisehir Gaziantep",
-            "team_b": "Besiktas JK",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1d590fbc66db477bb5cb14304cd00c84.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/83ba0474d144e49f060789cfa904e226.png",
-            "time": "",
-            "blv": "BLV Người Cò",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-01a8c69c93_d6edecc7.png?v=d6edecc7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-59b763c428",
-          "name": "Brondby IF vs Nordsjaelland",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-59b763c428",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-59b763c428",
-                  "name": "Brondby IF vs Nordsjaelland",
-                  "streams": [
-                    {
-                      "id": "st-59b763c428",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5d265bb756",
-                          "name": "BLV Người Nhớt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f4d4be51ddb_14232/index.m3u8?expire=1778257726&sign=afdfa715bfc962c4a5d507ddee77a556",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Danish Superliga",
-            "team_a": "Brondby IF",
-            "team_b": "Nordsjaelland",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/625f6bad4acc37546d2f2373b89b7c89.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d63099fdff083541d1ebef9beae90f63.png",
-            "time": "",
-            "blv": "BLV Người Nhớt",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-59b763c428_87e1e336.png?v=87e1e336",
             "width": 1600,
             "height": 1200
           }
@@ -2805,6 +2663,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7079872866_8952c62f.png?v=8952c62f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-7c5bcc6290",
+          "name": "CA Osasuna vs FC Barcelona | 02:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7c5bcc6290",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-7c5bcc6290",
+                  "name": "CA Osasuna vs FC Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-7c5bcc6290",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "CA Osasuna",
+            "team_b": "FC Barcelona",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c2050b940076df70b2ad0a6103c50df4.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f378eb1ea04e53999b89051aa3244de6.png",
+            "time": "02:00 03/05",
+            "blv": "BLV Siêu Bướng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7c5bcc6290_894de15b.png?v=894de15b",
             "width": 1600,
             "height": 1200
           }
