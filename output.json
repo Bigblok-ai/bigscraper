@@ -2559,12 +2559,65 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-8241d4ac02",
+          "name": "New York Red Bulls vs FC Dallas | 06:30 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8241d4ac02",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-8241d4ac02",
+                  "name": "New York Red Bulls vs FC Dallas",
+                  "streams": [
+                    {
+                      "id": "st-8241d4ac02",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "United States Major League Soccer",
+            "team_a": "New York Red Bulls",
+            "team_b": "FC Dallas",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8b8fe90668461b90ddc20516b0e6796d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e829da6b3050ec03f3c8715690ec39c4.png",
+            "time": "06:30 03/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8241d4ac02_fd636bbe.png?v=fd636bbe",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "grp-d721cd64dc",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2636,6 +2689,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6eee68d0a1_20138091.png?v=20138091",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-f0cb24c062",
+          "name": "Toronto Raptors vs Cleveland Cavaliers | 06:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f0cb24c062",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f0cb24c062",
+                  "name": "Toronto Raptors vs Cleveland Cavaliers",
+                  "streams": [
+                    {
+                      "id": "st-f0cb24c062",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1beb138ec4",
+                          "name": "BLV Người Sói",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5374051ddc_742/index.m3u8?expire=1778282944&sign=fc57d938fbda6526d864b083daa27eac",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Toronto Raptors",
+            "team_b": "Cleveland Cavaliers",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e299ddecec93dc5c8db83b1761e2fa1f.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/57c938e35ceb2ee92562a09c4165fb47.png",
+            "time": "06:30 02/05",
+            "blv": "BLV Người Sói",
+            "is_live": true,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f0cb24c062_a19f6cd8.png?v=a19f6cd8",
             "width": 1600,
             "height": 1200
           }
