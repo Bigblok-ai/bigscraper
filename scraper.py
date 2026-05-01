@@ -78,7 +78,7 @@ HEADERS = {
 BASE_URL      = "https://thapcam24h.net"
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
-THUMB_VERSION = "v5"
+THUMB_VERSION = "v6"
 
 CATE_MAP = {
     "Bóng đá":     "⚽ Bóng Đá",
@@ -219,7 +219,7 @@ def make_thumbnail(match, channel_id):
     gap_name_time = 60
 
     total_block_h = logo_size + gap_logo_name + name_h + gap_name_time + time_h
-    block_top     = content_top + (content_h - total_block_h) // 2 - 40  # logo lên trên
+    block_top     = content_top + (content_h - total_block_h) // 2  # căn giữa thuần, bỏ offset
 
     logo_y       = block_top
     name_block_y = logo_y + logo_size + gap_logo_name
