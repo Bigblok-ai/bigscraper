@@ -88,77 +88,6 @@
           }
         },
         {
-          "id": "thapcam-6ba3aa0fd2",
-          "name": "Girona FC vs RCD Mallorca",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6ba3aa0fd2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6ba3aa0fd2",
-                  "name": "Girona FC vs RCD Mallorca",
-                  "streams": [
-                    {
-                      "id": "st-6ba3aa0fd2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-15c9b88db7",
-                          "name": "BLV Max",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f4ea09137e4_35/index.m3u8?expire=1778263177&sign=f2e0f51ece0a986a7075d92bc2fbb154",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Girona FC",
-            "team_b": "RCD Mallorca",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/006ce259b33ef72dd5570cfa8dc39f38.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fdef90456d2a2eee09976c558457aec7.png",
-            "time": "",
-            "blv": "BLV Max",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6ba3aa0fd2_7817c75b.png?v=7817c75b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-8c7eaea480",
           "name": "Leeds United vs Burnley",
           "type": "single",
@@ -225,6 +154,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8c7eaea480_45d153ee.png?v=45d153ee",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-6ba3aa0fd2",
+          "name": "Girona FC vs RCD Mallorca",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6ba3aa0fd2",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-6ba3aa0fd2",
+                  "name": "Girona FC vs RCD Mallorca",
+                  "streams": [
+                    {
+                      "id": "st-6ba3aa0fd2",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-15c9b88db7",
+                          "name": "BLV Max",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f4ea09137e4_35/index.m3u8?expire=1778263177&sign=f2e0f51ece0a986a7075d92bc2fbb154",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Girona FC",
+            "team_b": "RCD Mallorca",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/006ce259b33ef72dd5570cfa8dc39f38.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fdef90456d2a2eee09976c558457aec7.png",
+            "time": "",
+            "blv": "BLV Max",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6ba3aa0fd2_7817c75b.png?v=7817c75b",
             "width": 1600,
             "height": 1200
           }
@@ -3202,83 +3202,11 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "thapcam-3cfee59ef9",
-          "name": "Alexander Blockx vs Alexander Zverev | 01:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3cfee59ef9",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3cfee59ef9",
-                  "name": "Alexander Blockx vs Alexander Zverev",
-                  "streams": [
-                    {
-                      "id": "st-3cfee59ef9",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3b17c31d95",
-                          "name": "BLV Người Sói",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f4e369137e4_742/index.m3u8?expire=1778261481&sign=6b7192c39d36d46d985025d83ddd87a5",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Madrid, Spain Men Singles",
-            "team_a": "Alexander Blockx",
-            "team_b": "Alexander Zverev",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c071d420407817f1ae8548b0f5e89b3c.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/Fs2AoS8fSPu9qB9HdwSDwQVAICOz",
-            "time": "01:00 02/05",
-            "blv": "BLV Người Sói",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3cfee59ef9_b3023114.png?v=b3023114",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-9102198393",
