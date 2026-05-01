@@ -88,77 +88,6 @@
           }
         },
         {
-          "id": "thapcam-6ba3aa0fd2",
-          "name": "Girona FC vs RCD Mallorca",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6ba3aa0fd2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6ba3aa0fd2",
-                  "name": "Girona FC vs RCD Mallorca",
-                  "streams": [
-                    {
-                      "id": "st-6ba3aa0fd2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-15c9b88db7",
-                          "name": "BLV Max",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f4ea09137e4_35/index.m3u8?expire=1778263177&sign=f2e0f51ece0a986a7075d92bc2fbb154",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Girona FC",
-            "team_b": "RCD Mallorca",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/006ce259b33ef72dd5570cfa8dc39f38.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fdef90456d2a2eee09976c558457aec7.png",
-            "time": "",
-            "blv": "BLV Max",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6ba3aa0fd2_a5ae77b6.png?v=a5ae77b6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-8c7eaea480",
           "name": "Leeds United vs Burnley",
           "type": "single",
@@ -225,6 +154,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8c7eaea480_662311b8.png?v=662311b8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-6ba3aa0fd2",
+          "name": "Girona FC vs RCD Mallorca",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6ba3aa0fd2",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-6ba3aa0fd2",
+                  "name": "Girona FC vs RCD Mallorca",
+                  "streams": [
+                    {
+                      "id": "st-6ba3aa0fd2",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-15c9b88db7",
+                          "name": "BLV Max",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f4ea09137e4_35/index.m3u8?expire=1778263177&sign=f2e0f51ece0a986a7075d92bc2fbb154",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Girona FC",
+            "team_b": "RCD Mallorca",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/006ce259b33ef72dd5570cfa8dc39f38.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fdef90456d2a2eee09976c558457aec7.png",
+            "time": "",
+            "blv": "BLV Max",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6ba3aa0fd2_a5ae77b6.png?v=a5ae77b6",
             "width": 1600,
             "height": 1200
           }
