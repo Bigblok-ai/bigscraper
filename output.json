@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-48a6ebb516",
-          "name": "Pisa vs Lecce",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-48a6ebb516",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-48a6ebb516",
-                  "name": "Pisa vs Lecce",
-                  "streams": [
-                    {
-                      "id": "st-48a6ebb516",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-75f9717aa0",
-                          "name": "BLV Lềnh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f4ec8f51ddb_1549/index.m3u8?expire=1778263823&sign=4fd76c19631bbe5ecf1f1cf3ef3e851b",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Pisa",
-            "team_b": "Lecce",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7ca5de14056c7290f6787e0943aa11ad.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/777d0840066313da8c0f85977e9178be.png",
-            "time": "",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-48a6ebb516_149ba6e3.png?v=149ba6e3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-8c7eaea480",
           "name": "Leeds United vs Burnley",
