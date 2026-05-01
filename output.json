@@ -11,11 +11,82 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-48a6ebb516",
+          "name": "Pisa vs Lecce | 01:45 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-48a6ebb516",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-48a6ebb516",
+                  "name": "Pisa vs Lecce",
+                  "streams": [
+                    {
+                      "id": "st-48a6ebb516",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-75f9717aa0",
+                          "name": "BLV Lềnh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f4ec8f51ddb_1549/index.m3u8?expire=1778263823&sign=4fd76c19631bbe5ecf1f1cf3ef3e851b",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Pisa",
+            "team_b": "Lecce",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7ca5de14056c7290f6787e0943aa11ad.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/777d0840066313da8c0f85977e9178be.png",
+            "time": "01:45 02/05",
+            "blv": "BLV Lềnh",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-48a6ebb516_c6d1fa8e.png?v=c6d1fa8e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-59b763c428",
           "name": "Brondby IF vs Nordsjaelland",
@@ -83,59 +154,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-59b763c428_87e1e336.png?v=87e1e336",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-48a6ebb516",
-          "name": "Pisa vs Lecce | 01:45 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-48a6ebb516",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-48a6ebb516",
-                  "name": "Pisa vs Lecce",
-                  "streams": [
-                    {
-                      "id": "st-48a6ebb516",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Pisa",
-            "team_b": "Lecce",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7ca5de14056c7290f6787e0943aa11ad.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/777d0840066313da8c0f85977e9178be.png",
-            "time": "01:45 02/05",
-            "blv": "BLV Lềnh",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-48a6ebb516_c6d1fa8e.png?v=c6d1fa8e",
             "width": 1600,
             "height": 1200
           }
@@ -1452,7 +1470,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3e8ecd181a512ff663ff60ec85c8bed1.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a450173b3d636ba2c86d3d7c5bdc4026.png",
             "time": "20:00 02/05",
-            "blv": "BLV Người Điên",
+            "blv": "BLV Người Ngố",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1505,7 +1523,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fe636189a2f3db78d0554c34f0bdaae6.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/81f8f9e258e6b73bc522bab06730720a.png",
             "time": "20:30 02/05",
-            "blv": "BLV Người Lạ",
+            "blv": "BLV Người Điên",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -2088,7 +2106,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3b720f181ce9993f9422d276acf7b292.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b593727321793084b1f7804aebedc31a.png",
             "time": "22:00 02/05",
-            "blv": "BLV Người Ngố",
+            "blv": "BLV Siêu Quậy",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -2194,7 +2212,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5f7059f40965e5a2cc00987e6bac2f32.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/37ed13d27edccd30e053167962c02b3a.png",
             "time": "23:00 02/05",
-            "blv": "BLV Siêu Quậy",
+            "blv": "BLV Người Ngố",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -3116,7 +3134,61 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "thapcam-9bfafd8540",
+          "name": "Đua xe F1 | 03:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9bfafd8540",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-9bfafd8540",
+                  "name": "Đua xe F1",
+                  "streams": [
+                    {
+                      "id": "st-9bfafd8540",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "Đua xe F1",
+            "team_b": "",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-dev/categories/2025/03/29/ef1a59278d38aaf359a16a80e50f5bec.png",
+            "logo_b": "",
+            "time": "03:30 02/05",
+            "blv": "BLV Người Chớp",
+            "is_live": false,
+            "cate_name": "Đua xe F1"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9bfafd8540_d43fbb57.png?v=d43fbb57",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-776a2d64f8",
