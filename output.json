@@ -17,77 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-e987eb6335",
-          "name": "Sporting CP B vs SL Benfica B | 02:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e987eb6335",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e987eb6335",
-                  "name": "Sporting CP B vs SL Benfica B",
-                  "streams": [
-                    {
-                      "id": "st-e987eb6335",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2a16d999d6",
-                          "name": "BLV Người Rơm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f4f4a451ddb_16125/index.m3u8?expire=1778265892&sign=bec30d49e5fd838029c32c0aec9bd632",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga Portugal 2",
-            "team_a": "Sporting CP B",
-            "team_b": "SL Benfica B",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/41e17945f888d280afb6dcae45d274ec.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0413f3620ec30423777be92f84078824.png",
-            "time": "02:30 02/05",
-            "blv": "BLV Người Rơm",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e987eb6335_60f292fc.png?v=60f292fc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-48a6ebb516",
           "name": "Pisa vs Lecce",
           "type": "single",
@@ -296,6 +225,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6ba3aa0fd2_7817c75b.png?v=7817c75b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-e987eb6335",
+          "name": "Sporting CP B vs SL Benfica B",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e987eb6335",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-e987eb6335",
+                  "name": "Sporting CP B vs SL Benfica B",
+                  "streams": [
+                    {
+                      "id": "st-e987eb6335",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2a16d999d6",
+                          "name": "BLV Người Rơm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f4f4a451ddb_16125/index.m3u8?expire=1778265892&sign=bec30d49e5fd838029c32c0aec9bd632",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga Portugal 2",
+            "team_a": "Sporting CP B",
+            "team_b": "SL Benfica B",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/41e17945f888d280afb6dcae45d274ec.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0413f3620ec30423777be92f84078824.png",
+            "time": "",
+            "blv": "BLV Người Rơm",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e987eb6335_60f292fc.png?v=60f292fc",
             "width": 1600,
             "height": 1200
           }
@@ -3016,7 +3016,7 @@
     },
     {
       "id": "grp-0b6b498c58",
-      "name": "🏸 Cầu Lông (2 LIVE)",
+      "name": "🏸 Cầu Lông (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3088,77 +3088,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-05af0aa0a9_5c024d28.png?v=5c024d28",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-4bb67aa747",
-          "name": "France vs Japan | 23:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4bb67aa747",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-4bb67aa747",
-                  "name": "France vs Japan",
-                  "streams": [
-                    {
-                      "id": "st-4bb67aa747",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-20caf0ad9f",
-                          "name": "BLV Người Lạ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f4c672137e4_11241/index.m3u8?expire=1778254066&sign=df651313a567fe6e3c543d8a90969189",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BWF Thomas & Uber Cup Finals 2026 - SÂN 2",
-            "team_a": "France",
-            "team_b": "Japan",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/40212f6d758e035c28bc9fc47728af63.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7070cf22d837e76af1fe0fe6e01d4bcd.png",
-            "time": "23:00 01/05",
-            "blv": "BLV Người Lạ",
-            "is_live": true,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-4bb67aa747_44a5c468.png?v=44a5c468",
             "width": 1600,
             "height": 1200
           }
