@@ -112,9 +112,7 @@ CATE_URLS = {
 }
 
 EXCLUDE_LEAGUES = [
-    "mls", "major league soccer",
     "liga mx", "liga de expansion",
-    "brasileirao", "brasileirão", "brazilian", "campeonato brasileiro", "copa do brasil",
     "argentine", "argentina", "liga profesional", "copa de la liga",
     "colombian", "colombia", "liga betplay", "categoria primera", "primera a",
     "chile", "primera division chile",
@@ -122,11 +120,6 @@ EXCLUDE_LEAGUES = [
     "peru", "liga 1 peru",
     "venezuela", "liga futve",
     "paraguay", "uruguay", "bolivia",
-    "concacaf", "conmebol",
-    "copa america", "copa sudamericana", "copa libertadores",
-    "jupiler", "pro league", "belgian",
-    "super lig", "turkish", "süper lig",
-    "efbet", "bulgarian",
 ]
 
 
