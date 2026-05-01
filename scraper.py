@@ -78,7 +78,7 @@ HEADERS = {
 BASE_URL      = "https://thapcam24h.net"
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
-THUMB_VERSION = "v1"
+THUMB_VERSION = "v2"
 
 CATE_MAP = {
     "Bóng đá":     "⚽ Bóng Đá",
