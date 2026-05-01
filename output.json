@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,77 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8c7eaea480_4527ffb7.png?v=4527ffb7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-6ba3aa0fd2",
-          "name": "Girona FC vs RCD Mallorca",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6ba3aa0fd2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6ba3aa0fd2",
-                  "name": "Girona FC vs RCD Mallorca",
-                  "streams": [
-                    {
-                      "id": "st-6ba3aa0fd2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-15c9b88db7",
-                          "name": "BLV Max",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f4ea09137e4_35/index.m3u8?expire=1778263177&sign=f2e0f51ece0a986a7075d92bc2fbb154",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Girona FC",
-            "team_b": "RCD Mallorca",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/006ce259b33ef72dd5570cfa8dc39f38.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fdef90456d2a2eee09976c558457aec7.png",
-            "time": "",
-            "blv": "BLV Max",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6ba3aa0fd2_c09ad828.png?v=c09ad828",
             "width": 1600,
             "height": 1200
           }
@@ -813,6 +742,59 @@
           }
         },
         {
+          "id": "thapcam-6b4d5b9c4b",
+          "name": "PVF CAND vs Hong Linh Ha Tinh | 18:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6b4d5b9c4b",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-6b4d5b9c4b",
+                  "name": "PVF CAND vs Hong Linh Ha Tinh",
+                  "streams": [
+                    {
+                      "id": "st-6b4d5b9c4b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "PVF CAND",
+            "team_b": "Hong Linh Ha Tinh",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/16b802abec41440eb4996fc68f16125b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/83dd94c5ca68e8f9a3980f036afcb511.png",
+            "time": "18:00 02/05",
+            "blv": "BLV Người Cò",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6b4d5b9c4b_7a74c990.png?v=7a74c990",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-89c3ff3599",
           "name": "Becamex Ho Chi Minh City vs CLB Thanh Hoa | 18:00 02/05",
           "type": "single",
@@ -914,59 +896,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8ca2bbaa49_c6455469.png?v=c6455469",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-6b4d5b9c4b",
-          "name": "PVF CAND vs Hong Linh Ha Tinh | 18:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6b4d5b9c4b",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6b4d5b9c4b",
-                  "name": "PVF CAND vs Hong Linh Ha Tinh",
-                  "streams": [
-                    {
-                      "id": "st-6b4d5b9c4b",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "PVF CAND",
-            "team_b": "Hong Linh Ha Tinh",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/16b802abec41440eb4996fc68f16125b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/83dd94c5ca68e8f9a3980f036afcb511.png",
-            "time": "18:00 02/05",
-            "blv": "BLV Người Cò",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6b4d5b9c4b_7a74c990.png?v=7a74c990",
             "width": 1600,
             "height": 1200
           }
@@ -1343,6 +1272,59 @@
           }
         },
         {
+          "id": "thapcam-e9ae0e64bf",
+          "name": "FC Bayern Munich vs 1. FC Heidenheim 1846 | 20:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e9ae0e64bf",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-e9ae0e64bf",
+                  "name": "FC Bayern Munich vs 1. FC Heidenheim 1846",
+                  "streams": [
+                    {
+                      "id": "st-e9ae0e64bf",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "FC Bayern Munich",
+            "team_b": "1. FC Heidenheim 1846",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ef19a84a6745fe57aa786873d2b18e8a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/65ee743f20fa7db286fdeda4d33c6980.png",
+            "time": "20:30 02/05",
+            "blv": "BLV Siêu Bướng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e9ae0e64bf_e36b41bd.png?v=e36b41bd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-c09344de20",
           "name": "Eintracht Frankfurt vs Hamburger SV | 20:30 02/05",
           "type": "single",
@@ -1497,59 +1479,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-89af51d2c0_8c66ec18.png?v=8c66ec18",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-e9ae0e64bf",
-          "name": "FC Bayern Munich vs 1. FC Heidenheim 1846 | 20:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e9ae0e64bf",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e9ae0e64bf",
-                  "name": "FC Bayern Munich vs 1. FC Heidenheim 1846",
-                  "streams": [
-                    {
-                      "id": "st-e9ae0e64bf",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "FC Bayern Munich",
-            "team_b": "1. FC Heidenheim 1846",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ef19a84a6745fe57aa786873d2b18e8a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/65ee743f20fa7db286fdeda4d33c6980.png",
-            "time": "20:30 02/05",
-            "blv": "BLV Siêu Bướng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e9ae0e64bf_e36b41bd.png?v=e36b41bd",
             "width": 1600,
             "height": 1200
           }
@@ -2032,59 +1961,6 @@
           }
         },
         {
-          "id": "thapcam-0c1957d4e0",
-          "name": "Como vs Napoli | 23:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0c1957d4e0",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-0c1957d4e0",
-                  "name": "Como vs Napoli",
-                  "streams": [
-                    {
-                      "id": "st-0c1957d4e0",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Como",
-            "team_b": "Napoli",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5f7059f40965e5a2cc00987e6bac2f32.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/37ed13d27edccd30e053167962c02b3a.png",
-            "time": "23:00 02/05",
-            "blv": "BLV Người Ngố",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0c1957d4e0_f52c8f0a.png?v=f52c8f0a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-990833cfa9",
           "name": "Levski Sofia vs CSKA 1948 Sofia | 23:00 02/05",
           "type": "single",
@@ -2133,6 +2009,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-990833cfa9_9eba1be1.png?v=9eba1be1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-0c1957d4e0",
+          "name": "Como vs Napoli | 23:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0c1957d4e0",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-0c1957d4e0",
+                  "name": "Como vs Napoli",
+                  "streams": [
+                    {
+                      "id": "st-0c1957d4e0",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Como",
+            "team_b": "Napoli",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5f7059f40965e5a2cc00987e6bac2f32.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/37ed13d27edccd30e053167962c02b3a.png",
+            "time": "23:00 02/05",
+            "blv": "BLV Người Ngố",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0c1957d4e0_f52c8f0a.png?v=f52c8f0a",
             "width": 1600,
             "height": 1200
           }
