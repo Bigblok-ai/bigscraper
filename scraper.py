@@ -78,7 +78,7 @@ HEADERS = {
 BASE_URL      = "https://thapcam24h.net"
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
-THUMB_VERSION = "v4"
+THUMB_VERSION = "v5"
 
 CATE_MAP = {
     "Bóng đá":     "⚽ Bóng Đá",
@@ -212,19 +212,19 @@ def make_thumbnail(match, channel_id):
     content_bot = H - FOOTER_H - 5
     content_h   = content_bot - content_top
 
-    # Tính toàn bộ block height bao gồm giờ đấu → căn giữa chính xác
     logo_size     = 360
-    name_h        = 80
+    name_h        = 120
     time_h        = 110
-    gap_logo_name = 50
-    gap_name_time = 30
+    gap_logo_name = 40
+    gap_name_time = 60
 
     total_block_h = logo_size + gap_logo_name + name_h + gap_name_time + time_h
-    block_top     = content_top + (content_h - total_block_h) // 2
+    block_top     = content_top + (content_h - total_block_h) // 2 - 40  # logo lên trên
 
-    logo_y = block_top
-    name_y = logo_y + logo_size + gap_logo_name + name_h // 2
-    time_y = name_y + name_h // 2 + gap_name_time + time_h // 2
+    logo_y       = block_top
+    name_block_y = logo_y + logo_size + gap_logo_name
+    name_center  = name_block_y + name_h // 2
+    time_y       = name_block_y + name_h + gap_name_time + time_h // 2
 
     # Logo trái
     if match.get("logo_a"):
@@ -255,29 +255,29 @@ def make_thumbnail(match, channel_id):
     def draw_team_name(text, cx):
         max_chars = 16
         if len(text) <= max_chars:
-            draw.text((cx, name_y), text, fill=(20, 20, 20), font=font_team, anchor="mm")
+            draw.text((cx, name_center), text, fill=(20, 20, 20), font=font_team, anchor="mm")
         else:
             mid   = len(text) // 2
             split = text.rfind(" ", 0, mid + 6)
             if split == -1:
                 split = max_chars
-            line1 = text[:split].strip()
-            line2 = text[split:].strip()
-            line_gap = 38
-            draw.text((cx, name_y - line_gap // 2), line1, fill=(20, 20, 20), font=font_team, anchor="mm")
-            draw.text((cx, name_y + line_gap // 2 + line_gap), line2, fill=(20, 20, 20), font=font_team, anchor="mm")
+            line1    = text[:split].strip()
+            line2    = text[split:].strip()
+            line_gap = 44
+            draw.text((cx, name_center - line_gap // 2), line1, fill=(20, 20, 20), font=font_team, anchor="mm")
+            draw.text((cx, name_center + line_gap // 2 + line_gap // 2), line2, fill=(20, 20, 20), font=font_team, anchor="mm")
 
     if match.get("team_a"):
         draw_team_name(match["team_a"], W // 4)
     if match.get("team_b"):
         draw_team_name(match["team_b"], W * 3 // 4)
 
-    # Giờ đấu — shadow text
+    # Giờ đấu — chữ đen, bóng đỏ
     if match.get("time"):
-        draw.text((W // 2 + 3, time_y + 3), match["time"],
-                  fill=(0, 0, 0), font=font_time, anchor="mm")
+        draw.text((W // 2 + 4, time_y + 4), match["time"],
+                  fill=ACCENT, font=font_time, anchor="mm")
         draw.text((W // 2, time_y), match["time"],
-                  fill=(255, 210, 30), font=font_time, anchor="mm")
+                  fill=(15, 15, 15), font=font_time, anchor="mm")
 
     # Tên giải — header, tự scale nếu quá dài
     if match.get("league"):
