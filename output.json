@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,6 +83,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-48a6ebb516_c6d1fa8e.png?v=c6d1fa8e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-01a8c69c93",
+          "name": "Gazisehir Gaziantep vs Besiktas JK",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-01a8c69c93",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-01a8c69c93",
+                  "name": "Gazisehir Gaziantep vs Besiktas JK",
+                  "streams": [
+                    {
+                      "id": "st-01a8c69c93",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-076b48885e",
+                          "name": "BLV Người Cò",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f4d8e051ddb_14559/index.m3u8?expire=1778258784&sign=943e43679e5e87429074b6f29f8af0fc",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Turkish Super League",
+            "team_a": "Gazisehir Gaziantep",
+            "team_b": "Besiktas JK",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1d590fbc66db477bb5cb14304cd00c84.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/83ba0474d144e49f060789cfa904e226.png",
+            "time": "",
+            "blv": "BLV Người Cò",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-01a8c69c93_d6edecc7.png?v=d6edecc7",
             "width": 1600,
             "height": 1200
           }
@@ -2226,6 +2297,59 @@
           }
         },
         {
+          "id": "thapcam-990833cfa9",
+          "name": "Levski Sofia vs CSKA 1948 Sofia | 23:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-990833cfa9",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-990833cfa9",
+                  "name": "Levski Sofia vs CSKA 1948 Sofia",
+                  "streams": [
+                    {
+                      "id": "st-990833cfa9",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bulgarian First League",
+            "team_a": "Levski Sofia",
+            "team_b": "CSKA 1948 Sofia",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fe56623a71d6056e9e1a93a6241e033f.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/182f01e096ad1f495cc88d2369c45224.png",
+            "time": "23:00 02/05",
+            "blv": "BLV Người Cò",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-990833cfa9_28d1d7bc.png?v=28d1d7bc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-221a210c85",
           "name": "Damac vs Al Khaleej Club | 23:10 02/05",
           "type": "single",
@@ -2438,6 +2562,112 @@
           }
         },
         {
+          "id": "thapcam-22875c4c5f",
+          "name": "Trabzonspor vs Goztepe | 00:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-22875c4c5f",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-22875c4c5f",
+                  "name": "Trabzonspor vs Goztepe",
+                  "streams": [
+                    {
+                      "id": "st-22875c4c5f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Turkish Super League",
+            "team_a": "Trabzonspor",
+            "team_b": "Goztepe",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9dc9c8f928d5cafdc90a747fe0439c2d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f05792a374a09fe90bc276305f1dc1e1.png",
+            "time": "00:00 03/05",
+            "blv": "BLV Người Nhớt",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-22875c4c5f_2c067e9f.png?v=2c067e9f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-e6704b540b",
+          "name": "Samsunspor vs Galatasaray | 00:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e6704b540b",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-e6704b540b",
+                  "name": "Samsunspor vs Galatasaray",
+                  "streams": [
+                    {
+                      "id": "st-e6704b540b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Turkish Super League",
+            "team_a": "Samsunspor",
+            "team_b": "Galatasaray",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d4c8121b5f738cfaf222779a43e7495d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/722e43393d34b94cb556aa0b3c9f4190.png",
+            "time": "00:00 03/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e6704b540b_ca2fb674.png?v=ca2fb674",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-faf15634a4",
           "name": "FC Famalicao vs Benfica | 00:00 03/05",
           "type": "single",
@@ -2486,6 +2716,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-faf15634a4_9b20c7e9.png?v=9b20c7e9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-7079872866",
+          "name": "Atalanta vs Genoa | 01:45 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7079872866",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-7079872866",
+                  "name": "Atalanta vs Genoa",
+                  "streams": [
+                    {
+                      "id": "st-7079872866",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Atalanta",
+            "team_b": "Genoa",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/45c9647899b8bf2fb6f988c6c33b964c.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/51474fb68c7da46b9c20ebddccec7766.png",
+            "time": "01:45 03/05",
+            "blv": "BLV Người Cò",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7079872866_8952c62f.png?v=8952c62f",
             "width": 1600,
             "height": 1200
           }
