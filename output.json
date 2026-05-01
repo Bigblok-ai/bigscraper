@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-e987eb6335",
-          "name": "Sporting CP B vs SL Benfica B",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e987eb6335",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e987eb6335",
-                  "name": "Sporting CP B vs SL Benfica B",
-                  "streams": [
-                    {
-                      "id": "st-e987eb6335",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2a16d999d6",
-                          "name": "BLV Người Rơm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f4f4a451ddb_16125/index.m3u8?expire=1778265892&sign=bec30d49e5fd838029c32c0aec9bd632",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga Portugal 2",
-            "team_a": "Sporting CP B",
-            "team_b": "SL Benfica B",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/41e17945f888d280afb6dcae45d274ec.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0413f3620ec30423777be92f84078824.png",
-            "time": "",
-            "blv": "BLV Người Rơm",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e987eb6335_4f2026eb.png?v=4f2026eb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-203baf7a06",
           "name": "Libertad FC vs Sociedad Deportiva Aucas | 07:00 02/05",
