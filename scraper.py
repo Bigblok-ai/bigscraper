@@ -298,7 +298,7 @@ def make_thumbnail(match, channel_id):
 
     # BLV — footer, tự scale nếu quá dài
     if match.get("blv"):
-        blv_text  = f"BLV: {match['blv']}"
+        blv_text  = match['blv']
         font_size = 58
         f         = None
         while font_size >= 28:
