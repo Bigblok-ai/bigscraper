@@ -178,57 +178,119 @@ def make_thumbnail(match, channel_id):
         return out_path
 
     W, H = 1600, 1200
-    HEADER_H = 120
-    FOOTER_H = 100
+    HEADER_H = 180
+    FOOTER_H = 160
 
-    bg   = Image.new("RGB", (W, H), (255, 255, 255))
+    bg   = Image.new("RGB", (W, H), (245, 245, 248))
     draw = ImageDraw.Draw(bg)
-    draw.rectangle([(0, 0), (W - 1, H - 1)], outline=(220, 220, 220), width=4)
-    draw.rectangle([(0, 0),           (W, HEADER_H)],  fill=(15, 23, 42))
-    draw.rectangle([(0, H - FOOTER_H), (W, H)],        fill=(15, 23, 42))
+
+    # Gradient-like background: vẽ dải xám nhạt từ trên xuống
+    for y in range(HEADER_H, H - FOOTER_H):
+        ratio = (y - HEADER_H) / (H - FOOTER_H - HEADER_H)
+        gray  = int(248 - ratio * 18)
+        draw.line([(0, y), (W, y)], fill=(gray, gray, gray + 4))
+
+    # Header & Footer
+    draw.rectangle([(0, 0),            (W, HEADER_H)],   fill=(13, 20, 40))
+    draw.rectangle([(0, H - FOOTER_H), (W, H)],          fill=(13, 20, 40))
+
+    # Đường viền accent đỏ dưới header và trên footer
+    ACCENT = (220, 30, 40)
+    draw.rectangle([(0, HEADER_H),        (W, HEADER_H + 5)],   fill=ACCENT)
+    draw.rectangle([(0, H - FOOTER_H - 5),(W, H - FOOTER_H)],   fill=ACCENT)
 
     FONT_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
     try:
-        font_vs     = ImageFont.truetype(FONT_BOLD, 120)
-        font_time   = ImageFont.truetype(FONT_BOLD, 85)
-        font_team   = ImageFont.truetype(FONT_BOLD, 52)
-        font_league = ImageFont.truetype(FONT_BOLD, 50)
-        font_blv    = ImageFont.truetype(FONT_BOLD, 50)
+        font_vs     = ImageFont.truetype(FONT_BOLD, 160)
+        font_time   = ImageFont.truetype(FONT_BOLD, 100)
+        font_team   = ImageFont.truetype(FONT_BOLD, 58)
+        font_league = ImageFont.truetype(FONT_BOLD, 62)
+        font_blv    = ImageFont.truetype(FONT_BOLD, 58)
     except:
         font_vs = font_time = font_team = font_league = font_blv = ImageFont.load_default()
 
-    content_top = HEADER_H
-    content_bot = H - FOOTER_H
+    content_top = HEADER_H + 5
+    content_bot = H - FOOTER_H - 5
     content_h   = content_bot - content_top
 
-    logo_size = 310
-    logo_y    = content_top + int(content_h * 0.06)
-    name_y    = logo_y + logo_size + 55
-    gap_top   = name_y + 60
-    time_y    = (gap_top + content_bot) // 2
+    # Vùng logo + VS chiếm 55% chiều cao content, căn giữa dọc
+    logo_size  = 380
+    block_h    = logo_size + 70 + 60   # logo + gap + tên đội
+    block_top  = content_top + (content_h - block_h) // 2 - 30
+    logo_y     = block_top
+    name_y     = logo_y + logo_size + 55
 
-    for logo_key, x_frac in (("logo_a", 1/4), ("logo_b", 3/4)):
-        if match.get(logo_key):
-            img = fetch_image(match[logo_key])
-            if img:
-                img = img.resize((logo_size, logo_size), Image.LANCZOS)
-                x   = int(W * x_frac) - logo_size // 2
-                bg.paste(img, (x, logo_y), img)
+    # Thời gian đấu nằm dưới tên đội, căn giữa
+    time_y = name_y + 80
 
-    draw.text((W // 2, logo_y + logo_size // 2), "VS", fill=(15, 23, 42), font=font_vs, anchor="mm")
+    # Logo trái
+    if match.get("logo_a"):
+        img = fetch_image(match["logo_a"])
+        if img:
+            img = img.resize((logo_size, logo_size), Image.LANCZOS)
+            x   = W // 4 - logo_size // 2
+            bg.paste(img, (x, logo_y), img)
+
+    # Logo phải
+    if match.get("logo_b"):
+        img = fetch_image(match["logo_b"])
+        if img:
+            img = img.resize((logo_size, logo_size), Image.LANCZOS)
+            x   = W * 3 // 4 - logo_size // 2
+            bg.paste(img, (x, logo_y), img)
+
+    # VS — màu đỏ, nổi bật
+    draw.text(
+        (W // 2, logo_y + logo_size // 2),
+        "VS",
+        fill=ACCENT,
+        font=font_vs,
+        anchor="mm",
+    )
+
+    # Tên đội — hỗ trợ 2 dòng nếu quá dài
+    def draw_team_name(text, cx):
+        max_chars = 16
+        if len(text) <= max_chars:
+            draw.text((cx, name_y), text, fill=(20, 20, 20), font=font_team, anchor="mm")
+        else:
+            # Cắt tại khoảng trắng gần nhất
+            mid  = len(text) // 2
+            split = text.rfind(" ", 0, mid + 6)
+            if split == -1:
+                split = max_chars
+            line1 = text[:split].strip()
+            line2 = text[split:].strip()
+            draw.text((cx, name_y - 30), line1, fill=(20, 20, 20), font=font_team, anchor="mm")
+            draw.text((cx, name_y + 35), line2, fill=(20, 20, 20), font=font_team, anchor="mm")
 
     if match.get("team_a"):
-        draw.text((W // 4,     name_y), match["team_a"][:20], fill=(15, 23, 42),  font=font_team, anchor="mm")
+        draw_team_name(match["team_a"], W // 4)
     if match.get("team_b"):
-        draw.text((W * 3 // 4, name_y), match["team_b"][:20], fill=(15, 23, 42),  font=font_team, anchor="mm")
+        draw_team_name(match["team_b"], W * 3 // 4)
+
+    # Giờ đấu — badge nổi bật
     if match.get("time"):
-        draw.text((W // 2,     time_y), match["time"],         fill=(200, 20, 20), font=font_time, anchor="mm")
+        tw  = 320
+        th  = 72
+        tx  = W // 2 - tw // 2
+        ty  = time_y
+        draw.rounded_rectangle([(tx, ty), (tx + tw, ty + th)], radius=16, fill=(13, 20, 40))
+        draw.text((W // 2, ty + th // 2), match["time"], fill=(255, 220, 50), font=font_time, anchor="mm")
+
+    # Tên giải — header
     if match.get("league"):
-        draw.text((W // 2, HEADER_H // 2), match["league"].upper(),
+        league_text = match["league"].upper()
+        draw.text((W // 2, HEADER_H // 2), league_text,
                   fill=(255, 255, 255), font=font_league, anchor="mm")
+
+    # BLV — footer
     if match.get("blv"):
         draw.text((W // 2, H - FOOTER_H // 2), f"BLV: {match['blv']}",
                   fill=(255, 255, 255), font=font_blv, anchor="mm")
+
+    # Viền ngoài
+    draw.rectangle([(0, 0), (W - 1, H - 1)], outline=(180, 180, 180), width=3)
 
     bg.save(out_path, "PNG", optimize=True)
     return out_path
