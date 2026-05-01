@@ -2506,6 +2506,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-1877223e91",
+          "name": "Inter Miami CF vs Orlando City | 06:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1877223e91",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-1877223e91",
+                  "name": "Inter Miami CF vs Orlando City",
+                  "streams": [
+                    {
+                      "id": "st-1877223e91",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "United States Major League Soccer",
+            "team_a": "Inter Miami CF",
+            "team_b": "Orlando City",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/976fe1d29c112f4baeb844cdda2f04cb.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b4ad649e6c6a9a6cf91493bf5e92ffbe.png",
+            "time": "06:00 03/05",
+            "blv": "BLV Người Nhện",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1877223e91_ed719052.png?v=ed719052",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
