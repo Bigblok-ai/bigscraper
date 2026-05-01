@@ -78,7 +78,7 @@ HEADERS = {
 BASE_URL      = "https://thapcam24h.net"
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
-THUMB_VERSION = "v3"
+THUMB_VERSION = "v4"
 
 CATE_MAP = {
     "Bóng đá":     "⚽ Bóng Đá",
@@ -191,8 +191,8 @@ def make_thumbnail(match, channel_id):
         draw.line([(0, y), (W, y)], fill=(gray, gray, gray + 4))
 
     # Header & Footer
-    draw.rectangle([(0, 0),             (W, HEADER_H)],  fill=(13, 20, 40))
-    draw.rectangle([(0, H - FOOTER_H),  (W, H)],         fill=(13, 20, 40))
+    draw.rectangle([(0, 0),            (W, HEADER_H)],  fill=(13, 20, 40))
+    draw.rectangle([(0, H - FOOTER_H), (W, H)],         fill=(13, 20, 40))
 
     # Accent line
     ACCENT = (220, 30, 40)
@@ -212,12 +212,19 @@ def make_thumbnail(match, channel_id):
     content_bot = H - FOOTER_H - 5
     content_h   = content_bot - content_top
 
-    logo_size = 380
-    block_h   = logo_size + 70 + 60
-    block_top = content_top + (content_h - block_h) // 2 - 30
-    logo_y    = block_top
-    name_y    = logo_y + logo_size + 55
-    time_y    = name_y + 90
+    # Tính toàn bộ block height bao gồm giờ đấu → căn giữa chính xác
+    logo_size     = 360
+    name_h        = 80
+    time_h        = 110
+    gap_logo_name = 50
+    gap_name_time = 30
+
+    total_block_h = logo_size + gap_logo_name + name_h + gap_name_time + time_h
+    block_top     = content_top + (content_h - total_block_h) // 2
+
+    logo_y = block_top
+    name_y = logo_y + logo_size + gap_logo_name + name_h // 2
+    time_y = name_y + name_h // 2 + gap_name_time + time_h // 2
 
     # Logo trái
     if match.get("logo_a"):
@@ -256,15 +263,16 @@ def make_thumbnail(match, channel_id):
                 split = max_chars
             line1 = text[:split].strip()
             line2 = text[split:].strip()
-            draw.text((cx, name_y - 30), line1, fill=(20, 20, 20), font=font_team, anchor="mm")
-            draw.text((cx, name_y + 35), line2, fill=(20, 20, 20), font=font_team, anchor="mm")
+            line_gap = 38
+            draw.text((cx, name_y - line_gap // 2), line1, fill=(20, 20, 20), font=font_team, anchor="mm")
+            draw.text((cx, name_y + line_gap // 2 + line_gap), line2, fill=(20, 20, 20), font=font_team, anchor="mm")
 
     if match.get("team_a"):
         draw_team_name(match["team_a"], W // 4)
     if match.get("team_b"):
         draw_team_name(match["team_b"], W * 3 // 4)
 
-    # Giờ đấu — shadow text, không dùng badge
+    # Giờ đấu — shadow text
     if match.get("time"):
         draw.text((W // 2 + 3, time_y + 3), match["time"],
                   fill=(0, 0, 0), font=font_time, anchor="mm")
