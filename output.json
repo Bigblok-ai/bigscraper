@@ -17,148 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-8c7eaea480",
-          "name": "Leeds United vs Burnley | 02:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8c7eaea480",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-8c7eaea480",
-                  "name": "Leeds United vs Burnley",
-                  "streams": [
-                    {
-                      "id": "st-8c7eaea480",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8fa9c075d1",
-                          "name": "BLV Cá Mập",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f4f44a51ddb_154/index.m3u8?expire=1778265802&sign=a2bc8c536fcba7b98f407e18dfe13005",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Leeds United",
-            "team_b": "Burnley",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1d7680c902207ad6cc3a40bc5125bdf5.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1091af5aa9fc4a30411785954edb9159.png",
-            "time": "02:00 02/05",
-            "blv": "BLV Cá Mập",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8c7eaea480_45d153ee.png?v=45d153ee",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-6ba3aa0fd2",
-          "name": "Girona FC vs RCD Mallorca | 02:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6ba3aa0fd2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6ba3aa0fd2",
-                  "name": "Girona FC vs RCD Mallorca",
-                  "streams": [
-                    {
-                      "id": "st-6ba3aa0fd2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-15c9b88db7",
-                          "name": "BLV Max",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f4ea09137e4_35/index.m3u8?expire=1778263177&sign=f2e0f51ece0a986a7075d92bc2fbb154",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Girona FC",
-            "team_b": "RCD Mallorca",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/006ce259b33ef72dd5570cfa8dc39f38.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fdef90456d2a2eee09976c558457aec7.png",
-            "time": "02:00 02/05",
-            "blv": "BLV Max",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6ba3aa0fd2_7817c75b.png?v=7817c75b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-48a6ebb516",
           "name": "Pisa vs Lecce",
           "type": "single",
@@ -225,6 +83,148 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-48a6ebb516_c6d1fa8e.png?v=c6d1fa8e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-8c7eaea480",
+          "name": "Leeds United vs Burnley",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8c7eaea480",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-8c7eaea480",
+                  "name": "Leeds United vs Burnley",
+                  "streams": [
+                    {
+                      "id": "st-8c7eaea480",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8fa9c075d1",
+                          "name": "BLV Cá Mập",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f4f44a51ddb_154/index.m3u8?expire=1778265802&sign=a2bc8c536fcba7b98f407e18dfe13005",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Leeds United",
+            "team_b": "Burnley",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1d7680c902207ad6cc3a40bc5125bdf5.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1091af5aa9fc4a30411785954edb9159.png",
+            "time": "",
+            "blv": "BLV Cá Mập",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8c7eaea480_45d153ee.png?v=45d153ee",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-6ba3aa0fd2",
+          "name": "Girona FC vs RCD Mallorca",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6ba3aa0fd2",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-6ba3aa0fd2",
+                  "name": "Girona FC vs RCD Mallorca",
+                  "streams": [
+                    {
+                      "id": "st-6ba3aa0fd2",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-15c9b88db7",
+                          "name": "BLV Max",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f4ea09137e4_35/index.m3u8?expire=1778263177&sign=f2e0f51ece0a986a7075d92bc2fbb154",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Girona FC",
+            "team_b": "RCD Mallorca",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/006ce259b33ef72dd5570cfa8dc39f38.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fdef90456d2a2eee09976c558457aec7.png",
+            "time": "",
+            "blv": "BLV Max",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6ba3aa0fd2_7817c75b.png?v=7817c75b",
             "width": 1600,
             "height": 1200
           }
@@ -2716,6 +2716,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7c5bcc6290_894de15b.png?v=894de15b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-a2e9725836",
+          "name": "OGC Nice vs RC Lens | 02:05 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a2e9725836",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-a2e9725836",
+                  "name": "OGC Nice vs RC Lens",
+                  "streams": [
+                    {
+                      "id": "st-a2e9725836",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "OGC Nice",
+            "team_b": "RC Lens",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ff8991853f7aabce7cb66f09cda0c58e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b8c5038ebb0e21b09a72008b7cb6219f.png",
+            "time": "02:05 03/05",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a2e9725836_5e3e4b52.png?v=5e3e4b52",
             "width": 1600,
             "height": 1200
           }
