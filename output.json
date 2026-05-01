@@ -2798,7 +2798,61 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "thapcam-cdb4db9342",
+          "name": "Mirra Andreeva vs Marta Kostyuk | 22:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cdb4db9342",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-cdb4db9342",
+                  "name": "Mirra Andreeva vs Marta Kostyuk",
+                  "streams": [
+                    {
+                      "id": "st-cdb4db9342",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Madrid, Spain Women Singles",
+            "team_a": "Mirra Andreeva",
+            "team_b": "Marta Kostyuk",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/FlcfQXTgyJLpMlfaM8meo1muGKad",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bd9af771af3da4b55056d96c8515b907.png",
+            "time": "22:00 02/05",
+            "blv": "BLV Người Hầu",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cdb4db9342_37aa4225.png?v=37aa4225",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-9102198393",
