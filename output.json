@@ -2737,7 +2737,114 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "thapcam-fa110307bb",
+          "name": "China vs Korea | 15:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fa110307bb",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-fa110307bb",
+                  "name": "China vs Korea",
+                  "streams": [
+                    {
+                      "id": "st-fa110307bb",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BWF Thomas & Uber Cup Finals 2026 - SÂN 1",
+            "team_a": "China",
+            "team_b": "Korea",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2349bbb109057db855c05eb903948d73.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/e2d626a93740b95f6dc7047efe9653aa.png",
+            "time": "15:00 03/05",
+            "blv": "BLV Người Rừng",
+            "is_live": false,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-fa110307bb_a7171a11.png?v=a7171a11",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-e268c7a8c1",
+          "name": "China vs France | 23:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e268c7a8c1",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-e268c7a8c1",
+                  "name": "China vs France",
+                  "streams": [
+                    {
+                      "id": "st-e268c7a8c1",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BWF Thomas & Uber Cup Finals 2026 - SÂN 1",
+            "team_a": "China",
+            "team_b": "France",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2349bbb109057db855c05eb903948d73.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/40212f6d758e035c28bc9fc47728af63.png",
+            "time": "23:00 03/05",
+            "blv": "BLV Người Rừng",
+            "is_live": false,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e268c7a8c1_e1df33f1.png?v=e1df33f1",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-0c493d20a1",
