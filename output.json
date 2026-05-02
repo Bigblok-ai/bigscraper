@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -154,148 +154,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a3cc42e359_18bc99d8.png?v=18bc99d8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-89c3ff3599",
-          "name": "Becamex Ho Chi Minh City vs CLB Thanh Hoa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-89c3ff3599",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-89c3ff3599",
-                  "name": "Becamex Ho Chi Minh City vs CLB Thanh Hoa",
-                  "streams": [
-                    {
-                      "id": "st-89c3ff3599",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a01a2cd72b",
-                          "name": "BLV Lềnh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f5d107137e4_1549/index.m3u8?expire=1778322311&sign=34cdcb1cd3189a346c2d4f26240dae53",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "Becamex Ho Chi Minh City",
-            "team_b": "CLB Thanh Hoa",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8781d3f729c7f3a9baacbee4385f7c84.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c6c3cf855ef4fd3a0385d34606a858ab.png",
-            "time": "",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-89c3ff3599_cf1f31ea.png?v=cf1f31ea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-8ca2bbaa49",
-          "name": "XM Hai Phong FC vs Cong An Ha Noi FC",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8ca2bbaa49",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-8ca2bbaa49",
-                  "name": "XM Hai Phong FC vs Cong An Ha Noi FC",
-                  "streams": [
-                    {
-                      "id": "st-8ca2bbaa49",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-78bba4880f",
-                          "name": "BLV Người Ngố",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f5d42b51ddc_14/index.m3u8?expire=1778323115&sign=37556062436040fa7c23abc3a7befb68",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "XM Hai Phong FC",
-            "team_b": "Cong An Ha Noi FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fed18f35e0d187fb4c812f24a97c3e6a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f3dde7370cf875e4e657b4331b1b4a31.png",
-            "time": "",
-            "blv": "BLV Người Ngố",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8ca2bbaa49_a272c7f7.png?v=a272c7f7",
             "width": 1600,
             "height": 1200
           }
@@ -2647,6 +2505,271 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b95b35edb1_bc9bd995.png?v=bc9bd995",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-126b50a317",
+          "name": "Sassuolo vs AC Milan | 20:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-126b50a317",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-126b50a317",
+                  "name": "Sassuolo vs AC Milan",
+                  "streams": [
+                    {
+                      "id": "st-126b50a317",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Sassuolo",
+            "team_b": "AC Milan",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/616bf242a532f72e970648f2ead423cf.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/643ef4101b017dc1495dbd9e9d5cce28.png",
+            "time": "20:00 03/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-126b50a317_ec149a94.png?v=ec149a94",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-f16e1c884b",
+          "name": "Bournemouth AFC vs Crystal Palace | 20:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f16e1c884b",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f16e1c884b",
+                  "name": "Bournemouth AFC vs Crystal Palace",
+                  "streams": [
+                    {
+                      "id": "st-f16e1c884b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Bournemouth AFC",
+            "team_b": "Crystal Palace",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/240b30d333c97d293752ab7afd77ccd6.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/42396d18444156e640c37476c2b41b93.png",
+            "time": "20:00 03/05",
+            "blv": "BLV. Người Páo",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f16e1c884b_e19a121d.png?v=e19a121d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-aef4e59c7e",
+          "name": "LOSC Lille vs Havre Athletic Club | 20:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aef4e59c7e",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-aef4e59c7e",
+                  "name": "LOSC Lille vs Havre Athletic Club",
+                  "streams": [
+                    {
+                      "id": "st-aef4e59c7e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "LOSC Lille",
+            "team_b": "Havre Athletic Club",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/28e94925fdcc848f86a544a1cedcceed.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8fd50a53dad5ea4fd2d32bd3ce727f58.png",
+            "time": "20:00 03/05",
+            "blv": "BLV Người Cò",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-aef4e59c7e_31870050.png?v=31870050",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-ebeac09ef7",
+          "name": "Imigresen FC vs DPMM FC | 20:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ebeac09ef7",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-ebeac09ef7",
+                  "name": "Imigresen FC vs DPMM FC",
+                  "streams": [
+                    {
+                      "id": "st-ebeac09ef7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Malaysian Super League",
+            "team_a": "Imigresen FC",
+            "team_b": "DPMM FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cdc4c0ec8848a89a3e16b273a6da6c5b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/25dae24c4bfc4a6fdd53d090a39821dd.png",
+            "time": "20:00 03/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ebeac09ef7_65f902fa.png?v=65f902fa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-aa684fffe1",
+          "name": "Negeri Sembilan vs Melaka FC | 20:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aa684fffe1",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-aa684fffe1",
+                  "name": "Negeri Sembilan vs Melaka FC",
+                  "streams": [
+                    {
+                      "id": "st-aa684fffe1",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Malaysian Super League",
+            "team_a": "Negeri Sembilan",
+            "team_b": "Melaka FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/198103640a4eb0c209b21b6c6891a027.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3f0555f143e8fbb10c32c68bd7714638.png",
+            "time": "20:00 03/05",
+            "blv": "BLV Người Băng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-aa684fffe1_510d7ec5.png?v=510d7ec5",
             "width": 1600,
             "height": 1200
           }
