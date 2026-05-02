@@ -3217,8 +3217,8 @@
           }
         },
         {
-          "id": "thapcam-600cc587fe",
-          "name": "Võ Thuật | 17:30 02/05",
+          "id": "thapcam-e2e8895dd1",
+          "name": "Võ Thuật | 18:30 02/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3232,23 +3232,40 @@
           ],
           "sources": [
             {
-              "id": "src-600cc587fe",
+              "id": "src-e2e8895dd1",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-600cc587fe",
+                  "id": "ct-e2e8895dd1",
                   "name": "Võ Thuật",
                   "streams": [
                     {
-                      "id": "st-600cc587fe",
+                      "id": "st-e2e8895dd1",
                       "name": "KT",
                       "stream_links": [
                         {
                           "id": "lnk-3c1ed6135c",
-                          "name": "Sóng Sạch 2",
+                          "name": "BLV Người Rừng",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.phogatv8.com/live/69f5d26d51ddc_1960/index.m3u8?expire=1778322669&sign=845d9b602f3ce2f92a6bc7d463e0e1fd",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-a9da82d585",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5e95251ddc_148/index.m3u8?expire=1778328530&sign=efdbc6230980b2a111f2131f59fa43bc",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3273,8 +3290,8 @@
             "team_b": "",
             "logo_a": "https://cdn-live.taoxanh.biz/live-dev/categories/2025/04/04/c0c91a80ab09a27d4a216f92292c8327.png",
             "logo_b": "",
-            "time": "17:30 02/05",
-            "blv": "Sóng Sạch 2",
+            "time": "18:30 02/05",
+            "blv": "BLV Người Rừng",
             "is_live": true,
             "cate_name": "Võ Thuật"
           },
@@ -3282,7 +3299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-600cc587fe_19a0eefa.png?v=19a0eefa",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e2e8895dd1_19a0eefa.png?v=19a0eefa",
             "width": 1600,
             "height": 1200
           }
