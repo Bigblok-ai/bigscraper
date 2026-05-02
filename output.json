@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-3d5d34aaa0",
-          "name": "Persebaya Surabaya vs PSBS Biak Numfor",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3d5d34aaa0",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3d5d34aaa0",
-                  "name": "Persebaya Surabaya vs PSBS Biak Numfor",
-                  "streams": [
-                    {
-                      "id": "st-3d5d34aaa0",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9c05bbb09d",
-                          "name": "BLV Người Băng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f5ae9651ddc_11/index.m3u8?expire=1778313494&sign=780f53490c950cffa859ba4c8fb940b9",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "Persebaya Surabaya",
-            "team_b": "PSBS Biak Numfor",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/66307444901ddb38c881129b7ea0105e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cbd5d35d354519a981a2a97f5c41bcbb.png",
-            "time": "",
-            "blv": "BLV Người Băng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3d5d34aaa0_e157d786.png?v=e157d786",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-838acd1c7c",
           "name": "FC Anyang vs Bucheon FC 1995",
@@ -2330,6 +2259,112 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-6c87e4f239",
+          "name": "Bologna vs Cagliari | 17:30 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6c87e4f239",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-6c87e4f239",
+                  "name": "Bologna vs Cagliari",
+                  "streams": [
+                    {
+                      "id": "st-6c87e4f239",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Bologna",
+            "team_b": "Cagliari",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c31f023a2cc8adbcc3e24344d81b9609.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/dba65c184e03c860ed919ce192b86c5e.png",
+            "time": "17:30 03/05",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6c87e4f239_a934c61b.png?v=a934c61b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-a9e6194e84",
+          "name": "Arda vs Cherno More Varna | 17:30 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a9e6194e84",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-a9e6194e84",
+                  "name": "Arda vs Cherno More Varna",
+                  "streams": [
+                    {
+                      "id": "st-a9e6194e84",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bulgarian First League",
+            "team_a": "Arda",
+            "team_b": "Cherno More Varna",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cab5766b591c9836e3095d2471ad6e11.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6356dcedfefdbc98de34cce75214de28.png",
+            "time": "17:30 03/05",
+            "blv": "BLV Người Điên",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a9e6194e84_5291e83a.png?v=5291e83a",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2954,7 +2989,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-dev/categories/2025/04/04/c0c91a80ab09a27d4a216f92292c8327.png",
             "logo_b": "",
             "time": "18:00 02/05",
-            "blv": "BLV Người Rơm",
+            "blv": "Sóng Sạch 2",
             "is_live": false,
             "cate_name": "Võ Thuật"
           },
