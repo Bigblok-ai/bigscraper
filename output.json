@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-7c5bcc6290",
-          "name": "CA Osasuna vs FC Barcelona",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7c5bcc6290",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-7c5bcc6290",
-                  "name": "CA Osasuna vs FC Barcelona",
-                  "streams": [
-                    {
-                      "id": "st-7c5bcc6290",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e665d49339",
-                          "name": "BLV Siêu Bướng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f641e1137e4_154/index.m3u8?expire=1778351201&sign=2637353108947b783919aa58e17a2d97",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-449975096b",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f6425e137e4_151/index.m3u8?expire=1778351326&sign=191427f0917d3f8bff32e8bb098c265a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "CA Osasuna",
-            "team_b": "FC Barcelona",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c2050b940076df70b2ad0a6103c50df4.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f378eb1ea04e53999b89051aa3244de6.png",
-            "time": "",
-            "blv": "BLV Siêu Bướng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7c5bcc6290_fe974a50.png?v=fe974a50",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-a2e9725836",
           "name": "OGC Nice vs RC Lens",
@@ -618,59 +530,6 @@
           }
         },
         {
-          "id": "thapcam-6c87e4f239",
-          "name": "Bologna vs Cagliari | 17:30 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6c87e4f239",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6c87e4f239",
-                  "name": "Bologna vs Cagliari",
-                  "streams": [
-                    {
-                      "id": "st-6c87e4f239",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Bologna",
-            "team_b": "Cagliari",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c31f023a2cc8adbcc3e24344d81b9609.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/dba65c184e03c860ed919ce192b86c5e.png",
-            "time": "17:30 03/05",
-            "blv": "BLV Lềnh",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6c87e4f239_a934c61b.png?v=a934c61b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-a9e6194e84",
           "name": "Arda vs Cherno More Varna | 17:30 03/05",
           "type": "single",
@@ -719,6 +578,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a9e6194e84_5291e83a.png?v=5291e83a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-6c87e4f239",
+          "name": "Bologna vs Cagliari | 17:30 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6c87e4f239",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-6c87e4f239",
+                  "name": "Bologna vs Cagliari",
+                  "streams": [
+                    {
+                      "id": "st-6c87e4f239",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Bologna",
+            "team_b": "Cagliari",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c31f023a2cc8adbcc3e24344d81b9609.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/dba65c184e03c860ed919ce192b86c5e.png",
+            "time": "17:30 03/05",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6c87e4f239_a934c61b.png?v=a934c61b",
             "width": 1600,
             "height": 1200
           }
@@ -1625,8 +1537,8 @@
           }
         },
         {
-          "id": "thapcam-371ac5c83b",
-          "name": "Paris FC vs Stade Brestois 29 | 22:15 03/05",
+          "id": "thapcam-c8c9a74d59",
+          "name": "AJ Auxerre vs Angers SCO | 22:15 03/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1640,15 +1552,15 @@
           ],
           "sources": [
             {
-              "id": "src-371ac5c83b",
+              "id": "src-c8c9a74d59",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-371ac5c83b",
-                  "name": "Paris FC vs Stade Brestois 29",
+                  "id": "ct-c8c9a74d59",
+                  "name": "AJ Auxerre vs Angers SCO",
                   "streams": [
                     {
-                      "id": "st-371ac5c83b",
+                      "id": "st-c8c9a74d59",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1659,12 +1571,12 @@
           ],
           "org_metadata": {
             "league": "French Ligue 1",
-            "team_a": "Paris FC",
-            "team_b": "Stade Brestois 29",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/83a982f8219a768e7cd29d1ac765b199.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bb7e6346a3860008e4ff266ba3b655e8.png",
+            "team_a": "AJ Auxerre",
+            "team_b": "Angers SCO",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8c03e57af9e8bec20a3ed2f5aaddf78b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/526150064f4f983d670deb33fa6385b6.png",
             "time": "22:15 03/05",
-            "blv": "BLV Siêu Quậy",
+            "blv": "BLV Người Băng",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1672,7 +1584,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-371ac5c83b_edd81d55.png?v=edd81d55",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c8c9a74d59_a85291cc.png?v=a85291cc",
             "width": 1600,
             "height": 1200
           }
@@ -1731,8 +1643,8 @@
           }
         },
         {
-          "id": "thapcam-c8c9a74d59",
-          "name": "AJ Auxerre vs Angers SCO | 22:15 03/05",
+          "id": "thapcam-371ac5c83b",
+          "name": "Paris FC vs Stade Brestois 29 | 22:15 03/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1746,15 +1658,15 @@
           ],
           "sources": [
             {
-              "id": "src-c8c9a74d59",
+              "id": "src-371ac5c83b",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-c8c9a74d59",
-                  "name": "AJ Auxerre vs Angers SCO",
+                  "id": "ct-371ac5c83b",
+                  "name": "Paris FC vs Stade Brestois 29",
                   "streams": [
                     {
-                      "id": "st-c8c9a74d59",
+                      "id": "st-371ac5c83b",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1765,12 +1677,12 @@
           ],
           "org_metadata": {
             "league": "French Ligue 1",
-            "team_a": "AJ Auxerre",
-            "team_b": "Angers SCO",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8c03e57af9e8bec20a3ed2f5aaddf78b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/526150064f4f983d670deb33fa6385b6.png",
+            "team_a": "Paris FC",
+            "team_b": "Stade Brestois 29",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/83a982f8219a768e7cd29d1ac765b199.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bb7e6346a3860008e4ff266ba3b655e8.png",
             "time": "22:15 03/05",
-            "blv": "BLV Người Băng",
+            "blv": "BLV Siêu Quậy",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1778,7 +1690,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c8c9a74d59_a85291cc.png?v=a85291cc",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-371ac5c83b_edd81d55.png?v=edd81d55",
             "width": 1600,
             "height": 1200
           }
