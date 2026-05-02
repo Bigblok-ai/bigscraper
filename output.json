@@ -2740,7 +2740,7 @@
     },
     {
       "id": "grp-5cf95d73f3",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2753,10 +2753,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2771,7 +2771,25 @@
                     {
                       "id": "st-2251c265f6",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-7a54264cd6",
+                          "name": "BLV Người Điên",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f59ac8137e4_1984/index.m3u8?expire=1778308424&sign=b3926d6ee49ea6fbd05eb39e5ab73c5e",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2786,7 +2804,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/333df39860930a21cf72b4e9664723ab.png",
             "time": "14:05 02/05",
             "blv": "BLV Người Điên",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng chuyền"
           },
           "image": {
