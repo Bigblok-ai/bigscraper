@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-f4a6b1354d",
-          "name": "Al Fateh SC vs NEOM Sports Club",
+          "id": "thapcam-b8b497041f",
+          "name": "Al Hazem vs Al Hilal | 01:00 03/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-f4a6b1354d",
+              "id": "src-b8b497041f",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-f4a6b1354d",
-                  "name": "Al Fateh SC vs NEOM Sports Club",
+                  "id": "ct-b8b497041f",
+                  "name": "Al Hazem vs Al Hilal",
                   "streams": [
                     {
-                      "id": "st-f4a6b1354d",
+                      "id": "st-b8b497041f",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-fc020e5398",
-                          "name": "BLV Siêu Quậy",
+                          "id": "lnk-09c541a889",
+                          "name": "BLV Người Cỏ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f5fa3f137e4_26/index.m3u8?expire=1778332863&sign=c34951d100c218985d5701e145031ebd",
+                          "url": "https://cdn-hls.phogatv8.com/live/69f635d4137e4_19092/index.m3u8?expire=1778348116&sign=a4fecb5b7c33fa88a2aba03b91ebf779",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,12 +69,12 @@
           ],
           "org_metadata": {
             "league": "Saudi Professional League",
-            "team_a": "Al Fateh SC",
-            "team_b": "NEOM Sports Club",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/625f099ab7eeec5bde434ec68723fdff.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e5516d35314acec9169f33834a199842.png",
-            "time": "",
-            "blv": "BLV Siêu Quậy",
+            "team_a": "Al Hazem",
+            "team_b": "Al Hilal",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0459eff25f56626beed63c97e0e67dcf.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/07a555616afab7be32e00150eacf4197.png",
+            "time": "01:00 03/05",
+            "blv": "BLV Người Cỏ",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -82,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f4a6b1354d_b45cf351.png?v=b45cf351",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b8b497041f_5504a979.png?v=5504a979",
             "width": 1600,
             "height": 1200
           }
@@ -460,77 +460,6 @@
           }
         },
         {
-          "id": "thapcam-fcda422695",
-          "name": "Metz vs AS Monaco",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fcda422695",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-fcda422695",
-                  "name": "Metz vs AS Monaco",
-                  "streams": [
-                    {
-                      "id": "st-fcda422695",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c654839f06",
-                          "name": "BLV Người Nhớt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f62e4651ddc_14232/index.m3u8?expire=1778346182&sign=e1e4f06f22d891f5169138469fc9fe52",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "Metz",
-            "team_b": "AS Monaco",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/16fd214da24aef0bbb775e44fe7e79f2.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/693af0d277fe3179594695614dce8666.png",
-            "time": "",
-            "blv": "BLV Người Nhớt",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-fcda422695_0849e2e6.png?v=0849e2e6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-faf15634a4",
           "name": "FC Famalicao vs Benfica",
           "type": "single",
@@ -602,32 +531,50 @@
           }
         },
         {
-          "id": "thapcam-b8b497041f",
-          "name": "Al Hazem vs Al Hilal | 01:00 03/05",
+          "id": "thapcam-fcda422695",
+          "name": "Metz vs AS Monaco",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-b8b497041f",
+              "id": "src-fcda422695",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-b8b497041f",
-                  "name": "Al Hazem vs Al Hilal",
+                  "id": "ct-fcda422695",
+                  "name": "Metz vs AS Monaco",
                   "streams": [
                     {
-                      "id": "st-b8b497041f",
+                      "id": "st-fcda422695",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c654839f06",
+                          "name": "BLV Người Nhớt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f62e4651ddc_14232/index.m3u8?expire=1778346182&sign=e1e4f06f22d891f5169138469fc9fe52",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -635,21 +582,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al Hazem",
-            "team_b": "Al Hilal",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0459eff25f56626beed63c97e0e67dcf.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/07a555616afab7be32e00150eacf4197.png",
-            "time": "01:00 03/05",
-            "blv": "BLV Người Cỏ",
-            "is_live": false,
+            "league": "French Ligue 1",
+            "team_a": "Metz",
+            "team_b": "AS Monaco",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/16fd214da24aef0bbb775e44fe7e79f2.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/693af0d277fe3179594695614dce8666.png",
+            "time": "",
+            "blv": "BLV Người Nhớt",
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b8b497041f_5504a979.png?v=5504a979",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-fcda422695_0849e2e6.png?v=0849e2e6",
             "width": 1600,
             "height": 1200
           }
