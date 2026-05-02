@@ -2676,7 +2676,61 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "thapcam-c85a0ca581",
+          "name": "Boston Celtics vs Philadelphia 76ers | 06:30 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c85a0ca581",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-c85a0ca581",
+                  "name": "Boston Celtics vs Philadelphia 76ers",
+                  "streams": [
+                    {
+                      "id": "st-c85a0ca581",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Boston Celtics",
+            "team_b": "Philadelphia 76ers",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/884c1c1f5db46c170df3c34a8e213ec9.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/06e7bde6cca98873fe971fad4e67a9b6.png",
+            "time": "06:30 03/05",
+            "blv": "BLV Người Sói",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c85a0ca581_ba4fbc3d.png?v=ba4fbc3d",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-0b6b498c58",
@@ -3131,38 +3185,56 @@
     },
     {
       "id": "grp-7873677346",
-      "name": "🏎️ Đua Xe F1",
+      "name": "🏎️ Đua Xe F1 (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-085898cb01",
-          "name": "Đua xe F1 | 23:00 03/05",
+          "id": "thapcam-c3d199531c",
+          "name": "Đua xe F1 | 22:45 02/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-085898cb01",
+              "id": "src-c3d199531c",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-085898cb01",
+                  "id": "ct-c3d199531c",
                   "name": "Đua xe F1",
                   "streams": [
                     {
-                      "id": "st-085898cb01",
+                      "id": "st-c3d199531c",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-72fdb0c1f6",
+                          "name": "BLV Người Chớp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f6178351ddc_19272/index.m3u8?expire=1778340355&sign=2851157c8d6a991e7d6f7e3fa2ee4395",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3175,16 +3247,16 @@
             "team_b": "",
             "logo_a": "https://cdn-live.taoxanh.biz/live-dev/categories/2025/03/29/ef1a59278d38aaf359a16a80e50f5bec.png",
             "logo_b": "",
-            "time": "23:00 03/05",
+            "time": "22:45 02/05",
             "blv": "BLV Người Chớp",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Đua xe F1"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-085898cb01_e8890341.png?v=e8890341",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c3d199531c_e8890341.png?v=e8890341",
             "width": 1600,
             "height": 1200
           }
