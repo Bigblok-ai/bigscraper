@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -171,77 +171,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a2e9725836_ea3f8ec5.png?v=ea3f8ec5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-fcda422695",
-          "name": "Metz vs AS Monaco",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fcda422695",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-fcda422695",
-                  "name": "Metz vs AS Monaco",
-                  "streams": [
-                    {
-                      "id": "st-fcda422695",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c654839f06",
-                          "name": "BLV Người Nhớt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f62e4651ddc_14232/index.m3u8?expire=1778346182&sign=e1e4f06f22d891f5169138469fc9fe52",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "Metz",
-            "team_b": "AS Monaco",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/16fd214da24aef0bbb775e44fe7e79f2.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/693af0d277fe3179594695614dce8666.png",
-            "time": "",
-            "blv": "BLV Người Nhớt",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-fcda422695_0849e2e6.png?v=0849e2e6",
             "width": 1600,
             "height": 1200
           }
@@ -2681,6 +2610,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46b114a632_d4868675.png?v=d4868675",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-c9b7dd76b9",
+          "name": "RCD Espanyol de Barcelona vs Real Madrid | 02:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c9b7dd76b9",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-c9b7dd76b9",
+                  "name": "RCD Espanyol de Barcelona vs Real Madrid",
+                  "streams": [
+                    {
+                      "id": "st-c9b7dd76b9",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "RCD Espanyol de Barcelona",
+            "team_b": "Real Madrid",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/214049d4df11756a2eb21bbd8266e2a1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7dacaa934fe4be00f23c1e209b5ef947.png",
+            "time": "02:00 04/05",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c9b7dd76b9_ccb274f8.png?v=ccb274f8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-064ee272a5",
+          "name": "New York City FC vs DC United | 02:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-064ee272a5",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-064ee272a5",
+                  "name": "New York City FC vs DC United",
+                  "streams": [
+                    {
+                      "id": "st-064ee272a5",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "United States Major League Soccer",
+            "team_a": "New York City FC",
+            "team_b": "DC United",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f5bbc8573e1b019164b11b13c49598bd.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2d846f3eea3e2d5067b26de498f83d94.png",
+            "time": "02:00 04/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-064ee272a5_3b046b62.png?v=3b046b62",
             "width": 1600,
             "height": 1200
           }
