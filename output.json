@@ -17,94 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-7c5bcc6290",
-          "name": "CA Osasuna vs FC Barcelona | 02:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7c5bcc6290",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-7c5bcc6290",
-                  "name": "CA Osasuna vs FC Barcelona",
-                  "streams": [
-                    {
-                      "id": "st-7c5bcc6290",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e665d49339",
-                          "name": "BLV Siêu Bướng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f641e1137e4_154/index.m3u8?expire=1778351201&sign=2637353108947b783919aa58e17a2d97",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-449975096b",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f6425e137e4_151/index.m3u8?expire=1778351326&sign=191427f0917d3f8bff32e8bb098c265a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "CA Osasuna",
-            "team_b": "FC Barcelona",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c2050b940076df70b2ad0a6103c50df4.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f378eb1ea04e53999b89051aa3244de6.png",
-            "time": "02:00 03/05",
-            "blv": "BLV Siêu Bướng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7c5bcc6290_fe974a50.png?v=fe974a50",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-a2e9725836",
           "name": "OGC Nice vs RC Lens | 02:05 03/05",
           "type": "single",
@@ -384,6 +296,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7079872866_9e4f96d2.png?v=9e4f96d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-7c5bcc6290",
+          "name": "CA Osasuna vs FC Barcelona",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7c5bcc6290",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-7c5bcc6290",
+                  "name": "CA Osasuna vs FC Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-7c5bcc6290",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e665d49339",
+                          "name": "BLV Siêu Bướng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f641e1137e4_154/index.m3u8?expire=1778351201&sign=2637353108947b783919aa58e17a2d97",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-449975096b",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f6425e137e4_151/index.m3u8?expire=1778351326&sign=191427f0917d3f8bff32e8bb098c265a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "CA Osasuna",
+            "team_b": "FC Barcelona",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c2050b940076df70b2ad0a6103c50df4.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f378eb1ea04e53999b89051aa3244de6.png",
+            "time": "",
+            "blv": "BLV Siêu Bướng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7c5bcc6290_fe974a50.png?v=fe974a50",
             "width": 1600,
             "height": 1200
           }
@@ -2786,83 +2786,11 @@
     },
     {
       "id": "grp-0b6b498c58",
-      "name": "🏸 Cầu Lông (1 LIVE)",
+      "name": "🏸 Cầu Lông",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "thapcam-43d5ba7e1b",
-          "name": "China vs Denmark | 23:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-43d5ba7e1b",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-43d5ba7e1b",
-                  "name": "China vs Denmark",
-                  "streams": [
-                    {
-                      "id": "st-43d5ba7e1b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ea9581fa57",
-                          "name": "BLV Chân Đất",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f6193f137e4_145/index.m3u8?expire=1778340799&sign=e6f871ca36571b1ce1c309324ff7d9b0",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BWF Thomas & Uber Cup Finals 2026 - SÂN 1",
-            "team_a": "China",
-            "team_b": "Denmark",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2349bbb109057db855c05eb903948d73.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/602b5c241c8e2f7f6d29e030dfd78b6d.png",
-            "time": "23:00 02/05",
-            "blv": "BLV Chân Đất",
-            "is_live": true,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-43d5ba7e1b_a2506c6e.png?v=a2506c6e",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-0c493d20a1",
