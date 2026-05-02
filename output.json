@@ -2810,6 +2810,112 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-4cdb1559d9",
+          "name": "Haras El Hodood vs Tala'ea El Gaish | 21:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4cdb1559d9",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-4cdb1559d9",
+                  "name": "Haras El Hodood vs Tala'ea El Gaish",
+                  "streams": [
+                    {
+                      "id": "st-4cdb1559d9",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "Haras El Hodood",
+            "team_b": "Tala'ea El Gaish",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7dc80ef40b717d99f9aafeaf024f7e8c.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bacc15441ed99eaad038d4ceb86751d6.png",
+            "time": "21:00 03/05",
+            "blv": "BLV Jayce",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-4cdb1559d9_19b24f41.png?v=19b24f41",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-ef437d7505",
+          "name": "ZED FC vs El Gounah | 21:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ef437d7505",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-ef437d7505",
+                  "name": "ZED FC vs El Gounah",
+                  "streams": [
+                    {
+                      "id": "st-ef437d7505",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "ZED FC",
+            "team_b": "El Gounah",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a08754ab96c283bacbf148154a50c7fc.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/35e665fa4086e183fda582249d625c2b.png",
+            "time": "21:00 03/05",
+            "blv": "BLV Người Cỏ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ef437d7505_13e1f08c.png?v=13e1f08c",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -3194,99 +3300,11 @@
     },
     {
       "id": "grp-578f80eb49",
-      "name": "🥊 Võ Thuật (2 LIVE)",
+      "name": "🥊 Võ Thuật (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-ca4f17f45f",
-          "name": "Jack Della Maddalena vs Carlos Prates | 15:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ca4f17f45f",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-ca4f17f45f",
-                  "name": "Jack Della Maddalena vs Carlos Prates",
-                  "streams": [
-                    {
-                      "id": "st-ca4f17f45f",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e555ddc3ab",
-                          "name": "BLV Người Rừng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f5ee2251ddc_148/index.m3u8?expire=1778329762&sign=cf1c5d8b61544212ee33e3d8daa05314",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-1d410759d3",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f5accc137e4_2/index.m3u8?expire=1778313036&sign=d3680f275a3f5a31edecf6c35fe8a86d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UFC",
-            "team_a": "Jack Della Maddalena",
-            "team_b": "Carlos Prates",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/296733cf26ddb11c0caced7eef36a615.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/6f04c6258748d141789ce49c5bcd70f3.jpg",
-            "time": "15:00 02/05",
-            "blv": "BLV Người Rừng",
-            "is_live": true,
-            "cate_name": "Võ Thuật"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ca4f17f45f_51abee86.png?v=51abee86",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-e2e8895dd1",
           "name": "Võ Thuật | 18:30 02/05",
