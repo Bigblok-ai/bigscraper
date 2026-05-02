@@ -11,153 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-bdc49c7455",
-          "name": "Villarreal CF vs Levante | 19:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bdc49c7455",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-bdc49c7455",
-                  "name": "Villarreal CF vs Levante",
-                  "streams": [
-                    {
-                      "id": "st-bdc49c7455",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0042b823ff",
-                          "name": "BLV Cá Mập",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f5dd64137e4_154/index.m3u8?expire=1778325476&sign=f6b1cbf27efbe51a19fb2ce533866a0a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Villarreal CF",
-            "team_b": "Levante",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aee62af96a956756cc29fe4831286357.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/13e2038bd23a38ce32a3eb259c8bf7d8.png",
-            "time": "19:00 02/05",
-            "blv": "BLV Cá Mập",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bdc49c7455_f4d8d1e0.png?v=f4d8d1e0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-838acd1c7c",
-          "name": "FC Anyang vs Bucheon FC 1995",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-838acd1c7c",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-838acd1c7c",
-                  "name": "FC Anyang vs Bucheon FC 1995",
-                  "streams": [
-                    {
-                      "id": "st-838acd1c7c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c85c06f1c8",
-                          "name": "BLV Người Điên",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f5c43d51ddc_1984/index.m3u8?expire=1778319037&sign=e9a3ad981d6dde02a61f5c68c534e9f4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "FC Anyang",
-            "team_b": "Bucheon FC 1995",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cda2e60a4e984dc6f4ed091ec44fc5bb.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/640f8c62cb294e1cc308a44ed2a62891.png",
-            "time": "",
-            "blv": "BLV Người Điên",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-838acd1c7c_7f538a07.png?v=7f538a07",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-89c3ff3599",
           "name": "Becamex Ho Chi Minh City vs CLB Thanh Hoa",
@@ -580,6 +438,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5bd8fcbbc3_7d0996dc.png?v=7d0996dc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-bdc49c7455",
+          "name": "Villarreal CF vs Levante",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bdc49c7455",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-bdc49c7455",
+                  "name": "Villarreal CF vs Levante",
+                  "streams": [
+                    {
+                      "id": "st-bdc49c7455",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0042b823ff",
+                          "name": "BLV Cá Mập",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5dd64137e4_154/index.m3u8?expire=1778325476&sign=f6b1cbf27efbe51a19fb2ce533866a0a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Villarreal CF",
+            "team_b": "Levante",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aee62af96a956756cc29fe4831286357.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/13e2038bd23a38ce32a3eb259c8bf7d8.png",
+            "time": "",
+            "blv": "BLV Cá Mập",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bdc49c7455_f4d8d1e0.png?v=f4d8d1e0",
             "width": 1600,
             "height": 1200
           }
