@@ -17,77 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-7e19b2da8f",
-          "name": "Paris Saint Germain vs Lorient | 22:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7e19b2da8f",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-7e19b2da8f",
-                  "name": "Paris Saint Germain vs Lorient",
-                  "streams": [
-                    {
-                      "id": "st-7e19b2da8f",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f5bec11523",
-                          "name": "BLV Người Nhện",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f60fdf137e4_32/index.m3u8?expire=1778338399&sign=e6876923a225ed2b6860dbccafaa3efc",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "Paris Saint Germain",
-            "team_b": "Lorient",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3b720f181ce9993f9422d276acf7b292.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b593727321793084b1f7804aebedc31a.png",
-            "time": "22:00 02/05",
-            "blv": "BLV Người Nhện",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7e19b2da8f_8874220c.png?v=8874220c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-c09344de20",
           "name": "Eintracht Frankfurt vs Hamburger SV",
           "type": "single",
@@ -722,6 +651,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f5208652cf_4c140a68.png?v=4c140a68",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-7e19b2da8f",
+          "name": "Paris Saint Germain vs Lorient",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7e19b2da8f",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-7e19b2da8f",
+                  "name": "Paris Saint Germain vs Lorient",
+                  "streams": [
+                    {
+                      "id": "st-7e19b2da8f",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f5bec11523",
+                          "name": "BLV Người Nhện",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f60fdf137e4_32/index.m3u8?expire=1778338399&sign=e6876923a225ed2b6860dbccafaa3efc",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "Paris Saint Germain",
+            "team_b": "Lorient",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3b720f181ce9993f9422d276acf7b292.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b593727321793084b1f7804aebedc31a.png",
+            "time": "",
+            "blv": "BLV Người Nhện",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7e19b2da8f_8874220c.png?v=8874220c",
             "width": 1600,
             "height": 1200
           }
