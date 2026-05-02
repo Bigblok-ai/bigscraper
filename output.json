@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-6e2d14309d",
-          "name": "Fagiano Okayama vs Sanfrecce Hiroshima",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6e2d14309d",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6e2d14309d",
-                  "name": "Fagiano Okayama vs Sanfrecce Hiroshima",
-                  "streams": [
-                    {
-                      "id": "st-6e2d14309d",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d3ab882cd7",
-                          "name": "BLV Siêu Quậy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f56f00137e4_26/index.m3u8?expire=1778297216&sign=8ea15c1ad0137aa0042ed6e7868eb75b",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Fagiano Okayama",
-            "team_b": "Sanfrecce Hiroshima",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fb5c6121bf5b351f60ebf8ffd5b9d887.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c81d5ff7a33a4f6a9312a8703f619352.png",
-            "time": "",
-            "blv": "BLV Siêu Quậy",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6e2d14309d_e6e80efa.png?v=e6e80efa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-8fe0311474",
           "name": "Ulsan HD FC vs Pohang Steelers",
