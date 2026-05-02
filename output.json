@@ -11,153 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-b8b497041f",
-          "name": "Al Hazem vs Al Hilal | 01:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b8b497041f",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-b8b497041f",
-                  "name": "Al Hazem vs Al Hilal",
-                  "streams": [
-                    {
-                      "id": "st-b8b497041f",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-09c541a889",
-                          "name": "BLV Người Cỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f635d4137e4_19092/index.m3u8?expire=1778348116&sign=a4fecb5b7c33fa88a2aba03b91ebf779",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al Hazem",
-            "team_b": "Al Hilal",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0459eff25f56626beed63c97e0e67dcf.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/07a555616afab7be32e00150eacf4197.png",
-            "time": "01:00 03/05",
-            "blv": "BLV Người Cỏ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b8b497041f_5504a979.png?v=5504a979",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-990833cfa9",
-          "name": "Levski Sofia vs CSKA 1948 Sofia",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-990833cfa9",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-990833cfa9",
-                  "name": "Levski Sofia vs CSKA 1948 Sofia",
-                  "streams": [
-                    {
-                      "id": "st-990833cfa9",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4def6ccb82",
-                          "name": "BLV Người Cò",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f617eb51ddc_14559/index.m3u8?expire=1778340459&sign=0da6492baac9787b13e9a4e7d2f80f13",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bulgarian First League",
-            "team_a": "Levski Sofia",
-            "team_b": "CSKA 1948 Sofia",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fe56623a71d6056e9e1a93a6241e033f.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/182f01e096ad1f495cc88d2369c45224.png",
-            "time": "",
-            "blv": "BLV Người Cò",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-990833cfa9_a93a9655.png?v=a93a9655",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-fe004001af",
           "name": "Arsenal vs Fulham",
@@ -389,6 +247,77 @@
           }
         },
         {
+          "id": "thapcam-faf15634a4",
+          "name": "FC Famalicao vs Benfica",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-faf15634a4",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-faf15634a4",
+                  "name": "FC Famalicao vs Benfica",
+                  "streams": [
+                    {
+                      "id": "st-faf15634a4",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6efe02e9ba",
+                          "name": "BLV Người Páo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f6254e137e4_19533/index.m3u8?expire=1778343886&sign=efb0d52d7130ca97fe5f60fbad3fba56",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Portuguese Primera Liga",
+            "team_a": "FC Famalicao",
+            "team_b": "Benfica",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/abd59f62f69ef9f59a8121c3baadd882.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/78360445c12fa3fdc8b489486fff4eb6.png",
+            "time": "",
+            "blv": "BLV Người Páo",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-faf15634a4_68eb4e73.png?v=68eb4e73",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-fcda422695",
           "name": "Metz vs AS Monaco",
           "type": "single",
@@ -460,8 +389,8 @@
           }
         },
         {
-          "id": "thapcam-faf15634a4",
-          "name": "FC Famalicao vs Benfica",
+          "id": "thapcam-b8b497041f",
+          "name": "Al Hazem vs Al Hilal",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -475,23 +404,23 @@
           ],
           "sources": [
             {
-              "id": "src-faf15634a4",
+              "id": "src-b8b497041f",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-faf15634a4",
-                  "name": "FC Famalicao vs Benfica",
+                  "id": "ct-b8b497041f",
+                  "name": "Al Hazem vs Al Hilal",
                   "streams": [
                     {
-                      "id": "st-faf15634a4",
+                      "id": "st-b8b497041f",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-6efe02e9ba",
-                          "name": "BLV Người Páo",
+                          "id": "lnk-09c541a889",
+                          "name": "BLV Người Cỏ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f6254e137e4_19533/index.m3u8?expire=1778343886&sign=efb0d52d7130ca97fe5f60fbad3fba56",
+                          "url": "https://cdn-hls.phogatv8.com/live/69f635d4137e4_19092/index.m3u8?expire=1778348116&sign=a4fecb5b7c33fa88a2aba03b91ebf779",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -511,13 +440,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "FC Famalicao",
-            "team_b": "Benfica",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/abd59f62f69ef9f59a8121c3baadd882.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/78360445c12fa3fdc8b489486fff4eb6.png",
+            "league": "Saudi Professional League",
+            "team_a": "Al Hazem",
+            "team_b": "Al Hilal",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0459eff25f56626beed63c97e0e67dcf.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/07a555616afab7be32e00150eacf4197.png",
             "time": "",
-            "blv": "BLV Người Páo",
+            "blv": "BLV Người Cỏ",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -525,7 +454,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-faf15634a4_68eb4e73.png?v=68eb4e73",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b8b497041f_5504a979.png?v=5504a979",
             "width": 1600,
             "height": 1200
           }
