@@ -17,77 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-f4a6b1354d",
-          "name": "Al Fateh SC vs NEOM Sports Club | 22:50 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f4a6b1354d",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f4a6b1354d",
-                  "name": "Al Fateh SC vs NEOM Sports Club",
-                  "streams": [
-                    {
-                      "id": "st-f4a6b1354d",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2990fe194e",
-                          "name": "BLV Siêu Quậy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f5bafe137e4_26/index.m3u8?expire=1778316670&sign=7d6523fbde6d1205dcaa5346c9d893fb",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al Fateh SC",
-            "team_b": "NEOM Sports Club",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/625f099ab7eeec5bde434ec68723fdff.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e5516d35314acec9169f33834a199842.png",
-            "time": "22:50 02/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f4a6b1354d_b45cf351.png?v=b45cf351",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-0c1957d4e0",
           "name": "Como vs Napoli | 23:00 02/05",
           "type": "single",
@@ -580,6 +509,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7e19b2da8f_8874220c.png?v=8874220c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-f4a6b1354d",
+          "name": "Al Fateh SC vs NEOM Sports Club",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f4a6b1354d",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f4a6b1354d",
+                  "name": "Al Fateh SC vs NEOM Sports Club",
+                  "streams": [
+                    {
+                      "id": "st-f4a6b1354d",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fc020e5398",
+                          "name": "BLV Siêu Quậy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5fa3f137e4_26/index.m3u8?expire=1778332863&sign=c34951d100c218985d5701e145031ebd",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al Fateh SC",
+            "team_b": "NEOM Sports Club",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/625f099ab7eeec5bde434ec68723fdff.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e5516d35314acec9169f33834a199842.png",
+            "time": "",
+            "blv": "BLV Siêu Quậy",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f4a6b1354d_b45cf351.png?v=b45cf351",
             "width": 1600,
             "height": 1200
           }
