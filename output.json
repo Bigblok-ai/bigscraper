@@ -11,13 +11,84 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-ae1acfb6fe",
+          "id": "thapcam-80ce6dda41",
+          "name": "Cruzeiro Esporte Clube vs Atletico Mineiro | 07:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-80ce6dda41",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-80ce6dda41",
+                  "name": "Cruzeiro Esporte Clube vs Atletico Mineiro",
+                  "streams": [
+                    {
+                      "id": "st-80ce6dda41",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-96e16469c0",
+                          "name": "BLV Người Băng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f68a8751ddc_11/index.m3u8?expire=1778369799&sign=1bf93d3fc405c6b59b6e3b49bb9caf46",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Brazilian Serie A",
+            "team_a": "Cruzeiro Esporte Clube",
+            "team_b": "Atletico Mineiro",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b1cac6380900d22bdb0d31763c658434.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/079e86cebd6511ce807cc6073a3e26ee.png",
+            "time": "07:00 03/05",
+            "blv": "BLV Người Băng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-80ce6dda41_eeb45660.png?v=eeb45660",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-fe75d67e30",
           "name": "Inter Miami CF vs Orlando City",
           "type": "single",
           "display": "thumbnail-only",
@@ -32,15 +103,15 @@
           ],
           "sources": [
             {
-              "id": "src-ae1acfb6fe",
+              "id": "src-fe75d67e30",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-ae1acfb6fe",
+                  "id": "ct-fe75d67e30",
                   "name": "Inter Miami CF vs Orlando City",
                   "streams": [
                     {
-                      "id": "st-ae1acfb6fe",
+                      "id": "st-fe75d67e30",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -82,13 +153,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ae1acfb6fe_ed719052.png?v=ed719052",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-fe75d67e30_ed719052.png?v=ed719052",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "thapcam-8241d4ac02",
+          "id": "thapcam-eb1f3fdd41",
           "name": "New York Red Bulls vs FC Dallas",
           "type": "single",
           "display": "thumbnail-only",
@@ -103,15 +174,15 @@
           ],
           "sources": [
             {
-              "id": "src-8241d4ac02",
+              "id": "src-eb1f3fdd41",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-8241d4ac02",
+                  "id": "ct-eb1f3fdd41",
                   "name": "New York Red Bulls vs FC Dallas",
                   "streams": [
                     {
-                      "id": "st-8241d4ac02",
+                      "id": "st-eb1f3fdd41",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -153,60 +224,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8241d4ac02_fd636bbe.png?v=fd636bbe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-80ce6dda41",
-          "name": "Cruzeiro Esporte Clube vs Atletico Mineiro | 07:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-80ce6dda41",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-80ce6dda41",
-                  "name": "Cruzeiro Esporte Clube vs Atletico Mineiro",
-                  "streams": [
-                    {
-                      "id": "st-80ce6dda41",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Brazilian Serie A",
-            "team_a": "Cruzeiro Esporte Clube",
-            "team_b": "Atletico Mineiro",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b1cac6380900d22bdb0d31763c658434.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/079e86cebd6511ce807cc6073a3e26ee.png",
-            "time": "07:00 03/05",
-            "blv": "BLV Người Băng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-80ce6dda41_eeb45660.png?v=eeb45660",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-eb1f3fdd41_fd636bbe.png?v=fd636bbe",
             "width": 1600,
             "height": 1200
           }
