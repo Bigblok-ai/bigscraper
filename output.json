@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (11 LIVE)",
+      "name": "⚽ Bóng Đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,77 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7e19b2da8f_8874220c.png?v=8874220c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-60ab2c244f",
-          "name": "Udinese vs Torino",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-60ab2c244f",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-60ab2c244f",
-                  "name": "Udinese vs Torino",
-                  "streams": [
-                    {
-                      "id": "st-60ab2c244f",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-68d0adccf2",
-                          "name": "BLV Người Băng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f5ee9851ddc_11/index.m3u8?expire=1778329880&sign=eb6ad05a44395b0a14a815d9980dd88b",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Udinese",
-            "team_b": "Torino",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c7140efe06d93642fcc9805077c49aa5.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f0856c1b16c32245a8d2c702ffe89ac5.png",
-            "time": "",
-            "blv": "BLV Người Băng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-60ab2c244f_052107c1.png?v=052107c1",
             "width": 1600,
             "height": 1200
           }
@@ -1217,59 +1146,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-22875c4c5f_c2826dc1.png?v=c2826dc1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-e6704b540b",
-          "name": "Samsunspor vs Galatasaray | 00:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e6704b540b",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e6704b540b",
-                  "name": "Samsunspor vs Galatasaray",
-                  "streams": [
-                    {
-                      "id": "st-e6704b540b",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Turkish Super League",
-            "team_a": "Samsunspor",
-            "team_b": "Galatasaray",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d4c8121b5f738cfaf222779a43e7495d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/722e43393d34b94cb556aa0b3c9f4190.png",
-            "time": "00:00 03/05",
-            "blv": "BLV Chân Đất",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e6704b540b_43ad829e.png?v=43ad829e",
             "width": 1600,
             "height": 1200
           }
