@@ -11,11 +11,82 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-7079872866",
+          "name": "Atalanta vs Genoa | 01:45 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7079872866",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-7079872866",
+                  "name": "Atalanta vs Genoa",
+                  "streams": [
+                    {
+                      "id": "st-7079872866",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-167469eb77",
+                          "name": "BLV Người Cò",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f63cd5137e4_14559/index.m3u8?expire=1778349909&sign=8f3b904f8957a77532afd8a55b391318",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Atalanta",
+            "team_b": "Genoa",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/45c9647899b8bf2fb6f988c6c33b964c.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/51474fb68c7da46b9c20ebddccec7766.png",
+            "time": "01:45 03/05",
+            "blv": "BLV Người Cò",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7079872866_9e4f96d2.png?v=9e4f96d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-fcda422695",
           "name": "Metz vs AS Monaco",
@@ -225,59 +296,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b8b497041f_5504a979.png?v=5504a979",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-7079872866",
-          "name": "Atalanta vs Genoa | 01:45 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7079872866",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-7079872866",
-                  "name": "Atalanta vs Genoa",
-                  "streams": [
-                    {
-                      "id": "st-7079872866",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Atalanta",
-            "team_b": "Genoa",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/45c9647899b8bf2fb6f988c6c33b964c.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/51474fb68c7da46b9c20ebddccec7766.png",
-            "time": "01:45 03/05",
-            "blv": "BLV Người Cò",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7079872866_9e4f96d2.png?v=9e4f96d2",
             "width": 1600,
             "height": 1200
           }
