@@ -2698,82 +2698,11 @@
     },
     {
       "id": "grp-0b6b498c58",
-      "name": "🏸 Cầu Lông (1 LIVE)",
+      "name": "🏸 Cầu Lông",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-61ae5f99ea",
-          "name": "China vs Japan | 15:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-61ae5f99ea",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-61ae5f99ea",
-                  "name": "China vs Japan",
-                  "streams": [
-                    {
-                      "id": "st-61ae5f99ea",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e67a973598",
-                          "name": "BLV Người Sói",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f5aa22137e4_742/index.m3u8?expire=1778312354&sign=76f72c3d593ede931e39c7483df2fa79",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BWF Thomas & Uber Cup Finals 2026 - SÂN 1",
-            "team_a": "China",
-            "team_b": "Japan",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2349bbb109057db855c05eb903948d73.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2272dc6d96fca4a7cd6f9f92e45e51ce.png",
-            "time": "15:00 02/05",
-            "blv": "BLV Người Sói",
-            "is_live": true,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-61ae5f99ea_d9956f2d.png?v=d9956f2d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-43d5ba7e1b",
           "name": "China vs Denmark | 23:00 02/05",
@@ -3156,10 +3085,27 @@
                       "stream_links": [
                         {
                           "id": "lnk-6ac1137300",
-                          "name": "Sóng Sạch 1",
+                          "name": "BLV Người Rừng",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.phogatv8.com/live/69f5accc137e4_2/index.m3u8?expire=1778313036&sign=d3680f275a3f5a31edecf6c35fe8a86d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-0a7a879f57",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5ee2251ddc_148/index.m3u8?expire=1778329762&sign=cf1c5d8b61544212ee33e3d8daa05314",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3185,7 +3131,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/296733cf26ddb11c0caced7eef36a615.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/6f04c6258748d141789ce49c5bcd70f3.jpg",
             "time": "15:00 02/05",
-            "blv": "Sóng Sạch 1",
+            "blv": "BLV Người Rừng",
             "is_live": true,
             "cate_name": "Võ Thuật"
           },
@@ -3226,27 +3172,10 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-eaf127020b",
-                          "name": "BLV Người Rừng",
+                          "id": "lnk-3c1ed6135c",
+                          "name": "Sóng Sạch 2",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f5e95251ddc_148/index.m3u8?expire=1778328530&sign=efdbc6230980b2a111f2131f59fa43bc",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-a3ddf7cbd3",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
                           "url": "https://cdn-hls.phogatv8.com/live/69f5d26d51ddc_1960/index.m3u8?expire=1778322669&sign=845d9b602f3ce2f92a6bc7d463e0e1fd",
                           "request_headers": [
                             {
@@ -3273,7 +3202,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-dev/categories/2025/04/04/c0c91a80ab09a27d4a216f92292c8327.png",
             "logo_b": "",
             "time": "18:30 02/05",
-            "blv": "BLV Người Rừng",
+            "blv": "Sóng Sạch 2",
             "is_live": true,
             "cate_name": "Võ Thuật"
           },
