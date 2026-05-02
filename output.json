@@ -2977,10 +2977,27 @@
                       "name": "KT",
                       "stream_links": [
                         {
+                          "id": "lnk-bece7a349b",
+                          "name": "Sóng Sạch 2",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5d519137e4_16125/index.m3u8?expire=1778323353&sign=94d37c10b1f49092c0bb88ae983da879",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
                           "id": "lnk-a3ddf7cbd3",
                           "name": "Link HD",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
                           "url": "https://cdn-hls.phogatv8.com/live/69f5d26d51ddc_1960/index.m3u8?expire=1778322669&sign=845d9b602f3ce2f92a6bc7d463e0e1fd",
                           "request_headers": [
                             {
