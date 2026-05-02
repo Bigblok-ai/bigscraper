@@ -2773,6 +2773,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-e3e1f17460",
+          "name": "Botev Plovdiv vs Lokomotiv Plovdiv | 20:15 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e3e1f17460",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-e3e1f17460",
+                  "name": "Botev Plovdiv vs Lokomotiv Plovdiv",
+                  "streams": [
+                    {
+                      "id": "st-e3e1f17460",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bulgarian First League",
+            "team_a": "Botev Plovdiv",
+            "team_b": "Lokomotiv Plovdiv",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ca2873db2e4098a463b85e2af51d3ad6.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/940bb92f83d40985137748d0d3aeb213.png",
+            "time": "20:15 03/05",
+            "blv": "BLV Người Điên",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e3e1f17460_e500484b.png?v=e500484b",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
