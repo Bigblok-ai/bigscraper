@@ -3219,7 +3219,7 @@
     },
     {
       "id": "grp-7873677346",
-      "name": "🏎️ Đua Xe F1",
+      "name": "🏎️ Đua Xe F1 (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3232,10 +3232,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3250,7 +3250,25 @@
                     {
                       "id": "st-39af7d5b2c",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-66a3e218fa",
+                          "name": "BLV Người Chớp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f6524a137e4_19272/index.m3u8?expire=1778355402&sign=4bc5125079237c400838b3378e7108ee",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3265,7 +3283,7 @@
             "logo_b": "",
             "time": "03:00 03/05",
             "blv": "BLV Người Chớp",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Đua xe F1"
           },
           "image": {
