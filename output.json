@@ -2609,38 +2609,56 @@
     },
     {
       "id": "grp-0b6b498c58",
-      "name": "🏸 Cầu Lông",
+      "name": "🏸 Cầu Lông (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-74a27ed192",
-          "name": "China vs Japan | 17:00 02/05",
+          "id": "thapcam-61ae5f99ea",
+          "name": "China vs Japan | 15:00 02/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-74a27ed192",
+              "id": "src-61ae5f99ea",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-74a27ed192",
+                  "id": "ct-61ae5f99ea",
                   "name": "China vs Japan",
                   "streams": [
                     {
-                      "id": "st-74a27ed192",
+                      "id": "st-61ae5f99ea",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e67a973598",
+                          "name": "BLV Người Sói",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5aa22137e4_742/index.m3u8?expire=1778312354&sign=76f72c3d593ede931e39c7483df2fa79",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2651,49 +2669,67 @@
             "league": "BWF Thomas & Uber Cup Finals 2026 - SÂN 1",
             "team_a": "China",
             "team_b": "Japan",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/4cfb7d9db32622326842274789805114.jpg",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2349bbb109057db855c05eb903948d73.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7070cf22d837e76af1fe0fe6e01d4bcd.png",
-            "time": "17:00 02/05",
+            "time": "15:00 02/05",
             "blv": "BLV Người Sói",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Cầu Lông"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-74a27ed192_88acfb5f.png?v=88acfb5f",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-61ae5f99ea_a1c2c4d9.png?v=a1c2c4d9",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "thapcam-79de269b2c",
-          "name": "Indonesia vs Korea | 17:00 02/05",
+          "id": "thapcam-20c62cc9f8",
+          "name": "Indonesia vs Korea | 15:00 02/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-79de269b2c",
+              "id": "src-20c62cc9f8",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-79de269b2c",
+                  "id": "ct-20c62cc9f8",
                   "name": "Indonesia vs Korea",
                   "streams": [
                     {
-                      "id": "st-79de269b2c",
+                      "id": "st-20c62cc9f8",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-678b2251e5",
+                          "name": "BLV Người Lạ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5ad4451ddc_11241/index.m3u8?expire=1778313156&sign=ef9743bb77b4c7c3d5cd3191745484f9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2706,16 +2742,16 @@
             "team_b": "Korea",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f592cb409138b486af3530fd7af91911.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/e2d626a93740b95f6dc7047efe9653aa.png",
-            "time": "17:00 02/05",
+            "time": "15:00 02/05",
             "blv": "BLV Người Lạ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Cầu Lông"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-79de269b2c_2a881635.png?v=2a881635",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-20c62cc9f8_2a881635.png?v=2a881635",
             "width": 1600,
             "height": 1200
           }
@@ -2757,7 +2793,7 @@
             "league": "BWF Thomas & Uber Cup Finals 2026 - SÂN 1",
             "team_a": "China",
             "team_b": "Denmark",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/4cfb7d9db32622326842274789805114.jpg",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2349bbb109057db855c05eb903948d73.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/602b5c241c8e2f7f6d29e030dfd78b6d.png",
             "time": "23:00 02/05",
             "blv": "BLV Chân Đất",
@@ -2768,7 +2804,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-43d5ba7e1b_ec7857aa.png?v=ec7857aa",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-43d5ba7e1b_a2506c6e.png?v=a2506c6e",
             "width": 1600,
             "height": 1200
           }
