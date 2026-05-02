@@ -2632,6 +2632,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-b95b35edb1",
+          "name": "The Cong Viettel vs Ninh Binh FC | 19:15 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b95b35edb1",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-b95b35edb1",
+                  "name": "The Cong Viettel vs Ninh Binh FC",
+                  "streams": [
+                    {
+                      "id": "st-b95b35edb1",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "The Cong Viettel",
+            "team_b": "Ninh Binh FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/840e2d7165cf2a34ec6c65a1fd9b58a9.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5452226660be0829fdb40967dd4b0b77.png",
+            "time": "19:15 03/05",
+            "blv": "BLV Người Ngố",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b95b35edb1_bc9bd995.png?v=bc9bd995",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
