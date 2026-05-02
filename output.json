@@ -2649,6 +2649,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-34fb41e67c",
+          "name": "Real Betis vs Real Oviedo | 23:30 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-34fb41e67c",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-34fb41e67c",
+                  "name": "Real Betis vs Real Oviedo",
+                  "streams": [
+                    {
+                      "id": "st-34fb41e67c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Real Betis",
+            "team_b": "Real Oviedo",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/018e260ad68bdad741c61e3171c4c608.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/21551996567bcd206ee574043d509a84.png",
+            "time": "23:30 03/05",
+            "blv": "BLV Người Rừng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-34fb41e67c_c95f8dec.png?v=c95f8dec",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
