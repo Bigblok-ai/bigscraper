@@ -11,153 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-a2e9725836",
-          "name": "OGC Nice vs RC Lens | 02:05 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a2e9725836",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-a2e9725836",
-                  "name": "OGC Nice vs RC Lens",
-                  "streams": [
-                    {
-                      "id": "st-a2e9725836",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5bd64646ea",
-                          "name": "BLV Lềnh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f64326137e4_1549/index.m3u8?expire=1778351526&sign=a6d25915fef4ed482068dda1a5be53af",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "OGC Nice",
-            "team_b": "RC Lens",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ff8991853f7aabce7cb66f09cda0c58e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b8c5038ebb0e21b09a72008b7cb6219f.png",
-            "time": "02:05 03/05",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a2e9725836_ea3f8ec5.png?v=ea3f8ec5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-faf15634a4",
-          "name": "FC Famalicao vs Benfica",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-faf15634a4",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-faf15634a4",
-                  "name": "FC Famalicao vs Benfica",
-                  "streams": [
-                    {
-                      "id": "st-faf15634a4",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6efe02e9ba",
-                          "name": "BLV Người Páo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f6254e137e4_19533/index.m3u8?expire=1778343886&sign=efb0d52d7130ca97fe5f60fbad3fba56",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "FC Famalicao",
-            "team_b": "Benfica",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/abd59f62f69ef9f59a8121c3baadd882.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/78360445c12fa3fdc8b489486fff4eb6.png",
-            "time": "",
-            "blv": "BLV Người Páo",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-faf15634a4_68eb4e73.png?v=68eb4e73",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-b8b497041f",
           "name": "Al Hazem vs Al Hilal",
@@ -384,6 +242,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7c5bcc6290_fe974a50.png?v=fe974a50",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-a2e9725836",
+          "name": "OGC Nice vs RC Lens",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a2e9725836",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-a2e9725836",
+                  "name": "OGC Nice vs RC Lens",
+                  "streams": [
+                    {
+                      "id": "st-a2e9725836",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5bd64646ea",
+                          "name": "BLV Lềnh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f64326137e4_1549/index.m3u8?expire=1778351526&sign=a6d25915fef4ed482068dda1a5be53af",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "OGC Nice",
+            "team_b": "RC Lens",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ff8991853f7aabce7cb66f09cda0c58e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b8c5038ebb0e21b09a72008b7cb6219f.png",
+            "time": "",
+            "blv": "BLV Lềnh",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a2e9725836_ea3f8ec5.png?v=ea3f8ec5",
             "width": 1600,
             "height": 1200
           }
