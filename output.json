@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-a2e9725836",
-          "name": "OGC Nice vs RC Lens",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a2e9725836",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-a2e9725836",
-                  "name": "OGC Nice vs RC Lens",
-                  "streams": [
-                    {
-                      "id": "st-a2e9725836",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5bd64646ea",
-                          "name": "BLV Lềnh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f64326137e4_1549/index.m3u8?expire=1778351526&sign=a6d25915fef4ed482068dda1a5be53af",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "OGC Nice",
-            "team_b": "RC Lens",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ff8991853f7aabce7cb66f09cda0c58e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b8c5038ebb0e21b09a72008b7cb6219f.png",
-            "time": "",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a2e9725836_ea3f8ec5.png?v=ea3f8ec5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-ff92eab25b",
           "name": "FC Porto vs Alverca",
@@ -901,8 +830,8 @@
           }
         },
         {
-          "id": "thapcam-126b50a317",
-          "name": "Sassuolo vs AC Milan | 20:00 03/05",
+          "id": "thapcam-aa684fffe1",
+          "name": "Negeri Sembilan vs Melaka FC | 20:00 03/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -916,15 +845,15 @@
           ],
           "sources": [
             {
-              "id": "src-126b50a317",
+              "id": "src-aa684fffe1",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-126b50a317",
-                  "name": "Sassuolo vs AC Milan",
+                  "id": "ct-aa684fffe1",
+                  "name": "Negeri Sembilan vs Melaka FC",
                   "streams": [
                     {
-                      "id": "st-126b50a317",
+                      "id": "st-aa684fffe1",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -934,13 +863,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Sassuolo",
-            "team_b": "AC Milan",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/616bf242a532f72e970648f2ead423cf.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/643ef4101b017dc1495dbd9e9d5cce28.png",
+            "league": "Malaysian Super League",
+            "team_a": "Negeri Sembilan",
+            "team_b": "Melaka FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/198103640a4eb0c209b21b6c6891a027.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3f0555f143e8fbb10c32c68bd7714638.png",
             "time": "20:00 03/05",
-            "blv": "BLV Chân Đất",
+            "blv": "BLV Người Băng",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -948,7 +877,60 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-126b50a317_ec149a94.png?v=ec149a94",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-aa684fffe1_510d7ec5.png?v=510d7ec5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-ebeac09ef7",
+          "name": "Imigresen FC vs DPMM FC | 20:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ebeac09ef7",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-ebeac09ef7",
+                  "name": "Imigresen FC vs DPMM FC",
+                  "streams": [
+                    {
+                      "id": "st-ebeac09ef7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Malaysian Super League",
+            "team_a": "Imigresen FC",
+            "team_b": "DPMM FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cdc4c0ec8848a89a3e16b273a6da6c5b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/25dae24c4bfc4a6fdd53d090a39821dd.png",
+            "time": "20:00 03/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ebeac09ef7_65f902fa.png?v=65f902fa",
             "width": 1600,
             "height": 1200
           }
@@ -1060,8 +1042,8 @@
           }
         },
         {
-          "id": "thapcam-ebeac09ef7",
-          "name": "Imigresen FC vs DPMM FC | 20:00 03/05",
+          "id": "thapcam-126b50a317",
+          "name": "Sassuolo vs AC Milan | 20:00 03/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1075,15 +1057,15 @@
           ],
           "sources": [
             {
-              "id": "src-ebeac09ef7",
+              "id": "src-126b50a317",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-ebeac09ef7",
-                  "name": "Imigresen FC vs DPMM FC",
+                  "id": "ct-126b50a317",
+                  "name": "Sassuolo vs AC Milan",
                   "streams": [
                     {
-                      "id": "st-ebeac09ef7",
+                      "id": "st-126b50a317",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1093,13 +1075,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Malaysian Super League",
-            "team_a": "Imigresen FC",
-            "team_b": "DPMM FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cdc4c0ec8848a89a3e16b273a6da6c5b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/25dae24c4bfc4a6fdd53d090a39821dd.png",
+            "league": "Italian Serie A",
+            "team_a": "Sassuolo",
+            "team_b": "AC Milan",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/616bf242a532f72e970648f2ead423cf.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/643ef4101b017dc1495dbd9e9d5cce28.png",
             "time": "20:00 03/05",
-            "blv": "BLV Siêu Quậy",
+            "blv": "BLV Chân Đất",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1107,60 +1089,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ebeac09ef7_65f902fa.png?v=65f902fa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-aa684fffe1",
-          "name": "Negeri Sembilan vs Melaka FC | 20:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-aa684fffe1",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-aa684fffe1",
-                  "name": "Negeri Sembilan vs Melaka FC",
-                  "streams": [
-                    {
-                      "id": "st-aa684fffe1",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Malaysian Super League",
-            "team_a": "Negeri Sembilan",
-            "team_b": "Melaka FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/198103640a4eb0c209b21b6c6891a027.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3f0555f143e8fbb10c32c68bd7714638.png",
-            "time": "20:00 03/05",
-            "blv": "BLV Người Băng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-aa684fffe1_510d7ec5.png?v=510d7ec5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-126b50a317_ec149a94.png?v=ec149a94",
             "width": 1600,
             "height": 1200
           }
@@ -1484,59 +1413,6 @@
           }
         },
         {
-          "id": "thapcam-d261d8b269",
-          "name": "RC Strasbourg Alsace vs Toulouse FC | 22:15 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d261d8b269",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d261d8b269",
-                  "name": "RC Strasbourg Alsace vs Toulouse FC",
-                  "streams": [
-                    {
-                      "id": "st-d261d8b269",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "RC Strasbourg Alsace",
-            "team_b": "Toulouse FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/998db478bf7c06d5817bf846987a0d0a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2947fe2f42551a5b7eccca7fc948f879.png",
-            "time": "22:15 03/05",
-            "blv": "BLV Người Cò",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d261d8b269_bbd3da1b.png?v=bbd3da1b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-371ac5c83b",
           "name": "Paris FC vs Stade Brestois 29 | 22:15 03/05",
           "type": "single",
@@ -1585,6 +1461,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-371ac5c83b_edd81d55.png?v=edd81d55",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-d261d8b269",
+          "name": "RC Strasbourg Alsace vs Toulouse FC | 22:15 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d261d8b269",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d261d8b269",
+                  "name": "RC Strasbourg Alsace vs Toulouse FC",
+                  "streams": [
+                    {
+                      "id": "st-d261d8b269",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "RC Strasbourg Alsace",
+            "team_b": "Toulouse FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/998db478bf7c06d5817bf846987a0d0a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2947fe2f42551a5b7eccca7fc948f879.png",
+            "time": "22:15 03/05",
+            "blv": "BLV Người Cò",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d261d8b269_bbd3da1b.png?v=bbd3da1b",
             "width": 1600,
             "height": 1200
           }
@@ -2014,59 +1943,6 @@
           }
         },
         {
-          "id": "thapcam-3aa1a440c5",
-          "name": "Aston Villa vs Tottenham Hotspur | 01:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3aa1a440c5",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3aa1a440c5",
-                  "name": "Aston Villa vs Tottenham Hotspur",
-                  "streams": [
-                    {
-                      "id": "st-3aa1a440c5",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Aston Villa",
-            "team_b": "Tottenham Hotspur",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c32d6a906083118cac2cb796edaab3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8b22ab4041e666b996a2d96f20dea707.png",
-            "time": "01:00 04/05",
-            "blv": "BLV Người Rơm",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3aa1a440c5_82dd616e.png?v=82dd616e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-854256a56b",
           "name": "Al Qadsiah vs Al Nassr FC | 01:00 04/05",
           "type": "single",
@@ -2173,8 +2049,8 @@
           }
         },
         {
-          "id": "thapcam-46b114a632",
-          "name": "Lyon vs Stade Rennais FC | 01:45 04/05",
+          "id": "thapcam-3aa1a440c5",
+          "name": "Aston Villa vs Tottenham Hotspur | 01:00 04/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2188,15 +2064,15 @@
           ],
           "sources": [
             {
-              "id": "src-46b114a632",
+              "id": "src-3aa1a440c5",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-46b114a632",
-                  "name": "Lyon vs Stade Rennais FC",
+                  "id": "ct-3aa1a440c5",
+                  "name": "Aston Villa vs Tottenham Hotspur",
                   "streams": [
                     {
-                      "id": "st-46b114a632",
+                      "id": "st-3aa1a440c5",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -2206,13 +2082,13 @@
             }
           ],
           "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "Lyon",
-            "team_b": "Stade Rennais FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/92fb3cf79ea2ba919b94b04668e13491.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/eab8f0e847742fd328bb581299bd99ca.png",
-            "time": "01:45 04/05",
-            "blv": "BLV Người Ngố",
+            "league": "English Premier League",
+            "team_a": "Aston Villa",
+            "team_b": "Tottenham Hotspur",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c32d6a906083118cac2cb796edaab3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8b22ab4041e666b996a2d96f20dea707.png",
+            "time": "01:00 04/05",
+            "blv": "BLV Người Rơm",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -2220,7 +2096,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46b114a632_d4868675.png?v=d4868675",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3aa1a440c5_82dd616e.png?v=82dd616e",
             "width": 1600,
             "height": 1200
           }
@@ -2279,8 +2155,8 @@
           }
         },
         {
-          "id": "thapcam-064ee272a5",
-          "name": "New York City FC vs DC United | 02:00 04/05",
+          "id": "thapcam-46b114a632",
+          "name": "Lyon vs Stade Rennais FC | 01:45 04/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2294,15 +2170,15 @@
           ],
           "sources": [
             {
-              "id": "src-064ee272a5",
+              "id": "src-46b114a632",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-064ee272a5",
-                  "name": "New York City FC vs DC United",
+                  "id": "ct-46b114a632",
+                  "name": "Lyon vs Stade Rennais FC",
                   "streams": [
                     {
-                      "id": "st-064ee272a5",
+                      "id": "st-46b114a632",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -2312,13 +2188,13 @@
             }
           ],
           "org_metadata": {
-            "league": "United States Major League Soccer",
-            "team_a": "New York City FC",
-            "team_b": "DC United",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f5bbc8573e1b019164b11b13c49598bd.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2d846f3eea3e2d5067b26de498f83d94.png",
-            "time": "02:00 04/05",
-            "blv": "BLV Chân Đất",
+            "league": "French Ligue 1",
+            "team_a": "Lyon",
+            "team_b": "Stade Rennais FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/92fb3cf79ea2ba919b94b04668e13491.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/eab8f0e847742fd328bb581299bd99ca.png",
+            "time": "01:45 04/05",
+            "blv": "BLV Người Ngố",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -2326,7 +2202,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-064ee272a5_3b046b62.png?v=3b046b62",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46b114a632_d4868675.png?v=d4868675",
             "width": 1600,
             "height": 1200
           }
@@ -2380,6 +2256,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c9b7dd76b9_ccb274f8.png?v=ccb274f8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-064ee272a5",
+          "name": "New York City FC vs DC United | 02:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-064ee272a5",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-064ee272a5",
+                  "name": "New York City FC vs DC United",
+                  "streams": [
+                    {
+                      "id": "st-064ee272a5",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "United States Major League Soccer",
+            "team_a": "New York City FC",
+            "team_b": "DC United",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f5bbc8573e1b019164b11b13c49598bd.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2d846f3eea3e2d5067b26de498f83d94.png",
+            "time": "02:00 04/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-064ee272a5_3b046b62.png?v=3b046b62",
             "width": 1600,
             "height": 1200
           }
