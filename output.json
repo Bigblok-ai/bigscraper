@@ -11,11 +11,224 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-89c3ff3599",
+          "name": "Becamex Ho Chi Minh City vs CLB Thanh Hoa | 18:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-89c3ff3599",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-89c3ff3599",
+                  "name": "Becamex Ho Chi Minh City vs CLB Thanh Hoa",
+                  "streams": [
+                    {
+                      "id": "st-89c3ff3599",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a01a2cd72b",
+                          "name": "BLV Lềnh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5d107137e4_1549/index.m3u8?expire=1778322311&sign=34cdcb1cd3189a346c2d4f26240dae53",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "Becamex Ho Chi Minh City",
+            "team_b": "CLB Thanh Hoa",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8781d3f729c7f3a9baacbee4385f7c84.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c6c3cf855ef4fd3a0385d34606a858ab.png",
+            "time": "18:00 02/05",
+            "blv": "BLV Lềnh",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-89c3ff3599_cf1f31ea.png?v=cf1f31ea",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-8ca2bbaa49",
+          "name": "XM Hai Phong FC vs Cong An Ha Noi FC | 18:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8ca2bbaa49",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-8ca2bbaa49",
+                  "name": "XM Hai Phong FC vs Cong An Ha Noi FC",
+                  "streams": [
+                    {
+                      "id": "st-8ca2bbaa49",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-78bba4880f",
+                          "name": "BLV Người Ngố",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5d42b51ddc_14/index.m3u8?expire=1778323115&sign=37556062436040fa7c23abc3a7befb68",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "XM Hai Phong FC",
+            "team_b": "Cong An Ha Noi FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fed18f35e0d187fb4c812f24a97c3e6a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f3dde7370cf875e4e657b4331b1b4a31.png",
+            "time": "18:00 02/05",
+            "blv": "BLV Người Ngố",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8ca2bbaa49_a272c7f7.png?v=a272c7f7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-6b4d5b9c4b",
+          "name": "PVF CAND vs Hong Linh Ha Tinh | 18:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6b4d5b9c4b",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-6b4d5b9c4b",
+                  "name": "PVF CAND vs Hong Linh Ha Tinh",
+                  "streams": [
+                    {
+                      "id": "st-6b4d5b9c4b",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2537a2a0e4",
+                          "name": "BLV Người Cò",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5d34c51ddc_14559/index.m3u8?expire=1778322892&sign=f71b40839dbd0008e605f4a4589fd5a1",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "PVF CAND",
+            "team_b": "Hong Linh Ha Tinh",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/16b802abec41440eb4996fc68f16125b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/83dd94c5ca68e8f9a3980f036afcb511.png",
+            "time": "18:00 02/05",
+            "blv": "BLV Người Cò",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6b4d5b9c4b_2a76048f.png?v=2a76048f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-838acd1c7c",
           "name": "FC Anyang vs Bucheon FC 1995",
@@ -83,165 +296,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-838acd1c7c_7f538a07.png?v=7f538a07",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-89c3ff3599",
-          "name": "Becamex Ho Chi Minh City vs CLB Thanh Hoa | 18:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-89c3ff3599",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-89c3ff3599",
-                  "name": "Becamex Ho Chi Minh City vs CLB Thanh Hoa",
-                  "streams": [
-                    {
-                      "id": "st-89c3ff3599",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "Becamex Ho Chi Minh City",
-            "team_b": "CLB Thanh Hoa",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8781d3f729c7f3a9baacbee4385f7c84.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c6c3cf855ef4fd3a0385d34606a858ab.png",
-            "time": "18:00 02/05",
-            "blv": "BLV Lềnh",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-89c3ff3599_cf1f31ea.png?v=cf1f31ea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-8ca2bbaa49",
-          "name": "XM Hai Phong FC vs Cong An Ha Noi FC | 18:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8ca2bbaa49",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-8ca2bbaa49",
-                  "name": "XM Hai Phong FC vs Cong An Ha Noi FC",
-                  "streams": [
-                    {
-                      "id": "st-8ca2bbaa49",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "XM Hai Phong FC",
-            "team_b": "Cong An Ha Noi FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fed18f35e0d187fb4c812f24a97c3e6a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f3dde7370cf875e4e657b4331b1b4a31.png",
-            "time": "18:00 02/05",
-            "blv": "BLV Người Ngố",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8ca2bbaa49_a272c7f7.png?v=a272c7f7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-6b4d5b9c4b",
-          "name": "PVF CAND vs Hong Linh Ha Tinh | 18:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6b4d5b9c4b",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6b4d5b9c4b",
-                  "name": "PVF CAND vs Hong Linh Ha Tinh",
-                  "streams": [
-                    {
-                      "id": "st-6b4d5b9c4b",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "PVF CAND",
-            "team_b": "Hong Linh Ha Tinh",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/16b802abec41440eb4996fc68f16125b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/83dd94c5ca68e8f9a3980f036afcb511.png",
-            "time": "18:00 02/05",
-            "blv": "BLV Người Cò",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6b4d5b9c4b_2a76048f.png?v=2a76048f",
             "width": 1600,
             "height": 1200
           }
