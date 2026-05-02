@@ -2688,7 +2688,7 @@
     },
     {
       "id": "grp-d721cd64dc",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2831,6 +2831,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f0cb24c062_a19f6cd8.png?v=a19f6cd8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-e0ebe93945",
+          "name": "Houston Rockets vs Los Angeles Lakers | 08:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e0ebe93945",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-e0ebe93945",
+                  "name": "Houston Rockets vs Los Angeles Lakers",
+                  "streams": [
+                    {
+                      "id": "st-e0ebe93945",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02a0b2f2dd",
+                          "name": "BLV Người Hầu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5506451ddc_9657/index.m3u8?expire=1778289380&sign=97f337fc32aff87b861fa0fdd826241c",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Houston Rockets",
+            "team_b": "Los Angeles Lakers",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bcfe797437f18526ff4e62177021f638.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fa6f985041ec3f9729172380ae9cebf8.png",
+            "time": "08:30 02/05",
+            "blv": "BLV Người Hầu",
+            "is_live": true,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e0ebe93945_45e61818.png?v=45e61818",
             "width": 1600,
             "height": 1200
           }
