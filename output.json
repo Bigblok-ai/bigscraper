@@ -17,77 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-3d5d34aaa0",
-          "name": "Persebaya Surabaya vs PSBS Biak Numfor | 15:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3d5d34aaa0",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3d5d34aaa0",
-                  "name": "Persebaya Surabaya vs PSBS Biak Numfor",
-                  "streams": [
-                    {
-                      "id": "st-3d5d34aaa0",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9c05bbb09d",
-                          "name": "BLV Người Băng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f5ae9651ddc_11/index.m3u8?expire=1778313494&sign=780f53490c950cffa859ba4c8fb940b9",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "Persebaya Surabaya",
-            "team_b": "PSBS Biak Numfor",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/66307444901ddb38c881129b7ea0105e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cbd5d35d354519a981a2a97f5c41bcbb.png",
-            "time": "15:30 02/05",
-            "blv": "BLV Người Băng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3d5d34aaa0_e157d786.png?v=e157d786",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-327270e798",
           "name": "Korea Rep. Women U17 vs Philippines U17 Women",
           "type": "single",
@@ -367,6 +296,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-85f3d6f764_bb6a3ce8.png?v=bb6a3ce8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-3d5d34aaa0",
+          "name": "Persebaya Surabaya vs PSBS Biak Numfor",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3d5d34aaa0",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-3d5d34aaa0",
+                  "name": "Persebaya Surabaya vs PSBS Biak Numfor",
+                  "streams": [
+                    {
+                      "id": "st-3d5d34aaa0",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9c05bbb09d",
+                          "name": "BLV Người Băng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5ae9651ddc_11/index.m3u8?expire=1778313494&sign=780f53490c950cffa859ba4c8fb940b9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indonesian Liga 1",
+            "team_a": "Persebaya Surabaya",
+            "team_b": "PSBS Biak Numfor",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/66307444901ddb38c881129b7ea0105e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cbd5d35d354519a981a2a97f5c41bcbb.png",
+            "time": "",
+            "blv": "BLV Người Băng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3d5d34aaa0_e157d786.png?v=e157d786",
             "width": 1600,
             "height": 1200
           }
