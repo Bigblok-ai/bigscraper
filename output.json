@@ -2792,6 +2792,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-a005e5f1ac",
+          "name": "Getafe vs Rayo Vallecano | 21:15 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a005e5f1ac",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-a005e5f1ac",
+                  "name": "Getafe vs Rayo Vallecano",
+                  "streams": [
+                    {
+                      "id": "st-a005e5f1ac",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Getafe",
+            "team_b": "Rayo Vallecano",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/36bf5bf0c8fdf08c1270124808f060e1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5005d8feab109ce64e40beb98073cc1f.png",
+            "time": "21:15 03/05",
+            "blv": "BLV Người Nhện",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a005e5f1ac_f60c3811.png?v=f60c3811",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
