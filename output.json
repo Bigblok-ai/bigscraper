@@ -88,77 +88,6 @@
           }
         },
         {
-          "id": "thapcam-85f3d6f764",
-          "name": "Japan Women U17 vs Lebanon U17 Women",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-85f3d6f764",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-85f3d6f764",
-                  "name": "Japan Women U17 vs Lebanon U17 Women",
-                  "streams": [
-                    {
-                      "id": "st-85f3d6f764",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-089a28b12c",
-                          "name": "BLV Người Nhện",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f59823137e4_32/index.m3u8?expire=1778307747&sign=93f2617600fab8cc98f9c82c1fca3dad",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "Japan Women U17",
-            "team_b": "Lebanon U17 Women",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a5cc0f9ca35d53a5332bf84dc9b79104.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5d0c20971b46597973cbf23b9bb0771b.png",
-            "time": "",
-            "blv": "BLV Người Nhện",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-85f3d6f764_bb6a3ce8.png?v=bb6a3ce8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-327270e798",
           "name": "Korea Rep. Women U17 vs Philippines U17 Women",
           "type": "single",
@@ -367,6 +296,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3c158b34ca_ea066a8e.png?v=ea066a8e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-85f3d6f764",
+          "name": "Japan Women U17 vs Lebanon U17 Women",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-85f3d6f764",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-85f3d6f764",
+                  "name": "Japan Women U17 vs Lebanon U17 Women",
+                  "streams": [
+                    {
+                      "id": "st-85f3d6f764",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-089a28b12c",
+                          "name": "BLV Người Nhện",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f59823137e4_32/index.m3u8?expire=1778307747&sign=93f2617600fab8cc98f9c82c1fca3dad",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Japan Women U17",
+            "team_b": "Lebanon U17 Women",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a5cc0f9ca35d53a5332bf84dc9b79104.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5d0c20971b46597973cbf23b9bb0771b.png",
+            "time": "",
+            "blv": "BLV Người Nhện",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-85f3d6f764_bb6a3ce8.png?v=bb6a3ce8",
             "width": 1600,
             "height": 1200
           }
