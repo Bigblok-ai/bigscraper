@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (10 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -159,77 +159,6 @@
           }
         },
         {
-          "id": "thapcam-89af51d2c0",
-          "name": "SV Werder Bremen vs FC Augsburg",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-89af51d2c0",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-89af51d2c0",
-                  "name": "SV Werder Bremen vs FC Augsburg",
-                  "streams": [
-                    {
-                      "id": "st-89af51d2c0",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ab99113c63",
-                          "name": "BLV Người Cỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f5f712137e4_19092/index.m3u8?expire=1778332050&sign=07ec259f4d922c3b78c13468a5fe9d4b",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "SV Werder Bremen",
-            "team_b": "FC Augsburg",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/82e3b03a1df3d7ae3d38e9fdd24fe622.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/db4411a3c4ce1d0f092f5b9d1df08664.png",
-            "time": "",
-            "blv": "BLV Người Cỏ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-89af51d2c0_41c96f58.png?v=41c96f58",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-e9ae0e64bf",
           "name": "FC Bayern Munich vs 1. FC Heidenheim 1846",
           "type": "single",
@@ -296,77 +225,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e9ae0e64bf_0cd7702a.png?v=0cd7702a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-38fccbf622",
-          "name": "TSG Hoffenheim vs VfB Stuttgart",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-38fccbf622",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-38fccbf622",
-                  "name": "TSG Hoffenheim vs VfB Stuttgart",
-                  "streams": [
-                    {
-                      "id": "st-38fccbf622",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-aa29403aab",
-                          "name": "BLV Người Cò",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f5f51c137e4_14559/index.m3u8?expire=1778331548&sign=06064c9ab64bddc150c40cceae84f821",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "TSG Hoffenheim",
-            "team_b": "VfB Stuttgart",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/72ab7862a610b350aef7650ec0e06e06.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bfdd500484330d63a723cbc396df762c.png",
-            "time": "",
-            "blv": "BLV Người Cò",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-38fccbf622_c0cbc303.png?v=c0cbc303",
             "width": 1600,
             "height": 1200
           }
@@ -2951,6 +2809,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-182cfa250b",
+          "name": "Borussia Monchengladbach vs Borussia Dortmund | 22:30 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-182cfa250b",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-182cfa250b",
+                  "name": "Borussia Monchengladbach vs Borussia Dortmund",
+                  "streams": [
+                    {
+                      "id": "st-182cfa250b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Borussia Monchengladbach",
+            "team_b": "Borussia Dortmund",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/89cdadf6cf1eb6f8d2507de1e01f806c.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bbfacbdbe67705172c6414d7e9c21b58.png",
+            "time": "22:30 03/05",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-182cfa250b_75198a7a.png?v=75198a7a",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -3357,7 +3268,61 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "thapcam-bf11507823",
+          "name": "Võ Thuật | 01:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bf11507823",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-bf11507823",
+                  "name": "Võ Thuật",
+                  "streams": [
+                    {
+                      "id": "st-bf11507823",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "Võ Thuật",
+            "team_b": "",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-dev/categories/2025/04/04/c0c91a80ab09a27d4a216f92292c8327.png",
+            "logo_b": "",
+            "time": "01:00 03/05",
+            "blv": "BLV Người Rừng",
+            "is_live": false,
+            "cate_name": "Võ Thuật"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bf11507823_19a0eefa.png?v=19a0eefa",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-7873677346",
