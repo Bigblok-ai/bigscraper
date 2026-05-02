@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-520107d08a",
-          "name": "Incheon United Club vs Gangwon Football Club",
+          "id": "thapcam-3d5d34aaa0",
+          "name": "Persebaya Surabaya vs PSBS Biak Numfor | 15:30 02/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-520107d08a",
+              "id": "src-3d5d34aaa0",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-520107d08a",
-                  "name": "Incheon United Club vs Gangwon Football Club",
+                  "id": "ct-3d5d34aaa0",
+                  "name": "Persebaya Surabaya vs PSBS Biak Numfor",
                   "streams": [
                     {
-                      "id": "st-520107d08a",
+                      "id": "st-3d5d34aaa0",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-46e3bb75b2",
-                          "name": "BLV Lềnh",
+                          "id": "lnk-9c05bbb09d",
+                          "name": "BLV Người Băng",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f5a2e851ddc_1549/index.m3u8?expire=1778310504&sign=fa23f05f9cc1cf995256ae125f12be7e",
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5ae9651ddc_11/index.m3u8?expire=1778313494&sign=780f53490c950cffa859ba4c8fb940b9",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,13 +68,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Incheon United Club",
-            "team_b": "Gangwon Football Club",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/36559689046e7d1d4f597c1a0bf9c5d6.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/771a93ae7f62b1a47a71c3d62b89dca3.png",
-            "time": "",
-            "blv": "BLV Lềnh",
+            "league": "Indonesian Liga 1",
+            "team_a": "Persebaya Surabaya",
+            "team_b": "PSBS Biak Numfor",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/66307444901ddb38c881129b7ea0105e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cbd5d35d354519a981a2a97f5c41bcbb.png",
+            "time": "15:30 02/05",
+            "blv": "BLV Người Băng",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -82,78 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-520107d08a_8431b4c5.png?v=8431b4c5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-3c158b34ca",
-          "name": "Jeju SK FC vs Jeonbuk Hyundai Motors",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3c158b34ca",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3c158b34ca",
-                  "name": "Jeju SK FC vs Jeonbuk Hyundai Motors",
-                  "streams": [
-                    {
-                      "id": "st-3c158b34ca",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-69b7c1ff6d",
-                          "name": "BLV Người Nhớt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f59d1c137e4_14232/index.m3u8?expire=1778309020&sign=62ddbb027f1cba4575bdfa08ce2b6529",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Jeju SK FC",
-            "team_b": "Jeonbuk Hyundai Motors",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2d2abe914435bb9b7140cf2154c50de9.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ee2117f952745163fecfa4b74a6a2bea.png",
-            "time": "",
-            "blv": "BLV Người Nhớt",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3c158b34ca_ea066a8e.png?v=ea066a8e",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3d5d34aaa0_e157d786.png?v=e157d786",
             "width": 1600,
             "height": 1200
           }
@@ -301,32 +230,50 @@
           }
         },
         {
-          "id": "thapcam-3d5d34aaa0",
-          "name": "Persebaya Surabaya vs PSBS Biak Numfor | 15:30 02/05",
+          "id": "thapcam-520107d08a",
+          "name": "Incheon United Club vs Gangwon Football Club",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-3d5d34aaa0",
+              "id": "src-520107d08a",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-3d5d34aaa0",
-                  "name": "Persebaya Surabaya vs PSBS Biak Numfor",
+                  "id": "ct-520107d08a",
+                  "name": "Incheon United Club vs Gangwon Football Club",
                   "streams": [
                     {
-                      "id": "st-3d5d34aaa0",
+                      "id": "st-520107d08a",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-46e3bb75b2",
+                          "name": "BLV Lềnh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5a2e851ddc_1549/index.m3u8?expire=1778310504&sign=fa23f05f9cc1cf995256ae125f12be7e",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -334,21 +281,92 @@
             }
           ],
           "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "Persebaya Surabaya",
-            "team_b": "PSBS Biak Numfor",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/66307444901ddb38c881129b7ea0105e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cbd5d35d354519a981a2a97f5c41bcbb.png",
-            "time": "15:30 02/05",
-            "blv": "BLV Người Băng",
-            "is_live": false,
+            "league": "Korean K League 1",
+            "team_a": "Incheon United Club",
+            "team_b": "Gangwon Football Club",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/36559689046e7d1d4f597c1a0bf9c5d6.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/771a93ae7f62b1a47a71c3d62b89dca3.png",
+            "time": "",
+            "blv": "BLV Lềnh",
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3d5d34aaa0_e157d786.png?v=e157d786",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-520107d08a_8431b4c5.png?v=8431b4c5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-3c158b34ca",
+          "name": "Jeju SK FC vs Jeonbuk Hyundai Motors",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3c158b34ca",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-3c158b34ca",
+                  "name": "Jeju SK FC vs Jeonbuk Hyundai Motors",
+                  "streams": [
+                    {
+                      "id": "st-3c158b34ca",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-69b7c1ff6d",
+                          "name": "BLV Người Nhớt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f59d1c137e4_14232/index.m3u8?expire=1778309020&sign=62ddbb027f1cba4575bdfa08ce2b6529",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Jeju SK FC",
+            "team_b": "Jeonbuk Hyundai Motors",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2d2abe914435bb9b7140cf2154c50de9.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ee2117f952745163fecfa4b74a6a2bea.png",
+            "time": "",
+            "blv": "BLV Người Nhớt",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3c158b34ca_ea066a8e.png?v=ea066a8e",
             "width": 1600,
             "height": 1200
           }
