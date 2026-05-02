@@ -2900,82 +2900,11 @@
     },
     {
       "id": "grp-5cf95d73f3",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-72856ab310",
-          "name": "Eczacibasi W vs Scandicci | 00:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-72856ab310",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-72856ab310",
-                  "name": "Eczacibasi W vs Scandicci",
-                  "streams": [
-                    {
-                      "id": "st-72856ab310",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0714cbb900",
-                          "name": "BLV Người Sói",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f62910137e4_742/index.m3u8?expire=1778344848&sign=74492f5343567004baa6cecfb0aa6966",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CEV CHAMPIONS LEAGUE 2026",
-            "team_a": "Eczacibasi W",
-            "team_b": "Scandicci",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/5603c1d74cfc6664f8eee75c00db4dab.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f7b90b73eae5e66052931b11e4ff0b6b.png",
-            "time": "00:00 03/05",
-            "blv": "BLV Người Sói",
-            "is_live": true,
-            "cate_name": "Bóng chuyền"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-72856ab310_d8eb4db9.png?v=d8eb4db9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-a6a6037364",
           "name": "Verva Warszawa vs Rzeszow | 19:45 03/05",
@@ -3148,83 +3077,11 @@
     },
     {
       "id": "grp-7873677346",
-      "name": "🏎️ Đua Xe F1 (1 LIVE)",
+      "name": "🏎️ Đua Xe F1",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "thapcam-39af7d5b2c",
-          "name": "Đua xe F1 | 03:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-39af7d5b2c",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-39af7d5b2c",
-                  "name": "Đua xe F1",
-                  "streams": [
-                    {
-                      "id": "st-39af7d5b2c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-66a3e218fa",
-                          "name": "BLV Người Chớp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f6524a137e4_19272/index.m3u8?expire=1778355402&sign=4bc5125079237c400838b3378e7108ee",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "",
-            "team_a": "Đua xe F1",
-            "team_b": "",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-dev/categories/2025/03/29/ef1a59278d38aaf359a16a80e50f5bec.png",
-            "logo_b": "",
-            "time": "03:00 03/05",
-            "blv": "BLV Người Chớp",
-            "is_live": true,
-            "cate_name": "Đua xe F1"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-39af7d5b2c_e8890341.png?v=e8890341",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-776a2d64f8",
