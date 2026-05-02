@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (9 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-22875c4c5f",
-          "name": "Trabzonspor vs Goztepe | 00:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-22875c4c5f",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-22875c4c5f",
-                  "name": "Trabzonspor vs Goztepe",
-                  "streams": [
-                    {
-                      "id": "st-22875c4c5f",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f1288e8745",
-                          "name": "BLV Người Nhớt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f6261151ddc_14232/index.m3u8?expire=1778344081&sign=c6cbe53d1c1e16afe24909b9b4f79fd9",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Turkish Super League",
-            "team_a": "Trabzonspor",
-            "team_b": "Goztepe",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9dc9c8f928d5cafdc90a747fe0439c2d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f05792a374a09fe90bc276305f1dc1e1.png",
-            "time": "00:00 03/05",
-            "blv": "BLV Người Nhớt",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-22875c4c5f_c2826dc1.png?v=c2826dc1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-faf15634a4",
           "name": "FC Famalicao vs Benfica | 00:00 03/05",
@@ -154,77 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-faf15634a4_68eb4e73.png?v=68eb4e73",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-7e19b2da8f",
-          "name": "Paris Saint Germain vs Lorient",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7e19b2da8f",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-7e19b2da8f",
-                  "name": "Paris Saint Germain vs Lorient",
-                  "streams": [
-                    {
-                      "id": "st-7e19b2da8f",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f5bec11523",
-                          "name": "BLV Người Nhện",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f60fdf137e4_32/index.m3u8?expire=1778338399&sign=e6876923a225ed2b6860dbccafaa3efc",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "Paris Saint Germain",
-            "team_b": "Lorient",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3b720f181ce9993f9422d276acf7b292.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b593727321793084b1f7804aebedc31a.png",
-            "time": "",
-            "blv": "BLV Người Nhện",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7e19b2da8f_8874220c.png?v=8874220c",
             "width": 1600,
             "height": 1200
           }
@@ -2682,6 +2540,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-34fb41e67c_c95f8dec.png?v=c95f8dec",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-b385d804a6",
+          "name": "Sporting Braga vs Estoril | 00:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b385d804a6",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-b385d804a6",
+                  "name": "Sporting Braga vs Estoril",
+                  "streams": [
+                    {
+                      "id": "st-b385d804a6",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Portuguese Primera Liga",
+            "team_a": "Sporting Braga",
+            "team_b": "Estoril",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1fe75f826dab40e6e89cbe961c7e9116.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/faeceacffbf35e28b7e71a5f90b6efdc.png",
+            "time": "00:00 04/05",
+            "blv": "BLV Jayce",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b385d804a6_4cac9329.png?v=4cac9329",
             "width": 1600,
             "height": 1200
           }
