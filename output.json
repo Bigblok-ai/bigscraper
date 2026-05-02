@@ -2472,6 +2472,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-326135e559",
+          "name": "Cheonan City vs Chungnam Asan | 14:30 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-326135e559",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-326135e559",
+                  "name": "Cheonan City vs Chungnam Asan",
+                  "streams": [
+                    {
+                      "id": "st-326135e559",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 2",
+            "team_a": "Cheonan City",
+            "team_b": "Chungnam Asan",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2d6b3326015c7b302a7bdda443068e54.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aa33d6919294509723e6cbdbbffb1ea5.png",
+            "time": "14:30 03/05",
+            "blv": "BLV Người Nhện",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-326135e559_d57b8fda.png?v=d57b8fda",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
