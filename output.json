@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,6 +83,148 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f4a6b1354d_b45cf351.png?v=b45cf351",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-0c1957d4e0",
+          "name": "Como vs Napoli | 23:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0c1957d4e0",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-0c1957d4e0",
+                  "name": "Como vs Napoli",
+                  "streams": [
+                    {
+                      "id": "st-0c1957d4e0",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-967455fdee",
+                          "name": "BLV Người Ngố",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f6109351ddc_14/index.m3u8?expire=1778338579&sign=fa72620b6d548fa305cbc60dec8189c6",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Como",
+            "team_b": "Napoli",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5f7059f40965e5a2cc00987e6bac2f32.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/37ed13d27edccd30e053167962c02b3a.png",
+            "time": "23:00 02/05",
+            "blv": "BLV Người Ngố",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0c1957d4e0_23bc4d93.png?v=23bc4d93",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-990833cfa9",
+          "name": "Levski Sofia vs CSKA 1948 Sofia | 23:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-990833cfa9",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-990833cfa9",
+                  "name": "Levski Sofia vs CSKA 1948 Sofia",
+                  "streams": [
+                    {
+                      "id": "st-990833cfa9",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4def6ccb82",
+                          "name": "BLV Người Cò",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f617eb51ddc_14559/index.m3u8?expire=1778340459&sign=0da6492baac9787b13e9a4e7d2f80f13",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bulgarian First League",
+            "team_a": "Levski Sofia",
+            "team_b": "CSKA 1948 Sofia",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fe56623a71d6056e9e1a93a6241e033f.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/182f01e096ad1f495cc88d2369c45224.png",
+            "time": "23:00 02/05",
+            "blv": "BLV Người Cò",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-990833cfa9_a93a9655.png?v=a93a9655",
             "width": 1600,
             "height": 1200
           }
@@ -438,112 +580,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7e19b2da8f_8874220c.png?v=8874220c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-0c1957d4e0",
-          "name": "Como vs Napoli | 23:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0c1957d4e0",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-0c1957d4e0",
-                  "name": "Como vs Napoli",
-                  "streams": [
-                    {
-                      "id": "st-0c1957d4e0",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Como",
-            "team_b": "Napoli",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5f7059f40965e5a2cc00987e6bac2f32.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/37ed13d27edccd30e053167962c02b3a.png",
-            "time": "23:00 02/05",
-            "blv": "BLV Người Ngố",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0c1957d4e0_23bc4d93.png?v=23bc4d93",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-990833cfa9",
-          "name": "Levski Sofia vs CSKA 1948 Sofia | 23:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-990833cfa9",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-990833cfa9",
-                  "name": "Levski Sofia vs CSKA 1948 Sofia",
-                  "streams": [
-                    {
-                      "id": "st-990833cfa9",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bulgarian First League",
-            "team_a": "Levski Sofia",
-            "team_b": "CSKA 1948 Sofia",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fe56623a71d6056e9e1a93a6241e033f.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/182f01e096ad1f495cc88d2369c45224.png",
-            "time": "23:00 02/05",
-            "blv": "BLV Người Cò",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-990833cfa9_a93a9655.png?v=a93a9655",
             "width": 1600,
             "height": 1200
           }
@@ -2734,7 +2770,7 @@
     },
     {
       "id": "grp-0b6b498c58",
-      "name": "🏸 Cầu Lông",
+      "name": "🏸 Cầu Lông (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2747,10 +2783,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2765,7 +2801,25 @@
                     {
                       "id": "st-43d5ba7e1b",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ea9581fa57",
+                          "name": "BLV Chân Đất",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f6193f137e4_145/index.m3u8?expire=1778340799&sign=e6f871ca36571b1ce1c309324ff7d9b0",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2780,7 +2834,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/602b5c241c8e2f7f6d29e030dfd78b6d.png",
             "time": "23:00 02/05",
             "blv": "BLV Chân Đất",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Cầu Lông"
           },
           "image": {
@@ -2800,10 +2854,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2818,7 +2872,25 @@
                     {
                       "id": "st-7100267d9d",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1b52299a61",
+                          "name": "BLV Người Lạ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f617ed137e4_11241/index.m3u8?expire=1778340461&sign=ef6e27dc503a598fb823a059123cd27d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2833,7 +2905,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/adc4bff8c3c438a4703e1407541dce3f.jpg",
             "time": "23:00 02/05",
             "blv": "BLV Người Lạ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Cầu Lông"
           },
           "image": {
