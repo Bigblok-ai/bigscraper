@@ -2720,6 +2720,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-92175c2d4a",
+          "name": "SC Freiburg vs VfL Wolfsburg | 00:30 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-92175c2d4a",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-92175c2d4a",
+                  "name": "SC Freiburg vs VfL Wolfsburg",
+                  "streams": [
+                    {
+                      "id": "st-92175c2d4a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "SC Freiburg",
+            "team_b": "VfL Wolfsburg",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6508946c9a5fe22a8784b905b25e8c79.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/03645e9c1d7fd2c48705622f52fd901e.png",
+            "time": "00:30 04/05",
+            "blv": "BLV Người Điên",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-92175c2d4a_0e81365a.png?v=0e81365a",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
