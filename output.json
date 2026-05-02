@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-faf15634a4",
-          "name": "FC Famalicao vs Benfica | 00:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-faf15634a4",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-faf15634a4",
-                  "name": "FC Famalicao vs Benfica",
-                  "streams": [
-                    {
-                      "id": "st-faf15634a4",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6efe02e9ba",
-                          "name": "BLV Người Páo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f6254e137e4_19533/index.m3u8?expire=1778343886&sign=efb0d52d7130ca97fe5f60fbad3fba56",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "FC Famalicao",
-            "team_b": "Benfica",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/abd59f62f69ef9f59a8121c3baadd882.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/78360445c12fa3fdc8b489486fff4eb6.png",
-            "time": "00:00 03/05",
-            "blv": "BLV Người Páo",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-faf15634a4_68eb4e73.png?v=68eb4e73",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-f4a6b1354d",
           "name": "Al Fateh SC vs NEOM Sports Club",
@@ -526,6 +455,148 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d21d52daba_07a2cbb2.png?v=07a2cbb2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-fcda422695",
+          "name": "Metz vs AS Monaco",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fcda422695",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-fcda422695",
+                  "name": "Metz vs AS Monaco",
+                  "streams": [
+                    {
+                      "id": "st-fcda422695",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c654839f06",
+                          "name": "BLV Người Nhớt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f62e4651ddc_14232/index.m3u8?expire=1778346182&sign=e1e4f06f22d891f5169138469fc9fe52",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "Metz",
+            "team_b": "AS Monaco",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/16fd214da24aef0bbb775e44fe7e79f2.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/693af0d277fe3179594695614dce8666.png",
+            "time": "",
+            "blv": "BLV Người Nhớt",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-fcda422695_0849e2e6.png?v=0849e2e6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-faf15634a4",
+          "name": "FC Famalicao vs Benfica",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-faf15634a4",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-faf15634a4",
+                  "name": "FC Famalicao vs Benfica",
+                  "streams": [
+                    {
+                      "id": "st-faf15634a4",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6efe02e9ba",
+                          "name": "BLV Người Páo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f6254e137e4_19533/index.m3u8?expire=1778343886&sign=efb0d52d7130ca97fe5f60fbad3fba56",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Portuguese Primera Liga",
+            "team_a": "FC Famalicao",
+            "team_b": "Benfica",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/abd59f62f69ef9f59a8121c3baadd882.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/78360445c12fa3fdc8b489486fff4eb6.png",
+            "time": "",
+            "blv": "BLV Người Páo",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-faf15634a4_68eb4e73.png?v=68eb4e73",
             "width": 1600,
             "height": 1200
           }
@@ -2884,82 +2955,11 @@
     },
     {
       "id": "grp-5cf95d73f3",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-49a9294d8d",
-          "name": "Vakifbank W vs Conegliano | 21:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-49a9294d8d",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-49a9294d8d",
-                  "name": "Vakifbank W vs Conegliano",
-                  "streams": [
-                    {
-                      "id": "st-49a9294d8d",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8a4d883082",
-                          "name": "BLV Người Sói",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f600f1137e4_742/index.m3u8?expire=1778334577&sign=0946b5a276b1f4241b3eb4490db5da6f",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Champions League 2026",
-            "team_a": "Vakifbank W",
-            "team_b": "Conegliano",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/12647ed8acb8cfe4fccaaebff02c9568.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4bcb233c8d6db4939644b54fd1ebc4dc.png",
-            "time": "21:00 02/05",
-            "blv": "BLV Người Sói",
-            "is_live": true,
-            "cate_name": "Bóng chuyền"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-49a9294d8d_0e6a6cb9.png?v=0e6a6cb9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-72856ab310",
           "name": "Eczacibasi W vs Scandicci | 00:00 03/05",
