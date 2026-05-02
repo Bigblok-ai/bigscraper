@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-ff92eab25b",
-          "name": "FC Porto vs Alverca",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ff92eab25b",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-ff92eab25b",
-                  "name": "FC Porto vs Alverca",
-                  "streams": [
-                    {
-                      "id": "st-ff92eab25b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-25e59bb472",
-                          "name": "BLV Người Páo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f6496b137e4_19533/index.m3u8?expire=1778353131&sign=1d7ce1273376bcb3617606b2c73f16ca",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "FC Porto",
-            "team_b": "Alverca",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/83aa826e3c45d5047a8c917fb0b41a5e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ff35a6067c000b629b84e648d8a2d2de.png",
-            "time": "",
-            "blv": "BLV Người Páo",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ff92eab25b_a78e5f35.png?v=a78e5f35",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-50572ec748",
           "name": "Inter Miami CF vs Orlando City | 06:15 03/05",
@@ -830,6 +759,59 @@
           }
         },
         {
+          "id": "thapcam-aef4e59c7e",
+          "name": "LOSC Lille vs Havre Athletic Club | 20:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aef4e59c7e",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-aef4e59c7e",
+                  "name": "LOSC Lille vs Havre Athletic Club",
+                  "streams": [
+                    {
+                      "id": "st-aef4e59c7e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "LOSC Lille",
+            "team_b": "Havre Athletic Club",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/28e94925fdcc848f86a544a1cedcceed.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8fd50a53dad5ea4fd2d32bd3ce727f58.png",
+            "time": "20:00 03/05",
+            "blv": "BLV Người Cò",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-aef4e59c7e_31870050.png?v=31870050",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-126b50a317",
           "name": "Sassuolo vs AC Milan | 20:00 03/05",
           "type": "single",
@@ -984,59 +966,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ebeac09ef7_65f902fa.png?v=65f902fa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-aef4e59c7e",
-          "name": "LOSC Lille vs Havre Athletic Club | 20:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-aef4e59c7e",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-aef4e59c7e",
-                  "name": "LOSC Lille vs Havre Athletic Club",
-                  "streams": [
-                    {
-                      "id": "st-aef4e59c7e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "LOSC Lille",
-            "team_b": "Havre Athletic Club",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/28e94925fdcc848f86a544a1cedcceed.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8fd50a53dad5ea4fd2d32bd3ce727f58.png",
-            "time": "20:00 03/05",
-            "blv": "BLV Người Cò",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-aef4e59c7e_31870050.png?v=31870050",
             "width": 1600,
             "height": 1200
           }
@@ -1307,59 +1236,6 @@
           }
         },
         {
-          "id": "thapcam-569622d457",
-          "name": "Manchester United vs Liverpool | 21:30 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-569622d457",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-569622d457",
-                  "name": "Manchester United vs Liverpool",
-                  "streams": [
-                    {
-                      "id": "st-569622d457",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Manchester United",
-            "team_b": "Liverpool",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d39ce586fd7278342dde33b3090b3f75.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1cb3d08adac0e2dc1c4f10429d055bfe.png",
-            "time": "21:30 03/05",
-            "blv": "BLV Cá Mập",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-569622d457_cf369c82.png?v=cf369c82",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-f8c6df390e",
           "name": "Casa Pia AC vs CD Tondela | 21:30 03/05",
           "type": "single",
@@ -1408,6 +1284,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f8c6df390e_d5f0ff70.png?v=d5f0ff70",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-569622d457",
+          "name": "Manchester United vs Liverpool | 21:30 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-569622d457",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-569622d457",
+                  "name": "Manchester United vs Liverpool",
+                  "streams": [
+                    {
+                      "id": "st-569622d457",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Manchester United",
+            "team_b": "Liverpool",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d39ce586fd7278342dde33b3090b3f75.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1cb3d08adac0e2dc1c4f10429d055bfe.png",
+            "time": "21:30 03/05",
+            "blv": "BLV Cá Mập",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-569622d457_cf369c82.png?v=cf369c82",
             "width": 1600,
             "height": 1200
           }
@@ -1943,59 +1872,6 @@
           }
         },
         {
-          "id": "thapcam-3aa1a440c5",
-          "name": "Aston Villa vs Tottenham Hotspur | 01:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3aa1a440c5",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3aa1a440c5",
-                  "name": "Aston Villa vs Tottenham Hotspur",
-                  "streams": [
-                    {
-                      "id": "st-3aa1a440c5",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Aston Villa",
-            "team_b": "Tottenham Hotspur",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c32d6a906083118cac2cb796edaab3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8b22ab4041e666b996a2d96f20dea707.png",
-            "time": "01:00 04/05",
-            "blv": "BLV Người Rơm",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3aa1a440c5_82dd616e.png?v=82dd616e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-854256a56b",
           "name": "Al Qadsiah vs Al Nassr FC | 01:00 04/05",
           "type": "single",
@@ -2044,6 +1920,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-854256a56b_00671df5.png?v=00671df5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-3aa1a440c5",
+          "name": "Aston Villa vs Tottenham Hotspur | 01:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3aa1a440c5",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-3aa1a440c5",
+                  "name": "Aston Villa vs Tottenham Hotspur",
+                  "streams": [
+                    {
+                      "id": "st-3aa1a440c5",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Aston Villa",
+            "team_b": "Tottenham Hotspur",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c32d6a906083118cac2cb796edaab3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8b22ab4041e666b996a2d96f20dea707.png",
+            "time": "01:00 04/05",
+            "blv": "BLV Người Rơm",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3aa1a440c5_82dd616e.png?v=82dd616e",
             "width": 1600,
             "height": 1200
           }
