@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (11 LIVE)",
+      "name": "⚽ Bóng Đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -438,77 +438,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5369317f0a_5b3dae7f.png?v=5b3dae7f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-84fe79e3c9",
-          "name": "Australia Women U17 vs India Women U17",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-84fe79e3c9",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-84fe79e3c9",
-                  "name": "Australia Women U17 vs India Women U17",
-                  "streams": [
-                    {
-                      "id": "st-84fe79e3c9",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-368135c1c1",
-                          "name": "BLV Siêu Quậy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f5d8da51ddc_26/index.m3u8?expire=1778324314&sign=3f4e8f4722dbdb66abfd4852478a5b67",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "Australia Women U17",
-            "team_b": "India Women U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f476c5c90ef26f3257a4a6c17374c1bc.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a18a24058618b5ef80eec61300f85999.png",
-            "time": "",
-            "blv": "BLV Siêu Quậy",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-84fe79e3c9_436b82c9.png?v=436b82c9",
             "width": 1600,
             "height": 1200
           }
