@@ -11,11 +11,153 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-60ab2c244f",
+          "name": "Udinese vs Torino | 20:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-60ab2c244f",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-60ab2c244f",
+                  "name": "Udinese vs Torino",
+                  "streams": [
+                    {
+                      "id": "st-60ab2c244f",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-68d0adccf2",
+                          "name": "BLV Người Băng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5ee9851ddc_11/index.m3u8?expire=1778329880&sign=eb6ad05a44395b0a14a815d9980dd88b",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Udinese",
+            "team_b": "Torino",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c7140efe06d93642fcc9805077c49aa5.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f0856c1b16c32245a8d2c702ffe89ac5.png",
+            "time": "20:00 02/05",
+            "blv": "BLV Người Băng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-60ab2c244f_052107c1.png?v=052107c1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-a3cc42e359",
+          "name": "FC Nantes vs Marseille | 20:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a3cc42e359",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-a3cc42e359",
+                  "name": "FC Nantes vs Marseille",
+                  "streams": [
+                    {
+                      "id": "st-a3cc42e359",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a2633c20f7",
+                          "name": "BLV Người Ngố",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5f1c6137e4_14/index.m3u8?expire=1778330694&sign=35b805b84083c63f2577b0ad63ab26d3",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "FC Nantes",
+            "team_b": "Marseille",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3e8ecd181a512ff663ff60ec85c8bed1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a450173b3d636ba2c86d3d7c5bdc4026.png",
+            "time": "20:00 02/05",
+            "blv": "BLV Người Ngố",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a3cc42e359_18bc99d8.png?v=18bc99d8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-89c3ff3599",
           "name": "Becamex Ho Chi Minh City vs CLB Thanh Hoa",
@@ -509,112 +651,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bdc49c7455_f4d8d1e0.png?v=f4d8d1e0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-60ab2c244f",
-          "name": "Udinese vs Torino | 20:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-60ab2c244f",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-60ab2c244f",
-                  "name": "Udinese vs Torino",
-                  "streams": [
-                    {
-                      "id": "st-60ab2c244f",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Udinese",
-            "team_b": "Torino",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c7140efe06d93642fcc9805077c49aa5.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f0856c1b16c32245a8d2c702ffe89ac5.png",
-            "time": "20:00 02/05",
-            "blv": "BLV Người Băng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-60ab2c244f_052107c1.png?v=052107c1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-a3cc42e359",
-          "name": "FC Nantes vs Marseille | 20:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a3cc42e359",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-a3cc42e359",
-                  "name": "FC Nantes vs Marseille",
-                  "streams": [
-                    {
-                      "id": "st-a3cc42e359",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "FC Nantes",
-            "team_b": "Marseille",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3e8ecd181a512ff663ff60ec85c8bed1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a450173b3d636ba2c86d3d7c5bdc4026.png",
-            "time": "20:00 02/05",
-            "blv": "BLV Người Ngố",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a3cc42e359_18bc99d8.png?v=18bc99d8",
             "width": 1600,
             "height": 1200
           }
