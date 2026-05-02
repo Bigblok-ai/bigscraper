@@ -17,77 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-8241d4ac02",
-          "name": "New York Red Bulls vs FC Dallas | 06:30 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8241d4ac02",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-8241d4ac02",
-                  "name": "New York Red Bulls vs FC Dallas",
-                  "streams": [
-                    {
-                      "id": "st-8241d4ac02",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c47272566d",
-                          "name": "BLV Siêu Quậy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f6821f137e4_26/index.m3u8?expire=1778367647&sign=c44cbfc6195bcad22a25a204488121ef",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United States Major League Soccer",
-            "team_a": "New York Red Bulls",
-            "team_b": "FC Dallas",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8b8fe90668461b90ddc20516b0e6796d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e829da6b3050ec03f3c8715690ec39c4.png",
-            "time": "06:30 03/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8241d4ac02_fd636bbe.png?v=fd636bbe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-ae1acfb6fe",
           "name": "Inter Miami CF vs Orlando City",
           "type": "single",
@@ -154,6 +83,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ae1acfb6fe_ed719052.png?v=ed719052",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-8241d4ac02",
+          "name": "New York Red Bulls vs FC Dallas",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8241d4ac02",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-8241d4ac02",
+                  "name": "New York Red Bulls vs FC Dallas",
+                  "streams": [
+                    {
+                      "id": "st-8241d4ac02",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c47272566d",
+                          "name": "BLV Siêu Quậy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f6821f137e4_26/index.m3u8?expire=1778367647&sign=c44cbfc6195bcad22a25a204488121ef",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "United States Major League Soccer",
+            "team_a": "New York Red Bulls",
+            "team_b": "FC Dallas",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8b8fe90668461b90ddc20516b0e6796d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e829da6b3050ec03f3c8715690ec39c4.png",
+            "time": "",
+            "blv": "BLV Siêu Quậy",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8241d4ac02_fd636bbe.png?v=fd636bbe",
             "width": 1600,
             "height": 1200
           }
