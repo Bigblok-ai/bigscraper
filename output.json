@@ -2613,6 +2613,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-53ddfdcbb7",
+          "name": "Daegu Football Club vs Gyeongnam FC | 12:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-53ddfdcbb7",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-53ddfdcbb7",
+                  "name": "Daegu Football Club vs Gyeongnam FC",
+                  "streams": [
+                    {
+                      "id": "st-53ddfdcbb7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 2",
+            "team_a": "Daegu Football Club",
+            "team_b": "Gyeongnam FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6a0f09e169d0b7f674bd393e530a21f2.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/25a9ab8b2b697879c4b5bb1433922c54.png",
+            "time": "12:00 03/05",
+            "blv": "BLV Người Rừng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-53ddfdcbb7_7bfc4e86.png?v=7bfc4e86",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
