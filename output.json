@@ -17,77 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-838acd1c7c",
-          "name": "FC Anyang vs Bucheon FC 1995 | 17:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-838acd1c7c",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-838acd1c7c",
-                  "name": "FC Anyang vs Bucheon FC 1995",
-                  "streams": [
-                    {
-                      "id": "st-838acd1c7c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c85c06f1c8",
-                          "name": "BLV Người Điên",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f5c43d51ddc_1984/index.m3u8?expire=1778319037&sign=e9a3ad981d6dde02a61f5c68c534e9f4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "FC Anyang",
-            "team_b": "Bucheon FC 1995",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cda2e60a4e984dc6f4ed091ec44fc5bb.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/640f8c62cb294e1cc308a44ed2a62891.png",
-            "time": "17:00 02/05",
-            "blv": "BLV Người Điên",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-838acd1c7c_7f538a07.png?v=7f538a07",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-3d5d34aaa0",
           "name": "Persebaya Surabaya vs PSBS Biak Numfor",
           "type": "single",
@@ -154,6 +83,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3d5d34aaa0_e157d786.png?v=e157d786",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-838acd1c7c",
+          "name": "FC Anyang vs Bucheon FC 1995",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-838acd1c7c",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-838acd1c7c",
+                  "name": "FC Anyang vs Bucheon FC 1995",
+                  "streams": [
+                    {
+                      "id": "st-838acd1c7c",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c85c06f1c8",
+                          "name": "BLV Người Điên",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5c43d51ddc_1984/index.m3u8?expire=1778319037&sign=e9a3ad981d6dde02a61f5c68c534e9f4",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "FC Anyang",
+            "team_b": "Bucheon FC 1995",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cda2e60a4e984dc6f4ed091ec44fc5bb.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/640f8c62cb294e1cc308a44ed2a62891.png",
+            "time": "",
+            "blv": "BLV Người Điên",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-838acd1c7c_7f538a07.png?v=7f538a07",
             "width": 1600,
             "height": 1200
           }
