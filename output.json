@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (10 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -367,148 +367,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-38fccbf622_c0cbc303.png?v=c0cbc303",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-5369317f0a",
-          "name": "Wrexham vs Middlesbrough",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5369317f0a",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-5369317f0a",
-                  "name": "Wrexham vs Middlesbrough",
-                  "streams": [
-                    {
-                      "id": "st-5369317f0a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ba7c1834a4",
-                          "name": "BLV Người Cỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f5d9b4137e4_19092/index.m3u8?expire=1778324532&sign=b0ff2c328e19dbcbb06da081ff1af7e4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Football League Championship",
-            "team_a": "Wrexham",
-            "team_b": "Middlesbrough",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6ee72ef6dd0d994c0fd5fb7d82d5acc9.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f08f87259dc2abc1449b67081e8b7f83.png",
-            "time": "",
-            "blv": "BLV Người Cỏ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5369317f0a_5b3dae7f.png?v=5b3dae7f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-5bd8fcbbc3",
-          "name": "North Korea Women U17 vs Chinese Taipei U17 Women",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5bd8fcbbc3",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-5bd8fcbbc3",
-                  "name": "North Korea Women U17 vs Chinese Taipei U17 Women",
-                  "streams": [
-                    {
-                      "id": "st-5bd8fcbbc3",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8f8739f4f2",
-                          "name": "BLV Người Nhớt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f5d791137e4_14232/index.m3u8?expire=1778323985&sign=f494399961df336ddeda0a6a6fb912f9",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "North Korea Women U17",
-            "team_b": "Chinese Taipei U17 Women",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
-            "time": "",
-            "blv": "BLV Người Nhớt",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5bd8fcbbc3_7d0996dc.png?v=7d0996dc",
             "width": 1600,
             "height": 1200
           }
@@ -2842,6 +2700,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e3e1f17460_e500484b.png?v=e500484b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-77b3bd65ca",
+          "name": "FC St. Pauli vs 1. FSV Mainz 05 | 20:30 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-77b3bd65ca",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-77b3bd65ca",
+                  "name": "FC St. Pauli vs 1. FSV Mainz 05",
+                  "streams": [
+                    {
+                      "id": "st-77b3bd65ca",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "FC St. Pauli",
+            "team_b": "1. FSV Mainz 05",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/65503b155488a643de688e8dfa849b1f.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/903089d338485f6c68fbc5da690a0628.png",
+            "time": "20:30 03/05",
+            "blv": "BLV Người Rừng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-77b3bd65ca_3d9f5eef.png?v=3d9f5eef",
             "width": 1600,
             "height": 1200
           }
