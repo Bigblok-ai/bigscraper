@@ -11,295 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (11 LIVE)",
+      "name": "⚽ Bóng Đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-a868a7af44",
-          "name": "Brentford vs West Ham United | 21:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a868a7af44",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-a868a7af44",
-                  "name": "Brentford vs West Ham United",
-                  "streams": [
-                    {
-                      "id": "st-a868a7af44",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-03e98278a6",
-                          "name": "BLV Cá Mập",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f60229137e4_154/index.m3u8?expire=1778334889&sign=e47db97a51455e8e2723d2a91010d8a0",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Brentford",
-            "team_b": "West Ham United",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/60f1c7788be3148a370dbf59f914abfe.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d71ebda5c7fbca9093a1c2978c46f619.png",
-            "time": "21:00 02/05",
-            "blv": "BLV Cá Mập",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a868a7af44_5bcc736e.png?v=5bcc736e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-e550bf821b",
-          "name": "Newcastle United vs Brighton Hove Albion | 21:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e550bf821b",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e550bf821b",
-                  "name": "Newcastle United vs Brighton Hove Albion",
-                  "streams": [
-                    {
-                      "id": "st-e550bf821b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9800f3fb83",
-                          "name": "BLV Lềnh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f5fb3751ddc_1549/index.m3u8?expire=1778333111&sign=60dc744b88e93a89a8a9b5028dad1c1d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Newcastle United",
-            "team_b": "Brighton Hove Albion",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5dbe320855e3ba772dbce54f940c6fa5.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9b43a690d5a09f1e319f036821e8e1d3.png",
-            "time": "21:00 02/05",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e550bf821b_235c2457.png?v=235c2457",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-4281321069",
-          "name": "Wolverhampton Wanderers vs Sunderland | 21:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4281321069",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-4281321069",
-                  "name": "Wolverhampton Wanderers vs Sunderland",
-                  "streams": [
-                    {
-                      "id": "st-4281321069",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fc020e5398",
-                          "name": "BLV Siêu Quậy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f5fa3f137e4_26/index.m3u8?expire=1778332863&sign=c34951d100c218985d5701e145031ebd",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Wolverhampton Wanderers",
-            "team_b": "Sunderland",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5759932ca2512c6701d86dfbd58380a7.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/957bdc50c307e2a9b526b34b3792da1a.png",
-            "time": "21:00 02/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-4281321069_58b50241.png?v=58b50241",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-bdc49c7455",
-          "name": "Villarreal CF vs Levante",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bdc49c7455",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-bdc49c7455",
-                  "name": "Villarreal CF vs Levante",
-                  "streams": [
-                    {
-                      "id": "st-bdc49c7455",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0042b823ff",
-                          "name": "BLV Cá Mập",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f5dd64137e4_154/index.m3u8?expire=1778325476&sign=f6b1cbf27efbe51a19fb2ce533866a0a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Villarreal CF",
-            "team_b": "Levante",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aee62af96a956756cc29fe4831286357.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/13e2038bd23a38ce32a3eb259c8bf7d8.png",
-            "time": "",
-            "blv": "BLV Cá Mập",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bdc49c7455_f4d8d1e0.png?v=f4d8d1e0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-60ab2c244f",
           "name": "Udinese vs Torino",
@@ -798,32 +514,50 @@
           }
         },
         {
-          "id": "thapcam-f5208652cf",
-          "name": "Valencia CF vs Atletico Madrid | 21:15 02/05",
+          "id": "thapcam-a868a7af44",
+          "name": "Brentford vs West Ham United",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-f5208652cf",
+              "id": "src-a868a7af44",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-f5208652cf",
-                  "name": "Valencia CF vs Atletico Madrid",
+                  "id": "ct-a868a7af44",
+                  "name": "Brentford vs West Ham United",
                   "streams": [
                     {
-                      "id": "st-f5208652cf",
+                      "id": "st-a868a7af44",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-03e98278a6",
+                          "name": "BLV Cá Mập",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f60229137e4_154/index.m3u8?expire=1778334889&sign=e47db97a51455e8e2723d2a91010d8a0",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -831,21 +565,163 @@
             }
           ],
           "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Valencia CF",
-            "team_b": "Atletico Madrid",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3b54543c1a584e2e9948d655142996d3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/390977b0421bce136c562057ea171ecf.png",
-            "time": "21:15 02/05",
-            "blv": "BLV Người Rơm",
-            "is_live": false,
+            "league": "English Premier League",
+            "team_a": "Brentford",
+            "team_b": "West Ham United",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/60f1c7788be3148a370dbf59f914abfe.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d71ebda5c7fbca9093a1c2978c46f619.png",
+            "time": "",
+            "blv": "BLV Cá Mập",
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f5208652cf_4c140a68.png?v=4c140a68",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a868a7af44_5bcc736e.png?v=5bcc736e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-e550bf821b",
+          "name": "Newcastle United vs Brighton Hove Albion",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e550bf821b",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-e550bf821b",
+                  "name": "Newcastle United vs Brighton Hove Albion",
+                  "streams": [
+                    {
+                      "id": "st-e550bf821b",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9800f3fb83",
+                          "name": "BLV Lềnh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5fb3751ddc_1549/index.m3u8?expire=1778333111&sign=60dc744b88e93a89a8a9b5028dad1c1d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Newcastle United",
+            "team_b": "Brighton Hove Albion",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5dbe320855e3ba772dbce54f940c6fa5.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9b43a690d5a09f1e319f036821e8e1d3.png",
+            "time": "",
+            "blv": "BLV Lềnh",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e550bf821b_235c2457.png?v=235c2457",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-4281321069",
+          "name": "Wolverhampton Wanderers vs Sunderland",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4281321069",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-4281321069",
+                  "name": "Wolverhampton Wanderers vs Sunderland",
+                  "streams": [
+                    {
+                      "id": "st-4281321069",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fc020e5398",
+                          "name": "BLV Siêu Quậy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5fa3f137e4_26/index.m3u8?expire=1778332863&sign=c34951d100c218985d5701e145031ebd",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Wolverhampton Wanderers",
+            "team_b": "Sunderland",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5759932ca2512c6701d86dfbd58380a7.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/957bdc50c307e2a9b526b34b3792da1a.png",
+            "time": "",
+            "blv": "BLV Siêu Quậy",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-4281321069_58b50241.png?v=58b50241",
             "width": 1600,
             "height": 1200
           }
