@@ -2719,6 +2719,112 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-43d5ba7e1b",
+          "name": "China vs Denmark | 23:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-43d5ba7e1b",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-43d5ba7e1b",
+                  "name": "China vs Denmark",
+                  "streams": [
+                    {
+                      "id": "st-43d5ba7e1b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BWF Thomas & Uber Cup Finals 2026 - SÂN 1",
+            "team_a": "China",
+            "team_b": "Denmark",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/4cfb7d9db32622326842274789805114.jpg",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/602b5c241c8e2f7f6d29e030dfd78b6d.png",
+            "time": "23:00 02/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-43d5ba7e1b_ec7857aa.png?v=ec7857aa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-7100267d9d",
+          "name": "France vs India | 23:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7100267d9d",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-7100267d9d",
+                  "name": "France vs India",
+                  "streams": [
+                    {
+                      "id": "st-7100267d9d",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BWF Thomas & Uber Cup Finals 2026 - SÂN 2",
+            "team_a": "France",
+            "team_b": "India",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/40212f6d758e035c28bc9fc47728af63.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/adc4bff8c3c438a4703e1407541dce3f.jpg",
+            "time": "23:00 02/05",
+            "blv": "BLV Người Lạ",
+            "is_live": false,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7100267d9d_382da083.png?v=382da083",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -3117,7 +3223,61 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "thapcam-085898cb01",
+          "name": "Đua xe F1 | 23:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-085898cb01",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-085898cb01",
+                  "name": "Đua xe F1",
+                  "streams": [
+                    {
+                      "id": "st-085898cb01",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "Đua xe F1",
+            "team_b": "",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-dev/categories/2025/03/29/ef1a59278d38aaf359a16a80e50f5bec.png",
+            "logo_b": "",
+            "time": "23:00 03/05",
+            "blv": "BLV Người Chớp",
+            "is_live": false,
+            "cate_name": "Đua xe F1"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-085898cb01_e8890341.png?v=e8890341",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-776a2d64f8",
