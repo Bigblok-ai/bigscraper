@@ -11,11 +11,366 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (11 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-c09344de20",
+          "name": "Eintracht Frankfurt vs Hamburger SV | 20:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c09344de20",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-c09344de20",
+                  "name": "Eintracht Frankfurt vs Hamburger SV",
+                  "streams": [
+                    {
+                      "id": "st-c09344de20",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c6a08636a5",
+                          "name": "BLV Người Điên",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5f46251ddc_1984/index.m3u8?expire=1778331362&sign=f97de3f7957ea0760d2ea8058e1243af",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Eintracht Frankfurt",
+            "team_b": "Hamburger SV",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fe636189a2f3db78d0554c34f0bdaae6.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/81f8f9e258e6b73bc522bab06730720a.png",
+            "time": "20:30 02/05",
+            "blv": "BLV Người Điên",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c09344de20_1a84eacc.png?v=1a84eacc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-710b6bf0d0",
+          "name": "1. FC Union Berlin vs FC Köln | 20:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-710b6bf0d0",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-710b6bf0d0",
+                  "name": "1. FC Union Berlin vs FC Köln",
+                  "streams": [
+                    {
+                      "id": "st-710b6bf0d0",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7e7faa3104",
+                          "name": "BLV Chân Đất",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5f7a2137e4_145/index.m3u8?expire=1778332194&sign=0b993405737a216ab91840e1d9123d78",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "1. FC Union Berlin",
+            "team_b": "FC Köln",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/45ab4c846b0d4df5b002c571b16112dc.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/887b7663a0d47031528921d9972ae3a6.png",
+            "time": "20:30 02/05",
+            "blv": "BLV Chân Đất",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-710b6bf0d0_b446773f.png?v=b446773f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-89af51d2c0",
+          "name": "SV Werder Bremen vs FC Augsburg | 20:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-89af51d2c0",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-89af51d2c0",
+                  "name": "SV Werder Bremen vs FC Augsburg",
+                  "streams": [
+                    {
+                      "id": "st-89af51d2c0",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ab99113c63",
+                          "name": "BLV Người Cỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5f712137e4_19092/index.m3u8?expire=1778332050&sign=07ec259f4d922c3b78c13468a5fe9d4b",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "SV Werder Bremen",
+            "team_b": "FC Augsburg",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/82e3b03a1df3d7ae3d38e9fdd24fe622.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/db4411a3c4ce1d0f092f5b9d1df08664.png",
+            "time": "20:30 02/05",
+            "blv": "BLV Người Cỏ",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-89af51d2c0_41c96f58.png?v=41c96f58",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-e9ae0e64bf",
+          "name": "FC Bayern Munich vs 1. FC Heidenheim 1846 | 20:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e9ae0e64bf",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-e9ae0e64bf",
+                  "name": "FC Bayern Munich vs 1. FC Heidenheim 1846",
+                  "streams": [
+                    {
+                      "id": "st-e9ae0e64bf",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b0e7e56891",
+                          "name": "BLV Siêu Bướng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5f4c051ddc_151/index.m3u8?expire=1778331456&sign=8e516ae0263d1d38220fee6994bce55a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "FC Bayern Munich",
+            "team_b": "1. FC Heidenheim 1846",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ef19a84a6745fe57aa786873d2b18e8a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/65ee743f20fa7db286fdeda4d33c6980.png",
+            "time": "20:30 02/05",
+            "blv": "BLV Siêu Bướng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e9ae0e64bf_0cd7702a.png?v=0cd7702a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-38fccbf622",
+          "name": "TSG Hoffenheim vs VfB Stuttgart | 20:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-38fccbf622",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-38fccbf622",
+                  "name": "TSG Hoffenheim vs VfB Stuttgart",
+                  "streams": [
+                    {
+                      "id": "st-38fccbf622",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-aa29403aab",
+                          "name": "BLV Người Cò",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5f51c137e4_14559/index.m3u8?expire=1778331548&sign=06064c9ab64bddc150c40cceae84f821",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "TSG Hoffenheim",
+            "team_b": "VfB Stuttgart",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/72ab7862a610b350aef7650ec0e06e06.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bfdd500484330d63a723cbc396df762c.png",
+            "time": "20:30 02/05",
+            "blv": "BLV Người Cò",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-38fccbf622_c0cbc303.png?v=c0cbc303",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-5369317f0a",
           "name": "Wrexham vs Middlesbrough",
@@ -438,271 +793,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a3cc42e359_18bc99d8.png?v=18bc99d8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-c09344de20",
-          "name": "Eintracht Frankfurt vs Hamburger SV | 20:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c09344de20",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-c09344de20",
-                  "name": "Eintracht Frankfurt vs Hamburger SV",
-                  "streams": [
-                    {
-                      "id": "st-c09344de20",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Eintracht Frankfurt",
-            "team_b": "Hamburger SV",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fe636189a2f3db78d0554c34f0bdaae6.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/81f8f9e258e6b73bc522bab06730720a.png",
-            "time": "20:30 02/05",
-            "blv": "BLV Người Điên",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c09344de20_1a84eacc.png?v=1a84eacc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-710b6bf0d0",
-          "name": "1. FC Union Berlin vs FC Köln | 20:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-710b6bf0d0",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-710b6bf0d0",
-                  "name": "1. FC Union Berlin vs FC Köln",
-                  "streams": [
-                    {
-                      "id": "st-710b6bf0d0",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "1. FC Union Berlin",
-            "team_b": "FC Köln",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/45ab4c846b0d4df5b002c571b16112dc.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/887b7663a0d47031528921d9972ae3a6.png",
-            "time": "20:30 02/05",
-            "blv": "BLV Chân Đất",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-710b6bf0d0_b446773f.png?v=b446773f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-89af51d2c0",
-          "name": "SV Werder Bremen vs FC Augsburg | 20:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-89af51d2c0",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-89af51d2c0",
-                  "name": "SV Werder Bremen vs FC Augsburg",
-                  "streams": [
-                    {
-                      "id": "st-89af51d2c0",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "SV Werder Bremen",
-            "team_b": "FC Augsburg",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/82e3b03a1df3d7ae3d38e9fdd24fe622.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/db4411a3c4ce1d0f092f5b9d1df08664.png",
-            "time": "20:30 02/05",
-            "blv": "BLV Người Cỏ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-89af51d2c0_41c96f58.png?v=41c96f58",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-e9ae0e64bf",
-          "name": "FC Bayern Munich vs 1. FC Heidenheim 1846 | 20:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e9ae0e64bf",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e9ae0e64bf",
-                  "name": "FC Bayern Munich vs 1. FC Heidenheim 1846",
-                  "streams": [
-                    {
-                      "id": "st-e9ae0e64bf",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "FC Bayern Munich",
-            "team_b": "1. FC Heidenheim 1846",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ef19a84a6745fe57aa786873d2b18e8a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/65ee743f20fa7db286fdeda4d33c6980.png",
-            "time": "20:30 02/05",
-            "blv": "BLV Siêu Bướng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e9ae0e64bf_0cd7702a.png?v=0cd7702a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-38fccbf622",
-          "name": "TSG Hoffenheim vs VfB Stuttgart | 20:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-38fccbf622",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-38fccbf622",
-                  "name": "TSG Hoffenheim vs VfB Stuttgart",
-                  "streams": [
-                    {
-                      "id": "st-38fccbf622",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "TSG Hoffenheim",
-            "team_b": "VfB Stuttgart",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/72ab7862a610b350aef7650ec0e06e06.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bfdd500484330d63a723cbc396df762c.png",
-            "time": "20:30 02/05",
-            "blv": "BLV Người Cò",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-38fccbf622_c0cbc303.png?v=c0cbc303",
             "width": 1600,
             "height": 1200
           }
