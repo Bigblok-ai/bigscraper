@@ -2909,38 +2909,56 @@
     },
     {
       "id": "grp-578f80eb49",
-      "name": "🥊 Võ Thuật",
+      "name": "🥊 Võ Thuật (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-b1efd9c422",
-          "name": "Jack Della Maddalena vs Carlos Prates | 18:00 02/05",
+          "id": "thapcam-ca4f17f45f",
+          "name": "Jack Della Maddalena vs Carlos Prates | 15:00 02/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-b1efd9c422",
+              "id": "src-ca4f17f45f",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-b1efd9c422",
+                  "id": "ct-ca4f17f45f",
                   "name": "Jack Della Maddalena vs Carlos Prates",
                   "streams": [
                     {
-                      "id": "st-b1efd9c422",
+                      "id": "st-ca4f17f45f",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6ac1137300",
+                          "name": "Sóng Sạch 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f5accc137e4_2/index.m3u8?expire=1778313036&sign=d3680f275a3f5a31edecf6c35fe8a86d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2953,16 +2971,16 @@
             "team_b": "Carlos Prates",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/296733cf26ddb11c0caced7eef36a615.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/6f04c6258748d141789ce49c5bcd70f3.jpg",
-            "time": "18:00 02/05",
+            "time": "15:00 02/05",
             "blv": "Sóng Sạch 1",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Võ Thuật"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b1efd9c422_51abee86.png?v=51abee86",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ca4f17f45f_51abee86.png?v=51abee86",
             "width": 1600,
             "height": 1200
           }
