@@ -17,77 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-8fe0311474",
-          "name": "Ulsan HD FC vs Pohang Steelers",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8fe0311474",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-8fe0311474",
-                  "name": "Ulsan HD FC vs Pohang Steelers",
-                  "streams": [
-                    {
-                      "id": "st-8fe0311474",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-468f11942c",
-                          "name": "BLV Người Lạ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f57bd6137e4_11241/index.m3u8?expire=1778300502&sign=eb8780cd53b9815021b5eef81a5bbc31",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Ulsan HD FC",
-            "team_b": "Pohang Steelers",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fe07fb888ebcb282192332cb8aed21b1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6f05c460789939ac83282bd0686446f1.png",
-            "time": "",
-            "blv": "BLV Người Lạ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8fe0311474_5051968f.png?v=5051968f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-7aea839f3c",
           "name": "Football Club Seoul vs Gimcheon Sangmu Football Club",
           "type": "single",
@@ -154,6 +83,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7aea839f3c_3adca746.png?v=3adca746",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-8fe0311474",
+          "name": "Ulsan HD FC vs Pohang Steelers",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8fe0311474",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-8fe0311474",
+                  "name": "Ulsan HD FC vs Pohang Steelers",
+                  "streams": [
+                    {
+                      "id": "st-8fe0311474",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-468f11942c",
+                          "name": "BLV Người Lạ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f57bd6137e4_11241/index.m3u8?expire=1778300502&sign=eb8780cd53b9815021b5eef81a5bbc31",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Ulsan HD FC",
+            "team_b": "Pohang Steelers",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fe07fb888ebcb282192332cb8aed21b1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6f05c460789939ac83282bd0686446f1.png",
+            "time": "",
+            "blv": "BLV Người Lạ",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8fe0311474_5051968f.png?v=5051968f",
             "width": 1600,
             "height": 1200
           }
