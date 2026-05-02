@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -95,10 +95,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -113,7 +113,25 @@
                     {
                       "id": "st-8241d4ac02",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c47272566d",
+                          "name": "BLV Siêu Quậy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f6821f137e4_26/index.m3u8?expire=1778367647&sign=c44cbfc6195bcad22a25a204488121ef",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -128,7 +146,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e829da6b3050ec03f3c8715690ec39c4.png",
             "time": "06:30 03/05",
             "blv": "BLV Siêu Quậy",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -2321,61 +2339,7 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "thapcam-c85a0ca581",
-          "name": "Boston Celtics vs Philadelphia 76ers | 06:30 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c85a0ca581",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-c85a0ca581",
-                  "name": "Boston Celtics vs Philadelphia 76ers",
-                  "streams": [
-                    {
-                      "id": "st-c85a0ca581",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Boston Celtics",
-            "team_b": "Philadelphia 76ers",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/884c1c1f5db46c170df3c34a8e213ec9.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/06e7bde6cca98873fe971fad4e67a9b6.png",
-            "time": "06:30 03/05",
-            "blv": "BLV Người Hầu",
-            "is_live": false,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c85a0ca581_ba4fbc3d.png?v=ba4fbc3d",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-0b6b498c58",
