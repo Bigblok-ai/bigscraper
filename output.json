@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "thapcam-203baf7a06",
-          "name": "Libertad FC vs Sociedad Deportiva Aucas | 07:00 02/05",
+          "name": "Libertad FC vs Sociedad Deportiva Aucas",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,7 +73,7 @@
             "team_b": "Sociedad Deportiva Aucas",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7d6d40e3a8efd6078a295754093d2f19.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7770d591cd0855fc12e5fbfe80f83221.png",
-            "time": "07:00 02/05",
+            "time": "",
             "blv": "BLV Siêu Quậy",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -300,59 +300,6 @@
           }
         },
         {
-          "id": "thapcam-3c158b34ca",
-          "name": "Jeju SK FC vs Jeonbuk Hyundai Motors | 14:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3c158b34ca",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3c158b34ca",
-                  "name": "Jeju SK FC vs Jeonbuk Hyundai Motors",
-                  "streams": [
-                    {
-                      "id": "st-3c158b34ca",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Jeju SK FC",
-            "team_b": "Jeonbuk Hyundai Motors",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2d2abe914435bb9b7140cf2154c50de9.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ee2117f952745163fecfa4b74a6a2bea.png",
-            "time": "14:30 02/05",
-            "blv": "BLV Người Nhớt",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3c158b34ca_ea066a8e.png?v=ea066a8e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-520107d08a",
           "name": "Incheon United Club vs Gangwon Football Club | 14:30 02/05",
           "type": "single",
@@ -401,6 +348,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-520107d08a_8431b4c5.png?v=8431b4c5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-3c158b34ca",
+          "name": "Jeju SK FC vs Jeonbuk Hyundai Motors | 14:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3c158b34ca",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-3c158b34ca",
+                  "name": "Jeju SK FC vs Jeonbuk Hyundai Motors",
+                  "streams": [
+                    {
+                      "id": "st-3c158b34ca",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Jeju SK FC",
+            "team_b": "Jeonbuk Hyundai Motors",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2d2abe914435bb9b7140cf2154c50de9.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ee2117f952745163fecfa4b74a6a2bea.png",
+            "time": "14:30 02/05",
+            "blv": "BLV Người Nhớt",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3c158b34ca_ea066a8e.png?v=ea066a8e",
             "width": 1600,
             "height": 1200
           }
@@ -618,59 +618,6 @@
           }
         },
         {
-          "id": "thapcam-8ca2bbaa49",
-          "name": "XM Hai Phong FC vs Cong An Ha Noi FC | 18:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8ca2bbaa49",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-8ca2bbaa49",
-                  "name": "XM Hai Phong FC vs Cong An Ha Noi FC",
-                  "streams": [
-                    {
-                      "id": "st-8ca2bbaa49",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "XM Hai Phong FC",
-            "team_b": "Cong An Ha Noi FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fed18f35e0d187fb4c812f24a97c3e6a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f3dde7370cf875e4e657b4331b1b4a31.png",
-            "time": "18:00 02/05",
-            "blv": "BLV Chân Đất",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8ca2bbaa49_a272c7f7.png?v=a272c7f7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-89c3ff3599",
           "name": "Becamex Ho Chi Minh City vs CLB Thanh Hoa | 18:00 02/05",
           "type": "single",
@@ -724,6 +671,59 @@
           }
         },
         {
+          "id": "thapcam-8ca2bbaa49",
+          "name": "XM Hai Phong FC vs Cong An Ha Noi FC | 18:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8ca2bbaa49",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-8ca2bbaa49",
+                  "name": "XM Hai Phong FC vs Cong An Ha Noi FC",
+                  "streams": [
+                    {
+                      "id": "st-8ca2bbaa49",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "XM Hai Phong FC",
+            "team_b": "Cong An Ha Noi FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fed18f35e0d187fb4c812f24a97c3e6a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f3dde7370cf875e4e657b4331b1b4a31.png",
+            "time": "18:00 02/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8ca2bbaa49_a272c7f7.png?v=a272c7f7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-6b4d5b9c4b",
           "name": "PVF CAND vs Hong Linh Ha Tinh | 18:00 02/05",
           "type": "single",
@@ -772,59 +772,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6b4d5b9c4b_2a76048f.png?v=2a76048f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-5bd8fcbbc3",
-          "name": "North Korea Women U17 vs Chinese Taipei U17 Women | 18:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5bd8fcbbc3",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-5bd8fcbbc3",
-                  "name": "North Korea Women U17 vs Chinese Taipei U17 Women",
-                  "streams": [
-                    {
-                      "id": "st-5bd8fcbbc3",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "North Korea Women U17",
-            "team_b": "Chinese Taipei U17 Women",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
-            "time": "18:30 02/05",
-            "blv": "BLV Người Nhớt",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5bd8fcbbc3_7d0996dc.png?v=7d0996dc",
             "width": 1600,
             "height": 1200
           }
@@ -989,6 +936,59 @@
           }
         },
         {
+          "id": "thapcam-5bd8fcbbc3",
+          "name": "North Korea Women U17 vs Chinese Taipei U17 Women | 18:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5bd8fcbbc3",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-5bd8fcbbc3",
+                  "name": "North Korea Women U17 vs Chinese Taipei U17 Women",
+                  "streams": [
+                    {
+                      "id": "st-5bd8fcbbc3",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "North Korea Women U17",
+            "team_b": "Chinese Taipei U17 Women",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
+            "time": "18:30 02/05",
+            "blv": "BLV Người Nhớt",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5bd8fcbbc3_7d0996dc.png?v=7d0996dc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-bdc49c7455",
           "name": "Villarreal CF vs Levante | 19:00 02/05",
           "type": "single",
@@ -1143,59 +1143,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a3cc42e359_18bc99d8.png?v=18bc99d8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-38fccbf622",
-          "name": "TSG Hoffenheim vs VfB Stuttgart | 20:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-38fccbf622",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-38fccbf622",
-                  "name": "TSG Hoffenheim vs VfB Stuttgart",
-                  "streams": [
-                    {
-                      "id": "st-38fccbf622",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "TSG Hoffenheim",
-            "team_b": "VfB Stuttgart",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/72ab7862a610b350aef7650ec0e06e06.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bfdd500484330d63a723cbc396df762c.png",
-            "time": "20:30 02/05",
-            "blv": "BLV Người Cò",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-38fccbf622_c0cbc303.png?v=c0cbc303",
             "width": 1600,
             "height": 1200
           }
@@ -1413,6 +1360,59 @@
           }
         },
         {
+          "id": "thapcam-38fccbf622",
+          "name": "TSG Hoffenheim vs VfB Stuttgart | 20:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-38fccbf622",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-38fccbf622",
+                  "name": "TSG Hoffenheim vs VfB Stuttgart",
+                  "streams": [
+                    {
+                      "id": "st-38fccbf622",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "TSG Hoffenheim",
+            "team_b": "VfB Stuttgart",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/72ab7862a610b350aef7650ec0e06e06.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bfdd500484330d63a723cbc396df762c.png",
+            "time": "20:30 02/05",
+            "blv": "BLV Người Cò",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-38fccbf622_c0cbc303.png?v=c0cbc303",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-a868a7af44",
           "name": "Brentford vs West Ham United | 21:00 02/05",
           "type": "single",
@@ -1625,59 +1625,6 @@
           }
         },
         {
-          "id": "thapcam-92ec2e6278",
-          "name": "Moreirense vs CF Estrela Amadora SAD | 21:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-92ec2e6278",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-92ec2e6278",
-                  "name": "Moreirense vs CF Estrela Amadora SAD",
-                  "streams": [
-                    {
-                      "id": "st-92ec2e6278",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "Moreirense",
-            "team_b": "CF Estrela Amadora SAD",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ee5b1bcc98e7232350988a477974fb26.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/606eca9e363f1c1e62542f8b23fdc71a.png",
-            "time": "21:30 02/05",
-            "blv": "BLV Người Nhớt",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-92ec2e6278_59748a5b.png?v=59748a5b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-cf31c98418",
           "name": "FC Arouca vs Santa Clara | 21:30 02/05",
           "type": "single",
@@ -1726,6 +1673,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cf31c98418_1a21989d.png?v=1a21989d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-92ec2e6278",
+          "name": "Moreirense vs CF Estrela Amadora SAD | 21:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-92ec2e6278",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-92ec2e6278",
+                  "name": "Moreirense vs CF Estrela Amadora SAD",
+                  "streams": [
+                    {
+                      "id": "st-92ec2e6278",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Portuguese Primera Liga",
+            "team_a": "Moreirense",
+            "team_b": "CF Estrela Amadora SAD",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ee5b1bcc98e7232350988a477974fb26.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/606eca9e363f1c1e62542f8b23fdc71a.png",
+            "time": "21:30 02/05",
+            "blv": "BLV Người Nhớt",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-92ec2e6278_59748a5b.png?v=59748a5b",
             "width": 1600,
             "height": 1200
           }
@@ -2102,59 +2102,6 @@
           }
         },
         {
-          "id": "thapcam-faf15634a4",
-          "name": "FC Famalicao vs Benfica | 00:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-faf15634a4",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-faf15634a4",
-                  "name": "FC Famalicao vs Benfica",
-                  "streams": [
-                    {
-                      "id": "st-faf15634a4",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "FC Famalicao",
-            "team_b": "Benfica",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/abd59f62f69ef9f59a8121c3baadd882.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/78360445c12fa3fdc8b489486fff4eb6.png",
-            "time": "00:00 03/05",
-            "blv": "BLV. Người Páo",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-faf15634a4_68eb4e73.png?v=68eb4e73",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-fcda422695",
           "name": "Metz vs AS Monaco | 00:00 03/05",
           "type": "single",
@@ -2309,6 +2256,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e6704b540b_43ad829e.png?v=43ad829e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-faf15634a4",
+          "name": "FC Famalicao vs Benfica | 00:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-faf15634a4",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-faf15634a4",
+                  "name": "FC Famalicao vs Benfica",
+                  "streams": [
+                    {
+                      "id": "st-faf15634a4",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Portuguese Primera Liga",
+            "team_a": "FC Famalicao",
+            "team_b": "Benfica",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/abd59f62f69ef9f59a8121c3baadd882.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/78360445c12fa3fdc8b489486fff4eb6.png",
+            "time": "00:00 03/05",
+            "blv": "BLV. Người Páo",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-faf15634a4_68eb4e73.png?v=68eb4e73",
             "width": 1600,
             "height": 1200
           }
