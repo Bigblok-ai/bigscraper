@@ -11,11 +11,82 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (10 LIVE)",
+      "name": "⚽ Bóng Đá (11 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-a868a7af44",
+          "name": "Brentford vs West Ham United | 21:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a868a7af44",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-a868a7af44",
+                  "name": "Brentford vs West Ham United",
+                  "streams": [
+                    {
+                      "id": "st-a868a7af44",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-03e98278a6",
+                          "name": "BLV Cá Mập",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f60229137e4_154/index.m3u8?expire=1778334889&sign=e47db97a51455e8e2723d2a91010d8a0",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Brentford",
+            "team_b": "West Ham United",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/60f1c7788be3148a370dbf59f914abfe.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d71ebda5c7fbca9093a1c2978c46f619.png",
+            "time": "21:00 02/05",
+            "blv": "BLV Cá Mập",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a868a7af44_5bcc736e.png?v=5bcc736e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-e550bf821b",
           "name": "Newcastle United vs Brighton Hove Albion | 21:00 02/05",
