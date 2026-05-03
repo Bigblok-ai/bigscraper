@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-3aa1a440c5",
-          "name": "Aston Villa vs Tottenham Hotspur",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3aa1a440c5",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3aa1a440c5",
-                  "name": "Aston Villa vs Tottenham Hotspur",
-                  "streams": [
-                    {
-                      "id": "st-3aa1a440c5",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8c38345ec2",
-                          "name": "BLV Người Rơm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f78838137e4_16125/index.m3u8?expire=1778434744&sign=471e9fc5f61037ee56c3796163ef9254",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e4ed74ac29",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f785e7137e4_26/index.m3u8?expire=1778434151&sign=37a370b7c9c30490da9c3ccc8fffbecf",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Aston Villa",
-            "team_b": "Tottenham Hotspur",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c32d6a906083118cac2cb796edaab3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8b22ab4041e666b996a2d96f20dea707.png",
-            "time": "",
-            "blv": "BLV Người Rơm",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3aa1a440c5_82dd616e_20260504.png?v=82dd616e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-854256a56b",
           "name": "Al Qadsiah vs Al Nassr FC",
