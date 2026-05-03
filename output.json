@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (9 LIVE)",
+      "name": "⚽ Bóng Đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-a005e5f1ac",
-          "name": "Getafe vs Rayo Vallecano | 21:15 03/05",
+          "id": "thapcam-569622d457",
+          "name": "Manchester United vs Liverpool | 21:30 03/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,40 @@
           ],
           "sources": [
             {
-              "id": "src-a005e5f1ac",
+              "id": "src-569622d457",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-a005e5f1ac",
-                  "name": "Getafe vs Rayo Vallecano",
+                  "id": "ct-569622d457",
+                  "name": "Manchester United vs Liverpool",
                   "streams": [
                     {
-                      "id": "st-a005e5f1ac",
+                      "id": "st-569622d457",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-2e115df6a8",
-                          "name": "BLV Người Nhện",
+                          "id": "lnk-748dfa5aeb",
+                          "name": "BLV Cá Mập",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f7436c51ddc_32/index.m3u8?expire=1778417132&sign=a807fd0a54c679a0effa9fb78b222dfd",
+                          "url": "https://cdn-hls.phogatv8.com/live/69f7549d51ddc_154/index.m3u8?expire=1778421533&sign=f4dae21002c31e3028e643613b14340a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-3b2bcfbe60",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f7553f137e4_151/index.m3u8?expire=1778421695&sign=7fb9cff7ceec513af031ebae67c06e08",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,13 +85,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Getafe",
-            "team_b": "Rayo Vallecano",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/36bf5bf0c8fdf08c1270124808f060e1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5005d8feab109ce64e40beb98073cc1f.png",
-            "time": "21:15 03/05",
-            "blv": "BLV Người Nhện",
+            "league": "English Premier League",
+            "team_a": "Manchester United",
+            "team_b": "Liverpool",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d39ce586fd7278342dde33b3090b3f75.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1cb3d08adac0e2dc1c4f10429d055bfe.png",
+            "time": "21:30 03/05",
+            "blv": "BLV Cá Mập",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -82,14 +99,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a005e5f1ac_f60c3811.png?v=f60c3811",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-569622d457_cf369c82.png?v=cf369c82",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "thapcam-b95b35edb1",
-          "name": "The Cong Viettel vs Ninh Binh FC",
+          "id": "thapcam-f8c6df390e",
+          "name": "Casa Pia AC vs CD Tondela | 21:30 03/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -103,23 +120,23 @@
           ],
           "sources": [
             {
-              "id": "src-b95b35edb1",
+              "id": "src-f8c6df390e",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-b95b35edb1",
-                  "name": "The Cong Viettel vs Ninh Binh FC",
+                  "id": "ct-f8c6df390e",
+                  "name": "Casa Pia AC vs CD Tondela",
                   "streams": [
                     {
-                      "id": "st-b95b35edb1",
+                      "id": "st-f8c6df390e",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-8dfa5a8cdc",
-                          "name": "BLV Người Ngố",
+                          "id": "lnk-286bc70a4d",
+                          "name": "BLV Người Nhớt",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f734de51ddc_14/index.m3u8?expire=1778413406&sign=6f873d74efc5450a52753c3149f1e610",
+                          "url": "https://cdn-hls.phogatv8.com/live/69f74c82137e4_14232/index.m3u8?expire=1778419458&sign=fa8f7d9fb032cc69e5809d8e5777782b",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -139,13 +156,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "The Cong Viettel",
-            "team_b": "Ninh Binh FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/840e2d7165cf2a34ec6c65a1fd9b58a9.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5452226660be0829fdb40967dd4b0b77.png",
-            "time": "",
-            "blv": "BLV Người Ngố",
+            "league": "Portuguese Primera Liga",
+            "team_a": "Casa Pia AC",
+            "team_b": "CD Tondela",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0ee6b6e8c21275bb7a79e64c4baf90c1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4640a8c2881298c36b5c67927ce820f8.png",
+            "time": "21:30 03/05",
+            "blv": "BLV Người Nhớt",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -153,7 +170,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b95b35edb1_bc9bd995.png?v=bc9bd995",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f8c6df390e_d5f0ff70.png?v=d5f0ff70",
             "width": 1600,
             "height": 1200
           }
@@ -673,32 +690,50 @@
           }
         },
         {
-          "id": "thapcam-569622d457",
-          "name": "Manchester United vs Liverpool | 21:30 03/05",
+          "id": "thapcam-a005e5f1ac",
+          "name": "Getafe vs Rayo Vallecano",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-569622d457",
+              "id": "src-a005e5f1ac",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-569622d457",
-                  "name": "Manchester United vs Liverpool",
+                  "id": "ct-a005e5f1ac",
+                  "name": "Getafe vs Rayo Vallecano",
                   "streams": [
                     {
-                      "id": "st-569622d457",
+                      "id": "st-a005e5f1ac",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2e115df6a8",
+                          "name": "BLV Người Nhện",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f7436c51ddc_32/index.m3u8?expire=1778417132&sign=a807fd0a54c679a0effa9fb78b222dfd",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -706,74 +741,21 @@
             }
           ],
           "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Manchester United",
-            "team_b": "Liverpool",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d39ce586fd7278342dde33b3090b3f75.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1cb3d08adac0e2dc1c4f10429d055bfe.png",
-            "time": "21:30 03/05",
-            "blv": "BLV Cá Mập",
-            "is_live": false,
+            "league": "Spanish La Liga",
+            "team_a": "Getafe",
+            "team_b": "Rayo Vallecano",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/36bf5bf0c8fdf08c1270124808f060e1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5005d8feab109ce64e40beb98073cc1f.png",
+            "time": "",
+            "blv": "BLV Người Nhện",
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-569622d457_cf369c82.png?v=cf369c82",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-f8c6df390e",
-          "name": "Casa Pia AC vs CD Tondela | 21:30 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f8c6df390e",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f8c6df390e",
-                  "name": "Casa Pia AC vs CD Tondela",
-                  "streams": [
-                    {
-                      "id": "st-f8c6df390e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "Casa Pia AC",
-            "team_b": "CD Tondela",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0ee6b6e8c21275bb7a79e64c4baf90c1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4640a8c2881298c36b5c67927ce820f8.png",
-            "time": "21:30 03/05",
-            "blv": "BLV Người Nhớt",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f8c6df390e_d5f0ff70.png?v=d5f0ff70",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a005e5f1ac_f60c3811.png?v=f60c3811",
             "width": 1600,
             "height": 1200
           }
