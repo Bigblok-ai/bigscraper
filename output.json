@@ -11,153 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-92175c2d4a",
-          "name": "SC Freiburg vs VfL Wolfsburg | 00:30 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-92175c2d4a",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-92175c2d4a",
-                  "name": "SC Freiburg vs VfL Wolfsburg",
-                  "streams": [
-                    {
-                      "id": "st-92175c2d4a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-24d401aed5",
-                          "name": "BLV Người Lạ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f77c87137e4_11241/index.m3u8?expire=1778431751&sign=746868857044c2d8e99f8959a335614b",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "SC Freiburg",
-            "team_b": "VfL Wolfsburg",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6508946c9a5fe22a8784b905b25e8c79.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/03645e9c1d7fd2c48705622f52fd901e.png",
-            "time": "00:30 04/05",
-            "blv": "BLV Người Lạ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-92175c2d4a_0e81365a.png?v=0e81365a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-182cfa250b",
-          "name": "Borussia Monchengladbach vs Borussia Dortmund",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-182cfa250b",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-182cfa250b",
-                  "name": "Borussia Monchengladbach vs Borussia Dortmund",
-                  "streams": [
-                    {
-                      "id": "st-182cfa250b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0e151d5dca",
-                          "name": "BLV Lềnh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f7623b137e4_1549/index.m3u8?expire=1778425019&sign=0826d8c534925acc66c12ec5d68046a8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Borussia Monchengladbach",
-            "team_b": "Borussia Dortmund",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/89cdadf6cf1eb6f8d2507de1e01f806c.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bbfacbdbe67705172c6414d7e9c21b58.png",
-            "time": "",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-182cfa250b_75198a7a.png?v=75198a7a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-576e14fff1",
           "name": "Juventus vs Hellas Verona",
@@ -438,6 +296,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b385d804a6_4cac9329.png?v=4cac9329",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-92175c2d4a",
+          "name": "SC Freiburg vs VfL Wolfsburg",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-92175c2d4a",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-92175c2d4a",
+                  "name": "SC Freiburg vs VfL Wolfsburg",
+                  "streams": [
+                    {
+                      "id": "st-92175c2d4a",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-24d401aed5",
+                          "name": "BLV Người Lạ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f77c87137e4_11241/index.m3u8?expire=1778431751&sign=746868857044c2d8e99f8959a335614b",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "SC Freiburg",
+            "team_b": "VfL Wolfsburg",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6508946c9a5fe22a8784b905b25e8c79.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/03645e9c1d7fd2c48705622f52fd901e.png",
+            "time": "",
+            "blv": "BLV Người Lạ",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-92175c2d4a_0e81365a.png?v=0e81365a",
             "width": 1600,
             "height": 1200
           }
