@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-6c87e4f239",
-          "name": "Bologna vs Cagliari",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6c87e4f239",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6c87e4f239",
-                  "name": "Bologna vs Cagliari",
-                  "streams": [
-                    {
-                      "id": "st-6c87e4f239",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0363170f63",
-                          "name": "BLV Lềnh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f71c3851ddc_1549/index.m3u8?expire=1778407096&sign=7440bf0214c070c4dbbf90ad5389eae8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Bologna",
-            "team_b": "Cagliari",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c31f023a2cc8adbcc3e24344d81b9609.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/dba65c184e03c860ed919ce192b86c5e.png",
-            "time": "",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6c87e4f239_a934c61b.png?v=a934c61b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-f3871a39e4",
           "name": "Song Lam Nghe An vs Hoang Anh Gia Lai",
