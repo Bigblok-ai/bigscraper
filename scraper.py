@@ -172,7 +172,8 @@ def make_thumbnail(match, channel_id):
     os.makedirs(THUMBS_DIR, exist_ok=True)
     cache_key = match.get("logo_a", "") + match.get("logo_b", "") + THUMB_VERSION
     logo_hash = hashlib.md5(cache_key.encode()).hexdigest()[:8]
-    out_path  = f"{THUMBS_DIR}/{channel_id}_{logo_hash}.png"
+    date_str  = now_vn().strftime("%Y%m%d")           # ← thêm ngày vào tên
+    out_path  = f"{THUMBS_DIR}/{channel_id}_{logo_hash}_{date_str}.png"
 
     if os.path.exists(out_path):
         return out_path
@@ -318,6 +319,39 @@ def make_thumbnail(match, channel_id):
 
     bg.save(out_path, "PNG", optimize=True)
     return out_path
+
+def cleanup_old_thumbs(days: int = 3):
+    if not os.path.exists(THUMBS_DIR):
+        return
+    cutoff = now_vn() - timedelta(days=days)
+    removed = 0
+    for fname in os.listdir(THUMBS_DIR):
+        if not fname.endswith(".png"):
+            continue
+        # Lấy ngày từ tên file: xxx_xxxxxxxx_20250425.png
+        m = re.search(r'_(\d{8})\.png$', fname)
+        if not m:
+            fpath = os.path.join(THUMBS_DIR, fname)
+            try:
+                os.remove(fpath)
+                removed += 1
+            except Exception as e:
+                print(f"  Loi xoa thumb {fname}: {e}")
+            continue
+        try:
+            file_date = datetime.strptime(m.group(1), "%Y%m%d").replace(tzinfo=VN_TZ)
+        except ValueError:
+            continue
+        if file_date < cutoff:
+            fpath = os.path.join(THUMBS_DIR, fname)
+            try:
+                os.remove(fpath)
+                removed += 1
+            except Exception as e:
+                print(f"  Loi xoa thumb {fname}: {e}")
+    if removed:
+        print(f"Da xoa {removed} thumbnail cu (>{days} ngay)")
+
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -597,7 +631,8 @@ def build_channel(match, streams, thumb_url=""):
 
 def main():
     os.makedirs(THUMBS_DIR, exist_ok=True)
-    print(f"Gio VN hien tai: {now_vn().strftime('%H:%M %d/%m/%Y')}")
+    cleanup_old_thumbs(days=3)
+    print(f"Gio VN hien tai : {now_vn().strftime('%H:%M %d/%m/%Y')}")
     print("Lay danh sach tran tu thapcam24h...")
     matches = get_matches()
 
