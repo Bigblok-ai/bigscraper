@@ -2190,6 +2190,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-c432c3e0be",
+          "name": "Persijap Jepara vs Persija Jakarta | 19:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c432c3e0be",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-c432c3e0be",
+                  "name": "Persijap Jepara vs Persija Jakarta",
+                  "streams": [
+                    {
+                      "id": "st-c432c3e0be",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indonesian Liga 1",
+            "team_a": "Persijap Jepara",
+            "team_b": "Persija Jakarta",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f4bd932b7d276a93696f4491f334c932.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/10db29eabad13994d9729d8983f8d21a.png",
+            "time": "19:00 04/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c432c3e0be_11fb0c4f.png?v=11fb0c4f",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
