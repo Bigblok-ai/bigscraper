@@ -2299,10 +2299,27 @@
                       "stream_links": [
                         {
                           "id": "lnk-fd6bd4c4b2",
-                          "name": "BLV Người Chớp",
+                          "name": "Sóng Sạch 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.phogatv8.com/live/69f7763b51ddc_19272/index.m3u8?expire=1778430139&sign=48c946e45d03050680d8e4ffdafa0102",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-598754fc0f",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f77f6d137e4_2/index.m3u8?expire=1778432493&sign=aa216259e1374320ccd8918882698c19",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2328,7 +2345,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-dev/categories/2025/03/29/ef1a59278d38aaf359a16a80e50f5bec.png",
             "logo_b": "",
             "time": "23:40 03/05",
-            "blv": "BLV Người Chớp",
+            "blv": "Sóng Sạch 1",
             "is_live": true,
             "cate_name": "Đua xe F1"
           },
