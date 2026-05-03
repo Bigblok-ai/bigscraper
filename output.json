@@ -11,11 +11,224 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-c8c9a74d59",
+          "name": "AJ Auxerre vs Angers SCO | 22:15 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c8c9a74d59",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-c8c9a74d59",
+                  "name": "AJ Auxerre vs Angers SCO",
+                  "streams": [
+                    {
+                      "id": "st-c8c9a74d59",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1ab7e9469c",
+                          "name": "BLV Người Băng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f76361137e4_11/index.m3u8?expire=1778425313&sign=5a2836148602e574c3cd1e1f06dbd655",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "AJ Auxerre",
+            "team_b": "Angers SCO",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8c03e57af9e8bec20a3ed2f5aaddf78b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/526150064f4f983d670deb33fa6385b6.png",
+            "time": "22:15 03/05",
+            "blv": "BLV Người Băng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c8c9a74d59_a85291cc.png?v=a85291cc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-371ac5c83b",
+          "name": "Paris FC vs Stade Brestois 29 | 22:15 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-371ac5c83b",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-371ac5c83b",
+                  "name": "Paris FC vs Stade Brestois 29",
+                  "streams": [
+                    {
+                      "id": "st-371ac5c83b",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cf11d84463",
+                          "name": "BLV Siêu Quậy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f76193137e4_26/index.m3u8?expire=1778424851&sign=50b7941aafbe5e941ed095ea4d110eb6",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "Paris FC",
+            "team_b": "Stade Brestois 29",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/83a982f8219a768e7cd29d1ac765b199.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bb7e6346a3860008e4ff266ba3b655e8.png",
+            "time": "22:15 03/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-371ac5c83b_edd81d55.png?v=edd81d55",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-d261d8b269",
+          "name": "RC Strasbourg Alsace vs Toulouse FC | 22:15 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d261d8b269",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d261d8b269",
+                  "name": "RC Strasbourg Alsace vs Toulouse FC",
+                  "streams": [
+                    {
+                      "id": "st-d261d8b269",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c0a8a24201",
+                          "name": "BLV Người Cò",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f76241137e4_14559/index.m3u8?expire=1778425025&sign=f39db92861746d9964c7dbbd92cd27da",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "RC Strasbourg Alsace",
+            "team_b": "Toulouse FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/998db478bf7c06d5817bf846987a0d0a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2947fe2f42551a5b7eccca7fc948f879.png",
+            "time": "22:15 03/05",
+            "blv": "BLV Người Cò",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d261d8b269_bbd3da1b.png?v=bbd3da1b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-77b3bd65ca",
           "name": "FC St. Pauli vs 1. FSV Mainz 05",
@@ -384,165 +597,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f8c6df390e_d5f0ff70.png?v=d5f0ff70",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-c8c9a74d59",
-          "name": "AJ Auxerre vs Angers SCO | 22:15 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c8c9a74d59",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-c8c9a74d59",
-                  "name": "AJ Auxerre vs Angers SCO",
-                  "streams": [
-                    {
-                      "id": "st-c8c9a74d59",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "AJ Auxerre",
-            "team_b": "Angers SCO",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8c03e57af9e8bec20a3ed2f5aaddf78b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/526150064f4f983d670deb33fa6385b6.png",
-            "time": "22:15 03/05",
-            "blv": "BLV Người Băng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c8c9a74d59_a85291cc.png?v=a85291cc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-371ac5c83b",
-          "name": "Paris FC vs Stade Brestois 29 | 22:15 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-371ac5c83b",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-371ac5c83b",
-                  "name": "Paris FC vs Stade Brestois 29",
-                  "streams": [
-                    {
-                      "id": "st-371ac5c83b",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "Paris FC",
-            "team_b": "Stade Brestois 29",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/83a982f8219a768e7cd29d1ac765b199.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bb7e6346a3860008e4ff266ba3b655e8.png",
-            "time": "22:15 03/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-371ac5c83b_edd81d55.png?v=edd81d55",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-d261d8b269",
-          "name": "RC Strasbourg Alsace vs Toulouse FC | 22:15 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d261d8b269",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d261d8b269",
-                  "name": "RC Strasbourg Alsace vs Toulouse FC",
-                  "streams": [
-                    {
-                      "id": "st-d261d8b269",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "RC Strasbourg Alsace",
-            "team_b": "Toulouse FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/998db478bf7c06d5817bf846987a0d0a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2947fe2f42551a5b7eccca7fc948f879.png",
-            "time": "22:15 03/05",
-            "blv": "BLV Người Cò",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d261d8b269_bbd3da1b.png?v=bbd3da1b",
             "width": 1600,
             "height": 1200
           }
