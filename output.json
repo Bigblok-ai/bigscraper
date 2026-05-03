@@ -2212,7 +2212,7 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2225,10 +2225,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2243,7 +2243,42 @@
                     {
                       "id": "st-db2dcf6cf8",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-30ac7757fb",
+                          "name": "BLV Người Sói",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f75a7051ddc_742/index.m3u8?expire=1778423024&sign=ab6454a8c6174c03952a468021bf5f82",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9a467605e0",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f75b7c137e4_9657/index.m3u8?expire=1778423292&sign=0957827d14f5fc5dbc2d3854c68e86ec",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2258,7 +2293,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/Fs2AoS8fSPu9qB9HdwSDwQVAICOz",
             "time": "22:00 03/05",
             "blv": "BLV Người Sói",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Tennis"
           },
           "image": {
