@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-4155e7f668",
-          "name": "New York City FC vs DC United",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4155e7f668",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-4155e7f668",
-                  "name": "New York City FC vs DC United",
-                  "streams": [
-                    {
-                      "id": "st-4155e7f668",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5bcafaafb5",
-                          "name": "BLV Người Băng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f795cd51ddc_11/index.m3u8?expire=1778438221&sign=c1e3880a6d22002bd1a41cfd55849351",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United States Major League Soccer",
-            "team_a": "New York City FC",
-            "team_b": "DC United",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f5bbc8573e1b019164b11b13c49598bd.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2d846f3eea3e2d5067b26de498f83d94.png",
-            "time": "",
-            "blv": "BLV Người Băng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-4155e7f668_3b046b62_20260504.png?v=3b046b62",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-3a9c50409f",
           "name": "Rio Ave vs Gil Vicente",
