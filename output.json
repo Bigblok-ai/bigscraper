@@ -2159,82 +2159,11 @@
     },
     {
       "id": "grp-5cf95d73f3",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-81dfc4628a",
-          "name": "Conegliano vs Scandicci | 21:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-81dfc4628a",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-81dfc4628a",
-                  "name": "Conegliano vs Scandicci",
-                  "streams": [
-                    {
-                      "id": "st-81dfc4628a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f78ea74316",
-                          "name": "BLV Người Điên",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f74cfc51ddc_1984/index.m3u8?expire=1778419580&sign=6e772ff21f92e203acd1894f8dc1de63",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CEV CHAMPIONS LEAGUE 2026",
-            "team_a": "Conegliano",
-            "team_b": "Scandicci",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4bcb233c8d6db4939644b54fd1ebc4dc.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f7b90b73eae5e66052931b11e4ff0b6b.png",
-            "time": "21:00 03/05",
-            "blv": "BLV Người Điên",
-            "is_live": true,
-            "cate_name": "Bóng chuyền"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-81dfc4628a_e21cbf2b.png?v=e21cbf2b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-7841485cc6",
           "name": "Vakifbank W vs Eczacibasi W | 00:00 04/05",
