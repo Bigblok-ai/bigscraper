@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,77 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6c87e4f239_a934c61b.png?v=a934c61b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-a9e6194e84",
-          "name": "Arda vs Cherno More Varna",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a9e6194e84",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-a9e6194e84",
-                  "name": "Arda vs Cherno More Varna",
-                  "streams": [
-                    {
-                      "id": "st-a9e6194e84",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-203ca49f4d",
-                          "name": "BLV Người Điên",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f71cbb51ddc_1984/index.m3u8?expire=1778407227&sign=7df0b3a243e36f20b118680767c032ec",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bulgarian First League",
-            "team_a": "Arda",
-            "team_b": "Cherno More Varna",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cab5766b591c9836e3095d2471ad6e11.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6356dcedfefdbc98de34cce75214de28.png",
-            "time": "",
-            "blv": "BLV Người Điên",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a9e6194e84_5291e83a.png?v=5291e83a",
             "width": 1600,
             "height": 1200
           }
