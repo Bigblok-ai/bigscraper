@@ -318,77 +318,6 @@
           }
         },
         {
-          "id": "thapcam-d261d8b269",
-          "name": "RC Strasbourg Alsace vs Toulouse FC",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d261d8b269",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d261d8b269",
-                  "name": "RC Strasbourg Alsace vs Toulouse FC",
-                  "streams": [
-                    {
-                      "id": "st-d261d8b269",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c0a8a24201",
-                          "name": "BLV Người Cò",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f76241137e4_14559/index.m3u8?expire=1778425025&sign=f39db92861746d9964c7dbbd92cd27da",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "RC Strasbourg Alsace",
-            "team_b": "Toulouse FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/998db478bf7c06d5817bf846987a0d0a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2947fe2f42551a5b7eccca7fc948f879.png",
-            "time": "",
-            "blv": "BLV Người Cò",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d261d8b269_bbd3da1b.png?v=bbd3da1b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-371ac5c83b",
           "name": "Paris FC vs Stade Brestois 29",
           "type": "single",
@@ -455,6 +384,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-371ac5c83b_edd81d55.png?v=edd81d55",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-d261d8b269",
+          "name": "RC Strasbourg Alsace vs Toulouse FC",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d261d8b269",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d261d8b269",
+                  "name": "RC Strasbourg Alsace vs Toulouse FC",
+                  "streams": [
+                    {
+                      "id": "st-d261d8b269",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c0a8a24201",
+                          "name": "BLV Người Cò",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f76241137e4_14559/index.m3u8?expire=1778425025&sign=f39db92861746d9964c7dbbd92cd27da",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "RC Strasbourg Alsace",
+            "team_b": "Toulouse FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/998db478bf7c06d5817bf846987a0d0a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2947fe2f42551a5b7eccca7fc948f879.png",
+            "time": "",
+            "blv": "BLV Người Cò",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d261d8b269_bbd3da1b.png?v=bbd3da1b",
             "width": 1600,
             "height": 1200
           }
