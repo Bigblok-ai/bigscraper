@@ -673,59 +673,6 @@
           }
         },
         {
-          "id": "thapcam-ef437d7505",
-          "name": "ZED FC vs El Gounah | 21:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ef437d7505",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-ef437d7505",
-                  "name": "ZED FC vs El Gounah",
-                  "streams": [
-                    {
-                      "id": "st-ef437d7505",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Egyptian Premier League",
-            "team_a": "ZED FC",
-            "team_b": "El Gounah",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a08754ab96c283bacbf148154a50c7fc.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/35e665fa4086e183fda582249d625c2b.png",
-            "time": "21:00 03/05",
-            "blv": "BLV Người Cỏ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ef437d7505_13e1f08c.png?v=13e1f08c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-a005e5f1ac",
           "name": "Getafe vs Rayo Vallecano | 21:15 03/05",
           "type": "single",
@@ -2194,7 +2141,7 @@
     },
     {
       "id": "grp-5cf95d73f3",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2207,10 +2154,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2225,7 +2172,25 @@
                     {
                       "id": "st-81dfc4628a",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f78ea74316",
+                          "name": "BLV Người Điên",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f74cfc51ddc_1984/index.m3u8?expire=1778419580&sign=6e772ff21f92e203acd1894f8dc1de63",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2240,7 +2205,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f7b90b73eae5e66052931b11e4ff0b6b.png",
             "time": "21:00 03/05",
             "blv": "BLV Người Điên",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng chuyền"
           },
           "image": {
