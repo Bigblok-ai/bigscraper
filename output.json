@@ -1292,82 +1292,11 @@
     },
     {
       "id": "grp-d721cd64dc",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-8f343c029f",
-          "name": "Detroit Pistons vs Orlando Magic | 02:30 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8f343c029f",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-8f343c029f",
-                  "name": "Detroit Pistons vs Orlando Magic",
-                  "streams": [
-                    {
-                      "id": "st-8f343c029f",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-38d9e624cc",
-                          "name": "BLV Người Hầu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f79e4051ddc_9657/index.m3u8?expire=1778440384&sign=ad8096cd5b1b47655bb61b3605f83255",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Detroit Pistons",
-            "team_b": "Orlando Magic",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3f82122a48e98eaccc5e71307eba801a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0dc24d08ef0b5584e0b70f967db64b36.png",
-            "time": "02:30 04/05",
-            "blv": "BLV Người Hầu",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8f343c029f_ac178c9e_20260504.png?v=ac178c9e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-b7bb7c0f2f",
           "name": "Cleveland Cavaliers vs Toronto Raptors | 06:30 04/05",
