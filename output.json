@@ -17,77 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-064ee272a5",
-          "name": "New York City FC vs DC United | 02:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-064ee272a5",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-064ee272a5",
-                  "name": "New York City FC vs DC United",
-                  "streams": [
-                    {
-                      "id": "st-064ee272a5",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5bcafaafb5",
-                          "name": "BLV Người Băng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f795cd51ddc_11/index.m3u8?expire=1778438221&sign=c1e3880a6d22002bd1a41cfd55849351",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United States Major League Soccer",
-            "team_a": "New York City FC",
-            "team_b": "DC United",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f5bbc8573e1b019164b11b13c49598bd.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2d846f3eea3e2d5067b26de498f83d94.png",
-            "time": "02:00 04/05",
-            "blv": "BLV Người Băng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-064ee272a5_3b046b62.png?v=3b046b62",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-92175c2d4a",
           "name": "SC Freiburg vs VfL Wolfsburg",
           "type": "single",
@@ -648,6 +577,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c9b7dd76b9_ccb274f8.png?v=ccb274f8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-4155e7f668",
+          "name": "New York City FC vs DC United",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4155e7f668",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-4155e7f668",
+                  "name": "New York City FC vs DC United",
+                  "streams": [
+                    {
+                      "id": "st-4155e7f668",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5bcafaafb5",
+                          "name": "BLV Người Băng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f795cd51ddc_11/index.m3u8?expire=1778438221&sign=c1e3880a6d22002bd1a41cfd55849351",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "United States Major League Soccer",
+            "team_a": "New York City FC",
+            "team_b": "DC United",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f5bbc8573e1b019164b11b13c49598bd.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2d846f3eea3e2d5067b26de498f83d94.png",
+            "time": "",
+            "blv": "BLV Người Băng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-4155e7f668_3b046b62.png?v=3b046b62",
             "width": 1600,
             "height": 1200
           }
@@ -1920,6 +1920,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d66eda0e9c_0e7bc074.png?v=0e7bc074",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-2437cb88e7",
+          "name": "Sporting CP vs Vitoria Guimaraes | 02:15 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2437cb88e7",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-2437cb88e7",
+                  "name": "Sporting CP vs Vitoria Guimaraes",
+                  "streams": [
+                    {
+                      "id": "st-2437cb88e7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Portuguese Primera Liga",
+            "team_a": "Sporting CP",
+            "team_b": "Vitoria Guimaraes",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6a5153c73922a32013b9bc6cfbc20b26.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ad97b71fe0d8df0e60f7c534fee24132.png",
+            "time": "02:15 05/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2437cb88e7_a51e5562.png?v=a51e5562",
             "width": 1600,
             "height": 1200
           }
