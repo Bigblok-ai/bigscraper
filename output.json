@@ -1425,83 +1425,11 @@
     },
     {
       "id": "grp-0b6b498c58",
-      "name": "🏸 Cầu Lông (1 LIVE)",
+      "name": "🏸 Cầu Lông",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "thapcam-e268c7a8c1",
-          "name": "China vs France | 23:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e268c7a8c1",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e268c7a8c1",
-                  "name": "China vs France",
-                  "streams": [
-                    {
-                      "id": "st-e268c7a8c1",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ba51a3c2a3",
-                          "name": "BLV Người Rừng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f767df51ddc_148/index.m3u8?expire=1778426463&sign=686d62cb5bd85c2a54a2b8d8607f4e98",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BWF Thomas & Uber Cup Finals 2026 - SÂN 1",
-            "team_a": "China",
-            "team_b": "France",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2349bbb109057db855c05eb903948d73.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/40212f6d758e035c28bc9fc47728af63.png",
-            "time": "23:00 03/05",
-            "blv": "BLV Người Rừng",
-            "is_live": true,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e268c7a8c1_e1df33f1_20260504.png?v=e1df33f1",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-0c493d20a1",
