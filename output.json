@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "thapcam-f2cb82bd61",
-          "name": "V-Varen Nagasaki vs Nagoya Grampus | 15:00 03/05",
+          "name": "V-Varen Nagasaki vs Nagoya Grampus",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,7 +73,7 @@
             "team_b": "Nagoya Grampus",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b28ace839956d8eacce11926ea5e43b3.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/32aa68e1fa3d62dad572d19b21a09353.png",
-            "time": "15:00 03/05",
+            "time": "",
             "blv": "BLV Người Páo",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -459,6 +459,165 @@
           }
         },
         {
+          "id": "thapcam-126b50a317",
+          "name": "Sassuolo vs AC Milan | 20:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-126b50a317",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-126b50a317",
+                  "name": "Sassuolo vs AC Milan",
+                  "streams": [
+                    {
+                      "id": "st-126b50a317",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Sassuolo",
+            "team_b": "AC Milan",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/616bf242a532f72e970648f2ead423cf.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/643ef4101b017dc1495dbd9e9d5cce28.png",
+            "time": "20:00 03/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-126b50a317_ec149a94.png?v=ec149a94",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-f16e1c884b",
+          "name": "Bournemouth AFC vs Crystal Palace | 20:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f16e1c884b",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f16e1c884b",
+                  "name": "Bournemouth AFC vs Crystal Palace",
+                  "streams": [
+                    {
+                      "id": "st-f16e1c884b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Bournemouth AFC",
+            "team_b": "Crystal Palace",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/240b30d333c97d293752ab7afd77ccd6.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/42396d18444156e640c37476c2b41b93.png",
+            "time": "20:00 03/05",
+            "blv": "BLV Người Páo",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f16e1c884b_e19a121d.png?v=e19a121d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-aef4e59c7e",
+          "name": "LOSC Lille vs Havre Athletic Club | 20:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aef4e59c7e",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-aef4e59c7e",
+                  "name": "LOSC Lille vs Havre Athletic Club",
+                  "streams": [
+                    {
+                      "id": "st-aef4e59c7e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "LOSC Lille",
+            "team_b": "Havre Athletic Club",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/28e94925fdcc848f86a544a1cedcceed.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8fd50a53dad5ea4fd2d32bd3ce727f58.png",
+            "time": "20:00 03/05",
+            "blv": "BLV Người Cò",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-aef4e59c7e_31870050.png?v=31870050",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-ebeac09ef7",
           "name": "Imigresen FC vs DPMM FC | 20:00 03/05",
           "type": "single",
@@ -560,165 +719,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-aa684fffe1_510d7ec5.png?v=510d7ec5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-aef4e59c7e",
-          "name": "LOSC Lille vs Havre Athletic Club | 20:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-aef4e59c7e",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-aef4e59c7e",
-                  "name": "LOSC Lille vs Havre Athletic Club",
-                  "streams": [
-                    {
-                      "id": "st-aef4e59c7e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "LOSC Lille",
-            "team_b": "Havre Athletic Club",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/28e94925fdcc848f86a544a1cedcceed.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8fd50a53dad5ea4fd2d32bd3ce727f58.png",
-            "time": "20:00 03/05",
-            "blv": "BLV Người Cò",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-aef4e59c7e_31870050.png?v=31870050",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-f16e1c884b",
-          "name": "Bournemouth AFC vs Crystal Palace | 20:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f16e1c884b",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f16e1c884b",
-                  "name": "Bournemouth AFC vs Crystal Palace",
-                  "streams": [
-                    {
-                      "id": "st-f16e1c884b",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Bournemouth AFC",
-            "team_b": "Crystal Palace",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/240b30d333c97d293752ab7afd77ccd6.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/42396d18444156e640c37476c2b41b93.png",
-            "time": "20:00 03/05",
-            "blv": "BLV Người Páo",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f16e1c884b_e19a121d.png?v=e19a121d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-126b50a317",
-          "name": "Sassuolo vs AC Milan | 20:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-126b50a317",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-126b50a317",
-                  "name": "Sassuolo vs AC Milan",
-                  "streams": [
-                    {
-                      "id": "st-126b50a317",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Sassuolo",
-            "team_b": "AC Milan",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/616bf242a532f72e970648f2ead423cf.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/643ef4101b017dc1495dbd9e9d5cce28.png",
-            "time": "20:00 03/05",
-            "blv": "BLV Chân Đất",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-126b50a317_ec149a94.png?v=ec149a94",
             "width": 1600,
             "height": 1200
           }
