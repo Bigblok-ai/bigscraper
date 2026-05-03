@@ -11,116 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-c9b7dd76b9",
-          "name": "RCD Espanyol de Barcelona vs Real Madrid",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c9b7dd76b9",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-c9b7dd76b9",
-                  "name": "RCD Espanyol de Barcelona vs Real Madrid",
-                  "streams": [
-                    {
-                      "id": "st-c9b7dd76b9",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-67bd8ae9b8",
-                          "name": "BLV Lềnh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f780bc51ddc_35/index.m3u8?expire=1778432828&sign=52c68c4e357fdaa29a3ec7228cac8444",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-557c38b4d3",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f7956a137e4_151/index.m3u8?expire=1778438122&sign=6bcff712a342065d91d35361e5a5db1b",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-43f9599254",
-                          "name": "Link HD 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f792f0137e4_1549/index.m3u8?expire=1778437488&sign=4772fd2b5b1c72606691857b60a2695a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "RCD Espanyol de Barcelona",
-            "team_b": "Real Madrid",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/214049d4df11756a2eb21bbd8266e2a1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7dacaa934fe4be00f23c1e209b5ef947.png",
-            "time": "",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c9b7dd76b9_ccb274f8_20260504.png?v=ccb274f8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-4155e7f668",
           "name": "New York City FC vs DC United",
