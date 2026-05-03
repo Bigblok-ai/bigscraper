@@ -17,111 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-c9b7dd76b9",
-          "name": "RCD Espanyol de Barcelona vs Real Madrid | 02:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c9b7dd76b9",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-c9b7dd76b9",
-                  "name": "RCD Espanyol de Barcelona vs Real Madrid",
-                  "streams": [
-                    {
-                      "id": "st-c9b7dd76b9",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-67bd8ae9b8",
-                          "name": "BLV Lềnh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f780bc51ddc_35/index.m3u8?expire=1778432828&sign=52c68c4e357fdaa29a3ec7228cac8444",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-557c38b4d3",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f7956a137e4_151/index.m3u8?expire=1778438122&sign=6bcff712a342065d91d35361e5a5db1b",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-43f9599254",
-                          "name": "Link HD 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f792f0137e4_1549/index.m3u8?expire=1778437488&sign=4772fd2b5b1c72606691857b60a2695a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "RCD Espanyol de Barcelona",
-            "team_b": "Real Madrid",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/214049d4df11756a2eb21bbd8266e2a1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7dacaa934fe4be00f23c1e209b5ef947.png",
-            "time": "02:00 04/05",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c9b7dd76b9_ccb274f8.png?v=ccb274f8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-064ee272a5",
           "name": "New York City FC vs DC United | 02:00 04/05",
           "type": "single",
@@ -264,94 +159,6 @@
           }
         },
         {
-          "id": "thapcam-3aa1a440c5",
-          "name": "Aston Villa vs Tottenham Hotspur",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3aa1a440c5",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3aa1a440c5",
-                  "name": "Aston Villa vs Tottenham Hotspur",
-                  "streams": [
-                    {
-                      "id": "st-3aa1a440c5",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8c38345ec2",
-                          "name": "BLV Người Rơm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f78838137e4_16125/index.m3u8?expire=1778434744&sign=471e9fc5f61037ee56c3796163ef9254",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e4ed74ac29",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f785e7137e4_26/index.m3u8?expire=1778434151&sign=37a370b7c9c30490da9c3ccc8fffbecf",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Aston Villa",
-            "team_b": "Tottenham Hotspur",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c32d6a906083118cac2cb796edaab3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8b22ab4041e666b996a2d96f20dea707.png",
-            "time": "",
-            "blv": "BLV Người Rơm",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3aa1a440c5_82dd616e.png?v=82dd616e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-6863a7fe68",
           "name": "Al Ahli SFC vs Al Okhdood",
           "type": "single",
@@ -489,6 +296,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-854256a56b_00671df5.png?v=00671df5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-3aa1a440c5",
+          "name": "Aston Villa vs Tottenham Hotspur",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3aa1a440c5",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-3aa1a440c5",
+                  "name": "Aston Villa vs Tottenham Hotspur",
+                  "streams": [
+                    {
+                      "id": "st-3aa1a440c5",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8c38345ec2",
+                          "name": "BLV Người Rơm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f78838137e4_16125/index.m3u8?expire=1778434744&sign=471e9fc5f61037ee56c3796163ef9254",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e4ed74ac29",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f785e7137e4_26/index.m3u8?expire=1778434151&sign=37a370b7c9c30490da9c3ccc8fffbecf",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Aston Villa",
+            "team_b": "Tottenham Hotspur",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c32d6a906083118cac2cb796edaab3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8b22ab4041e666b996a2d96f20dea707.png",
+            "time": "",
+            "blv": "BLV Người Rơm",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3aa1a440c5_82dd616e.png?v=82dd616e",
             "width": 1600,
             "height": 1200
           }
@@ -648,6 +543,111 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46b114a632_d4868675.png?v=d4868675",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-c9b7dd76b9",
+          "name": "RCD Espanyol de Barcelona vs Real Madrid",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c9b7dd76b9",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-c9b7dd76b9",
+                  "name": "RCD Espanyol de Barcelona vs Real Madrid",
+                  "streams": [
+                    {
+                      "id": "st-c9b7dd76b9",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-67bd8ae9b8",
+                          "name": "BLV Lềnh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f780bc51ddc_35/index.m3u8?expire=1778432828&sign=52c68c4e357fdaa29a3ec7228cac8444",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-557c38b4d3",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f7956a137e4_151/index.m3u8?expire=1778438122&sign=6bcff712a342065d91d35361e5a5db1b",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-43f9599254",
+                          "name": "Link HD 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f792f0137e4_1549/index.m3u8?expire=1778437488&sign=4772fd2b5b1c72606691857b60a2695a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "RCD Espanyol de Barcelona",
+            "team_b": "Real Madrid",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/214049d4df11756a2eb21bbd8266e2a1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7dacaa934fe4be00f23c1e209b5ef947.png",
+            "time": "",
+            "blv": "BLV Lềnh",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c9b7dd76b9_ccb274f8.png?v=ccb274f8",
             "width": 1600,
             "height": 1200
           }
@@ -2139,83 +2139,11 @@
     },
     {
       "id": "grp-5cf95d73f3",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "thapcam-7841485cc6",
-          "name": "Vakifbank W vs Eczacibasi W | 00:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7841485cc6",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-7841485cc6",
-                  "name": "Vakifbank W vs Eczacibasi W",
-                  "streams": [
-                    {
-                      "id": "st-7841485cc6",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-58a22cb7aa",
-                          "name": "BLV Người Điên",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f7782b137e4_1984/index.m3u8?expire=1778430635&sign=3fb95f1c743d0ff60b5c9d734bb992bf",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CEV CHAMPIONS LEAGUE 2026",
-            "team_a": "Vakifbank W",
-            "team_b": "Eczacibasi W",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/12647ed8acb8cfe4fccaaebff02c9568.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/5603c1d74cfc6664f8eee75c00db4dab.png",
-            "time": "00:00 04/05",
-            "blv": "BLV Người Điên",
-            "is_live": true,
-            "cate_name": "Bóng chuyền"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7841485cc6_63b172ff.png?v=63b172ff",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-578f80eb49",
