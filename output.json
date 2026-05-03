@@ -2084,6 +2084,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-0051be1103",
+          "name": "FC Unirea 2004 Slobozia vs Hermannstadt | 21:30 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0051be1103",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-0051be1103",
+                  "name": "FC Unirea 2004 Slobozia vs Hermannstadt",
+                  "streams": [
+                    {
+                      "id": "st-0051be1103",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Romanian Super Liga",
+            "team_a": "FC Unirea 2004 Slobozia",
+            "team_b": "Hermannstadt",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b17f903b42eebe1e7ad55f4f346d2bf8.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/732ac055b269060b9864fe152a82c9cf.png",
+            "time": "21:30 04/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0051be1103_7fdc00cb.png?v=7fdc00cb",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
