@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-80ce6dda41",
-          "name": "Cruzeiro Esporte Clube vs Atletico Mineiro",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-80ce6dda41",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-80ce6dda41",
-                  "name": "Cruzeiro Esporte Clube vs Atletico Mineiro",
-                  "streams": [
-                    {
-                      "id": "st-80ce6dda41",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96e16469c0",
-                          "name": "BLV Người Băng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f68a8751ddc_11/index.m3u8?expire=1778369799&sign=1bf93d3fc405c6b59b6e3b49bb9caf46",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Brazilian Serie A",
-            "team_a": "Cruzeiro Esporte Clube",
-            "team_b": "Atletico Mineiro",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b1cac6380900d22bdb0d31763c658434.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/079e86cebd6511ce807cc6073a3e26ee.png",
-            "time": "",
-            "blv": "BLV Người Băng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-80ce6dda41_eeb45660.png?v=eeb45660",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-df9a69a049",
           "name": "Vanraure Hachinohe FC vs Thespa Kusatsu Gunma | 11:00 03/05",
@@ -671,6 +600,59 @@
           }
         },
         {
+          "id": "thapcam-aef4e59c7e",
+          "name": "LOSC Lille vs Havre Athletic Club | 20:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aef4e59c7e",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-aef4e59c7e",
+                  "name": "LOSC Lille vs Havre Athletic Club",
+                  "streams": [
+                    {
+                      "id": "st-aef4e59c7e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "LOSC Lille",
+            "team_b": "Havre Athletic Club",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/28e94925fdcc848f86a544a1cedcceed.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8fd50a53dad5ea4fd2d32bd3ce727f58.png",
+            "time": "20:00 03/05",
+            "blv": "BLV Người Cò",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-aef4e59c7e_31870050.png?v=31870050",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-126b50a317",
           "name": "Sassuolo vs AC Milan | 20:00 03/05",
           "type": "single",
@@ -772,59 +754,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f16e1c884b_e19a121d.png?v=e19a121d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-aef4e59c7e",
-          "name": "LOSC Lille vs Havre Athletic Club | 20:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-aef4e59c7e",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-aef4e59c7e",
-                  "name": "LOSC Lille vs Havre Athletic Club",
-                  "streams": [
-                    {
-                      "id": "st-aef4e59c7e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "LOSC Lille",
-            "team_b": "Havre Athletic Club",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/28e94925fdcc848f86a544a1cedcceed.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8fd50a53dad5ea4fd2d32bd3ce727f58.png",
-            "time": "20:00 03/05",
-            "blv": "BLV Người Cò",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-aef4e59c7e_31870050.png?v=31870050",
             "width": 1600,
             "height": 1200
           }
@@ -1943,59 +1872,6 @@
           }
         },
         {
-          "id": "thapcam-615ecaa429",
-          "name": "Inter Milan vs Parma | 01:45 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-615ecaa429",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-615ecaa429",
-                  "name": "Inter Milan vs Parma",
-                  "streams": [
-                    {
-                      "id": "st-615ecaa429",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Inter Milan",
-            "team_b": "Parma",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aa2245702c40f77799a5ad4b119581a8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9fadd87d190982c8082dddf1567e0b9b.png",
-            "time": "01:45 04/05",
-            "blv": "BLV Người Páo",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-615ecaa429_84def2b9.png?v=84def2b9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-46b114a632",
           "name": "Lyon vs Stade Rennais FC | 01:45 04/05",
           "type": "single",
@@ -2044,6 +1920,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46b114a632_d4868675.png?v=d4868675",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-615ecaa429",
+          "name": "Inter Milan vs Parma | 01:45 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-615ecaa429",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-615ecaa429",
+                  "name": "Inter Milan vs Parma",
+                  "streams": [
+                    {
+                      "id": "st-615ecaa429",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Inter Milan",
+            "team_b": "Parma",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aa2245702c40f77799a5ad4b119581a8.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9fadd87d190982c8082dddf1567e0b9b.png",
+            "time": "01:45 04/05",
+            "blv": "BLV Người Páo",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-615ecaa429_84def2b9.png?v=84def2b9",
             "width": 1600,
             "height": 1200
           }
@@ -2211,83 +2140,11 @@
     },
     {
       "id": "grp-d721cd64dc",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "thapcam-c85a0ca581",
-          "name": "Boston Celtics vs Philadelphia 76ers | 06:30 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c85a0ca581",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-c85a0ca581",
-                  "name": "Boston Celtics vs Philadelphia 76ers",
-                  "streams": [
-                    {
-                      "id": "st-c85a0ca581",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7bc5f19289",
-                          "name": "BLV Người Hầu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f69b1c51ddc_9657/index.m3u8?expire=1778374044&sign=ecb1b052301434b0b86d47e701d9adfa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Boston Celtics",
-            "team_b": "Philadelphia 76ers",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/884c1c1f5db46c170df3c34a8e213ec9.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/06e7bde6cca98873fe971fad4e67a9b6.png",
-            "time": "06:30 03/05",
-            "blv": "BLV Người Hầu",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c85a0ca581_ba4fbc3d.png?v=ba4fbc3d",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-0b6b498c58",
