@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-854256a56b",
-          "name": "Al Qadsiah vs Al Nassr FC",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-854256a56b",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-854256a56b",
-                  "name": "Al Qadsiah vs Al Nassr FC",
-                  "streams": [
-                    {
-                      "id": "st-854256a56b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-437b0272a7",
-                          "name": "BLV Cá Mập",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f77b75137e4_154/index.m3u8?expire=1778431477&sign=7ad66d6ff7cbe57e8d58c7efaa13e158",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al Qadsiah",
-            "team_b": "Al Nassr FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bc74439d19c8bbaa17c57406b120b86d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0d9975f7e846a1ecb099f4cd62d1b8f7.png",
-            "time": "",
-            "blv": "BLV Cá Mập",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-854256a56b_00671df5_20260504.png?v=00671df5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-615ecaa429",
           "name": "Inter Milan vs Parma",
