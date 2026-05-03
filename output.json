@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-b385d804a6",
-          "name": "Sporting Braga vs Estoril | 00:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b385d804a6",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-b385d804a6",
-                  "name": "Sporting Braga vs Estoril",
-                  "streams": [
-                    {
-                      "id": "st-b385d804a6",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ff9e2eda7f",
-                          "name": "BLV Jayce",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f7761f51ddc_181/index.m3u8?expire=1778430111&sign=aa3b8ff82973759006d0afe1590defa8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "Sporting Braga",
-            "team_b": "Estoril",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1fe75f826dab40e6e89cbe961c7e9116.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/faeceacffbf35e28b7e71a5f90b6efdc.png",
-            "time": "00:00 04/05",
-            "blv": "BLV Jayce",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b385d804a6_4cac9329.png?v=4cac9329",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-c8c9a74d59",
           "name": "AJ Auxerre vs Angers SCO",
@@ -154,77 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c8c9a74d59_a85291cc.png?v=a85291cc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-371ac5c83b",
-          "name": "Paris FC vs Stade Brestois 29",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-371ac5c83b",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-371ac5c83b",
-                  "name": "Paris FC vs Stade Brestois 29",
-                  "streams": [
-                    {
-                      "id": "st-371ac5c83b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cf11d84463",
-                          "name": "BLV Siêu Quậy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f76193137e4_26/index.m3u8?expire=1778424851&sign=50b7941aafbe5e941ed095ea4d110eb6",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "Paris FC",
-            "team_b": "Stade Brestois 29",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/83a982f8219a768e7cd29d1ac765b199.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bb7e6346a3860008e4ff266ba3b655e8.png",
-            "time": "",
-            "blv": "BLV Siêu Quậy",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-371ac5c83b_edd81d55.png?v=edd81d55",
             "width": 1600,
             "height": 1200
           }
@@ -580,6 +438,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-34fb41e67c_c95f8dec.png?v=c95f8dec",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-b385d804a6",
+          "name": "Sporting Braga vs Estoril",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b385d804a6",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-b385d804a6",
+                  "name": "Sporting Braga vs Estoril",
+                  "streams": [
+                    {
+                      "id": "st-b385d804a6",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ff9e2eda7f",
+                          "name": "BLV Jayce",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f7761f51ddc_181/index.m3u8?expire=1778430111&sign=aa3b8ff82973759006d0afe1590defa8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Portuguese Primera Liga",
+            "team_a": "Sporting Braga",
+            "team_b": "Estoril",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1fe75f826dab40e6e89cbe961c7e9116.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/faeceacffbf35e28b7e71a5f90b6efdc.png",
+            "time": "",
+            "blv": "BLV Jayce",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b385d804a6_4cac9329.png?v=4cac9329",
             "width": 1600,
             "height": 1200
           }
