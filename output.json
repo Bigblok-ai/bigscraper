@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (10 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -384,77 +384,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-aa684fffe1_510d7ec5.png?v=510d7ec5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-f3871a39e4",
-          "name": "Song Lam Nghe An vs Hoang Anh Gia Lai",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f3871a39e4",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f3871a39e4",
-                  "name": "Song Lam Nghe An vs Hoang Anh Gia Lai",
-                  "streams": [
-                    {
-                      "id": "st-f3871a39e4",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3813f3c0b9",
-                          "name": "BLV Jayce",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f72357137e4_181/index.m3u8?expire=1778408919&sign=3f561b0e14cfec01ab6d20b977e15127",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "Song Lam Nghe An",
-            "team_b": "Hoang Anh Gia Lai",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7f95b001711ce3978d498602e1d2c9fd.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/df2ae58b9e658494b940b0bd782901b8.png",
-            "time": "",
-            "blv": "BLV Jayce",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f3871a39e4_ddec7f91.png?v=ddec7f91",
             "width": 1600,
             "height": 1200
           }
