@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-3a9c50409f",
-          "name": "Rio Ave vs Gil Vicente",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3a9c50409f",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3a9c50409f",
-                  "name": "Rio Ave vs Gil Vicente",
-                  "streams": [
-                    {
-                      "id": "st-3a9c50409f",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f0f31322df",
-                          "name": "BLV Người Lạ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f7a19a137e4_11241/index.m3u8?expire=1778441242&sign=8eda75e4a11378a758c0ea8ff290e29a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "Rio Ave",
-            "team_b": "Gil Vicente",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e83b163c8501f897012bcc29adfae2b9.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6a2005d20c872db3173d2bf995768055.png",
-            "time": "",
-            "blv": "BLV Người Lạ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3a9c50409f_5e01c55f_20260504.png?v=5e01c55f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-c106660da2",
           "name": "Myanmar U17 Women vs Thailand U17 Women | 14:30 04/05",
