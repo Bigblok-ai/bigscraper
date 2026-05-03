@@ -2070,38 +2070,56 @@
     },
     {
       "id": "grp-7873677346",
-      "name": "🏎️ Đua Xe F1",
+      "name": "🏎️ Đua Xe F1 (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-13c2a02fc3",
-          "name": "Đua xe F1 | 00:00 04/05",
+          "id": "thapcam-846f52a535",
+          "name": "Đua xe F1 | 23:40 03/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-13c2a02fc3",
+              "id": "src-846f52a535",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-13c2a02fc3",
+                  "id": "ct-846f52a535",
                   "name": "Đua xe F1",
                   "streams": [
                     {
-                      "id": "st-13c2a02fc3",
+                      "id": "st-846f52a535",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd6bd4c4b2",
+                          "name": "BLV Người Chớp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f7763b51ddc_19272/index.m3u8?expire=1778430139&sign=48c946e45d03050680d8e4ffdafa0102",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2114,16 +2132,16 @@
             "team_b": "",
             "logo_a": "https://cdn-live.taoxanh.biz/live-dev/categories/2025/03/29/ef1a59278d38aaf359a16a80e50f5bec.png",
             "logo_b": "",
-            "time": "00:00 04/05",
+            "time": "23:40 03/05",
             "blv": "BLV Người Chớp",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Đua xe F1"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-13c2a02fc3_e8890341.png?v=e8890341",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-846f52a535_e8890341.png?v=e8890341",
             "width": 1600,
             "height": 1200
           }
