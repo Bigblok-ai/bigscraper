@@ -1923,6 +1923,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-c106660da2",
+          "name": "Myanmar U17 Women vs Thailand U17 Women | 14:30 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c106660da2",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-c106660da2",
+                  "name": "Myanmar U17 Women vs Thailand U17 Women",
+                  "streams": [
+                    {
+                      "id": "st-c106660da2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Myanmar U17 Women",
+            "team_b": "Thailand U17 Women",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0eff6ce301fcd86f8793b5b859ea050f.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f5c29f4d0153b28ef8802fe964122c65.png",
+            "time": "14:30 04/05",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c106660da2_1ac5d874.png?v=1ac5d874",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
