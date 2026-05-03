@@ -11,11 +11,170 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-615ecaa429",
+          "name": "Inter Milan vs Parma | 01:45 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-615ecaa429",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-615ecaa429",
+                  "name": "Inter Milan vs Parma",
+                  "streams": [
+                    {
+                      "id": "st-615ecaa429",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cb3acfd1b9",
+                          "name": "BLV Người Páo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f78f72137e4_19533/index.m3u8?expire=1778436594&sign=02519ae903a381dbcbea31788b267bb1",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e7f2363d11",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f7931b51ddc_14559/index.m3u8?expire=1778437531&sign=675bbb7aa7df4ffafde33e0d444e6a78",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Inter Milan",
+            "team_b": "Parma",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aa2245702c40f77799a5ad4b119581a8.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9fadd87d190982c8082dddf1567e0b9b.png",
+            "time": "01:45 04/05",
+            "blv": "BLV Người Páo",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-615ecaa429_84def2b9.png?v=84def2b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-46b114a632",
+          "name": "Lyon vs Stade Rennais FC | 01:45 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-46b114a632",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-46b114a632",
+                  "name": "Lyon vs Stade Rennais FC",
+                  "streams": [
+                    {
+                      "id": "st-46b114a632",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-36e9efb264",
+                          "name": "BLV Người Ngố",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f78ba5137e4_14/index.m3u8?expire=1778435621&sign=6e7ce98c6a19d8a1e8771835cc7a7d12",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "Lyon",
+            "team_b": "Stade Rennais FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/92fb3cf79ea2ba919b94b04668e13491.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/eab8f0e847742fd328bb581299bd99ca.png",
+            "time": "01:45 04/05",
+            "blv": "BLV Người Ngố",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46b114a632_d4868675.png?v=d4868675",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-b385d804a6",
           "name": "Sporting Braga vs Estoril",
@@ -384,112 +543,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-854256a56b_00671df5.png?v=00671df5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-615ecaa429",
-          "name": "Inter Milan vs Parma | 01:45 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-615ecaa429",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-615ecaa429",
-                  "name": "Inter Milan vs Parma",
-                  "streams": [
-                    {
-                      "id": "st-615ecaa429",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Inter Milan",
-            "team_b": "Parma",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aa2245702c40f77799a5ad4b119581a8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9fadd87d190982c8082dddf1567e0b9b.png",
-            "time": "01:45 04/05",
-            "blv": "BLV Người Páo",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-615ecaa429_84def2b9.png?v=84def2b9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-46b114a632",
-          "name": "Lyon vs Stade Rennais FC | 01:45 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-46b114a632",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-46b114a632",
-                  "name": "Lyon vs Stade Rennais FC",
-                  "streams": [
-                    {
-                      "id": "st-46b114a632",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "Lyon",
-            "team_b": "Stade Rennais FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/92fb3cf79ea2ba919b94b04668e13491.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/eab8f0e847742fd328bb581299bd99ca.png",
-            "time": "01:45 04/05",
-            "blv": "BLV Người Ngố",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46b114a632_d4868675.png?v=d4868675",
             "width": 1600,
             "height": 1200
           }
