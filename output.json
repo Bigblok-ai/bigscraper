@@ -746,7 +746,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0eff6ce301fcd86f8793b5b859ea050f.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f5c29f4d0153b28ef8802fe964122c65.png",
             "time": "14:30 04/05",
-            "blv": "BLV Lềnh",
+            "blv": "BLV Cá Mập",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1762,6 +1762,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-424bc3d0df_a4bdf2eb.png?v=a4bdf2eb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-40bae540d8",
+          "name": "AS Roma vs Fiorentina | 01:45 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-40bae540d8",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-40bae540d8",
+                  "name": "AS Roma vs Fiorentina",
+                  "streams": [
+                    {
+                      "id": "st-40bae540d8",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "AS Roma",
+            "team_b": "Fiorentina",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7a192686d30c1ad031d2fb605eaf2f2a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/858d87ded0cce014bae0c9681af48524.png",
+            "time": "01:45 05/05",
+            "blv": "BLV Người Cò",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-40bae540d8_5914d80f.png?v=5914d80f",
             "width": 1600,
             "height": 1200
           }
