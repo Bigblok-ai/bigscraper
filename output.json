@@ -1325,10 +1325,27 @@
                       "name": "KT",
                       "stream_links": [
                         {
+                          "id": "lnk-ceb2dec29c",
+                          "name": "BLV Người Sói",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f7da0351ddc_742/index.m3u8?expire=1778455683&sign=7b9fe8ce23a74a0e86e3261931d4126f",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
                           "id": "lnk-7fd2f0e1aa",
                           "name": "Link HD",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
                           "url": "https://cdn-hls.phogatv8.com/live/69f7d6ec137e4_9657/index.m3u8?expire=1778454892&sign=6d419e0d11423430fa1a7c06e58fa89b",
                           "request_headers": [
                             {
