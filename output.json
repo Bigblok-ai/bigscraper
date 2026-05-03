@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-f2cb82bd61",
-          "name": "V-Varen Nagasaki vs Nagoya Grampus",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f2cb82bd61",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f2cb82bd61",
-                  "name": "V-Varen Nagasaki vs Nagoya Grampus",
-                  "streams": [
-                    {
-                      "id": "st-f2cb82bd61",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-90c2366f90",
-                          "name": "BLV Người Páo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f6fa9351ddc_19533/index.m3u8?expire=1778398483&sign=7aa833f162e8497fc9d31f01f22a81d0",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "V-Varen Nagasaki",
-            "team_b": "Nagoya Grampus",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b28ace839956d8eacce11926ea5e43b3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/32aa68e1fa3d62dad572d19b21a09353.png",
-            "time": "",
-            "blv": "BLV Người Páo",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f2cb82bd61_b8c263b2.png?v=b8c263b2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-6c87e4f239",
           "name": "Bologna vs Cagliari | 17:30 03/05",
