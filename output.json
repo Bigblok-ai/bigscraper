@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-34fb41e67c",
-          "name": "Real Betis vs Real Oviedo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-34fb41e67c",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-34fb41e67c",
-                  "name": "Real Betis vs Real Oviedo",
-                  "streams": [
-                    {
-                      "id": "st-34fb41e67c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8c8d7d6c91",
-                          "name": "BLV Người Nhện",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f774e351ddc_32/index.m3u8?expire=1778429795&sign=8558a3ba60658b879b86209bba8aab42",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Real Betis",
-            "team_b": "Real Oviedo",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/018e260ad68bdad741c61e3171c4c608.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/21551996567bcd206ee574043d509a84.png",
-            "time": "",
-            "blv": "BLV Người Nhện",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-34fb41e67c_c95f8dec.png?v=c95f8dec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-b385d804a6",
           "name": "Sporting Braga vs Estoril",
