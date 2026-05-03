@@ -1890,6 +1890,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-e62d9b76f8",
+          "name": "Cremonese vs Lazio | 23:30 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e62d9b76f8",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-e62d9b76f8",
+                  "name": "Cremonese vs Lazio",
+                  "streams": [
+                    {
+                      "id": "st-e62d9b76f8",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Cremonese",
+            "team_b": "Lazio",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0b0e25267dabd15c405070329df5fbdb.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5a2ff46efa33abc6b2908eb6279dfbf8.png",
+            "time": "23:30 04/05",
+            "blv": "BLV Người Cỏ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e62d9b76f8_7cd744d1.png?v=7cd744d1",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
