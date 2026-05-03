@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -100,77 +100,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3aa1a440c5_82dd616e_20260504.png?v=82dd616e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-6863a7fe68",
-          "name": "Al Ahli SFC vs Al Okhdood",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6863a7fe68",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6863a7fe68",
-                  "name": "Al Ahli SFC vs Al Okhdood",
-                  "streams": [
-                    {
-                      "id": "st-6863a7fe68",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8ce7528248",
-                          "name": "BLV Người Cỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f7881451ddc_19092/index.m3u8?expire=1778434708&sign=7fe7d19d7ae3b286fc619199400df297",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al Ahli SFC",
-            "team_b": "Al Okhdood",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a0a227a6100628d3213e1fc321acd4f2.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/47edbc8776467d4a14314c82b25344ab.png",
-            "time": "",
-            "blv": "BLV Người Cỏ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6863a7fe68_1d5be4a5_20260504.png?v=1d5be4a5",
             "width": 1600,
             "height": 1200
           }
