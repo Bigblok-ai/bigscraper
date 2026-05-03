@@ -11,11 +11,241 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-3aa1a440c5",
+          "name": "Aston Villa vs Tottenham Hotspur | 01:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3aa1a440c5",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-3aa1a440c5",
+                  "name": "Aston Villa vs Tottenham Hotspur",
+                  "streams": [
+                    {
+                      "id": "st-3aa1a440c5",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8c38345ec2",
+                          "name": "BLV Người Rơm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f78838137e4_16125/index.m3u8?expire=1778434744&sign=471e9fc5f61037ee56c3796163ef9254",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e4ed74ac29",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f785e7137e4_26/index.m3u8?expire=1778434151&sign=37a370b7c9c30490da9c3ccc8fffbecf",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Aston Villa",
+            "team_b": "Tottenham Hotspur",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c32d6a906083118cac2cb796edaab3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8b22ab4041e666b996a2d96f20dea707.png",
+            "time": "01:00 04/05",
+            "blv": "BLV Người Rơm",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3aa1a440c5_82dd616e.png?v=82dd616e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-6863a7fe68",
+          "name": "Al Ahli SFC vs Al Okhdood | 01:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6863a7fe68",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-6863a7fe68",
+                  "name": "Al Ahli SFC vs Al Okhdood",
+                  "streams": [
+                    {
+                      "id": "st-6863a7fe68",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8ce7528248",
+                          "name": "BLV Người Cỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f7881451ddc_19092/index.m3u8?expire=1778434708&sign=7fe7d19d7ae3b286fc619199400df297",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al Ahli SFC",
+            "team_b": "Al Okhdood",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a0a227a6100628d3213e1fc321acd4f2.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/47edbc8776467d4a14314c82b25344ab.png",
+            "time": "01:00 04/05",
+            "blv": "BLV Người Cỏ",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6863a7fe68_1d5be4a5.png?v=1d5be4a5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-854256a56b",
+          "name": "Al Qadsiah vs Al Nassr FC | 01:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-854256a56b",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-854256a56b",
+                  "name": "Al Qadsiah vs Al Nassr FC",
+                  "streams": [
+                    {
+                      "id": "st-854256a56b",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-437b0272a7",
+                          "name": "BLV Cá Mập",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f77b75137e4_154/index.m3u8?expire=1778431477&sign=7ad66d6ff7cbe57e8d58c7efaa13e158",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al Qadsiah",
+            "team_b": "Al Nassr FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bc74439d19c8bbaa17c57406b120b86d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0d9975f7e846a1ecb099f4cd62d1b8f7.png",
+            "time": "01:00 04/05",
+            "blv": "BLV Cá Mập",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-854256a56b_00671df5.png?v=00671df5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-576e14fff1",
           "name": "Juventus vs Hellas Verona",
@@ -367,165 +597,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-92175c2d4a_0e81365a.png?v=0e81365a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-3aa1a440c5",
-          "name": "Aston Villa vs Tottenham Hotspur | 01:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3aa1a440c5",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3aa1a440c5",
-                  "name": "Aston Villa vs Tottenham Hotspur",
-                  "streams": [
-                    {
-                      "id": "st-3aa1a440c5",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Aston Villa",
-            "team_b": "Tottenham Hotspur",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c32d6a906083118cac2cb796edaab3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8b22ab4041e666b996a2d96f20dea707.png",
-            "time": "01:00 04/05",
-            "blv": "BLV Người Rơm",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3aa1a440c5_82dd616e.png?v=82dd616e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-6863a7fe68",
-          "name": "Al Ahli SFC vs Al Okhdood | 01:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6863a7fe68",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6863a7fe68",
-                  "name": "Al Ahli SFC vs Al Okhdood",
-                  "streams": [
-                    {
-                      "id": "st-6863a7fe68",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al Ahli SFC",
-            "team_b": "Al Okhdood",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a0a227a6100628d3213e1fc321acd4f2.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/47edbc8776467d4a14314c82b25344ab.png",
-            "time": "01:00 04/05",
-            "blv": "BLV Người Cỏ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6863a7fe68_1d5be4a5.png?v=1d5be4a5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-854256a56b",
-          "name": "Al Qadsiah vs Al Nassr FC | 01:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-854256a56b",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-854256a56b",
-                  "name": "Al Qadsiah vs Al Nassr FC",
-                  "streams": [
-                    {
-                      "id": "st-854256a56b",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al Qadsiah",
-            "team_b": "Al Nassr FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bc74439d19c8bbaa17c57406b120b86d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0d9975f7e846a1ecb099f4cd62d1b8f7.png",
-            "time": "01:00 04/05",
-            "blv": "BLV Cá Mập",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-854256a56b_00671df5.png?v=00671df5",
             "width": 1600,
             "height": 1200
           }
