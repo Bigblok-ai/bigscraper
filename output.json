@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-615ecaa429",
-          "name": "Inter Milan vs Parma | 01:45 04/05",
+          "id": "thapcam-c9b7dd76b9",
+          "name": "RCD Espanyol de Barcelona vs Real Madrid | 02:00 04/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-615ecaa429",
+              "id": "src-c9b7dd76b9",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-615ecaa429",
-                  "name": "Inter Milan vs Parma",
+                  "id": "ct-c9b7dd76b9",
+                  "name": "RCD Espanyol de Barcelona vs Real Madrid",
                   "streams": [
                     {
-                      "id": "st-615ecaa429",
+                      "id": "st-c9b7dd76b9",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-cb3acfd1b9",
-                          "name": "BLV Người Páo",
+                          "id": "lnk-67bd8ae9b8",
+                          "name": "BLV Lềnh",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f78f72137e4_19533/index.m3u8?expire=1778436594&sign=02519ae903a381dbcbea31788b267bb1",
+                          "url": "https://cdn-hls.phogatv8.com/live/69f780bc51ddc_35/index.m3u8?expire=1778432828&sign=52c68c4e357fdaa29a3ec7228cac8444",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -61,11 +61,28 @@
                           ]
                         },
                         {
-                          "id": "lnk-e7f2363d11",
+                          "id": "lnk-557c38b4d3",
                           "name": "Link HD",
                           "type": "hls",
                           "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f7931b51ddc_14559/index.m3u8?expire=1778437531&sign=675bbb7aa7df4ffafde33e0d444e6a78",
+                          "url": "https://cdn-hls.phogatv8.com/live/69f7956a137e4_151/index.m3u8?expire=1778438122&sign=6bcff712a342065d91d35361e5a5db1b",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-43f9599254",
+                          "name": "Link HD 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f792f0137e4_1549/index.m3u8?expire=1778437488&sign=4772fd2b5b1c72606691857b60a2695a",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -85,13 +102,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Inter Milan",
-            "team_b": "Parma",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aa2245702c40f77799a5ad4b119581a8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9fadd87d190982c8082dddf1567e0b9b.png",
-            "time": "01:45 04/05",
-            "blv": "BLV Người Páo",
+            "league": "Spanish La Liga",
+            "team_a": "RCD Espanyol de Barcelona",
+            "team_b": "Real Madrid",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/214049d4df11756a2eb21bbd8266e2a1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7dacaa934fe4be00f23c1e209b5ef947.png",
+            "time": "02:00 04/05",
+            "blv": "BLV Lềnh",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -99,14 +116,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-615ecaa429_84def2b9.png?v=84def2b9",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c9b7dd76b9_ccb274f8.png?v=ccb274f8",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "thapcam-46b114a632",
-          "name": "Lyon vs Stade Rennais FC | 01:45 04/05",
+          "id": "thapcam-064ee272a5",
+          "name": "New York City FC vs DC United | 02:00 04/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -120,23 +137,23 @@
           ],
           "sources": [
             {
-              "id": "src-46b114a632",
+              "id": "src-064ee272a5",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-46b114a632",
-                  "name": "Lyon vs Stade Rennais FC",
+                  "id": "ct-064ee272a5",
+                  "name": "New York City FC vs DC United",
                   "streams": [
                     {
-                      "id": "st-46b114a632",
+                      "id": "st-064ee272a5",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-36e9efb264",
-                          "name": "BLV Người Ngố",
+                          "id": "lnk-5bcafaafb5",
+                          "name": "BLV Người Băng",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f78ba5137e4_14/index.m3u8?expire=1778435621&sign=6e7ce98c6a19d8a1e8771835cc7a7d12",
+                          "url": "https://cdn-hls.phogatv8.com/live/69f795cd51ddc_11/index.m3u8?expire=1778438221&sign=c1e3880a6d22002bd1a41cfd55849351",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -156,13 +173,13 @@
             }
           ],
           "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "Lyon",
-            "team_b": "Stade Rennais FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/92fb3cf79ea2ba919b94b04668e13491.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/eab8f0e847742fd328bb581299bd99ca.png",
-            "time": "01:45 04/05",
-            "blv": "BLV Người Ngố",
+            "league": "United States Major League Soccer",
+            "team_a": "New York City FC",
+            "team_b": "DC United",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f5bbc8573e1b019164b11b13c49598bd.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2d846f3eea3e2d5067b26de498f83d94.png",
+            "time": "02:00 04/05",
+            "blv": "BLV Người Băng",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -170,7 +187,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46b114a632_d4868675.png?v=d4868675",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-064ee272a5_3b046b62.png?v=3b046b62",
             "width": 1600,
             "height": 1200
           }
@@ -313,6 +330,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-92175c2d4a_0e81365a.png?v=0e81365a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-854256a56b",
+          "name": "Al Qadsiah vs Al Nassr FC",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-854256a56b",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-854256a56b",
+                  "name": "Al Qadsiah vs Al Nassr FC",
+                  "streams": [
+                    {
+                      "id": "st-854256a56b",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-437b0272a7",
+                          "name": "BLV Cá Mập",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f77b75137e4_154/index.m3u8?expire=1778431477&sign=7ad66d6ff7cbe57e8d58c7efaa13e158",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al Qadsiah",
+            "team_b": "Al Nassr FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bc74439d19c8bbaa17c57406b120b86d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0d9975f7e846a1ecb099f4cd62d1b8f7.png",
+            "time": "",
+            "blv": "BLV Cá Mập",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-854256a56b_00671df5.png?v=00671df5",
             "width": 1600,
             "height": 1200
           }
@@ -477,8 +565,8 @@
           }
         },
         {
-          "id": "thapcam-854256a56b",
-          "name": "Al Qadsiah vs Al Nassr FC",
+          "id": "thapcam-615ecaa429",
+          "name": "Inter Milan vs Parma",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -492,23 +580,40 @@
           ],
           "sources": [
             {
-              "id": "src-854256a56b",
+              "id": "src-615ecaa429",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-854256a56b",
-                  "name": "Al Qadsiah vs Al Nassr FC",
+                  "id": "ct-615ecaa429",
+                  "name": "Inter Milan vs Parma",
                   "streams": [
                     {
-                      "id": "st-854256a56b",
+                      "id": "st-615ecaa429",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-437b0272a7",
-                          "name": "BLV Cá Mập",
+                          "id": "lnk-cb3acfd1b9",
+                          "name": "BLV Người Páo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f77b75137e4_154/index.m3u8?expire=1778431477&sign=7ad66d6ff7cbe57e8d58c7efaa13e158",
+                          "url": "https://cdn-hls.phogatv8.com/live/69f78f72137e4_19533/index.m3u8?expire=1778436594&sign=02519ae903a381dbcbea31788b267bb1",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e7f2363d11",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f7931b51ddc_14559/index.m3u8?expire=1778437531&sign=675bbb7aa7df4ffafde33e0d444e6a78",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -528,13 +633,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al Qadsiah",
-            "team_b": "Al Nassr FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bc74439d19c8bbaa17c57406b120b86d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0d9975f7e846a1ecb099f4cd62d1b8f7.png",
+            "league": "Italian Serie A",
+            "team_a": "Inter Milan",
+            "team_b": "Parma",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aa2245702c40f77799a5ad4b119581a8.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9fadd87d190982c8082dddf1567e0b9b.png",
             "time": "",
-            "blv": "BLV Cá Mập",
+            "blv": "BLV Người Páo",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -542,38 +647,56 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-854256a56b_00671df5.png?v=00671df5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-615ecaa429_84def2b9.png?v=84def2b9",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "thapcam-c9b7dd76b9",
-          "name": "RCD Espanyol de Barcelona vs Real Madrid | 02:00 04/05",
+          "id": "thapcam-46b114a632",
+          "name": "Lyon vs Stade Rennais FC",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-c9b7dd76b9",
+              "id": "src-46b114a632",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-c9b7dd76b9",
-                  "name": "RCD Espanyol de Barcelona vs Real Madrid",
+                  "id": "ct-46b114a632",
+                  "name": "Lyon vs Stade Rennais FC",
                   "streams": [
                     {
-                      "id": "st-c9b7dd76b9",
+                      "id": "st-46b114a632",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-36e9efb264",
+                          "name": "BLV Người Ngố",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f78ba5137e4_14/index.m3u8?expire=1778435621&sign=6e7ce98c6a19d8a1e8771835cc7a7d12",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -581,74 +704,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "RCD Espanyol de Barcelona",
-            "team_b": "Real Madrid",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/214049d4df11756a2eb21bbd8266e2a1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7dacaa934fe4be00f23c1e209b5ef947.png",
-            "time": "02:00 04/05",
-            "blv": "BLV Lềnh",
-            "is_live": false,
+            "league": "French Ligue 1",
+            "team_a": "Lyon",
+            "team_b": "Stade Rennais FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/92fb3cf79ea2ba919b94b04668e13491.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/eab8f0e847742fd328bb581299bd99ca.png",
+            "time": "",
+            "blv": "BLV Người Ngố",
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c9b7dd76b9_ccb274f8.png?v=ccb274f8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-064ee272a5",
-          "name": "New York City FC vs DC United | 02:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-064ee272a5",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-064ee272a5",
-                  "name": "New York City FC vs DC United",
-                  "streams": [
-                    {
-                      "id": "st-064ee272a5",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United States Major League Soccer",
-            "team_a": "New York City FC",
-            "team_b": "DC United",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f5bbc8573e1b019164b11b13c49598bd.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2d846f3eea3e2d5067b26de498f83d94.png",
-            "time": "02:00 04/05",
-            "blv": "BLV Người Băng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-064ee272a5_3b046b62.png?v=3b046b62",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46b114a632_d4868675.png?v=d4868675",
             "width": 1600,
             "height": 1200
           }
