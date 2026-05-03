@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-92175c2d4a",
-          "name": "SC Freiburg vs VfL Wolfsburg",
+          "id": "thapcam-3a9c50409f",
+          "name": "Rio Ave vs Gil Vicente | 02:30 04/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-92175c2d4a",
+              "id": "src-3a9c50409f",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-92175c2d4a",
-                  "name": "SC Freiburg vs VfL Wolfsburg",
+                  "id": "ct-3a9c50409f",
+                  "name": "Rio Ave vs Gil Vicente",
                   "streams": [
                     {
-                      "id": "st-92175c2d4a",
+                      "id": "st-3a9c50409f",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-24d401aed5",
+                          "id": "lnk-f0f31322df",
                           "name": "BLV Người Lạ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f77c87137e4_11241/index.m3u8?expire=1778431751&sign=746868857044c2d8e99f8959a335614b",
+                          "url": "https://cdn-hls.phogatv8.com/live/69f7a19a137e4_11241/index.m3u8?expire=1778441242&sign=8eda75e4a11378a758c0ea8ff290e29a",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,12 +68,12 @@
             }
           ],
           "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "SC Freiburg",
-            "team_b": "VfL Wolfsburg",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6508946c9a5fe22a8784b905b25e8c79.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/03645e9c1d7fd2c48705622f52fd901e.png",
-            "time": "",
+            "league": "Portuguese Primera Liga",
+            "team_a": "Rio Ave",
+            "team_b": "Gil Vicente",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e83b163c8501f897012bcc29adfae2b9.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6a2005d20c872db3173d2bf995768055.png",
+            "time": "02:30 04/05",
             "blv": "BLV Người Lạ",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -82,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-92175c2d4a_0e81365a.png?v=0e81365a",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3a9c50409f_5e01c55f.png?v=5e01c55f",
             "width": 1600,
             "height": 1200
           }
