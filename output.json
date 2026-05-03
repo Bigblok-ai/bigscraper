@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-fe75d67e30",
-          "name": "Inter Miami CF vs Orlando City",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fe75d67e30",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-fe75d67e30",
-                  "name": "Inter Miami CF vs Orlando City",
-                  "streams": [
-                    {
-                      "id": "st-fe75d67e30",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4328857f40",
-                          "name": "BLV Người Nhện",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f67db0137e4_32/index.m3u8?expire=1778366512&sign=abce1133d5e58631587a162edc803e92",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United States Major League Soccer",
-            "team_a": "Inter Miami CF",
-            "team_b": "Orlando City",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/976fe1d29c112f4baeb844cdda2f04cb.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b4ad649e6c6a9a6cf91493bf5e92ffbe.png",
-            "time": "",
-            "blv": "BLV Người Nhện",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-fe75d67e30_ed719052.png?v=ed719052",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-eb1f3fdd41",
           "name": "New York Red Bulls vs FC Dallas",
