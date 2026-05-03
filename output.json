@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-a005e5f1ac",
-          "name": "Getafe vs Rayo Vallecano",
+          "id": "thapcam-34fb41e67c",
+          "name": "Real Betis vs Real Oviedo | 23:30 03/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-a005e5f1ac",
+              "id": "src-34fb41e67c",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-a005e5f1ac",
-                  "name": "Getafe vs Rayo Vallecano",
+                  "id": "ct-34fb41e67c",
+                  "name": "Real Betis vs Real Oviedo",
                   "streams": [
                     {
-                      "id": "st-a005e5f1ac",
+                      "id": "st-34fb41e67c",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-2e115df6a8",
+                          "id": "lnk-8c8d7d6c91",
                           "name": "BLV Người Nhện",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f7436c51ddc_32/index.m3u8?expire=1778417132&sign=a807fd0a54c679a0effa9fb78b222dfd",
+                          "url": "https://cdn-hls.phogatv8.com/live/69f774e351ddc_32/index.m3u8?expire=1778429795&sign=8558a3ba60658b879b86209bba8aab42",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,11 +69,11 @@
           ],
           "org_metadata": {
             "league": "Spanish La Liga",
-            "team_a": "Getafe",
-            "team_b": "Rayo Vallecano",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/36bf5bf0c8fdf08c1270124808f060e1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5005d8feab109ce64e40beb98073cc1f.png",
-            "time": "",
+            "team_a": "Real Betis",
+            "team_b": "Real Oviedo",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/018e260ad68bdad741c61e3171c4c608.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/21551996567bcd206ee574043d509a84.png",
+            "time": "23:30 03/05",
             "blv": "BLV Người Nhện",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -82,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a005e5f1ac_f60c3811.png?v=f60c3811",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-34fb41e67c_c95f8dec.png?v=c95f8dec",
             "width": 1600,
             "height": 1200
           }
@@ -318,77 +318,6 @@
           }
         },
         {
-          "id": "thapcam-371ac5c83b",
-          "name": "Paris FC vs Stade Brestois 29",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-371ac5c83b",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-371ac5c83b",
-                  "name": "Paris FC vs Stade Brestois 29",
-                  "streams": [
-                    {
-                      "id": "st-371ac5c83b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cf11d84463",
-                          "name": "BLV Siêu Quậy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f76193137e4_26/index.m3u8?expire=1778424851&sign=50b7941aafbe5e941ed095ea4d110eb6",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "Paris FC",
-            "team_b": "Stade Brestois 29",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/83a982f8219a768e7cd29d1ac765b199.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bb7e6346a3860008e4ff266ba3b655e8.png",
-            "time": "",
-            "blv": "BLV Siêu Quậy",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-371ac5c83b_edd81d55.png?v=edd81d55",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-d261d8b269",
           "name": "RC Strasbourg Alsace vs Toulouse FC",
           "type": "single",
@@ -455,6 +384,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d261d8b269_bbd3da1b.png?v=bbd3da1b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-371ac5c83b",
+          "name": "Paris FC vs Stade Brestois 29",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-371ac5c83b",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-371ac5c83b",
+                  "name": "Paris FC vs Stade Brestois 29",
+                  "streams": [
+                    {
+                      "id": "st-371ac5c83b",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cf11d84463",
+                          "name": "BLV Siêu Quậy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f76193137e4_26/index.m3u8?expire=1778424851&sign=50b7941aafbe5e941ed095ea4d110eb6",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "Paris FC",
+            "team_b": "Stade Brestois 29",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/83a982f8219a768e7cd29d1ac765b199.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bb7e6346a3860008e4ff266ba3b655e8.png",
+            "time": "",
+            "blv": "BLV Siêu Quậy",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-371ac5c83b_edd81d55.png?v=edd81d55",
             "width": 1600,
             "height": 1200
           }
@@ -668,59 +668,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6d0898d8bb_4fa7f7bc.png?v=4fa7f7bc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-34fb41e67c",
-          "name": "Real Betis vs Real Oviedo | 23:30 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-34fb41e67c",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-34fb41e67c",
-                  "name": "Real Betis vs Real Oviedo",
-                  "streams": [
-                    {
-                      "id": "st-34fb41e67c",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Real Betis",
-            "team_b": "Real Oviedo",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/018e260ad68bdad741c61e3171c4c608.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/21551996567bcd206ee574043d509a84.png",
-            "time": "23:30 03/05",
-            "blv": "BLV Người Nhện",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-34fb41e67c_c95f8dec.png?v=c95f8dec",
             "width": 1600,
             "height": 1200
           }
