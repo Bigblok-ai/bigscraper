@@ -2101,6 +2101,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-be395d9733",
+          "name": "Vietnam U17 Women vs China U17 Women | 18:30 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-be395d9733",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-be395d9733",
+                  "name": "Vietnam U17 Women vs China U17 Women",
+                  "streams": [
+                    {
+                      "id": "st-be395d9733",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Vietnam U17 Women",
+            "team_b": "China U17 Women",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0062546fba2350caff9e4b31101550c4.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2bb2cd4e6d0219b11dcbda441a825b50.png",
+            "time": "18:30 04/05",
+            "blv": "BLV Cá Mập",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-be395d9733_34a02056.png?v=34a02056",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
