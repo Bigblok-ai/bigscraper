@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,6 +83,148 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-182cfa250b_75198a7a.png?v=75198a7a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-576e14fff1",
+          "name": "Juventus vs Hellas Verona | 23:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-576e14fff1",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-576e14fff1",
+                  "name": "Juventus vs Hellas Verona",
+                  "streams": [
+                    {
+                      "id": "st-576e14fff1",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa13b59763",
+                          "name": "BLV Người Páo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f76218137e4_19533/index.m3u8?expire=1778424984&sign=29d83d8d55ad793013b5701cc3924d17",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Juventus",
+            "team_b": "Hellas Verona",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/314ca8463a6fd047b11d474287b24c50.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b8e39abb18bb1c69396c59ff73ecf124.png",
+            "time": "23:00 03/05",
+            "blv": "BLV Người Páo",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-576e14fff1_4f5d2b3d.png?v=4f5d2b3d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-6d0898d8bb",
+          "name": "CSKA Sofia vs Ludogorets Razgrad | 23:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6d0898d8bb",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-6d0898d8bb",
+                  "name": "CSKA Sofia vs Ludogorets Razgrad",
+                  "streams": [
+                    {
+                      "id": "st-6d0898d8bb",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b22836baab",
+                          "name": "BLV Người Ngố",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f7692d137e4_14/index.m3u8?expire=1778426797&sign=8a5a7428a9cc40c5fc21e164c63a8902",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bulgarian First League",
+            "team_a": "CSKA Sofia",
+            "team_b": "Ludogorets Razgrad",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3b19cae478679881554914e45d318742.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3cd0dc57966a8b1f8536dd0016179664.png",
+            "time": "23:00 03/05",
+            "blv": "BLV Người Ngố",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6d0898d8bb_4fa7f7bc.png?v=4fa7f7bc",
             "width": 1600,
             "height": 1200
           }
@@ -597,112 +739,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d261d8b269_bbd3da1b.png?v=bbd3da1b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-576e14fff1",
-          "name": "Juventus vs Hellas Verona | 23:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-576e14fff1",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-576e14fff1",
-                  "name": "Juventus vs Hellas Verona",
-                  "streams": [
-                    {
-                      "id": "st-576e14fff1",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Juventus",
-            "team_b": "Hellas Verona",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/314ca8463a6fd047b11d474287b24c50.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b8e39abb18bb1c69396c59ff73ecf124.png",
-            "time": "23:00 03/05",
-            "blv": "BLV Người Páo",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-576e14fff1_4f5d2b3d.png?v=4f5d2b3d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-6d0898d8bb",
-          "name": "CSKA Sofia vs Ludogorets Razgrad | 23:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6d0898d8bb",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6d0898d8bb",
-                  "name": "CSKA Sofia vs Ludogorets Razgrad",
-                  "streams": [
-                    {
-                      "id": "st-6d0898d8bb",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bulgarian First League",
-            "team_a": "CSKA Sofia",
-            "team_b": "Ludogorets Razgrad",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3b19cae478679881554914e45d318742.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3cd0dc57966a8b1f8536dd0016179664.png",
-            "time": "23:00 03/05",
-            "blv": "BLV Người Ngố",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6d0898d8bb_4fa7f7bc.png?v=4fa7f7bc",
             "width": 1600,
             "height": 1200
           }
@@ -1992,7 +2028,7 @@
     },
     {
       "id": "grp-0b6b498c58",
-      "name": "🏸 Cầu Lông",
+      "name": "🏸 Cầu Lông (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2005,10 +2041,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2023,7 +2059,25 @@
                     {
                       "id": "st-e268c7a8c1",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ba51a3c2a3",
+                          "name": "BLV Người Rừng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f767df51ddc_148/index.m3u8?expire=1778426463&sign=686d62cb5bd85c2a54a2b8d8607f4e98",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2038,7 +2092,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/40212f6d758e035c28bc9fc47728af63.png",
             "time": "23:00 03/05",
             "blv": "BLV Người Rừng",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Cầu Lông"
           },
           "image": {
