@@ -11,11 +11,82 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-b385d804a6",
+          "name": "Sporting Braga vs Estoril | 00:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b385d804a6",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-b385d804a6",
+                  "name": "Sporting Braga vs Estoril",
+                  "streams": [
+                    {
+                      "id": "st-b385d804a6",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ff9e2eda7f",
+                          "name": "BLV Jayce",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f7761f51ddc_181/index.m3u8?expire=1778430111&sign=aa3b8ff82973759006d0afe1590defa8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Portuguese Primera Liga",
+            "team_a": "Sporting Braga",
+            "team_b": "Estoril",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1fe75f826dab40e6e89cbe961c7e9116.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/faeceacffbf35e28b7e71a5f90b6efdc.png",
+            "time": "00:00 04/05",
+            "blv": "BLV Jayce",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b385d804a6_4cac9329.png?v=4cac9329",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-c8c9a74d59",
           "name": "AJ Auxerre vs Angers SCO",
@@ -230,7 +301,7 @@
           }
         },
         {
-          "id": "thapcam-2e8609ad26",
+          "id": "thapcam-182cfa250b",
           "name": "Borussia Monchengladbach vs Borussia Dortmund",
           "type": "single",
           "display": "thumbnail-only",
@@ -245,15 +316,15 @@
           ],
           "sources": [
             {
-              "id": "src-2e8609ad26",
+              "id": "src-182cfa250b",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-2e8609ad26",
+                  "id": "ct-182cfa250b",
                   "name": "Borussia Monchengladbach vs Borussia Dortmund",
                   "streams": [
                     {
-                      "id": "st-2e8609ad26",
+                      "id": "st-182cfa250b",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -295,7 +366,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2e8609ad26_75198a7a.png?v=75198a7a",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-182cfa250b_75198a7a.png?v=75198a7a",
             "width": 1600,
             "height": 1200
           }
@@ -509,59 +580,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-34fb41e67c_c95f8dec.png?v=c95f8dec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-b385d804a6",
-          "name": "Sporting Braga vs Estoril | 00:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b385d804a6",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-b385d804a6",
-                  "name": "Sporting Braga vs Estoril",
-                  "streams": [
-                    {
-                      "id": "st-b385d804a6",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "Sporting Braga",
-            "team_b": "Estoril",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1fe75f826dab40e6e89cbe961c7e9116.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/faeceacffbf35e28b7e71a5f90b6efdc.png",
-            "time": "00:00 04/05",
-            "blv": "BLV Jayce",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b385d804a6_4cac9329.png?v=4cac9329",
             "width": 1600,
             "height": 1200
           }
@@ -2000,7 +2018,7 @@
     },
     {
       "id": "grp-5cf95d73f3",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2013,10 +2031,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2031,7 +2049,25 @@
                     {
                       "id": "st-7841485cc6",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-58a22cb7aa",
+                          "name": "BLV Người Điên",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f7782b137e4_1984/index.m3u8?expire=1778430635&sign=3fb95f1c743d0ff60b5c9d734bb992bf",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2046,7 +2082,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/5603c1d74cfc6664f8eee75c00db4dab.png",
             "time": "00:00 04/05",
             "blv": "BLV Người Điên",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng chuyền"
           },
           "image": {
