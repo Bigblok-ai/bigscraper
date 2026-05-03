@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (10 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -242,77 +242,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-aef4e59c7e_31870050.png?v=31870050",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-ebeac09ef7",
-          "name": "Imigresen FC vs DPMM FC",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ebeac09ef7",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-ebeac09ef7",
-                  "name": "Imigresen FC vs DPMM FC",
-                  "streams": [
-                    {
-                      "id": "st-ebeac09ef7",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-98e792a765",
-                          "name": "BLV Siêu Quậy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f73f2451ddc_26/index.m3u8?expire=1778416036&sign=efd003eb14ff2ddefe5318060c53a080",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Malaysian Super League",
-            "team_a": "Imigresen FC",
-            "team_b": "DPMM FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cdc4c0ec8848a89a3e16b273a6da6c5b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/25dae24c4bfc4a6fdd53d090a39821dd.png",
-            "time": "",
-            "blv": "BLV Siêu Quậy",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ebeac09ef7_65f902fa.png?v=65f902fa",
             "width": 1600,
             "height": 1200
           }
@@ -2146,7 +2075,114 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "thapcam-8f343c029f",
+          "name": "Detroit Pistons vs Orlando Magic | 02:30 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8f343c029f",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-8f343c029f",
+                  "name": "Detroit Pistons vs Orlando Magic",
+                  "streams": [
+                    {
+                      "id": "st-8f343c029f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Detroit Pistons",
+            "team_b": "Orlando Magic",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3f82122a48e98eaccc5e71307eba801a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0dc24d08ef0b5584e0b70f967db64b36.png",
+            "time": "02:30 04/05",
+            "blv": "BLV Người Hầu",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8f343c029f_ac178c9e.png?v=ac178c9e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-b7bb7c0f2f",
+          "name": "Cleveland Cavaliers vs Toronto Raptors | 06:30 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b7bb7c0f2f",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-b7bb7c0f2f",
+                  "name": "Cleveland Cavaliers vs Toronto Raptors",
+                  "streams": [
+                    {
+                      "id": "st-b7bb7c0f2f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Cleveland Cavaliers",
+            "team_b": "Toronto Raptors",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/57c938e35ceb2ee92562a09c4165fb47.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e299ddecec93dc5c8db83b1761e2fa1f.png",
+            "time": "06:30 04/05",
+            "blv": "BLV Người Sói",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b7bb7c0f2f_5e485fcd.png?v=5e485fcd",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-0b6b498c58",
