@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-ef437d7505",
-          "name": "ZED FC vs El Gounah | 21:00 03/05",
+          "id": "thapcam-a005e5f1ac",
+          "name": "Getafe vs Rayo Vallecano | 21:15 03/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-ef437d7505",
+              "id": "src-a005e5f1ac",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-ef437d7505",
-                  "name": "ZED FC vs El Gounah",
+                  "id": "ct-a005e5f1ac",
+                  "name": "Getafe vs Rayo Vallecano",
                   "streams": [
                     {
-                      "id": "st-ef437d7505",
+                      "id": "st-a005e5f1ac",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-31ba5fa276",
-                          "name": "BLV Người Cỏ",
+                          "id": "lnk-2e115df6a8",
+                          "name": "BLV Người Nhện",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f75413137e4_19092/index.m3u8?expire=1778421395&sign=7593c2590efe376991247d23dc2e6c11",
+                          "url": "https://cdn-hls.phogatv8.com/live/69f7436c51ddc_32/index.m3u8?expire=1778417132&sign=a807fd0a54c679a0effa9fb78b222dfd",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,13 +68,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Egyptian Premier League",
-            "team_a": "ZED FC",
-            "team_b": "El Gounah",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a08754ab96c283bacbf148154a50c7fc.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/35e665fa4086e183fda582249d625c2b.png",
-            "time": "21:00 03/05",
-            "blv": "BLV Người Cỏ",
+            "league": "Spanish La Liga",
+            "team_a": "Getafe",
+            "team_b": "Rayo Vallecano",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/36bf5bf0c8fdf08c1270124808f060e1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5005d8feab109ce64e40beb98073cc1f.png",
+            "time": "21:15 03/05",
+            "blv": "BLV Người Nhện",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -82,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ef437d7505_13e1f08c.png?v=13e1f08c",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a005e5f1ac_f60c3811.png?v=f60c3811",
             "width": 1600,
             "height": 1200
           }
@@ -389,77 +389,6 @@
           }
         },
         {
-          "id": "thapcam-ebeac09ef7",
-          "name": "Imigresen FC vs DPMM FC",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ebeac09ef7",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-ebeac09ef7",
-                  "name": "Imigresen FC vs DPMM FC",
-                  "streams": [
-                    {
-                      "id": "st-ebeac09ef7",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-98e792a765",
-                          "name": "BLV Siêu Quậy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f73f2451ddc_26/index.m3u8?expire=1778416036&sign=efd003eb14ff2ddefe5318060c53a080",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Malaysian Super League",
-            "team_a": "Imigresen FC",
-            "team_b": "DPMM FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cdc4c0ec8848a89a3e16b273a6da6c5b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/25dae24c4bfc4a6fdd53d090a39821dd.png",
-            "time": "",
-            "blv": "BLV Siêu Quậy",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ebeac09ef7_65f902fa.png?v=65f902fa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-aa684fffe1",
           "name": "Negeri Sembilan vs Melaka FC",
           "type": "single",
@@ -526,6 +455,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-aa684fffe1_510d7ec5.png?v=510d7ec5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-ebeac09ef7",
+          "name": "Imigresen FC vs DPMM FC",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ebeac09ef7",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-ebeac09ef7",
+                  "name": "Imigresen FC vs DPMM FC",
+                  "streams": [
+                    {
+                      "id": "st-ebeac09ef7",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-98e792a765",
+                          "name": "BLV Siêu Quậy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f73f2451ddc_26/index.m3u8?expire=1778416036&sign=efd003eb14ff2ddefe5318060c53a080",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Malaysian Super League",
+            "team_a": "Imigresen FC",
+            "team_b": "DPMM FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cdc4c0ec8848a89a3e16b273a6da6c5b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/25dae24c4bfc4a6fdd53d090a39821dd.png",
+            "time": "",
+            "blv": "BLV Siêu Quậy",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ebeac09ef7_65f902fa.png?v=65f902fa",
             "width": 1600,
             "height": 1200
           }
@@ -602,32 +602,50 @@
           }
         },
         {
-          "id": "thapcam-a005e5f1ac",
-          "name": "Getafe vs Rayo Vallecano | 21:15 03/05",
+          "id": "thapcam-ef437d7505",
+          "name": "ZED FC vs El Gounah",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-a005e5f1ac",
+              "id": "src-ef437d7505",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-a005e5f1ac",
-                  "name": "Getafe vs Rayo Vallecano",
+                  "id": "ct-ef437d7505",
+                  "name": "ZED FC vs El Gounah",
                   "streams": [
                     {
-                      "id": "st-a005e5f1ac",
+                      "id": "st-ef437d7505",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-31ba5fa276",
+                          "name": "BLV Người Cỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f75413137e4_19092/index.m3u8?expire=1778421395&sign=7593c2590efe376991247d23dc2e6c11",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -635,21 +653,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Getafe",
-            "team_b": "Rayo Vallecano",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/36bf5bf0c8fdf08c1270124808f060e1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5005d8feab109ce64e40beb98073cc1f.png",
-            "time": "21:15 03/05",
-            "blv": "BLV Người Nhện",
-            "is_live": false,
+            "league": "Egyptian Premier League",
+            "team_a": "ZED FC",
+            "team_b": "El Gounah",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a08754ab96c283bacbf148154a50c7fc.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/35e665fa4086e183fda582249d625c2b.png",
+            "time": "",
+            "blv": "BLV Người Cỏ",
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a005e5f1ac_f60c3811.png?v=f60c3811",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ef437d7505_13e1f08c.png?v=13e1f08c",
             "width": 1600,
             "height": 1200
           }
