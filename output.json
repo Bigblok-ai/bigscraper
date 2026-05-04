@@ -17,79 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-41a0ed7d54",
-          "name": "Albirex Niigata FC vs Young Lions | 18:30 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-41a0ed7d54",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-41a0ed7d54",
-                  "name": "Albirex Niigata FC vs Young Lions",
-                  "streams": [
-                    {
-                      "id": "st-41a0ed7d54",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e04b34758f",
-                          "name": "BLV Người Ngố",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f8823851ddc_14/index.m3u8?expire=1778498744&sign=378d5e1164572cb450c557d55cc3e69f",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Singapore Premier League",
-            "team_a": "Albirex Niigata FC",
-            "team_b": "Young Lions",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1bc138bc13d186569590f57f9d9127cd.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9208155f7204354ad78a72594ff7b13c.png",
-            "time": "18:30 04/05",
-            "blv": "BLV Người Ngố",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-41a0ed7d54_8558a3f1_20260504.png?v=8558a3f1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-be395d9733",
-          "name": "Vietnam U17 Women vs China U17 Women | 18:30 04/05",
+          "name": "Vietnam U17 Women vs China U17 Women",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -161,7 +90,7 @@
             "team_b": "China U17 Women",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0062546fba2350caff9e4b31101550c4.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2bb2cd4e6d0219b11dcbda441a825b50.png",
-            "time": "18:30 04/05",
+            "time": "",
             "blv": "BLV Cá Mập",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -171,6 +100,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-be395d9733_34a02056_20260504.png?v=34a02056",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-41a0ed7d54",
+          "name": "Albirex Niigata FC vs Young Lions",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-41a0ed7d54",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-41a0ed7d54",
+                  "name": "Albirex Niigata FC vs Young Lions",
+                  "streams": [
+                    {
+                      "id": "st-41a0ed7d54",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e04b34758f",
+                          "name": "BLV Người Ngố",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f8823851ddc_14/index.m3u8?expire=1778498744&sign=378d5e1164572cb450c557d55cc3e69f",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Singapore Premier League",
+            "team_a": "Albirex Niigata FC",
+            "team_b": "Young Lions",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1bc138bc13d186569590f57f9d9127cd.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9208155f7204354ad78a72594ff7b13c.png",
+            "time": "",
+            "blv": "BLV Người Ngố",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-41a0ed7d54_8558a3f1_20260504.png?v=8558a3f1",
             "width": 1600,
             "height": 1200
           }
@@ -1236,59 +1236,6 @@
           }
         },
         {
-          "id": "thapcam-b25b3eb361",
-          "name": "Jeonbuk Hyundai Motors vs Gwangju Football Club | 12:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b25b3eb361",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-b25b3eb361",
-                  "name": "Jeonbuk Hyundai Motors vs Gwangju Football Club",
-                  "streams": [
-                    {
-                      "id": "st-b25b3eb361",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Jeonbuk Hyundai Motors",
-            "team_b": "Gwangju Football Club",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ee2117f952745163fecfa4b74a6a2bea.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2e8e1e2a893d37e3f7260e97c807c28a.png",
-            "time": "12:00 05/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b25b3eb361_3766d294_20260504.png?v=3766d294",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-9db48a5aad",
           "name": "Bucheon FC 1995 vs Jeju SK FC | 12:00 05/05",
           "type": "single",
@@ -1342,8 +1289,8 @@
           }
         },
         {
-          "id": "thapcam-6daf55c3d8",
-          "name": "Gangwon Football Club vs Pohang Steelers | 14:30 05/05",
+          "id": "thapcam-b25b3eb361",
+          "name": "Jeonbuk Hyundai Motors vs Gwangju Football Club | 12:00 05/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1357,15 +1304,15 @@
           ],
           "sources": [
             {
-              "id": "src-6daf55c3d8",
+              "id": "src-b25b3eb361",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-6daf55c3d8",
-                  "name": "Gangwon Football Club vs Pohang Steelers",
+                  "id": "ct-b25b3eb361",
+                  "name": "Jeonbuk Hyundai Motors vs Gwangju Football Club",
                   "streams": [
                     {
-                      "id": "st-6daf55c3d8",
+                      "id": "st-b25b3eb361",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1376,12 +1323,12 @@
           ],
           "org_metadata": {
             "league": "Korean K League 1",
-            "team_a": "Gangwon Football Club",
-            "team_b": "Pohang Steelers",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/771a93ae7f62b1a47a71c3d62b89dca3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6f05c460789939ac83282bd0686446f1.png",
-            "time": "14:30 05/05",
-            "blv": "BLV Người Rừng",
+            "team_a": "Jeonbuk Hyundai Motors",
+            "team_b": "Gwangju Football Club",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ee2117f952745163fecfa4b74a6a2bea.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2e8e1e2a893d37e3f7260e97c807c28a.png",
+            "time": "12:00 05/05",
+            "blv": "BLV Siêu Quậy",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1389,7 +1336,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6daf55c3d8_b11500b8_20260504.png?v=b11500b8",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b25b3eb361_3766d294_20260504.png?v=3766d294",
             "width": 1600,
             "height": 1200
           }
@@ -1549,6 +1496,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-eec931a386_7fd5a935_20260504.png?v=7fd5a935",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-6daf55c3d8",
+          "name": "Gangwon Football Club vs Pohang Steelers | 14:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6daf55c3d8",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-6daf55c3d8",
+                  "name": "Gangwon Football Club vs Pohang Steelers",
+                  "streams": [
+                    {
+                      "id": "st-6daf55c3d8",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Gangwon Football Club",
+            "team_b": "Pohang Steelers",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/771a93ae7f62b1a47a71c3d62b89dca3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6f05c460789939ac83282bd0686446f1.png",
+            "time": "14:30 05/05",
+            "blv": "BLV Người Rừng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6daf55c3d8_b11500b8_20260504.png?v=b11500b8",
             "width": 1600,
             "height": 1200
           }
