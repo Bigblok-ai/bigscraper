@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-40bae540d8",
-          "name": "AS Roma vs Fiorentina | 01:45 05/05",
+          "id": "thapcam-e65df9c73f",
+          "name": "Everton vs Manchester City | 02:00 05/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-40bae540d8",
+              "id": "src-e65df9c73f",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-40bae540d8",
-                  "name": "AS Roma vs Fiorentina",
+                  "id": "ct-e65df9c73f",
+                  "name": "Everton vs Manchester City",
                   "streams": [
                     {
-                      "id": "st-40bae540d8",
+                      "id": "st-e65df9c73f",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-e1ff0e881d",
-                          "name": "BLV Người Cò",
+                          "id": "lnk-4d86d3ca63",
+                          "name": "BLV Lềnh",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f8e2e0137e4_14559/index.m3u8?expire=1778523488&sign=679eb100ea28def7de0e47f840d6e7ca",
+                          "url": "https://cdn-hls.phogatv8.com/live/69f8e67b137e4_151/index.m3u8?expire=1778524411&sign=ae15144bb94d93822ba7001067bf0e80",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -61,11 +61,28 @@
                           ]
                         },
                         {
-                          "id": "lnk-35de185eb2",
+                          "id": "lnk-34b461519e",
                           "name": "Link HD",
                           "type": "hls",
                           "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f8db5f51ddc_35/index.m3u8?expire=1778521567&sign=6958144a0a766fd2f03a5a89342016fc",
+                          "url": "https://cdn-hls.phogatv8.com/live/69f8e5bb137e4_19533/index.m3u8?expire=1778524219&sign=905b30158f13fab790af706a9e40a66a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e9c00e4691",
+                          "name": "Link HD 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f8e15751ddc_1549/index.m3u8?expire=1778523095&sign=167e09dc1d5d126878e6d7512e923373",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -85,13 +102,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "AS Roma",
-            "team_b": "Fiorentina",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7a192686d30c1ad031d2fb605eaf2f2a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/858d87ded0cce014bae0c9681af48524.png",
-            "time": "01:45 05/05",
-            "blv": "BLV Người Cò",
+            "league": "English Premier League",
+            "team_a": "Everton",
+            "team_b": "Manchester City",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9592d1e0be6375b9e6c5ef169b7aa864.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c4a6528a2ee147b99c9885ef24385a4e.png",
+            "time": "02:00 05/05",
+            "blv": "BLV Lềnh",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -99,7 +116,95 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-40bae540d8_5914d80f_20260505.png?v=5914d80f",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e65df9c73f_96dd3b69_20260505.png?v=96dd3b69",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-d66eda0e9c",
+          "name": "Sevilla FC vs Real Sociedad | 02:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d66eda0e9c",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d66eda0e9c",
+                  "name": "Sevilla FC vs Real Sociedad",
+                  "streams": [
+                    {
+                      "id": "st-d66eda0e9c",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-be0f8a9c78",
+                          "name": "BLV Người Rơm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f8e3c3137e4_16125/index.m3u8?expire=1778523715&sign=a0d0d7eaccedb3f7b56022f8c1a954f2",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4406f1bfd2",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f8e59b137e4_19092/index.m3u8?expire=1778524187&sign=97b44300811b0a6d5737deb11d6cf58a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Sevilla FC",
+            "team_b": "Real Sociedad",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d20ed1da4f299cc3ef0e1e9eb06eced1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/579db6e95905545973035e6eab8df2cd.png",
+            "time": "02:00 05/05",
+            "blv": "BLV Người Rơm",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d66eda0e9c_0e7bc074_20260505.png?v=0e7bc074",
             "width": 1600,
             "height": 1200
           }
@@ -318,6 +423,77 @@
           }
         },
         {
+          "id": "thapcam-1d054efb29",
+          "name": "FC Rapid 1923 vs CFR Cluj",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1d054efb29",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-1d054efb29",
+                  "name": "FC Rapid 1923 vs CFR Cluj",
+                  "streams": [
+                    {
+                      "id": "st-1d054efb29",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-54d7a7f97a",
+                          "name": "BLV Người Ngố",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f8d04451ddc_14/index.m3u8?expire=1778518724&sign=b778182b33937477ccb5fb67508d5f82",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Romanian Super Liga",
+            "team_a": "FC Rapid 1923",
+            "team_b": "CFR Cluj",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6bb1babe89fffc1f77f25a47db40c847.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6f927eb040bdd5c972a9343fd9c8b873.png",
+            "time": "",
+            "blv": "BLV Người Ngố",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1d054efb29_c7257b98_20260505.png?v=c7257b98",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-424bc3d0df",
           "name": "Al Ettifaq FC vs Al Najma(KSA)",
           "type": "single",
@@ -460,32 +636,67 @@
           }
         },
         {
-          "id": "thapcam-d66eda0e9c",
-          "name": "Sevilla FC vs Real Sociedad | 02:00 05/05",
+          "id": "thapcam-40bae540d8",
+          "name": "AS Roma vs Fiorentina",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-d66eda0e9c",
+              "id": "src-40bae540d8",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-d66eda0e9c",
-                  "name": "Sevilla FC vs Real Sociedad",
+                  "id": "ct-40bae540d8",
+                  "name": "AS Roma vs Fiorentina",
                   "streams": [
                     {
-                      "id": "st-d66eda0e9c",
+                      "id": "st-40bae540d8",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e1ff0e881d",
+                          "name": "BLV Người Cò",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f8e2e0137e4_14559/index.m3u8?expire=1778523488&sign=679eb100ea28def7de0e47f840d6e7ca",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-35de185eb2",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f8db5f51ddc_35/index.m3u8?expire=1778521567&sign=6958144a0a766fd2f03a5a89342016fc",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -493,74 +704,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Sevilla FC",
-            "team_b": "Real Sociedad",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d20ed1da4f299cc3ef0e1e9eb06eced1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/579db6e95905545973035e6eab8df2cd.png",
-            "time": "02:00 05/05",
-            "blv": "BLV Người Rơm",
-            "is_live": false,
+            "league": "Italian Serie A",
+            "team_a": "AS Roma",
+            "team_b": "Fiorentina",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7a192686d30c1ad031d2fb605eaf2f2a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/858d87ded0cce014bae0c9681af48524.png",
+            "time": "",
+            "blv": "BLV Người Cò",
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d66eda0e9c_0e7bc074_20260505.png?v=0e7bc074",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-e65df9c73f",
-          "name": "Everton vs Manchester City | 02:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e65df9c73f",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e65df9c73f",
-                  "name": "Everton vs Manchester City",
-                  "streams": [
-                    {
-                      "id": "st-e65df9c73f",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Everton",
-            "team_b": "Manchester City",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9592d1e0be6375b9e6c5ef169b7aa864.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c4a6528a2ee147b99c9885ef24385a4e.png",
-            "time": "02:00 05/05",
-            "blv": "BLV Lềnh",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e65df9c73f_96dd3b69_20260505.png?v=96dd3b69",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-40bae540d8_5914d80f_20260505.png?v=5914d80f",
             "width": 1600,
             "height": 1200
           }
@@ -778,8 +936,8 @@
           }
         },
         {
-          "id": "thapcam-d326f5a5e9",
-          "name": "Chinese Taipei U17 Women vs Korea Rep. Women U17 | 14:30 05/05",
+          "id": "thapcam-6daf55c3d8",
+          "name": "Gangwon Football Club vs Pohang Steelers | 14:30 05/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -793,15 +951,15 @@
           ],
           "sources": [
             {
-              "id": "src-d326f5a5e9",
+              "id": "src-6daf55c3d8",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-d326f5a5e9",
-                  "name": "Chinese Taipei U17 Women vs Korea Rep. Women U17",
+                  "id": "ct-6daf55c3d8",
+                  "name": "Gangwon Football Club vs Pohang Steelers",
                   "streams": [
                     {
-                      "id": "st-d326f5a5e9",
+                      "id": "st-6daf55c3d8",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -811,13 +969,13 @@
             }
           ],
           "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "Chinese Taipei U17 Women",
-            "team_b": "Korea Rep. Women U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/566b83e60e3ffdb744bc3d1843fb4311.png",
+            "league": "Korean K League 1",
+            "team_a": "Gangwon Football Club",
+            "team_b": "Pohang Steelers",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/771a93ae7f62b1a47a71c3d62b89dca3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6f05c460789939ac83282bd0686446f1.png",
             "time": "14:30 05/05",
-            "blv": "BLV Người Cò",
+            "blv": "BLV Người Rừng",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -825,60 +983,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d326f5a5e9_21ba87d7_20260505.png?v=21ba87d7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-3a3b5b6db1",
-          "name": "Lebanon U17 Women vs Australia Women U17 | 14:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3a3b5b6db1",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3a3b5b6db1",
-                  "name": "Lebanon U17 Women vs Australia Women U17",
-                  "streams": [
-                    {
-                      "id": "st-3a3b5b6db1",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "Lebanon U17 Women",
-            "team_b": "Australia Women U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5d0c20971b46597973cbf23b9bb0771b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f476c5c90ef26f3257a4a6c17374c1bc.png",
-            "time": "14:30 05/05",
-            "blv": "BLV Người Cỏ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3a3b5b6db1_636bc56e_20260505.png?v=636bc56e",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6daf55c3d8_b11500b8_20260505.png?v=b11500b8",
             "width": 1600,
             "height": 1200
           }
@@ -937,8 +1042,8 @@
           }
         },
         {
-          "id": "thapcam-6daf55c3d8",
-          "name": "Gangwon Football Club vs Pohang Steelers | 14:30 05/05",
+          "id": "thapcam-3a3b5b6db1",
+          "name": "Lebanon U17 Women vs Australia Women U17 | 14:30 05/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -952,15 +1057,15 @@
           ],
           "sources": [
             {
-              "id": "src-6daf55c3d8",
+              "id": "src-3a3b5b6db1",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-6daf55c3d8",
-                  "name": "Gangwon Football Club vs Pohang Steelers",
+                  "id": "ct-3a3b5b6db1",
+                  "name": "Lebanon U17 Women vs Australia Women U17",
                   "streams": [
                     {
-                      "id": "st-6daf55c3d8",
+                      "id": "st-3a3b5b6db1",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -970,13 +1075,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Gangwon Football Club",
-            "team_b": "Pohang Steelers",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/771a93ae7f62b1a47a71c3d62b89dca3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6f05c460789939ac83282bd0686446f1.png",
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Lebanon U17 Women",
+            "team_b": "Australia Women U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5d0c20971b46597973cbf23b9bb0771b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f476c5c90ef26f3257a4a6c17374c1bc.png",
             "time": "14:30 05/05",
-            "blv": "BLV Người Rừng",
+            "blv": "BLV Người Cỏ",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -984,7 +1089,60 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6daf55c3d8_b11500b8_20260505.png?v=b11500b8",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3a3b5b6db1_636bc56e_20260505.png?v=636bc56e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-d326f5a5e9",
+          "name": "Chinese Taipei U17 Women vs Korea Rep. Women U17 | 14:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d326f5a5e9",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d326f5a5e9",
+                  "name": "Chinese Taipei U17 Women vs Korea Rep. Women U17",
+                  "streams": [
+                    {
+                      "id": "st-d326f5a5e9",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Chinese Taipei U17 Women",
+            "team_b": "Korea Rep. Women U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/566b83e60e3ffdb744bc3d1843fb4311.png",
+            "time": "14:30 05/05",
+            "blv": "BLV Người Cò",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d326f5a5e9_21ba87d7_20260505.png?v=21ba87d7",
             "width": 1600,
             "height": 1200
           }
