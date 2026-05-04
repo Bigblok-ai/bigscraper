@@ -582,59 +582,6 @@
           }
         },
         {
-          "id": "thapcam-b25b3eb361",
-          "name": "Jeonbuk Hyundai Motors vs Gwangju Football Club | 12:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b25b3eb361",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-b25b3eb361",
-                  "name": "Jeonbuk Hyundai Motors vs Gwangju Football Club",
-                  "streams": [
-                    {
-                      "id": "st-b25b3eb361",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Jeonbuk Hyundai Motors",
-            "team_b": "Gwangju Football Club",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ee2117f952745163fecfa4b74a6a2bea.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2e8e1e2a893d37e3f7260e97c807c28a.png",
-            "time": "12:00 05/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b25b3eb361_3766d294_20260505.png?v=3766d294",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-9db48a5aad",
           "name": "Bucheon FC 1995 vs Jeju SK FC | 12:00 05/05",
           "type": "single",
@@ -683,6 +630,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9db48a5aad_6b21a152_20260505.png?v=6b21a152",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-b25b3eb361",
+          "name": "Jeonbuk Hyundai Motors vs Gwangju Football Club | 12:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b25b3eb361",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-b25b3eb361",
+                  "name": "Jeonbuk Hyundai Motors vs Gwangju Football Club",
+                  "streams": [
+                    {
+                      "id": "st-b25b3eb361",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Jeonbuk Hyundai Motors",
+            "team_b": "Gwangju Football Club",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ee2117f952745163fecfa4b74a6a2bea.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2e8e1e2a893d37e3f7260e97c807c28a.png",
+            "time": "12:00 05/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b25b3eb361_3766d294_20260505.png?v=3766d294",
             "width": 1600,
             "height": 1200
           }
