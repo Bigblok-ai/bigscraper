@@ -11,11 +11,82 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-a2b67f7d06",
+          "name": "Qarabag vs Turan Tovuz | 22:30 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a2b67f7d06",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-a2b67f7d06",
+                  "name": "Qarabag vs Turan Tovuz",
+                  "streams": [
+                    {
+                      "id": "st-a2b67f7d06",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e4422ba58f",
+                          "name": "BLV Người Nhớt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f8b3c9137e4_14232/index.m3u8?expire=1778511433&sign=810d60cdd4799d914cf5ced379753850",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Azerbaijan Premier League",
+            "team_a": "Qarabag",
+            "team_b": "Turan Tovuz",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7f7d00906d511bcf48f9a600580ff953.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/14215ad91a839ba1b4f216001eb02d91.png",
+            "time": "22:30 04/05",
+            "blv": "BLV Người Nhớt",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a2b67f7d06_b2c38e5c_20260504.png?v=b2c38e5c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-f57e1a4b72",
           "name": "Pharco vs El Mokawloon El Arab",
@@ -330,59 +401,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5b80f8f4fe_9e1979cf_20260504.png?v=9e1979cf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-a2b67f7d06",
-          "name": "Qarabag vs Turan Tovuz | 22:30 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a2b67f7d06",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-a2b67f7d06",
-                  "name": "Qarabag vs Turan Tovuz",
-                  "streams": [
-                    {
-                      "id": "st-a2b67f7d06",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Azerbaijan Premier League",
-            "team_a": "Qarabag",
-            "team_b": "Turan Tovuz",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7f7d00906d511bcf48f9a600580ff953.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/14215ad91a839ba1b4f216001eb02d91.png",
-            "time": "22:30 04/05",
-            "blv": "BLV Người Nhớt",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a2b67f7d06_b2c38e5c_20260504.png?v=b2c38e5c",
             "width": 1600,
             "height": 1200
           }
