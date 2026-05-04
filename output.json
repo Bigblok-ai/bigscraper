@@ -1746,6 +1746,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-b73604f19c",
+          "name": "Beroe Stara Zagora vs PFK Montana | 21:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b73604f19c",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-b73604f19c",
+                  "name": "Beroe Stara Zagora vs PFK Montana",
+                  "streams": [
+                    {
+                      "id": "st-b73604f19c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bulgarian First League",
+            "team_a": "Beroe Stara Zagora",
+            "team_b": "PFK Montana",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/197710e96433ca507120d5fc3ebfbc58.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/555ed40ede7fc6f2879993bc058fb8ac.png",
+            "time": "21:30 05/05",
+            "blv": "BLV Người Páo",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b73604f19c_dbbc59e4_20260504.png?v=dbbc59e4",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1755,7 +1808,61 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "thapcam-8f6cb4c89e",
+          "name": "New York Knicks vs Philadelphia 76ers | 07:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8f6cb4c89e",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-8f6cb4c89e",
+                  "name": "New York Knicks vs Philadelphia 76ers",
+                  "streams": [
+                    {
+                      "id": "st-8f6cb4c89e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "New York Knicks",
+            "team_b": "Philadelphia 76ers",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/49f8b0ef2ed529b44dba6ebb99a0d5ff.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/06e7bde6cca98873fe971fad4e67a9b6.png",
+            "time": "07:00 05/05",
+            "blv": "BLV Người Hầu",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8f6cb4c89e_6b1550b1_20260504.png?v=6b1550b1",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-0b6b498c58",
