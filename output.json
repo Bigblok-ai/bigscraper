@@ -389,77 +389,6 @@
           }
         },
         {
-          "id": "thapcam-f751b7d159",
-          "name": "Midtjylland vs Viborg",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f751b7d159",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f751b7d159",
-                  "name": "Midtjylland vs Viborg",
-                  "streams": [
-                    {
-                      "id": "st-f751b7d159",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-76d4f9572c",
-                          "name": "BLV Chân Đất",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f8c786137e4_145/index.m3u8?expire=1778516486&sign=aba75098b72c103962b88f1f7369001d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Danish Superliga",
-            "team_a": "Midtjylland",
-            "team_b": "Viborg",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/870815ca7c7545f7dc8c0716eecdb708.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c5beffcdc88a77f8494e85108b306062.png",
-            "time": "",
-            "blv": "BLV Chân Đất",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f751b7d159_0d2f6d7f_20260505.png?v=0d2f6d7f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-073b908dda",
           "name": "Radomiak Radom vs Lechia Gdansk",
           "type": "single",
@@ -597,6 +526,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1cf181e782_3695d24f_20260505.png?v=3695d24f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-f751b7d159",
+          "name": "Midtjylland vs Viborg",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f751b7d159",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f751b7d159",
+                  "name": "Midtjylland vs Viborg",
+                  "streams": [
+                    {
+                      "id": "st-f751b7d159",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-76d4f9572c",
+                          "name": "BLV Chân Đất",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f8c786137e4_145/index.m3u8?expire=1778516486&sign=aba75098b72c103962b88f1f7369001d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Danish Superliga",
+            "team_a": "Midtjylland",
+            "team_b": "Viborg",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/870815ca7c7545f7dc8c0716eecdb708.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c5beffcdc88a77f8494e85108b306062.png",
+            "time": "",
+            "blv": "BLV Chân Đất",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f751b7d159_0d2f6d7f_20260505.png?v=0d2f6d7f",
             "width": 1600,
             "height": 1200
           }
