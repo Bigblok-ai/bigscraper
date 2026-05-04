@@ -44,10 +44,27 @@
                       "name": "KT",
                       "stream_links": [
                         {
+                          "id": "lnk-a3f7bdd18d",
+                          "name": "BLV Cá Mập",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f8811a137e4_154/index.m3u8?expire=1778498458&sign=94d165654d1679e74fee4f129024e4ad",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
                           "id": "lnk-9575c15da0",
                           "name": "Link HD",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
                           "url": "https://cdn-hls.phogatv8.com/live/69f879c051ddc_151/index.m3u8?expire=1778496576&sign=0de44cba627033e4f7a589456e821e38",
                           "request_headers": [
                             {
