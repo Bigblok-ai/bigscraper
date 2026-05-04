@@ -17,6 +17,77 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "thapcam-0051be1103",
+          "name": "FC Unirea 2004 Slobozia vs Hermannstadt | 21:30 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0051be1103",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-0051be1103",
+                  "name": "FC Unirea 2004 Slobozia vs Hermannstadt",
+                  "streams": [
+                    {
+                      "id": "st-0051be1103",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-65a87f75aa",
+                          "name": "BLV Siêu Quậy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f8a60351ddc_26/index.m3u8?expire=1778507907&sign=13997a833d88735a6168409358246b65",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Romanian Super Liga",
+            "team_a": "FC Unirea 2004 Slobozia",
+            "team_b": "Hermannstadt",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b17f903b42eebe1e7ad55f4f346d2bf8.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/732ac055b269060b9864fe152a82c9cf.png",
+            "time": "21:30 04/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0051be1103_7fdc00cb_20260504.png?v=7fdc00cb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-f57e1a4b72",
           "name": "Pharco vs El Mokawloon El Arab",
           "type": "single",
@@ -188,130 +259,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5bd3da28ff_35d1a4f4_20260504.png?v=35d1a4f4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-fc397679af",
-          "name": "Lokomotiv Tashkent vs Qizilqum Zarafshon",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fc397679af",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-fc397679af",
-                  "name": "Lokomotiv Tashkent vs Qizilqum Zarafshon",
-                  "streams": [
-                    {
-                      "id": "st-fc397679af",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8e7568b8de",
-                          "name": "BLV Chân Đất",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f8a79d137e4_145/index.m3u8?expire=1778508317&sign=077365aa579229516272db82974e64b7",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Uzbekistan Super League",
-            "team_a": "Lokomotiv Tashkent",
-            "team_b": "Qizilqum Zarafshon",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d8954914be101e0ba72dc55c8f92604b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/709463bd62119aff6f7da0b20b4e1034.png",
-            "time": "",
-            "blv": "BLV Chân Đất",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-fc397679af_df282457_20260504.png?v=df282457",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-0051be1103",
-          "name": "FC Unirea 2004 Slobozia vs Hermannstadt | 21:30 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0051be1103",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-0051be1103",
-                  "name": "FC Unirea 2004 Slobozia vs Hermannstadt",
-                  "streams": [
-                    {
-                      "id": "st-0051be1103",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Romanian Super Liga",
-            "team_a": "FC Unirea 2004 Slobozia",
-            "team_b": "Hermannstadt",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b17f903b42eebe1e7ad55f4f346d2bf8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/732ac055b269060b9864fe152a82c9cf.png",
-            "time": "21:30 04/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0051be1103_7fdc00cb_20260504.png?v=7fdc00cb",
             "width": 1600,
             "height": 1200
           }
@@ -953,59 +900,6 @@
           }
         },
         {
-          "id": "thapcam-e65df9c73f",
-          "name": "Everton vs Manchester City | 02:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e65df9c73f",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e65df9c73f",
-                  "name": "Everton vs Manchester City",
-                  "streams": [
-                    {
-                      "id": "st-e65df9c73f",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Everton",
-            "team_b": "Manchester City",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9592d1e0be6375b9e6c5ef169b7aa864.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c4a6528a2ee147b99c9885ef24385a4e.png",
-            "time": "02:00 05/05",
-            "blv": "BLV Lềnh",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e65df9c73f_96dd3b69_20260504.png?v=96dd3b69",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-d66eda0e9c",
           "name": "Sevilla FC vs Real Sociedad | 02:00 05/05",
           "type": "single",
@@ -1054,6 +948,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d66eda0e9c_0e7bc074_20260504.png?v=0e7bc074",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-e65df9c73f",
+          "name": "Everton vs Manchester City | 02:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e65df9c73f",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-e65df9c73f",
+                  "name": "Everton vs Manchester City",
+                  "streams": [
+                    {
+                      "id": "st-e65df9c73f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Everton",
+            "team_b": "Manchester City",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9592d1e0be6375b9e6c5ef169b7aa864.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c4a6528a2ee147b99c9885ef24385a4e.png",
+            "time": "02:00 05/05",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e65df9c73f_96dd3b69_20260504.png?v=96dd3b69",
             "width": 1600,
             "height": 1200
           }
