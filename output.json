@@ -17,148 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-931eb09b27",
-          "name": "Al Ittihad Club vs Al Kholood | 01:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-931eb09b27",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-931eb09b27",
-                  "name": "Al Ittihad Club vs Al Kholood",
-                  "streams": [
-                    {
-                      "id": "st-931eb09b27",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-272c4c8bc3",
-                          "name": "BLV Người Nhớt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f8d62651ddc_14232/index.m3u8?expire=1778520230&sign=6257e96c137c1a34472822d1d696de33",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al Ittihad Club",
-            "team_b": "Al Kholood",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/dea986d20115216c05d1a45ba9a6162e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/068aa9b10aa4d47ab3a8fdbe8b716518.png",
-            "time": "01:00 05/05",
-            "blv": "BLV Người Nhớt",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-931eb09b27_5420a999_20260505.png?v=5420a999",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-424bc3d0df",
-          "name": "Al Ettifaq FC vs Al Najma(KSA) | 01:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-424bc3d0df",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-424bc3d0df",
-                  "name": "Al Ettifaq FC vs Al Najma(KSA)",
-                  "streams": [
-                    {
-                      "id": "st-424bc3d0df",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-02779381aa",
-                          "name": "BLV Người Băng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f8d672137e4_11/index.m3u8?expire=1778520306&sign=7f24a89d47bae57acd538c8b06e43d5c",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al Ettifaq FC",
-            "team_b": "Al Najma(KSA)",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/381dd852484f06350b771097612cf08e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fde877e452f79f75955ad4e4f326c654.png",
-            "time": "01:00 05/05",
-            "blv": "BLV Người Băng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-424bc3d0df_a4bdf2eb_20260505.png?v=a4bdf2eb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-9f45601c55",
           "name": "Al Fayha vs Al-Riyadh",
           "type": "single",
@@ -389,77 +247,6 @@
           }
         },
         {
-          "id": "thapcam-1cf181e782",
-          "name": "Bodo Glimt vs Molde",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1cf181e782",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-1cf181e782",
-                  "name": "Bodo Glimt vs Molde",
-                  "streams": [
-                    {
-                      "id": "st-1cf181e782",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-23ff11312e",
-                          "name": "BLV Siêu Quậy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f8c980137e4_26/index.m3u8?expire=1778516992&sign=5853b28c1c6b09658c2595d87d7f27ee",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Norwegian Eliteserien",
-            "team_a": "Bodo Glimt",
-            "team_b": "Molde",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/98854ab97eadf3d2c7c6d657ad99df96.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d33c046e5f96387c208d1fa63a9a918a.png",
-            "time": "",
-            "blv": "BLV Siêu Quậy",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1cf181e782_3695d24f_20260505.png?v=3695d24f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-f751b7d159",
           "name": "Midtjylland vs Viborg",
           "type": "single",
@@ -531,6 +318,77 @@
           }
         },
         {
+          "id": "thapcam-1cf181e782",
+          "name": "Bodo Glimt vs Molde",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1cf181e782",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-1cf181e782",
+                  "name": "Bodo Glimt vs Molde",
+                  "streams": [
+                    {
+                      "id": "st-1cf181e782",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-23ff11312e",
+                          "name": "BLV Siêu Quậy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f8c980137e4_26/index.m3u8?expire=1778516992&sign=5853b28c1c6b09658c2595d87d7f27ee",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Norwegian Eliteserien",
+            "team_a": "Bodo Glimt",
+            "team_b": "Molde",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/98854ab97eadf3d2c7c6d657ad99df96.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d33c046e5f96387c208d1fa63a9a918a.png",
+            "time": "",
+            "blv": "BLV Siêu Quậy",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1cf181e782_3695d24f_20260505.png?v=3695d24f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-1d054efb29",
           "name": "FC Rapid 1923 vs CFR Cluj",
           "type": "single",
@@ -597,6 +455,148 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1d054efb29_c7257b98_20260505.png?v=c7257b98",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-424bc3d0df",
+          "name": "Al Ettifaq FC vs Al Najma(KSA)",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-424bc3d0df",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-424bc3d0df",
+                  "name": "Al Ettifaq FC vs Al Najma(KSA)",
+                  "streams": [
+                    {
+                      "id": "st-424bc3d0df",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02779381aa",
+                          "name": "BLV Người Băng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f8d672137e4_11/index.m3u8?expire=1778520306&sign=7f24a89d47bae57acd538c8b06e43d5c",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al Ettifaq FC",
+            "team_b": "Al Najma(KSA)",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/381dd852484f06350b771097612cf08e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fde877e452f79f75955ad4e4f326c654.png",
+            "time": "",
+            "blv": "BLV Người Băng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-424bc3d0df_a4bdf2eb_20260505.png?v=a4bdf2eb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-931eb09b27",
+          "name": "Al Ittihad Club vs Al Kholood",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-931eb09b27",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-931eb09b27",
+                  "name": "Al Ittihad Club vs Al Kholood",
+                  "streams": [
+                    {
+                      "id": "st-931eb09b27",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-272c4c8bc3",
+                          "name": "BLV Người Nhớt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f8d62651ddc_14232/index.m3u8?expire=1778520230&sign=6257e96c137c1a34472822d1d696de33",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al Ittihad Club",
+            "team_b": "Al Kholood",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/dea986d20115216c05d1a45ba9a6162e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/068aa9b10aa4d47ab3a8fdbe8b716518.png",
+            "time": "",
+            "blv": "BLV Người Nhớt",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-931eb09b27_5420a999_20260505.png?v=5420a999",
             "width": 1600,
             "height": 1200
           }
@@ -920,6 +920,165 @@
           }
         },
         {
+          "id": "thapcam-2cbf8d6d54",
+          "name": "Daejeon Citizen vs Incheon United Club | 14:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2cbf8d6d54",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-2cbf8d6d54",
+                  "name": "Daejeon Citizen vs Incheon United Club",
+                  "streams": [
+                    {
+                      "id": "st-2cbf8d6d54",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Daejeon Citizen",
+            "team_b": "Incheon United Club",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/090eeb1513e8f1d0cf6d8647d10b2eea.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/36559689046e7d1d4f597c1a0bf9c5d6.png",
+            "time": "14:30 05/05",
+            "blv": "BLV Người Páo",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2cbf8d6d54_4d4e9273_20260505.png?v=4d4e9273",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-6daf55c3d8",
+          "name": "Gangwon Football Club vs Pohang Steelers | 14:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6daf55c3d8",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-6daf55c3d8",
+                  "name": "Gangwon Football Club vs Pohang Steelers",
+                  "streams": [
+                    {
+                      "id": "st-6daf55c3d8",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Gangwon Football Club",
+            "team_b": "Pohang Steelers",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/771a93ae7f62b1a47a71c3d62b89dca3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6f05c460789939ac83282bd0686446f1.png",
+            "time": "14:30 05/05",
+            "blv": "BLV Người Rừng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6daf55c3d8_b11500b8_20260505.png?v=b11500b8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-eec931a386",
+          "name": "Gimcheon Sangmu Football Club vs Ulsan HD FC | 14:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eec931a386",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-eec931a386",
+                  "name": "Gimcheon Sangmu Football Club vs Ulsan HD FC",
+                  "streams": [
+                    {
+                      "id": "st-eec931a386",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Gimcheon Sangmu Football Club",
+            "team_b": "Ulsan HD FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4a3e50e90ab721c1782568a287bd5358.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fe07fb888ebcb282192332cb8aed21b1.png",
+            "time": "14:30 05/05",
+            "blv": "BLV Người Điên",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-eec931a386_7fd5a935_20260505.png?v=7fd5a935",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-3a3b5b6db1",
           "name": "Lebanon U17 Women vs Australia Women U17 | 14:30 05/05",
           "type": "single",
@@ -1021,165 +1180,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d326f5a5e9_21ba87d7_20260505.png?v=21ba87d7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-eec931a386",
-          "name": "Gimcheon Sangmu Football Club vs Ulsan HD FC | 14:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eec931a386",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-eec931a386",
-                  "name": "Gimcheon Sangmu Football Club vs Ulsan HD FC",
-                  "streams": [
-                    {
-                      "id": "st-eec931a386",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Gimcheon Sangmu Football Club",
-            "team_b": "Ulsan HD FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4a3e50e90ab721c1782568a287bd5358.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fe07fb888ebcb282192332cb8aed21b1.png",
-            "time": "14:30 05/05",
-            "blv": "BLV Người Điên",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-eec931a386_7fd5a935_20260505.png?v=7fd5a935",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-6daf55c3d8",
-          "name": "Gangwon Football Club vs Pohang Steelers | 14:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6daf55c3d8",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6daf55c3d8",
-                  "name": "Gangwon Football Club vs Pohang Steelers",
-                  "streams": [
-                    {
-                      "id": "st-6daf55c3d8",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Gangwon Football Club",
-            "team_b": "Pohang Steelers",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/771a93ae7f62b1a47a71c3d62b89dca3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6f05c460789939ac83282bd0686446f1.png",
-            "time": "14:30 05/05",
-            "blv": "BLV Người Rừng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6daf55c3d8_b11500b8_20260505.png?v=b11500b8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-2cbf8d6d54",
-          "name": "Daejeon Citizen vs Incheon United Club | 14:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2cbf8d6d54",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-2cbf8d6d54",
-                  "name": "Daejeon Citizen vs Incheon United Club",
-                  "streams": [
-                    {
-                      "id": "st-2cbf8d6d54",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Daejeon Citizen",
-            "team_b": "Incheon United Club",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/090eeb1513e8f1d0cf6d8647d10b2eea.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/36559689046e7d1d4f597c1a0bf9c5d6.png",
-            "time": "14:30 05/05",
-            "blv": "BLV Người Páo",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2cbf8d6d54_4d4e9273_20260505.png?v=4d4e9273",
             "width": 1600,
             "height": 1200
           }
