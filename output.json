@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-424bc3d0df",
-          "name": "Al Ettifaq FC vs Al Najma(KSA)",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-424bc3d0df",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-424bc3d0df",
-                  "name": "Al Ettifaq FC vs Al Najma(KSA)",
-                  "streams": [
-                    {
-                      "id": "st-424bc3d0df",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-02779381aa",
-                          "name": "BLV Người Băng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f8d672137e4_11/index.m3u8?expire=1778520306&sign=7f24a89d47bae57acd538c8b06e43d5c",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al Ettifaq FC",
-            "team_b": "Al Najma(KSA)",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/381dd852484f06350b771097612cf08e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fde877e452f79f75955ad4e4f326c654.png",
-            "time": "",
-            "blv": "BLV Người Băng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-424bc3d0df_a4bdf2eb_20260505.png?v=a4bdf2eb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-931eb09b27",
           "name": "Al Ittihad Club vs Al Kholood",
