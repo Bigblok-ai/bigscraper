@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-2437cb88e7",
-          "name": "Sporting CP vs Vitoria Guimaraes",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2437cb88e7",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-2437cb88e7",
-                  "name": "Sporting CP vs Vitoria Guimaraes",
-                  "streams": [
-                    {
-                      "id": "st-2437cb88e7",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3f736d1368",
-                          "name": "BLV Chân Đất",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f8ec9c51ddc_145/index.m3u8?expire=1778525980&sign=3d250991254598d0ccc6cd1dc8df004c",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "Sporting CP",
-            "team_b": "Vitoria Guimaraes",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6a5153c73922a32013b9bc6cfbc20b26.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ad97b71fe0d8df0e60f7c534fee24132.png",
-            "time": "",
-            "blv": "BLV Chân Đất",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2437cb88e7_a51e5562_20260505.png?v=a51e5562",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-b25b3eb361",
           "name": "Jeonbuk Hyundai Motors vs Gwangju Football Club | 12:00 05/05",
@@ -189,6 +118,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9db48a5aad_6b21a152_20260505.png?v=6b21a152",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-6daf55c3d8",
+          "name": "Gangwon Football Club vs Pohang Steelers | 14:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6daf55c3d8",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-6daf55c3d8",
+                  "name": "Gangwon Football Club vs Pohang Steelers",
+                  "streams": [
+                    {
+                      "id": "st-6daf55c3d8",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Gangwon Football Club",
+            "team_b": "Pohang Steelers",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/771a93ae7f62b1a47a71c3d62b89dca3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6f05c460789939ac83282bd0686446f1.png",
+            "time": "14:30 05/05",
+            "blv": "BLV Người Rừng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6daf55c3d8_b11500b8_20260505.png?v=b11500b8",
             "width": 1600,
             "height": 1200
           }
@@ -348,59 +330,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d326f5a5e9_21ba87d7_20260505.png?v=21ba87d7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-6daf55c3d8",
-          "name": "Gangwon Football Club vs Pohang Steelers | 14:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6daf55c3d8",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6daf55c3d8",
-                  "name": "Gangwon Football Club vs Pohang Steelers",
-                  "streams": [
-                    {
-                      "id": "st-6daf55c3d8",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Gangwon Football Club",
-            "team_b": "Pohang Steelers",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/771a93ae7f62b1a47a71c3d62b89dca3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6f05c460789939ac83282bd0686446f1.png",
-            "time": "14:30 05/05",
-            "blv": "BLV Người Rừng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6daf55c3d8_b11500b8_20260505.png?v=b11500b8",
             "width": 1600,
             "height": 1200
           }
