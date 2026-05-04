@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,77 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9f45601c55_4a161a58_20260504.png?v=4a161a58",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-f57e1a4b72",
-          "name": "Pharco vs El Mokawloon El Arab",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f57e1a4b72",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f57e1a4b72",
-                  "name": "Pharco vs El Mokawloon El Arab",
-                  "streams": [
-                    {
-                      "id": "st-f57e1a4b72",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f67a31c975",
-                          "name": "BLV Cá Mập",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f89f4c137e4_154/index.m3u8?expire=1778506188&sign=94629da3f53e1a35acae7daaf9e8045d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Egyptian Premier League",
-            "team_a": "Pharco",
-            "team_b": "El Mokawloon El Arab",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/abc7123841c5174901b57ace767891ca.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d2ba8945533ebbda0bcccf6cf21a4bd4.png",
-            "time": "",
-            "blv": "BLV Cá Mập",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f57e1a4b72_f43ff99b_20260504.png?v=f43ff99b",
             "width": 1600,
             "height": 1200
           }
