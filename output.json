@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-40bae540d8",
-          "name": "AS Roma vs Fiorentina",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-40bae540d8",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-40bae540d8",
-                  "name": "AS Roma vs Fiorentina",
-                  "streams": [
-                    {
-                      "id": "st-40bae540d8",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e1ff0e881d",
-                          "name": "BLV Người Cò",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f8e2e0137e4_14559/index.m3u8?expire=1778523488&sign=679eb100ea28def7de0e47f840d6e7ca",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-35de185eb2",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f8db5f51ddc_35/index.m3u8?expire=1778521567&sign=6958144a0a766fd2f03a5a89342016fc",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "AS Roma",
-            "team_b": "Fiorentina",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7a192686d30c1ad031d2fb605eaf2f2a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/858d87ded0cce014bae0c9681af48524.png",
-            "time": "",
-            "blv": "BLV Người Cò",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-40bae540d8_5914d80f_20260505.png?v=5914d80f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-d66eda0e9c",
           "name": "Sevilla FC vs Real Sociedad",
@@ -528,6 +440,59 @@
           }
         },
         {
+          "id": "thapcam-3a3b5b6db1",
+          "name": "Lebanon U17 Women vs Australia Women U17 | 14:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a3b5b6db1",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-3a3b5b6db1",
+                  "name": "Lebanon U17 Women vs Australia Women U17",
+                  "streams": [
+                    {
+                      "id": "st-3a3b5b6db1",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Lebanon U17 Women",
+            "team_b": "Australia Women U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5d0c20971b46597973cbf23b9bb0771b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f476c5c90ef26f3257a4a6c17374c1bc.png",
+            "time": "14:30 05/05",
+            "blv": "BLV Người Cỏ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3a3b5b6db1_636bc56e_20260505.png?v=636bc56e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-2cbf8d6d54",
           "name": "Daejeon Citizen vs Incheon United Club | 14:30 05/05",
           "type": "single",
@@ -682,59 +647,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-eec931a386_7fd5a935_20260505.png?v=7fd5a935",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-3a3b5b6db1",
-          "name": "Lebanon U17 Women vs Australia Women U17 | 14:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3a3b5b6db1",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3a3b5b6db1",
-                  "name": "Lebanon U17 Women vs Australia Women U17",
-                  "streams": [
-                    {
-                      "id": "st-3a3b5b6db1",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "Lebanon U17 Women",
-            "team_b": "Australia Women U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5d0c20971b46597973cbf23b9bb0771b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f476c5c90ef26f3257a4a6c17374c1bc.png",
-            "time": "14:30 05/05",
-            "blv": "BLV Người Cỏ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3a3b5b6db1_636bc56e_20260505.png?v=636bc56e",
             "width": 1600,
             "height": 1200
           }
@@ -1270,59 +1182,6 @@
           }
         },
         {
-          "id": "thapcam-27ac321a32",
-          "name": "Saudi Arabia U17 vs Myanmar U17 | 00:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-27ac321a32",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-27ac321a32",
-                  "name": "Saudi Arabia U17 vs Myanmar U17",
-                  "streams": [
-                    {
-                      "id": "st-27ac321a32",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Saudi Arabia U17",
-            "team_b": "Myanmar U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/081372dd82f5917deb2d2fa64e052173.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fbbcb591970475f0c7737c04c9d2f2da.png",
-            "time": "00:00 06/05",
-            "blv": "BLV Người Páo",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-27ac321a32_60d075e5_20260505.png?v=60d075e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-e6f3943175",
           "name": "Lokomotiv Sofia vs Botev Vratsa | 00:00 06/05",
           "type": "single",
@@ -1371,6 +1230,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e6f3943175_e5d7cc60_20260505.png?v=e5d7cc60",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-27ac321a32",
+          "name": "Saudi Arabia U17 vs Myanmar U17 | 00:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-27ac321a32",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-27ac321a32",
+                  "name": "Saudi Arabia U17 vs Myanmar U17",
+                  "streams": [
+                    {
+                      "id": "st-27ac321a32",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Saudi Arabia U17",
+            "team_b": "Myanmar U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/081372dd82f5917deb2d2fa64e052173.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fbbcb591970475f0c7737c04c9d2f2da.png",
+            "time": "00:00 06/05",
+            "blv": "BLV Người Páo",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-27ac321a32_60d075e5_20260505.png?v=60d075e5",
             "width": 1600,
             "height": 1200
           }
