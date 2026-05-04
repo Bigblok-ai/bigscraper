@@ -11,64 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-41a0ed7d54",
-          "name": "Albirex Niigata FC vs Young Lions | 18:30 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-41a0ed7d54",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-41a0ed7d54",
-                  "name": "Albirex Niigata FC vs Young Lions",
-                  "streams": [
-                    {
-                      "id": "st-41a0ed7d54",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Singapore Premier League",
-            "team_a": "Albirex Niigata FC",
-            "team_b": "Young Lions",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1bc138bc13d186569590f57f9d9127cd.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9208155f7204354ad78a72594ff7b13c.png",
-            "time": "18:30 04/05",
-            "blv": "BLV Người Ngố",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-41a0ed7d54_8558a3f1_20260504.png?v=8558a3f1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-be395d9733",
           "name": "Vietnam U17 Women vs China U17 Women | 18:30 04/05",
@@ -77,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -95,7 +42,25 @@
                     {
                       "id": "st-be395d9733",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-9575c15da0",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f879c051ddc_151/index.m3u8?expire=1778496576&sign=0de44cba627033e4f7a589456e821e38",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -110,7 +75,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2bb2cd4e6d0219b11dcbda441a825b50.png",
             "time": "18:30 04/05",
             "blv": "BLV Cá Mập",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
