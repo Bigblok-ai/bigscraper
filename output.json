@@ -11,11 +11,187 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-f57e1a4b72",
+          "name": "Pharco vs El Mokawloon El Arab | 21:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f57e1a4b72",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f57e1a4b72",
+                  "name": "Pharco vs El Mokawloon El Arab",
+                  "streams": [
+                    {
+                      "id": "st-f57e1a4b72",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f67a31c975",
+                          "name": "BLV Cá Mập",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f89f4c137e4_154/index.m3u8?expire=1778506188&sign=94629da3f53e1a35acae7daaf9e8045d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "Pharco",
+            "team_b": "El Mokawloon El Arab",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/abc7123841c5174901b57ace767891ca.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d2ba8945533ebbda0bcccf6cf21a4bd4.png",
+            "time": "21:00 04/05",
+            "blv": "BLV Cá Mập",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f57e1a4b72_f43ff99b_20260504.png?v=f43ff99b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-5bd3da28ff",
+          "name": "Chelsea vs Nottingham Forest | 21:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5bd3da28ff",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-5bd3da28ff",
+                  "name": "Chelsea vs Nottingham Forest",
+                  "streams": [
+                    {
+                      "id": "st-5bd3da28ff",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b092e644a3",
+                          "name": "BLV Max",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f8a094137e4_19533/index.m3u8?expire=1778506516&sign=ba99f6c15d2755105d54687e3b9ccc41",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8d28f2235e",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f89e8051ddc_151/index.m3u8?expire=1778505984&sign=327f7fdb4951e1ee857311b617f3bd11",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-1357294bdd",
+                          "name": "Link HD 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f8947f137e4_35/index.m3u8?expire=1778503423&sign=4d3633379d6cc38d12cdea5c835f56ba",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Chelsea",
+            "team_b": "Nottingham Forest",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b365ad0e85e2b1bcbf63f7a0f2f70a79.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/62572999d107f777efa4aeb907443527.png",
+            "time": "21:00 04/05",
+            "blv": "BLV Max",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5bd3da28ff_35d1a4f4_20260504.png?v=35d1a4f4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-c432c3e0be",
           "name": "Persijap Jepara vs Persija Jakarta",
@@ -83,165 +259,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c432c3e0be_11fb0c4f_20260504.png?v=11fb0c4f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-fc397679af",
-          "name": "Lokomotiv Tashkent vs Qizilqum Zarafshon | 21:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fc397679af",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-fc397679af",
-                  "name": "Lokomotiv Tashkent vs Qizilqum Zarafshon",
-                  "streams": [
-                    {
-                      "id": "st-fc397679af",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Uzbekistan Super League",
-            "team_a": "Lokomotiv Tashkent",
-            "team_b": "Qizilqum Zarafshon",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d8954914be101e0ba72dc55c8f92604b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/709463bd62119aff6f7da0b20b4e1034.png",
-            "time": "21:00 04/05",
-            "blv": "BLV Chân Đất",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-fc397679af_df282457_20260504.png?v=df282457",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-f57e1a4b72",
-          "name": "Pharco vs El Mokawloon El Arab | 21:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f57e1a4b72",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f57e1a4b72",
-                  "name": "Pharco vs El Mokawloon El Arab",
-                  "streams": [
-                    {
-                      "id": "st-f57e1a4b72",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Egyptian Premier League",
-            "team_a": "Pharco",
-            "team_b": "El Mokawloon El Arab",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/abc7123841c5174901b57ace767891ca.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d2ba8945533ebbda0bcccf6cf21a4bd4.png",
-            "time": "21:00 04/05",
-            "blv": "BLV Cá Mập",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f57e1a4b72_f43ff99b_20260504.png?v=f43ff99b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-5bd3da28ff",
-          "name": "Chelsea vs Nottingham Forest | 21:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5bd3da28ff",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-5bd3da28ff",
-                  "name": "Chelsea vs Nottingham Forest",
-                  "streams": [
-                    {
-                      "id": "st-5bd3da28ff",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Chelsea",
-            "team_b": "Nottingham Forest",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b365ad0e85e2b1bcbf63f7a0f2f70a79.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/62572999d107f777efa4aeb907443527.png",
-            "time": "21:00 04/05",
-            "blv": "BLV Max",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5bd3da28ff_35d1a4f4_20260504.png?v=35d1a4f4",
             "width": 1600,
             "height": 1200
           }
@@ -565,59 +582,6 @@
           }
         },
         {
-          "id": "thapcam-1cf181e782",
-          "name": "Bodo Glimt vs Molde | 00:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1cf181e782",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-1cf181e782",
-                  "name": "Bodo Glimt vs Molde",
-                  "streams": [
-                    {
-                      "id": "st-1cf181e782",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Norwegian Eliteserien",
-            "team_a": "Bodo Glimt",
-            "team_b": "Molde",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/98854ab97eadf3d2c7c6d657ad99df96.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d33c046e5f96387c208d1fa63a9a918a.png",
-            "time": "00:00 05/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1cf181e782_3695d24f_20260504.png?v=3695d24f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-073b908dda",
           "name": "Radomiak Radom vs Lechia Gdansk | 00:00 05/05",
           "type": "single",
@@ -666,6 +630,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-073b908dda_afd91528_20260504.png?v=afd91528",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-1cf181e782",
+          "name": "Bodo Glimt vs Molde | 00:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1cf181e782",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-1cf181e782",
+                  "name": "Bodo Glimt vs Molde",
+                  "streams": [
+                    {
+                      "id": "st-1cf181e782",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Norwegian Eliteserien",
+            "team_a": "Bodo Glimt",
+            "team_b": "Molde",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/98854ab97eadf3d2c7c6d657ad99df96.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d33c046e5f96387c208d1fa63a9a918a.png",
+            "time": "00:00 05/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1cf181e782_3695d24f_20260504.png?v=3695d24f",
             "width": 1600,
             "height": 1200
           }
@@ -936,59 +953,6 @@
           }
         },
         {
-          "id": "thapcam-d66eda0e9c",
-          "name": "Sevilla FC vs Real Sociedad | 02:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d66eda0e9c",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d66eda0e9c",
-                  "name": "Sevilla FC vs Real Sociedad",
-                  "streams": [
-                    {
-                      "id": "st-d66eda0e9c",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Sevilla FC",
-            "team_b": "Real Sociedad",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d20ed1da4f299cc3ef0e1e9eb06eced1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/579db6e95905545973035e6eab8df2cd.png",
-            "time": "02:00 05/05",
-            "blv": "BLV Người Rơm",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d66eda0e9c_0e7bc074_20260504.png?v=0e7bc074",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-e65df9c73f",
           "name": "Everton vs Manchester City | 02:00 05/05",
           "type": "single",
@@ -1037,6 +1001,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e65df9c73f_96dd3b69_20260504.png?v=96dd3b69",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-d66eda0e9c",
+          "name": "Sevilla FC vs Real Sociedad | 02:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d66eda0e9c",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d66eda0e9c",
+                  "name": "Sevilla FC vs Real Sociedad",
+                  "streams": [
+                    {
+                      "id": "st-d66eda0e9c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Sevilla FC",
+            "team_b": "Real Sociedad",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d20ed1da4f299cc3ef0e1e9eb06eced1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/579db6e95905545973035e6eab8df2cd.png",
+            "time": "02:00 05/05",
+            "blv": "BLV Người Rơm",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d66eda0e9c_0e7bc074_20260504.png?v=0e7bc074",
             "width": 1600,
             "height": 1200
           }
@@ -1201,59 +1218,6 @@
           }
         },
         {
-          "id": "thapcam-eec931a386",
-          "name": "Gimcheon Sangmu Football Club vs Ulsan HD FC | 14:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eec931a386",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-eec931a386",
-                  "name": "Gimcheon Sangmu Football Club vs Ulsan HD FC",
-                  "streams": [
-                    {
-                      "id": "st-eec931a386",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Gimcheon Sangmu Football Club",
-            "team_b": "Ulsan HD FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4a3e50e90ab721c1782568a287bd5358.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fe07fb888ebcb282192332cb8aed21b1.png",
-            "time": "14:30 05/05",
-            "blv": "BLV Người Điên",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-eec931a386_7fd5a935_20260504.png?v=7fd5a935",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-d326f5a5e9",
           "name": "Chinese Taipei U17 Women vs Korea Rep. Women U17 | 14:30 05/05",
           "type": "single",
@@ -1355,6 +1319,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3a3b5b6db1_636bc56e_20260504.png?v=636bc56e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-eec931a386",
+          "name": "Gimcheon Sangmu Football Club vs Ulsan HD FC | 14:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eec931a386",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-eec931a386",
+                  "name": "Gimcheon Sangmu Football Club vs Ulsan HD FC",
+                  "streams": [
+                    {
+                      "id": "st-eec931a386",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Gimcheon Sangmu Football Club",
+            "team_b": "Ulsan HD FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4a3e50e90ab721c1782568a287bd5358.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fe07fb888ebcb282192332cb8aed21b1.png",
+            "time": "14:30 05/05",
+            "blv": "BLV Người Điên",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-eec931a386_7fd5a935_20260504.png?v=7fd5a935",
             "width": 1600,
             "height": 1200
           }
