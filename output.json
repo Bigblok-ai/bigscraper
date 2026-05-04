@@ -11,11 +11,82 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-c432c3e0be",
+          "name": "Persijap Jepara vs Persija Jakarta | 19:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c432c3e0be",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-c432c3e0be",
+                  "name": "Persijap Jepara vs Persija Jakarta",
+                  "streams": [
+                    {
+                      "id": "st-c432c3e0be",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-32267c9670",
+                          "name": "BLV Chân Đất",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f8878a51ddc_145/index.m3u8?expire=1778500106&sign=273b7f20c8dd66dd65e130ebd6adf4cd",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indonesian Liga 1",
+            "team_a": "Persijap Jepara",
+            "team_b": "Persija Jakarta",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f4bd932b7d276a93696f4491f334c932.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/10db29eabad13994d9729d8983f8d21a.png",
+            "time": "19:00 04/05",
+            "blv": "BLV Chân Đất",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c432c3e0be_11fb0c4f_20260504.png?v=11fb0c4f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-be395d9733",
           "name": "Vietnam U17 Women vs China U17 Women",
@@ -171,59 +242,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-41a0ed7d54_8558a3f1_20260504.png?v=8558a3f1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-c432c3e0be",
-          "name": "Persijap Jepara vs Persija Jakarta | 19:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c432c3e0be",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-c432c3e0be",
-                  "name": "Persijap Jepara vs Persija Jakarta",
-                  "streams": [
-                    {
-                      "id": "st-c432c3e0be",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "Persijap Jepara",
-            "team_b": "Persija Jakarta",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f4bd932b7d276a93696f4491f334c932.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/10db29eabad13994d9729d8983f8d21a.png",
-            "time": "19:00 04/05",
-            "blv": "BLV Chân Đất",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c432c3e0be_11fb0c4f_20260504.png?v=11fb0c4f",
             "width": 1600,
             "height": 1200
           }
@@ -706,8 +724,8 @@
           }
         },
         {
-          "id": "thapcam-f751b7d159",
-          "name": "Midtjylland vs Viborg | 00:00 05/05",
+          "id": "thapcam-1cf181e782",
+          "name": "Bodo Glimt vs Molde | 00:00 05/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -721,15 +739,15 @@
           ],
           "sources": [
             {
-              "id": "src-f751b7d159",
+              "id": "src-1cf181e782",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-f751b7d159",
-                  "name": "Midtjylland vs Viborg",
+                  "id": "ct-1cf181e782",
+                  "name": "Bodo Glimt vs Molde",
                   "streams": [
                     {
-                      "id": "st-f751b7d159",
+                      "id": "st-1cf181e782",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -739,13 +757,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Danish Superliga",
-            "team_a": "Midtjylland",
-            "team_b": "Viborg",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/870815ca7c7545f7dc8c0716eecdb708.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c5beffcdc88a77f8494e85108b306062.png",
+            "league": "Norwegian Eliteserien",
+            "team_a": "Bodo Glimt",
+            "team_b": "Molde",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/98854ab97eadf3d2c7c6d657ad99df96.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d33c046e5f96387c208d1fa63a9a918a.png",
             "time": "00:00 05/05",
-            "blv": "BLV Chân Đất",
+            "blv": "BLV Siêu Quậy",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -753,7 +771,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f751b7d159_0d2f6d7f_20260504.png?v=0d2f6d7f",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1cf181e782_3695d24f_20260504.png?v=3695d24f",
             "width": 1600,
             "height": 1200
           }
@@ -812,8 +830,8 @@
           }
         },
         {
-          "id": "thapcam-1cf181e782",
-          "name": "Bodo Glimt vs Molde | 00:00 05/05",
+          "id": "thapcam-f751b7d159",
+          "name": "Midtjylland vs Viborg | 00:00 05/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -827,15 +845,15 @@
           ],
           "sources": [
             {
-              "id": "src-1cf181e782",
+              "id": "src-f751b7d159",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-1cf181e782",
-                  "name": "Bodo Glimt vs Molde",
+                  "id": "ct-f751b7d159",
+                  "name": "Midtjylland vs Viborg",
                   "streams": [
                     {
-                      "id": "st-1cf181e782",
+                      "id": "st-f751b7d159",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -845,13 +863,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Norwegian Eliteserien",
-            "team_a": "Bodo Glimt",
-            "team_b": "Molde",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/98854ab97eadf3d2c7c6d657ad99df96.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d33c046e5f96387c208d1fa63a9a918a.png",
+            "league": "Danish Superliga",
+            "team_a": "Midtjylland",
+            "team_b": "Viborg",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/870815ca7c7545f7dc8c0716eecdb708.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c5beffcdc88a77f8494e85108b306062.png",
             "time": "00:00 05/05",
-            "blv": "BLV Siêu Quậy",
+            "blv": "BLV Chân Đất",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -859,7 +877,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1cf181e782_3695d24f_20260504.png?v=3695d24f",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f751b7d159_0d2f6d7f_20260504.png?v=0d2f6d7f",
             "width": 1600,
             "height": 1200
           }
@@ -1236,6 +1254,59 @@
           }
         },
         {
+          "id": "thapcam-b25b3eb361",
+          "name": "Jeonbuk Hyundai Motors vs Gwangju Football Club | 12:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b25b3eb361",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-b25b3eb361",
+                  "name": "Jeonbuk Hyundai Motors vs Gwangju Football Club",
+                  "streams": [
+                    {
+                      "id": "st-b25b3eb361",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Jeonbuk Hyundai Motors",
+            "team_b": "Gwangju Football Club",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ee2117f952745163fecfa4b74a6a2bea.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2e8e1e2a893d37e3f7260e97c807c28a.png",
+            "time": "12:00 05/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b25b3eb361_3766d294_20260504.png?v=3766d294",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-9db48a5aad",
           "name": "Bucheon FC 1995 vs Jeju SK FC | 12:00 05/05",
           "type": "single",
@@ -1289,8 +1360,8 @@
           }
         },
         {
-          "id": "thapcam-b25b3eb361",
-          "name": "Jeonbuk Hyundai Motors vs Gwangju Football Club | 12:00 05/05",
+          "id": "thapcam-2cbf8d6d54",
+          "name": "Daejeon Citizen vs Incheon United Club | 14:30 05/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1304,15 +1375,15 @@
           ],
           "sources": [
             {
-              "id": "src-b25b3eb361",
+              "id": "src-2cbf8d6d54",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-b25b3eb361",
-                  "name": "Jeonbuk Hyundai Motors vs Gwangju Football Club",
+                  "id": "ct-2cbf8d6d54",
+                  "name": "Daejeon Citizen vs Incheon United Club",
                   "streams": [
                     {
-                      "id": "st-b25b3eb361",
+                      "id": "st-2cbf8d6d54",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1323,12 +1394,12 @@
           ],
           "org_metadata": {
             "league": "Korean K League 1",
-            "team_a": "Jeonbuk Hyundai Motors",
-            "team_b": "Gwangju Football Club",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ee2117f952745163fecfa4b74a6a2bea.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2e8e1e2a893d37e3f7260e97c807c28a.png",
-            "time": "12:00 05/05",
-            "blv": "BLV Siêu Quậy",
+            "team_a": "Daejeon Citizen",
+            "team_b": "Incheon United Club",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/090eeb1513e8f1d0cf6d8647d10b2eea.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/36559689046e7d1d4f597c1a0bf9c5d6.png",
+            "time": "14:30 05/05",
+            "blv": "BLV Người Páo",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1336,7 +1407,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b25b3eb361_3766d294_20260504.png?v=3766d294",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2cbf8d6d54_4d4e9273_20260504.png?v=4d4e9273",
             "width": 1600,
             "height": 1200
           }
@@ -1549,59 +1620,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6daf55c3d8_b11500b8_20260504.png?v=b11500b8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-2cbf8d6d54",
-          "name": "Daejeon Citizen vs Incheon United Club | 14:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2cbf8d6d54",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-2cbf8d6d54",
-                  "name": "Daejeon Citizen vs Incheon United Club",
-                  "streams": [
-                    {
-                      "id": "st-2cbf8d6d54",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Daejeon Citizen",
-            "team_b": "Incheon United Club",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/090eeb1513e8f1d0cf6d8647d10b2eea.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/36559689046e7d1d4f597c1a0bf9c5d6.png",
-            "time": "14:30 05/05",
-            "blv": "BLV Người Páo",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2cbf8d6d54_4d4e9273_20260504.png?v=4d4e9273",
             "width": 1600,
             "height": 1200
           }
