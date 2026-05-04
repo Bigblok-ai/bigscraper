@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "thapcam-f57e1a4b72",
-          "name": "Pharco vs El Mokawloon El Arab | 21:00 04/05",
+          "name": "Pharco vs El Mokawloon El Arab",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,7 +73,7 @@
             "team_b": "El Mokawloon El Arab",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/abc7123841c5174901b57ace767891ca.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d2ba8945533ebbda0bcccf6cf21a4bd4.png",
-            "time": "21:00 04/05",
+            "time": "",
             "blv": "BLV Cá Mập",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -89,7 +89,7 @@
         },
         {
           "id": "thapcam-5bd3da28ff",
-          "name": "Chelsea vs Nottingham Forest | 21:00 04/05",
+          "name": "Chelsea vs Nottingham Forest",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -178,7 +178,7 @@
             "team_b": "Nottingham Forest",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b365ad0e85e2b1bcbf63f7a0f2f70a79.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/62572999d107f777efa4aeb907443527.png",
-            "time": "21:00 04/05",
+            "time": "",
             "blv": "BLV Max",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -193,8 +193,8 @@
           }
         },
         {
-          "id": "thapcam-c432c3e0be",
-          "name": "Persijap Jepara vs Persija Jakarta",
+          "id": "thapcam-fc397679af",
+          "name": "Lokomotiv Tashkent vs Qizilqum Zarafshon",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -208,23 +208,23 @@
           ],
           "sources": [
             {
-              "id": "src-c432c3e0be",
+              "id": "src-fc397679af",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-c432c3e0be",
-                  "name": "Persijap Jepara vs Persija Jakarta",
+                  "id": "ct-fc397679af",
+                  "name": "Lokomotiv Tashkent vs Qizilqum Zarafshon",
                   "streams": [
                     {
-                      "id": "st-c432c3e0be",
+                      "id": "st-fc397679af",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-32267c9670",
+                          "id": "lnk-8e7568b8de",
                           "name": "BLV Chân Đất",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f8878a51ddc_145/index.m3u8?expire=1778500106&sign=273b7f20c8dd66dd65e130ebd6adf4cd",
+                          "url": "https://cdn-hls.phogatv8.com/live/69f8a79d137e4_145/index.m3u8?expire=1778508317&sign=077365aa579229516272db82974e64b7",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -244,11 +244,11 @@
             }
           ],
           "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "Persijap Jepara",
-            "team_b": "Persija Jakarta",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f4bd932b7d276a93696f4491f334c932.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/10db29eabad13994d9729d8983f8d21a.png",
+            "league": "Uzbekistan Super League",
+            "team_a": "Lokomotiv Tashkent",
+            "team_b": "Qizilqum Zarafshon",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d8954914be101e0ba72dc55c8f92604b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/709463bd62119aff6f7da0b20b4e1034.png",
             "time": "",
             "blv": "BLV Chân Đất",
             "is_live": true,
@@ -258,7 +258,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c432c3e0be_11fb0c4f_20260504.png?v=11fb0c4f",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-fc397679af_df282457_20260504.png?v=df282457",
             "width": 1600,
             "height": 1200
           }
@@ -582,59 +582,6 @@
           }
         },
         {
-          "id": "thapcam-073b908dda",
-          "name": "Radomiak Radom vs Lechia Gdansk | 00:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-073b908dda",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-073b908dda",
-                  "name": "Radomiak Radom vs Lechia Gdansk",
-                  "streams": [
-                    {
-                      "id": "st-073b908dda",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PKO Bank Polski EKSTRAKLASA",
-            "team_a": "Radomiak Radom",
-            "team_b": "Lechia Gdansk",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6c0c94ba08aaf8dc547054a22d68cbd6.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b3cb1dab4929d327b7ee42553a2fef58.png",
-            "time": "00:00 05/05",
-            "blv": "BLV Người Rừng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-073b908dda_afd91528_20260504.png?v=afd91528",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-f751b7d159",
           "name": "Midtjylland vs Viborg | 00:00 05/05",
           "type": "single",
@@ -736,6 +683,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1cf181e782_3695d24f_20260504.png?v=3695d24f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-073b908dda",
+          "name": "Radomiak Radom vs Lechia Gdansk | 00:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-073b908dda",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-073b908dda",
+                  "name": "Radomiak Radom vs Lechia Gdansk",
+                  "streams": [
+                    {
+                      "id": "st-073b908dda",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PKO Bank Polski EKSTRAKLASA",
+            "team_a": "Radomiak Radom",
+            "team_b": "Lechia Gdansk",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6c0c94ba08aaf8dc547054a22d68cbd6.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b3cb1dab4929d327b7ee42553a2fef58.png",
+            "time": "00:00 05/05",
+            "blv": "BLV Người Rừng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-073b908dda_afd91528_20260504.png?v=afd91528",
             "width": 1600,
             "height": 1200
           }
@@ -1218,59 +1218,6 @@
           }
         },
         {
-          "id": "thapcam-6daf55c3d8",
-          "name": "Gangwon Football Club vs Pohang Steelers | 14:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6daf55c3d8",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6daf55c3d8",
-                  "name": "Gangwon Football Club vs Pohang Steelers",
-                  "streams": [
-                    {
-                      "id": "st-6daf55c3d8",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Gangwon Football Club",
-            "team_b": "Pohang Steelers",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/771a93ae7f62b1a47a71c3d62b89dca3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6f05c460789939ac83282bd0686446f1.png",
-            "time": "14:30 05/05",
-            "blv": "BLV Người Rừng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6daf55c3d8_b11500b8_20260504.png?v=b11500b8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-d326f5a5e9",
           "name": "Chinese Taipei U17 Women vs Korea Rep. Women U17 | 14:30 05/05",
           "type": "single",
@@ -1425,6 +1372,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-eec931a386_7fd5a935_20260504.png?v=7fd5a935",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-6daf55c3d8",
+          "name": "Gangwon Football Club vs Pohang Steelers | 14:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6daf55c3d8",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-6daf55c3d8",
+                  "name": "Gangwon Football Club vs Pohang Steelers",
+                  "streams": [
+                    {
+                      "id": "st-6daf55c3d8",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Gangwon Football Club",
+            "team_b": "Pohang Steelers",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/771a93ae7f62b1a47a71c3d62b89dca3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6f05c460789939ac83282bd0686446f1.png",
+            "time": "14:30 05/05",
+            "blv": "BLV Người Rừng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6daf55c3d8_b11500b8_20260504.png?v=b11500b8",
             "width": 1600,
             "height": 1200
           }
@@ -1642,59 +1642,6 @@
           }
         },
         {
-          "id": "thapcam-f5034ddf5b",
-          "name": "India Women U17 vs Japan Women U17 | 18:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f5034ddf5b",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f5034ddf5b",
-                  "name": "India Women U17 vs Japan Women U17",
-                  "streams": [
-                    {
-                      "id": "st-f5034ddf5b",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "India Women U17",
-            "team_b": "Japan Women U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a18a24058618b5ef80eec61300f85999.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a5cc0f9ca35d53a5332bf84dc9b79104.png",
-            "time": "18:30 05/05",
-            "blv": "BLV Cá Mập",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f5034ddf5b_f7828b34_20260504.png?v=f7828b34",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-3967960b34",
           "name": "Philippines U17 Women vs North Korea Women U17 | 18:30 05/05",
           "type": "single",
@@ -1743,6 +1690,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3967960b34_6aef1dd2_20260504.png?v=6aef1dd2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-f5034ddf5b",
+          "name": "India Women U17 vs Japan Women U17 | 18:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f5034ddf5b",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f5034ddf5b",
+                  "name": "India Women U17 vs Japan Women U17",
+                  "streams": [
+                    {
+                      "id": "st-f5034ddf5b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "India Women U17",
+            "team_b": "Japan Women U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a18a24058618b5ef80eec61300f85999.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a5cc0f9ca35d53a5332bf84dc9b79104.png",
+            "time": "18:30 05/05",
+            "blv": "BLV Cá Mập",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f5034ddf5b_f7828b34_20260504.png?v=f7828b34",
             "width": 1600,
             "height": 1200
           }
