@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,6 +83,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9356844142_47731919_20260504.png?v=47731919",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-9f45601c55",
+          "name": "Al Fayha vs Al-Riyadh | 23:10 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9f45601c55",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-9f45601c55",
+                  "name": "Al Fayha vs Al-Riyadh",
+                  "streams": [
+                    {
+                      "id": "st-9f45601c55",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-83605a35d0",
+                          "name": "BLV Jayce",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f8bc85137e4_181/index.m3u8?expire=1778513669&sign=e85e5be566afe1f395d7d59c485ee848",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al Fayha",
+            "team_b": "Al-Riyadh",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2b0b85fcec97994a4758002512957d7a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aa2d8e24a68822387257f31d692c4297.png",
+            "time": "23:10 04/05",
+            "blv": "BLV Jayce",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9f45601c55_4a161a58_20260504.png?v=4a161a58",
             "width": 1600,
             "height": 1200
           }
@@ -472,59 +543,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a2b67f7d06_b2c38e5c_20260504.png?v=b2c38e5c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-9f45601c55",
-          "name": "Al Fayha vs Al-Riyadh | 23:10 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9f45601c55",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9f45601c55",
-                  "name": "Al Fayha vs Al-Riyadh",
-                  "streams": [
-                    {
-                      "id": "st-9f45601c55",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al Fayha",
-            "team_b": "Al-Riyadh",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2b0b85fcec97994a4758002512957d7a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aa2d8e24a68822387257f31d692c4297.png",
-            "time": "23:10 04/05",
-            "blv": "BLV Jayce",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9f45601c55_4a161a58_20260504.png?v=4a161a58",
             "width": 1600,
             "height": 1200
           }
@@ -1903,6 +1921,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-49823ef218_b33f40a9_20260504.png?v=b33f40a9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-3982d78d1c",
+          "name": "Japan U17 vs Qatar U17 | 23:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3982d78d1c",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-3982d78d1c",
+                  "name": "Japan U17 vs Qatar U17",
+                  "streams": [
+                    {
+                      "id": "st-3982d78d1c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Japan U17",
+            "team_b": "Qatar U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3c4d97fd12b32034eecb81ef51583b26.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8583e166d6e955dd01525d25b53b4439.png",
+            "time": "23:00 05/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3982d78d1c_b349515f_20260504.png?v=b349515f",
             "width": 1600,
             "height": 1200
           }
