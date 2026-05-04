@@ -11,11 +11,82 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-41a0ed7d54",
+          "name": "Albirex Niigata FC vs Young Lions | 18:30 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-41a0ed7d54",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-41a0ed7d54",
+                  "name": "Albirex Niigata FC vs Young Lions",
+                  "streams": [
+                    {
+                      "id": "st-41a0ed7d54",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e04b34758f",
+                          "name": "BLV Người Ngố",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f8823851ddc_14/index.m3u8?expire=1778498744&sign=378d5e1164572cb450c557d55cc3e69f",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Singapore Premier League",
+            "team_a": "Albirex Niigata FC",
+            "team_b": "Young Lions",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1bc138bc13d186569590f57f9d9127cd.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9208155f7204354ad78a72594ff7b13c.png",
+            "time": "18:30 04/05",
+            "blv": "BLV Người Ngố",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-41a0ed7d54_8558a3f1_20260504.png?v=8558a3f1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-be395d9733",
           "name": "Vietnam U17 Women vs China U17 Women | 18:30 04/05",
@@ -211,59 +282,6 @@
           }
         },
         {
-          "id": "thapcam-5bd3da28ff",
-          "name": "Chelsea vs Nottingham Forest | 21:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5bd3da28ff",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-5bd3da28ff",
-                  "name": "Chelsea vs Nottingham Forest",
-                  "streams": [
-                    {
-                      "id": "st-5bd3da28ff",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Chelsea",
-            "team_b": "Nottingham Forest",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b365ad0e85e2b1bcbf63f7a0f2f70a79.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/62572999d107f777efa4aeb907443527.png",
-            "time": "21:00 04/05",
-            "blv": "BLV Max",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5bd3da28ff_35d1a4f4_20260504.png?v=35d1a4f4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-f57e1a4b72",
           "name": "Pharco vs El Mokawloon El Arab | 21:00 04/05",
           "type": "single",
@@ -312,6 +330,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f57e1a4b72_f43ff99b_20260504.png?v=f43ff99b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-5bd3da28ff",
+          "name": "Chelsea vs Nottingham Forest | 21:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5bd3da28ff",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-5bd3da28ff",
+                  "name": "Chelsea vs Nottingham Forest",
+                  "streams": [
+                    {
+                      "id": "st-5bd3da28ff",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Chelsea",
+            "team_b": "Nottingham Forest",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b365ad0e85e2b1bcbf63f7a0f2f70a79.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/62572999d107f777efa4aeb907443527.png",
+            "time": "21:00 04/05",
+            "blv": "BLV Max",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5bd3da28ff_35d1a4f4_20260504.png?v=35d1a4f4",
             "width": 1600,
             "height": 1200
           }
@@ -688,59 +759,6 @@
           }
         },
         {
-          "id": "thapcam-f751b7d159",
-          "name": "Midtjylland vs Viborg | 00:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f751b7d159",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f751b7d159",
-                  "name": "Midtjylland vs Viborg",
-                  "streams": [
-                    {
-                      "id": "st-f751b7d159",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Danish Superliga",
-            "team_a": "Midtjylland",
-            "team_b": "Viborg",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/870815ca7c7545f7dc8c0716eecdb708.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c5beffcdc88a77f8494e85108b306062.png",
-            "time": "00:00 05/05",
-            "blv": "BLV Chân Đất",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f751b7d159_0d2f6d7f_20260504.png?v=0d2f6d7f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-073b908dda",
           "name": "Radomiak Radom vs Lechia Gdansk | 00:00 05/05",
           "type": "single",
@@ -789,6 +807,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-073b908dda_afd91528_20260504.png?v=afd91528",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-f751b7d159",
+          "name": "Midtjylland vs Viborg | 00:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f751b7d159",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f751b7d159",
+                  "name": "Midtjylland vs Viborg",
+                  "streams": [
+                    {
+                      "id": "st-f751b7d159",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Danish Superliga",
+            "team_a": "Midtjylland",
+            "team_b": "Viborg",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/870815ca7c7545f7dc8c0716eecdb708.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c5beffcdc88a77f8494e85108b306062.png",
+            "time": "00:00 05/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f751b7d159_0d2f6d7f_20260504.png?v=0d2f6d7f",
             "width": 1600,
             "height": 1200
           }
@@ -847,59 +918,6 @@
           }
         },
         {
-          "id": "thapcam-931eb09b27",
-          "name": "Al Ittihad Club vs Al Kholood | 01:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-931eb09b27",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-931eb09b27",
-                  "name": "Al Ittihad Club vs Al Kholood",
-                  "streams": [
-                    {
-                      "id": "st-931eb09b27",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al Ittihad Club",
-            "team_b": "Al Kholood",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/dea986d20115216c05d1a45ba9a6162e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/068aa9b10aa4d47ab3a8fdbe8b716518.png",
-            "time": "01:00 05/05",
-            "blv": "BLV Người Nhớt",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-931eb09b27_5420a999_20260504.png?v=5420a999",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-424bc3d0df",
           "name": "Al Ettifaq FC vs Al Najma(KSA) | 01:00 05/05",
           "type": "single",
@@ -948,6 +966,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-424bc3d0df_a4bdf2eb_20260504.png?v=a4bdf2eb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-931eb09b27",
+          "name": "Al Ittihad Club vs Al Kholood | 01:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-931eb09b27",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-931eb09b27",
+                  "name": "Al Ittihad Club vs Al Kholood",
+                  "streams": [
+                    {
+                      "id": "st-931eb09b27",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al Ittihad Club",
+            "team_b": "Al Kholood",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/dea986d20115216c05d1a45ba9a6162e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/068aa9b10aa4d47ab3a8fdbe8b716518.png",
+            "time": "01:00 05/05",
+            "blv": "BLV Người Nhớt",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-931eb09b27_5420a999_20260504.png?v=5420a999",
             "width": 1600,
             "height": 1200
           }
@@ -1165,59 +1236,6 @@
           }
         },
         {
-          "id": "thapcam-9db48a5aad",
-          "name": "Bucheon FC 1995 vs Jeju SK FC | 12:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9db48a5aad",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9db48a5aad",
-                  "name": "Bucheon FC 1995 vs Jeju SK FC",
-                  "streams": [
-                    {
-                      "id": "st-9db48a5aad",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Bucheon FC 1995",
-            "team_b": "Jeju SK FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/640f8c62cb294e1cc308a44ed2a62891.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2d2abe914435bb9b7140cf2154c50de9.png",
-            "time": "12:00 05/05",
-            "blv": "BLV Chân Đất",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9db48a5aad_6b21a152_20260504.png?v=6b21a152",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-b25b3eb361",
           "name": "Jeonbuk Hyundai Motors vs Gwangju Football Club | 12:00 05/05",
           "type": "single",
@@ -1266,6 +1284,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b25b3eb361_3766d294_20260504.png?v=3766d294",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-9db48a5aad",
+          "name": "Bucheon FC 1995 vs Jeju SK FC | 12:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9db48a5aad",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-9db48a5aad",
+                  "name": "Bucheon FC 1995 vs Jeju SK FC",
+                  "streams": [
+                    {
+                      "id": "st-9db48a5aad",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Bucheon FC 1995",
+            "team_b": "Jeju SK FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/640f8c62cb294e1cc308a44ed2a62891.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2d2abe914435bb9b7140cf2154c50de9.png",
+            "time": "12:00 05/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9db48a5aad_6b21a152_20260504.png?v=6b21a152",
             "width": 1600,
             "height": 1200
           }
@@ -1324,8 +1395,8 @@
           }
         },
         {
-          "id": "thapcam-eec931a386",
-          "name": "Gimcheon Sangmu Football Club vs Ulsan HD FC | 14:30 05/05",
+          "id": "thapcam-d326f5a5e9",
+          "name": "Chinese Taipei U17 Women vs Korea Rep. Women U17 | 14:30 05/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1339,15 +1410,15 @@
           ],
           "sources": [
             {
-              "id": "src-eec931a386",
+              "id": "src-d326f5a5e9",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-eec931a386",
-                  "name": "Gimcheon Sangmu Football Club vs Ulsan HD FC",
+                  "id": "ct-d326f5a5e9",
+                  "name": "Chinese Taipei U17 Women vs Korea Rep. Women U17",
                   "streams": [
                     {
-                      "id": "st-eec931a386",
+                      "id": "st-d326f5a5e9",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1357,13 +1428,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Gimcheon Sangmu Football Club",
-            "team_b": "Ulsan HD FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4a3e50e90ab721c1782568a287bd5358.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fe07fb888ebcb282192332cb8aed21b1.png",
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Chinese Taipei U17 Women",
+            "team_b": "Korea Rep. Women U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/566b83e60e3ffdb744bc3d1843fb4311.png",
             "time": "14:30 05/05",
-            "blv": "BLV Người Điên",
+            "blv": "BLV Người Cò",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1371,7 +1442,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-eec931a386_7fd5a935_20260504.png?v=7fd5a935",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d326f5a5e9_21ba87d7_20260504.png?v=21ba87d7",
             "width": 1600,
             "height": 1200
           }
@@ -1430,8 +1501,8 @@
           }
         },
         {
-          "id": "thapcam-d326f5a5e9",
-          "name": "Chinese Taipei U17 Women vs Korea Rep. Women U17 | 14:30 05/05",
+          "id": "thapcam-eec931a386",
+          "name": "Gimcheon Sangmu Football Club vs Ulsan HD FC | 14:30 05/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1445,15 +1516,15 @@
           ],
           "sources": [
             {
-              "id": "src-d326f5a5e9",
+              "id": "src-eec931a386",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-d326f5a5e9",
-                  "name": "Chinese Taipei U17 Women vs Korea Rep. Women U17",
+                  "id": "ct-eec931a386",
+                  "name": "Gimcheon Sangmu Football Club vs Ulsan HD FC",
                   "streams": [
                     {
-                      "id": "st-d326f5a5e9",
+                      "id": "st-eec931a386",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1463,13 +1534,13 @@
             }
           ],
           "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "Chinese Taipei U17 Women",
-            "team_b": "Korea Rep. Women U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/566b83e60e3ffdb744bc3d1843fb4311.png",
+            "league": "Korean K League 1",
+            "team_a": "Gimcheon Sangmu Football Club",
+            "team_b": "Ulsan HD FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4a3e50e90ab721c1782568a287bd5358.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fe07fb888ebcb282192332cb8aed21b1.png",
             "time": "14:30 05/05",
-            "blv": "BLV Người Cò",
+            "blv": "BLV Người Điên",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1477,7 +1548,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d326f5a5e9_21ba87d7_20260504.png?v=21ba87d7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-eec931a386_7fd5a935_20260504.png?v=7fd5a935",
             "width": 1600,
             "height": 1200
           }
@@ -1690,6 +1761,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-662c261754_83e0c872_20260504.png?v=83e0c872",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-f5034ddf5b",
+          "name": "India Women U17 vs Japan Women U17 | 18:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f5034ddf5b",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f5034ddf5b",
+                  "name": "India Women U17 vs Japan Women U17",
+                  "streams": [
+                    {
+                      "id": "st-f5034ddf5b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "India Women U17",
+            "team_b": "Japan Women U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a18a24058618b5ef80eec61300f85999.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a5cc0f9ca35d53a5332bf84dc9b79104.png",
+            "time": "18:30 05/05",
+            "blv": "BLV Cá Mập",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f5034ddf5b_f7828b34_20260504.png?v=f7828b34",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-3967960b34",
+          "name": "Philippines U17 Women vs North Korea Women U17 | 18:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3967960b34",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-3967960b34",
+                  "name": "Philippines U17 Women vs North Korea Women U17",
+                  "streams": [
+                    {
+                      "id": "st-3967960b34",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Philippines U17 Women",
+            "team_b": "North Korea Women U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ba5a270beff01e94d4c372e5283ee654.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
+            "time": "18:30 05/05",
+            "blv": "BLV Max",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3967960b34_6aef1dd2_20260504.png?v=6aef1dd2",
             "width": 1600,
             "height": 1200
           }
