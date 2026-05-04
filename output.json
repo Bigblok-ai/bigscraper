@@ -1130,59 +1130,6 @@
           }
         },
         {
-          "id": "thapcam-d66eda0e9c",
-          "name": "Sevilla FC vs Real Sociedad | 02:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d66eda0e9c",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d66eda0e9c",
-                  "name": "Sevilla FC vs Real Sociedad",
-                  "streams": [
-                    {
-                      "id": "st-d66eda0e9c",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Sevilla FC",
-            "team_b": "Real Sociedad",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d20ed1da4f299cc3ef0e1e9eb06eced1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/579db6e95905545973035e6eab8df2cd.png",
-            "time": "02:00 05/05",
-            "blv": "BLV Người Rơm",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d66eda0e9c_0e7bc074_20260504.png?v=0e7bc074",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-e65df9c73f",
           "name": "Everton vs Manchester City | 02:00 05/05",
           "type": "single",
@@ -1231,6 +1178,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e65df9c73f_96dd3b69_20260504.png?v=96dd3b69",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-d66eda0e9c",
+          "name": "Sevilla FC vs Real Sociedad | 02:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d66eda0e9c",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d66eda0e9c",
+                  "name": "Sevilla FC vs Real Sociedad",
+                  "streams": [
+                    {
+                      "id": "st-d66eda0e9c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Sevilla FC",
+            "team_b": "Real Sociedad",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d20ed1da4f299cc3ef0e1e9eb06eced1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/579db6e95905545973035e6eab8df2cd.png",
+            "time": "02:00 05/05",
+            "blv": "BLV Người Rơm",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d66eda0e9c_0e7bc074_20260504.png?v=0e7bc074",
             "width": 1600,
             "height": 1200
           }
