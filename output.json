@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -42,7 +42,25 @@
                     {
                       "id": "st-c106660da2",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0660695296",
+                          "name": "BLV Cá Mập",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f84083137e4_154/index.m3u8?expire=1778481923&sign=f8b09f80cbe21c27c9b3f50b8c0c1213",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -57,7 +75,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f5c29f4d0153b28ef8802fe964122c65.png",
             "time": "14:30 04/05",
             "blv": "BLV Cá Mập",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -759,59 +777,6 @@
           }
         },
         {
-          "id": "thapcam-073b908dda",
-          "name": "Radomiak Radom vs Lechia Gdansk | 00:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-073b908dda",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-073b908dda",
-                  "name": "Radomiak Radom vs Lechia Gdansk",
-                  "streams": [
-                    {
-                      "id": "st-073b908dda",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PKO Bank Polski EKSTRAKLASA",
-            "team_a": "Radomiak Radom",
-            "team_b": "Lechia Gdansk",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6c0c94ba08aaf8dc547054a22d68cbd6.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b3cb1dab4929d327b7ee42553a2fef58.png",
-            "time": "00:00 05/05",
-            "blv": "BLV Người Rừng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-073b908dda_afd91528_20260504.png?v=afd91528",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-f751b7d159",
           "name": "Midtjylland vs Viborg | 00:00 05/05",
           "type": "single",
@@ -913,6 +878,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1cf181e782_3695d24f_20260504.png?v=3695d24f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-073b908dda",
+          "name": "Radomiak Radom vs Lechia Gdansk | 00:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-073b908dda",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-073b908dda",
+                  "name": "Radomiak Radom vs Lechia Gdansk",
+                  "streams": [
+                    {
+                      "id": "st-073b908dda",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PKO Bank Polski EKSTRAKLASA",
+            "team_a": "Radomiak Radom",
+            "team_b": "Lechia Gdansk",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6c0c94ba08aaf8dc547054a22d68cbd6.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b3cb1dab4929d327b7ee42553a2fef58.png",
+            "time": "00:00 05/05",
+            "blv": "BLV Người Rừng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-073b908dda_afd91528_20260504.png?v=afd91528",
             "width": 1600,
             "height": 1200
           }
