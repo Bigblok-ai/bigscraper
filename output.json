@@ -11,11 +11,82 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-9356844142",
+          "name": "HJK Helsinki vs Lahti | 23:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9356844142",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-9356844142",
+                  "name": "HJK Helsinki vs Lahti",
+                  "streams": [
+                    {
+                      "id": "st-9356844142",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-342cdb24ba",
+                          "name": "BLV Lềnh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f8bafc51ddc_1549/index.m3u8?expire=1778513276&sign=87e4ceb667278392f0255b6174e04533",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Finnish Veikkausliiga",
+            "team_a": "HJK Helsinki",
+            "team_b": "Lahti",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fd1a9c51505300dec9c26e5847114851.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0ab1b8407086bab060a396f244a28cd6.png",
+            "time": "23:00 04/05",
+            "blv": "BLV Lềnh",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9356844142_47731919_20260504.png?v=47731919",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-f57e1a4b72",
           "name": "Pharco vs El Mokawloon El Arab",
@@ -401,59 +472,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a2b67f7d06_b2c38e5c_20260504.png?v=b2c38e5c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-9356844142",
-          "name": "HJK Helsinki vs Lahti | 23:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9356844142",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9356844142",
-                  "name": "HJK Helsinki vs Lahti",
-                  "streams": [
-                    {
-                      "id": "st-9356844142",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Finnish Veikkausliiga",
-            "team_a": "HJK Helsinki",
-            "team_b": "Lahti",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fd1a9c51505300dec9c26e5847114851.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0ab1b8407086bab060a396f244a28cd6.png",
-            "time": "23:00 04/05",
-            "blv": "BLV Lềnh",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9356844142_47731919_20260504.png?v=47731919",
             "width": 1600,
             "height": 1200
           }
