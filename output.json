@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -313,77 +313,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-073b908dda_afd91528_20260505.png?v=afd91528",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-1d054efb29",
-          "name": "FC Rapid 1923 vs CFR Cluj",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1d054efb29",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-1d054efb29",
-                  "name": "FC Rapid 1923 vs CFR Cluj",
-                  "streams": [
-                    {
-                      "id": "st-1d054efb29",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-54d7a7f97a",
-                          "name": "BLV Người Ngố",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f8d04451ddc_14/index.m3u8?expire=1778518724&sign=b778182b33937477ccb5fb67508d5f82",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Romanian Super Liga",
-            "team_a": "FC Rapid 1923",
-            "team_b": "CFR Cluj",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6bb1babe89fffc1f77f25a47db40c847.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6f927eb040bdd5c972a9343fd9c8b873.png",
-            "time": "",
-            "blv": "BLV Người Ngố",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1d054efb29_c7257b98_20260505.png?v=c7257b98",
             "width": 1600,
             "height": 1200
           }
@@ -1683,7 +1612,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/eddf8d0f309490d5e64ad445895eedb1.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2160cff8b0067605adb4e2d1ff213f3d.png",
             "time": "00:00 06/05",
-            "blv": "BLV Người Điên",
+            "blv": "BLV Người Lạ",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
