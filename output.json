@@ -17,77 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-0051be1103",
-          "name": "FC Unirea 2004 Slobozia vs Hermannstadt | 21:30 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0051be1103",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-0051be1103",
-                  "name": "FC Unirea 2004 Slobozia vs Hermannstadt",
-                  "streams": [
-                    {
-                      "id": "st-0051be1103",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-65a87f75aa",
-                          "name": "BLV Siêu Quậy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f8a60351ddc_26/index.m3u8?expire=1778507907&sign=13997a833d88735a6168409358246b65",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Romanian Super Liga",
-            "team_a": "FC Unirea 2004 Slobozia",
-            "team_b": "Hermannstadt",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b17f903b42eebe1e7ad55f4f346d2bf8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/732ac055b269060b9864fe152a82c9cf.png",
-            "time": "21:30 04/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0051be1103_7fdc00cb_20260504.png?v=7fdc00cb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-f57e1a4b72",
           "name": "Pharco vs El Mokawloon El Arab",
           "type": "single",
@@ -259,6 +188,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5bd3da28ff_35d1a4f4_20260504.png?v=35d1a4f4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-0051be1103",
+          "name": "FC Unirea 2004 Slobozia vs Hermannstadt",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0051be1103",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-0051be1103",
+                  "name": "FC Unirea 2004 Slobozia vs Hermannstadt",
+                  "streams": [
+                    {
+                      "id": "st-0051be1103",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-65a87f75aa",
+                          "name": "BLV Siêu Quậy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f8a60351ddc_26/index.m3u8?expire=1778507907&sign=13997a833d88735a6168409358246b65",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Romanian Super Liga",
+            "team_a": "FC Unirea 2004 Slobozia",
+            "team_b": "Hermannstadt",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b17f903b42eebe1e7ad55f4f346d2bf8.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/732ac055b269060b9864fe152a82c9cf.png",
+            "time": "",
+            "blv": "BLV Siêu Quậy",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0051be1103_7fdc00cb_20260504.png?v=7fdc00cb",
             "width": 1600,
             "height": 1200
           }
@@ -1858,6 +1858,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8f6cb4c89e_6b1550b1_20260504.png?v=6b1550b1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-4a36456617",
+          "name": "San Antonio Spurs vs Minnesota Timberwolves | 08:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4a36456617",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-4a36456617",
+                  "name": "San Antonio Spurs vs Minnesota Timberwolves",
+                  "streams": [
+                    {
+                      "id": "st-4a36456617",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "San Antonio Spurs",
+            "team_b": "Minnesota Timberwolves",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5305d1a7b721b5bef418041eff53ba82.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/38794d0ac418d8f2d03bd17a2623f3ed.png",
+            "time": "08:30 05/05",
+            "blv": "BLV Người Sói",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-4a36456617_a55c5adf_20260504.png?v=a55c5adf",
             "width": 1600,
             "height": 1200
           }
