@@ -11,11 +11,153 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-288f2dbf9e",
+          "name": "PSM Makassar vs Bhayangkara Presisi Indonesia FC | 15:30 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-288f2dbf9e",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-288f2dbf9e",
+                  "name": "PSM Makassar vs Bhayangkara Presisi Indonesia FC",
+                  "streams": [
+                    {
+                      "id": "st-288f2dbf9e",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9940cd313b",
+                          "name": "BLV Max",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f85505137e4_35/index.m3u8?expire=1778487173&sign=c1566d3a73d91b44f94ff19a5117d8f8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indonesian Liga 1",
+            "team_a": "PSM Makassar",
+            "team_b": "Bhayangkara Presisi Indonesia FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9bd7c90318561f7d8ffa57eee817e787.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/837cf9a178940067578b7343018e003a.png",
+            "time": "15:30 04/05",
+            "blv": "BLV Max",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-288f2dbf9e_705b9b23_20260504.png?v=705b9b23",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-9c1ec20c50",
+          "name": "Persib Bandung vs PSIM Yogyakarta | 15:30 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9c1ec20c50",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-9c1ec20c50",
+                  "name": "Persib Bandung vs PSIM Yogyakarta",
+                  "streams": [
+                    {
+                      "id": "st-9c1ec20c50",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-df59fb9f32",
+                          "name": "BLV Người Rừng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f852d251ddc_148/index.m3u8?expire=1778486610&sign=9401c29aac55dc515d2de6dfee9e767c",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indonesian Liga 1",
+            "team_a": "Persib Bandung",
+            "team_b": "PSIM Yogyakarta",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b2004093bf25a5a8d1768970d6e49d71.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1a64731cd883e9d734e29a83301ea849.png",
+            "time": "15:30 04/05",
+            "blv": "BLV Người Rừng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9c1ec20c50_35b25ba8_20260504.png?v=35b25ba8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-c106660da2",
           "name": "Myanmar U17 Women vs Thailand U17 Women",
@@ -83,112 +225,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c106660da2_1ac5d874_20260504.png?v=1ac5d874",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-288f2dbf9e",
-          "name": "PSM Makassar vs Bhayangkara Presisi Indonesia FC | 15:30 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-288f2dbf9e",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-288f2dbf9e",
-                  "name": "PSM Makassar vs Bhayangkara Presisi Indonesia FC",
-                  "streams": [
-                    {
-                      "id": "st-288f2dbf9e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "PSM Makassar",
-            "team_b": "Bhayangkara Presisi Indonesia FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9bd7c90318561f7d8ffa57eee817e787.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/837cf9a178940067578b7343018e003a.png",
-            "time": "15:30 04/05",
-            "blv": "BLV Max",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-288f2dbf9e_705b9b23_20260504.png?v=705b9b23",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-9c1ec20c50",
-          "name": "Persib Bandung vs PSIM Yogyakarta | 15:30 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9c1ec20c50",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9c1ec20c50",
-                  "name": "Persib Bandung vs PSIM Yogyakarta",
-                  "streams": [
-                    {
-                      "id": "st-9c1ec20c50",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "Persib Bandung",
-            "team_b": "PSIM Yogyakarta",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b2004093bf25a5a8d1768970d6e49d71.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1a64731cd883e9d734e29a83301ea849.png",
-            "time": "15:30 04/05",
-            "blv": "BLV Người Rừng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9c1ec20c50_35b25ba8_20260504.png?v=35b25ba8",
             "width": 1600,
             "height": 1200
           }
