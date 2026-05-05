@@ -17,8 +17,79 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "thapcam-76e407bcca",
+          "name": "Indonesia U17 vs China U17 | 23:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-76e407bcca",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-76e407bcca",
+                  "name": "Indonesia U17 vs China U17",
+                  "streams": [
+                    {
+                      "id": "st-76e407bcca",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-717aaa793a",
+                          "name": "BLV Người Nhện",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fa11dc137e4_32/index.m3u8?expire=1778601052&sign=d554beafaebb59212db8a3f6f31ef741",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Indonesia U17",
+            "team_b": "China U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a222bcd619abdcee951b28cae8d1cce6.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/56b46dcd3e801a496ca783ab0bd0f44d.png",
+            "time": "23:30 05/05",
+            "blv": "BLV Người Nhện",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-76e407bcca_45cf5430_20260505.png?v=45cf5430",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-3982d78d1c",
-          "name": "Japan U17 vs Qatar U17 | 23:00 05/05",
+          "name": "Japan U17 vs Qatar U17",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,7 +144,7 @@
             "team_b": "Qatar U17",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3c4d97fd12b32034eecb81ef51583b26.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8583e166d6e955dd01525d25b53b4439.png",
-            "time": "23:00 05/05",
+            "time": "",
             "blv": "BLV Siêu Quậy",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -83,130 +154,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3982d78d1c_b349515f_20260505.png?v=b349515f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-b73604f19c",
-          "name": "Beroe Stara Zagora vs PFK Montana",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b73604f19c",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-b73604f19c",
-                  "name": "Beroe Stara Zagora vs PFK Montana",
-                  "streams": [
-                    {
-                      "id": "st-b73604f19c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5fbffb4961",
-                          "name": "BLV Người Páo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f9ec2a51ddc_19533/index.m3u8?expire=1778591402&sign=24d82fc28ea6e3b022764c6d02b56bf1",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bulgarian First League",
-            "team_a": "Beroe Stara Zagora",
-            "team_b": "PFK Montana",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/197710e96433ca507120d5fc3ebfbc58.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/555ed40ede7fc6f2879993bc058fb8ac.png",
-            "time": "",
-            "blv": "BLV Người Páo",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b73604f19c_dbbc59e4_20260505.png?v=dbbc59e4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-76e407bcca",
-          "name": "Indonesia U17 vs China U17 | 23:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-76e407bcca",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-76e407bcca",
-                  "name": "Indonesia U17 vs China U17",
-                  "streams": [
-                    {
-                      "id": "st-76e407bcca",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Indonesia U17",
-            "team_b": "China U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a222bcd619abdcee951b28cae8d1cce6.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/56b46dcd3e801a496ca783ab0bd0f44d.png",
-            "time": "23:30 05/05",
-            "blv": "BLV Người Nhện",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-76e407bcca_45cf5430_20260505.png?v=45cf5430",
             "width": 1600,
             "height": 1200
           }
@@ -901,59 +848,6 @@
           }
         },
         {
-          "id": "thapcam-6180f378f0",
-          "name": "Avispa Fukuoka vs Kyoto Sanga | 12:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6180f378f0",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6180f378f0",
-                  "name": "Avispa Fukuoka vs Kyoto Sanga",
-                  "streams": [
-                    {
-                      "id": "st-6180f378f0",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Avispa Fukuoka",
-            "team_b": "Kyoto Sanga",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bf0e2229b39b6cb6fd17e9d0f3fb747e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7d6fa50ea67cde7d66612a8189897ba5.png",
-            "time": "12:00 06/05",
-            "blv": "BLV Chân Đất",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6180f378f0_c70b6046_20260505.png?v=c70b6046",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-06d1c1ee7a",
           "name": "Nagoya Grampus vs Gamba Osaka | 12:00 06/05",
           "type": "single",
@@ -1007,8 +901,8 @@
           }
         },
         {
-          "id": "thapcam-90626ab069",
-          "name": "Sanfrecce Hiroshima vs Vissel Kobe | 13:00 06/05",
+          "id": "thapcam-6180f378f0",
+          "name": "Avispa Fukuoka vs Kyoto Sanga | 12:00 06/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1022,15 +916,15 @@
           ],
           "sources": [
             {
-              "id": "src-90626ab069",
+              "id": "src-6180f378f0",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-90626ab069",
-                  "name": "Sanfrecce Hiroshima vs Vissel Kobe",
+                  "id": "ct-6180f378f0",
+                  "name": "Avispa Fukuoka vs Kyoto Sanga",
                   "streams": [
                     {
-                      "id": "st-90626ab069",
+                      "id": "st-6180f378f0",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1041,12 +935,12 @@
           ],
           "org_metadata": {
             "league": "Japanese J1 League",
-            "team_a": "Sanfrecce Hiroshima",
-            "team_b": "Vissel Kobe",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c81d5ff7a33a4f6a9312a8703f619352.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d85cce27ab583e5b3cead155f02b098a.png",
-            "time": "13:00 06/05",
-            "blv": "BLV Người Páo",
+            "team_a": "Avispa Fukuoka",
+            "team_b": "Kyoto Sanga",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bf0e2229b39b6cb6fd17e9d0f3fb747e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7d6fa50ea67cde7d66612a8189897ba5.png",
+            "time": "12:00 06/05",
+            "blv": "BLV Chân Đất",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1054,7 +948,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-90626ab069_eb767d2a_20260505.png?v=eb767d2a",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6180f378f0_c70b6046_20260505.png?v=c70b6046",
             "width": 1600,
             "height": 1200
           }
@@ -1108,6 +1002,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cd6f8dec1a_0978ff39_20260505.png?v=0978ff39",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-90626ab069",
+          "name": "Sanfrecce Hiroshima vs Vissel Kobe | 13:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-90626ab069",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-90626ab069",
+                  "name": "Sanfrecce Hiroshima vs Vissel Kobe",
+                  "streams": [
+                    {
+                      "id": "st-90626ab069",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Sanfrecce Hiroshima",
+            "team_b": "Vissel Kobe",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c81d5ff7a33a4f6a9312a8703f619352.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d85cce27ab583e5b3cead155f02b098a.png",
+            "time": "13:00 06/05",
+            "blv": "BLV Người Páo",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-90626ab069_eb767d2a_20260505.png?v=eb767d2a",
             "width": 1600,
             "height": 1200
           }
@@ -1783,6 +1730,165 @@
           }
         },
         {
+          "id": "thapcam-0f6ba0e6fd",
+          "name": "TKON vs DŨNG PHẠM | 12:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0f6ba0e6fd",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-0f6ba0e6fd",
+                  "name": "TKON vs DŨNG PHẠM",
+                  "streams": [
+                    {
+                      "id": "st-0f6ba0e6fd",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
+            "team_a": "TKON",
+            "team_b": "DŨNG PHẠM",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2936bf875ffe749c113d3262a076d7f6.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/6de0b590389bd0a90fa9f62a82db7f69.png",
+            "time": "12:00 06/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": false,
+            "cate_name": "Billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0f6ba0e6fd_88db72fa_20260505.png?v=88db72fa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-188b21d81c",
+          "name": "KIÊN SẾU vs ĐỖ VĂN HOÀNG | 12:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-188b21d81c",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-188b21d81c",
+                  "name": "KIÊN SẾU vs ĐỖ VĂN HOÀNG",
+                  "streams": [
+                    {
+                      "id": "st-188b21d81c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
+            "team_a": "KIÊN SẾU",
+            "team_b": "ĐỖ VĂN HOÀNG",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/8490c974a2c086c02fe1d95128a7ad6c.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/ff97e5113957621f392f09cf75c87563.png",
+            "time": "12:00 06/05",
+            "blv": "BLV Jayce",
+            "is_live": false,
+            "cate_name": "Billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-188b21d81c_273f2af0_20260505.png?v=273f2af0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-ae925b7d3e",
+          "name": "THIỆN LƯƠNG vs TRUNG GIA LÂM | 14:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ae925b7d3e",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-ae925b7d3e",
+                  "name": "THIỆN LƯƠNG vs TRUNG GIA LÂM",
+                  "streams": [
+                    {
+                      "id": "st-ae925b7d3e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
+            "team_a": "THIỆN LƯƠNG",
+            "team_b": "TRUNG GIA LÂM",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/ea477b6a26370657114c965fe795039b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/eedc5d82938d5d15e0a230d1d9c3f90e.png",
+            "time": "14:00 06/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": false,
+            "cate_name": "Billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ae925b7d3e_8272002b_20260505.png?v=8272002b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-bf9d38e908",
           "name": "AN NHIỆT vs TÙNG GÁI | 14:00 06/05",
           "type": "single",
@@ -1884,6 +1990,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a02fb88d51_cf050eeb_20260505.png?v=cf050eeb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-47315f3597",
+          "name": "NAM PHẠM vs KHÁNH GÀ | 16:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-47315f3597",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-47315f3597",
+                  "name": "NAM PHẠM vs KHÁNH GÀ",
+                  "streams": [
+                    {
+                      "id": "st-47315f3597",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
+            "team_a": "NAM PHẠM",
+            "team_b": "KHÁNH GÀ",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/af677d4a36e4c4ab092efc28b72dcb82.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/f0cd7c5c7532e468b63fc1f88b3e0080.png",
+            "time": "16:00 06/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": false,
+            "cate_name": "Billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-47315f3597_97c2b9e8_20260505.png?v=97c2b9e8",
             "width": 1600,
             "height": 1200
           }
