@@ -1643,59 +1643,6 @@
           }
         },
         {
-          "id": "thapcam-06d1c1ee7a",
-          "name": "Nagoya Grampus vs Gamba Osaka | 12:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-06d1c1ee7a",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-06d1c1ee7a",
-                  "name": "Nagoya Grampus vs Gamba Osaka",
-                  "streams": [
-                    {
-                      "id": "st-06d1c1ee7a",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Nagoya Grampus",
-            "team_b": "Gamba Osaka",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/32aa68e1fa3d62dad572d19b21a09353.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/91008a96b5de8c75376d17057f89890e.png",
-            "time": "12:00 06/05",
-            "blv": "BLV Max",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-06d1c1ee7a_6150466f_20260505.png?v=6150466f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-6180f378f0",
           "name": "Avispa Fukuoka vs Kyoto Sanga | 12:00 06/05",
           "type": "single",
@@ -1744,6 +1691,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6180f378f0_c70b6046_20260505.png?v=c70b6046",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-06d1c1ee7a",
+          "name": "Nagoya Grampus vs Gamba Osaka | 12:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-06d1c1ee7a",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-06d1c1ee7a",
+                  "name": "Nagoya Grampus vs Gamba Osaka",
+                  "streams": [
+                    {
+                      "id": "st-06d1c1ee7a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Nagoya Grampus",
+            "team_b": "Gamba Osaka",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/32aa68e1fa3d62dad572d19b21a09353.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/91008a96b5de8c75376d17057f89890e.png",
+            "time": "12:00 06/05",
+            "blv": "BLV Max",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-06d1c1ee7a_6150466f_20260505.png?v=6150466f",
             "width": 1600,
             "height": 1200
           }
