@@ -1393,12 +1393,65 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-8bf6887e8c",
+          "name": "Tigres UANL vs Nashville | 08:30 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8bf6887e8c",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-8bf6887e8c",
+                  "name": "Tigres UANL vs Nashville",
+                  "streams": [
+                    {
+                      "id": "st-8bf6887e8c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CNCF CHL",
+            "team_a": "Tigres UANL",
+            "team_b": "Nashville",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a7df6424c12ac9b7a6e5ca3ff953d5b3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/eafb707bc6f8028dc71923176915c8e3.png",
+            "time": "08:30 06/05",
+            "blv": "BLV Người Nhện",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8bf6887e8c_bde55a63_20260505.png?v=bde55a63",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "grp-d721cd64dc",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1470,6 +1523,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8f6cb4c89e_6b1550b1_20260505.png?v=6b1550b1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-4a36456617",
+          "name": "San Antonio Spurs vs Minnesota Timberwolves | 08:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4a36456617",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-4a36456617",
+                  "name": "San Antonio Spurs vs Minnesota Timberwolves",
+                  "streams": [
+                    {
+                      "id": "st-4a36456617",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cec15149df",
+                          "name": "BLV Người Sói",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f9474e137e4_742/index.m3u8?expire=1778549198&sign=879c269ee9f77b7805261bbacc34d4ed",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "San Antonio Spurs",
+            "team_b": "Minnesota Timberwolves",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5305d1a7b721b5bef418041eff53ba82.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/38794d0ac418d8f2d03bd17a2623f3ed.png",
+            "time": "08:30 05/05",
+            "blv": "BLV Người Sói",
+            "is_live": true,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-4a36456617_a55c5adf_20260505.png?v=a55c5adf",
             "width": 1600,
             "height": 1200
           }
