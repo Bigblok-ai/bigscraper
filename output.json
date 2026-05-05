@@ -17,77 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-6d8a4d41b8",
-          "name": "Football Club Seoul vs FC Anyang | 17:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6d8a4d41b8",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6d8a4d41b8",
-                  "name": "Football Club Seoul vs FC Anyang",
-                  "streams": [
-                    {
-                      "id": "st-6d8a4d41b8",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b416ba1b03",
-                          "name": "BLV Lềnh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f9b81c137e4_1549/index.m3u8?expire=1778578076&sign=af3d193889181cf50f7d7e623dea43e9",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Football Club Seoul",
-            "team_b": "FC Anyang",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ad010af729c420626d1865ad744168d3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cda2e60a4e984dc6f4ed091ec44fc5bb.png",
-            "time": "17:00 05/05",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6d8a4d41b8_e9370e1d_20260505.png?v=e9370e1d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-028e385da9",
           "name": "Madura United vs Bali United",
           "type": "single",
@@ -154,6 +83,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-028e385da9_4cd14508_20260505.png?v=4cd14508",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-6d8a4d41b8",
+          "name": "Football Club Seoul vs FC Anyang",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6d8a4d41b8",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-6d8a4d41b8",
+                  "name": "Football Club Seoul vs FC Anyang",
+                  "streams": [
+                    {
+                      "id": "st-6d8a4d41b8",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b416ba1b03",
+                          "name": "BLV Lềnh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f9b81c137e4_1549/index.m3u8?expire=1778578076&sign=af3d193889181cf50f7d7e623dea43e9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Football Club Seoul",
+            "team_b": "FC Anyang",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ad010af729c420626d1865ad744168d3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cda2e60a4e984dc6f4ed091ec44fc5bb.png",
+            "time": "",
+            "blv": "BLV Lềnh",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6d8a4d41b8_e9370e1d_20260505.png?v=e9370e1d",
             "width": 1600,
             "height": 1200
           }
