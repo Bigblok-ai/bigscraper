@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "thapcam-a70a6108dd",
-          "name": "Independiente Petrolero vs Caracas FC | 05:00 06/05",
+          "name": "Independiente Petrolero vs Caracas FC",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,7 +73,7 @@
             "team_b": "Caracas FC",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/97f1608bfe5c72492cb5e201f93a6cda.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c47d5022e097b7b15702e59b7ded598c.png",
-            "time": "05:00 06/05",
+            "time": "",
             "blv": "BLV Người Ngố",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -353,59 +353,6 @@
           }
         },
         {
-          "id": "thapcam-46e46624a7",
-          "name": "Shimizu S-Pulse vs Cerezo Osaka | 11:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-46e46624a7",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-46e46624a7",
-                  "name": "Shimizu S-Pulse vs Cerezo Osaka",
-                  "streams": [
-                    {
-                      "id": "st-46e46624a7",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Shimizu S-Pulse",
-            "team_b": "Cerezo Osaka",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fa4105f0408ef893d941e70ae003ab4c.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ab10ee503e539e55a9a11a9ff202405a.png",
-            "time": "11:00 06/05",
-            "blv": "BLV Người Rừng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46e46624a7_80dbc6b0_20260506.png?v=80dbc6b0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-7f366134db",
           "name": "V-Varen Nagasaki vs Fagiano Okayama | 11:00 06/05",
           "type": "single",
@@ -459,8 +406,8 @@
           }
         },
         {
-          "id": "thapcam-6180f378f0",
-          "name": "Avispa Fukuoka vs Kyoto Sanga | 12:00 06/05",
+          "id": "thapcam-46e46624a7",
+          "name": "Shimizu S-Pulse vs Cerezo Osaka | 11:00 06/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -474,15 +421,15 @@
           ],
           "sources": [
             {
-              "id": "src-6180f378f0",
+              "id": "src-46e46624a7",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-6180f378f0",
-                  "name": "Avispa Fukuoka vs Kyoto Sanga",
+                  "id": "ct-46e46624a7",
+                  "name": "Shimizu S-Pulse vs Cerezo Osaka",
                   "streams": [
                     {
-                      "id": "st-6180f378f0",
+                      "id": "st-46e46624a7",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -493,12 +440,12 @@
           ],
           "org_metadata": {
             "league": "Japanese J1 League",
-            "team_a": "Avispa Fukuoka",
-            "team_b": "Kyoto Sanga",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bf0e2229b39b6cb6fd17e9d0f3fb747e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7d6fa50ea67cde7d66612a8189897ba5.png",
-            "time": "12:00 06/05",
-            "blv": "BLV Chân Đất",
+            "team_a": "Shimizu S-Pulse",
+            "team_b": "Cerezo Osaka",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fa4105f0408ef893d941e70ae003ab4c.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ab10ee503e539e55a9a11a9ff202405a.png",
+            "time": "11:00 06/05",
+            "blv": "BLV Người Rừng",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -506,7 +453,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6180f378f0_c70b6046_20260506.png?v=c70b6046",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46e46624a7_80dbc6b0_20260506.png?v=80dbc6b0",
             "width": 1600,
             "height": 1200
           }
@@ -560,6 +507,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-06d1c1ee7a_6150466f_20260506.png?v=6150466f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-6180f378f0",
+          "name": "Avispa Fukuoka vs Kyoto Sanga | 12:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6180f378f0",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-6180f378f0",
+                  "name": "Avispa Fukuoka vs Kyoto Sanga",
+                  "streams": [
+                    {
+                      "id": "st-6180f378f0",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Avispa Fukuoka",
+            "team_b": "Kyoto Sanga",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bf0e2229b39b6cb6fd17e9d0f3fb747e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7d6fa50ea67cde7d66612a8189897ba5.png",
+            "time": "12:00 06/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6180f378f0_c70b6046_20260506.png?v=c70b6046",
             "width": 1600,
             "height": 1200
           }
@@ -671,59 +671,6 @@
           }
         },
         {
-          "id": "thapcam-d96061e90f",
-          "name": "Kashima Antlers vs Mito Hollyhock | 14:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d96061e90f",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d96061e90f",
-                  "name": "Kashima Antlers vs Mito Hollyhock",
-                  "streams": [
-                    {
-                      "id": "st-d96061e90f",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Kashima Antlers",
-            "team_b": "Mito Hollyhock",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/90ca524b1b1c17911b1bf8e425c8d96d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ead844240532c4e12d3eb45d2087924.png",
-            "time": "14:00 06/05",
-            "blv": "BLV Người Ngố",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d96061e90f_54ea3186_20260506.png?v=54ea3186",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-ee1d59ae68",
           "name": "Machida Zelvia vs Yokohama F. Marinos | 14:00 06/05",
           "type": "single",
@@ -772,6 +719,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ee1d59ae68_3275aae7_20260506.png?v=3275aae7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-d96061e90f",
+          "name": "Kashima Antlers vs Mito Hollyhock | 14:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d96061e90f",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d96061e90f",
+                  "name": "Kashima Antlers vs Mito Hollyhock",
+                  "streams": [
+                    {
+                      "id": "st-d96061e90f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Kashima Antlers",
+            "team_b": "Mito Hollyhock",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/90ca524b1b1c17911b1bf8e425c8d96d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ead844240532c4e12d3eb45d2087924.png",
+            "time": "14:00 06/05",
+            "blv": "BLV Người Ngố",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d96061e90f_54ea3186_20260506.png?v=54ea3186",
             "width": 1600,
             "height": 1200
           }
@@ -1307,59 +1307,6 @@
           }
         },
         {
-          "id": "thapcam-f7141d544a",
-          "name": "Spartak Moscow vs CSKA Moscow | 00:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f7141d544a",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f7141d544a",
-                  "name": "Spartak Moscow vs CSKA Moscow",
-                  "streams": [
-                    {
-                      "id": "st-f7141d544a",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Russian Cup",
-            "team_a": "Spartak Moscow",
-            "team_b": "CSKA Moscow",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b989806732eaf15246ab56e07d0b8a2e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1eae81e51945df5660e24dc6f0ea353c.png",
-            "time": "00:00 07/05",
-            "blv": "BLV Jayce",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f7141d544a_0ecad6d8_20260506.png?v=0ecad6d8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-b8c9827df2",
           "name": "Spartak Varna vs FC Dobrudzha | 00:00 07/05",
           "type": "single",
@@ -1408,6 +1355,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b8c9827df2_83d7f8e5_20260506.png?v=83d7f8e5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-f7141d544a",
+          "name": "Spartak Moscow vs CSKA Moscow | 00:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f7141d544a",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f7141d544a",
+                  "name": "Spartak Moscow vs CSKA Moscow",
+                  "streams": [
+                    {
+                      "id": "st-f7141d544a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Russian Cup",
+            "team_a": "Spartak Moscow",
+            "team_b": "CSKA Moscow",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b989806732eaf15246ab56e07d0b8a2e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1eae81e51945df5660e24dc6f0ea353c.png",
+            "time": "00:00 07/05",
+            "blv": "BLV Jayce",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f7141d544a_0ecad6d8_20260506.png?v=0ecad6d8",
             "width": 1600,
             "height": 1200
           }
