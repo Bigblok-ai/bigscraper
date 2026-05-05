@@ -17,79 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-2cbf8d6d54",
-          "name": "Daejeon Citizen vs Incheon United Club | 14:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2cbf8d6d54",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-2cbf8d6d54",
-                  "name": "Daejeon Citizen vs Incheon United Club",
-                  "streams": [
-                    {
-                      "id": "st-2cbf8d6d54",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8b83b5e20f",
-                          "name": "BLV Người Páo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f9964951ddc_19533/index.m3u8?expire=1778569417&sign=9db3c8da1e8498423362a0c7f0170e09",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Daejeon Citizen",
-            "team_b": "Incheon United Club",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/090eeb1513e8f1d0cf6d8647d10b2eea.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/36559689046e7d1d4f597c1a0bf9c5d6.png",
-            "time": "14:30 05/05",
-            "blv": "BLV Người Páo",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2cbf8d6d54_4d4e9273_20260505.png?v=4d4e9273",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-6daf55c3d8",
-          "name": "Gangwon Football Club vs Pohang Steelers | 14:30 05/05",
+          "name": "Gangwon Football Club vs Pohang Steelers",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -144,7 +73,7 @@
             "team_b": "Pohang Steelers",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/771a93ae7f62b1a47a71c3d62b89dca3.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6f05c460789939ac83282bd0686446f1.png",
-            "time": "14:30 05/05",
+            "time": "",
             "blv": "BLV Cá Mập",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -159,8 +88,79 @@
           }
         },
         {
+          "id": "thapcam-2cbf8d6d54",
+          "name": "Daejeon Citizen vs Incheon United Club",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2cbf8d6d54",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-2cbf8d6d54",
+                  "name": "Daejeon Citizen vs Incheon United Club",
+                  "streams": [
+                    {
+                      "id": "st-2cbf8d6d54",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8b83b5e20f",
+                          "name": "BLV Người Páo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f9964951ddc_19533/index.m3u8?expire=1778569417&sign=9db3c8da1e8498423362a0c7f0170e09",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Daejeon Citizen",
+            "team_b": "Incheon United Club",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/090eeb1513e8f1d0cf6d8647d10b2eea.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/36559689046e7d1d4f597c1a0bf9c5d6.png",
+            "time": "",
+            "blv": "BLV Người Páo",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2cbf8d6d54_4d4e9273_20260505.png?v=4d4e9273",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-eec931a386",
-          "name": "Gimcheon Sangmu Football Club vs Ulsan HD FC | 14:30 05/05",
+          "name": "Gimcheon Sangmu Football Club vs Ulsan HD FC",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -215,7 +215,7 @@
             "team_b": "Ulsan HD FC",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4a3e50e90ab721c1782568a287bd5358.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fe07fb888ebcb282192332cb8aed21b1.png",
-            "time": "14:30 05/05",
+            "time": "",
             "blv": "BLV Người Điên",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -231,7 +231,7 @@
         },
         {
           "id": "thapcam-3a3b5b6db1",
-          "name": "Lebanon U17 Women vs Australia Women U17 | 14:30 05/05",
+          "name": "Lebanon U17 Women vs Australia Women U17",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -286,7 +286,7 @@
             "team_b": "Australia Women U17",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5d0c20971b46597973cbf23b9bb0771b.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f476c5c90ef26f3257a4a6c17374c1bc.png",
-            "time": "14:30 05/05",
+            "time": "",
             "blv": "BLV Người Cỏ",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -302,7 +302,7 @@
         },
         {
           "id": "thapcam-d326f5a5e9",
-          "name": "Chinese Taipei U17 Women vs Korea Rep. Women U17 | 14:30 05/05",
+          "name": "Chinese Taipei U17 Women vs Korea Rep. Women U17",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -357,7 +357,7 @@
             "team_b": "Korea Rep. Women U17",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/566b83e60e3ffdb744bc3d1843fb4311.png",
-            "time": "14:30 05/05",
+            "time": "",
             "blv": "BLV Người Cò",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -902,59 +902,6 @@
           }
         },
         {
-          "id": "thapcam-27ac321a32",
-          "name": "Saudi Arabia U17 vs Myanmar U17 | 00:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-27ac321a32",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-27ac321a32",
-                  "name": "Saudi Arabia U17 vs Myanmar U17",
-                  "streams": [
-                    {
-                      "id": "st-27ac321a32",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Saudi Arabia U17",
-            "team_b": "Myanmar U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/081372dd82f5917deb2d2fa64e052173.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fbbcb591970475f0c7737c04c9d2f2da.png",
-            "time": "00:00 06/05",
-            "blv": "BLV Người Páo",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-27ac321a32_60d075e5_20260505.png?v=60d075e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-e6f3943175",
           "name": "Lokomotiv Sofia vs Botev Vratsa | 00:00 06/05",
           "type": "single",
@@ -1003,6 +950,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e6f3943175_e5d7cc60_20260505.png?v=e5d7cc60",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-27ac321a32",
+          "name": "Saudi Arabia U17 vs Myanmar U17 | 00:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-27ac321a32",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-27ac321a32",
+                  "name": "Saudi Arabia U17 vs Myanmar U17",
+                  "streams": [
+                    {
+                      "id": "st-27ac321a32",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Saudi Arabia U17",
+            "team_b": "Myanmar U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/081372dd82f5917deb2d2fa64e052173.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fbbcb591970475f0c7737c04c9d2f2da.png",
+            "time": "00:00 06/05",
+            "blv": "BLV Người Páo",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-27ac321a32_60d075e5_20260505.png?v=60d075e5",
             "width": 1600,
             "height": 1200
           }
@@ -1485,59 +1485,6 @@
           }
         },
         {
-          "id": "thapcam-7f366134db",
-          "name": "V-Varen Nagasaki vs Fagiano Okayama | 11:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7f366134db",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-7f366134db",
-                  "name": "V-Varen Nagasaki vs Fagiano Okayama",
-                  "streams": [
-                    {
-                      "id": "st-7f366134db",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "V-Varen Nagasaki",
-            "team_b": "Fagiano Okayama",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b28ace839956d8eacce11926ea5e43b3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fb5c6121bf5b351f60ebf8ffd5b9d887.png",
-            "time": "11:00 06/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7f366134db_1d104a62_20260505.png?v=1d104a62",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-46e46624a7",
           "name": "Shimizu S-Pulse vs Cerezo Osaka | 11:00 06/05",
           "type": "single",
@@ -1591,8 +1538,8 @@
           }
         },
         {
-          "id": "thapcam-06d1c1ee7a",
-          "name": "Nagoya Grampus vs Gamba Osaka | 12:00 06/05",
+          "id": "thapcam-7f366134db",
+          "name": "V-Varen Nagasaki vs Fagiano Okayama | 11:00 06/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1606,15 +1553,15 @@
           ],
           "sources": [
             {
-              "id": "src-06d1c1ee7a",
+              "id": "src-7f366134db",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-06d1c1ee7a",
-                  "name": "Nagoya Grampus vs Gamba Osaka",
+                  "id": "ct-7f366134db",
+                  "name": "V-Varen Nagasaki vs Fagiano Okayama",
                   "streams": [
                     {
-                      "id": "st-06d1c1ee7a",
+                      "id": "st-7f366134db",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1625,12 +1572,12 @@
           ],
           "org_metadata": {
             "league": "Japanese J1 League",
-            "team_a": "Nagoya Grampus",
-            "team_b": "Gamba Osaka",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/32aa68e1fa3d62dad572d19b21a09353.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/91008a96b5de8c75376d17057f89890e.png",
-            "time": "12:00 06/05",
-            "blv": "BLV Max",
+            "team_a": "V-Varen Nagasaki",
+            "team_b": "Fagiano Okayama",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b28ace839956d8eacce11926ea5e43b3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fb5c6121bf5b351f60ebf8ffd5b9d887.png",
+            "time": "11:00 06/05",
+            "blv": "BLV Siêu Quậy",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1638,7 +1585,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-06d1c1ee7a_6150466f_20260505.png?v=6150466f",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7f366134db_1d104a62_20260505.png?v=1d104a62",
             "width": 1600,
             "height": 1200
           }
@@ -1692,6 +1639,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6180f378f0_c70b6046_20260505.png?v=c70b6046",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-06d1c1ee7a",
+          "name": "Nagoya Grampus vs Gamba Osaka | 12:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-06d1c1ee7a",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-06d1c1ee7a",
+                  "name": "Nagoya Grampus vs Gamba Osaka",
+                  "streams": [
+                    {
+                      "id": "st-06d1c1ee7a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Nagoya Grampus",
+            "team_b": "Gamba Osaka",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/32aa68e1fa3d62dad572d19b21a09353.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/91008a96b5de8c75376d17057f89890e.png",
+            "time": "12:00 06/05",
+            "blv": "BLV Max",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-06d1c1ee7a_6150466f_20260505.png?v=6150466f",
             "width": 1600,
             "height": 1200
           }
