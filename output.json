@@ -1980,7 +1980,61 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "thapcam-e10544c1c6",
+          "name": "Pickleball | 15:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e10544c1c6",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-e10544c1c6",
+                  "name": "Pickleball",
+                  "streams": [
+                    {
+                      "id": "st-e10544c1c6",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "Pickleball",
+            "team_b": "",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/categories/2026/04/02/2566643ba5bc08379d16185885627cd2.svg",
+            "logo_b": "",
+            "time": "15:30 05/05",
+            "blv": "BLV Người Sói",
+            "is_live": false,
+            "cate_name": "Pickleball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e10544c1c6_a929b60f_20260505.png?v=a929b60f",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     }
   ]
 }
