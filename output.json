@@ -17,77 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-76e407bcca",
-          "name": "Indonesia U17 vs China U17 | 23:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-76e407bcca",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-76e407bcca",
-                  "name": "Indonesia U17 vs China U17",
-                  "streams": [
-                    {
-                      "id": "st-76e407bcca",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-717aaa793a",
-                          "name": "BLV Người Nhện",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fa11dc137e4_32/index.m3u8?expire=1778601052&sign=d554beafaebb59212db8a3f6f31ef741",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Indonesia U17",
-            "team_b": "China U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a222bcd619abdcee951b28cae8d1cce6.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/56b46dcd3e801a496ca783ab0bd0f44d.png",
-            "time": "23:30 05/05",
-            "blv": "BLV Người Nhện",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-76e407bcca_45cf5430_20260505.png?v=45cf5430",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-3982d78d1c",
           "name": "Japan U17 vs Qatar U17",
           "type": "single",
@@ -154,6 +83,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3982d78d1c_b349515f_20260505.png?v=b349515f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-76e407bcca",
+          "name": "Indonesia U17 vs China U17",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-76e407bcca",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-76e407bcca",
+                  "name": "Indonesia U17 vs China U17",
+                  "streams": [
+                    {
+                      "id": "st-76e407bcca",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-717aaa793a",
+                          "name": "BLV Người Nhện",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fa11dc137e4_32/index.m3u8?expire=1778601052&sign=d554beafaebb59212db8a3f6f31ef741",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Indonesia U17",
+            "team_b": "China U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a222bcd619abdcee951b28cae8d1cce6.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/56b46dcd3e801a496ca783ab0bd0f44d.png",
+            "time": "",
+            "blv": "BLV Người Nhện",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-76e407bcca_45cf5430_20260505.png?v=45cf5430",
             "width": 1600,
             "height": 1200
           }
@@ -848,59 +848,6 @@
           }
         },
         {
-          "id": "thapcam-6180f378f0",
-          "name": "Avispa Fukuoka vs Kyoto Sanga | 12:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6180f378f0",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6180f378f0",
-                  "name": "Avispa Fukuoka vs Kyoto Sanga",
-                  "streams": [
-                    {
-                      "id": "st-6180f378f0",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Avispa Fukuoka",
-            "team_b": "Kyoto Sanga",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bf0e2229b39b6cb6fd17e9d0f3fb747e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7d6fa50ea67cde7d66612a8189897ba5.png",
-            "time": "12:00 06/05",
-            "blv": "BLV Chân Đất",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6180f378f0_c70b6046_20260505.png?v=c70b6046",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-06d1c1ee7a",
           "name": "Nagoya Grampus vs Gamba Osaka | 12:00 06/05",
           "type": "single",
@@ -949,6 +896,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-06d1c1ee7a_6150466f_20260505.png?v=6150466f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-6180f378f0",
+          "name": "Avispa Fukuoka vs Kyoto Sanga | 12:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6180f378f0",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-6180f378f0",
+                  "name": "Avispa Fukuoka vs Kyoto Sanga",
+                  "streams": [
+                    {
+                      "id": "st-6180f378f0",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Avispa Fukuoka",
+            "team_b": "Kyoto Sanga",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bf0e2229b39b6cb6fd17e9d0f3fb747e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7d6fa50ea67cde7d66612a8189897ba5.png",
+            "time": "12:00 06/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6180f378f0_c70b6046_20260505.png?v=c70b6046",
             "width": 1600,
             "height": 1200
           }
