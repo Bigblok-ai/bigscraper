@@ -1641,6 +1641,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-72ba58a5e0",
+          "name": "Kashiwa Reysol vs Urawa Red Diamonds | 17:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-72ba58a5e0",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-72ba58a5e0",
+                  "name": "Kashiwa Reysol vs Urawa Red Diamonds",
+                  "streams": [
+                    {
+                      "id": "st-72ba58a5e0",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Kashiwa Reysol",
+            "team_b": "Urawa Red Diamonds",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d272859d78eb8ca7a14753f4293fbf45.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ca15e36551392e8c99b53b5b2f8531d3.png",
+            "time": "17:00 06/05",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-72ba58a5e0_1077ccd3_20260505.png?v=1077ccd3",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
