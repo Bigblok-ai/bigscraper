@@ -2545,82 +2545,11 @@
     },
     {
       "id": "grp-5cf95d73f3",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-dfff455dc9",
-          "name": "Modena vs Trentino | 01:30 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dfff455dc9",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-dfff455dc9",
-                  "name": "Modena vs Trentino",
-                  "streams": [
-                    {
-                      "id": "st-dfff455dc9",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b02b5d616d",
-                          "name": "BLV Người Rơm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fa307251ddc_16125/index.m3u8?expire=1778608882&sign=344af426f66feaa150afe747d99150e1",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "SuperLega",
-            "team_a": "Modena",
-            "team_b": "Trentino",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1091d2c6b54a61ad817885847b4ac7a8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/cd1de24a829cc44c3eefb9b2afc478af.png",
-            "time": "01:30 06/05",
-            "blv": "BLV Người Rơm",
-            "is_live": true,
-            "cate_name": "Bóng chuyền"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-dfff455dc9_d52f5862_20260506.png?v=d52f5862",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-4ab40a53fd",
           "name": "Rzeszow vs Verva Warszawa | 22:30 06/05",
