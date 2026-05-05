@@ -11,11 +11,82 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-c155490350",
+          "name": "Al Khaleej Club vs Al Hilal | 01:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c155490350",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-c155490350",
+                  "name": "Al Khaleej Club vs Al Hilal",
+                  "streams": [
+                    {
+                      "id": "st-c155490350",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-33d6f0cc37",
+                          "name": "BLV Người Rừng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fa29df51ddc_148/index.m3u8?expire=1778607199&sign=cf3c89bd542a4518ba1f0f77c9207bd2",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al Khaleej Club",
+            "team_b": "Al Hilal",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6d48cbd483dee74ed9aef387bb082d64.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/07a555616afab7be32e00150eacf4197.png",
+            "time": "01:00 06/05",
+            "blv": "BLV Người Rừng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c155490350_0494eedf_20260506.png?v=0494eedf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-3982d78d1c",
           "name": "Japan U17 vs Qatar U17",
@@ -367,59 +438,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e15942f2d0_20600dff_20260506.png?v=20600dff",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-c155490350",
-          "name": "Al Khaleej Club vs Al Hilal | 01:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c155490350",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-c155490350",
-                  "name": "Al Khaleej Club vs Al Hilal",
-                  "streams": [
-                    {
-                      "id": "st-c155490350",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al Khaleej Club",
-            "team_b": "Al Hilal",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6d48cbd483dee74ed9aef387bb082d64.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/07a555616afab7be32e00150eacf4197.png",
-            "time": "01:00 06/05",
-            "blv": "BLV Người Rừng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c155490350_0494eedf_20260506.png?v=0494eedf",
             "width": 1600,
             "height": 1200
           }
@@ -902,59 +920,6 @@
           }
         },
         {
-          "id": "thapcam-06d1c1ee7a",
-          "name": "Nagoya Grampus vs Gamba Osaka | 12:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-06d1c1ee7a",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-06d1c1ee7a",
-                  "name": "Nagoya Grampus vs Gamba Osaka",
-                  "streams": [
-                    {
-                      "id": "st-06d1c1ee7a",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Nagoya Grampus",
-            "team_b": "Gamba Osaka",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/32aa68e1fa3d62dad572d19b21a09353.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/91008a96b5de8c75376d17057f89890e.png",
-            "time": "12:00 06/05",
-            "blv": "BLV Max",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-06d1c1ee7a_6150466f_20260506.png?v=6150466f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-6180f378f0",
           "name": "Avispa Fukuoka vs Kyoto Sanga | 12:00 06/05",
           "type": "single",
@@ -1003,6 +968,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6180f378f0_c70b6046_20260506.png?v=c70b6046",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-06d1c1ee7a",
+          "name": "Nagoya Grampus vs Gamba Osaka | 12:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-06d1c1ee7a",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-06d1c1ee7a",
+                  "name": "Nagoya Grampus vs Gamba Osaka",
+                  "streams": [
+                    {
+                      "id": "st-06d1c1ee7a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Nagoya Grampus",
+            "team_b": "Gamba Osaka",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/32aa68e1fa3d62dad572d19b21a09353.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/91008a96b5de8c75376d17057f89890e.png",
+            "time": "12:00 06/05",
+            "blv": "BLV Max",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-06d1c1ee7a_6150466f_20260506.png?v=6150466f",
             "width": 1600,
             "height": 1200
           }
@@ -1750,59 +1768,6 @@
           }
         },
         {
-          "id": "thapcam-f7141d544a",
-          "name": "Spartak Moscow vs CSKA Moscow | 00:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f7141d544a",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f7141d544a",
-                  "name": "Spartak Moscow vs CSKA Moscow",
-                  "streams": [
-                    {
-                      "id": "st-f7141d544a",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Russian Cup",
-            "team_a": "Spartak Moscow",
-            "team_b": "CSKA Moscow",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b989806732eaf15246ab56e07d0b8a2e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1eae81e51945df5660e24dc6f0ea353c.png",
-            "time": "00:00 07/05",
-            "blv": "BLV Jayce",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f7141d544a_0ecad6d8_20260506.png?v=0ecad6d8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-b8c9827df2",
           "name": "Spartak Varna vs FC Dobrudzha | 00:00 07/05",
           "type": "single",
@@ -1851,6 +1816,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b8c9827df2_83d7f8e5_20260506.png?v=83d7f8e5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-f7141d544a",
+          "name": "Spartak Moscow vs CSKA Moscow | 00:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f7141d544a",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f7141d544a",
+                  "name": "Spartak Moscow vs CSKA Moscow",
+                  "streams": [
+                    {
+                      "id": "st-f7141d544a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Russian Cup",
+            "team_a": "Spartak Moscow",
+            "team_b": "CSKA Moscow",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b989806732eaf15246ab56e07d0b8a2e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1eae81e51945df5660e24dc6f0ea353c.png",
+            "time": "00:00 07/05",
+            "blv": "BLV Jayce",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f7141d544a_0ecad6d8_20260506.png?v=0ecad6d8",
             "width": 1600,
             "height": 1200
           }
