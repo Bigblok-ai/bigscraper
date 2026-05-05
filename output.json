@@ -17,79 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-b25b3eb361",
-          "name": "Jeonbuk Hyundai Motors vs Gwangju Football Club | 12:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b25b3eb361",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-b25b3eb361",
-                  "name": "Jeonbuk Hyundai Motors vs Gwangju Football Club",
-                  "streams": [
-                    {
-                      "id": "st-b25b3eb361",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a68c0ae27c",
-                          "name": "BLV Siêu Quậy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f97109137e4_26/index.m3u8?expire=1778559881&sign=f6bbfd2a735dab42aa33cb77397b003a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Jeonbuk Hyundai Motors",
-            "team_b": "Gwangju Football Club",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ee2117f952745163fecfa4b74a6a2bea.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2e8e1e2a893d37e3f7260e97c807c28a.png",
-            "time": "12:00 05/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b25b3eb361_3766d294_20260505.png?v=3766d294",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-9db48a5aad",
-          "name": "Bucheon FC 1995 vs Jeju SK FC | 12:00 05/05",
+          "name": "Bucheon FC 1995 vs Jeju SK FC",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -144,7 +73,7 @@
             "team_b": "Jeju SK FC",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/640f8c62cb294e1cc308a44ed2a62891.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2d2abe914435bb9b7140cf2154c50de9.png",
-            "time": "12:00 05/05",
+            "time": "",
             "blv": "BLV Chân Đất",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -154,6 +83,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9db48a5aad_6b21a152_20260505.png?v=6b21a152",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-b25b3eb361",
+          "name": "Jeonbuk Hyundai Motors vs Gwangju Football Club",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b25b3eb361",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-b25b3eb361",
+                  "name": "Jeonbuk Hyundai Motors vs Gwangju Football Club",
+                  "streams": [
+                    {
+                      "id": "st-b25b3eb361",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a68c0ae27c",
+                          "name": "BLV Siêu Quậy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f97109137e4_26/index.m3u8?expire=1778559881&sign=f6bbfd2a735dab42aa33cb77397b003a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Jeonbuk Hyundai Motors",
+            "team_b": "Gwangju Football Club",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ee2117f952745163fecfa4b74a6a2bea.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2e8e1e2a893d37e3f7260e97c807c28a.png",
+            "time": "",
+            "blv": "BLV Siêu Quậy",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b25b3eb361_3766d294_20260505.png?v=3766d294",
             "width": 1600,
             "height": 1200
           }
@@ -251,7 +251,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/771a93ae7f62b1a47a71c3d62b89dca3.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6f05c460789939ac83282bd0686446f1.png",
             "time": "14:30 05/05",
-            "blv": "BLV Người Rừng",
+            "blv": "BLV Cá Mập",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -583,59 +583,6 @@
           }
         },
         {
-          "id": "thapcam-f5034ddf5b",
-          "name": "India Women U17 vs Japan Women U17 | 18:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f5034ddf5b",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f5034ddf5b",
-                  "name": "India Women U17 vs Japan Women U17",
-                  "streams": [
-                    {
-                      "id": "st-f5034ddf5b",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "India Women U17",
-            "team_b": "Japan Women U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a18a24058618b5ef80eec61300f85999.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a5cc0f9ca35d53a5332bf84dc9b79104.png",
-            "time": "18:30 05/05",
-            "blv": "BLV Cá Mập",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f5034ddf5b_f7828b34_20260505.png?v=f7828b34",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-3967960b34",
           "name": "Philippines U17 Women vs North Korea Women U17 | 18:30 05/05",
           "type": "single",
@@ -684,6 +631,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3967960b34_6aef1dd2_20260505.png?v=6aef1dd2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-f5034ddf5b",
+          "name": "India Women U17 vs Japan Women U17 | 18:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f5034ddf5b",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f5034ddf5b",
+                  "name": "India Women U17 vs Japan Women U17",
+                  "streams": [
+                    {
+                      "id": "st-f5034ddf5b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "India Women U17",
+            "team_b": "Japan Women U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a18a24058618b5ef80eec61300f85999.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a5cc0f9ca35d53a5332bf84dc9b79104.png",
+            "time": "18:30 05/05",
+            "blv": "BLV Người Rừng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f5034ddf5b_f7828b34_20260505.png?v=f7828b34",
             "width": 1600,
             "height": 1200
           }
@@ -1537,59 +1537,6 @@
           }
         },
         {
-          "id": "thapcam-7f366134db",
-          "name": "V-Varen Nagasaki vs Fagiano Okayama | 11:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7f366134db",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-7f366134db",
-                  "name": "V-Varen Nagasaki vs Fagiano Okayama",
-                  "streams": [
-                    {
-                      "id": "st-7f366134db",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "V-Varen Nagasaki",
-            "team_b": "Fagiano Okayama",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b28ace839956d8eacce11926ea5e43b3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fb5c6121bf5b351f60ebf8ffd5b9d887.png",
-            "time": "11:00 06/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7f366134db_1d104a62_20260505.png?v=1d104a62",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-46e46624a7",
           "name": "Shimizu S-Pulse vs Cerezo Osaka | 11:00 06/05",
           "type": "single",
@@ -1638,6 +1585,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46e46624a7_80dbc6b0_20260505.png?v=80dbc6b0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-7f366134db",
+          "name": "V-Varen Nagasaki vs Fagiano Okayama | 11:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7f366134db",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-7f366134db",
+                  "name": "V-Varen Nagasaki vs Fagiano Okayama",
+                  "streams": [
+                    {
+                      "id": "st-7f366134db",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "V-Varen Nagasaki",
+            "team_b": "Fagiano Okayama",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b28ace839956d8eacce11926ea5e43b3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fb5c6121bf5b351f60ebf8ffd5b9d887.png",
+            "time": "11:00 06/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7f366134db_1d104a62_20260505.png?v=1d104a62",
             "width": 1600,
             "height": 1200
           }
