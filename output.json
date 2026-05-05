@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-e15942f2d0",
-          "name": "Tajikistan U17 vs Thailand U17",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e15942f2d0",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e15942f2d0",
-                  "name": "Tajikistan U17 vs Thailand U17",
-                  "streams": [
-                    {
-                      "id": "st-e15942f2d0",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cb359ccdd2",
-                          "name": "BLV Chân Đất",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fa208451ddc_145/index.m3u8?expire=1778604804&sign=f669c596eb6f4609f76a1e590499f612",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Tajikistan U17",
-            "team_b": "Thailand U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2efe07c30596a4250cae3d525d711a4d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/51c3745e99294178891085f6c3f265e2.png",
-            "time": "",
-            "blv": "BLV Chân Đất",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e15942f2d0_20600dff_20260506.png?v=20600dff",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-c155490350",
           "name": "Al Khaleej Club vs Al Hilal",
@@ -2445,8 +2374,8 @@
           }
         },
         {
-          "id": "thapcam-0f038d77b9",
-          "name": "Rzeszow vs Verva Warszawa | 23:30 06/05",
+          "id": "thapcam-4ab40a53fd",
+          "name": "Rzeszow vs Verva Warszawa | 22:30 06/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2460,15 +2389,15 @@
           ],
           "sources": [
             {
-              "id": "src-0f038d77b9",
+              "id": "src-4ab40a53fd",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-0f038d77b9",
+                  "id": "ct-4ab40a53fd",
                   "name": "Rzeszow vs Verva Warszawa",
                   "streams": [
                     {
-                      "id": "st-0f038d77b9",
+                      "id": "st-4ab40a53fd",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -2483,7 +2412,7 @@
             "team_b": "Verva Warszawa",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/fc18171b5c36ddd1f7cb05c59fa6a874.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/1b622bf64d9f6bb7d2271b2160943877.jpg",
-            "time": "23:30 06/05",
+            "time": "22:30 06/05",
             "blv": "BLV Người Rơm",
             "is_live": false,
             "cate_name": "Bóng chuyền"
@@ -2492,7 +2421,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0f038d77b9_28ea78d2_20260506.png?v=28ea78d2",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-4ab40a53fd_28ea78d2_20260506.png?v=28ea78d2",
             "width": 1600,
             "height": 1200
           }
