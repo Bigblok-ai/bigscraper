@@ -11,153 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-c155490350",
-          "name": "Al Khaleej Club vs Al Hilal | 01:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c155490350",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-c155490350",
-                  "name": "Al Khaleej Club vs Al Hilal",
-                  "streams": [
-                    {
-                      "id": "st-c155490350",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-33d6f0cc37",
-                          "name": "BLV Người Rừng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fa29df51ddc_148/index.m3u8?expire=1778607199&sign=cf3c89bd542a4518ba1f0f77c9207bd2",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al Khaleej Club",
-            "team_b": "Al Hilal",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6d48cbd483dee74ed9aef387bb082d64.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/07a555616afab7be32e00150eacf4197.png",
-            "time": "01:00 06/05",
-            "blv": "BLV Người Rừng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c155490350_0494eedf_20260506.png?v=0494eedf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-3982d78d1c",
-          "name": "Japan U17 vs Qatar U17",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3982d78d1c",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3982d78d1c",
-                  "name": "Japan U17 vs Qatar U17",
-                  "streams": [
-                    {
-                      "id": "st-3982d78d1c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-04b85d4690",
-                          "name": "BLV Siêu Quậy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fa116351ddc_26/index.m3u8?expire=1778600931&sign=298d48b337991207ab74f01ff28597a2",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Japan U17",
-            "team_b": "Qatar U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3c4d97fd12b32034eecb81ef51583b26.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8583e166d6e955dd01525d25b53b4439.png",
-            "time": "",
-            "blv": "BLV Siêu Quậy",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3982d78d1c_b349515f_20260506.png?v=b349515f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-76e407bcca",
           "name": "Indonesia U17 vs China U17",
@@ -225,77 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-76e407bcca_45cf5430_20260506.png?v=45cf5430",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-27ac321a32",
-          "name": "Saudi Arabia U17 vs Myanmar U17",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-27ac321a32",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-27ac321a32",
-                  "name": "Saudi Arabia U17 vs Myanmar U17",
-                  "streams": [
-                    {
-                      "id": "st-27ac321a32",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-29ff562785",
-                          "name": "BLV Người Páo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fa19cb51ddc_19533/index.m3u8?expire=1778603083&sign=7c378fd48b1138c4a39f6d05b757592d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Saudi Arabia U17",
-            "team_b": "Myanmar U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/081372dd82f5917deb2d2fa64e052173.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fbbcb591970475f0c7737c04c9d2f2da.png",
-            "time": "",
-            "blv": "BLV Người Páo",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-27ac321a32_60d075e5_20260506.png?v=60d075e5",
             "width": 1600,
             "height": 1200
           }
@@ -372,6 +159,77 @@
           }
         },
         {
+          "id": "thapcam-27ac321a32",
+          "name": "Saudi Arabia U17 vs Myanmar U17",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-27ac321a32",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-27ac321a32",
+                  "name": "Saudi Arabia U17 vs Myanmar U17",
+                  "streams": [
+                    {
+                      "id": "st-27ac321a32",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-29ff562785",
+                          "name": "BLV Người Páo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fa19cb51ddc_19533/index.m3u8?expire=1778603083&sign=7c378fd48b1138c4a39f6d05b757592d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Saudi Arabia U17",
+            "team_b": "Myanmar U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/081372dd82f5917deb2d2fa64e052173.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fbbcb591970475f0c7737c04c9d2f2da.png",
+            "time": "",
+            "blv": "BLV Người Páo",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-27ac321a32_60d075e5_20260506.png?v=60d075e5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-e15942f2d0",
           "name": "Tajikistan U17 vs Thailand U17",
           "type": "single",
@@ -438,6 +296,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e15942f2d0_20600dff_20260506.png?v=20600dff",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-c155490350",
+          "name": "Al Khaleej Club vs Al Hilal",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c155490350",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-c155490350",
+                  "name": "Al Khaleej Club vs Al Hilal",
+                  "streams": [
+                    {
+                      "id": "st-c155490350",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-33d6f0cc37",
+                          "name": "BLV Người Rừng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fa29df51ddc_148/index.m3u8?expire=1778607199&sign=cf3c89bd542a4518ba1f0f77c9207bd2",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al Khaleej Club",
+            "team_b": "Al Hilal",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6d48cbd483dee74ed9aef387bb082d64.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/07a555616afab7be32e00150eacf4197.png",
+            "time": "",
+            "blv": "BLV Người Rừng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c155490350_0494eedf_20260506.png?v=0494eedf",
             "width": 1600,
             "height": 1200
           }
@@ -920,59 +849,6 @@
           }
         },
         {
-          "id": "thapcam-6180f378f0",
-          "name": "Avispa Fukuoka vs Kyoto Sanga | 12:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6180f378f0",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6180f378f0",
-                  "name": "Avispa Fukuoka vs Kyoto Sanga",
-                  "streams": [
-                    {
-                      "id": "st-6180f378f0",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Avispa Fukuoka",
-            "team_b": "Kyoto Sanga",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bf0e2229b39b6cb6fd17e9d0f3fb747e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7d6fa50ea67cde7d66612a8189897ba5.png",
-            "time": "12:00 06/05",
-            "blv": "BLV Chân Đất",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6180f378f0_c70b6046_20260506.png?v=c70b6046",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-06d1c1ee7a",
           "name": "Nagoya Grampus vs Gamba Osaka | 12:00 06/05",
           "type": "single",
@@ -1026,8 +902,8 @@
           }
         },
         {
-          "id": "thapcam-cd6f8dec1a",
-          "name": "FC Tokyo vs JEF United Ichihara Chiba | 13:00 06/05",
+          "id": "thapcam-6180f378f0",
+          "name": "Avispa Fukuoka vs Kyoto Sanga | 12:00 06/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1041,15 +917,15 @@
           ],
           "sources": [
             {
-              "id": "src-cd6f8dec1a",
+              "id": "src-6180f378f0",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-cd6f8dec1a",
-                  "name": "FC Tokyo vs JEF United Ichihara Chiba",
+                  "id": "ct-6180f378f0",
+                  "name": "Avispa Fukuoka vs Kyoto Sanga",
                   "streams": [
                     {
-                      "id": "st-cd6f8dec1a",
+                      "id": "st-6180f378f0",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1060,12 +936,12 @@
           ],
           "org_metadata": {
             "league": "Japanese J1 League",
-            "team_a": "FC Tokyo",
-            "team_b": "JEF United Ichihara Chiba",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/333df39860930a21cf72b4e9664723ab.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ce2dfe0c36e6a9774eaecf9731375b6.png",
-            "time": "13:00 06/05",
-            "blv": "BLV Người Cò",
+            "team_a": "Avispa Fukuoka",
+            "team_b": "Kyoto Sanga",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bf0e2229b39b6cb6fd17e9d0f3fb747e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7d6fa50ea67cde7d66612a8189897ba5.png",
+            "time": "12:00 06/05",
+            "blv": "BLV Chân Đất",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1073,7 +949,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cd6f8dec1a_0978ff39_20260506.png?v=0978ff39",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6180f378f0_c70b6046_20260506.png?v=c70b6046",
             "width": 1600,
             "height": 1200
           }
@@ -1127,6 +1003,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-90626ab069_eb767d2a_20260506.png?v=eb767d2a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-cd6f8dec1a",
+          "name": "FC Tokyo vs JEF United Ichihara Chiba | 13:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cd6f8dec1a",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-cd6f8dec1a",
+                  "name": "FC Tokyo vs JEF United Ichihara Chiba",
+                  "streams": [
+                    {
+                      "id": "st-cd6f8dec1a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "FC Tokyo",
+            "team_b": "JEF United Ichihara Chiba",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/333df39860930a21cf72b4e9664723ab.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ce2dfe0c36e6a9774eaecf9731375b6.png",
+            "time": "13:00 06/05",
+            "blv": "BLV Người Cò",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cd6f8dec1a_0978ff39_20260506.png?v=0978ff39",
             "width": 1600,
             "height": 1200
           }
