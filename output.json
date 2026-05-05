@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-c155490350",
-          "name": "Al Khaleej Club vs Al Hilal",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c155490350",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-c155490350",
-                  "name": "Al Khaleej Club vs Al Hilal",
-                  "streams": [
-                    {
-                      "id": "st-c155490350",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-33d6f0cc37",
-                          "name": "BLV Người Rừng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fa29df51ddc_148/index.m3u8?expire=1778607199&sign=cf3c89bd542a4518ba1f0f77c9207bd2",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al Khaleej Club",
-            "team_b": "Al Hilal",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6d48cbd483dee74ed9aef387bb082d64.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/07a555616afab7be32e00150eacf4197.png",
-            "time": "",
-            "blv": "BLV Người Rừng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c155490350_0494eedf_20260506.png?v=0494eedf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-4d78514431",
           "name": "Arsenal vs Atletico Madrid",
@@ -723,59 +652,6 @@
           }
         },
         {
-          "id": "thapcam-cd6f8dec1a",
-          "name": "FC Tokyo vs JEF United Ichihara Chiba | 13:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cd6f8dec1a",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-cd6f8dec1a",
-                  "name": "FC Tokyo vs JEF United Ichihara Chiba",
-                  "streams": [
-                    {
-                      "id": "st-cd6f8dec1a",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "FC Tokyo",
-            "team_b": "JEF United Ichihara Chiba",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/333df39860930a21cf72b4e9664723ab.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ce2dfe0c36e6a9774eaecf9731375b6.png",
-            "time": "13:00 06/05",
-            "blv": "BLV Người Cò",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cd6f8dec1a_0978ff39_20260506.png?v=0978ff39",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-90626ab069",
           "name": "Sanfrecce Hiroshima vs Vissel Kobe | 13:00 06/05",
           "type": "single",
@@ -829,8 +705,8 @@
           }
         },
         {
-          "id": "thapcam-d96061e90f",
-          "name": "Kashima Antlers vs Mito Hollyhock | 14:00 06/05",
+          "id": "thapcam-cd6f8dec1a",
+          "name": "FC Tokyo vs JEF United Ichihara Chiba | 13:00 06/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -844,15 +720,15 @@
           ],
           "sources": [
             {
-              "id": "src-d96061e90f",
+              "id": "src-cd6f8dec1a",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-d96061e90f",
-                  "name": "Kashima Antlers vs Mito Hollyhock",
+                  "id": "ct-cd6f8dec1a",
+                  "name": "FC Tokyo vs JEF United Ichihara Chiba",
                   "streams": [
                     {
-                      "id": "st-d96061e90f",
+                      "id": "st-cd6f8dec1a",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -863,12 +739,12 @@
           ],
           "org_metadata": {
             "league": "Japanese J1 League",
-            "team_a": "Kashima Antlers",
-            "team_b": "Mito Hollyhock",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/90ca524b1b1c17911b1bf8e425c8d96d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ead844240532c4e12d3eb45d2087924.png",
-            "time": "14:00 06/05",
-            "blv": "BLV Người Ngố",
+            "team_a": "FC Tokyo",
+            "team_b": "JEF United Ichihara Chiba",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/333df39860930a21cf72b4e9664723ab.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ce2dfe0c36e6a9774eaecf9731375b6.png",
+            "time": "13:00 06/05",
+            "blv": "BLV Người Cò",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -876,7 +752,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d96061e90f_54ea3186_20260506.png?v=54ea3186",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cd6f8dec1a_0978ff39_20260506.png?v=0978ff39",
             "width": 1600,
             "height": 1200
           }
@@ -930,6 +806,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ee1d59ae68_3275aae7_20260506.png?v=3275aae7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-d96061e90f",
+          "name": "Kashima Antlers vs Mito Hollyhock | 14:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d96061e90f",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d96061e90f",
+                  "name": "Kashima Antlers vs Mito Hollyhock",
+                  "streams": [
+                    {
+                      "id": "st-d96061e90f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Kashima Antlers",
+            "team_b": "Mito Hollyhock",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/90ca524b1b1c17911b1bf8e425c8d96d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ead844240532c4e12d3eb45d2087924.png",
+            "time": "14:00 06/05",
+            "blv": "BLV Người Ngố",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d96061e90f_54ea3186_20260506.png?v=54ea3186",
             "width": 1600,
             "height": 1200
           }
@@ -1306,59 +1235,6 @@
           }
         },
         {
-          "id": "thapcam-c850296531",
-          "name": "Shabab Al Ahli vs Al-Nasr Dubai | 23:45 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c850296531",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-c850296531",
-                  "name": "Shabab Al Ahli vs Al-Nasr Dubai",
-                  "streams": [
-                    {
-                      "id": "st-c850296531",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United Arab Emirates Adnoc Pro-League",
-            "team_a": "Shabab Al Ahli",
-            "team_b": "Al-Nasr Dubai",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/05e87b1dbb904915a4a97fc095b73d20.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2011473c10a119e01f2085bb836b62b2.png",
-            "time": "23:45 06/05",
-            "blv": "BLV Người Ngố",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c850296531_981d3f6c_20260506.png?v=981d3f6c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-9f7570287b",
           "name": "Al-Sharjah vs Al Ain FC | 23:45 06/05",
           "type": "single",
@@ -1407,6 +1283,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9f7570287b_a064c84b_20260506.png?v=a064c84b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-c850296531",
+          "name": "Shabab Al Ahli vs Al-Nasr Dubai | 23:45 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c850296531",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-c850296531",
+                  "name": "Shabab Al Ahli vs Al-Nasr Dubai",
+                  "streams": [
+                    {
+                      "id": "st-c850296531",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "United Arab Emirates Adnoc Pro-League",
+            "team_a": "Shabab Al Ahli",
+            "team_b": "Al-Nasr Dubai",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/05e87b1dbb904915a4a97fc095b73d20.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2011473c10a119e01f2085bb836b62b2.png",
+            "time": "23:45 06/05",
+            "blv": "BLV Người Ngố",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c850296531_981d3f6c_20260506.png?v=981d3f6c",
             "width": 1600,
             "height": 1200
           }
@@ -2069,6 +1998,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bf8127f9ca_d24903bd_20260506.png?v=d24903bd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-f6a460809e",
+          "name": "Marton Fucsovics vs Dino Prizmic | 20:40 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f6a460809e",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f6a460809e",
+                  "name": "Marton Fucsovics vs Dino Prizmic",
+                  "streams": [
+                    {
+                      "id": "st-f6a460809e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Rome, Italy Men Singles",
+            "team_a": "Marton Fucsovics",
+            "team_b": "Dino Prizmic",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fb5c4f4216937f8918d76031ad60d744.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8bf80daa8f2b15e4117a90fe557e9ade.png",
+            "time": "20:40 06/05",
+            "blv": "BLV Người Sói",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f6a460809e_dc4c2b31_20260506.png?v=dc4c2b31",
             "width": 1600,
             "height": 1200
           }
