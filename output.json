@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,77 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-48a6f708a5_4a3b07b6_20260505.png?v=4a3b07b6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-662c261754",
-          "name": "Qingdao West Coast FC vs Tianjin Jinmen Tiger FC",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-662c261754",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-662c261754",
-                  "name": "Qingdao West Coast FC vs Tianjin Jinmen Tiger FC",
-                  "streams": [
-                    {
-                      "id": "st-662c261754",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8f97a7d2fc",
-                          "name": "BLV Người Điên",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f9c61c51ddc_1984/index.m3u8?expire=1778581660&sign=b8285dc5da88c56a700479271d2eca64",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Football Super League",
-            "team_a": "Qingdao West Coast FC",
-            "team_b": "Tianjin Jinmen Tiger FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/84cc4bfb19630486c382219a672811d2.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e0080960b4e935d70f4037aaf3a0b917.png",
-            "time": "",
-            "blv": "BLV Người Điên",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-662c261754_83e0c872_20260505.png?v=83e0c872",
             "width": 1600,
             "height": 1200
           }
@@ -513,59 +442,6 @@
           }
         },
         {
-          "id": "thapcam-e6f3943175",
-          "name": "Lokomotiv Sofia vs Botev Vratsa | 00:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e6f3943175",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e6f3943175",
-                  "name": "Lokomotiv Sofia vs Botev Vratsa",
-                  "streams": [
-                    {
-                      "id": "st-e6f3943175",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bulgarian First League",
-            "team_a": "Lokomotiv Sofia",
-            "team_b": "Botev Vratsa",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/eddf8d0f309490d5e64ad445895eedb1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2160cff8b0067605adb4e2d1ff213f3d.png",
-            "time": "00:00 06/05",
-            "blv": "BLV Người Lạ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e6f3943175_e5d7cc60_20260505.png?v=e5d7cc60",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-27ac321a32",
           "name": "Saudi Arabia U17 vs Myanmar U17 | 00:00 06/05",
           "type": "single",
@@ -614,6 +490,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-27ac321a32_60d075e5_20260505.png?v=60d075e5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-e6f3943175",
+          "name": "Lokomotiv Sofia vs Botev Vratsa | 00:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e6f3943175",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-e6f3943175",
+                  "name": "Lokomotiv Sofia vs Botev Vratsa",
+                  "streams": [
+                    {
+                      "id": "st-e6f3943175",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bulgarian First League",
+            "team_a": "Lokomotiv Sofia",
+            "team_b": "Botev Vratsa",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/eddf8d0f309490d5e64ad445895eedb1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2160cff8b0067605adb4e2d1ff213f3d.png",
+            "time": "00:00 06/05",
+            "blv": "BLV Người Lạ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e6f3943175_e5d7cc60_20260505.png?v=e5d7cc60",
             "width": 1600,
             "height": 1200
           }
@@ -1096,59 +1025,6 @@
           }
         },
         {
-          "id": "thapcam-7f366134db",
-          "name": "V-Varen Nagasaki vs Fagiano Okayama | 11:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7f366134db",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-7f366134db",
-                  "name": "V-Varen Nagasaki vs Fagiano Okayama",
-                  "streams": [
-                    {
-                      "id": "st-7f366134db",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "V-Varen Nagasaki",
-            "team_b": "Fagiano Okayama",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b28ace839956d8eacce11926ea5e43b3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fb5c6121bf5b351f60ebf8ffd5b9d887.png",
-            "time": "11:00 06/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7f366134db_1d104a62_20260505.png?v=1d104a62",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-46e46624a7",
           "name": "Shimizu S-Pulse vs Cerezo Osaka | 11:00 06/05",
           "type": "single",
@@ -1202,8 +1078,8 @@
           }
         },
         {
-          "id": "thapcam-6180f378f0",
-          "name": "Avispa Fukuoka vs Kyoto Sanga | 12:00 06/05",
+          "id": "thapcam-7f366134db",
+          "name": "V-Varen Nagasaki vs Fagiano Okayama | 11:00 06/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1217,15 +1093,15 @@
           ],
           "sources": [
             {
-              "id": "src-6180f378f0",
+              "id": "src-7f366134db",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-6180f378f0",
-                  "name": "Avispa Fukuoka vs Kyoto Sanga",
+                  "id": "ct-7f366134db",
+                  "name": "V-Varen Nagasaki vs Fagiano Okayama",
                   "streams": [
                     {
-                      "id": "st-6180f378f0",
+                      "id": "st-7f366134db",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1236,12 +1112,12 @@
           ],
           "org_metadata": {
             "league": "Japanese J1 League",
-            "team_a": "Avispa Fukuoka",
-            "team_b": "Kyoto Sanga",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bf0e2229b39b6cb6fd17e9d0f3fb747e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7d6fa50ea67cde7d66612a8189897ba5.png",
-            "time": "12:00 06/05",
-            "blv": "BLV Chân Đất",
+            "team_a": "V-Varen Nagasaki",
+            "team_b": "Fagiano Okayama",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b28ace839956d8eacce11926ea5e43b3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fb5c6121bf5b351f60ebf8ffd5b9d887.png",
+            "time": "11:00 06/05",
+            "blv": "BLV Siêu Quậy",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1249,7 +1125,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6180f378f0_c70b6046_20260505.png?v=c70b6046",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7f366134db_1d104a62_20260505.png?v=1d104a62",
             "width": 1600,
             "height": 1200
           }
@@ -1303,6 +1179,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-06d1c1ee7a_6150466f_20260505.png?v=6150466f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-6180f378f0",
+          "name": "Avispa Fukuoka vs Kyoto Sanga | 12:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6180f378f0",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-6180f378f0",
+                  "name": "Avispa Fukuoka vs Kyoto Sanga",
+                  "streams": [
+                    {
+                      "id": "st-6180f378f0",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Avispa Fukuoka",
+            "team_b": "Kyoto Sanga",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bf0e2229b39b6cb6fd17e9d0f3fb747e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7d6fa50ea67cde7d66612a8189897ba5.png",
+            "time": "12:00 06/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6180f378f0_c70b6046_20260505.png?v=c70b6046",
             "width": 1600,
             "height": 1200
           }
