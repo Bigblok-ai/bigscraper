@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -117,148 +117,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-4d78514431_324f0153_20260506.png?v=324f0153",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-27ac321a32",
-          "name": "Saudi Arabia U17 vs Myanmar U17",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-27ac321a32",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-27ac321a32",
-                  "name": "Saudi Arabia U17 vs Myanmar U17",
-                  "streams": [
-                    {
-                      "id": "st-27ac321a32",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-29ff562785",
-                          "name": "BLV Người Páo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fa19cb51ddc_19533/index.m3u8?expire=1778603083&sign=7c378fd48b1138c4a39f6d05b757592d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Saudi Arabia U17",
-            "team_b": "Myanmar U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/081372dd82f5917deb2d2fa64e052173.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fbbcb591970475f0c7737c04c9d2f2da.png",
-            "time": "",
-            "blv": "BLV Người Páo",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-27ac321a32_60d075e5_20260506.png?v=60d075e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-e6f3943175",
-          "name": "Lokomotiv Sofia vs Botev Vratsa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e6f3943175",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e6f3943175",
-                  "name": "Lokomotiv Sofia vs Botev Vratsa",
-                  "streams": [
-                    {
-                      "id": "st-e6f3943175",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-633db4d171",
-                          "name": "BLV Người Lạ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fa192a51ddc_11241/index.m3u8?expire=1778602922&sign=76db6ee371e53058f29c617219e9eca7",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bulgarian First League",
-            "team_a": "Lokomotiv Sofia",
-            "team_b": "Botev Vratsa",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/eddf8d0f309490d5e64ad445895eedb1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2160cff8b0067605adb4e2d1ff213f3d.png",
-            "time": "",
-            "blv": "BLV Người Lạ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e6f3943175_e5d7cc60_20260506.png?v=e5d7cc60",
             "width": 1600,
             "height": 1200
           }
@@ -936,59 +794,6 @@
           }
         },
         {
-          "id": "thapcam-cd6f8dec1a",
-          "name": "FC Tokyo vs JEF United Ichihara Chiba | 13:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cd6f8dec1a",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-cd6f8dec1a",
-                  "name": "FC Tokyo vs JEF United Ichihara Chiba",
-                  "streams": [
-                    {
-                      "id": "st-cd6f8dec1a",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "FC Tokyo",
-            "team_b": "JEF United Ichihara Chiba",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/333df39860930a21cf72b4e9664723ab.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ce2dfe0c36e6a9774eaecf9731375b6.png",
-            "time": "13:00 06/05",
-            "blv": "BLV Người Cò",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cd6f8dec1a_0978ff39_20260506.png?v=0978ff39",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-90626ab069",
           "name": "Sanfrecce Hiroshima vs Vissel Kobe | 13:00 06/05",
           "type": "single",
@@ -1042,8 +847,8 @@
           }
         },
         {
-          "id": "thapcam-ee1d59ae68",
-          "name": "Machida Zelvia vs Yokohama F. Marinos | 14:00 06/05",
+          "id": "thapcam-cd6f8dec1a",
+          "name": "FC Tokyo vs JEF United Ichihara Chiba | 13:00 06/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1057,15 +862,15 @@
           ],
           "sources": [
             {
-              "id": "src-ee1d59ae68",
+              "id": "src-cd6f8dec1a",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-ee1d59ae68",
-                  "name": "Machida Zelvia vs Yokohama F. Marinos",
+                  "id": "ct-cd6f8dec1a",
+                  "name": "FC Tokyo vs JEF United Ichihara Chiba",
                   "streams": [
                     {
-                      "id": "st-ee1d59ae68",
+                      "id": "st-cd6f8dec1a",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1076,12 +881,12 @@
           ],
           "org_metadata": {
             "league": "Japanese J1 League",
-            "team_a": "Machida Zelvia",
-            "team_b": "Yokohama F. Marinos",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/539c489a7bd94dd9d785308fd0f0a6b9.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/78ddaaa79d9502f5e2df0fbb6261f937.png",
-            "time": "14:00 06/05",
-            "blv": "BLV Jayce",
+            "team_a": "FC Tokyo",
+            "team_b": "JEF United Ichihara Chiba",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/333df39860930a21cf72b4e9664723ab.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ce2dfe0c36e6a9774eaecf9731375b6.png",
+            "time": "13:00 06/05",
+            "blv": "BLV Người Cò",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1089,7 +894,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ee1d59ae68_3275aae7_20260506.png?v=3275aae7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cd6f8dec1a_0978ff39_20260506.png?v=0978ff39",
             "width": 1600,
             "height": 1200
           }
@@ -1143,6 +948,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d96061e90f_54ea3186_20260506.png?v=54ea3186",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-ee1d59ae68",
+          "name": "Machida Zelvia vs Yokohama F. Marinos | 14:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ee1d59ae68",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-ee1d59ae68",
+                  "name": "Machida Zelvia vs Yokohama F. Marinos",
+                  "streams": [
+                    {
+                      "id": "st-ee1d59ae68",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Machida Zelvia",
+            "team_b": "Yokohama F. Marinos",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/539c489a7bd94dd9d785308fd0f0a6b9.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/78ddaaa79d9502f5e2df0fbb6261f937.png",
+            "time": "14:00 06/05",
+            "blv": "BLV Jayce",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ee1d59ae68_3275aae7_20260506.png?v=3275aae7",
             "width": 1600,
             "height": 1200
           }
@@ -1625,6 +1483,59 @@
           }
         },
         {
+          "id": "thapcam-f7141d544a",
+          "name": "Spartak Moscow vs CSKA Moscow | 00:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f7141d544a",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f7141d544a",
+                  "name": "Spartak Moscow vs CSKA Moscow",
+                  "streams": [
+                    {
+                      "id": "st-f7141d544a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Russian Cup",
+            "team_a": "Spartak Moscow",
+            "team_b": "CSKA Moscow",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b989806732eaf15246ab56e07d0b8a2e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1eae81e51945df5660e24dc6f0ea353c.png",
+            "time": "00:00 07/05",
+            "blv": "BLV Jayce",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f7141d544a_0ecad6d8_20260506.png?v=0ecad6d8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-706614eddf",
           "name": "Yemen U17 vs Vietnam U17 | 00:00 07/05",
           "type": "single",
@@ -1731,59 +1642,6 @@
           }
         },
         {
-          "id": "thapcam-f7141d544a",
-          "name": "Spartak Moscow vs CSKA Moscow | 00:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f7141d544a",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f7141d544a",
-                  "name": "Spartak Moscow vs CSKA Moscow",
-                  "streams": [
-                    {
-                      "id": "st-f7141d544a",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Russian Cup",
-            "team_a": "Spartak Moscow",
-            "team_b": "CSKA Moscow",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b989806732eaf15246ab56e07d0b8a2e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1eae81e51945df5660e24dc6f0ea353c.png",
-            "time": "00:00 07/05",
-            "blv": "BLV Jayce",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f7141d544a_0ecad6d8_20260506.png?v=0ecad6d8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-a32d80e823",
           "name": "South Korea U17 vs United Arab Emirates U17 | 00:30 07/05",
           "type": "single",
@@ -1885,6 +1743,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6e1002c7e4_27c35a26_20260506.png?v=27c35a26",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-592617bc03",
+          "name": "FC Bayern Munich vs Paris Saint Germain | 02:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-592617bc03",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-592617bc03",
+                  "name": "FC Bayern Munich vs Paris Saint Germain",
+                  "streams": [
+                    {
+                      "id": "st-592617bc03",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "FC Bayern Munich",
+            "team_b": "Paris Saint Germain",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ef19a84a6745fe57aa786873d2b18e8a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3b720f181ce9993f9422d276acf7b292.png",
+            "time": "02:00 07/05",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-592617bc03_0f85d659_20260506.png?v=0f85d659",
             "width": 1600,
             "height": 1200
           }
