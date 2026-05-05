@@ -1606,6 +1606,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-2ca7038554",
+          "name": "Selangor FC vs Thep Xanh Nam Dinh FC | 20:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2ca7038554",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-2ca7038554",
+                  "name": "Selangor FC vs Thep Xanh Nam Dinh FC",
+                  "streams": [
+                    {
+                      "id": "st-2ca7038554",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asean Club Championship Shopee Cup",
+            "team_a": "Selangor FC",
+            "team_b": "Thep Xanh Nam Dinh FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/585f46e1975ca0a4cce84365f5290111.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bc5db4dd418cb566a4475649876b55bb.png",
+            "time": "20:00 06/05",
+            "blv": "BLV Người Páo",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2ca7038554_fd7e1cc6_20260505.png?v=fd7e1cc6",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
