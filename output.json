@@ -17,6 +17,219 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "thapcam-d326f5a5e9",
+          "name": "Chinese Taipei U17 Women vs Korea Rep. Women U17",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d326f5a5e9",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d326f5a5e9",
+                  "name": "Chinese Taipei U17 Women vs Korea Rep. Women U17",
+                  "streams": [
+                    {
+                      "id": "st-d326f5a5e9",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a7165f529d",
+                          "name": "BLV Người Cò",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f9946a137e4_14559/index.m3u8?expire=1778568938&sign=59b800b7940ed5f990b7688c7d0e2616",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Chinese Taipei U17 Women",
+            "team_b": "Korea Rep. Women U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/566b83e60e3ffdb744bc3d1843fb4311.png",
+            "time": "",
+            "blv": "BLV Người Cò",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d326f5a5e9_21ba87d7_20260505.png?v=21ba87d7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-3a3b5b6db1",
+          "name": "Lebanon U17 Women vs Australia Women U17",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a3b5b6db1",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-3a3b5b6db1",
+                  "name": "Lebanon U17 Women vs Australia Women U17",
+                  "streams": [
+                    {
+                      "id": "st-3a3b5b6db1",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-777cfb5a09",
+                          "name": "BLV Người Cỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f97d28137e4_19092/index.m3u8?expire=1778562984&sign=6183768c034f9a35a233aaa0f0354847",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Lebanon U17 Women",
+            "team_b": "Australia Women U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5d0c20971b46597973cbf23b9bb0771b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f476c5c90ef26f3257a4a6c17374c1bc.png",
+            "time": "",
+            "blv": "BLV Người Cỏ",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3a3b5b6db1_636bc56e_20260505.png?v=636bc56e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-eec931a386",
+          "name": "Gimcheon Sangmu Football Club vs Ulsan HD FC",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eec931a386",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-eec931a386",
+                  "name": "Gimcheon Sangmu Football Club vs Ulsan HD FC",
+                  "streams": [
+                    {
+                      "id": "st-eec931a386",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4caed18209",
+                          "name": "BLV Người Điên",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f9960951ddc_1984/index.m3u8?expire=1778569353&sign=c50034e8b652907186d791116bb487cd",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Gimcheon Sangmu Football Club",
+            "team_b": "Ulsan HD FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4a3e50e90ab721c1782568a287bd5358.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fe07fb888ebcb282192332cb8aed21b1.png",
+            "time": "",
+            "blv": "BLV Người Điên",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-eec931a386_7fd5a935_20260505.png?v=7fd5a935",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-6daf55c3d8",
           "name": "Gangwon Football Club vs Pohang Steelers",
           "type": "single",
@@ -154,219 +367,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2cbf8d6d54_4d4e9273_20260505.png?v=4d4e9273",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-eec931a386",
-          "name": "Gimcheon Sangmu Football Club vs Ulsan HD FC",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eec931a386",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-eec931a386",
-                  "name": "Gimcheon Sangmu Football Club vs Ulsan HD FC",
-                  "streams": [
-                    {
-                      "id": "st-eec931a386",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4caed18209",
-                          "name": "BLV Người Điên",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f9960951ddc_1984/index.m3u8?expire=1778569353&sign=c50034e8b652907186d791116bb487cd",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Gimcheon Sangmu Football Club",
-            "team_b": "Ulsan HD FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4a3e50e90ab721c1782568a287bd5358.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fe07fb888ebcb282192332cb8aed21b1.png",
-            "time": "",
-            "blv": "BLV Người Điên",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-eec931a386_7fd5a935_20260505.png?v=7fd5a935",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-3a3b5b6db1",
-          "name": "Lebanon U17 Women vs Australia Women U17",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3a3b5b6db1",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3a3b5b6db1",
-                  "name": "Lebanon U17 Women vs Australia Women U17",
-                  "streams": [
-                    {
-                      "id": "st-3a3b5b6db1",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-777cfb5a09",
-                          "name": "BLV Người Cỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f97d28137e4_19092/index.m3u8?expire=1778562984&sign=6183768c034f9a35a233aaa0f0354847",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "Lebanon U17 Women",
-            "team_b": "Australia Women U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5d0c20971b46597973cbf23b9bb0771b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f476c5c90ef26f3257a4a6c17374c1bc.png",
-            "time": "",
-            "blv": "BLV Người Cỏ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3a3b5b6db1_636bc56e_20260505.png?v=636bc56e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-d326f5a5e9",
-          "name": "Chinese Taipei U17 Women vs Korea Rep. Women U17",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d326f5a5e9",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d326f5a5e9",
-                  "name": "Chinese Taipei U17 Women vs Korea Rep. Women U17",
-                  "streams": [
-                    {
-                      "id": "st-d326f5a5e9",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a7165f529d",
-                          "name": "BLV Người Cò",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69f9946a137e4_14559/index.m3u8?expire=1778568938&sign=59b800b7940ed5f990b7688c7d0e2616",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "Chinese Taipei U17 Women",
-            "team_b": "Korea Rep. Women U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/566b83e60e3ffdb744bc3d1843fb4311.png",
-            "time": "",
-            "blv": "BLV Người Cò",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d326f5a5e9_21ba87d7_20260505.png?v=21ba87d7",
             "width": 1600,
             "height": 1200
           }
