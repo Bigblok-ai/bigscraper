@@ -11,11 +11,82 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-3982d78d1c",
+          "name": "Japan U17 vs Qatar U17 | 23:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3982d78d1c",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-3982d78d1c",
+                  "name": "Japan U17 vs Qatar U17",
+                  "streams": [
+                    {
+                      "id": "st-3982d78d1c",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-04b85d4690",
+                          "name": "BLV Siêu Quậy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fa116351ddc_26/index.m3u8?expire=1778600931&sign=298d48b337991207ab74f01ff28597a2",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Japan U17",
+            "team_b": "Qatar U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3c4d97fd12b32034eecb81ef51583b26.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8583e166d6e955dd01525d25b53b4439.png",
+            "time": "23:00 05/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3982d78d1c_b349515f_20260505.png?v=b349515f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-b73604f19c",
           "name": "Beroe Stara Zagora vs PFK Montana",
@@ -88,59 +159,6 @@
           }
         },
         {
-          "id": "thapcam-3982d78d1c",
-          "name": "Japan U17 vs Qatar U17 | 23:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3982d78d1c",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3982d78d1c",
-                  "name": "Japan U17 vs Qatar U17",
-                  "streams": [
-                    {
-                      "id": "st-3982d78d1c",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Japan U17",
-            "team_b": "Qatar U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3c4d97fd12b32034eecb81ef51583b26.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8583e166d6e955dd01525d25b53b4439.png",
-            "time": "23:00 05/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3982d78d1c_b349515f_20260505.png?v=b349515f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-76e407bcca",
           "name": "Indonesia U17 vs China U17 | 23:30 05/05",
           "type": "single",
@@ -194,59 +212,6 @@
           }
         },
         {
-          "id": "thapcam-27ac321a32",
-          "name": "Saudi Arabia U17 vs Myanmar U17 | 00:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-27ac321a32",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-27ac321a32",
-                  "name": "Saudi Arabia U17 vs Myanmar U17",
-                  "streams": [
-                    {
-                      "id": "st-27ac321a32",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Saudi Arabia U17",
-            "team_b": "Myanmar U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/081372dd82f5917deb2d2fa64e052173.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fbbcb591970475f0c7737c04c9d2f2da.png",
-            "time": "00:00 06/05",
-            "blv": "BLV Người Páo",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-27ac321a32_60d075e5_20260505.png?v=60d075e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-e6f3943175",
           "name": "Lokomotiv Sofia vs Botev Vratsa | 00:00 06/05",
           "type": "single",
@@ -295,6 +260,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e6f3943175_e5d7cc60_20260505.png?v=e5d7cc60",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-27ac321a32",
+          "name": "Saudi Arabia U17 vs Myanmar U17 | 00:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-27ac321a32",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-27ac321a32",
+                  "name": "Saudi Arabia U17 vs Myanmar U17",
+                  "streams": [
+                    {
+                      "id": "st-27ac321a32",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Saudi Arabia U17",
+            "team_b": "Myanmar U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/081372dd82f5917deb2d2fa64e052173.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fbbcb591970475f0c7737c04c9d2f2da.png",
+            "time": "00:00 06/05",
+            "blv": "BLV Người Páo",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-27ac321a32_60d075e5_20260505.png?v=60d075e5",
             "width": 1600,
             "height": 1200
           }
@@ -777,59 +795,6 @@
           }
         },
         {
-          "id": "thapcam-7f366134db",
-          "name": "V-Varen Nagasaki vs Fagiano Okayama | 11:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7f366134db",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-7f366134db",
-                  "name": "V-Varen Nagasaki vs Fagiano Okayama",
-                  "streams": [
-                    {
-                      "id": "st-7f366134db",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "V-Varen Nagasaki",
-            "team_b": "Fagiano Okayama",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b28ace839956d8eacce11926ea5e43b3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fb5c6121bf5b351f60ebf8ffd5b9d887.png",
-            "time": "11:00 06/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7f366134db_1d104a62_20260505.png?v=1d104a62",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-46e46624a7",
           "name": "Shimizu S-Pulse vs Cerezo Osaka | 11:00 06/05",
           "type": "single",
@@ -878,6 +843,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46e46624a7_80dbc6b0_20260505.png?v=80dbc6b0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-7f366134db",
+          "name": "V-Varen Nagasaki vs Fagiano Okayama | 11:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7f366134db",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-7f366134db",
+                  "name": "V-Varen Nagasaki vs Fagiano Okayama",
+                  "streams": [
+                    {
+                      "id": "st-7f366134db",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "V-Varen Nagasaki",
+            "team_b": "Fagiano Okayama",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b28ace839956d8eacce11926ea5e43b3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fb5c6121bf5b351f60ebf8ffd5b9d887.png",
+            "time": "11:00 06/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7f366134db_1d104a62_20260505.png?v=1d104a62",
             "width": 1600,
             "height": 1200
           }
@@ -989,59 +1007,6 @@
           }
         },
         {
-          "id": "thapcam-cd6f8dec1a",
-          "name": "FC Tokyo vs JEF United Ichihara Chiba | 13:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cd6f8dec1a",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-cd6f8dec1a",
-                  "name": "FC Tokyo vs JEF United Ichihara Chiba",
-                  "streams": [
-                    {
-                      "id": "st-cd6f8dec1a",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "FC Tokyo",
-            "team_b": "JEF United Ichihara Chiba",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/333df39860930a21cf72b4e9664723ab.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ce2dfe0c36e6a9774eaecf9731375b6.png",
-            "time": "13:00 06/05",
-            "blv": "BLV Người Cò",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cd6f8dec1a_0978ff39_20260505.png?v=0978ff39",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-90626ab069",
           "name": "Sanfrecce Hiroshima vs Vissel Kobe | 13:00 06/05",
           "type": "single",
@@ -1095,8 +1060,8 @@
           }
         },
         {
-          "id": "thapcam-d96061e90f",
-          "name": "Kashima Antlers vs Mito Hollyhock | 14:00 06/05",
+          "id": "thapcam-cd6f8dec1a",
+          "name": "FC Tokyo vs JEF United Ichihara Chiba | 13:00 06/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1110,15 +1075,15 @@
           ],
           "sources": [
             {
-              "id": "src-d96061e90f",
+              "id": "src-cd6f8dec1a",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-d96061e90f",
-                  "name": "Kashima Antlers vs Mito Hollyhock",
+                  "id": "ct-cd6f8dec1a",
+                  "name": "FC Tokyo vs JEF United Ichihara Chiba",
                   "streams": [
                     {
-                      "id": "st-d96061e90f",
+                      "id": "st-cd6f8dec1a",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1129,12 +1094,12 @@
           ],
           "org_metadata": {
             "league": "Japanese J1 League",
-            "team_a": "Kashima Antlers",
-            "team_b": "Mito Hollyhock",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/90ca524b1b1c17911b1bf8e425c8d96d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ead844240532c4e12d3eb45d2087924.png",
-            "time": "14:00 06/05",
-            "blv": "BLV Người Ngố",
+            "team_a": "FC Tokyo",
+            "team_b": "JEF United Ichihara Chiba",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/333df39860930a21cf72b4e9664723ab.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ce2dfe0c36e6a9774eaecf9731375b6.png",
+            "time": "13:00 06/05",
+            "blv": "BLV Người Cò",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1142,7 +1107,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d96061e90f_54ea3186_20260505.png?v=54ea3186",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cd6f8dec1a_0978ff39_20260505.png?v=0978ff39",
             "width": 1600,
             "height": 1200
           }
@@ -1196,6 +1161,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ee1d59ae68_3275aae7_20260505.png?v=3275aae7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-d96061e90f",
+          "name": "Kashima Antlers vs Mito Hollyhock | 14:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d96061e90f",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d96061e90f",
+                  "name": "Kashima Antlers vs Mito Hollyhock",
+                  "streams": [
+                    {
+                      "id": "st-d96061e90f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Kashima Antlers",
+            "team_b": "Mito Hollyhock",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/90ca524b1b1c17911b1bf8e425c8d96d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ead844240532c4e12d3eb45d2087924.png",
+            "time": "14:00 06/05",
+            "blv": "BLV Người Ngố",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d96061e90f_54ea3186_20260505.png?v=54ea3186",
             "width": 1600,
             "height": 1200
           }
@@ -1514,6 +1532,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e11bd9671f_9a457f88_20260505.png?v=9a457f88",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-edb70b1bd9",
+          "name": "Australia U17 vs India U17 | 23:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-edb70b1bd9",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-edb70b1bd9",
+                  "name": "Australia U17 vs India U17",
+                  "streams": [
+                    {
+                      "id": "st-edb70b1bd9",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Australia U17",
+            "team_b": "India U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7df4050f103d78f6d6a198896197ee30.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/603df20031dd4c1ff7c57750ade6f96d.png",
+            "time": "23:00 06/05",
+            "blv": "BLV Người Cỏ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-edb70b1bd9_a551361d_20260505.png?v=a551361d",
             "width": 1600,
             "height": 1200
           }
