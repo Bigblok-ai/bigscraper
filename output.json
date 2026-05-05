@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -367,6 +367,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d326f5a5e9_21ba87d7_20260505.png?v=21ba87d7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-028e385da9",
+          "name": "Madura United vs Bali United",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-028e385da9",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-028e385da9",
+                  "name": "Madura United vs Bali United",
+                  "streams": [
+                    {
+                      "id": "st-028e385da9",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21d2b660dd",
+                          "name": "BLV Tôn Quyền",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f9ad97137e4_793/index.m3u8?expire=1778575383&sign=bc0f33283acbd646337bfba9ecfa0a18",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indonesian Liga 1",
+            "team_a": "Madura United",
+            "team_b": "Bali United",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/320ff18ba51acdf34c92311dec8186a7.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/09fe2ecf88f68970da755f8655d5da8a.png",
+            "time": "",
+            "blv": "BLV Tôn Quyền",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-028e385da9_4cd14508_20260505.png?v=4cd14508",
             "width": 1600,
             "height": 1200
           }
