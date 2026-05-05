@@ -11,11 +11,82 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-9ec27a5d1e",
+          "name": "New York City Team B vs Chicago flame B | 06:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9ec27a5d1e",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-9ec27a5d1e",
+                  "name": "New York City Team B vs Chicago flame B",
+                  "streams": [
+                    {
+                      "id": "st-9ec27a5d1e",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-04b0104c2e",
+                          "name": "BLV Người Băng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fa7058137e4_11/index.m3u8?expire=1778625240&sign=c1ec728888f4339423c17f4b725d8efd",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLS Next Pro",
+            "team_a": "New York City Team B",
+            "team_b": "Chicago flame B",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9a91a83ab703c7c9d26070d9d3df63f3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5d3d6622bf84c648d439e68dd075e9fa.png",
+            "time": "06:00 06/05",
+            "blv": "BLV Người Băng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9ec27a5d1e_d0847eda_20260506.png?v=d0847eda",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-a70a6108dd",
           "name": "Independiente Petrolero vs Caracas FC",
@@ -83,59 +154,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a70a6108dd_728d97c7_20260506.png?v=728d97c7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-9ec27a5d1e",
-          "name": "New York City Team B vs Chicago flame B | 06:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9ec27a5d1e",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9ec27a5d1e",
-                  "name": "New York City Team B vs Chicago flame B",
-                  "streams": [
-                    {
-                      "id": "st-9ec27a5d1e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLS Next Pro",
-            "team_a": "New York City Team B",
-            "team_b": "Chicago flame B",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9a91a83ab703c7c9d26070d9d3df63f3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5d3d6622bf84c648d439e68dd075e9fa.png",
-            "time": "06:00 06/05",
-            "blv": "BLV Người Băng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9ec27a5d1e_d0847eda_20260506.png?v=d0847eda",
             "width": 1600,
             "height": 1200
           }
@@ -1575,7 +1593,7 @@
     },
     {
       "id": "grp-d721cd64dc",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1588,10 +1606,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1606,7 +1624,25 @@
                     {
                       "id": "st-875bc9923a",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-888af529ca",
+                          "name": "BLV Người Hầu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fa71fa51ddc_9657/index.m3u8?expire=1778625658&sign=b54492db5ccf39175cffe09187555e13",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1621,7 +1657,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/57c938e35ceb2ee92562a09c4165fb47.png",
             "time": "06:00 06/05",
             "blv": "BLV Người Hầu",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng rổ"
           },
           "image": {
