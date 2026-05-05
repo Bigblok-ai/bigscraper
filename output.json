@@ -11,11 +11,82 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-48a6f708a5",
+          "name": "Mekelle 70 Enderta vs Arba Minch | 20:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-48a6f708a5",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-48a6f708a5",
+                  "name": "Mekelle 70 Enderta vs Arba Minch",
+                  "streams": [
+                    {
+                      "id": "st-48a6f708a5",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-aa3e2f4d76",
+                          "name": "BLV Người Băng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69f9e42f51ddc_11/index.m3u8?expire=1778589359&sign=02ed0233ed4c3dd47f749db4d29d572b",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ethiopia Premier League",
+            "team_a": "Mekelle 70 Enderta",
+            "team_b": "Arba Minch",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6d0595baa23dc7a876c0b60e8e4a9064.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a4d258acc703851ed1b08271c908dcb2.png",
+            "time": "20:00 05/05",
+            "blv": "BLV Người Băng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-48a6f708a5_4a3b07b6_20260505.png?v=4a3b07b6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-662c261754",
           "name": "Qingdao West Coast FC vs Tianjin Jinmen Tiger FC",
@@ -225,59 +296,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3967960b34_6aef1dd2_20260505.png?v=6aef1dd2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-48a6f708a5",
-          "name": "Mekelle 70 Enderta vs Arba Minch | 20:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-48a6f708a5",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-48a6f708a5",
-                  "name": "Mekelle 70 Enderta vs Arba Minch",
-                  "streams": [
-                    {
-                      "id": "st-48a6f708a5",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ethiopia Premier League",
-            "team_a": "Mekelle 70 Enderta",
-            "team_b": "Arba Minch",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6d0595baa23dc7a876c0b60e8e4a9064.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a4d258acc703851ed1b08271c908dcb2.png",
-            "time": "20:00 05/05",
-            "blv": "BLV Người Băng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-48a6f708a5_4a3b07b6_20260505.png?v=4a3b07b6",
             "width": 1600,
             "height": 1200
           }
