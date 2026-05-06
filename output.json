@@ -777,59 +777,6 @@
           }
         },
         {
-          "id": "thapcam-9d42ec69af",
-          "name": "Sporting Kansas CityReserves vs Ventura County FC | 07:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9d42ec69af",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9d42ec69af",
-                  "name": "Sporting Kansas CityReserves vs Ventura County FC",
-                  "streams": [
-                    {
-                      "id": "st-9d42ec69af",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLS Next Pro",
-            "team_a": "Sporting Kansas CityReserves",
-            "team_b": "Ventura County FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c5593b106980072677a648800a11d8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f93ca58969938ab5583e30e71d8e31a4.png",
-            "time": "07:00 07/05",
-            "blv": "BLV Người Rừng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9d42ec69af_2cc74613_20260506.png?v=2cc74613",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-60596e3e93",
           "name": "Macara vs Club Atletico Tigre | 07:00 07/05",
           "type": "single",
@@ -878,6 +825,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-60596e3e93_8d787b24_20260506.png?v=8d787b24",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-9d42ec69af",
+          "name": "Sporting Kansas CityReserves vs Ventura County FC | 07:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9d42ec69af",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-9d42ec69af",
+                  "name": "Sporting Kansas CityReserves vs Ventura County FC",
+                  "streams": [
+                    {
+                      "id": "st-9d42ec69af",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLS Next Pro",
+            "team_a": "Sporting Kansas CityReserves",
+            "team_b": "Ventura County FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c5593b106980072677a648800a11d8.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f93ca58969938ab5583e30e71d8e31a4.png",
+            "time": "07:00 07/05",
+            "blv": "BLV Người Rừng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9d42ec69af_2cc74613_20260506.png?v=2cc74613",
             "width": 1600,
             "height": 1200
           }
@@ -1120,77 +1120,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-defd1eefbf",
-          "name": "Damir Dzumhur vs Adrian Mannarino | 16:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-defd1eefbf",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-defd1eefbf",
-                  "name": "Damir Dzumhur vs Adrian Mannarino",
-                  "streams": [
-                    {
-                      "id": "st-defd1eefbf",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad2469434b",
-                          "name": "BLV Người Sói",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb024c51ddc_742/index.m3u8?expire=1778662604&sign=86e60ce269a9732dcc44a08a1f50afe2",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Damir Dzumhur",
-            "team_b": "Adrian Mannarino",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a1d546617cbdd28385c67ba5a3666084.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/daecfcbc2c8c70751b8653772e210d15.png",
-            "time": "16:00 06/05",
-            "blv": "BLV Người Sói",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-defd1eefbf_9cad2158_20260506.png?v=9cad2158",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-4fc6155594",
           "name": "Zhang Zhizhen vs Daniel Altmaier | 16:00 06/05",
           "type": "single",
@@ -1257,6 +1186,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-4fc6155594_95537fc7_20260506.png?v=95537fc7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-defd1eefbf",
+          "name": "Damir Dzumhur vs Adrian Mannarino | 16:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-defd1eefbf",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-defd1eefbf",
+                  "name": "Damir Dzumhur vs Adrian Mannarino",
+                  "streams": [
+                    {
+                      "id": "st-defd1eefbf",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad2469434b",
+                          "name": "BLV Người Sói",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb024c51ddc_742/index.m3u8?expire=1778662604&sign=86e60ce269a9732dcc44a08a1f50afe2",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Rome, Italy Men Singles",
+            "team_a": "Damir Dzumhur",
+            "team_b": "Adrian Mannarino",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a1d546617cbdd28385c67ba5a3666084.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/daecfcbc2c8c70751b8653772e210d15.png",
+            "time": "16:00 06/05",
+            "blv": "BLV Người Sói",
+            "is_live": true,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-defd1eefbf_9cad2158_20260506.png?v=9cad2158",
             "width": 1600,
             "height": 1200
           }
