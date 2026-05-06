@@ -1936,38 +1936,56 @@
     },
     {
       "id": "grp-9102198393",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-cfaccbf350",
-          "name": "HOÀNG SAO vs DŨNG HÀN | 12:00 06/05",
+          "id": "thapcam-59bcb3466a",
+          "name": "HOÀNG SAO vs DŨNG HÀN | 11:00 06/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-cfaccbf350",
+              "id": "src-59bcb3466a",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-cfaccbf350",
+                  "id": "ct-59bcb3466a",
                   "name": "HOÀNG SAO vs DŨNG HÀN",
                   "streams": [
                     {
-                      "id": "st-cfaccbf350",
+                      "id": "st-59bcb3466a",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-9a8f66dd3d",
+                          "name": "BLV Người Nhớt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fabeb3137e4_14232/index.m3u8?expire=1778645299&sign=a27c2351791ae9366a4729a3e5913b23",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1980,16 +1998,16 @@
             "team_b": "DŨNG HÀN",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/ce4b8efe6773111b1d8634282daa9a03.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/33c139fb2519552642a14c51eb11f16d.png",
-            "time": "12:00 06/05",
+            "time": "11:00 06/05",
             "blv": "BLV Người Nhớt",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cfaccbf350_0a41ce95_20260506.png?v=0a41ce95",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-59bcb3466a_0a41ce95_20260506.png?v=0a41ce95",
             "width": 1600,
             "height": 1200
           }
