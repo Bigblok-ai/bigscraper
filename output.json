@@ -17,94 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-2ca7038554",
-          "name": "Selangor FC vs Thep Xanh Nam Dinh FC | 20:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2ca7038554",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-2ca7038554",
-                  "name": "Selangor FC vs Thep Xanh Nam Dinh FC",
-                  "streams": [
-                    {
-                      "id": "st-2ca7038554",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3b685e69e2",
-                          "name": "BLV Người Páo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb359d51ddc_19533/index.m3u8?expire=1778675741&sign=eef3fac72b19275d6fa4cae5b643405d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-bc6fa9c435",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb316d137e4_154/index.m3u8?expire=1778674669&sign=08bbb63ee1d8888c5993cca60bec8413",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asean Club Championship Shopee Cup",
-            "team_a": "Selangor FC",
-            "team_b": "Thep Xanh Nam Dinh FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/585f46e1975ca0a4cce84365f5290111.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bc5db4dd418cb566a4475649876b55bb.png",
-            "time": "20:00 06/05",
-            "blv": "BLV Người Páo",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2ca7038554_fd7e1cc6_20260506.png?v=fd7e1cc6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-6da0246498",
           "name": "Johor Darul Ta'zim FC vs Buriram United",
           "type": "single",
@@ -188,6 +100,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6da0246498_398fdfb8_20260506.png?v=398fdfb8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-2ca7038554",
+          "name": "Selangor FC vs Thep Xanh Nam Dinh FC",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2ca7038554",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-2ca7038554",
+                  "name": "Selangor FC vs Thep Xanh Nam Dinh FC",
+                  "streams": [
+                    {
+                      "id": "st-2ca7038554",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3b685e69e2",
+                          "name": "BLV Người Páo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb359d51ddc_19533/index.m3u8?expire=1778675741&sign=eef3fac72b19275d6fa4cae5b643405d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-bc6fa9c435",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb316d137e4_154/index.m3u8?expire=1778674669&sign=08bbb63ee1d8888c5993cca60bec8413",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asean Club Championship Shopee Cup",
+            "team_a": "Selangor FC",
+            "team_b": "Thep Xanh Nam Dinh FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/585f46e1975ca0a4cce84365f5290111.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bc5db4dd418cb566a4475649876b55bb.png",
+            "time": "",
+            "blv": "BLV Người Páo",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2ca7038554_fd7e1cc6_20260506.png?v=fd7e1cc6",
             "width": 1600,
             "height": 1200
           }
