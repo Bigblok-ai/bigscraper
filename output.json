@@ -17,77 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-c77705b654",
-          "name": "Gandzasar Kapan vs FC Noah | 22:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c77705b654",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-c77705b654",
-                  "name": "Gandzasar Kapan vs FC Noah",
-                  "streams": [
-                    {
-                      "id": "st-c77705b654",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1180b798c2",
-                          "name": "BLV Người Cò",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb5070137e4_14559/index.m3u8?expire=1778682608&sign=28a589d718c59c0955974cdd83e6e820",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Armenian Premier League",
-            "team_a": "Gandzasar Kapan",
-            "team_b": "FC Noah",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c00f2b8a2f32ddbc2fa44bb8f7c73a6b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5ef6703cd46b664af49e25a398161d6a.png",
-            "time": "22:00 06/05",
-            "blv": "BLV Người Cò",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c77705b654_29feaf0c_20260506.png?v=29feaf0c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-be7d8538e3",
           "name": "Al-Wahda FC vs Al-Wasl SC",
           "type": "single",
@@ -230,6 +159,77 @@
           }
         },
         {
+          "id": "thapcam-c77705b654",
+          "name": "Gandzasar Kapan vs FC Noah",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c77705b654",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-c77705b654",
+                  "name": "Gandzasar Kapan vs FC Noah",
+                  "streams": [
+                    {
+                      "id": "st-c77705b654",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1180b798c2",
+                          "name": "BLV Người Cò",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb5070137e4_14559/index.m3u8?expire=1778682608&sign=28a589d718c59c0955974cdd83e6e820",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Armenian Premier League",
+            "team_a": "Gandzasar Kapan",
+            "team_b": "FC Noah",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c00f2b8a2f32ddbc2fa44bb8f7c73a6b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5ef6703cd46b664af49e25a398161d6a.png",
+            "time": "",
+            "blv": "BLV Người Cò",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c77705b654_29feaf0c_20260506.png?v=29feaf0c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-edb70b1bd9",
           "name": "Australia U17 vs India U17 | 23:00 06/05",
           "type": "single",
@@ -283,59 +283,6 @@
           }
         },
         {
-          "id": "thapcam-9f7570287b",
-          "name": "Al-Sharjah vs Al Ain FC | 23:45 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9f7570287b",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9f7570287b",
-                  "name": "Al-Sharjah vs Al Ain FC",
-                  "streams": [
-                    {
-                      "id": "st-9f7570287b",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United Arab Emirates Adnoc Pro-League",
-            "team_a": "Al-Sharjah",
-            "team_b": "Al Ain FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c471de7682d1c900df7981bb2cf6536c.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cedb12f9c001f1b1cb11bc532967c33e.png",
-            "time": "23:45 06/05",
-            "blv": "BLV Người Rừng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9f7570287b_a064c84b_20260506.png?v=a064c84b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-c850296531",
           "name": "Shabab Al Ahli vs Al-Nasr Dubai | 23:45 06/05",
           "type": "single",
@@ -384,6 +331,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c850296531_981d3f6c_20260506.png?v=981d3f6c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-9f7570287b",
+          "name": "Al-Sharjah vs Al Ain FC | 23:45 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9f7570287b",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-9f7570287b",
+                  "name": "Al-Sharjah vs Al Ain FC",
+                  "streams": [
+                    {
+                      "id": "st-9f7570287b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "United Arab Emirates Adnoc Pro-League",
+            "team_a": "Al-Sharjah",
+            "team_b": "Al Ain FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c471de7682d1c900df7981bb2cf6536c.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cedb12f9c001f1b1cb11bc532967c33e.png",
+            "time": "23:45 06/05",
+            "blv": "BLV Người Rừng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9f7570287b_a064c84b_20260506.png?v=a064c84b",
             "width": 1600,
             "height": 1200
           }
