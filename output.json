@@ -1167,7 +1167,7 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1239,77 +1239,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-4fc6155594_95537fc7_20260506.png?v=95537fc7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-defd1eefbf",
-          "name": "Damir Dzumhur vs Adrian Mannarino | 16:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-defd1eefbf",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-defd1eefbf",
-                  "name": "Damir Dzumhur vs Adrian Mannarino",
-                  "streams": [
-                    {
-                      "id": "st-defd1eefbf",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad2469434b",
-                          "name": "BLV Người Sói",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb024c51ddc_742/index.m3u8?expire=1778662604&sign=86e60ce269a9732dcc44a08a1f50afe2",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Damir Dzumhur",
-            "team_b": "Adrian Mannarino",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a1d546617cbdd28385c67ba5a3666084.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/daecfcbc2c8c70751b8653772e210d15.png",
-            "time": "16:00 06/05",
-            "blv": "BLV Người Sói",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-defd1eefbf_9cad2158_20260506.png?v=9cad2158",
             "width": 1600,
             "height": 1200
           }
