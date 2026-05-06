@@ -1207,77 +1207,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-4fc6155594",
-          "name": "Zhang Zhizhen vs Daniel Altmaier | 16:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4fc6155594",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-4fc6155594",
-                  "name": "Zhang Zhizhen vs Daniel Altmaier",
-                  "streams": [
-                    {
-                      "id": "st-4fc6155594",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b8857d884b",
-                          "name": "BLV Người Hầu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fafd26137e4_9657/index.m3u8?expire=1778661286&sign=ecc8ec0c2b2f3d2547ff8faf0cacc716",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Zhang Zhizhen",
-            "team_b": "Daniel Altmaier",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b874080f10c2ad3da5fc4f39fb452af2.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b5468d519cb7768941eaefe99da4a191.png",
-            "time": "16:00 06/05",
-            "blv": "BLV Người Hầu",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-4fc6155594_95537fc7_20260506.png?v=95537fc7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-defd1eefbf",
           "name": "Damir Dzumhur vs Adrian Mannarino | 16:00 06/05",
           "type": "single",
@@ -1344,6 +1273,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-defd1eefbf_9cad2158_20260506.png?v=9cad2158",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-4fc6155594",
+          "name": "Zhang Zhizhen vs Daniel Altmaier | 16:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4fc6155594",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-4fc6155594",
+                  "name": "Zhang Zhizhen vs Daniel Altmaier",
+                  "streams": [
+                    {
+                      "id": "st-4fc6155594",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b8857d884b",
+                          "name": "BLV Người Hầu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fafd26137e4_9657/index.m3u8?expire=1778661286&sign=ecc8ec0c2b2f3d2547ff8faf0cacc716",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Rome, Italy Men Singles",
+            "team_a": "Zhang Zhizhen",
+            "team_b": "Daniel Altmaier",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b874080f10c2ad3da5fc4f39fb452af2.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b5468d519cb7768941eaefe99da4a191.png",
+            "time": "16:00 06/05",
+            "blv": "BLV Người Hầu",
+            "is_live": true,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-4fc6155594_95537fc7_20260506.png?v=95537fc7",
             "width": 1600,
             "height": 1200
           }
