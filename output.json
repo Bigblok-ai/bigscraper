@@ -1936,7 +1936,7 @@
     },
     {
       "id": "grp-9102198393",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2013,32 +2013,50 @@
           }
         },
         {
-          "id": "thapcam-0f6ba0e6fd",
-          "name": "TKON vs DŨNG PHẠM | 12:00 06/05",
+          "id": "thapcam-7f34ede650",
+          "name": "TKON vs DŨNG PHẠM | 11:30 06/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-0f6ba0e6fd",
+              "id": "src-7f34ede650",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-0f6ba0e6fd",
+                  "id": "ct-7f34ede650",
                   "name": "TKON vs DŨNG PHẠM",
                   "streams": [
                     {
-                      "id": "st-0f6ba0e6fd",
+                      "id": "st-7f34ede650",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6eaf357fdc",
+                          "name": "BLV Siêu Quậy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fac1a0137e4_26/index.m3u8?expire=1778646048&sign=633922ada0b4f8b01f1f8a0408226e01",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2051,16 +2069,16 @@
             "team_b": "DŨNG PHẠM",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2936bf875ffe749c113d3262a076d7f6.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/6de0b590389bd0a90fa9f62a82db7f69.png",
-            "time": "12:00 06/05",
+            "time": "11:30 06/05",
             "blv": "BLV Siêu Quậy",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0f6ba0e6fd_88db72fa_20260506.png?v=88db72fa",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7f34ede650_88db72fa_20260506.png?v=88db72fa",
             "width": 1600,
             "height": 1200
           }
