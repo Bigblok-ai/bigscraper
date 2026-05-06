@@ -11,11 +11,82 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-edb70b1bd9",
+          "name": "Australia U17 vs India U17 | 23:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-edb70b1bd9",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-edb70b1bd9",
+                  "name": "Australia U17 vs India U17",
+                  "streams": [
+                    {
+                      "id": "st-edb70b1bd9",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3056cfc359",
+                          "name": "BLV Người Cỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb5da551ddc_19092/index.m3u8?expire=1778685989&sign=16d5c1480668e0a56fda2e20b5a5e352",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Australia U17",
+            "team_b": "India U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7df4050f103d78f6d6a198896197ee30.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/603df20031dd4c1ff7c57750ade6f96d.png",
+            "time": "23:00 06/05",
+            "blv": "BLV Người Cỏ",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-edb70b1bd9_a551361d_20260506.png?v=a551361d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-be7d8538e3",
           "name": "Al-Wahda FC vs Al-Wasl SC",
@@ -225,59 +296,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c77705b654_29feaf0c_20260506.png?v=29feaf0c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-edb70b1bd9",
-          "name": "Australia U17 vs India U17 | 23:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-edb70b1bd9",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-edb70b1bd9",
-                  "name": "Australia U17 vs India U17",
-                  "streams": [
-                    {
-                      "id": "st-edb70b1bd9",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Australia U17",
-            "team_b": "India U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7df4050f103d78f6d6a198896197ee30.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/603df20031dd4c1ff7c57750ade6f96d.png",
-            "time": "23:00 06/05",
-            "blv": "BLV Người Cỏ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-edb70b1bd9_a551361d_20260506.png?v=a551361d",
             "width": 1600,
             "height": 1200
           }
@@ -707,59 +725,6 @@
           }
         },
         {
-          "id": "thapcam-9d42ec69af",
-          "name": "Sporting Kansas CityReserves vs Ventura County FC | 07:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9d42ec69af",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9d42ec69af",
-                  "name": "Sporting Kansas CityReserves vs Ventura County FC",
-                  "streams": [
-                    {
-                      "id": "st-9d42ec69af",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLS Next Pro",
-            "team_a": "Sporting Kansas CityReserves",
-            "team_b": "Ventura County FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c5593b106980072677a648800a11d8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f93ca58969938ab5583e30e71d8e31a4.png",
-            "time": "07:00 07/05",
-            "blv": "BLV Chân Đất",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9d42ec69af_2cc74613_20260506.png?v=2cc74613",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-60596e3e93",
           "name": "Macara vs Club Atletico Tigre | 07:00 07/05",
           "type": "single",
@@ -808,6 +773,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-60596e3e93_8d787b24_20260506.png?v=8d787b24",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-9d42ec69af",
+          "name": "Sporting Kansas CityReserves vs Ventura County FC | 07:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9d42ec69af",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-9d42ec69af",
+                  "name": "Sporting Kansas CityReserves vs Ventura County FC",
+                  "streams": [
+                    {
+                      "id": "st-9d42ec69af",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLS Next Pro",
+            "team_a": "Sporting Kansas CityReserves",
+            "team_b": "Ventura County FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c5593b106980072677a648800a11d8.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f93ca58969938ab5583e30e71d8e31a4.png",
+            "time": "07:00 07/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9d42ec69af_2cc74613_20260506.png?v=2cc74613",
             "width": 1600,
             "height": 1200
           }
@@ -1452,59 +1470,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bbef5adffa_d24903bd_20260506.png?v=d24903bd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-806f6435b8",
-          "name": "Marton Fucsovics vs Dino Prizmic | 23:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-806f6435b8",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-806f6435b8",
-                  "name": "Marton Fucsovics vs Dino Prizmic",
-                  "streams": [
-                    {
-                      "id": "st-806f6435b8",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Marton Fucsovics",
-            "team_b": "Dino Prizmic",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fb5c4f4216937f8918d76031ad60d744.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8bf80daa8f2b15e4117a90fe557e9ade.png",
-            "time": "23:00 06/05",
-            "blv": "BLV Người Sói",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-806f6435b8_dc4c2b31_20260506.png?v=dc4c2b31",
             "width": 1600,
             "height": 1200
           }
