@@ -17,77 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-e11bd9671f",
-          "name": "Slavia Sofia vs Septemvri Sofia | 21:30 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e11bd9671f",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e11bd9671f",
-                  "name": "Slavia Sofia vs Septemvri Sofia",
-                  "streams": [
-                    {
-                      "id": "st-e11bd9671f",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c61d720060",
-                          "name": "BLV Người Nhớt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb48ca51ddc_14232/index.m3u8?expire=1778680650&sign=6d54747ec28e9cefbca6dd6182538466",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bulgarian First League",
-            "team_a": "Slavia Sofia",
-            "team_b": "Septemvri Sofia",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e087c9b939975c0cb726253fc3c3e418.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a6f81856a35217b82fb2e20d28c3dcab.png",
-            "time": "21:30 06/05",
-            "blv": "BLV Người Nhớt",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e11bd9671f_9a457f88_20260506.png?v=9a457f88",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-2ca7038554",
           "name": "Selangor FC vs Thep Xanh Nam Dinh FC",
           "type": "single",
@@ -242,6 +171,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-be7d8538e3_ee345aba_20260506.png?v=ee345aba",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-e11bd9671f",
+          "name": "Slavia Sofia vs Septemvri Sofia",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e11bd9671f",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-e11bd9671f",
+                  "name": "Slavia Sofia vs Septemvri Sofia",
+                  "streams": [
+                    {
+                      "id": "st-e11bd9671f",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c61d720060",
+                          "name": "BLV Người Nhớt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb48ca51ddc_14232/index.m3u8?expire=1778680650&sign=6d54747ec28e9cefbca6dd6182538466",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bulgarian First League",
+            "team_a": "Slavia Sofia",
+            "team_b": "Septemvri Sofia",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e087c9b939975c0cb726253fc3c3e418.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a6f81856a35217b82fb2e20d28c3dcab.png",
+            "time": "",
+            "blv": "BLV Người Nhớt",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e11bd9671f_9a457f88_20260506.png?v=9a457f88",
             "width": 1600,
             "height": 1200
           }
