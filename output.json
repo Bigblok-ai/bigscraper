@@ -11,11 +11,82 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-5c8ddc303e",
+          "name": "Deportivo Cuenca vs San Lorenzo | 09:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5c8ddc303e",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-5c8ddc303e",
+                  "name": "Deportivo Cuenca vs San Lorenzo",
+                  "streams": [
+                    {
+                      "id": "st-5c8ddc303e",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-40d8da3a2d",
+                          "name": "BLV Người Điên",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fa9b8651ddc_1984/index.m3u8?expire=1778636294&sign=db34529011cae68f5a5c8faa23fbb00c",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Copa Sudamericana",
+            "team_a": "Deportivo Cuenca",
+            "team_b": "San Lorenzo",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/af5d08bcd181c66a5ff7724086d6c933.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/65d05eaf7edc601ae236107417b01cbf.png",
+            "time": "09:00 06/05",
+            "blv": "BLV Người Điên",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5c8ddc303e_86213044_20260506.png?v=86213044",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-567147769a",
           "name": "Barcelona SC(ECU) vs Boca Juniors",
@@ -225,59 +296,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8bf6887e8c_bde55a63_20260506.png?v=bde55a63",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-5c8ddc303e",
-          "name": "Deportivo Cuenca vs San Lorenzo | 09:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5c8ddc303e",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-5c8ddc303e",
-                  "name": "Deportivo Cuenca vs San Lorenzo",
-                  "streams": [
-                    {
-                      "id": "st-5c8ddc303e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CONMEBOL Copa Sudamericana",
-            "team_a": "Deportivo Cuenca",
-            "team_b": "San Lorenzo",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/af5d08bcd181c66a5ff7724086d6c933.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/65d05eaf7edc601ae236107417b01cbf.png",
-            "time": "09:00 06/05",
-            "blv": "BLV Người Điên",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5c8ddc303e_86213044_20260506.png?v=86213044",
             "width": 1600,
             "height": 1200
           }
@@ -495,59 +513,6 @@
           }
         },
         {
-          "id": "thapcam-90626ab069",
-          "name": "Sanfrecce Hiroshima vs Vissel Kobe | 13:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-90626ab069",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-90626ab069",
-                  "name": "Sanfrecce Hiroshima vs Vissel Kobe",
-                  "streams": [
-                    {
-                      "id": "st-90626ab069",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Sanfrecce Hiroshima",
-            "team_b": "Vissel Kobe",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c81d5ff7a33a4f6a9312a8703f619352.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d85cce27ab583e5b3cead155f02b098a.png",
-            "time": "13:00 06/05",
-            "blv": "BLV Người Páo",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-90626ab069_eb767d2a_20260506.png?v=eb767d2a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-cd6f8dec1a",
           "name": "FC Tokyo vs JEF United Ichihara Chiba | 13:00 06/05",
           "type": "single",
@@ -596,6 +561,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cd6f8dec1a_0978ff39_20260506.png?v=0978ff39",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-90626ab069",
+          "name": "Sanfrecce Hiroshima vs Vissel Kobe | 13:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-90626ab069",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-90626ab069",
+                  "name": "Sanfrecce Hiroshima vs Vissel Kobe",
+                  "streams": [
+                    {
+                      "id": "st-90626ab069",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Sanfrecce Hiroshima",
+            "team_b": "Vissel Kobe",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c81d5ff7a33a4f6a9312a8703f619352.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d85cce27ab583e5b3cead155f02b098a.png",
+            "time": "13:00 06/05",
+            "blv": "BLV Người Páo",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-90626ab069_eb767d2a_20260506.png?v=eb767d2a",
             "width": 1600,
             "height": 1200
           }
@@ -1237,59 +1255,6 @@
           }
         },
         {
-          "id": "thapcam-f7141d544a",
-          "name": "Spartak Moscow vs CSKA Moscow | 00:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f7141d544a",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f7141d544a",
-                  "name": "Spartak Moscow vs CSKA Moscow",
-                  "streams": [
-                    {
-                      "id": "st-f7141d544a",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Russian Cup",
-            "team_a": "Spartak Moscow",
-            "team_b": "CSKA Moscow",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b989806732eaf15246ab56e07d0b8a2e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1eae81e51945df5660e24dc6f0ea353c.png",
-            "time": "00:00 07/05",
-            "blv": "BLV Jayce",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f7141d544a_0ecad6d8_20260506.png?v=0ecad6d8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-b8c9827df2",
           "name": "Spartak Varna vs FC Dobrudzha | 00:00 07/05",
           "type": "single",
@@ -1338,6 +1303,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b8c9827df2_83d7f8e5_20260506.png?v=83d7f8e5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-f7141d544a",
+          "name": "Spartak Moscow vs CSKA Moscow | 00:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f7141d544a",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f7141d544a",
+                  "name": "Spartak Moscow vs CSKA Moscow",
+                  "streams": [
+                    {
+                      "id": "st-f7141d544a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Russian Cup",
+            "team_a": "Spartak Moscow",
+            "team_b": "CSKA Moscow",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b989806732eaf15246ab56e07d0b8a2e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1eae81e51945df5660e24dc6f0ea353c.png",
+            "time": "00:00 07/05",
+            "blv": "BLV Jayce",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f7141d544a_0ecad6d8_20260506.png?v=0ecad6d8",
             "width": 1600,
             "height": 1200
           }
