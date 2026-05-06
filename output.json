@@ -1659,6 +1659,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-8d203e3061",
+          "name": "Toluca vs Los Angeles FC | 08:30 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8d203e3061",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-8d203e3061",
+                  "name": "Toluca vs Los Angeles FC",
+                  "streams": [
+                    {
+                      "id": "st-8d203e3061",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CNCF CHL",
+            "team_a": "Toluca",
+            "team_b": "Los Angeles FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/725ccd5793be6b4f8dd917170dd17d04.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9c5ad5227377e12b87f77790d3d88c1c.png",
+            "time": "08:30 07/05",
+            "blv": "BLV Người Lạ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8d203e3061_d962b284_20260506.png?v=d962b284",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
