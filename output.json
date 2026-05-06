@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -105,8 +105,8 @@
           }
         },
         {
-          "id": "thapcam-9f7570287b",
-          "name": "Al-Sharjah vs Al Ain FC",
+          "id": "thapcam-b8c9827df2",
+          "name": "Spartak Varna vs FC Dobrudzha",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -120,23 +120,23 @@
           ],
           "sources": [
             {
-              "id": "src-9f7570287b",
+              "id": "src-b8c9827df2",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-9f7570287b",
-                  "name": "Al-Sharjah vs Al Ain FC",
+                  "id": "ct-b8c9827df2",
+                  "name": "Spartak Varna vs FC Dobrudzha",
                   "streams": [
                     {
-                      "id": "st-9f7570287b",
+                      "id": "st-b8c9827df2",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-4f005a4c1f",
-                          "name": "BLV Người Rừng",
+                          "id": "lnk-69665addfd",
+                          "name": "BLV Người Điên",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb6750137e4_148/index.m3u8?expire=1778688464&sign=fdea2ab920fcba2b4581de6b81c50ab0",
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb6d1351ddc_1984/index.m3u8?expire=1778689939&sign=3321cb876b69f72293d6e451435d5b70",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -156,13 +156,13 @@
             }
           ],
           "org_metadata": {
-            "league": "United Arab Emirates Adnoc Pro-League",
-            "team_a": "Al-Sharjah",
-            "team_b": "Al Ain FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c471de7682d1c900df7981bb2cf6536c.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cedb12f9c001f1b1cb11bc532967c33e.png",
+            "league": "Bulgarian First League",
+            "team_a": "Spartak Varna",
+            "team_b": "FC Dobrudzha",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/075bb7a438193c9a2f71330a817c0058.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/058ab0bb7d4a90ccef7c471cb9029b2f.png",
             "time": "",
-            "blv": "BLV Người Rừng",
+            "blv": "BLV Người Điên",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -170,78 +170,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9f7570287b_a064c84b_20260507.png?v=a064c84b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-f7141d544a",
-          "name": "Spartak Moscow vs CSKA Moscow",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f7141d544a",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f7141d544a",
-                  "name": "Spartak Moscow vs CSKA Moscow",
-                  "streams": [
-                    {
-                      "id": "st-f7141d544a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d7e032bacc",
-                          "name": "BLV Jayce",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb6b0e137e4_181/index.m3u8?expire=1778689422&sign=948e70c9a997abfb8beeb3b52a72441c",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Russian Cup",
-            "team_a": "Spartak Moscow",
-            "team_b": "CSKA Moscow",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b989806732eaf15246ab56e07d0b8a2e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1eae81e51945df5660e24dc6f0ea353c.png",
-            "time": "",
-            "blv": "BLV Jayce",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f7141d544a_0ecad6d8_20260507.png?v=0ecad6d8",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b8c9827df2_83d7f8e5_20260507.png?v=83d7f8e5",
             "width": 1600,
             "height": 1200
           }
@@ -335,8 +264,8 @@
           }
         },
         {
-          "id": "thapcam-b8c9827df2",
-          "name": "Spartak Varna vs FC Dobrudzha",
+          "id": "thapcam-f7141d544a",
+          "name": "Spartak Moscow vs CSKA Moscow",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -350,23 +279,23 @@
           ],
           "sources": [
             {
-              "id": "src-b8c9827df2",
+              "id": "src-f7141d544a",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-b8c9827df2",
-                  "name": "Spartak Varna vs FC Dobrudzha",
+                  "id": "ct-f7141d544a",
+                  "name": "Spartak Moscow vs CSKA Moscow",
                   "streams": [
                     {
-                      "id": "st-b8c9827df2",
+                      "id": "st-f7141d544a",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-69665addfd",
-                          "name": "BLV Người Điên",
+                          "id": "lnk-d7e032bacc",
+                          "name": "BLV Jayce",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb6d1351ddc_1984/index.m3u8?expire=1778689939&sign=3321cb876b69f72293d6e451435d5b70",
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb6b0e137e4_181/index.m3u8?expire=1778689422&sign=948e70c9a997abfb8beeb3b52a72441c",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -386,13 +315,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Bulgarian First League",
-            "team_a": "Spartak Varna",
-            "team_b": "FC Dobrudzha",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/075bb7a438193c9a2f71330a817c0058.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/058ab0bb7d4a90ccef7c471cb9029b2f.png",
+            "league": "Russian Cup",
+            "team_a": "Spartak Moscow",
+            "team_b": "CSKA Moscow",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b989806732eaf15246ab56e07d0b8a2e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1eae81e51945df5660e24dc6f0ea353c.png",
             "time": "",
-            "blv": "BLV Người Điên",
+            "blv": "BLV Jayce",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -400,7 +329,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b8c9827df2_83d7f8e5_20260507.png?v=83d7f8e5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f7141d544a_0ecad6d8_20260507.png?v=0ecad6d8",
             "width": 1600,
             "height": 1200
           }
@@ -830,59 +759,6 @@
           }
         },
         {
-          "id": "thapcam-994434c704",
-          "name": "Univ Catolica vs Cruzeiro Esporte Clube | 09:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-994434c704",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-994434c704",
-                  "name": "Univ Catolica vs Cruzeiro Esporte Clube",
-                  "streams": [
-                    {
-                      "id": "st-994434c704",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CONMEBOL Copa Libertadores",
-            "team_a": "Univ Catolica",
-            "team_b": "Cruzeiro Esporte Clube",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d2c51e33f6e7a7a3eed10d03fdb9ffb8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b1cac6380900d22bdb0d31763c658434.png",
-            "time": "09:00 07/05",
-            "blv": "BLV Tôn Quyền",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-994434c704_83cd0782_20260507.png?v=83cd0782",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-085739bc41",
           "name": "Alianza Atletico Sullana vs America de Cali | 09:00 07/05",
           "type": "single",
@@ -936,8 +812,8 @@
           }
         },
         {
-          "id": "thapcam-49d25c3d19",
-          "name": "Vietnam U17 Women vs Myanmar U17 Women | 18:30 07/05",
+          "id": "thapcam-994434c704",
+          "name": "Univ Catolica vs Cruzeiro Esporte Clube | 09:00 07/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -951,15 +827,15 @@
           ],
           "sources": [
             {
-              "id": "src-49d25c3d19",
+              "id": "src-994434c704",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-49d25c3d19",
-                  "name": "Vietnam U17 Women vs Myanmar U17 Women",
+                  "id": "ct-994434c704",
+                  "name": "Univ Catolica vs Cruzeiro Esporte Clube",
                   "streams": [
                     {
-                      "id": "st-49d25c3d19",
+                      "id": "st-994434c704",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -969,13 +845,13 @@
             }
           ],
           "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "Vietnam U17 Women",
-            "team_b": "Myanmar U17 Women",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0062546fba2350caff9e4b31101550c4.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0eff6ce301fcd86f8793b5b859ea050f.png",
-            "time": "18:30 07/05",
-            "blv": "BLV Cá Mập",
+            "league": "CONMEBOL Copa Libertadores",
+            "team_a": "Univ Catolica",
+            "team_b": "Cruzeiro Esporte Clube",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d2c51e33f6e7a7a3eed10d03fdb9ffb8.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b1cac6380900d22bdb0d31763c658434.png",
+            "time": "09:00 07/05",
+            "blv": "BLV Tôn Quyền",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -983,7 +859,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-49d25c3d19_f920b3de_20260507.png?v=f920b3de",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-994434c704_83cd0782_20260507.png?v=83cd0782",
             "width": 1600,
             "height": 1200
           }
@@ -1037,6 +913,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cf89fc132e_c8becba7_20260507.png?v=c8becba7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-49d25c3d19",
+          "name": "Vietnam U17 Women vs Myanmar U17 Women | 18:30 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-49d25c3d19",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-49d25c3d19",
+                  "name": "Vietnam U17 Women vs Myanmar U17 Women",
+                  "streams": [
+                    {
+                      "id": "st-49d25c3d19",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Vietnam U17 Women",
+            "team_b": "Myanmar U17 Women",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0062546fba2350caff9e4b31101550c4.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0eff6ce301fcd86f8793b5b859ea050f.png",
+            "time": "18:30 07/05",
+            "blv": "BLV Cá Mập",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-49d25c3d19_f920b3de_20260507.png?v=f920b3de",
             "width": 1600,
             "height": 1200
           }
