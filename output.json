@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -105,77 +105,6 @@
           }
         },
         {
-          "id": "thapcam-f7141d544a",
-          "name": "Spartak Moscow vs CSKA Moscow | 00:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f7141d544a",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f7141d544a",
-                  "name": "Spartak Moscow vs CSKA Moscow",
-                  "streams": [
-                    {
-                      "id": "st-f7141d544a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d7e032bacc",
-                          "name": "BLV Jayce",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb6b0e137e4_181/index.m3u8?expire=1778689422&sign=948e70c9a997abfb8beeb3b52a72441c",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Russian Cup",
-            "team_a": "Spartak Moscow",
-            "team_b": "CSKA Moscow",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b989806732eaf15246ab56e07d0b8a2e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1eae81e51945df5660e24dc6f0ea353c.png",
-            "time": "00:00 07/05",
-            "blv": "BLV Jayce",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f7141d544a_0ecad6d8_20260506.png?v=0ecad6d8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-b8c9827df2",
           "name": "Spartak Varna vs FC Dobrudzha | 00:00 07/05",
           "type": "single",
@@ -247,8 +176,8 @@
           }
         },
         {
-          "id": "thapcam-c77705b654",
-          "name": "Gandzasar Kapan vs FC Noah",
+          "id": "thapcam-f7141d544a",
+          "name": "Spartak Moscow vs CSKA Moscow | 00:00 07/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -262,23 +191,23 @@
           ],
           "sources": [
             {
-              "id": "src-c77705b654",
+              "id": "src-f7141d544a",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-c77705b654",
-                  "name": "Gandzasar Kapan vs FC Noah",
+                  "id": "ct-f7141d544a",
+                  "name": "Spartak Moscow vs CSKA Moscow",
                   "streams": [
                     {
-                      "id": "st-c77705b654",
+                      "id": "st-f7141d544a",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-1180b798c2",
-                          "name": "BLV Người Cò",
+                          "id": "lnk-d7e032bacc",
+                          "name": "BLV Jayce",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb5070137e4_14559/index.m3u8?expire=1778682608&sign=28a589d718c59c0955974cdd83e6e820",
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb6b0e137e4_181/index.m3u8?expire=1778689422&sign=948e70c9a997abfb8beeb3b52a72441c",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -298,13 +227,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Armenian Premier League",
-            "team_a": "Gandzasar Kapan",
-            "team_b": "FC Noah",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c00f2b8a2f32ddbc2fa44bb8f7c73a6b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5ef6703cd46b664af49e25a398161d6a.png",
-            "time": "",
-            "blv": "BLV Người Cò",
+            "league": "Russian Cup",
+            "team_a": "Spartak Moscow",
+            "team_b": "CSKA Moscow",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b989806732eaf15246ab56e07d0b8a2e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1eae81e51945df5660e24dc6f0ea353c.png",
+            "time": "00:00 07/05",
+            "blv": "BLV Jayce",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -312,7 +241,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c77705b654_29feaf0c_20260506.png?v=29feaf0c",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f7141d544a_0ecad6d8_20260506.png?v=0ecad6d8",
             "width": 1600,
             "height": 1200
           }
@@ -1475,8 +1404,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-e1e4347acd",
-          "name": "Aleksandar Vukic vs Patrick Kypson | 21:40 06/05",
+          "id": "thapcam-81db9ddc4f",
+          "name": "Marton Fucsovics vs Dino Prizmic | 23:50 06/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1490,23 +1419,23 @@
           ],
           "sources": [
             {
-              "id": "src-e1e4347acd",
+              "id": "src-81db9ddc4f",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-e1e4347acd",
-                  "name": "Aleksandar Vukic vs Patrick Kypson",
+                  "id": "ct-81db9ddc4f",
+                  "name": "Marton Fucsovics vs Dino Prizmic",
                   "streams": [
                     {
-                      "id": "st-e1e4347acd",
+                      "id": "st-81db9ddc4f",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-c22c859207",
+                          "id": "lnk-789d7e8848",
                           "name": "BLV Người Sói",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb2c0a137e4_742/index.m3u8?expire=1778673290&sign=ab8bc17f79836c505585d28f7b3d5371",
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb7256137e4_742/index.m3u8?expire=1778691286&sign=cc35f36b41cc5ed834c106baf19c67be",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1527,11 +1456,11 @@
           ],
           "org_metadata": {
             "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Aleksandar Vukic",
-            "team_b": "Patrick Kypson",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/654c18a7059500ffa86be27dea1d25f1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/73d43cd0f247b84c962ab54640610d07.png",
-            "time": "21:40 06/05",
+            "team_a": "Marton Fucsovics",
+            "team_b": "Dino Prizmic",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fb5c4f4216937f8918d76031ad60d744.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8bf80daa8f2b15e4117a90fe557e9ade.png",
+            "time": "23:50 06/05",
             "blv": "BLV Người Sói",
             "is_live": true,
             "cate_name": "Tennis"
@@ -1540,7 +1469,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e1e4347acd_f683be1a_20260506.png?v=f683be1a",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-81db9ddc4f_dc4c2b31_20260506.png?v=dc4c2b31",
             "width": 1600,
             "height": 1200
           }
