@@ -17,77 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-8bf6887e8c",
-          "name": "Tigres UANL vs Nashville | 08:30 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8bf6887e8c",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-8bf6887e8c",
-                  "name": "Tigres UANL vs Nashville",
-                  "streams": [
-                    {
-                      "id": "st-8bf6887e8c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fa943ae478",
-                          "name": "BLV Người Nhện",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fa93e2137e4_32/index.m3u8?expire=1778634338&sign=63b72dfbb514d64a0c0222d9db7c7e44",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CNCF CHL",
-            "team_a": "Tigres UANL",
-            "team_b": "Nashville",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a7df6424c12ac9b7a6e5ca3ff953d5b3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/eafb707bc6f8028dc71923176915c8e3.png",
-            "time": "08:30 06/05",
-            "blv": "BLV Người Nhện",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8bf6887e8c_bde55a63_20260506.png?v=bde55a63",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-567147769a",
           "name": "Barcelona SC(ECU) vs Boca Juniors",
           "type": "single",
@@ -225,6 +154,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5d515f3fe1_da873fde_20260506.png?v=da873fde",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-8bf6887e8c",
+          "name": "Tigres UANL vs Nashville",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8bf6887e8c",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-8bf6887e8c",
+                  "name": "Tigres UANL vs Nashville",
+                  "streams": [
+                    {
+                      "id": "st-8bf6887e8c",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa943ae478",
+                          "name": "BLV Người Nhện",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fa93e2137e4_32/index.m3u8?expire=1778634338&sign=63b72dfbb514d64a0c0222d9db7c7e44",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CNCF CHL",
+            "team_a": "Tigres UANL",
+            "team_b": "Nashville",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a7df6424c12ac9b7a6e5ca3ff953d5b3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/eafb707bc6f8028dc71923176915c8e3.png",
+            "time": "",
+            "blv": "BLV Người Nhện",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8bf6887e8c_bde55a63_20260506.png?v=bde55a63",
             "width": 1600,
             "height": 1200
           }
@@ -601,59 +601,6 @@
           }
         },
         {
-          "id": "thapcam-ee1d59ae68",
-          "name": "Machida Zelvia vs Yokohama F. Marinos | 14:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ee1d59ae68",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-ee1d59ae68",
-                  "name": "Machida Zelvia vs Yokohama F. Marinos",
-                  "streams": [
-                    {
-                      "id": "st-ee1d59ae68",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Machida Zelvia",
-            "team_b": "Yokohama F. Marinos",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/539c489a7bd94dd9d785308fd0f0a6b9.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/78ddaaa79d9502f5e2df0fbb6261f937.png",
-            "time": "14:00 06/05",
-            "blv": "BLV Lềnh",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ee1d59ae68_3275aae7_20260506.png?v=3275aae7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-d96061e90f",
           "name": "Kashima Antlers vs Mito Hollyhock | 14:00 06/05",
           "type": "single",
@@ -702,6 +649,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d96061e90f_54ea3186_20260506.png?v=54ea3186",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-ee1d59ae68",
+          "name": "Machida Zelvia vs Yokohama F. Marinos | 14:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ee1d59ae68",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-ee1d59ae68",
+                  "name": "Machida Zelvia vs Yokohama F. Marinos",
+                  "streams": [
+                    {
+                      "id": "st-ee1d59ae68",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Machida Zelvia",
+            "team_b": "Yokohama F. Marinos",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/539c489a7bd94dd9d785308fd0f0a6b9.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/78ddaaa79d9502f5e2df0fbb6261f937.png",
+            "time": "14:00 06/05",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ee1d59ae68_3275aae7_20260506.png?v=3275aae7",
             "width": 1600,
             "height": 1200
           }
@@ -1237,59 +1237,6 @@
           }
         },
         {
-          "id": "thapcam-b8c9827df2",
-          "name": "Spartak Varna vs FC Dobrudzha | 00:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b8c9827df2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-b8c9827df2",
-                  "name": "Spartak Varna vs FC Dobrudzha",
-                  "streams": [
-                    {
-                      "id": "st-b8c9827df2",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bulgarian First League",
-            "team_a": "Spartak Varna",
-            "team_b": "FC Dobrudzha",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/075bb7a438193c9a2f71330a817c0058.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/058ab0bb7d4a90ccef7c471cb9029b2f.png",
-            "time": "00:00 07/05",
-            "blv": "BLV Người Điên",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b8c9827df2_83d7f8e5_20260506.png?v=83d7f8e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-f7141d544a",
           "name": "Spartak Moscow vs CSKA Moscow | 00:00 07/05",
           "type": "single",
@@ -1338,6 +1285,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f7141d544a_0ecad6d8_20260506.png?v=0ecad6d8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-b8c9827df2",
+          "name": "Spartak Varna vs FC Dobrudzha | 00:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b8c9827df2",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-b8c9827df2",
+                  "name": "Spartak Varna vs FC Dobrudzha",
+                  "streams": [
+                    {
+                      "id": "st-b8c9827df2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bulgarian First League",
+            "team_a": "Spartak Varna",
+            "team_b": "FC Dobrudzha",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/075bb7a438193c9a2f71330a817c0058.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/058ab0bb7d4a90ccef7c471cb9029b2f.png",
+            "time": "00:00 07/05",
+            "blv": "BLV Người Điên",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b8c9827df2_83d7f8e5_20260506.png?v=83d7f8e5",
             "width": 1600,
             "height": 1200
           }
