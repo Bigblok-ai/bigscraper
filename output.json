@@ -1309,7 +1309,7 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1386,59 +1386,6 @@
           }
         },
         {
-          "id": "thapcam-635ecb553f",
-          "name": "Marton Fucsovics vs Dino Prizmic | 23:30 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-635ecb553f",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-635ecb553f",
-                  "name": "Marton Fucsovics vs Dino Prizmic",
-                  "streams": [
-                    {
-                      "id": "st-635ecb553f",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Marton Fucsovics",
-            "team_b": "Dino Prizmic",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fb5c4f4216937f8918d76031ad60d744.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8bf80daa8f2b15e4117a90fe557e9ade.png",
-            "time": "23:30 06/05",
-            "blv": "BLV Người Sói",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-635ecb553f_dc4c2b31_20260506.png?v=dc4c2b31",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-c3975009c0",
           "name": "Jacob Fearnley vs Giovanni Mpetshi Perricard | 23:30 06/05",
           "type": "single",
@@ -1446,10 +1393,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1464,7 +1411,25 @@
                     {
                       "id": "st-c3975009c0",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-63ec931d95",
+                          "name": "BLV Người Hầu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb676d137e4_9657/index.m3u8?expire=1778688493&sign=7080f19e0e41da4f9d001565e277d654",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1479,7 +1444,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d78317f2cd6dbd0b02cd7565e5c93a45.png",
             "time": "23:30 06/05",
             "blv": "BLV Người Hầu",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Tennis"
           },
           "image": {
