@@ -11,153 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-90626ab069",
-          "name": "Sanfrecce Hiroshima vs Vissel Kobe | 13:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-90626ab069",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-90626ab069",
-                  "name": "Sanfrecce Hiroshima vs Vissel Kobe",
-                  "streams": [
-                    {
-                      "id": "st-90626ab069",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-394a3faed2",
-                          "name": "BLV Người Páo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69facd38137e4_19533/index.m3u8?expire=1778649016&sign=844e9bbf9a28c8dd275260da9fbd67a2",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Sanfrecce Hiroshima",
-            "team_b": "Vissel Kobe",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c81d5ff7a33a4f6a9312a8703f619352.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d85cce27ab583e5b3cead155f02b098a.png",
-            "time": "13:00 06/05",
-            "blv": "BLV Người Páo",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-90626ab069_eb767d2a_20260506.png?v=eb767d2a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-7f366134db",
-          "name": "V-Varen Nagasaki vs Fagiano Okayama",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7f366134db",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-7f366134db",
-                  "name": "V-Varen Nagasaki vs Fagiano Okayama",
-                  "streams": [
-                    {
-                      "id": "st-7f366134db",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-29404b7702",
-                          "name": "BLV Tôn Quyền",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fab88351ddc_793/index.m3u8?expire=1778643715&sign=f8577e8c1e8612ee9adc459ee8d0b05b",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "V-Varen Nagasaki",
-            "team_b": "Fagiano Okayama",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b28ace839956d8eacce11926ea5e43b3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fb5c6121bf5b351f60ebf8ffd5b9d887.png",
-            "time": "",
-            "blv": "BLV Tôn Quyền",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7f366134db_1d104a62_20260506.png?v=1d104a62",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-46e46624a7",
           "name": "Shimizu S-Pulse vs Cerezo Osaka",
@@ -225,6 +83,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46e46624a7_80dbc6b0_20260506.png?v=80dbc6b0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-06d1c1ee7a",
+          "name": "Nagoya Grampus vs Gamba Osaka",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-06d1c1ee7a",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-06d1c1ee7a",
+                  "name": "Nagoya Grampus vs Gamba Osaka",
+                  "streams": [
+                    {
+                      "id": "st-06d1c1ee7a",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0916dd4e2d",
+                          "name": "BLV Max",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fac41c137e4_35/index.m3u8?expire=1778646684&sign=8e6233ab9124863e1643574225a06649",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Nagoya Grampus",
+            "team_b": "Gamba Osaka",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/32aa68e1fa3d62dad572d19b21a09353.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/91008a96b5de8c75376d17057f89890e.png",
+            "time": "",
+            "blv": "BLV Max",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-06d1c1ee7a_6150466f_20260506.png?v=6150466f",
             "width": 1600,
             "height": 1200
           }
@@ -301,8 +230,8 @@
           }
         },
         {
-          "id": "thapcam-06d1c1ee7a",
-          "name": "Nagoya Grampus vs Gamba Osaka",
+          "id": "thapcam-90626ab069",
+          "name": "Sanfrecce Hiroshima vs Vissel Kobe",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -316,23 +245,23 @@
           ],
           "sources": [
             {
-              "id": "src-06d1c1ee7a",
+              "id": "src-90626ab069",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-06d1c1ee7a",
-                  "name": "Nagoya Grampus vs Gamba Osaka",
+                  "id": "ct-90626ab069",
+                  "name": "Sanfrecce Hiroshima vs Vissel Kobe",
                   "streams": [
                     {
-                      "id": "st-06d1c1ee7a",
+                      "id": "st-90626ab069",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-0916dd4e2d",
-                          "name": "BLV Max",
+                          "id": "lnk-394a3faed2",
+                          "name": "BLV Người Páo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fac41c137e4_35/index.m3u8?expire=1778646684&sign=8e6233ab9124863e1643574225a06649",
+                          "url": "https://cdn-hls.phogatv8.com/live/69facd38137e4_19533/index.m3u8?expire=1778649016&sign=844e9bbf9a28c8dd275260da9fbd67a2",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -353,12 +282,12 @@
           ],
           "org_metadata": {
             "league": "Japanese J1 League",
-            "team_a": "Nagoya Grampus",
-            "team_b": "Gamba Osaka",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/32aa68e1fa3d62dad572d19b21a09353.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/91008a96b5de8c75376d17057f89890e.png",
+            "team_a": "Sanfrecce Hiroshima",
+            "team_b": "Vissel Kobe",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c81d5ff7a33a4f6a9312a8703f619352.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d85cce27ab583e5b3cead155f02b098a.png",
             "time": "",
-            "blv": "BLV Max",
+            "blv": "BLV Người Páo",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -366,7 +295,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-06d1c1ee7a_6150466f_20260506.png?v=6150466f",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-90626ab069_eb767d2a_20260506.png?v=eb767d2a",
             "width": 1600,
             "height": 1200
           }
@@ -849,59 +778,6 @@
           }
         },
         {
-          "id": "thapcam-c850296531",
-          "name": "Shabab Al Ahli vs Al-Nasr Dubai | 23:45 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c850296531",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-c850296531",
-                  "name": "Shabab Al Ahli vs Al-Nasr Dubai",
-                  "streams": [
-                    {
-                      "id": "st-c850296531",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United Arab Emirates Adnoc Pro-League",
-            "team_a": "Shabab Al Ahli",
-            "team_b": "Al-Nasr Dubai",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/05e87b1dbb904915a4a97fc095b73d20.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2011473c10a119e01f2085bb836b62b2.png",
-            "time": "23:45 06/05",
-            "blv": "BLV Người Ngố",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c850296531_981d3f6c_20260506.png?v=981d3f6c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-9f7570287b",
           "name": "Al-Sharjah vs Al Ain FC | 23:45 06/05",
           "type": "single",
@@ -950,6 +826,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9f7570287b_a064c84b_20260506.png?v=a064c84b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-c850296531",
+          "name": "Shabab Al Ahli vs Al-Nasr Dubai | 23:45 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c850296531",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-c850296531",
+                  "name": "Shabab Al Ahli vs Al-Nasr Dubai",
+                  "streams": [
+                    {
+                      "id": "st-c850296531",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "United Arab Emirates Adnoc Pro-League",
+            "team_a": "Shabab Al Ahli",
+            "team_b": "Al-Nasr Dubai",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/05e87b1dbb904915a4a97fc095b73d20.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2011473c10a119e01f2085bb836b62b2.png",
+            "time": "23:45 06/05",
+            "blv": "BLV Người Ngố",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c850296531_981d3f6c_20260506.png?v=981d3f6c",
             "width": 1600,
             "height": 1200
           }
@@ -1485,59 +1414,6 @@
           }
         },
         {
-          "id": "thapcam-994434c704",
-          "name": "Univ Catolica vs Cruzeiro Esporte Clube | 09:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-994434c704",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-994434c704",
-                  "name": "Univ Catolica vs Cruzeiro Esporte Clube",
-                  "streams": [
-                    {
-                      "id": "st-994434c704",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CONMEBOL Copa Libertadores",
-            "team_a": "Univ Catolica",
-            "team_b": "Cruzeiro Esporte Clube",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d2c51e33f6e7a7a3eed10d03fdb9ffb8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b1cac6380900d22bdb0d31763c658434.png",
-            "time": "09:00 07/05",
-            "blv": "BLV Tôn Quyền",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-994434c704_83cd0782_20260506.png?v=83cd0782",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-085739bc41",
           "name": "Alianza Atletico Sullana vs America de Cali | 09:00 07/05",
           "type": "single",
@@ -1586,6 +1462,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-085739bc41_c505f908_20260506.png?v=c505f908",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-994434c704",
+          "name": "Univ Catolica vs Cruzeiro Esporte Clube | 09:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-994434c704",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-994434c704",
+                  "name": "Univ Catolica vs Cruzeiro Esporte Clube",
+                  "streams": [
+                    {
+                      "id": "st-994434c704",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Copa Libertadores",
+            "team_a": "Univ Catolica",
+            "team_b": "Cruzeiro Esporte Clube",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d2c51e33f6e7a7a3eed10d03fdb9ffb8.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b1cac6380900d22bdb0d31763c658434.png",
+            "time": "09:00 07/05",
+            "blv": "BLV Tôn Quyền",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-994434c704_83cd0782_20260506.png?v=83cd0782",
             "width": 1600,
             "height": 1200
           }
@@ -1937,7 +1866,7 @@
     },
     {
       "id": "grp-9102198393",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2080,77 +2009,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7f34ede650_88db72fa_20260506.png?v=88db72fa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-8629473e87",
-          "name": "ALBERT JANUATA vs TÀI VÀ | 12:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8629473e87",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-8629473e87",
-                  "name": "ALBERT JANUATA vs TÀI VÀ",
-                  "streams": [
-                    {
-                      "id": "st-8629473e87",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f5d629c003",
-                          "name": "BLV Jayce",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fac29751ddc_181/index.m3u8?expire=1778646295&sign=a792546d5bd9ec96a9e5c078b7c02181",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
-            "team_a": "ALBERT JANUATA",
-            "team_b": "TÀI VÀ",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/9a42d2b7a4e4ded4d9bfc019f0b7d60d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/86faff0d8e170af373006658ec326823.png",
-            "time": "12:00 06/05",
-            "blv": "BLV Jayce",
-            "is_live": true,
-            "cate_name": "Billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8629473e87_7fe30a67_20260506.png?v=7fe30a67",
             "width": 1600,
             "height": 1200
           }
