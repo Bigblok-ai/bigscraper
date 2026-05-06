@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-8bf6887e8c",
-          "name": "Tigres UANL vs Nashville",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8bf6887e8c",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-8bf6887e8c",
-                  "name": "Tigres UANL vs Nashville",
-                  "streams": [
-                    {
-                      "id": "st-8bf6887e8c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fa943ae478",
-                          "name": "BLV Người Nhện",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fa93e2137e4_32/index.m3u8?expire=1778634338&sign=63b72dfbb514d64a0c0222d9db7c7e44",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CNCF CHL",
-            "team_a": "Tigres UANL",
-            "team_b": "Nashville",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a7df6424c12ac9b7a6e5ca3ff953d5b3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/eafb707bc6f8028dc71923176915c8e3.png",
-            "time": "",
-            "blv": "BLV Người Nhện",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8bf6887e8c_bde55a63_20260506.png?v=bde55a63",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-5c8ddc303e",
           "name": "Deportivo Cuenca vs San Lorenzo",
@@ -159,59 +88,6 @@
           }
         },
         {
-          "id": "thapcam-46e46624a7",
-          "name": "Shimizu S-Pulse vs Cerezo Osaka | 11:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-46e46624a7",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-46e46624a7",
-                  "name": "Shimizu S-Pulse vs Cerezo Osaka",
-                  "streams": [
-                    {
-                      "id": "st-46e46624a7",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Shimizu S-Pulse",
-            "team_b": "Cerezo Osaka",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fa4105f0408ef893d941e70ae003ab4c.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ab10ee503e539e55a9a11a9ff202405a.png",
-            "time": "11:00 06/05",
-            "blv": "BLV Người Rừng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46e46624a7_80dbc6b0_20260506.png?v=80dbc6b0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-7f366134db",
           "name": "V-Varen Nagasaki vs Fagiano Okayama | 11:00 06/05",
           "type": "single",
@@ -260,6 +136,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7f366134db_1d104a62_20260506.png?v=1d104a62",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-46e46624a7",
+          "name": "Shimizu S-Pulse vs Cerezo Osaka | 11:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-46e46624a7",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-46e46624a7",
+                  "name": "Shimizu S-Pulse vs Cerezo Osaka",
+                  "streams": [
+                    {
+                      "id": "st-46e46624a7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Shimizu S-Pulse",
+            "team_b": "Cerezo Osaka",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fa4105f0408ef893d941e70ae003ab4c.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ab10ee503e539e55a9a11a9ff202405a.png",
+            "time": "11:00 06/05",
+            "blv": "BLV Người Rừng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46e46624a7_80dbc6b0_20260506.png?v=80dbc6b0",
             "width": 1600,
             "height": 1200
           }
