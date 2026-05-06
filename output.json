@@ -11,11 +11,153 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-ee1d59ae68",
+          "name": "Machida Zelvia vs Yokohama F. Marinos | 14:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ee1d59ae68",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-ee1d59ae68",
+                  "name": "Machida Zelvia vs Yokohama F. Marinos",
+                  "streams": [
+                    {
+                      "id": "st-ee1d59ae68",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-350b52f1c2",
+                          "name": "BLV Lềnh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fadfa2137e4_1549/index.m3u8?expire=1778653730&sign=340ba16b2b967b5f8dbd6f97e941d15d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Machida Zelvia",
+            "team_b": "Yokohama F. Marinos",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/539c489a7bd94dd9d785308fd0f0a6b9.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/78ddaaa79d9502f5e2df0fbb6261f937.png",
+            "time": "14:00 06/05",
+            "blv": "BLV Lềnh",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ee1d59ae68_3275aae7_20260506.png?v=3275aae7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-d96061e90f",
+          "name": "Kashima Antlers vs Mito Hollyhock | 14:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d96061e90f",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d96061e90f",
+                  "name": "Kashima Antlers vs Mito Hollyhock",
+                  "streams": [
+                    {
+                      "id": "st-d96061e90f",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-48128a63eb",
+                          "name": "BLV Người Ngố",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fae0e6137e4_14/index.m3u8?expire=1778654054&sign=869b0e77e937ef7168438319a36396d7",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Kashima Antlers",
+            "team_b": "Mito Hollyhock",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/90ca524b1b1c17911b1bf8e425c8d96d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ead844240532c4e12d3eb45d2087924.png",
+            "time": "14:00 06/05",
+            "blv": "BLV Người Ngố",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d96061e90f_54ea3186_20260506.png?v=54ea3186",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-06d1c1ee7a",
           "name": "Nagoya Grampus vs Gamba Osaka",
@@ -159,77 +301,6 @@
           }
         },
         {
-          "id": "thapcam-cd6f8dec1a",
-          "name": "FC Tokyo vs JEF United Ichihara Chiba",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cd6f8dec1a",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-cd6f8dec1a",
-                  "name": "FC Tokyo vs JEF United Ichihara Chiba",
-                  "streams": [
-                    {
-                      "id": "st-cd6f8dec1a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ace330d18",
-                          "name": "BLV Người Cò",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fae320137e4_14559/index.m3u8?expire=1778654624&sign=7482375ec66b1734b5185f0561f865e7",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "FC Tokyo",
-            "team_b": "JEF United Ichihara Chiba",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/333df39860930a21cf72b4e9664723ab.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ce2dfe0c36e6a9774eaecf9731375b6.png",
-            "time": "",
-            "blv": "BLV Người Cò",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cd6f8dec1a_0978ff39_20260506.png?v=0978ff39",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-90626ab069",
           "name": "Sanfrecce Hiroshima vs Vissel Kobe",
           "type": "single",
@@ -296,112 +367,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-90626ab069_eb767d2a_20260506.png?v=eb767d2a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-ee1d59ae68",
-          "name": "Machida Zelvia vs Yokohama F. Marinos | 14:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ee1d59ae68",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-ee1d59ae68",
-                  "name": "Machida Zelvia vs Yokohama F. Marinos",
-                  "streams": [
-                    {
-                      "id": "st-ee1d59ae68",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Machida Zelvia",
-            "team_b": "Yokohama F. Marinos",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/539c489a7bd94dd9d785308fd0f0a6b9.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/78ddaaa79d9502f5e2df0fbb6261f937.png",
-            "time": "14:00 06/05",
-            "blv": "BLV Lềnh",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ee1d59ae68_3275aae7_20260506.png?v=3275aae7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-d96061e90f",
-          "name": "Kashima Antlers vs Mito Hollyhock | 14:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d96061e90f",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d96061e90f",
-                  "name": "Kashima Antlers vs Mito Hollyhock",
-                  "streams": [
-                    {
-                      "id": "st-d96061e90f",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Kashima Antlers",
-            "team_b": "Mito Hollyhock",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/90ca524b1b1c17911b1bf8e425c8d96d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ead844240532c4e12d3eb45d2087924.png",
-            "time": "14:00 06/05",
-            "blv": "BLV Người Ngố",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d96061e90f_54ea3186_20260506.png?v=54ea3186",
             "width": 1600,
             "height": 1200
           }
