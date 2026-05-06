@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -154,6 +154,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6180f378f0_c70b6046_20260506.png?v=c70b6046",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-cd6f8dec1a",
+          "name": "FC Tokyo vs JEF United Ichihara Chiba",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cd6f8dec1a",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-cd6f8dec1a",
+                  "name": "FC Tokyo vs JEF United Ichihara Chiba",
+                  "streams": [
+                    {
+                      "id": "st-cd6f8dec1a",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ace330d18",
+                          "name": "BLV Người Cò",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fae320137e4_14559/index.m3u8?expire=1778654624&sign=7482375ec66b1734b5185f0561f865e7",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "FC Tokyo",
+            "team_b": "JEF United Ichihara Chiba",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/333df39860930a21cf72b4e9664723ab.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ce2dfe0c36e6a9774eaecf9731375b6.png",
+            "time": "",
+            "blv": "BLV Người Cò",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cd6f8dec1a_0978ff39_20260506.png?v=0978ff39",
             "width": 1600,
             "height": 1200
           }
