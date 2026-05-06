@@ -11,11 +11,99 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-a32d80e823",
+          "name": "South Korea U17 vs United Arab Emirates U17 | 00:30 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a32d80e823",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-a32d80e823",
+                  "name": "South Korea U17 vs United Arab Emirates U17",
+                  "streams": [
+                    {
+                      "id": "st-a32d80e823",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-390864fd88",
+                          "name": "BLV Tôn Quyền",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fa221651ddc_793/index.m3u8?expire=1778605206&sign=5dce17fa0cdbba4d0419ad6dcaa9663a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-530956f1f0",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb733b137e4_32/index.m3u8?expire=1778691515&sign=056eda9feafe1681a751f324fd55be69",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "South Korea U17",
+            "team_b": "United Arab Emirates U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/900e5c48f63a866d738d166729599162.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c6a69c23ab69873f6e96868f5f0abacb.png",
+            "time": "00:30 07/05",
+            "blv": "BLV Tôn Quyền",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a32d80e823_a2e34ac9_20260507.png?v=a2e34ac9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-edb70b1bd9",
           "name": "Australia U17 vs India U17",
@@ -472,59 +560,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b8c9827df2_83d7f8e5_20260507.png?v=83d7f8e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-a32d80e823",
-          "name": "South Korea U17 vs United Arab Emirates U17 | 00:30 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a32d80e823",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-a32d80e823",
-                  "name": "South Korea U17 vs United Arab Emirates U17",
-                  "streams": [
-                    {
-                      "id": "st-a32d80e823",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "South Korea U17",
-            "team_b": "United Arab Emirates U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/900e5c48f63a866d738d166729599162.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c6a69c23ab69873f6e96868f5f0abacb.png",
-            "time": "00:30 07/05",
-            "blv": "BLV Tôn Quyền",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a32d80e823_a2e34ac9_20260507.png?v=a2e34ac9",
             "width": 1600,
             "height": 1200
           }
