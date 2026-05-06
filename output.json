@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-e11bd9671f",
-          "name": "Slavia Sofia vs Septemvri Sofia",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e11bd9671f",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e11bd9671f",
-                  "name": "Slavia Sofia vs Septemvri Sofia",
-                  "streams": [
-                    {
-                      "id": "st-e11bd9671f",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c61d720060",
-                          "name": "BLV Người Nhớt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb48ca51ddc_14232/index.m3u8?expire=1778680650&sign=6d54747ec28e9cefbca6dd6182538466",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bulgarian First League",
-            "team_a": "Slavia Sofia",
-            "team_b": "Septemvri Sofia",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e087c9b939975c0cb726253fc3c3e418.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a6f81856a35217b82fb2e20d28c3dcab.png",
-            "time": "",
-            "blv": "BLV Người Nhớt",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e11bd9671f_9a457f88_20260506.png?v=9a457f88",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-c77705b654",
           "name": "Gandzasar Kapan vs FC Noah",
@@ -654,59 +583,6 @@
           }
         },
         {
-          "id": "thapcam-60596e3e93",
-          "name": "Macara vs Club Atletico Tigre | 07:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-60596e3e93",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-60596e3e93",
-                  "name": "Macara vs Club Atletico Tigre",
-                  "streams": [
-                    {
-                      "id": "st-60596e3e93",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CONMEBOL Copa Sudamericana",
-            "team_a": "Macara",
-            "team_b": "Club Atletico Tigre",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d138a4d0829205be8e477b43d95b138d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/95c9ef810563d777a5330b142f9ba38b.png",
-            "time": "07:00 07/05",
-            "blv": "BLV Người Nhớt",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-60596e3e93_8d787b24_20260506.png?v=8d787b24",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-9d42ec69af",
           "name": "Sporting Kansas CityReserves vs Ventura County FC | 07:00 07/05",
           "type": "single",
@@ -755,6 +631,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9d42ec69af_2cc74613_20260506.png?v=2cc74613",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-60596e3e93",
+          "name": "Macara vs Club Atletico Tigre | 07:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-60596e3e93",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-60596e3e93",
+                  "name": "Macara vs Club Atletico Tigre",
+                  "streams": [
+                    {
+                      "id": "st-60596e3e93",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Copa Sudamericana",
+            "team_a": "Macara",
+            "team_b": "Club Atletico Tigre",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d138a4d0829205be8e477b43d95b138d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/95c9ef810563d777a5330b142f9ba38b.png",
+            "time": "07:00 07/05",
+            "blv": "BLV Người Nhớt",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-60596e3e93_8d787b24_20260506.png?v=8d787b24",
             "width": 1600,
             "height": 1200
           }
