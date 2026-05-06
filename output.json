@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-6da0246498",
-          "name": "Johor Darul Ta'zim FC vs Buriram United",
+          "id": "thapcam-be7d8538e3",
+          "name": "Al-Wahda FC vs Al-Wasl SC | 21:05 06/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,40 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-6da0246498",
+              "id": "src-be7d8538e3",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-6da0246498",
-                  "name": "Johor Darul Ta'zim FC vs Buriram United",
+                  "id": "ct-be7d8538e3",
+                  "name": "Al-Wahda FC vs Al-Wasl SC",
                   "streams": [
                     {
-                      "id": "st-6da0246498",
+                      "id": "st-be7d8538e3",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-ca3838ad3d",
-                          "name": "BLV Người Cỏ",
+                          "id": "lnk-fa67b56306",
+                          "name": "BLV Người Rừng",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb26d2137e4_19092/index.m3u8?expire=1778671954&sign=79c8e46fb3bb17e5f142d2c697bb1346",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-0272c9d222",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb202a51ddc_35/index.m3u8?expire=1778670250&sign=e882b71756db5b2aad4b9d8abf4fb461",
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb3c4451ddc_148/index.m3u8?expire=1778677444&sign=1c8097292ea67e6d59326f943569bf28",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -85,13 +68,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Asean Club Championship Shopee Cup",
-            "team_a": "Johor Darul Ta'zim FC",
-            "team_b": "Buriram United",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3ab85cf20a3ed001a60a9fcd8ec09afe.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/649a85f258f62ec83a62983488e4b347.png",
-            "time": "",
-            "blv": "BLV Người Cỏ",
+            "league": "United Arab Emirates Adnoc Pro-League",
+            "team_a": "Al-Wahda FC",
+            "team_b": "Al-Wasl SC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/da5a07224920e4856d3b14e7e1a86741.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/17b767b98695df2fb512e992dd8a7af4.png",
+            "time": "21:05 06/05",
+            "blv": "BLV Người Rừng",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -99,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6da0246498_398fdfb8_20260506.png?v=398fdfb8",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-be7d8538e3_ee345aba_20260506.png?v=ee345aba",
             "width": 1600,
             "height": 1200
           }
@@ -188,59 +171,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2ca7038554_fd7e1cc6_20260506.png?v=fd7e1cc6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-be7d8538e3",
-          "name": "Al-Wahda FC vs Al-Wasl SC | 21:05 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-be7d8538e3",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-be7d8538e3",
-                  "name": "Al-Wahda FC vs Al-Wasl SC",
-                  "streams": [
-                    {
-                      "id": "st-be7d8538e3",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United Arab Emirates Adnoc Pro-League",
-            "team_a": "Al-Wahda FC",
-            "team_b": "Al-Wasl SC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/da5a07224920e4856d3b14e7e1a86741.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/17b767b98695df2fb512e992dd8a7af4.png",
-            "time": "21:05 06/05",
-            "blv": "BLV Người Rừng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-be7d8538e3_ee345aba_20260506.png?v=ee345aba",
             "width": 1600,
             "height": 1200
           }
@@ -829,59 +759,6 @@
           }
         },
         {
-          "id": "thapcam-60596e3e93",
-          "name": "Macara vs Club Atletico Tigre | 07:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-60596e3e93",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-60596e3e93",
-                  "name": "Macara vs Club Atletico Tigre",
-                  "streams": [
-                    {
-                      "id": "st-60596e3e93",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CONMEBOL Copa Sudamericana",
-            "team_a": "Macara",
-            "team_b": "Club Atletico Tigre",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d138a4d0829205be8e477b43d95b138d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/95c9ef810563d777a5330b142f9ba38b.png",
-            "time": "07:00 07/05",
-            "blv": "BLV Người Nhớt",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-60596e3e93_8d787b24_20260506.png?v=8d787b24",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-9d42ec69af",
           "name": "Sporting Kansas CityReserves vs Ventura County FC | 07:00 07/05",
           "type": "single",
@@ -930,6 +807,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9d42ec69af_2cc74613_20260506.png?v=2cc74613",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-60596e3e93",
+          "name": "Macara vs Club Atletico Tigre | 07:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-60596e3e93",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-60596e3e93",
+                  "name": "Macara vs Club Atletico Tigre",
+                  "streams": [
+                    {
+                      "id": "st-60596e3e93",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Copa Sudamericana",
+            "team_a": "Macara",
+            "team_b": "Club Atletico Tigre",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d138a4d0829205be8e477b43d95b138d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/95c9ef810563d777a5330b142f9ba38b.png",
+            "time": "07:00 07/05",
+            "blv": "BLV Người Nhớt",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-60596e3e93_8d787b24_20260506.png?v=8d787b24",
             "width": 1600,
             "height": 1200
           }
