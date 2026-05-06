@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,77 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5c8ddc303e_86213044_20260506.png?v=86213044",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-567147769a",
-          "name": "Barcelona SC(ECU) vs Boca Juniors",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-567147769a",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-567147769a",
-                  "name": "Barcelona SC(ECU) vs Boca Juniors",
-                  "streams": [
-                    {
-                      "id": "st-567147769a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9a564cfb56",
-                          "name": "BLV Jayce",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fa7b9c51ddc_181/index.m3u8?expire=1778628124&sign=c7390dbcef358d71ed80684ced0c6829",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CONMEBOL Copa Libertadores",
-            "team_a": "Barcelona SC(ECU)",
-            "team_b": "Boca Juniors",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6d064d1f345472d9d6bf47a5d0cc0d71.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ed2c4f6adc51975cdbd2a93093e6a43.png",
-            "time": "",
-            "blv": "BLV Jayce",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-567147769a_26580c91_20260506.png?v=26580c91",
             "width": 1600,
             "height": 1200
           }
@@ -619,59 +548,6 @@
           }
         },
         {
-          "id": "thapcam-d96061e90f",
-          "name": "Kashima Antlers vs Mito Hollyhock | 14:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d96061e90f",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d96061e90f",
-                  "name": "Kashima Antlers vs Mito Hollyhock",
-                  "streams": [
-                    {
-                      "id": "st-d96061e90f",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Kashima Antlers",
-            "team_b": "Mito Hollyhock",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/90ca524b1b1c17911b1bf8e425c8d96d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ead844240532c4e12d3eb45d2087924.png",
-            "time": "14:00 06/05",
-            "blv": "BLV Người Ngố",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d96061e90f_54ea3186_20260506.png?v=54ea3186",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-ee1d59ae68",
           "name": "Machida Zelvia vs Yokohama F. Marinos | 14:00 06/05",
           "type": "single",
@@ -720,6 +596,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ee1d59ae68_3275aae7_20260506.png?v=3275aae7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-d96061e90f",
+          "name": "Kashima Antlers vs Mito Hollyhock | 14:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d96061e90f",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d96061e90f",
+                  "name": "Kashima Antlers vs Mito Hollyhock",
+                  "streams": [
+                    {
+                      "id": "st-d96061e90f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Kashima Antlers",
+            "team_b": "Mito Hollyhock",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/90ca524b1b1c17911b1bf8e425c8d96d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ead844240532c4e12d3eb45d2087924.png",
+            "time": "14:00 06/05",
+            "blv": "BLV Người Ngố",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d96061e90f_54ea3186_20260506.png?v=54ea3186",
             "width": 1600,
             "height": 1200
           }
@@ -1520,59 +1449,6 @@
           }
         },
         {
-          "id": "thapcam-60596e3e93",
-          "name": "Macara vs Club Atletico Tigre | 07:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-60596e3e93",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-60596e3e93",
-                  "name": "Macara vs Club Atletico Tigre",
-                  "streams": [
-                    {
-                      "id": "st-60596e3e93",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CONMEBOL Copa Sudamericana",
-            "team_a": "Macara",
-            "team_b": "Club Atletico Tigre",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d138a4d0829205be8e477b43d95b138d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/95c9ef810563d777a5330b142f9ba38b.png",
-            "time": "07:00 07/05",
-            "blv": "BLV Người Nhớt",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-60596e3e93_8d787b24_20260506.png?v=8d787b24",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-9d42ec69af",
           "name": "Sporting Kansas CityReserves vs Ventura County FC | 07:00 07/05",
           "type": "single",
@@ -1621,6 +1497,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9d42ec69af_2cc74613_20260506.png?v=2cc74613",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-60596e3e93",
+          "name": "Macara vs Club Atletico Tigre | 07:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-60596e3e93",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-60596e3e93",
+                  "name": "Macara vs Club Atletico Tigre",
+                  "streams": [
+                    {
+                      "id": "st-60596e3e93",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Copa Sudamericana",
+            "team_a": "Macara",
+            "team_b": "Club Atletico Tigre",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d138a4d0829205be8e477b43d95b138d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/95c9ef810563d777a5330b142f9ba38b.png",
+            "time": "07:00 07/05",
+            "blv": "BLV Người Nhớt",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-60596e3e93_8d787b24_20260506.png?v=8d787b24",
             "width": 1600,
             "height": 1200
           }
@@ -1727,6 +1656,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8d203e3061_d962b284_20260506.png?v=d962b284",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-994434c704",
+          "name": "Univ Catolica vs Cruzeiro Esporte Clube | 09:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-994434c704",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-994434c704",
+                  "name": "Univ Catolica vs Cruzeiro Esporte Clube",
+                  "streams": [
+                    {
+                      "id": "st-994434c704",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Copa Libertadores",
+            "team_a": "Univ Catolica",
+            "team_b": "Cruzeiro Esporte Clube",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d2c51e33f6e7a7a3eed10d03fdb9ffb8.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b1cac6380900d22bdb0d31763c658434.png",
+            "time": "09:00 07/05",
+            "blv": "BLV Tôn Quyền",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-994434c704_83cd0782_20260506.png?v=83cd0782",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-085739bc41",
+          "name": "Alianza Atletico Sullana vs America de Cali | 09:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-085739bc41",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-085739bc41",
+                  "name": "Alianza Atletico Sullana vs America de Cali",
+                  "streams": [
+                    {
+                      "id": "st-085739bc41",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Copa Sudamericana",
+            "team_a": "Alianza Atletico Sullana",
+            "team_b": "America de Cali",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0ce10ff2713268ab8db9fad32d2ab54e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ed6ae7fa894cb5bdbccfd605d1d6ad04.png",
+            "time": "09:00 07/05",
+            "blv": "BLV Người Cỏ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-085739bc41_c505f908_20260506.png?v=c505f908",
             "width": 1600,
             "height": 1200
           }
