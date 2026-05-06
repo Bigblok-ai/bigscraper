@@ -1538,83 +1538,11 @@
     },
     {
       "id": "grp-5cf95d73f3",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "thapcam-af43e3b754",
-          "name": "Lublin vs Zawiercie | 01:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-af43e3b754",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-af43e3b754",
-                  "name": "Lublin vs Zawiercie",
-                  "streams": [
-                    {
-                      "id": "st-af43e3b754",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-87d143fc5a",
-                          "name": "BLV Người Rơm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb7d0b137e4_16125/index.m3u8?expire=1778694027&sign=aaa79d62698a412702578f491c07b2cc",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CHUNG KẾT  Politechnika",
-            "team_a": "Lublin",
-            "team_b": "Zawiercie",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/953c90956c0e60ef6ded0967cb8c2bce.jpg",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/af1df8f2659767ee2ce665b39d039bcb.png",
-            "time": "01:00 07/05",
-            "blv": "BLV Người Rơm",
-            "is_live": true,
-            "cate_name": "Bóng chuyền"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-af43e3b754_7946281a_20260507.png?v=7946281a",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-578f80eb49",
