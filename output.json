@@ -11,187 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-592617bc03",
-          "name": "FC Bayern Munich vs Paris Saint Germain | 02:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-592617bc03",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-592617bc03",
-                  "name": "FC Bayern Munich vs Paris Saint Germain",
-                  "streams": [
-                    {
-                      "id": "st-592617bc03",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bab7ab7bc7",
-                          "name": "BLV Lềnh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb8ba2137e4_154/index.m3u8?expire=1778697762&sign=92e9a321d75e09b32a5623817d8d3322",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-2b2a39b6f7",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb8ae6137e4_151/index.m3u8?expire=1778697574&sign=9c3d57ce5367d0f8091c84bc8a0b4e56",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-3b39376456",
-                          "name": "Link HD 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb83c6137e4_1549/index.m3u8?expire=1778695750&sign=ce4338bf8ae74f9a82ad64f24b352dd5",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "FC Bayern Munich",
-            "team_b": "Paris Saint Germain",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ef19a84a6745fe57aa786873d2b18e8a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3b720f181ce9993f9422d276acf7b292.png",
-            "time": "02:00 07/05",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-592617bc03_0f85d659_20260507.png?v=0f85d659",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-f7141d544a",
-          "name": "Spartak Moscow vs CSKA Moscow",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f7141d544a",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f7141d544a",
-                  "name": "Spartak Moscow vs CSKA Moscow",
-                  "streams": [
-                    {
-                      "id": "st-f7141d544a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d7e032bacc",
-                          "name": "BLV Jayce",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb6b0e137e4_181/index.m3u8?expire=1778689422&sign=948e70c9a997abfb8beeb3b52a72441c",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Russian Cup",
-            "team_a": "Spartak Moscow",
-            "team_b": "CSKA Moscow",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b989806732eaf15246ab56e07d0b8a2e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1eae81e51945df5660e24dc6f0ea353c.png",
-            "time": "",
-            "blv": "BLV Jayce",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f7141d544a_0ecad6d8_20260507.png?v=0ecad6d8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-a32d80e823",
           "name": "South Korea U17 vs United Arab Emirates U17",
@@ -352,32 +176,84 @@
           }
         },
         {
-          "id": "thapcam-60596e3e93",
-          "name": "Macara vs Club Atletico Tigre | 07:00 07/05",
+          "id": "thapcam-592617bc03",
+          "name": "FC Bayern Munich vs Paris Saint Germain",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-60596e3e93",
+              "id": "src-592617bc03",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-60596e3e93",
-                  "name": "Macara vs Club Atletico Tigre",
+                  "id": "ct-592617bc03",
+                  "name": "FC Bayern Munich vs Paris Saint Germain",
                   "streams": [
                     {
-                      "id": "st-60596e3e93",
+                      "id": "st-592617bc03",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-bab7ab7bc7",
+                          "name": "BLV Lềnh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb8ba2137e4_154/index.m3u8?expire=1778697762&sign=92e9a321d75e09b32a5623817d8d3322",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-2b2a39b6f7",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb8ae6137e4_151/index.m3u8?expire=1778697574&sign=9c3d57ce5367d0f8091c84bc8a0b4e56",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-3b39376456",
+                          "name": "Link HD 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb83c6137e4_1549/index.m3u8?expire=1778695750&sign=ce4338bf8ae74f9a82ad64f24b352dd5",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -385,21 +261,21 @@
             }
           ],
           "org_metadata": {
-            "league": "CONMEBOL Copa Sudamericana",
-            "team_a": "Macara",
-            "team_b": "Club Atletico Tigre",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d138a4d0829205be8e477b43d95b138d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/95c9ef810563d777a5330b142f9ba38b.png",
-            "time": "07:00 07/05",
-            "blv": "BLV Người Nhớt",
-            "is_live": false,
+            "league": "UEFA Champions League",
+            "team_a": "FC Bayern Munich",
+            "team_b": "Paris Saint Germain",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ef19a84a6745fe57aa786873d2b18e8a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3b720f181ce9993f9422d276acf7b292.png",
+            "time": "",
+            "blv": "BLV Lềnh",
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-60596e3e93_8d787b24_20260507.png?v=8d787b24",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-592617bc03_0f85d659_20260507.png?v=0f85d659",
             "width": 1600,
             "height": 1200
           }
@@ -453,6 +329,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9d42ec69af_2cc74613_20260507.png?v=2cc74613",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-60596e3e93",
+          "name": "Macara vs Club Atletico Tigre | 07:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-60596e3e93",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-60596e3e93",
+                  "name": "Macara vs Club Atletico Tigre",
+                  "streams": [
+                    {
+                      "id": "st-60596e3e93",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Copa Sudamericana",
+            "team_a": "Macara",
+            "team_b": "Club Atletico Tigre",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d138a4d0829205be8e477b43d95b138d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/95c9ef810563d777a5330b142f9ba38b.png",
+            "time": "07:00 07/05",
+            "blv": "BLV Người Nhớt",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-60596e3e93_8d787b24_20260507.png?v=8d787b24",
             "width": 1600,
             "height": 1200
           }
