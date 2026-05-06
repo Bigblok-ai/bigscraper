@@ -1795,82 +1795,11 @@
     },
     {
       "id": "grp-9102198393",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-59bcb3466a",
-          "name": "HOÀNG SAO vs DŨNG HÀN | 11:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-59bcb3466a",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-59bcb3466a",
-                  "name": "HOÀNG SAO vs DŨNG HÀN",
-                  "streams": [
-                    {
-                      "id": "st-59bcb3466a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9a8f66dd3d",
-                          "name": "BLV Người Nhớt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fabeb3137e4_14232/index.m3u8?expire=1778645299&sign=a27c2351791ae9366a4729a3e5913b23",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
-            "team_a": "HOÀNG SAO",
-            "team_b": "DŨNG HÀN",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/ce4b8efe6773111b1d8634282daa9a03.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/33c139fb2519552642a14c51eb11f16d.png",
-            "time": "11:00 06/05",
-            "blv": "BLV Người Nhớt",
-            "is_live": true,
-            "cate_name": "Billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-59bcb3466a_0a41ce95_20260506.png?v=0a41ce95",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-f2c236fb2f",
           "name": "THIỆN LƯƠNG vs TRUNG GIA LÂM | 13:00 06/05",
@@ -1938,59 +1867,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f2c236fb2f_8272002b_20260506.png?v=8272002b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-bf9d38e908",
-          "name": "AN NHIỆT vs TÙNG GÁI | 14:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bf9d38e908",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-bf9d38e908",
-                  "name": "AN NHIỆT vs TÙNG GÁI",
-                  "streams": [
-                    {
-                      "id": "st-bf9d38e908",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
-            "team_a": "AN NHIỆT",
-            "team_b": "TÙNG GÁI",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/b5bb2e535feb832e98012b86a9f4c7e4.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/531f6f70d05be078cb39aea3a7cd63d5.png",
-            "time": "14:00 06/05",
-            "blv": "BLV Người Nhớt",
-            "is_live": false,
-            "cate_name": "Billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bf9d38e908_fe58ba62_20260506.png?v=fe58ba62",
             "width": 1600,
             "height": 1200
           }
