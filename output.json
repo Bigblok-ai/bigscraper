@@ -1553,77 +1553,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-d9b4a29ba8",
-          "name": "AN NHIỆT vs TÙNG GÁI | 13:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d9b4a29ba8",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d9b4a29ba8",
-                  "name": "AN NHIỆT vs TÙNG GÁI",
-                  "streams": [
-                    {
-                      "id": "st-d9b4a29ba8",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9a8f66dd3d",
-                          "name": "BLV Người Nhớt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fabeb3137e4_14232/index.m3u8?expire=1778645299&sign=a27c2351791ae9366a4729a3e5913b23",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
-            "team_a": "AN NHIỆT",
-            "team_b": "TÙNG GÁI",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/b5bb2e535feb832e98012b86a9f4c7e4.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/531f6f70d05be078cb39aea3a7cd63d5.png",
-            "time": "13:00 06/05",
-            "blv": "BLV Người Nhớt",
-            "is_live": true,
-            "cate_name": "Billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d9b4a29ba8_fe58ba62_20260506.png?v=fe58ba62",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-d27d2e4d2b",
           "name": "Sun Yi Hsuan vs HIẾU HOÀI ĐỨC | 13:00 06/05",
           "type": "single",
@@ -1690,6 +1619,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d27d2e4d2b_057a59ff_20260506.png?v=057a59ff",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-890c244258",
+          "name": "KIÊN PHÁP vs LÂM BẢO MINH | 15:15 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-890c244258",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-890c244258",
+                  "name": "KIÊN PHÁP vs LÂM BẢO MINH",
+                  "streams": [
+                    {
+                      "id": "st-890c244258",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9a8f66dd3d",
+                          "name": "BLV Người Nhớt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fabeb3137e4_14232/index.m3u8?expire=1778645299&sign=a27c2351791ae9366a4729a3e5913b23",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
+            "team_a": "KIÊN PHÁP",
+            "team_b": "LÂM BẢO MINH",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/f2782458db7948b8fe28f8bec1161c3d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/e20adb926cbf923fee63b61a4228cc46.png",
+            "time": "15:15 06/05",
+            "blv": "BLV Người Nhớt",
+            "is_live": true,
+            "cate_name": "Billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-890c244258_cf050eeb_20260506.png?v=cf050eeb",
             "width": 1600,
             "height": 1200
           }
