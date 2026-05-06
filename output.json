@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,94 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c77705b654_29feaf0c_20260506.png?v=29feaf0c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-2ca7038554",
-          "name": "Selangor FC vs Thep Xanh Nam Dinh FC",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2ca7038554",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-2ca7038554",
-                  "name": "Selangor FC vs Thep Xanh Nam Dinh FC",
-                  "streams": [
-                    {
-                      "id": "st-2ca7038554",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3b685e69e2",
-                          "name": "BLV Người Páo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb359d51ddc_19533/index.m3u8?expire=1778675741&sign=eef3fac72b19275d6fa4cae5b643405d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-bc6fa9c435",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb316d137e4_154/index.m3u8?expire=1778674669&sign=08bbb63ee1d8888c5993cca60bec8413",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asean Club Championship Shopee Cup",
-            "team_a": "Selangor FC",
-            "team_b": "Thep Xanh Nam Dinh FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/585f46e1975ca0a4cce84365f5290111.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bc5db4dd418cb566a4475649876b55bb.png",
-            "time": "",
-            "blv": "BLV Người Páo",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2ca7038554_fd7e1cc6_20260506.png?v=fd7e1cc6",
             "width": 1600,
             "height": 1200
           }
@@ -1113,59 +1025,6 @@
           }
         },
         {
-          "id": "thapcam-cf89fc132e",
-          "name": "China U17 Women vs Thailand U17 Women | 18:30 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cf89fc132e",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-cf89fc132e",
-                  "name": "China U17 Women vs Thailand U17 Women",
-                  "streams": [
-                    {
-                      "id": "st-cf89fc132e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "China U17 Women",
-            "team_b": "Thailand U17 Women",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2bb2cd4e6d0219b11dcbda441a825b50.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f5c29f4d0153b28ef8802fe964122c65.png",
-            "time": "18:30 07/05",
-            "blv": "BLV Người Lạ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cf89fc132e_c8becba7_20260506.png?v=c8becba7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-49d25c3d19",
           "name": "Vietnam U17 Women vs Myanmar U17 Women | 18:30 07/05",
           "type": "single",
@@ -1214,6 +1073,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-49d25c3d19_f920b3de_20260506.png?v=f920b3de",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-cf89fc132e",
+          "name": "China U17 Women vs Thailand U17 Women | 18:30 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cf89fc132e",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-cf89fc132e",
+                  "name": "China U17 Women vs Thailand U17 Women",
+                  "streams": [
+                    {
+                      "id": "st-cf89fc132e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "China U17 Women",
+            "team_b": "Thailand U17 Women",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2bb2cd4e6d0219b11dcbda441a825b50.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f5c29f4d0153b28ef8802fe964122c65.png",
+            "time": "18:30 07/05",
+            "blv": "BLV Người Lạ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cf89fc132e_c8becba7_20260506.png?v=c8becba7",
             "width": 1600,
             "height": 1200
           }
