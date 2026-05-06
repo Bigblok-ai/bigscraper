@@ -17,148 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-06d1c1ee7a",
-          "name": "Nagoya Grampus vs Gamba Osaka | 12:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-06d1c1ee7a",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-06d1c1ee7a",
-                  "name": "Nagoya Grampus vs Gamba Osaka",
-                  "streams": [
-                    {
-                      "id": "st-06d1c1ee7a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0916dd4e2d",
-                          "name": "BLV Max",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fac41c137e4_35/index.m3u8?expire=1778646684&sign=8e6233ab9124863e1643574225a06649",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Nagoya Grampus",
-            "team_b": "Gamba Osaka",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/32aa68e1fa3d62dad572d19b21a09353.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/91008a96b5de8c75376d17057f89890e.png",
-            "time": "12:00 06/05",
-            "blv": "BLV Max",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-06d1c1ee7a_6150466f_20260506.png?v=6150466f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-6180f378f0",
-          "name": "Avispa Fukuoka vs Kyoto Sanga | 12:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6180f378f0",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6180f378f0",
-                  "name": "Avispa Fukuoka vs Kyoto Sanga",
-                  "streams": [
-                    {
-                      "id": "st-6180f378f0",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e769547f6d",
-                          "name": "BLV Chân Đất",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fac55f137e4_145/index.m3u8?expire=1778647007&sign=feb40ec711603a657dabea7c9641af1f",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Avispa Fukuoka",
-            "team_b": "Kyoto Sanga",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bf0e2229b39b6cb6fd17e9d0f3fb747e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7d6fa50ea67cde7d66612a8189897ba5.png",
-            "time": "12:00 06/05",
-            "blv": "BLV Chân Đất",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6180f378f0_c70b6046_20260506.png?v=c70b6046",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-7f366134db",
           "name": "V-Varen Nagasaki vs Fagiano Okayama",
           "type": "single",
@@ -301,32 +159,50 @@
           }
         },
         {
-          "id": "thapcam-cd6f8dec1a",
-          "name": "FC Tokyo vs JEF United Ichihara Chiba | 13:00 06/05",
+          "id": "thapcam-6180f378f0",
+          "name": "Avispa Fukuoka vs Kyoto Sanga",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-cd6f8dec1a",
+              "id": "src-6180f378f0",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-cd6f8dec1a",
-                  "name": "FC Tokyo vs JEF United Ichihara Chiba",
+                  "id": "ct-6180f378f0",
+                  "name": "Avispa Fukuoka vs Kyoto Sanga",
                   "streams": [
                     {
-                      "id": "st-cd6f8dec1a",
+                      "id": "st-6180f378f0",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e769547f6d",
+                          "name": "BLV Chân Đất",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fac55f137e4_145/index.m3u8?expire=1778647007&sign=feb40ec711603a657dabea7c9641af1f",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -335,20 +211,91 @@
           ],
           "org_metadata": {
             "league": "Japanese J1 League",
-            "team_a": "FC Tokyo",
-            "team_b": "JEF United Ichihara Chiba",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/333df39860930a21cf72b4e9664723ab.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ce2dfe0c36e6a9774eaecf9731375b6.png",
-            "time": "13:00 06/05",
-            "blv": "BLV Người Cò",
-            "is_live": false,
+            "team_a": "Avispa Fukuoka",
+            "team_b": "Kyoto Sanga",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bf0e2229b39b6cb6fd17e9d0f3fb747e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7d6fa50ea67cde7d66612a8189897ba5.png",
+            "time": "",
+            "blv": "BLV Chân Đất",
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cd6f8dec1a_0978ff39_20260506.png?v=0978ff39",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6180f378f0_c70b6046_20260506.png?v=c70b6046",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-06d1c1ee7a",
+          "name": "Nagoya Grampus vs Gamba Osaka",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-06d1c1ee7a",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-06d1c1ee7a",
+                  "name": "Nagoya Grampus vs Gamba Osaka",
+                  "streams": [
+                    {
+                      "id": "st-06d1c1ee7a",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0916dd4e2d",
+                          "name": "BLV Max",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fac41c137e4_35/index.m3u8?expire=1778646684&sign=8e6233ab9124863e1643574225a06649",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Nagoya Grampus",
+            "team_b": "Gamba Osaka",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/32aa68e1fa3d62dad572d19b21a09353.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/91008a96b5de8c75376d17057f89890e.png",
+            "time": "",
+            "blv": "BLV Max",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-06d1c1ee7a_6150466f_20260506.png?v=6150466f",
             "width": 1600,
             "height": 1200
           }
@@ -407,8 +354,8 @@
           }
         },
         {
-          "id": "thapcam-d96061e90f",
-          "name": "Kashima Antlers vs Mito Hollyhock | 14:00 06/05",
+          "id": "thapcam-cd6f8dec1a",
+          "name": "FC Tokyo vs JEF United Ichihara Chiba | 13:00 06/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -422,15 +369,15 @@
           ],
           "sources": [
             {
-              "id": "src-d96061e90f",
+              "id": "src-cd6f8dec1a",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-d96061e90f",
-                  "name": "Kashima Antlers vs Mito Hollyhock",
+                  "id": "ct-cd6f8dec1a",
+                  "name": "FC Tokyo vs JEF United Ichihara Chiba",
                   "streams": [
                     {
-                      "id": "st-d96061e90f",
+                      "id": "st-cd6f8dec1a",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -441,12 +388,12 @@
           ],
           "org_metadata": {
             "league": "Japanese J1 League",
-            "team_a": "Kashima Antlers",
-            "team_b": "Mito Hollyhock",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/90ca524b1b1c17911b1bf8e425c8d96d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ead844240532c4e12d3eb45d2087924.png",
-            "time": "14:00 06/05",
-            "blv": "BLV Người Ngố",
+            "team_a": "FC Tokyo",
+            "team_b": "JEF United Ichihara Chiba",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/333df39860930a21cf72b4e9664723ab.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ce2dfe0c36e6a9774eaecf9731375b6.png",
+            "time": "13:00 06/05",
+            "blv": "BLV Người Cò",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -454,7 +401,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d96061e90f_54ea3186_20260506.png?v=54ea3186",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cd6f8dec1a_0978ff39_20260506.png?v=0978ff39",
             "width": 1600,
             "height": 1200
           }
@@ -508,6 +455,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ee1d59ae68_3275aae7_20260506.png?v=3275aae7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-d96061e90f",
+          "name": "Kashima Antlers vs Mito Hollyhock | 14:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d96061e90f",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d96061e90f",
+                  "name": "Kashima Antlers vs Mito Hollyhock",
+                  "streams": [
+                    {
+                      "id": "st-d96061e90f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Kashima Antlers",
+            "team_b": "Mito Hollyhock",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/90ca524b1b1c17911b1bf8e425c8d96d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ead844240532c4e12d3eb45d2087924.png",
+            "time": "14:00 06/05",
+            "blv": "BLV Người Ngố",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d96061e90f_54ea3186_20260506.png?v=54ea3186",
             "width": 1600,
             "height": 1200
           }
@@ -1043,59 +1043,6 @@
           }
         },
         {
-          "id": "thapcam-b8c9827df2",
-          "name": "Spartak Varna vs FC Dobrudzha | 00:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b8c9827df2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-b8c9827df2",
-                  "name": "Spartak Varna vs FC Dobrudzha",
-                  "streams": [
-                    {
-                      "id": "st-b8c9827df2",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bulgarian First League",
-            "team_a": "Spartak Varna",
-            "team_b": "FC Dobrudzha",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/075bb7a438193c9a2f71330a817c0058.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/058ab0bb7d4a90ccef7c471cb9029b2f.png",
-            "time": "00:00 07/05",
-            "blv": "BLV Người Điên",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b8c9827df2_83d7f8e5_20260506.png?v=83d7f8e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-f7141d544a",
           "name": "Spartak Moscow vs CSKA Moscow | 00:00 07/05",
           "type": "single",
@@ -1144,6 +1091,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f7141d544a_0ecad6d8_20260506.png?v=0ecad6d8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-b8c9827df2",
+          "name": "Spartak Varna vs FC Dobrudzha | 00:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b8c9827df2",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-b8c9827df2",
+                  "name": "Spartak Varna vs FC Dobrudzha",
+                  "streams": [
+                    {
+                      "id": "st-b8c9827df2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bulgarian First League",
+            "team_a": "Spartak Varna",
+            "team_b": "FC Dobrudzha",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/075bb7a438193c9a2f71330a817c0058.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/058ab0bb7d4a90ccef7c471cb9029b2f.png",
+            "time": "00:00 07/05",
+            "blv": "BLV Người Điên",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b8c9827df2_83d7f8e5_20260506.png?v=83d7f8e5",
             "width": 1600,
             "height": 1200
           }
@@ -1520,59 +1520,6 @@
           }
         },
         {
-          "id": "thapcam-085739bc41",
-          "name": "Alianza Atletico Sullana vs America de Cali | 09:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-085739bc41",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-085739bc41",
-                  "name": "Alianza Atletico Sullana vs America de Cali",
-                  "streams": [
-                    {
-                      "id": "st-085739bc41",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CONMEBOL Copa Sudamericana",
-            "team_a": "Alianza Atletico Sullana",
-            "team_b": "America de Cali",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0ce10ff2713268ab8db9fad32d2ab54e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ed6ae7fa894cb5bdbccfd605d1d6ad04.png",
-            "time": "09:00 07/05",
-            "blv": "BLV Người Cỏ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-085739bc41_c505f908_20260506.png?v=c505f908",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-994434c704",
           "name": "Univ Catolica vs Cruzeiro Esporte Clube | 09:00 07/05",
           "type": "single",
@@ -1621,6 +1568,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-994434c704_83cd0782_20260506.png?v=83cd0782",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-085739bc41",
+          "name": "Alianza Atletico Sullana vs America de Cali | 09:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-085739bc41",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-085739bc41",
+                  "name": "Alianza Atletico Sullana vs America de Cali",
+                  "streams": [
+                    {
+                      "id": "st-085739bc41",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Copa Sudamericana",
+            "team_a": "Alianza Atletico Sullana",
+            "team_b": "America de Cali",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0ce10ff2713268ab8db9fad32d2ab54e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ed6ae7fa894cb5bdbccfd605d1d6ad04.png",
+            "time": "09:00 07/05",
+            "blv": "BLV Người Cỏ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-085739bc41_c505f908_20260506.png?v=c505f908",
             "width": 1600,
             "height": 1200
           }
