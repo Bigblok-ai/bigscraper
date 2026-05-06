@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,94 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-72ba58a5e0_1077ccd3_20260506.png?v=1077ccd3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-24334406d9",
-          "name": "Kawasaki Frontale vs Tokyo Verdy",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-24334406d9",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-24334406d9",
-                  "name": "Kawasaki Frontale vs Tokyo Verdy",
-                  "streams": [
-                    {
-                      "id": "st-24334406d9",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-19849780f6",
-                          "name": "BLV Siêu Bướng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb04e0137e4_151/index.m3u8?expire=1778663264&sign=d87367ebfcdebd2093d8b0ed43cbcac6",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-6d9865f217",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69faef28137e4_11/index.m3u8?expire=1778657704&sign=c3683a9560fcbe967e3de81f512adc0e",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Kawasaki Frontale",
-            "team_b": "Tokyo Verdy",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/937795c0851c1e794e96a5cb660fcd59.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2a8adb34e764602183a7bee8f51726e4.png",
-            "time": "",
-            "blv": "BLV Siêu Bướng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-24334406d9_ae306a65_20260506.png?v=ae306a65",
             "width": 1600,
             "height": 1200
           }
