@@ -17,77 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-9d42ec69af",
-          "name": "Sporting Kansas CityReserves vs Ventura County FC | 07:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9d42ec69af",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9d42ec69af",
-                  "name": "Sporting Kansas CityReserves vs Ventura County FC",
-                  "streams": [
-                    {
-                      "id": "st-9d42ec69af",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e19e38ecc7",
-                          "name": "BLV Chân Đất",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fbd02551ddc_145/index.m3u8?expire=1778715301&sign=1b90f2f92a50714c0e688d2e444dc70f",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLS Next Pro",
-            "team_a": "Sporting Kansas CityReserves",
-            "team_b": "Ventura County FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c5593b106980072677a648800a11d8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f93ca58969938ab5583e30e71d8e31a4.png",
-            "time": "07:00 07/05",
-            "blv": "BLV Chân Đất",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9d42ec69af_2cc74613_20260507.png?v=2cc74613",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-60596e3e93",
           "name": "Macara vs Club Atletico Tigre | 07:00 07/05",
           "type": "single",
@@ -154,6 +83,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-60596e3e93_8d787b24_20260507.png?v=8d787b24",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-9d42ec69af",
+          "name": "Sporting Kansas CityReserves vs Ventura County FC | 07:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9d42ec69af",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-9d42ec69af",
+                  "name": "Sporting Kansas CityReserves vs Ventura County FC",
+                  "streams": [
+                    {
+                      "id": "st-9d42ec69af",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e19e38ecc7",
+                          "name": "BLV Chân Đất",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fbd02551ddc_145/index.m3u8?expire=1778715301&sign=1b90f2f92a50714c0e688d2e444dc70f",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLS Next Pro",
+            "team_a": "Sporting Kansas CityReserves",
+            "team_b": "Ventura County FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c5593b106980072677a648800a11d8.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f93ca58969938ab5583e30e71d8e31a4.png",
+            "time": "07:00 07/05",
+            "blv": "BLV Chân Đất",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9d42ec69af_2cc74613_20260507.png?v=2cc74613",
             "width": 1600,
             "height": 1200
           }
@@ -371,59 +371,6 @@
           }
         },
         {
-          "id": "thapcam-cf89fc132e",
-          "name": "China U17 Women vs Thailand U17 Women | 18:30 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cf89fc132e",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-cf89fc132e",
-                  "name": "China U17 Women vs Thailand U17 Women",
-                  "streams": [
-                    {
-                      "id": "st-cf89fc132e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "China U17 Women",
-            "team_b": "Thailand U17 Women",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2bb2cd4e6d0219b11dcbda441a825b50.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f5c29f4d0153b28ef8802fe964122c65.png",
-            "time": "18:30 07/05",
-            "blv": "BLV Người Lạ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cf89fc132e_c8becba7_20260507.png?v=c8becba7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-49d25c3d19",
           "name": "Vietnam U17 Women vs Myanmar U17 Women | 18:30 07/05",
           "type": "single",
@@ -472,6 +419,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-49d25c3d19_f920b3de_20260507.png?v=f920b3de",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-cf89fc132e",
+          "name": "China U17 Women vs Thailand U17 Women | 18:30 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cf89fc132e",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-cf89fc132e",
+                  "name": "China U17 Women vs Thailand U17 Women",
+                  "streams": [
+                    {
+                      "id": "st-cf89fc132e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "China U17 Women",
+            "team_b": "Thailand U17 Women",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2bb2cd4e6d0219b11dcbda441a825b50.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f5c29f4d0153b28ef8802fe964122c65.png",
+            "time": "18:30 07/05",
+            "blv": "BLV Người Lạ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cf89fc132e_c8becba7_20260507.png?v=c8becba7",
             "width": 1600,
             "height": 1200
           }
@@ -689,59 +689,6 @@
           }
         },
         {
-          "id": "thapcam-a8dd799bc4",
-          "name": "Bodrum FK vs Pendikspor | 00:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a8dd799bc4",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-a8dd799bc4",
-                  "name": "Bodrum FK vs Pendikspor",
-                  "streams": [
-                    {
-                      "id": "st-a8dd799bc4",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Turkish First League",
-            "team_a": "Bodrum FK",
-            "team_b": "Pendikspor",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/52ad6d005782baec899d29055cbed020.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9a07394b2cdca16ac436a056d2acd4c9.png",
-            "time": "00:00 08/05",
-            "blv": "BLV Người Cỏ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a8dd799bc4_98ef7a30_20260507.png?v=98ef7a30",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-275a32a809",
           "name": "Corum Belediyespor vs Keciorengucu | 00:00 08/05",
           "type": "single",
@@ -790,6 +737,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-275a32a809_13a620e0_20260507.png?v=13a620e0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-a8dd799bc4",
+          "name": "Bodrum FK vs Pendikspor | 00:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a8dd799bc4",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-a8dd799bc4",
+                  "name": "Bodrum FK vs Pendikspor",
+                  "streams": [
+                    {
+                      "id": "st-a8dd799bc4",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Turkish First League",
+            "team_a": "Bodrum FK",
+            "team_b": "Pendikspor",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/52ad6d005782baec899d29055cbed020.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9a07394b2cdca16ac436a056d2acd4c9.png",
+            "time": "00:00 08/05",
+            "blv": "BLV Người Cỏ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a8dd799bc4_98ef7a30_20260507.png?v=98ef7a30",
             "width": 1600,
             "height": 1200
           }
@@ -901,59 +901,6 @@
           }
         },
         {
-          "id": "thapcam-5d6d729c2d",
-          "name": "RC Strasbourg Alsace vs Rayo Vallecano | 02:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5d6d729c2d",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-5d6d729c2d",
-                  "name": "RC Strasbourg Alsace vs Rayo Vallecano",
-                  "streams": [
-                    {
-                      "id": "st-5d6d729c2d",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa Conference League",
-            "team_a": "RC Strasbourg Alsace",
-            "team_b": "Rayo Vallecano",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/998db478bf7c06d5817bf846987a0d0a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5005d8feab109ce64e40beb98073cc1f.png",
-            "time": "02:00 08/05",
-            "blv": "BLV Chân Đất",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5d6d729c2d_2792b730_20260507.png?v=2792b730",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-d8e9d3dbfc",
           "name": "Crystal Palace vs FC Shakhtar Donetsk | 02:00 08/05",
           "type": "single",
@@ -1007,8 +954,8 @@
           }
         },
         {
-          "id": "thapcam-0bee8658e7",
-          "name": "Aston Villa vs Nottingham Forest | 02:00 08/05",
+          "id": "thapcam-5d6d729c2d",
+          "name": "RC Strasbourg Alsace vs Rayo Vallecano | 02:00 08/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1022,15 +969,15 @@
           ],
           "sources": [
             {
-              "id": "src-0bee8658e7",
+              "id": "src-5d6d729c2d",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-0bee8658e7",
-                  "name": "Aston Villa vs Nottingham Forest",
+                  "id": "ct-5d6d729c2d",
+                  "name": "RC Strasbourg Alsace vs Rayo Vallecano",
                   "streams": [
                     {
-                      "id": "st-0bee8658e7",
+                      "id": "st-5d6d729c2d",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1040,13 +987,13 @@
             }
           ],
           "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Aston Villa",
-            "team_b": "Nottingham Forest",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c32d6a906083118cac2cb796edaab3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/62572999d107f777efa4aeb907443527.png",
+            "league": "UEFA Europa Conference League",
+            "team_a": "RC Strasbourg Alsace",
+            "team_b": "Rayo Vallecano",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/998db478bf7c06d5817bf846987a0d0a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5005d8feab109ce64e40beb98073cc1f.png",
             "time": "02:00 08/05",
-            "blv": "BLV Siêu Bướng",
+            "blv": "BLV Chân Đất",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1054,7 +1001,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0bee8658e7_c78a5f3a_20260507.png?v=c78a5f3a",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5d6d729c2d_2792b730_20260507.png?v=2792b730",
             "width": 1600,
             "height": 1200
           }
@@ -1113,8 +1060,8 @@
           }
         },
         {
-          "id": "thapcam-d4369ad142",
-          "name": "Mirassol vs Liga Dep Universitaria Quito | 05:00 08/05",
+          "id": "thapcam-0bee8658e7",
+          "name": "Aston Villa vs Nottingham Forest | 02:00 08/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1128,15 +1075,15 @@
           ],
           "sources": [
             {
-              "id": "src-d4369ad142",
+              "id": "src-0bee8658e7",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-d4369ad142",
-                  "name": "Mirassol vs Liga Dep Universitaria Quito",
+                  "id": "ct-0bee8658e7",
+                  "name": "Aston Villa vs Nottingham Forest",
                   "streams": [
                     {
-                      "id": "st-d4369ad142",
+                      "id": "st-0bee8658e7",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1146,13 +1093,13 @@
             }
           ],
           "org_metadata": {
-            "league": "CONMEBOL Copa Libertadores",
-            "team_a": "Mirassol",
-            "team_b": "Liga Dep Universitaria Quito",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b20645448c644b701286477f55b11e24.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8b048da33a06a2257101bb110b81e290.png",
-            "time": "05:00 08/05",
-            "blv": "BLV Jayce",
+            "league": "UEFA Europa League",
+            "team_a": "Aston Villa",
+            "team_b": "Nottingham Forest",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c32d6a906083118cac2cb796edaab3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/62572999d107f777efa4aeb907443527.png",
+            "time": "02:00 08/05",
+            "blv": "BLV Siêu Bướng",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1160,7 +1107,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d4369ad142_a3652531_20260507.png?v=a3652531",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0bee8658e7_c78a5f3a_20260507.png?v=c78a5f3a",
             "width": 1600,
             "height": 1200
           }
@@ -1214,6 +1161,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e2b9f2f8f2_7e9003b2_20260507.png?v=7e9003b2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-d4369ad142",
+          "name": "Mirassol vs Liga Dep Universitaria Quito | 05:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d4369ad142",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d4369ad142",
+                  "name": "Mirassol vs Liga Dep Universitaria Quito",
+                  "streams": [
+                    {
+                      "id": "st-d4369ad142",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Copa Libertadores",
+            "team_a": "Mirassol",
+            "team_b": "Liga Dep Universitaria Quito",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b20645448c644b701286477f55b11e24.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8b048da33a06a2257101bb110b81e290.png",
+            "time": "05:00 08/05",
+            "blv": "BLV Jayce",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d4369ad142_a3652531_20260507.png?v=a3652531",
             "width": 1600,
             "height": 1200
           }
