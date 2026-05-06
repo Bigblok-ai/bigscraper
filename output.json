@@ -1717,82 +1717,11 @@
     },
     {
       "id": "grp-d721cd64dc",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-875bc9923a",
-          "name": "Detroit Pistons vs Cleveland Cavaliers | 06:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-875bc9923a",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-875bc9923a",
-                  "name": "Detroit Pistons vs Cleveland Cavaliers",
-                  "streams": [
-                    {
-                      "id": "st-875bc9923a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-888af529ca",
-                          "name": "BLV Người Hầu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fa71fa51ddc_9657/index.m3u8?expire=1778625658&sign=b54492db5ccf39175cffe09187555e13",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Detroit Pistons",
-            "team_b": "Cleveland Cavaliers",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3f82122a48e98eaccc5e71307eba801a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/57c938e35ceb2ee92562a09c4165fb47.png",
-            "time": "06:00 06/05",
-            "blv": "BLV Người Hầu",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-875bc9923a_1b7715d0_20260506.png?v=1b7715d0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-321494f8e8",
           "name": "Oklahoma City Thunder vs Los Angeles Lakers | 07:30 06/05",
