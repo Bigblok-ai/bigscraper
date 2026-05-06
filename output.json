@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-c850296531",
-          "name": "Shabab Al Ahli vs Al-Nasr Dubai",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c850296531",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-c850296531",
-                  "name": "Shabab Al Ahli vs Al-Nasr Dubai",
-                  "streams": [
-                    {
-                      "id": "st-c850296531",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-210879ba06",
-                          "name": "BLV Người Ngố",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb6d4b51ddc_14/index.m3u8?expire=1778689995&sign=cc92069e518e47875bfabbe95b5613d9",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b5c8f7d546",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb6cfd51ddc_154/index.m3u8?expire=1778689917&sign=b856d4ea23d8ba52259d9f63e8f299a0",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United Arab Emirates Adnoc Pro-League",
-            "team_a": "Shabab Al Ahli",
-            "team_b": "Al-Nasr Dubai",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/05e87b1dbb904915a4a97fc095b73d20.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2011473c10a119e01f2085bb836b62b2.png",
-            "time": "",
-            "blv": "BLV Người Ngố",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c850296531_981d3f6c_20260507.png?v=981d3f6c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-b8c9827df2",
           "name": "Spartak Varna vs FC Dobrudzha",
@@ -1183,59 +1095,6 @@
           }
         },
         {
-          "id": "thapcam-a8dd799bc4",
-          "name": "Bodrum FK vs Pendikspor | 00:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a8dd799bc4",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-a8dd799bc4",
-                  "name": "Bodrum FK vs Pendikspor",
-                  "streams": [
-                    {
-                      "id": "st-a8dd799bc4",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Turkish First League",
-            "team_a": "Bodrum FK",
-            "team_b": "Pendikspor",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/52ad6d005782baec899d29055cbed020.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9a07394b2cdca16ac436a056d2acd4c9.png",
-            "time": "00:00 08/05",
-            "blv": "BLV Người Cỏ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a8dd799bc4_98ef7a30_20260507.png?v=98ef7a30",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-275a32a809",
           "name": "Corum Belediyespor vs Keciorengucu | 00:00 08/05",
           "type": "single",
@@ -1284,6 +1143,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-275a32a809_13a620e0_20260507.png?v=13a620e0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-a8dd799bc4",
+          "name": "Bodrum FK vs Pendikspor | 00:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a8dd799bc4",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-a8dd799bc4",
+                  "name": "Bodrum FK vs Pendikspor",
+                  "streams": [
+                    {
+                      "id": "st-a8dd799bc4",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Turkish First League",
+            "team_a": "Bodrum FK",
+            "team_b": "Pendikspor",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/52ad6d005782baec899d29055cbed020.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9a07394b2cdca16ac436a056d2acd4c9.png",
+            "time": "00:00 08/05",
+            "blv": "BLV Người Cỏ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a8dd799bc4_98ef7a30_20260507.png?v=98ef7a30",
             "width": 1600,
             "height": 1200
           }
@@ -1527,8 +1439,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-544f29733c",
-          "name": "Marton Fucsovics vs Dino Prizmic | 01:30 07/05",
+          "id": "thapcam-b718c22277",
+          "name": "Marton Fucsovics vs Dino Prizmic | 01:50 07/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1542,15 +1454,15 @@
           ],
           "sources": [
             {
-              "id": "src-544f29733c",
+              "id": "src-b718c22277",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-544f29733c",
+                  "id": "ct-b718c22277",
                   "name": "Marton Fucsovics vs Dino Prizmic",
                   "streams": [
                     {
-                      "id": "st-544f29733c",
+                      "id": "st-b718c22277",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -1583,7 +1495,7 @@
             "team_b": "Dino Prizmic",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fb5c4f4216937f8918d76031ad60d744.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8bf80daa8f2b15e4117a90fe557e9ade.png",
-            "time": "01:30 07/05",
+            "time": "01:50 07/05",
             "blv": "BLV Người Sói",
             "is_live": true,
             "cate_name": "Tennis"
@@ -1592,14 +1504,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-544f29733c_dc4c2b31_20260507.png?v=dc4c2b31",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b718c22277_dc4c2b31_20260507.png?v=dc4c2b31",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "thapcam-086b2de9ea",
-          "name": "Jacob Fearnley vs Giovanni Mpetshi Perricard | 01:30 07/05",
+          "id": "thapcam-cbcf555f31",
+          "name": "Jacob Fearnley vs Giovanni Mpetshi Perricard | 01:50 07/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1613,15 +1525,15 @@
           ],
           "sources": [
             {
-              "id": "src-086b2de9ea",
+              "id": "src-cbcf555f31",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-086b2de9ea",
+                  "id": "ct-cbcf555f31",
                   "name": "Jacob Fearnley vs Giovanni Mpetshi Perricard",
                   "streams": [
                     {
-                      "id": "st-086b2de9ea",
+                      "id": "st-cbcf555f31",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -1654,7 +1566,7 @@
             "team_b": "Giovanni Mpetshi Perricard",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/963c26cf65370dd3700da847efee8a5b.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d78317f2cd6dbd0b02cd7565e5c93a45.png",
-            "time": "01:30 07/05",
+            "time": "01:50 07/05",
             "blv": "BLV Người Hầu",
             "is_live": true,
             "cate_name": "Tennis"
@@ -1663,7 +1575,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-086b2de9ea_101e7c75_20260507.png?v=101e7c75",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cbcf555f31_101e7c75_20260507.png?v=101e7c75",
             "width": 1600,
             "height": 1200
           }
