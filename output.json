@@ -17,148 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-6e1002c7e4",
-          "name": "Al Ahli SFC vs Al Fateh SC | 01:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6e1002c7e4",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6e1002c7e4",
-                  "name": "Al Ahli SFC vs Al Fateh SC",
-                  "streams": [
-                    {
-                      "id": "st-6e1002c7e4",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-952b01b9af",
-                          "name": "BLV Người Cò",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb7ce951ddc_14559/index.m3u8?expire=1778693993&sign=33e55e6a52c5d7e0d69b4b164d802adc",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al Ahli SFC",
-            "team_b": "Al Fateh SC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a0a227a6100628d3213e1fc321acd4f2.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/625f099ab7eeec5bde434ec68723fdff.png",
-            "time": "01:00 07/05",
-            "blv": "BLV Người Cò",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6e1002c7e4_27c35a26_20260507.png?v=27c35a26",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-9f7570287b",
-          "name": "Al-Sharjah vs Al Ain FC",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9f7570287b",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9f7570287b",
-                  "name": "Al-Sharjah vs Al Ain FC",
-                  "streams": [
-                    {
-                      "id": "st-9f7570287b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4f005a4c1f",
-                          "name": "BLV Người Rừng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb6750137e4_148/index.m3u8?expire=1778688464&sign=fdea2ab920fcba2b4581de6b81c50ab0",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United Arab Emirates Adnoc Pro-League",
-            "team_a": "Al-Sharjah",
-            "team_b": "Al Ain FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c471de7682d1c900df7981bb2cf6536c.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cedb12f9c001f1b1cb11bc532967c33e.png",
-            "time": "",
-            "blv": "BLV Người Rừng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9f7570287b_a064c84b_20260507.png?v=a064c84b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-c850296531",
           "name": "Shabab Al Ahli vs Al-Nasr Dubai",
           "type": "single",
@@ -247,8 +105,8 @@
           }
         },
         {
-          "id": "thapcam-b8c9827df2",
-          "name": "Spartak Varna vs FC Dobrudzha",
+          "id": "thapcam-9f7570287b",
+          "name": "Al-Sharjah vs Al Ain FC",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -262,23 +120,23 @@
           ],
           "sources": [
             {
-              "id": "src-b8c9827df2",
+              "id": "src-9f7570287b",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-b8c9827df2",
-                  "name": "Spartak Varna vs FC Dobrudzha",
+                  "id": "ct-9f7570287b",
+                  "name": "Al-Sharjah vs Al Ain FC",
                   "streams": [
                     {
-                      "id": "st-b8c9827df2",
+                      "id": "st-9f7570287b",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-69665addfd",
-                          "name": "BLV Người Điên",
+                          "id": "lnk-4f005a4c1f",
+                          "name": "BLV Người Rừng",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb6d1351ddc_1984/index.m3u8?expire=1778689939&sign=3321cb876b69f72293d6e451435d5b70",
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb6750137e4_148/index.m3u8?expire=1778688464&sign=fdea2ab920fcba2b4581de6b81c50ab0",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -298,13 +156,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Bulgarian First League",
-            "team_a": "Spartak Varna",
-            "team_b": "FC Dobrudzha",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/075bb7a438193c9a2f71330a817c0058.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/058ab0bb7d4a90ccef7c471cb9029b2f.png",
+            "league": "United Arab Emirates Adnoc Pro-League",
+            "team_a": "Al-Sharjah",
+            "team_b": "Al Ain FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c471de7682d1c900df7981bb2cf6536c.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cedb12f9c001f1b1cb11bc532967c33e.png",
             "time": "",
-            "blv": "BLV Người Điên",
+            "blv": "BLV Người Rừng",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -312,7 +170,78 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b8c9827df2_83d7f8e5_20260507.png?v=83d7f8e5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9f7570287b_a064c84b_20260507.png?v=a064c84b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-f7141d544a",
+          "name": "Spartak Moscow vs CSKA Moscow",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f7141d544a",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f7141d544a",
+                  "name": "Spartak Moscow vs CSKA Moscow",
+                  "streams": [
+                    {
+                      "id": "st-f7141d544a",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d7e032bacc",
+                          "name": "BLV Jayce",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb6b0e137e4_181/index.m3u8?expire=1778689422&sign=948e70c9a997abfb8beeb3b52a72441c",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Russian Cup",
+            "team_a": "Spartak Moscow",
+            "team_b": "CSKA Moscow",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b989806732eaf15246ab56e07d0b8a2e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1eae81e51945df5660e24dc6f0ea353c.png",
+            "time": "",
+            "blv": "BLV Jayce",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f7141d544a_0ecad6d8_20260507.png?v=0ecad6d8",
             "width": 1600,
             "height": 1200
           }
@@ -406,8 +335,8 @@
           }
         },
         {
-          "id": "thapcam-f7141d544a",
-          "name": "Spartak Moscow vs CSKA Moscow",
+          "id": "thapcam-b8c9827df2",
+          "name": "Spartak Varna vs FC Dobrudzha",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -421,23 +350,23 @@
           ],
           "sources": [
             {
-              "id": "src-f7141d544a",
+              "id": "src-b8c9827df2",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-f7141d544a",
-                  "name": "Spartak Moscow vs CSKA Moscow",
+                  "id": "ct-b8c9827df2",
+                  "name": "Spartak Varna vs FC Dobrudzha",
                   "streams": [
                     {
-                      "id": "st-f7141d544a",
+                      "id": "st-b8c9827df2",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-d7e032bacc",
-                          "name": "BLV Jayce",
+                          "id": "lnk-69665addfd",
+                          "name": "BLV Người Điên",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb6b0e137e4_181/index.m3u8?expire=1778689422&sign=948e70c9a997abfb8beeb3b52a72441c",
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb6d1351ddc_1984/index.m3u8?expire=1778689939&sign=3321cb876b69f72293d6e451435d5b70",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -457,13 +386,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Russian Cup",
-            "team_a": "Spartak Moscow",
-            "team_b": "CSKA Moscow",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b989806732eaf15246ab56e07d0b8a2e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1eae81e51945df5660e24dc6f0ea353c.png",
+            "league": "Bulgarian First League",
+            "team_a": "Spartak Varna",
+            "team_b": "FC Dobrudzha",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/075bb7a438193c9a2f71330a817c0058.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/058ab0bb7d4a90ccef7c471cb9029b2f.png",
             "time": "",
-            "blv": "BLV Jayce",
+            "blv": "BLV Người Điên",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -471,7 +400,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f7141d544a_0ecad6d8_20260507.png?v=0ecad6d8",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b8c9827df2_83d7f8e5_20260507.png?v=83d7f8e5",
             "width": 1600,
             "height": 1200
           }
@@ -560,6 +489,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a32d80e823_a2e34ac9_20260507.png?v=a2e34ac9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-6e1002c7e4",
+          "name": "Al Ahli SFC vs Al Fateh SC",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6e1002c7e4",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-6e1002c7e4",
+                  "name": "Al Ahli SFC vs Al Fateh SC",
+                  "streams": [
+                    {
+                      "id": "st-6e1002c7e4",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-952b01b9af",
+                          "name": "BLV Người Cò",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb7ce951ddc_14559/index.m3u8?expire=1778693993&sign=33e55e6a52c5d7e0d69b4b164d802adc",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al Ahli SFC",
+            "team_b": "Al Fateh SC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a0a227a6100628d3213e1fc321acd4f2.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/625f099ab7eeec5bde434ec68723fdff.png",
+            "time": "",
+            "blv": "BLV Người Cò",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6e1002c7e4_27c35a26_20260507.png?v=27c35a26",
             "width": 1600,
             "height": 1200
           }
