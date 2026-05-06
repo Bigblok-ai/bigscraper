@@ -1192,59 +1192,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-11f853b098",
-          "name": "New York Knicks vs Philadelphia 76ers | 06:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-11f853b098",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-11f853b098",
-                  "name": "New York Knicks vs Philadelphia 76ers",
-                  "streams": [
-                    {
-                      "id": "st-11f853b098",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "New York Knicks",
-            "team_b": "Philadelphia 76ers",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/49f8b0ef2ed529b44dba6ebb99a0d5ff.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/06e7bde6cca98873fe971fad4e67a9b6.png",
-            "time": "06:00 07/05",
-            "blv": "BLV Người Hầu",
-            "is_live": false,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-11f853b098_6b1550b1_20260507.png?v=6b1550b1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-6a1c236bf2",
           "name": "San Antonio Spurs vs Minnesota Timberwolves | 08:30 07/05",
           "type": "single",
