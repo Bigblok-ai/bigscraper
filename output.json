@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-6e1002c7e4",
-          "name": "Al Ahli SFC vs Al Fateh SC",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6e1002c7e4",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6e1002c7e4",
-                  "name": "Al Ahli SFC vs Al Fateh SC",
-                  "streams": [
-                    {
-                      "id": "st-6e1002c7e4",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-952b01b9af",
-                          "name": "BLV Người Cò",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb7ce951ddc_14559/index.m3u8?expire=1778693993&sign=33e55e6a52c5d7e0d69b4b164d802adc",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al Ahli SFC",
-            "team_b": "Al Fateh SC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a0a227a6100628d3213e1fc321acd4f2.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/625f099ab7eeec5bde434ec68723fdff.png",
-            "time": "",
-            "blv": "BLV Người Cò",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6e1002c7e4_27c35a26_20260507.png?v=27c35a26",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-592617bc03",
           "name": "FC Bayern Munich vs Paris Saint Germain",
