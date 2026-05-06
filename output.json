@@ -17,77 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-edb70b1bd9",
-          "name": "Australia U17 vs India U17 | 23:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-edb70b1bd9",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-edb70b1bd9",
-                  "name": "Australia U17 vs India U17",
-                  "streams": [
-                    {
-                      "id": "st-edb70b1bd9",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3056cfc359",
-                          "name": "BLV Người Cỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb5da551ddc_19092/index.m3u8?expire=1778685989&sign=16d5c1480668e0a56fda2e20b5a5e352",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Australia U17",
-            "team_b": "India U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7df4050f103d78f6d6a198896197ee30.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/603df20031dd4c1ff7c57750ade6f96d.png",
-            "time": "23:00 06/05",
-            "blv": "BLV Người Cỏ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-edb70b1bd9_a551361d_20260506.png?v=a551361d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-be7d8538e3",
           "name": "Al-Wahda FC vs Al-Wasl SC",
           "type": "single",
@@ -296,6 +225,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c77705b654_29feaf0c_20260506.png?v=29feaf0c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-edb70b1bd9",
+          "name": "Australia U17 vs India U17",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-edb70b1bd9",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-edb70b1bd9",
+                  "name": "Australia U17 vs India U17",
+                  "streams": [
+                    {
+                      "id": "st-edb70b1bd9",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3056cfc359",
+                          "name": "BLV Người Cỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb5da551ddc_19092/index.m3u8?expire=1778685989&sign=16d5c1480668e0a56fda2e20b5a5e352",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Australia U17",
+            "team_b": "India U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7df4050f103d78f6d6a198896197ee30.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/603df20031dd4c1ff7c57750ade6f96d.png",
+            "time": "",
+            "blv": "BLV Người Cỏ",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-edb70b1bd9_a551361d_20260506.png?v=a551361d",
             "width": 1600,
             "height": 1200
           }
@@ -1380,7 +1380,7 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1452,77 +1452,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e1e4347acd_f683be1a_20260506.png?v=f683be1a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-bbef5adffa",
-          "name": "Jesper de Jong vs Nuno Borges | 21:55 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bbef5adffa",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-bbef5adffa",
-                  "name": "Jesper de Jong vs Nuno Borges",
-                  "streams": [
-                    {
-                      "id": "st-bbef5adffa",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b8a1dad93b",
-                          "name": "BLV Người Hầu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb4b1151ddc_9657/index.m3u8?expire=1778681233&sign=07eb9872b9b27b2f53e5c29530764c60",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Jesper de Jong",
-            "team_b": "Nuno Borges",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4c249eb6b360268f349e6db9e3935639.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3fd75840f3b5771c481286f6e1d91bcf.png",
-            "time": "21:55 06/05",
-            "blv": "BLV Người Hầu",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bbef5adffa_d24903bd_20260506.png?v=d24903bd",
             "width": 1600,
             "height": 1200
           }
