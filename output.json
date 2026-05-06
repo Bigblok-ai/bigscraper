@@ -11,236 +11,23 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-90626ab069",
-          "name": "Sanfrecce Hiroshima vs Vissel Kobe",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-90626ab069",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-90626ab069",
-                  "name": "Sanfrecce Hiroshima vs Vissel Kobe",
-                  "streams": [
-                    {
-                      "id": "st-90626ab069",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-394a3faed2",
-                          "name": "BLV Người Páo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69facd38137e4_19533/index.m3u8?expire=1778649016&sign=844e9bbf9a28c8dd275260da9fbd67a2",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Sanfrecce Hiroshima",
-            "team_b": "Vissel Kobe",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c81d5ff7a33a4f6a9312a8703f619352.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d85cce27ab583e5b3cead155f02b098a.png",
-            "time": "",
-            "blv": "BLV Người Páo",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-90626ab069_eb767d2a_20260506.png?v=eb767d2a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-ee1d59ae68",
-          "name": "Machida Zelvia vs Yokohama F. Marinos",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ee1d59ae68",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-ee1d59ae68",
-                  "name": "Machida Zelvia vs Yokohama F. Marinos",
-                  "streams": [
-                    {
-                      "id": "st-ee1d59ae68",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-350b52f1c2",
-                          "name": "BLV Lềnh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fadfa2137e4_1549/index.m3u8?expire=1778653730&sign=340ba16b2b967b5f8dbd6f97e941d15d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Machida Zelvia",
-            "team_b": "Yokohama F. Marinos",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/539c489a7bd94dd9d785308fd0f0a6b9.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/78ddaaa79d9502f5e2df0fbb6261f937.png",
-            "time": "",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ee1d59ae68_3275aae7_20260506.png?v=3275aae7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-d96061e90f",
-          "name": "Kashima Antlers vs Mito Hollyhock",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d96061e90f",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d96061e90f",
-                  "name": "Kashima Antlers vs Mito Hollyhock",
-                  "streams": [
-                    {
-                      "id": "st-d96061e90f",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-48128a63eb",
-                          "name": "BLV Người Ngố",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fae0e6137e4_14/index.m3u8?expire=1778654054&sign=869b0e77e937ef7168438319a36396d7",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Kashima Antlers",
-            "team_b": "Mito Hollyhock",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/90ca524b1b1c17911b1bf8e425c8d96d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ead844240532c4e12d3eb45d2087924.png",
-            "time": "",
-            "blv": "BLV Người Ngố",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d96061e90f_54ea3186_20260506.png?v=54ea3186",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-24334406d9",
-          "name": "Kawasaki Frontale vs Tokyo Verdy | 15:00 06/05",
+          "name": "Kawasaki Frontale vs Tokyo Verdy",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -255,7 +42,59 @@
                     {
                       "id": "st-24334406d9",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-4d839bf902",
+                          "name": "BLV Siêu Bướng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb03ab51ddc_829/index.m3u8?expire=1778662955&sign=95e7316b5f8c46cde314eba383ebbbdf",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-6d9865f217",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69faef28137e4_11/index.m3u8?expire=1778657704&sign=c3683a9560fcbe967e3de81f512adc0e",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e708fe9ad6",
+                          "name": "Link HD 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb04e0137e4_151/index.m3u8?expire=1778663264&sign=d87367ebfcdebd2093d8b0ed43cbcac6",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -268,9 +107,9 @@
             "team_b": "Tokyo Verdy",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/937795c0851c1e794e96a5cb660fcd59.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2a8adb34e764602183a7bee8f51726e4.png",
-            "time": "15:00 06/05",
-            "blv": "BLV Người Băng",
-            "is_live": false,
+            "time": "",
+            "blv": "BLV Siêu Bướng",
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1362,7 +1201,7 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1375,10 +1214,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1393,7 +1232,25 @@
                     {
                       "id": "st-4fc6155594",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b8857d884b",
+                          "name": "BLV Người Hầu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fafd26137e4_9657/index.m3u8?expire=1778661286&sign=ecc8ec0c2b2f3d2547ff8faf0cacc716",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1408,7 +1265,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b5468d519cb7768941eaefe99da4a191.png",
             "time": "16:00 06/05",
             "blv": "BLV Người Hầu",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Tennis"
           },
           "image": {
@@ -1428,10 +1285,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1446,7 +1303,25 @@
                     {
                       "id": "st-defd1eefbf",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad2469434b",
+                          "name": "BLV Người Sói",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb024c51ddc_742/index.m3u8?expire=1778662604&sign=86e60ce269a9732dcc44a08a1f50afe2",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1461,7 +1336,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/daecfcbc2c8c70751b8653772e210d15.png",
             "time": "16:00 06/05",
             "blv": "BLV Người Sói",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Tennis"
           },
           "image": {
@@ -1766,77 +1641,6 @@
           }
         },
         {
-          "id": "thapcam-6e4653a8b3",
-          "name": "BASETH MOCAIBAT vs MẠNH TE | 13:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6e4653a8b3",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6e4653a8b3",
-                  "name": "BASETH MOCAIBAT vs MẠNH TE",
-                  "streams": [
-                    {
-                      "id": "st-6e4653a8b3",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f5d629c003",
-                          "name": "BLV Jayce",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fac29751ddc_181/index.m3u8?expire=1778646295&sign=a792546d5bd9ec96a9e5c078b7c02181",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
-            "team_a": "BASETH MOCAIBAT",
-            "team_b": "MẠNH TE",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/4f1aa531b8bd305c813cfba845f54805.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/275cb5174b6a033bc9d6ff7d3ac1479c.png",
-            "time": "13:00 06/05",
-            "blv": "BLV Jayce",
-            "is_live": true,
-            "cate_name": "Billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6e4653a8b3_27299b5d_20260506.png?v=27299b5d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-d27d2e4d2b",
           "name": "Sun Yi Hsuan vs HIẾU HOÀI ĐỨC | 13:00 06/05",
           "type": "single",
@@ -1908,32 +1712,50 @@
           }
         },
         {
-          "id": "thapcam-a02fb88d51",
-          "name": "KIÊN PHÁP vs LÂM BẢO MINH | 16:00 06/05",
+          "id": "thapcam-c8872d28b6",
+          "name": "JAYBEE vs ĐĂNG NĐ | 16:00 06/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-a02fb88d51",
+              "id": "src-c8872d28b6",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-a02fb88d51",
-                  "name": "KIÊN PHÁP vs LÂM BẢO MINH",
+                  "id": "ct-c8872d28b6",
+                  "name": "JAYBEE vs ĐĂNG NĐ",
                   "streams": [
                     {
-                      "id": "st-a02fb88d51",
+                      "id": "st-c8872d28b6",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f5d629c003",
+                          "name": "BLV Jayce",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fac29751ddc_181/index.m3u8?expire=1778646295&sign=a792546d5bd9ec96a9e5c078b7c02181",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1942,73 +1764,20 @@
           ],
           "org_metadata": {
             "league": "99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
-            "team_a": "KIÊN PHÁP",
-            "team_b": "LÂM BẢO MINH",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/f2782458db7948b8fe28f8bec1161c3d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/e20adb926cbf923fee63b61a4228cc46.png",
+            "team_a": "JAYBEE",
+            "team_b": "ĐĂNG NĐ",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/3007cbf01936816c9aea79202dcbcd2f.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/3a9690e718b1ed3a1668626eb9e12107.png",
             "time": "16:00 06/05",
-            "blv": "BLV Người Nhớt",
-            "is_live": false,
+            "blv": "BLV Jayce",
+            "is_live": true,
             "cate_name": "Billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a02fb88d51_cf050eeb_20260506.png?v=cf050eeb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-47315f3597",
-          "name": "NAM PHẠM vs KHÁNH GÀ | 16:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-47315f3597",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-47315f3597",
-                  "name": "NAM PHẠM vs KHÁNH GÀ",
-                  "streams": [
-                    {
-                      "id": "st-47315f3597",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
-            "team_a": "NAM PHẠM",
-            "team_b": "KHÁNH GÀ",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/af677d4a36e4c4ab092efc28b72dcb82.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/f0cd7c5c7532e468b63fc1f88b3e0080.png",
-            "time": "16:00 06/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": false,
-            "cate_name": "Billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-47315f3597_97c2b9e8_20260506.png?v=97c2b9e8",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c8872d28b6_570ad634_20260506.png?v=570ad634",
             "width": 1600,
             "height": 1200
           }
