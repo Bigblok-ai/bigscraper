@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-46e46624a7",
-          "name": "Shimizu S-Pulse vs Cerezo Osaka | 11:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-46e46624a7",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-46e46624a7",
-                  "name": "Shimizu S-Pulse vs Cerezo Osaka",
-                  "streams": [
-                    {
-                      "id": "st-46e46624a7",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d93205bde2",
-                          "name": "BLV Người Rừng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fab6c751ddc_148/index.m3u8?expire=1778643271&sign=f14b7d49f65ae2356202991230dd6411",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Shimizu S-Pulse",
-            "team_b": "Cerezo Osaka",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fa4105f0408ef893d941e70ae003ab4c.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ab10ee503e539e55a9a11a9ff202405a.png",
-            "time": "11:00 06/05",
-            "blv": "BLV Người Rừng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46e46624a7_80dbc6b0_20260506.png?v=80dbc6b0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-7f366134db",
           "name": "V-Varen Nagasaki vs Fagiano Okayama | 11:00 06/05",
@@ -159,8 +88,8 @@
           }
         },
         {
-          "id": "thapcam-5c8ddc303e",
-          "name": "Deportivo Cuenca vs San Lorenzo",
+          "id": "thapcam-46e46624a7",
+          "name": "Shimizu S-Pulse vs Cerezo Osaka | 11:00 06/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -174,23 +103,23 @@
           ],
           "sources": [
             {
-              "id": "src-5c8ddc303e",
+              "id": "src-46e46624a7",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-5c8ddc303e",
-                  "name": "Deportivo Cuenca vs San Lorenzo",
+                  "id": "ct-46e46624a7",
+                  "name": "Shimizu S-Pulse vs Cerezo Osaka",
                   "streams": [
                     {
-                      "id": "st-5c8ddc303e",
+                      "id": "st-46e46624a7",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-40d8da3a2d",
-                          "name": "BLV Người Điên",
+                          "id": "lnk-d93205bde2",
+                          "name": "BLV Người Rừng",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fa9b8651ddc_1984/index.m3u8?expire=1778636294&sign=db34529011cae68f5a5c8faa23fbb00c",
+                          "url": "https://cdn-hls.phogatv8.com/live/69fab6c751ddc_148/index.m3u8?expire=1778643271&sign=f14b7d49f65ae2356202991230dd6411",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -210,13 +139,13 @@
             }
           ],
           "org_metadata": {
-            "league": "CONMEBOL Copa Sudamericana",
-            "team_a": "Deportivo Cuenca",
-            "team_b": "San Lorenzo",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/af5d08bcd181c66a5ff7724086d6c933.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/65d05eaf7edc601ae236107417b01cbf.png",
-            "time": "",
-            "blv": "BLV Người Điên",
+            "league": "Japanese J1 League",
+            "team_a": "Shimizu S-Pulse",
+            "team_b": "Cerezo Osaka",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fa4105f0408ef893d941e70ae003ab4c.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ab10ee503e539e55a9a11a9ff202405a.png",
+            "time": "11:00 06/05",
+            "blv": "BLV Người Rừng",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -224,7 +153,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5c8ddc303e_86213044_20260506.png?v=86213044",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46e46624a7_80dbc6b0_20260506.png?v=80dbc6b0",
             "width": 1600,
             "height": 1200
           }
