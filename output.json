@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-be7d8538e3",
-          "name": "Al-Wahda FC vs Al-Wasl SC",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-be7d8538e3",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-be7d8538e3",
-                  "name": "Al-Wahda FC vs Al-Wasl SC",
-                  "streams": [
-                    {
-                      "id": "st-be7d8538e3",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fa67b56306",
-                          "name": "BLV Người Rừng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb3c4451ddc_148/index.m3u8?expire=1778677444&sign=1c8097292ea67e6d59326f943569bf28",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United Arab Emirates Adnoc Pro-League",
-            "team_a": "Al-Wahda FC",
-            "team_b": "Al-Wasl SC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/da5a07224920e4856d3b14e7e1a86741.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/17b767b98695df2fb512e992dd8a7af4.png",
-            "time": "",
-            "blv": "BLV Người Rừng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-be7d8538e3_ee345aba_20260506.png?v=ee345aba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-e11bd9671f",
           "name": "Slavia Sofia vs Septemvri Sofia",
@@ -1380,7 +1309,7 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1452,6 +1381,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e1e4347acd_f683be1a_20260506.png?v=f683be1a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-0563ffa4ca",
+          "name": "Jacob Fearnley vs Giovanni Mpetshi Perricard | 23:05 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0563ffa4ca",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-0563ffa4ca",
+                  "name": "Jacob Fearnley vs Giovanni Mpetshi Perricard",
+                  "streams": [
+                    {
+                      "id": "st-0563ffa4ca",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-63ec931d95",
+                          "name": "BLV Người Hầu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb676d137e4_9657/index.m3u8?expire=1778688493&sign=7080f19e0e41da4f9d001565e277d654",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Rome, Italy Men Singles",
+            "team_a": "Jacob Fearnley",
+            "team_b": "Giovanni Mpetshi Perricard",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/963c26cf65370dd3700da847efee8a5b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d78317f2cd6dbd0b02cd7565e5c93a45.png",
+            "time": "23:05 06/05",
+            "blv": "BLV Người Hầu",
+            "is_live": true,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0563ffa4ca_101e7c75_20260506.png?v=101e7c75",
             "width": 1600,
             "height": 1200
           }
