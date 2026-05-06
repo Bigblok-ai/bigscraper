@@ -17,148 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-ee1d59ae68",
-          "name": "Machida Zelvia vs Yokohama F. Marinos | 14:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ee1d59ae68",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-ee1d59ae68",
-                  "name": "Machida Zelvia vs Yokohama F. Marinos",
-                  "streams": [
-                    {
-                      "id": "st-ee1d59ae68",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-350b52f1c2",
-                          "name": "BLV Lềnh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fadfa2137e4_1549/index.m3u8?expire=1778653730&sign=340ba16b2b967b5f8dbd6f97e941d15d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Machida Zelvia",
-            "team_b": "Yokohama F. Marinos",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/539c489a7bd94dd9d785308fd0f0a6b9.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/78ddaaa79d9502f5e2df0fbb6261f937.png",
-            "time": "14:00 06/05",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ee1d59ae68_3275aae7_20260506.png?v=3275aae7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-d96061e90f",
-          "name": "Kashima Antlers vs Mito Hollyhock | 14:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d96061e90f",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d96061e90f",
-                  "name": "Kashima Antlers vs Mito Hollyhock",
-                  "streams": [
-                    {
-                      "id": "st-d96061e90f",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-48128a63eb",
-                          "name": "BLV Người Ngố",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fae0e6137e4_14/index.m3u8?expire=1778654054&sign=869b0e77e937ef7168438319a36396d7",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Kashima Antlers",
-            "team_b": "Mito Hollyhock",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/90ca524b1b1c17911b1bf8e425c8d96d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ead844240532c4e12d3eb45d2087924.png",
-            "time": "14:00 06/05",
-            "blv": "BLV Người Ngố",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d96061e90f_54ea3186_20260506.png?v=54ea3186",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-6180f378f0",
           "name": "Avispa Fukuoka vs Kyoto Sanga",
           "type": "single",
@@ -296,6 +154,148 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-90626ab069_eb767d2a_20260506.png?v=eb767d2a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-d96061e90f",
+          "name": "Kashima Antlers vs Mito Hollyhock",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d96061e90f",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d96061e90f",
+                  "name": "Kashima Antlers vs Mito Hollyhock",
+                  "streams": [
+                    {
+                      "id": "st-d96061e90f",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-48128a63eb",
+                          "name": "BLV Người Ngố",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fae0e6137e4_14/index.m3u8?expire=1778654054&sign=869b0e77e937ef7168438319a36396d7",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Kashima Antlers",
+            "team_b": "Mito Hollyhock",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/90ca524b1b1c17911b1bf8e425c8d96d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ead844240532c4e12d3eb45d2087924.png",
+            "time": "",
+            "blv": "BLV Người Ngố",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d96061e90f_54ea3186_20260506.png?v=54ea3186",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-ee1d59ae68",
+          "name": "Machida Zelvia vs Yokohama F. Marinos",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ee1d59ae68",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-ee1d59ae68",
+                  "name": "Machida Zelvia vs Yokohama F. Marinos",
+                  "streams": [
+                    {
+                      "id": "st-ee1d59ae68",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-350b52f1c2",
+                          "name": "BLV Lềnh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fadfa2137e4_1549/index.m3u8?expire=1778653730&sign=340ba16b2b967b5f8dbd6f97e941d15d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Machida Zelvia",
+            "team_b": "Yokohama F. Marinos",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/539c489a7bd94dd9d785308fd0f0a6b9.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/78ddaaa79d9502f5e2df0fbb6261f937.png",
+            "time": "",
+            "blv": "BLV Lềnh",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ee1d59ae68_3275aae7_20260506.png?v=3275aae7",
             "width": 1600,
             "height": 1200
           }
@@ -672,59 +672,6 @@
           }
         },
         {
-          "id": "thapcam-9f7570287b",
-          "name": "Al-Sharjah vs Al Ain FC | 23:45 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9f7570287b",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9f7570287b",
-                  "name": "Al-Sharjah vs Al Ain FC",
-                  "streams": [
-                    {
-                      "id": "st-9f7570287b",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United Arab Emirates Adnoc Pro-League",
-            "team_a": "Al-Sharjah",
-            "team_b": "Al Ain FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c471de7682d1c900df7981bb2cf6536c.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cedb12f9c001f1b1cb11bc532967c33e.png",
-            "time": "23:45 06/05",
-            "blv": "BLV Người Rừng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9f7570287b_a064c84b_20260506.png?v=a064c84b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-c850296531",
           "name": "Shabab Al Ahli vs Al-Nasr Dubai | 23:45 06/05",
           "type": "single",
@@ -773,6 +720,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c850296531_981d3f6c_20260506.png?v=981d3f6c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-9f7570287b",
+          "name": "Al-Sharjah vs Al Ain FC | 23:45 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9f7570287b",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-9f7570287b",
+                  "name": "Al-Sharjah vs Al Ain FC",
+                  "streams": [
+                    {
+                      "id": "st-9f7570287b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "United Arab Emirates Adnoc Pro-League",
+            "team_a": "Al-Sharjah",
+            "team_b": "Al Ain FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c471de7682d1c900df7981bb2cf6536c.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cedb12f9c001f1b1cb11bc532967c33e.png",
+            "time": "23:45 06/05",
+            "blv": "BLV Người Rừng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9f7570287b_a064c84b_20260506.png?v=a064c84b",
             "width": 1600,
             "height": 1200
           }
@@ -1308,59 +1308,6 @@
           }
         },
         {
-          "id": "thapcam-994434c704",
-          "name": "Univ Catolica vs Cruzeiro Esporte Clube | 09:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-994434c704",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-994434c704",
-                  "name": "Univ Catolica vs Cruzeiro Esporte Clube",
-                  "streams": [
-                    {
-                      "id": "st-994434c704",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CONMEBOL Copa Libertadores",
-            "team_a": "Univ Catolica",
-            "team_b": "Cruzeiro Esporte Clube",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d2c51e33f6e7a7a3eed10d03fdb9ffb8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b1cac6380900d22bdb0d31763c658434.png",
-            "time": "09:00 07/05",
-            "blv": "BLV Tôn Quyền",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-994434c704_83cd0782_20260506.png?v=83cd0782",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-085739bc41",
           "name": "Alianza Atletico Sullana vs America de Cali | 09:00 07/05",
           "type": "single",
@@ -1409,6 +1356,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-085739bc41_c505f908_20260506.png?v=c505f908",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-994434c704",
+          "name": "Univ Catolica vs Cruzeiro Esporte Clube | 09:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-994434c704",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-994434c704",
+                  "name": "Univ Catolica vs Cruzeiro Esporte Clube",
+                  "streams": [
+                    {
+                      "id": "st-994434c704",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Copa Libertadores",
+            "team_a": "Univ Catolica",
+            "team_b": "Cruzeiro Esporte Clube",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d2c51e33f6e7a7a3eed10d03fdb9ffb8.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b1cac6380900d22bdb0d31763c658434.png",
+            "time": "09:00 07/05",
+            "blv": "BLV Tôn Quyền",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-994434c704_83cd0782_20260506.png?v=83cd0782",
             "width": 1600,
             "height": 1200
           }
@@ -1908,8 +1908,8 @@
           }
         },
         {
-          "id": "thapcam-1dae366678",
-          "name": "HOÀNG PHÚ THỌ vs QUYỀN LÊ HT | 13:00 06/05",
+          "id": "thapcam-d27d2e4d2b",
+          "name": "Sun Yi Hsuan vs HIẾU HOÀI ĐỨC | 13:00 06/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1923,15 +1923,15 @@
           ],
           "sources": [
             {
-              "id": "src-1dae366678",
+              "id": "src-d27d2e4d2b",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-1dae366678",
-                  "name": "HOÀNG PHÚ THỌ vs QUYỀN LÊ HT",
+                  "id": "ct-d27d2e4d2b",
+                  "name": "Sun Yi Hsuan vs HIẾU HOÀI ĐỨC",
                   "streams": [
                     {
-                      "id": "st-1dae366678",
+                      "id": "st-d27d2e4d2b",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -1960,10 +1960,10 @@
           ],
           "org_metadata": {
             "league": "99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
-            "team_a": "HOÀNG PHÚ THỌ",
-            "team_b": "QUYỀN LÊ HT",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/edf84554de0aee038bae1c31fe8417a8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/7f5ada795a31ac158c491668916e34e2.png",
+            "team_a": "Sun Yi Hsuan",
+            "team_b": "HIẾU HOÀI ĐỨC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/5b25983a780f30a0be6cdbf792b61dbd.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/1b077b8689ec497fa0db7d3948b688d0.png",
             "time": "13:00 06/05",
             "blv": "BLV Siêu Quậy",
             "is_live": true,
@@ -1973,7 +1973,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1dae366678_1b2c39f6_20260506.png?v=1b2c39f6",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d27d2e4d2b_057a59ff_20260506.png?v=057a59ff",
             "width": 1600,
             "height": 1200
           }
