@@ -1866,7 +1866,7 @@
     },
     {
       "id": "grp-9102198393",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1943,32 +1943,50 @@
           }
         },
         {
-          "id": "thapcam-ae925b7d3e",
-          "name": "THIỆN LƯƠNG vs TRUNG GIA LÂM | 14:00 06/05",
+          "id": "thapcam-f2c236fb2f",
+          "name": "THIỆN LƯƠNG vs TRUNG GIA LÂM | 13:00 06/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-ae925b7d3e",
+              "id": "src-f2c236fb2f",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-ae925b7d3e",
+                  "id": "ct-f2c236fb2f",
                   "name": "THIỆN LƯƠNG vs TRUNG GIA LÂM",
                   "streams": [
                     {
-                      "id": "st-ae925b7d3e",
+                      "id": "st-f2c236fb2f",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e5e241615c",
+                          "name": "BLV Siêu Quậy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fadb0451ddc_26/index.m3u8?expire=1778652548&sign=7c82686403d80ec3f63d793172abd5e5",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1981,16 +1999,16 @@
             "team_b": "TRUNG GIA LÂM",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/ea477b6a26370657114c965fe795039b.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/eedc5d82938d5d15e0a230d1d9c3f90e.png",
-            "time": "14:00 06/05",
+            "time": "13:00 06/05",
             "blv": "BLV Siêu Quậy",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ae925b7d3e_8272002b_20260506.png?v=8272002b",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f2c236fb2f_8272002b_20260506.png?v=8272002b",
             "width": 1600,
             "height": 1200
           }
