@@ -17,77 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-9f7570287b",
-          "name": "Al-Sharjah vs Al Ain FC",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9f7570287b",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9f7570287b",
-                  "name": "Al-Sharjah vs Al Ain FC",
-                  "streams": [
-                    {
-                      "id": "st-9f7570287b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4f005a4c1f",
-                          "name": "BLV Người Rừng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb6750137e4_148/index.m3u8?expire=1778688464&sign=fdea2ab920fcba2b4581de6b81c50ab0",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United Arab Emirates Adnoc Pro-League",
-            "team_a": "Al-Sharjah",
-            "team_b": "Al Ain FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c471de7682d1c900df7981bb2cf6536c.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cedb12f9c001f1b1cb11bc532967c33e.png",
-            "time": "",
-            "blv": "BLV Người Rừng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9f7570287b_a064c84b_20260507.png?v=a064c84b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-c850296531",
           "name": "Shabab Al Ahli vs Al-Nasr Dubai",
           "type": "single",
@@ -171,6 +100,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c850296531_981d3f6c_20260507.png?v=981d3f6c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-9f7570287b",
+          "name": "Al-Sharjah vs Al Ain FC",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9f7570287b",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-9f7570287b",
+                  "name": "Al-Sharjah vs Al Ain FC",
+                  "streams": [
+                    {
+                      "id": "st-9f7570287b",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4f005a4c1f",
+                          "name": "BLV Người Rừng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb6750137e4_148/index.m3u8?expire=1778688464&sign=fdea2ab920fcba2b4581de6b81c50ab0",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "United Arab Emirates Adnoc Pro-League",
+            "team_a": "Al-Sharjah",
+            "team_b": "Al Ain FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c471de7682d1c900df7981bb2cf6536c.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cedb12f9c001f1b1cb11bc532967c33e.png",
+            "time": "",
+            "blv": "BLV Người Rừng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9f7570287b_a064c84b_20260507.png?v=a064c84b",
             "width": 1600,
             "height": 1200
           }
@@ -936,59 +936,6 @@
           }
         },
         {
-          "id": "thapcam-cf89fc132e",
-          "name": "China U17 Women vs Thailand U17 Women | 18:30 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cf89fc132e",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-cf89fc132e",
-                  "name": "China U17 Women vs Thailand U17 Women",
-                  "streams": [
-                    {
-                      "id": "st-cf89fc132e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "China U17 Women",
-            "team_b": "Thailand U17 Women",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2bb2cd4e6d0219b11dcbda441a825b50.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f5c29f4d0153b28ef8802fe964122c65.png",
-            "time": "18:30 07/05",
-            "blv": "BLV Người Lạ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cf89fc132e_c8becba7_20260507.png?v=c8becba7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-49d25c3d19",
           "name": "Vietnam U17 Women vs Myanmar U17 Women | 18:30 07/05",
           "type": "single",
@@ -1037,6 +984,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-49d25c3d19_f920b3de_20260507.png?v=f920b3de",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-cf89fc132e",
+          "name": "China U17 Women vs Thailand U17 Women | 18:30 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cf89fc132e",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-cf89fc132e",
+                  "name": "China U17 Women vs Thailand U17 Women",
+                  "streams": [
+                    {
+                      "id": "st-cf89fc132e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "China U17 Women",
+            "team_b": "Thailand U17 Women",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2bb2cd4e6d0219b11dcbda441a825b50.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f5c29f4d0153b28ef8802fe964122c65.png",
+            "time": "18:30 07/05",
+            "blv": "BLV Người Lạ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cf89fc132e_c8becba7_20260507.png?v=c8becba7",
             "width": 1600,
             "height": 1200
           }
@@ -1254,59 +1254,6 @@
           }
         },
         {
-          "id": "thapcam-275a32a809",
-          "name": "Corum Belediyespor vs Keciorengucu | 00:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-275a32a809",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-275a32a809",
-                  "name": "Corum Belediyespor vs Keciorengucu",
-                  "streams": [
-                    {
-                      "id": "st-275a32a809",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Turkish First League",
-            "team_a": "Corum Belediyespor",
-            "team_b": "Keciorengucu",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0f2a369af39d8b5f8de389cca2a217ad.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8c04d7e93c287878ef0ddc9f8d214491.png",
-            "time": "00:00 08/05",
-            "blv": "BLV Jayce",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-275a32a809_13a620e0_20260507.png?v=13a620e0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-a8dd799bc4",
           "name": "Bodrum FK vs Pendikspor | 00:00 08/05",
           "type": "single",
@@ -1355,6 +1302,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a8dd799bc4_98ef7a30_20260507.png?v=98ef7a30",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-275a32a809",
+          "name": "Corum Belediyespor vs Keciorengucu | 00:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-275a32a809",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-275a32a809",
+                  "name": "Corum Belediyespor vs Keciorengucu",
+                  "streams": [
+                    {
+                      "id": "st-275a32a809",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Turkish First League",
+            "team_a": "Corum Belediyespor",
+            "team_b": "Keciorengucu",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0f2a369af39d8b5f8de389cca2a217ad.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8c04d7e93c287878ef0ddc9f8d214491.png",
+            "time": "00:00 08/05",
+            "blv": "BLV Jayce",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-275a32a809_13a620e0_20260507.png?v=13a620e0",
             "width": 1600,
             "height": 1200
           }
@@ -1592,7 +1592,7 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1605,10 +1605,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1623,7 +1623,25 @@
                     {
                       "id": "st-544f29733c",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-789d7e8848",
+                          "name": "BLV Người Sói",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb7256137e4_742/index.m3u8?expire=1778691286&sign=cc35f36b41cc5ed834c106baf19c67be",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1638,7 +1656,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8bf80daa8f2b15e4117a90fe557e9ade.png",
             "time": "01:30 07/05",
             "blv": "BLV Người Sói",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Tennis"
           },
           "image": {
@@ -1658,10 +1676,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1676,7 +1694,25 @@
                     {
                       "id": "st-086b2de9ea",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-63ec931d95",
+                          "name": "BLV Người Hầu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fb676d137e4_9657/index.m3u8?expire=1778688493&sign=7080f19e0e41da4f9d001565e277d654",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1691,7 +1727,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d78317f2cd6dbd0b02cd7565e5c93a45.png",
             "time": "01:30 07/05",
             "blv": "BLV Người Hầu",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Tennis"
           },
           "image": {
