@@ -17,77 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-2009786a50",
-          "name": "Tukums-2000 vs Ogre United | 22:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2009786a50",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-2009786a50",
-                  "name": "Tukums-2000 vs Ogre United",
-                  "streams": [
-                    {
-                      "id": "st-2009786a50",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f3d2aea7ef",
-                          "name": "BLV Người Rừng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fc9b28137e4_148/index.m3u8?expire=1778767272&sign=b7014df93b858113972cf513aecc93fb",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Latvian Higher League",
-            "team_a": "Tukums-2000",
-            "team_b": "Ogre United",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/81b70b4f4179ca979f173ceae24222c4.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c448d89be2d910901ba43cd76bde1267.png",
-            "time": "22:00 07/05",
-            "blv": "BLV Người Rừng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2009786a50_b734e441_20260507.png?v=b734e441",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-8796c30c8d",
           "name": "Tala'ea El Gaish vs Ghazl El Mahallah",
           "type": "single",
@@ -154,6 +83,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8796c30c8d_decf4016_20260507.png?v=decf4016",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-2009786a50",
+          "name": "Tukums-2000 vs Ogre United",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2009786a50",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-2009786a50",
+                  "name": "Tukums-2000 vs Ogre United",
+                  "streams": [
+                    {
+                      "id": "st-2009786a50",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f3d2aea7ef",
+                          "name": "BLV Người Rừng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fc9b28137e4_148/index.m3u8?expire=1778767272&sign=b7014df93b858113972cf513aecc93fb",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Latvian Higher League",
+            "team_a": "Tukums-2000",
+            "team_b": "Ogre United",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/81b70b4f4179ca979f173ceae24222c4.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c448d89be2d910901ba43cd76bde1267.png",
+            "time": "",
+            "blv": "BLV Người Rừng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2009786a50_b734e441_20260507.png?v=b734e441",
             "width": 1600,
             "height": 1200
           }
@@ -636,59 +636,6 @@
           }
         },
         {
-          "id": "thapcam-d4369ad142",
-          "name": "Mirassol vs Liga Dep Universitaria Quito | 05:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d4369ad142",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d4369ad142",
-                  "name": "Mirassol vs Liga Dep Universitaria Quito",
-                  "streams": [
-                    {
-                      "id": "st-d4369ad142",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CONMEBOL Copa Libertadores",
-            "team_a": "Mirassol",
-            "team_b": "Liga Dep Universitaria Quito",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b20645448c644b701286477f55b11e24.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8b048da33a06a2257101bb110b81e290.png",
-            "time": "05:00 08/05",
-            "blv": "BLV Jayce",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d4369ad142_a3652531_20260507.png?v=a3652531",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-e2b9f2f8f2",
           "name": "Boston River vs Millonarios | 05:00 08/05",
           "type": "single",
@@ -737,6 +684,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e2b9f2f8f2_7e9003b2_20260507.png?v=7e9003b2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-d4369ad142",
+          "name": "Mirassol vs Liga Dep Universitaria Quito | 05:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d4369ad142",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d4369ad142",
+                  "name": "Mirassol vs Liga Dep Universitaria Quito",
+                  "streams": [
+                    {
+                      "id": "st-d4369ad142",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Copa Libertadores",
+            "team_a": "Mirassol",
+            "team_b": "Liga Dep Universitaria Quito",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b20645448c644b701286477f55b11e24.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8b048da33a06a2257101bb110b81e290.png",
+            "time": "05:00 08/05",
+            "blv": "BLV Jayce",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d4369ad142_a3652531_20260507.png?v=a3652531",
             "width": 1600,
             "height": 1200
           }
@@ -1219,6 +1219,59 @@
           }
         },
         {
+          "id": "thapcam-8a34fd9928",
+          "name": "TPS Turku vs HJK Helsinki | 22:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8a34fd9928",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-8a34fd9928",
+                  "name": "TPS Turku vs HJK Helsinki",
+                  "streams": [
+                    {
+                      "id": "st-8a34fd9928",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Finnish Veikkausliiga",
+            "team_a": "TPS Turku",
+            "team_b": "HJK Helsinki",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f3aa37eff0023279c42b6e99eecc31d0.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fd1a9c51505300dec9c26e5847114851.png",
+            "time": "22:00 08/05",
+            "blv": "BLV Người Lạ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8a34fd9928_40e49d35_20260507.png?v=40e49d35",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-3ba9a3cd5e",
           "name": "UTA Arad vs FK Csikszereda Miercurea Ciuc | 22:00 08/05",
           "type": "single",
@@ -1320,59 +1373,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ccd4e5babb_52450c55_20260507.png?v=52450c55",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-8a34fd9928",
-          "name": "TPS Turku vs HJK Helsinki | 22:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8a34fd9928",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-8a34fd9928",
-                  "name": "TPS Turku vs HJK Helsinki",
-                  "streams": [
-                    {
-                      "id": "st-8a34fd9928",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Finnish Veikkausliiga",
-            "team_a": "TPS Turku",
-            "team_b": "HJK Helsinki",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f3aa37eff0023279c42b6e99eecc31d0.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fd1a9c51505300dec9c26e5847114851.png",
-            "time": "22:00 08/05",
-            "blv": "BLV Người Lạ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8a34fd9928_40e49d35_20260507.png?v=40e49d35",
             "width": 1600,
             "height": 1200
           }
@@ -1718,59 +1718,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-79209effab_4b9f486e_20260507.png?v=4b9f486e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-5f3460b6d4",
-          "name": "Thiago Agustin Tirante vs Gianluca Cadenasso | 22:15 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5f3460b6d4",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-5f3460b6d4",
-                  "name": "Thiago Agustin Tirante vs Gianluca Cadenasso",
-                  "streams": [
-                    {
-                      "id": "st-5f3460b6d4",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Thiago Agustin Tirante",
-            "team_b": "Gianluca Cadenasso",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/79836114a9eba54028abf8859781616f.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4d2be9067c426090965c35f47a26d88f.png",
-            "time": "22:15 07/05",
-            "blv": "BLV Người Hầu",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5f3460b6d4_29f5113e_20260507.png?v=29f5113e",
             "width": 1600,
             "height": 1200
           }
