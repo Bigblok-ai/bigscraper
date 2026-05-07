@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,77 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8796c30c8d_decf4016_20260507.png?v=decf4016",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-8aa5fd366e",
-          "name": "Cəbrayıl FK vs Baku Sportinq FK",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8aa5fd366e",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-8aa5fd366e",
-                  "name": "Cəbrayıl FK vs Baku Sportinq FK",
-                  "streams": [
-                    {
-                      "id": "st-8aa5fd366e",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-be96e52311",
-                          "name": "BLV Người Rừng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fc77b351ddc_148/index.m3u8?expire=1778758195&sign=9bd93940c58e77c5ce6b6b1a808fbf67",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Azerbaijan First Division",
-            "team_a": "Cəbrayıl FK",
-            "team_b": "Baku Sportinq FK",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e7fcb477b12cf7fa73ebaa19d43cad23.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/afd11580da1ff691b68dcb564d9d10e5.png",
-            "time": "",
-            "blv": "BLV Người Rừng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8aa5fd366e_56c3919e_20260507.png?v=56c3919e",
             "width": 1600,
             "height": 1200
           }
@@ -477,59 +406,6 @@
           }
         },
         {
-          "id": "thapcam-5d6d729c2d",
-          "name": "RC Strasbourg Alsace vs Rayo Vallecano | 02:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5d6d729c2d",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-5d6d729c2d",
-                  "name": "RC Strasbourg Alsace vs Rayo Vallecano",
-                  "streams": [
-                    {
-                      "id": "st-5d6d729c2d",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa Conference League",
-            "team_a": "RC Strasbourg Alsace",
-            "team_b": "Rayo Vallecano",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/998db478bf7c06d5817bf846987a0d0a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5005d8feab109ce64e40beb98073cc1f.png",
-            "time": "02:00 08/05",
-            "blv": "BLV Chân Đất",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5d6d729c2d_2792b730_20260507.png?v=2792b730",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-d8e9d3dbfc",
           "name": "Crystal Palace vs FC Shakhtar Donetsk | 02:00 08/05",
           "type": "single",
@@ -578,6 +454,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d8e9d3dbfc_6c9f08ef_20260507.png?v=6c9f08ef",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-5d6d729c2d",
+          "name": "RC Strasbourg Alsace vs Rayo Vallecano | 02:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5d6d729c2d",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-5d6d729c2d",
+                  "name": "RC Strasbourg Alsace vs Rayo Vallecano",
+                  "streams": [
+                    {
+                      "id": "st-5d6d729c2d",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa Conference League",
+            "team_a": "RC Strasbourg Alsace",
+            "team_b": "Rayo Vallecano",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/998db478bf7c06d5817bf846987a0d0a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5005d8feab109ce64e40beb98073cc1f.png",
+            "time": "02:00 08/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5d6d729c2d_2792b730_20260507.png?v=2792b730",
             "width": 1600,
             "height": 1200
           }
@@ -1217,6 +1146,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-a91ca9ee70",
+          "name": "El Mokawloon El Arab vs El Gounah | 21:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a91ca9ee70",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-a91ca9ee70",
+                  "name": "El Mokawloon El Arab vs El Gounah",
+                  "streams": [
+                    {
+                      "id": "st-a91ca9ee70",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "El Mokawloon El Arab",
+            "team_b": "El Gounah",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d2ba8945533ebbda0bcccf6cf21a4bd4.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/35e665fa4086e183fda582249d625c2b.png",
+            "time": "21:00 08/05",
+            "blv": "BLV Người Điên",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a91ca9ee70_0ac4fcf5_20260507.png?v=0ac4fcf5",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1345,82 +1327,11 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-c279200215",
-          "name": "Stefanos Tsitsipas vs Tomas Machac | 20:20 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c279200215",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-c279200215",
-                  "name": "Stefanos Tsitsipas vs Tomas Machac",
-                  "streams": [
-                    {
-                      "id": "st-c279200215",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b325f70c22",
-                          "name": "BLV Tôn Quyền",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fc774451ddc_793/index.m3u8?expire=1778758084&sign=569902966b8bf523a62080b95ae5eed8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Stefanos Tsitsipas",
-            "team_b": "Tomas Machac",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a799928704aee05cfc140d600ac3ceb0.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c2f833fe4f7f2bd0ccae5e314f3ce078.png",
-            "time": "20:20 07/05",
-            "blv": "BLV Tôn Quyền",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c279200215_4b9f486e_20260507.png?v=4b9f486e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-8a0efef287",
           "name": "Roberto Bautista Agut vs Francesco Maestrelli | 20:20 07/05",
@@ -1488,6 +1399,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8a0efef287_72be86c8_20260507.png?v=72be86c8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-79209effab",
+          "name": "Stefanos Tsitsipas vs Tomas Machac | 21:20 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-79209effab",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-79209effab",
+                  "name": "Stefanos Tsitsipas vs Tomas Machac",
+                  "streams": [
+                    {
+                      "id": "st-79209effab",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Rome, Italy Men Singles",
+            "team_a": "Stefanos Tsitsipas",
+            "team_b": "Tomas Machac",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a799928704aee05cfc140d600ac3ceb0.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c2f833fe4f7f2bd0ccae5e314f3ce078.png",
+            "time": "21:20 07/05",
+            "blv": "BLV Tôn Quyền",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-79209effab_4b9f486e_20260507.png?v=4b9f486e",
             "width": 1600,
             "height": 1200
           }
