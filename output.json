@@ -1504,7 +1504,7 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1647,6 +1647,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-79209effab_4b9f486e_20260507.png?v=4b9f486e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-17e65cc430",
+          "name": "Thiago Agustin Tirante vs Gianluca Cadenasso | 22:30 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-17e65cc430",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-17e65cc430",
+                  "name": "Thiago Agustin Tirante vs Gianluca Cadenasso",
+                  "streams": [
+                    {
+                      "id": "st-17e65cc430",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-800c005940",
+                          "name": "BLV Người Hầu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fcaf6c137e4_9657/index.m3u8?expire=1778772460&sign=dda705679f00dec9691720283b496b0d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Rome, Italy Men Singles",
+            "team_a": "Thiago Agustin Tirante",
+            "team_b": "Gianluca Cadenasso",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/79836114a9eba54028abf8859781616f.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4d2be9067c426090965c35f47a26d88f.png",
+            "time": "22:30 07/05",
+            "blv": "BLV Người Hầu",
+            "is_live": true,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-17e65cc430_29f5113e_20260507.png?v=29f5113e",
             "width": 1600,
             "height": 1200
           }
