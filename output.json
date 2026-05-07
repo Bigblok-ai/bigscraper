@@ -1557,82 +1557,11 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (3 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-d78c5a1587",
-          "name": "Cristian Garin vs Juan Manuel Cerundolo | 21:10 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d78c5a1587",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d78c5a1587",
-                  "name": "Cristian Garin vs Juan Manuel Cerundolo",
-                  "streams": [
-                    {
-                      "id": "st-d78c5a1587",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b67ff75e0c",
-                          "name": "BLV Siêu Quậy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fc9d27137e4_26/index.m3u8?expire=1778767783&sign=9e23d0b2b91b6531093561528cee7067",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Cristian Garin",
-            "team_b": "Juan Manuel Cerundolo",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4829e413e4ce4569ccdbac3712ada646.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/463db21072547cae2e9b28cf3662a592.png",
-            "time": "21:10 07/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d78c5a1587_a74b6b19_20260507.png?v=a74b6b19",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-17e65cc430",
           "name": "Thiago Agustin Tirante vs Gianluca Cadenasso | 22:30 07/05",
