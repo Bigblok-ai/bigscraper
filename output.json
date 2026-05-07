@@ -1557,7 +1557,7 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1712,10 +1712,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1730,7 +1730,25 @@
                     {
                       "id": "st-5717231ab5",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a6dffe2625",
+                          "name": "BLV Người Sói",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fc9ed1137e4_742/index.m3u8?expire=1778768209&sign=4372f1d56a0300f1c021535beb5d3ee3",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1745,7 +1763,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1241fda077affd11713063f15cf3a30c.png",
             "time": "23:40 07/05",
             "blv": "BLV Người Sói",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Tennis"
           },
           "image": {
