@@ -1396,82 +1396,11 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-799f331b88",
-          "name": "Marcos Giron vs Marin Cilic | 17:55 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-799f331b88",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-799f331b88",
-                  "name": "Marcos Giron vs Marin Cilic",
-                  "streams": [
-                    {
-                      "id": "st-799f331b88",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2872803d9f",
-                          "name": "BLV Siêu Quậy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fc61fb137e4_26/index.m3u8?expire=1778752635&sign=586075fb229e7815c2ba4c896b156eb5",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Marcos Giron",
-            "team_b": "Marin Cilic",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/36a5d96bdf5c18e29342e08603e052fc.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ec7a2a0b59ac58b6429051b28b2083d9.png",
-            "time": "17:55 07/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-799f331b88_a29ecc8b_20260507.png?v=a29ecc8b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-f7d6c23f0a",
           "name": "Federico Cina vs Alexander Blockx | 18:00 07/05",
