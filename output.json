@@ -1378,82 +1378,11 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (4 LIVE)",
+      "name": "🎾 Tennis (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-a987c96a49",
-          "name": "Marton Fucsovics vs Dino Prizmic | 17:15 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a987c96a49",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-a987c96a49",
-                  "name": "Marton Fucsovics vs Dino Prizmic",
-                  "streams": [
-                    {
-                      "id": "st-a987c96a49",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-789d7e8848",
-                          "name": "BLV Người Sói",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fb7256137e4_742/index.m3u8?expire=1778691286&sign=cc35f36b41cc5ed834c106baf19c67be",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Marton Fucsovics",
-            "team_b": "Dino Prizmic",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fb5c4f4216937f8918d76031ad60d744.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8bf80daa8f2b15e4117a90fe557e9ade.png",
-            "time": "17:15 07/05",
-            "blv": "BLV Người Sói",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a987c96a49_dc4c2b31_20260507.png?v=dc4c2b31",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-799f331b88",
           "name": "Marcos Giron vs Marin Cilic | 17:55 07/05",
