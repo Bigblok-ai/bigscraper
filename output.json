@@ -17,79 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-60596e3e93",
-          "name": "Macara vs Club Atletico Tigre | 07:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-60596e3e93",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-60596e3e93",
-                  "name": "Macara vs Club Atletico Tigre",
-                  "streams": [
-                    {
-                      "id": "st-60596e3e93",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f386b84c64",
-                          "name": "BLV Người Nhớt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fbcb1d137e4_14232/index.m3u8?expire=1778714013&sign=c19680953b2cf3e604a192aeee1536c1",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CONMEBOL Copa Sudamericana",
-            "team_a": "Macara",
-            "team_b": "Club Atletico Tigre",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d138a4d0829205be8e477b43d95b138d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/95c9ef810563d777a5330b142f9ba38b.png",
-            "time": "07:00 07/05",
-            "blv": "BLV Người Nhớt",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-60596e3e93_8d787b24_20260507.png?v=8d787b24",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-9d42ec69af",
-          "name": "Sporting Kansas CityReserves vs Ventura County FC | 07:00 07/05",
+          "name": "Sporting Kansas CityReserves vs Ventura County FC",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -144,7 +73,7 @@
             "team_b": "Ventura County FC",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c5593b106980072677a648800a11d8.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f93ca58969938ab5583e30e71d8e31a4.png",
-            "time": "07:00 07/05",
+            "time": "",
             "blv": "BLV Chân Đất",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -154,6 +83,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9d42ec69af_2cc74613_20260507.png?v=2cc74613",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-60596e3e93",
+          "name": "Macara vs Club Atletico Tigre",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-60596e3e93",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-60596e3e93",
+                  "name": "Macara vs Club Atletico Tigre",
+                  "streams": [
+                    {
+                      "id": "st-60596e3e93",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f386b84c64",
+                          "name": "BLV Người Nhớt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fbcb1d137e4_14232/index.m3u8?expire=1778714013&sign=c19680953b2cf3e604a192aeee1536c1",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Copa Sudamericana",
+            "team_a": "Macara",
+            "team_b": "Club Atletico Tigre",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d138a4d0829205be8e477b43d95b138d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/95c9ef810563d777a5330b142f9ba38b.png",
+            "time": "",
+            "blv": "BLV Người Nhớt",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-60596e3e93_8d787b24_20260507.png?v=8d787b24",
             "width": 1600,
             "height": 1200
           }
@@ -371,59 +371,6 @@
           }
         },
         {
-          "id": "thapcam-49d25c3d19",
-          "name": "Vietnam U17 Women vs Myanmar U17 Women | 18:30 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-49d25c3d19",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-49d25c3d19",
-                  "name": "Vietnam U17 Women vs Myanmar U17 Women",
-                  "streams": [
-                    {
-                      "id": "st-49d25c3d19",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "Vietnam U17 Women",
-            "team_b": "Myanmar U17 Women",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0062546fba2350caff9e4b31101550c4.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0eff6ce301fcd86f8793b5b859ea050f.png",
-            "time": "18:30 07/05",
-            "blv": "BLV Cá Mập",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-49d25c3d19_f920b3de_20260507.png?v=f920b3de",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-cf89fc132e",
           "name": "China U17 Women vs Thailand U17 Women | 18:30 07/05",
           "type": "single",
@@ -472,6 +419,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cf89fc132e_c8becba7_20260507.png?v=c8becba7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-49d25c3d19",
+          "name": "Vietnam U17 Women vs Myanmar U17 Women | 18:30 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-49d25c3d19",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-49d25c3d19",
+                  "name": "Vietnam U17 Women vs Myanmar U17 Women",
+                  "streams": [
+                    {
+                      "id": "st-49d25c3d19",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Vietnam U17 Women",
+            "team_b": "Myanmar U17 Women",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0062546fba2350caff9e4b31101550c4.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0eff6ce301fcd86f8793b5b859ea050f.png",
+            "time": "18:30 07/05",
+            "blv": "BLV Cá Mập",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-49d25c3d19_f920b3de_20260507.png?v=f920b3de",
             "width": 1600,
             "height": 1200
           }
@@ -901,59 +901,6 @@
           }
         },
         {
-          "id": "thapcam-0bee8658e7",
-          "name": "Aston Villa vs Nottingham Forest | 02:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0bee8658e7",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-0bee8658e7",
-                  "name": "Aston Villa vs Nottingham Forest",
-                  "streams": [
-                    {
-                      "id": "st-0bee8658e7",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Aston Villa",
-            "team_b": "Nottingham Forest",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c32d6a906083118cac2cb796edaab3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/62572999d107f777efa4aeb907443527.png",
-            "time": "02:00 08/05",
-            "blv": "BLV Siêu Bướng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0bee8658e7_c78a5f3a_20260507.png?v=c78a5f3a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-5d6d729c2d",
           "name": "RC Strasbourg Alsace vs Rayo Vallecano | 02:00 08/05",
           "type": "single",
@@ -1113,8 +1060,8 @@
           }
         },
         {
-          "id": "thapcam-e2b9f2f8f2",
-          "name": "Boston River vs Millonarios | 05:00 08/05",
+          "id": "thapcam-0bee8658e7",
+          "name": "Aston Villa vs Nottingham Forest | 02:00 08/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1128,15 +1075,15 @@
           ],
           "sources": [
             {
-              "id": "src-e2b9f2f8f2",
+              "id": "src-0bee8658e7",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-e2b9f2f8f2",
-                  "name": "Boston River vs Millonarios",
+                  "id": "ct-0bee8658e7",
+                  "name": "Aston Villa vs Nottingham Forest",
                   "streams": [
                     {
-                      "id": "st-e2b9f2f8f2",
+                      "id": "st-0bee8658e7",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1146,13 +1093,13 @@
             }
           ],
           "org_metadata": {
-            "league": "CONMEBOL Copa Sudamericana",
-            "team_a": "Boston River",
-            "team_b": "Millonarios",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/213564797bbfa3921e60bb314c92354b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/88bf2a10fe7e8d3f9a21b73f3f77fcde.png",
-            "time": "05:00 08/05",
-            "blv": "BLV Người Băng",
+            "league": "UEFA Europa League",
+            "team_a": "Aston Villa",
+            "team_b": "Nottingham Forest",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c32d6a906083118cac2cb796edaab3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/62572999d107f777efa4aeb907443527.png",
+            "time": "02:00 08/05",
+            "blv": "BLV Siêu Bướng",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1160,7 +1107,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e2b9f2f8f2_7e9003b2_20260507.png?v=7e9003b2",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0bee8658e7_c78a5f3a_20260507.png?v=c78a5f3a",
             "width": 1600,
             "height": 1200
           }
@@ -1214,6 +1161,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d4369ad142_a3652531_20260507.png?v=a3652531",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-e2b9f2f8f2",
+          "name": "Boston River vs Millonarios | 05:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e2b9f2f8f2",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-e2b9f2f8f2",
+                  "name": "Boston River vs Millonarios",
+                  "streams": [
+                    {
+                      "id": "st-e2b9f2f8f2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Copa Sudamericana",
+            "team_a": "Boston River",
+            "team_b": "Millonarios",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/213564797bbfa3921e60bb314c92354b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/88bf2a10fe7e8d3f9a21b73f3f77fcde.png",
+            "time": "05:00 08/05",
+            "blv": "BLV Người Băng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e2b9f2f8f2_7e9003b2_20260507.png?v=7e9003b2",
             "width": 1600,
             "height": 1200
           }
