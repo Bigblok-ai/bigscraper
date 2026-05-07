@@ -617,59 +617,6 @@
           }
         },
         {
-          "id": "thapcam-39fef92395",
-          "name": "SC Freiburg vs Sporting Braga | 02:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-39fef92395",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-39fef92395",
-                  "name": "SC Freiburg vs Sporting Braga",
-                  "streams": [
-                    {
-                      "id": "st-39fef92395",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "SC Freiburg",
-            "team_b": "Sporting Braga",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6508946c9a5fe22a8784b905b25e8c79.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1fe75f826dab40e6e89cbe961c7e9116.png",
-            "time": "02:00 08/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-39fef92395_5c472062_20260507.png?v=5c472062",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-5d6d729c2d",
           "name": "RC Strasbourg Alsace vs Rayo Vallecano | 02:00 08/05",
           "type": "single",
@@ -771,6 +718,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d8e9d3dbfc_6c9f08ef_20260507.png?v=6c9f08ef",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-39fef92395",
+          "name": "SC Freiburg vs Sporting Braga | 02:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-39fef92395",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-39fef92395",
+                  "name": "SC Freiburg vs Sporting Braga",
+                  "streams": [
+                    {
+                      "id": "st-39fef92395",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "SC Freiburg",
+            "team_b": "Sporting Braga",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6508946c9a5fe22a8784b905b25e8c79.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1fe75f826dab40e6e89cbe961c7e9116.png",
+            "time": "02:00 08/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-39fef92395_5c472062_20260507.png?v=5c472062",
             "width": 1600,
             "height": 1200
           }
