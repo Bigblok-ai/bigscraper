@@ -17,111 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-5d6d729c2d",
-          "name": "RC Strasbourg Alsace vs Rayo Vallecano",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5d6d729c2d",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-5d6d729c2d",
-                  "name": "RC Strasbourg Alsace vs Rayo Vallecano",
-                  "streams": [
-                    {
-                      "id": "st-5d6d729c2d",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-00621e02da",
-                          "name": "BLV Chân Đất",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fcd8d851ddc_11241/index.m3u8?expire=1778783064&sign=8e1f560d80a10decb9b80dde4f1deac4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-afbc292236",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fcbb23137e4_793/index.m3u8?expire=1778775459&sign=9959c7b03456e73cf49815f6f6f8c3b3",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f7f2047dc5",
-                          "name": "Link HD 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fcd6f9137e4_145/index.m3u8?expire=1778782585&sign=e59e2e2ce418cf1f74f51186474da6ea",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa Conference League",
-            "team_a": "RC Strasbourg Alsace",
-            "team_b": "Rayo Vallecano",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/998db478bf7c06d5817bf846987a0d0a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5005d8feab109ce64e40beb98073cc1f.png",
-            "time": "",
-            "blv": "BLV Chân Đất",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5d6d729c2d_2792b730_20260508.png?v=2792b730",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-0bee8658e7",
           "name": "Aston Villa vs Nottingham Forest",
           "type": "single",
@@ -398,6 +293,111 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d8e9d3dbfc_6c9f08ef_20260508.png?v=6c9f08ef",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-5d6d729c2d",
+          "name": "RC Strasbourg Alsace vs Rayo Vallecano",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5d6d729c2d",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-5d6d729c2d",
+                  "name": "RC Strasbourg Alsace vs Rayo Vallecano",
+                  "streams": [
+                    {
+                      "id": "st-5d6d729c2d",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-00621e02da",
+                          "name": "BLV Chân Đất",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fcd8d851ddc_11241/index.m3u8?expire=1778783064&sign=8e1f560d80a10decb9b80dde4f1deac4",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-afbc292236",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fcbb23137e4_793/index.m3u8?expire=1778775459&sign=9959c7b03456e73cf49815f6f6f8c3b3",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f7f2047dc5",
+                          "name": "Link HD 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fcd6f9137e4_145/index.m3u8?expire=1778782585&sign=e59e2e2ce418cf1f74f51186474da6ea",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa Conference League",
+            "team_a": "RC Strasbourg Alsace",
+            "team_b": "Rayo Vallecano",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/998db478bf7c06d5817bf846987a0d0a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5005d8feab109ce64e40beb98073cc1f.png",
+            "time": "",
+            "blv": "BLV Chân Đất",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5d6d729c2d_2792b730_20260508.png?v=2792b730",
             "width": 1600,
             "height": 1200
           }
@@ -1145,59 +1145,6 @@
           }
         },
         {
-          "id": "thapcam-80706c6cd3",
-          "name": "Vojvodina Novi Sad vs FK Čukarički | 23:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-80706c6cd3",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-80706c6cd3",
-                  "name": "Vojvodina Novi Sad vs FK Čukarički",
-                  "streams": [
-                    {
-                      "id": "st-80706c6cd3",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serbian Mozzart Bet Superliga",
-            "team_a": "Vojvodina Novi Sad",
-            "team_b": "FK Čukarički",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/40ce8b99981bc3199784a1f6d3a7b26c.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4ad5f5bcfdad804518271ed830bbecc1.png",
-            "time": "23:00 08/05",
-            "blv": "BLV Tôn Quyền",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-80706c6cd3_4aa77dfb_20260508.png?v=4aa77dfb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-0faad63acf",
           "name": "Rakow Czestochowa vs Korona Kielce | 23:00 08/05",
           "type": "single",
@@ -1251,8 +1198,8 @@
           }
         },
         {
-          "id": "thapcam-e0229ab281",
-          "name": "Viborg vs Sonderjyske | 00:00 09/05",
+          "id": "thapcam-80706c6cd3",
+          "name": "Vojvodina Novi Sad vs FK Čukarički | 23:00 08/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1266,15 +1213,15 @@
           ],
           "sources": [
             {
-              "id": "src-e0229ab281",
+              "id": "src-80706c6cd3",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-e0229ab281",
-                  "name": "Viborg vs Sonderjyske",
+                  "id": "ct-80706c6cd3",
+                  "name": "Vojvodina Novi Sad vs FK Čukarički",
                   "streams": [
                     {
-                      "id": "st-e0229ab281",
+                      "id": "st-80706c6cd3",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1284,13 +1231,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Danish Superliga",
-            "team_a": "Viborg",
-            "team_b": "Sonderjyske",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c5beffcdc88a77f8494e85108b306062.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2a247b5fb7ff72e24a051b71a796d71b.png",
-            "time": "00:00 09/05",
-            "blv": "BLV Chân Đất",
+            "league": "Serbian Mozzart Bet Superliga",
+            "team_a": "Vojvodina Novi Sad",
+            "team_b": "FK Čukarički",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/40ce8b99981bc3199784a1f6d3a7b26c.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4ad5f5bcfdad804518271ed830bbecc1.png",
+            "time": "23:00 08/05",
+            "blv": "BLV Tôn Quyền",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1298,7 +1245,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e0229ab281_f357c3ad_20260508.png?v=f357c3ad",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-80706c6cd3_4aa77dfb_20260508.png?v=4aa77dfb",
             "width": 1600,
             "height": 1200
           }
@@ -1352,6 +1299,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-51b047a70b_95262a81_20260508.png?v=95262a81",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-e0229ab281",
+          "name": "Viborg vs Sonderjyske | 00:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e0229ab281",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-e0229ab281",
+                  "name": "Viborg vs Sonderjyske",
+                  "streams": [
+                    {
+                      "id": "st-e0229ab281",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Danish Superliga",
+            "team_a": "Viborg",
+            "team_b": "Sonderjyske",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c5beffcdc88a77f8494e85108b306062.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2a247b5fb7ff72e24a051b71a796d71b.png",
+            "time": "00:00 09/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e0229ab281_f357c3ad_20260508.png?v=f357c3ad",
             "width": 1600,
             "height": 1200
           }
