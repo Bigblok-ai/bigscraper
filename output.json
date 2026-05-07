@@ -11,11 +11,397 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-d8e9d3dbfc",
+          "name": "Crystal Palace vs FC Shakhtar Donetsk | 02:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d8e9d3dbfc",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d8e9d3dbfc",
+                  "name": "Crystal Palace vs FC Shakhtar Donetsk",
+                  "streams": [
+                    {
+                      "id": "st-d8e9d3dbfc",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a0c63837c0",
+                          "name": "BLV Người Băng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fcd95851ddc_11/index.m3u8?expire=1778783192&sign=6666ab7b040aa94b8916a2481d42948a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-095a9e1ba0",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fcd94a51ddc_1549/index.m3u8?expire=1778783178&sign=fd51787fcc785502f2446898979f0b1a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa Conference League",
+            "team_a": "Crystal Palace",
+            "team_b": "FC Shakhtar Donetsk",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/42396d18444156e640c37476c2b41b93.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/141bcf6ab6d0bc7b8c67dc5eeb9f347d.png",
+            "time": "02:00 08/05",
+            "blv": "BLV Người Băng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d8e9d3dbfc_6c9f08ef_20260508.png?v=6c9f08ef",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-5d6d729c2d",
+          "name": "RC Strasbourg Alsace vs Rayo Vallecano | 02:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5d6d729c2d",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-5d6d729c2d",
+                  "name": "RC Strasbourg Alsace vs Rayo Vallecano",
+                  "streams": [
+                    {
+                      "id": "st-5d6d729c2d",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-00621e02da",
+                          "name": "BLV Chân Đất",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fcd8d851ddc_11241/index.m3u8?expire=1778783064&sign=8e1f560d80a10decb9b80dde4f1deac4",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-afbc292236",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fcbb23137e4_793/index.m3u8?expire=1778775459&sign=9959c7b03456e73cf49815f6f6f8c3b3",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f7f2047dc5",
+                          "name": "Link HD 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fcd6f9137e4_145/index.m3u8?expire=1778782585&sign=e59e2e2ce418cf1f74f51186474da6ea",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa Conference League",
+            "team_a": "RC Strasbourg Alsace",
+            "team_b": "Rayo Vallecano",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/998db478bf7c06d5817bf846987a0d0a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5005d8feab109ce64e40beb98073cc1f.png",
+            "time": "02:00 08/05",
+            "blv": "BLV Chân Đất",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5d6d729c2d_2792b730_20260508.png?v=2792b730",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-39fef92395",
+          "name": "SC Freiburg vs Sporting Braga | 02:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-39fef92395",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-39fef92395",
+                  "name": "SC Freiburg vs Sporting Braga",
+                  "streams": [
+                    {
+                      "id": "st-39fef92395",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c5ce7c84fb",
+                          "name": "BLV Siêu Quậy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fcd44d137e4_148/index.m3u8?expire=1778781901&sign=b837608773daac6dd75e7ff1556cadbb",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-507e992066",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fcd66d137e4_14559/index.m3u8?expire=1778782445&sign=ab2ad9a488745aac95080faf31d4b0a1",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-0a0c4991bb",
+                          "name": "Link HD 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fcd919137e4_26/index.m3u8?expire=1778783129&sign=d0915f9c498f7ee079ac9fbeaa437992",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "SC Freiburg",
+            "team_b": "Sporting Braga",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6508946c9a5fe22a8784b905b25e8c79.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1fe75f826dab40e6e89cbe961c7e9116.png",
+            "time": "02:00 08/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-39fef92395_5c472062_20260508.png?v=5c472062",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-0bee8658e7",
+          "name": "Aston Villa vs Nottingham Forest | 02:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0bee8658e7",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-0bee8658e7",
+                  "name": "Aston Villa vs Nottingham Forest",
+                  "streams": [
+                    {
+                      "id": "st-0bee8658e7",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b8189fbf19",
+                          "name": "BLV Cá Mập",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fcd7be137e4_154/index.m3u8?expire=1778782782&sign=db36b6dceaf1e0350b0a5542197694d7",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-a345376aed",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fcdbe851ddc_151/index.m3u8?expire=1778783848&sign=bda824998111ed2b74fb068a2e8a8679",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Aston Villa",
+            "team_b": "Nottingham Forest",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c32d6a906083118cac2cb796edaab3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/62572999d107f777efa4aeb907443527.png",
+            "time": "02:00 08/05",
+            "blv": "BLV Cá Mập",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0bee8658e7_c78a5f3a_20260508.png?v=c78a5f3a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-275a32a809",
           "name": "Corum Belediyespor vs Keciorengucu",
@@ -313,218 +699,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7eada08d37_06e577c2_20260508.png?v=06e577c2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-d8e9d3dbfc",
-          "name": "Crystal Palace vs FC Shakhtar Donetsk | 02:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d8e9d3dbfc",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d8e9d3dbfc",
-                  "name": "Crystal Palace vs FC Shakhtar Donetsk",
-                  "streams": [
-                    {
-                      "id": "st-d8e9d3dbfc",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa Conference League",
-            "team_a": "Crystal Palace",
-            "team_b": "FC Shakhtar Donetsk",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/42396d18444156e640c37476c2b41b93.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/141bcf6ab6d0bc7b8c67dc5eeb9f347d.png",
-            "time": "02:00 08/05",
-            "blv": "BLV Người Băng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d8e9d3dbfc_6c9f08ef_20260508.png?v=6c9f08ef",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-5d6d729c2d",
-          "name": "RC Strasbourg Alsace vs Rayo Vallecano | 02:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5d6d729c2d",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-5d6d729c2d",
-                  "name": "RC Strasbourg Alsace vs Rayo Vallecano",
-                  "streams": [
-                    {
-                      "id": "st-5d6d729c2d",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa Conference League",
-            "team_a": "RC Strasbourg Alsace",
-            "team_b": "Rayo Vallecano",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/998db478bf7c06d5817bf846987a0d0a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5005d8feab109ce64e40beb98073cc1f.png",
-            "time": "02:00 08/05",
-            "blv": "BLV Chân Đất",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5d6d729c2d_2792b730_20260508.png?v=2792b730",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-39fef92395",
-          "name": "SC Freiburg vs Sporting Braga | 02:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-39fef92395",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-39fef92395",
-                  "name": "SC Freiburg vs Sporting Braga",
-                  "streams": [
-                    {
-                      "id": "st-39fef92395",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "SC Freiburg",
-            "team_b": "Sporting Braga",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6508946c9a5fe22a8784b905b25e8c79.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1fe75f826dab40e6e89cbe961c7e9116.png",
-            "time": "02:00 08/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-39fef92395_5c472062_20260508.png?v=5c472062",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-0bee8658e7",
-          "name": "Aston Villa vs Nottingham Forest | 02:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0bee8658e7",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-0bee8658e7",
-                  "name": "Aston Villa vs Nottingham Forest",
-                  "streams": [
-                    {
-                      "id": "st-0bee8658e7",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Aston Villa",
-            "team_b": "Nottingham Forest",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c32d6a906083118cac2cb796edaab3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/62572999d107f777efa4aeb907443527.png",
-            "time": "02:00 08/05",
-            "blv": "BLV Cá Mập",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0bee8658e7_c78a5f3a_20260508.png?v=c78a5f3a",
             "width": 1600,
             "height": 1200
           }
@@ -1769,83 +1943,11 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "thapcam-93a1b3bd32",
-          "name": "Lorenzo Sonego vs Ignacio Buse | 00:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-93a1b3bd32",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-93a1b3bd32",
-                  "name": "Lorenzo Sonego vs Ignacio Buse",
-                  "streams": [
-                    {
-                      "id": "st-93a1b3bd32",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fed3d54e60",
-                          "name": "BLV Người Sói",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fcc630137e4_742/index.m3u8?expire=1778778288&sign=754cfefd023875752b3359031b9477fa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Lorenzo Sonego",
-            "team_b": "Ignacio Buse",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/310a93bb5b74c10324eada668db2d2a5.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/59ef9574d891e4d071ea5e2c73e4a905.png",
-            "time": "00:00 08/05",
-            "blv": "BLV Người Sói",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-93a1b3bd32_b10e608e_20260508.png?v=b10e608e",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-9102198393",
