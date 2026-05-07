@@ -1504,82 +1504,11 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (3 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-8a0efef287",
-          "name": "Roberto Bautista Agut vs Francesco Maestrelli | 20:20 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8a0efef287",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-8a0efef287",
-                  "name": "Roberto Bautista Agut vs Francesco Maestrelli",
-                  "streams": [
-                    {
-                      "id": "st-8a0efef287",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1633223bc4",
-                          "name": "BLV Người Hầu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fc8e2951ddc_9657/index.m3u8?expire=1778763945&sign=e535b9e1afba0c8d95e9c38117e61237",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Roberto Bautista Agut",
-            "team_b": "Francesco Maestrelli",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b291acc56b717666d73c12be8e500413.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/15b8ccd42587a6f09ea0194a2c0f3aae.png",
-            "time": "20:20 07/05",
-            "blv": "BLV Người Hầu",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8a0efef287_72be86c8_20260507.png?v=72be86c8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-d78c5a1587",
           "name": "Cristian Garin vs Juan Manuel Cerundolo | 21:10 07/05",
