@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-2009786a50",
-          "name": "Tukums-2000 vs Ogre United",
+          "id": "thapcam-275a32a809",
+          "name": "Corum Belediyespor vs Keciorengucu | 00:00 08/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-2009786a50",
+              "id": "src-275a32a809",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-2009786a50",
-                  "name": "Tukums-2000 vs Ogre United",
+                  "id": "ct-275a32a809",
+                  "name": "Corum Belediyespor vs Keciorengucu",
                   "streams": [
                     {
-                      "id": "st-2009786a50",
+                      "id": "st-275a32a809",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-f3d2aea7ef",
-                          "name": "BLV Người Rừng",
+                          "id": "lnk-24a5122dcb",
+                          "name": "BLV Jayce",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fc9b28137e4_148/index.m3u8?expire=1778767272&sign=b7014df93b858113972cf513aecc93fb",
+                          "url": "https://cdn-hls.phogatv8.com/live/69fcbe2151ddc_181/index.m3u8?expire=1778776225&sign=87ac1eed13533da48f25c24b7238ab16",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,13 +68,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Latvian Higher League",
-            "team_a": "Tukums-2000",
-            "team_b": "Ogre United",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/81b70b4f4179ca979f173ceae24222c4.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c448d89be2d910901ba43cd76bde1267.png",
-            "time": "",
-            "blv": "BLV Người Rừng",
+            "league": "Turkish First League",
+            "team_a": "Corum Belediyespor",
+            "team_b": "Keciorengucu",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0f2a369af39d8b5f8de389cca2a217ad.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8c04d7e93c287878ef0ddc9f8d214491.png",
+            "time": "00:00 08/05",
+            "blv": "BLV Jayce",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -82,7 +82,78 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2009786a50_b734e441_20260507.png?v=b734e441",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-275a32a809_13a620e0_20260507.png?v=13a620e0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-a8dd799bc4",
+          "name": "Bodrum FK vs Pendikspor | 00:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a8dd799bc4",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-a8dd799bc4",
+                  "name": "Bodrum FK vs Pendikspor",
+                  "streams": [
+                    {
+                      "id": "st-a8dd799bc4",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d6f9401206",
+                          "name": "BLV Người Cỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fcbf89137e4_19092/index.m3u8?expire=1778776585&sign=22a50932a244be1b0f811b036c051c99",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Turkish First League",
+            "team_a": "Bodrum FK",
+            "team_b": "Pendikspor",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/52ad6d005782baec899d29055cbed020.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9a07394b2cdca16ac436a056d2acd4c9.png",
+            "time": "00:00 08/05",
+            "blv": "BLV Người Cỏ",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a8dd799bc4_98ef7a30_20260507.png?v=98ef7a30",
             "width": 1600,
             "height": 1200
           }
@@ -154,112 +225,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-eb76b29868_9def5b5a_20260507.png?v=9def5b5a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-275a32a809",
-          "name": "Corum Belediyespor vs Keciorengucu | 00:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-275a32a809",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-275a32a809",
-                  "name": "Corum Belediyespor vs Keciorengucu",
-                  "streams": [
-                    {
-                      "id": "st-275a32a809",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Turkish First League",
-            "team_a": "Corum Belediyespor",
-            "team_b": "Keciorengucu",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0f2a369af39d8b5f8de389cca2a217ad.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8c04d7e93c287878ef0ddc9f8d214491.png",
-            "time": "00:00 08/05",
-            "blv": "BLV Jayce",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-275a32a809_13a620e0_20260507.png?v=13a620e0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-a8dd799bc4",
-          "name": "Bodrum FK vs Pendikspor | 00:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a8dd799bc4",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-a8dd799bc4",
-                  "name": "Bodrum FK vs Pendikspor",
-                  "streams": [
-                    {
-                      "id": "st-a8dd799bc4",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Turkish First League",
-            "team_a": "Bodrum FK",
-            "team_b": "Pendikspor",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/52ad6d005782baec899d29055cbed020.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9a07394b2cdca16ac436a056d2acd4c9.png",
-            "time": "00:00 08/05",
-            "blv": "BLV Người Cỏ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a8dd799bc4_98ef7a30_20260507.png?v=98ef7a30",
             "width": 1600,
             "height": 1200
           }
@@ -1166,59 +1131,6 @@
           }
         },
         {
-          "id": "thapcam-ccd4e5babb",
-          "name": "Toronto FC II vs New York Red Bulls B | 22:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ccd4e5babb",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-ccd4e5babb",
-                  "name": "Toronto FC II vs New York Red Bulls B",
-                  "streams": [
-                    {
-                      "id": "st-ccd4e5babb",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLS Next Pro",
-            "team_a": "Toronto FC II",
-            "team_b": "New York Red Bulls B",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d85b4da177906440b0b1616aff569914.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/12cdc8883966d78ca99be7ae7f349333.png",
-            "time": "22:00 08/05",
-            "blv": "BLV Max",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ccd4e5babb_52450c55_20260507.png?v=52450c55",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-8a34fd9928",
           "name": "TPS Turku vs HJK Helsinki | 22:00 08/05",
           "type": "single",
@@ -1320,6 +1232,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3ba9a3cd5e_e282a766_20260507.png?v=e282a766",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-ccd4e5babb",
+          "name": "Toronto FC II vs New York Red Bulls B | 22:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ccd4e5babb",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-ccd4e5babb",
+                  "name": "Toronto FC II vs New York Red Bulls B",
+                  "streams": [
+                    {
+                      "id": "st-ccd4e5babb",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLS Next Pro",
+            "team_a": "Toronto FC II",
+            "team_b": "New York Red Bulls B",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d85b4da177906440b0b1616aff569914.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/12cdc8883966d78ca99be7ae7f349333.png",
+            "time": "22:00 08/05",
+            "blv": "BLV Max",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ccd4e5babb_52450c55_20260507.png?v=52450c55",
             "width": 1600,
             "height": 1200
           }
@@ -1557,7 +1522,7 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1629,130 +1594,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-17e65cc430_29f5113e_20260507.png?v=29f5113e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-5717231ab5",
-          "name": "Denis Shapovalov vs Mariano Navone | 23:40 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5717231ab5",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-5717231ab5",
-                  "name": "Denis Shapovalov vs Mariano Navone",
-                  "streams": [
-                    {
-                      "id": "st-5717231ab5",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a6dffe2625",
-                          "name": "BLV Người Sói",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fc9ed1137e4_742/index.m3u8?expire=1778768209&sign=4372f1d56a0300f1c021535beb5d3ee3",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Denis Shapovalov",
-            "team_b": "Mariano Navone",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/dcf4be58bbc58dde59f9ce3c73a56e85.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1241fda077affd11713063f15cf3a30c.png",
-            "time": "23:40 07/05",
-            "blv": "BLV Người Sói",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5717231ab5_25070d3c_20260507.png?v=25070d3c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-93a1b3bd32",
-          "name": "Lorenzo Sonego vs Ignacio Buse | 00:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-93a1b3bd32",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-93a1b3bd32",
-                  "name": "Lorenzo Sonego vs Ignacio Buse",
-                  "streams": [
-                    {
-                      "id": "st-93a1b3bd32",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Lorenzo Sonego",
-            "team_b": "Ignacio Buse",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/310a93bb5b74c10324eada668db2d2a5.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/59ef9574d891e4d071ea5e2c73e4a905.png",
-            "time": "00:00 08/05",
-            "blv": "BLV Người Sói",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-93a1b3bd32_b10e608e_20260507.png?v=b10e608e",
             "width": 1600,
             "height": 1200
           }
