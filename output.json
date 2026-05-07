@@ -1402,77 +1402,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-d76650faa3",
-          "name": "Roberto Bautista Agut vs Francesco Maestrelli | 19:45 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d76650faa3",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d76650faa3",
-                  "name": "Roberto Bautista Agut vs Francesco Maestrelli",
-                  "streams": [
-                    {
-                      "id": "st-d76650faa3",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1633223bc4",
-                          "name": "BLV Người Hầu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fc8e2951ddc_9657/index.m3u8?expire=1778763945&sign=e535b9e1afba0c8d95e9c38117e61237",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Roberto Bautista Agut",
-            "team_b": "Francesco Maestrelli",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b291acc56b717666d73c12be8e500413.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/15b8ccd42587a6f09ea0194a2c0f3aae.png",
-            "time": "19:45 07/05",
-            "blv": "BLV Người Hầu",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d76650faa3_72be86c8_20260507.png?v=72be86c8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-c279200215",
           "name": "Stefanos Tsitsipas vs Tomas Machac | 20:20 07/05",
           "type": "single",
@@ -1544,32 +1473,50 @@
           }
         },
         {
-          "id": "thapcam-b11b795e22",
-          "name": "Thiago Agustin Tirante vs Gianluca Cadenasso | 20:55 07/05",
+          "id": "thapcam-8a0efef287",
+          "name": "Roberto Bautista Agut vs Francesco Maestrelli | 20:20 07/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-b11b795e22",
+              "id": "src-8a0efef287",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-b11b795e22",
-                  "name": "Thiago Agustin Tirante vs Gianluca Cadenasso",
+                  "id": "ct-8a0efef287",
+                  "name": "Roberto Bautista Agut vs Francesco Maestrelli",
                   "streams": [
                     {
-                      "id": "st-b11b795e22",
+                      "id": "st-8a0efef287",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1633223bc4",
+                          "name": "BLV Người Hầu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fc8e2951ddc_9657/index.m3u8?expire=1778763945&sign=e535b9e1afba0c8d95e9c38117e61237",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1578,20 +1525,20 @@
           ],
           "org_metadata": {
             "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Thiago Agustin Tirante",
-            "team_b": "Gianluca Cadenasso",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/79836114a9eba54028abf8859781616f.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4d2be9067c426090965c35f47a26d88f.png",
-            "time": "20:55 07/05",
+            "team_a": "Roberto Bautista Agut",
+            "team_b": "Francesco Maestrelli",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b291acc56b717666d73c12be8e500413.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/15b8ccd42587a6f09ea0194a2c0f3aae.png",
+            "time": "20:20 07/05",
             "blv": "BLV Người Hầu",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Tennis"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b11b795e22_29f5113e_20260507.png?v=29f5113e",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8a0efef287_72be86c8_20260507.png?v=72be86c8",
             "width": 1600,
             "height": 1200
           }
@@ -1650,8 +1597,8 @@
           }
         },
         {
-          "id": "thapcam-b25953d2f9",
-          "name": "Denis Shapovalov vs Mariano Navone | 22:05 07/05",
+          "id": "thapcam-c8727016e7",
+          "name": "Thiago Agustin Tirante vs Gianluca Cadenasso | 21:30 07/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1665,15 +1612,15 @@
           ],
           "sources": [
             {
-              "id": "src-b25953d2f9",
+              "id": "src-c8727016e7",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-b25953d2f9",
-                  "name": "Denis Shapovalov vs Mariano Navone",
+                  "id": "ct-c8727016e7",
+                  "name": "Thiago Agustin Tirante vs Gianluca Cadenasso",
                   "streams": [
                     {
-                      "id": "st-b25953d2f9",
+                      "id": "st-c8727016e7",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1684,12 +1631,12 @@
           ],
           "org_metadata": {
             "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Denis Shapovalov",
-            "team_b": "Mariano Navone",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/dcf4be58bbc58dde59f9ce3c73a56e85.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1241fda077affd11713063f15cf3a30c.png",
-            "time": "22:05 07/05",
-            "blv": "BLV Người Sói",
+            "team_a": "Thiago Agustin Tirante",
+            "team_b": "Gianluca Cadenasso",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/79836114a9eba54028abf8859781616f.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4d2be9067c426090965c35f47a26d88f.png",
+            "time": "21:30 07/05",
+            "blv": "BLV Người Hầu",
             "is_live": false,
             "cate_name": "Tennis"
           },
@@ -1697,7 +1644,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b25953d2f9_25070d3c_20260507.png?v=25070d3c",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c8727016e7_29f5113e_20260507.png?v=29f5113e",
             "width": 1600,
             "height": 1200
           }
@@ -1751,6 +1698,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-81abbf5142_3755df13_20260507.png?v=3755df13",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-b1ce456b3c",
+          "name": "Denis Shapovalov vs Mariano Navone | 22:40 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b1ce456b3c",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-b1ce456b3c",
+                  "name": "Denis Shapovalov vs Mariano Navone",
+                  "streams": [
+                    {
+                      "id": "st-b1ce456b3c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Rome, Italy Men Singles",
+            "team_a": "Denis Shapovalov",
+            "team_b": "Mariano Navone",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/dcf4be58bbc58dde59f9ce3c73a56e85.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1241fda077affd11713063f15cf3a30c.png",
+            "time": "22:40 07/05",
+            "blv": "BLV Người Sói",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b1ce456b3c_25070d3c_20260507.png?v=25070d3c",
             "width": 1600,
             "height": 1200
           }
