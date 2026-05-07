@@ -1482,6 +1482,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-6f1e7a6bd4",
+          "name": "Borussia Dortmund vs Eintracht Frankfurt | 01:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f1e7a6bd4",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-6f1e7a6bd4",
+                  "name": "Borussia Dortmund vs Eintracht Frankfurt",
+                  "streams": [
+                    {
+                      "id": "st-6f1e7a6bd4",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Borussia Dortmund",
+            "team_b": "Eintracht Frankfurt",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bbfacbdbe67705172c6414d7e9c21b58.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fe636189a2f3db78d0554c34f0bdaae6.png",
+            "time": "01:30 09/05",
+            "blv": "BLV Cá Mập",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6f1e7a6bd4_ff9b66d1_20260508.png?v=ff9b66d1",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
