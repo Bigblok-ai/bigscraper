@@ -17,77 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-bbc8716962",
-          "name": "FK Krasnodar vs Dynamo Moscow | 00:30 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bbc8716962",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-bbc8716962",
-                  "name": "FK Krasnodar vs Dynamo Moscow",
-                  "streams": [
-                    {
-                      "id": "st-bbc8716962",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5cba16d8e7",
-                          "name": "BLV Người Ngố",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fcc2f751ddc_14/index.m3u8?expire=1778777463&sign=2af122540be73aaff02d84c06ee1d79f",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Russian Cup",
-            "team_a": "FK Krasnodar",
-            "team_b": "Dynamo Moscow",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ee170662c1911f3d2f7746f6539f2604.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4f2e51a4694f68360a19648b651b30ca.png",
-            "time": "00:30 08/05",
-            "blv": "BLV Người Ngố",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bbc8716962_ad018d62_20260508.png?v=ad018d62",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-eb76b29868",
           "name": "DHJ Difaa Hassani Jadidi vs Hassania Agadir",
           "type": "single",
@@ -296,6 +225,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a8dd799bc4_98ef7a30_20260508.png?v=98ef7a30",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-bbc8716962",
+          "name": "FK Krasnodar vs Dynamo Moscow",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bbc8716962",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-bbc8716962",
+                  "name": "FK Krasnodar vs Dynamo Moscow",
+                  "streams": [
+                    {
+                      "id": "st-bbc8716962",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5cba16d8e7",
+                          "name": "BLV Người Ngố",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fcc2f751ddc_14/index.m3u8?expire=1778777463&sign=2af122540be73aaff02d84c06ee1d79f",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Russian Cup",
+            "team_a": "FK Krasnodar",
+            "team_b": "Dynamo Moscow",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ee170662c1911f3d2f7746f6539f2604.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4f2e51a4694f68360a19648b651b30ca.png",
+            "time": "",
+            "blv": "BLV Người Ngố",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bbc8716962_ad018d62_20260508.png?v=ad018d62",
             "width": 1600,
             "height": 1200
           }
@@ -990,59 +990,6 @@
           }
         },
         {
-          "id": "thapcam-ee7e7fbd00",
-          "name": "Philippines U17 Women vs Chinese Taipei U17 Women | 18:30 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ee7e7fbd00",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-ee7e7fbd00",
-                  "name": "Philippines U17 Women vs Chinese Taipei U17 Women",
-                  "streams": [
-                    {
-                      "id": "st-ee7e7fbd00",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "Philippines U17 Women",
-            "team_b": "Chinese Taipei U17 Women",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ba5a270beff01e94d4c372e5283ee654.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
-            "time": "18:30 08/05",
-            "blv": "BLV Chân Đất",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ee7e7fbd00_c78b79f1_20260508.png?v=c78b79f1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-302b7d4ac7",
           "name": "North Korea Women U17 vs Korea Rep. Women U17 | 18:30 08/05",
           "type": "single",
@@ -1091,6 +1038,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-302b7d4ac7_0874a446_20260508.png?v=0874a446",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-ee7e7fbd00",
+          "name": "Philippines U17 Women vs Chinese Taipei U17 Women | 18:30 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ee7e7fbd00",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-ee7e7fbd00",
+                  "name": "Philippines U17 Women vs Chinese Taipei U17 Women",
+                  "streams": [
+                    {
+                      "id": "st-ee7e7fbd00",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Philippines U17 Women",
+            "team_b": "Chinese Taipei U17 Women",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ba5a270beff01e94d4c372e5283ee654.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
+            "time": "18:30 08/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ee7e7fbd00_c78b79f1_20260508.png?v=c78b79f1",
             "width": 1600,
             "height": 1200
           }
@@ -1202,59 +1202,6 @@
           }
         },
         {
-          "id": "thapcam-8a34fd9928",
-          "name": "TPS Turku vs HJK Helsinki | 22:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8a34fd9928",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-8a34fd9928",
-                  "name": "TPS Turku vs HJK Helsinki",
-                  "streams": [
-                    {
-                      "id": "st-8a34fd9928",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Finnish Veikkausliiga",
-            "team_a": "TPS Turku",
-            "team_b": "HJK Helsinki",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f3aa37eff0023279c42b6e99eecc31d0.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fd1a9c51505300dec9c26e5847114851.png",
-            "time": "22:00 08/05",
-            "blv": "BLV Người Lạ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8a34fd9928_40e49d35_20260508.png?v=40e49d35",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-3ba9a3cd5e",
           "name": "UTA Arad vs FK Csikszereda Miercurea Ciuc | 22:00 08/05",
           "type": "single",
@@ -1303,6 +1250,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3ba9a3cd5e_e282a766_20260508.png?v=e282a766",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-8a34fd9928",
+          "name": "TPS Turku vs HJK Helsinki | 22:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8a34fd9928",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-8a34fd9928",
+                  "name": "TPS Turku vs HJK Helsinki",
+                  "streams": [
+                    {
+                      "id": "st-8a34fd9928",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Finnish Veikkausliiga",
+            "team_a": "TPS Turku",
+            "team_b": "HJK Helsinki",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f3aa37eff0023279c42b6e99eecc31d0.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fd1a9c51505300dec9c26e5847114851.png",
+            "time": "22:00 08/05",
+            "blv": "BLV Người Lạ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8a34fd9928_40e49d35_20260508.png?v=40e49d35",
             "width": 1600,
             "height": 1200
           }
