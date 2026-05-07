@@ -17,77 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-a8dd799bc4",
-          "name": "Bodrum FK vs Pendikspor",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a8dd799bc4",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-a8dd799bc4",
-                  "name": "Bodrum FK vs Pendikspor",
-                  "streams": [
-                    {
-                      "id": "st-a8dd799bc4",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d6f9401206",
-                          "name": "BLV Người Cỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fcbf89137e4_19092/index.m3u8?expire=1778776585&sign=22a50932a244be1b0f811b036c051c99",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Turkish First League",
-            "team_a": "Bodrum FK",
-            "team_b": "Pendikspor",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/52ad6d005782baec899d29055cbed020.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9a07394b2cdca16ac436a056d2acd4c9.png",
-            "time": "",
-            "blv": "BLV Người Cỏ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a8dd799bc4_98ef7a30_20260508.png?v=98ef7a30",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-275a32a809",
           "name": "Corum Belediyespor vs Keciorengucu",
           "type": "single",
@@ -154,6 +83,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-275a32a809_13a620e0_20260508.png?v=13a620e0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-a8dd799bc4",
+          "name": "Bodrum FK vs Pendikspor",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a8dd799bc4",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-a8dd799bc4",
+                  "name": "Bodrum FK vs Pendikspor",
+                  "streams": [
+                    {
+                      "id": "st-a8dd799bc4",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d6f9401206",
+                          "name": "BLV Người Cỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fcbf89137e4_19092/index.m3u8?expire=1778776585&sign=22a50932a244be1b0f811b036c051c99",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Turkish First League",
+            "team_a": "Bodrum FK",
+            "team_b": "Pendikspor",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/52ad6d005782baec899d29055cbed020.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9a07394b2cdca16ac436a056d2acd4c9.png",
+            "time": "",
+            "blv": "BLV Người Cỏ",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a8dd799bc4_98ef7a30_20260508.png?v=98ef7a30",
             "width": 1600,
             "height": 1200
           }
