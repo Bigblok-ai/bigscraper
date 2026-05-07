@@ -1396,11 +1396,82 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-d76650faa3",
+          "name": "Roberto Bautista Agut vs Francesco Maestrelli | 19:45 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d76650faa3",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d76650faa3",
+                  "name": "Roberto Bautista Agut vs Francesco Maestrelli",
+                  "streams": [
+                    {
+                      "id": "st-d76650faa3",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1633223bc4",
+                          "name": "BLV Người Hầu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fc8e2951ddc_9657/index.m3u8?expire=1778763945&sign=e535b9e1afba0c8d95e9c38117e61237",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Rome, Italy Men Singles",
+            "team_a": "Roberto Bautista Agut",
+            "team_b": "Francesco Maestrelli",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b291acc56b717666d73c12be8e500413.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/15b8ccd42587a6f09ea0194a2c0f3aae.png",
+            "time": "19:45 07/05",
+            "blv": "BLV Người Hầu",
+            "is_live": true,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d76650faa3_72be86c8_20260507.png?v=72be86c8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-c279200215",
           "name": "Stefanos Tsitsipas vs Tomas Machac | 20:20 07/05",
@@ -1409,10 +1480,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1427,7 +1498,25 @@
                     {
                       "id": "st-c279200215",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b325f70c22",
+                          "name": "BLV Tôn Quyền",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fc774451ddc_793/index.m3u8?expire=1778758084&sign=569902966b8bf523a62080b95ae5eed8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1442,7 +1531,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c2f833fe4f7f2bd0ccae5e314f3ce078.png",
             "time": "20:20 07/05",
             "blv": "BLV Tôn Quyền",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Tennis"
           },
           "image": {
