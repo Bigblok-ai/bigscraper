@@ -11,11 +11,82 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-2009786a50",
+          "name": "Tukums-2000 vs Ogre United | 22:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2009786a50",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-2009786a50",
+                  "name": "Tukums-2000 vs Ogre United",
+                  "streams": [
+                    {
+                      "id": "st-2009786a50",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f3d2aea7ef",
+                          "name": "BLV Người Rừng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fc9b28137e4_148/index.m3u8?expire=1778767272&sign=b7014df93b858113972cf513aecc93fb",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Latvian Higher League",
+            "team_a": "Tukums-2000",
+            "team_b": "Ogre United",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/81b70b4f4179ca979f173ceae24222c4.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c448d89be2d910901ba43cd76bde1267.png",
+            "time": "22:00 07/05",
+            "blv": "BLV Người Rừng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2009786a50_b734e441_20260507.png?v=b734e441",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-8796c30c8d",
           "name": "Tala'ea El Gaish vs Ghazl El Mahallah",
@@ -83,59 +154,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8796c30c8d_decf4016_20260507.png?v=decf4016",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-2009786a50",
-          "name": "Tukums-2000 vs Ogre United | 22:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2009786a50",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-2009786a50",
-                  "name": "Tukums-2000 vs Ogre United",
-                  "streams": [
-                    {
-                      "id": "st-2009786a50",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Latvian Higher League",
-            "team_a": "Tukums-2000",
-            "team_b": "Ogre United",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/81b70b4f4179ca979f173ceae24222c4.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c448d89be2d910901ba43cd76bde1267.png",
-            "time": "22:00 07/05",
-            "blv": "BLV Người Rừng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2009786a50_b734e441_20260507.png?v=b734e441",
             "width": 1600,
             "height": 1200
           }
@@ -406,59 +424,6 @@
           }
         },
         {
-          "id": "thapcam-0bee8658e7",
-          "name": "Aston Villa vs Nottingham Forest | 02:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0bee8658e7",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-0bee8658e7",
-                  "name": "Aston Villa vs Nottingham Forest",
-                  "streams": [
-                    {
-                      "id": "st-0bee8658e7",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Aston Villa",
-            "team_b": "Nottingham Forest",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c32d6a906083118cac2cb796edaab3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/62572999d107f777efa4aeb907443527.png",
-            "time": "02:00 08/05",
-            "blv": "BLV Cá Mập",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0bee8658e7_c78a5f3a_20260507.png?v=c78a5f3a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-5d6d729c2d",
           "name": "RC Strasbourg Alsace vs Rayo Vallecano | 02:00 08/05",
           "type": "single",
@@ -618,8 +583,8 @@
           }
         },
         {
-          "id": "thapcam-e2b9f2f8f2",
-          "name": "Boston River vs Millonarios | 05:00 08/05",
+          "id": "thapcam-0bee8658e7",
+          "name": "Aston Villa vs Nottingham Forest | 02:00 08/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -633,15 +598,15 @@
           ],
           "sources": [
             {
-              "id": "src-e2b9f2f8f2",
+              "id": "src-0bee8658e7",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-e2b9f2f8f2",
-                  "name": "Boston River vs Millonarios",
+                  "id": "ct-0bee8658e7",
+                  "name": "Aston Villa vs Nottingham Forest",
                   "streams": [
                     {
-                      "id": "st-e2b9f2f8f2",
+                      "id": "st-0bee8658e7",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -651,13 +616,13 @@
             }
           ],
           "org_metadata": {
-            "league": "CONMEBOL Copa Sudamericana",
-            "team_a": "Boston River",
-            "team_b": "Millonarios",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/213564797bbfa3921e60bb314c92354b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/88bf2a10fe7e8d3f9a21b73f3f77fcde.png",
-            "time": "05:00 08/05",
-            "blv": "BLV Người Băng",
+            "league": "UEFA Europa League",
+            "team_a": "Aston Villa",
+            "team_b": "Nottingham Forest",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c32d6a906083118cac2cb796edaab3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/62572999d107f777efa4aeb907443527.png",
+            "time": "02:00 08/05",
+            "blv": "BLV Cá Mập",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -665,7 +630,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e2b9f2f8f2_7e9003b2_20260507.png?v=7e9003b2",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0bee8658e7_c78a5f3a_20260507.png?v=c78a5f3a",
             "width": 1600,
             "height": 1200
           }
@@ -719,6 +684,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d4369ad142_a3652531_20260507.png?v=a3652531",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-e2b9f2f8f2",
+          "name": "Boston River vs Millonarios | 05:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e2b9f2f8f2",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-e2b9f2f8f2",
+                  "name": "Boston River vs Millonarios",
+                  "streams": [
+                    {
+                      "id": "st-e2b9f2f8f2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Copa Sudamericana",
+            "team_a": "Boston River",
+            "team_b": "Millonarios",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/213564797bbfa3921e60bb314c92354b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/88bf2a10fe7e8d3f9a21b73f3f77fcde.png",
+            "time": "05:00 08/05",
+            "blv": "BLV Người Băng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e2b9f2f8f2_7e9003b2_20260507.png?v=7e9003b2",
             "width": 1600,
             "height": 1200
           }
@@ -1042,59 +1060,6 @@
           }
         },
         {
-          "id": "thapcam-ee7e7fbd00",
-          "name": "Philippines U17 Women vs Chinese Taipei U17 Women | 18:30 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ee7e7fbd00",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-ee7e7fbd00",
-                  "name": "Philippines U17 Women vs Chinese Taipei U17 Women",
-                  "streams": [
-                    {
-                      "id": "st-ee7e7fbd00",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "Philippines U17 Women",
-            "team_b": "Chinese Taipei U17 Women",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ba5a270beff01e94d4c372e5283ee654.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
-            "time": "18:30 08/05",
-            "blv": "BLV Chân Đất",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ee7e7fbd00_c78b79f1_20260507.png?v=c78b79f1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-302b7d4ac7",
           "name": "North Korea Women U17 vs Korea Rep. Women U17 | 18:30 08/05",
           "type": "single",
@@ -1143,6 +1108,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-302b7d4ac7_0874a446_20260507.png?v=0874a446",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-ee7e7fbd00",
+          "name": "Philippines U17 Women vs Chinese Taipei U17 Women | 18:30 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ee7e7fbd00",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-ee7e7fbd00",
+                  "name": "Philippines U17 Women vs Chinese Taipei U17 Women",
+                  "streams": [
+                    {
+                      "id": "st-ee7e7fbd00",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Philippines U17 Women",
+            "team_b": "Chinese Taipei U17 Women",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ba5a270beff01e94d4c372e5283ee654.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
+            "time": "18:30 08/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ee7e7fbd00_c78b79f1_20260507.png?v=c78b79f1",
             "width": 1600,
             "height": 1200
           }
