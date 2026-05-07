@@ -1396,82 +1396,11 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-f7d6c23f0a",
-          "name": "Federico Cina vs Alexander Blockx | 18:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f7d6c23f0a",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f7d6c23f0a",
-                  "name": "Federico Cina vs Alexander Blockx",
-                  "streams": [
-                    {
-                      "id": "st-f7d6c23f0a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-00b9edae7a",
-                          "name": "BLV Người Hầu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fc6d4151ddc_9657/index.m3u8?expire=1778755521&sign=1111b0ba32f6a03b1e80ec1b56c3582e",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Federico Cina",
-            "team_b": "Alexander Blockx",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ce0abd8ecffa2a5a9738e527857a933f.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c071d420407817f1ae8548b0f5e89b3c.png",
-            "time": "18:00 07/05",
-            "blv": "BLV Người Hầu",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f7d6c23f0a_5a21f4c2_20260507.png?v=5a21f4c2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-c279200215",
           "name": "Stefanos Tsitsipas vs Tomas Machac | 20:20 07/05",
