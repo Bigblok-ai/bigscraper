@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-8d203e3061",
-          "name": "Toluca vs Los Angeles FC | 08:30 07/05",
+          "id": "thapcam-60596e3e93",
+          "name": "Macara vs Club Atletico Tigre",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-8d203e3061",
+              "id": "src-60596e3e93",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-8d203e3061",
-                  "name": "Toluca vs Los Angeles FC",
+                  "id": "ct-60596e3e93",
+                  "name": "Macara vs Club Atletico Tigre",
                   "streams": [
                     {
-                      "id": "st-8d203e3061",
+                      "id": "st-60596e3e93",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-9fb9c2e281",
-                          "name": "BLV Người Lạ",
+                          "id": "lnk-f386b84c64",
+                          "name": "BLV Người Nhớt",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fbe17d137e4_11241/index.m3u8?expire=1778719741&sign=2be65197b799e4e712fc7cd03c61b117",
+                          "url": "https://cdn-hls.phogatv8.com/live/69fbcb1d137e4_14232/index.m3u8?expire=1778714013&sign=c19680953b2cf3e604a192aeee1536c1",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,13 +68,13 @@
             }
           ],
           "org_metadata": {
-            "league": "CNCF CHL",
-            "team_a": "Toluca",
-            "team_b": "Los Angeles FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/725ccd5793be6b4f8dd917170dd17d04.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9c5ad5227377e12b87f77790d3d88c1c.png",
-            "time": "08:30 07/05",
-            "blv": "BLV Người Lạ",
+            "league": "CONMEBOL Copa Sudamericana",
+            "team_a": "Macara",
+            "team_b": "Club Atletico Tigre",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d138a4d0829205be8e477b43d95b138d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/95c9ef810563d777a5330b142f9ba38b.png",
+            "time": "",
+            "blv": "BLV Người Nhớt",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -82,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8d203e3061_d962b284_20260507.png?v=d962b284",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-60596e3e93_8d787b24_20260507.png?v=8d787b24",
             "width": 1600,
             "height": 1200
           }
@@ -159,77 +159,6 @@
           }
         },
         {
-          "id": "thapcam-60596e3e93",
-          "name": "Macara vs Club Atletico Tigre",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-60596e3e93",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-60596e3e93",
-                  "name": "Macara vs Club Atletico Tigre",
-                  "streams": [
-                    {
-                      "id": "st-60596e3e93",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f386b84c64",
-                          "name": "BLV Người Nhớt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fbcb1d137e4_14232/index.m3u8?expire=1778714013&sign=c19680953b2cf3e604a192aeee1536c1",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CONMEBOL Copa Sudamericana",
-            "team_a": "Macara",
-            "team_b": "Club Atletico Tigre",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d138a4d0829205be8e477b43d95b138d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/95c9ef810563d777a5330b142f9ba38b.png",
-            "time": "",
-            "blv": "BLV Người Nhớt",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-60596e3e93_8d787b24_20260507.png?v=8d787b24",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-dd9d802c15",
           "name": "Independiente Rivadavia vs Fluminense RJ",
           "type": "single",
@@ -301,32 +230,50 @@
           }
         },
         {
-          "id": "thapcam-085739bc41",
-          "name": "Alianza Atletico Sullana vs America de Cali | 09:00 07/05",
+          "id": "thapcam-8d203e3061",
+          "name": "Toluca vs Los Angeles FC",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-085739bc41",
+              "id": "src-8d203e3061",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-085739bc41",
-                  "name": "Alianza Atletico Sullana vs America de Cali",
+                  "id": "ct-8d203e3061",
+                  "name": "Toluca vs Los Angeles FC",
                   "streams": [
                     {
-                      "id": "st-085739bc41",
+                      "id": "st-8d203e3061",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-9fb9c2e281",
+                          "name": "BLV Người Lạ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fbe17d137e4_11241/index.m3u8?expire=1778719741&sign=2be65197b799e4e712fc7cd03c61b117",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -334,21 +281,21 @@
             }
           ],
           "org_metadata": {
-            "league": "CONMEBOL Copa Sudamericana",
-            "team_a": "Alianza Atletico Sullana",
-            "team_b": "America de Cali",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0ce10ff2713268ab8db9fad32d2ab54e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ed6ae7fa894cb5bdbccfd605d1d6ad04.png",
-            "time": "09:00 07/05",
-            "blv": "BLV Người Nhớt",
-            "is_live": false,
+            "league": "CNCF CHL",
+            "team_a": "Toluca",
+            "team_b": "Los Angeles FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/725ccd5793be6b4f8dd917170dd17d04.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9c5ad5227377e12b87f77790d3d88c1c.png",
+            "time": "",
+            "blv": "BLV Người Lạ",
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-085739bc41_c505f908_20260507.png?v=c505f908",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8d203e3061_d962b284_20260507.png?v=d962b284",
             "width": 1600,
             "height": 1200
           }
@@ -402,6 +349,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-994434c704_83cd0782_20260507.png?v=83cd0782",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-085739bc41",
+          "name": "Alianza Atletico Sullana vs America de Cali | 09:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-085739bc41",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-085739bc41",
+                  "name": "Alianza Atletico Sullana vs America de Cali",
+                  "streams": [
+                    {
+                      "id": "st-085739bc41",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Copa Sudamericana",
+            "team_a": "Alianza Atletico Sullana",
+            "team_b": "America de Cali",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0ce10ff2713268ab8db9fad32d2ab54e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ed6ae7fa894cb5bdbccfd605d1d6ad04.png",
+            "time": "09:00 07/05",
+            "blv": "BLV Người Nhớt",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-085739bc41_c505f908_20260507.png?v=c505f908",
             "width": 1600,
             "height": 1200
           }
