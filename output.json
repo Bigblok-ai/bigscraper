@@ -1208,7 +1208,114 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "thapcam-55864a6c5c",
+          "name": "Detroit Pistons vs Cleveland Cavaliers | 06:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-55864a6c5c",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-55864a6c5c",
+                  "name": "Detroit Pistons vs Cleveland Cavaliers",
+                  "streams": [
+                    {
+                      "id": "st-55864a6c5c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Detroit Pistons",
+            "team_b": "Cleveland Cavaliers",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3f82122a48e98eaccc5e71307eba801a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/57c938e35ceb2ee92562a09c4165fb47.png",
+            "time": "06:00 08/05",
+            "blv": "BLV Người Hầu",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-55864a6c5c_1b7715d0_20260507.png?v=1b7715d0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-c681001601",
+          "name": "Oklahoma City Thunder vs Los Angeles Lakers | 08:30 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c681001601",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-c681001601",
+                  "name": "Oklahoma City Thunder vs Los Angeles Lakers",
+                  "streams": [
+                    {
+                      "id": "st-c681001601",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Oklahoma City Thunder",
+            "team_b": "Los Angeles Lakers",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/319e03be75fee4098a83b1d0e01940b7.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fa6f985041ec3f9729172380ae9cebf8.png",
+            "time": "08:30 08/05",
+            "blv": "BLV Người Sói",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c681001601_15f92623_20260507.png?v=15f92623",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-0b6b498c58",
