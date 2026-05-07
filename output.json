@@ -340,7 +340,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0ce10ff2713268ab8db9fad32d2ab54e.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ed6ae7fa894cb5bdbccfd605d1d6ad04.png",
             "time": "09:00 07/05",
-            "blv": "BLV Người Cỏ",
+            "blv": "BLV Người Nhớt",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -725,59 +725,6 @@
           }
         },
         {
-          "id": "thapcam-275a32a809",
-          "name": "Corum Belediyespor vs Keciorengucu | 00:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-275a32a809",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-275a32a809",
-                  "name": "Corum Belediyespor vs Keciorengucu",
-                  "streams": [
-                    {
-                      "id": "st-275a32a809",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Turkish First League",
-            "team_a": "Corum Belediyespor",
-            "team_b": "Keciorengucu",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0f2a369af39d8b5f8de389cca2a217ad.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8c04d7e93c287878ef0ddc9f8d214491.png",
-            "time": "00:00 08/05",
-            "blv": "BLV Jayce",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-275a32a809_13a620e0_20260507.png?v=13a620e0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-a8dd799bc4",
           "name": "Bodrum FK vs Pendikspor | 00:00 08/05",
           "type": "single",
@@ -826,6 +773,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a8dd799bc4_98ef7a30_20260507.png?v=98ef7a30",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-275a32a809",
+          "name": "Corum Belediyespor vs Keciorengucu | 00:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-275a32a809",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-275a32a809",
+                  "name": "Corum Belediyespor vs Keciorengucu",
+                  "streams": [
+                    {
+                      "id": "st-275a32a809",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Turkish First League",
+            "team_a": "Corum Belediyespor",
+            "team_b": "Keciorengucu",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0f2a369af39d8b5f8de389cca2a217ad.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8c04d7e93c287878ef0ddc9f8d214491.png",
+            "time": "00:00 08/05",
+            "blv": "BLV Jayce",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-275a32a809_13a620e0_20260507.png?v=13a620e0",
             "width": 1600,
             "height": 1200
           }
