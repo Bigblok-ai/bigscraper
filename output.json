@@ -1075,6 +1075,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-712930be73",
+          "name": "Semen Padang vs Persik Kediri | 15:30 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-712930be73",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-712930be73",
+                  "name": "Semen Padang vs Persik Kediri",
+                  "streams": [
+                    {
+                      "id": "st-712930be73",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indonesian Liga 1",
+            "team_a": "Semen Padang",
+            "team_b": "Persik Kediri",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/84cbbc8bc40a15d27aafc116d775cd27.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ba93b52107e379dbcf350e144e0f80a8.png",
+            "time": "15:30 08/05",
+            "blv": "BLV Tôn Quyền",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-712930be73_2e1efdb8_20260507.png?v=2e1efdb8",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
