@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-085739bc41",
-          "name": "Alianza Atletico Sullana vs America de Cali",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-085739bc41",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-085739bc41",
-                  "name": "Alianza Atletico Sullana vs America de Cali",
-                  "streams": [
-                    {
-                      "id": "st-085739bc41",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c1c35c9cb7",
-                          "name": "BLV Người Nhớt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fbf19b51ddc_14232/index.m3u8?expire=1778723867&sign=f3a3d4389d39678d0ede34ecbd862982",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CONMEBOL Copa Sudamericana",
-            "team_a": "Alianza Atletico Sullana",
-            "team_b": "America de Cali",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0ce10ff2713268ab8db9fad32d2ab54e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ed6ae7fa894cb5bdbccfd605d1d6ad04.png",
-            "time": "",
-            "blv": "BLV Người Nhớt",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-085739bc41_c505f908_20260507.png?v=c505f908",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-49d25c3d19",
           "name": "Vietnam U17 Women vs Myanmar U17 Women | 18:30 07/05",
@@ -830,59 +759,6 @@
           }
         },
         {
-          "id": "thapcam-e2b9f2f8f2",
-          "name": "Boston River vs Millonarios | 05:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e2b9f2f8f2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e2b9f2f8f2",
-                  "name": "Boston River vs Millonarios",
-                  "streams": [
-                    {
-                      "id": "st-e2b9f2f8f2",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CONMEBOL Copa Sudamericana",
-            "team_a": "Boston River",
-            "team_b": "Millonarios",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/213564797bbfa3921e60bb314c92354b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/88bf2a10fe7e8d3f9a21b73f3f77fcde.png",
-            "time": "05:00 08/05",
-            "blv": "BLV Người Băng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e2b9f2f8f2_7e9003b2_20260507.png?v=7e9003b2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-d4369ad142",
           "name": "Mirassol vs Liga Dep Universitaria Quito | 05:00 08/05",
           "type": "single",
@@ -931,6 +807,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d4369ad142_a3652531_20260507.png?v=a3652531",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-e2b9f2f8f2",
+          "name": "Boston River vs Millonarios | 05:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e2b9f2f8f2",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-e2b9f2f8f2",
+                  "name": "Boston River vs Millonarios",
+                  "streams": [
+                    {
+                      "id": "st-e2b9f2f8f2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Copa Sudamericana",
+            "team_a": "Boston River",
+            "team_b": "Millonarios",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/213564797bbfa3921e60bb314c92354b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/88bf2a10fe7e8d3f9a21b73f3f77fcde.png",
+            "time": "05:00 08/05",
+            "blv": "BLV Người Băng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e2b9f2f8f2_7e9003b2_20260507.png?v=7e9003b2",
             "width": 1600,
             "height": 1200
           }
