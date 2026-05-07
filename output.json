@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-60596e3e93",
-          "name": "Macara vs Club Atletico Tigre",
+          "id": "thapcam-085739bc41",
+          "name": "Alianza Atletico Sullana vs America de Cali | 09:00 07/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-60596e3e93",
+              "id": "src-085739bc41",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-60596e3e93",
-                  "name": "Macara vs Club Atletico Tigre",
+                  "id": "ct-085739bc41",
+                  "name": "Alianza Atletico Sullana vs America de Cali",
                   "streams": [
                     {
-                      "id": "st-60596e3e93",
+                      "id": "st-085739bc41",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-f386b84c64",
+                          "id": "lnk-c1c35c9cb7",
                           "name": "BLV Người Nhớt",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fbcb1d137e4_14232/index.m3u8?expire=1778714013&sign=c19680953b2cf3e604a192aeee1536c1",
+                          "url": "https://cdn-hls.phogatv8.com/live/69fbf19b51ddc_14232/index.m3u8?expire=1778723867&sign=f3a3d4389d39678d0ede34ecbd862982",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,11 +69,11 @@
           ],
           "org_metadata": {
             "league": "CONMEBOL Copa Sudamericana",
-            "team_a": "Macara",
-            "team_b": "Club Atletico Tigre",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d138a4d0829205be8e477b43d95b138d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/95c9ef810563d777a5330b142f9ba38b.png",
-            "time": "",
+            "team_a": "Alianza Atletico Sullana",
+            "team_b": "America de Cali",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0ce10ff2713268ab8db9fad32d2ab54e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ed6ae7fa894cb5bdbccfd605d1d6ad04.png",
+            "time": "09:00 07/05",
             "blv": "BLV Người Nhớt",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -82,78 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-60596e3e93_8d787b24_20260507.png?v=8d787b24",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-9d42ec69af",
-          "name": "Sporting Kansas CityReserves vs Ventura County FC",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9d42ec69af",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9d42ec69af",
-                  "name": "Sporting Kansas CityReserves vs Ventura County FC",
-                  "streams": [
-                    {
-                      "id": "st-9d42ec69af",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e19e38ecc7",
-                          "name": "BLV Chân Đất",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fbd02551ddc_145/index.m3u8?expire=1778715301&sign=1b90f2f92a50714c0e688d2e444dc70f",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLS Next Pro",
-            "team_a": "Sporting Kansas CityReserves",
-            "team_b": "Ventura County FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c5593b106980072677a648800a11d8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f93ca58969938ab5583e30e71d8e31a4.png",
-            "time": "",
-            "blv": "BLV Chân Đất",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9d42ec69af_2cc74613_20260507.png?v=2cc74613",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-085739bc41_c505f908_20260507.png?v=c505f908",
             "width": 1600,
             "height": 1200
           }
@@ -831,59 +760,6 @@
           }
         },
         {
-          "id": "thapcam-0bee8658e7",
-          "name": "Aston Villa vs Nottingham Forest | 02:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0bee8658e7",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-0bee8658e7",
-                  "name": "Aston Villa vs Nottingham Forest",
-                  "streams": [
-                    {
-                      "id": "st-0bee8658e7",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Aston Villa",
-            "team_b": "Nottingham Forest",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c32d6a906083118cac2cb796edaab3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/62572999d107f777efa4aeb907443527.png",
-            "time": "02:00 08/05",
-            "blv": "BLV Siêu Bướng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0bee8658e7_c78a5f3a_20260507.png?v=c78a5f3a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-5d6d729c2d",
           "name": "RC Strasbourg Alsace vs Rayo Vallecano | 02:00 08/05",
           "type": "single",
@@ -1043,6 +919,59 @@
           }
         },
         {
+          "id": "thapcam-0bee8658e7",
+          "name": "Aston Villa vs Nottingham Forest | 02:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0bee8658e7",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-0bee8658e7",
+                  "name": "Aston Villa vs Nottingham Forest",
+                  "streams": [
+                    {
+                      "id": "st-0bee8658e7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Aston Villa",
+            "team_b": "Nottingham Forest",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c32d6a906083118cac2cb796edaab3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/62572999d107f777efa4aeb907443527.png",
+            "time": "02:00 08/05",
+            "blv": "BLV Siêu Bướng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0bee8658e7_c78a5f3a_20260507.png?v=c78a5f3a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-d4369ad142",
           "name": "Mirassol vs Liga Dep Universitaria Quito | 05:00 08/05",
           "type": "single",
@@ -1197,6 +1126,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-39391d3c09_71500ec6_20260507.png?v=71500ec6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-33901b4fc5",
+          "name": "Atletico Junior Barranquilla vs Cerro Porteno | 09:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-33901b4fc5",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-33901b4fc5",
+                  "name": "Atletico Junior Barranquilla vs Cerro Porteno",
+                  "streams": [
+                    {
+                      "id": "st-33901b4fc5",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CONMEBOL Copa Libertadores",
+            "team_a": "Atletico Junior Barranquilla",
+            "team_b": "Cerro Porteno",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fd3230c7fa4ad7bde28c640f2f32ca43.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c210e6c1fadf9e292797da2cdf685555.jpg",
+            "time": "09:00 08/05",
+            "blv": "BLV Người Cỏ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-33901b4fc5_fbfa0081_20260507.png?v=fbfa0081",
             "width": 1600,
             "height": 1200
           }
