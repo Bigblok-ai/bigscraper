@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-8d203e3061",
-          "name": "Toluca vs Los Angeles FC",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8d203e3061",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-8d203e3061",
-                  "name": "Toluca vs Los Angeles FC",
-                  "streams": [
-                    {
-                      "id": "st-8d203e3061",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9fb9c2e281",
-                          "name": "BLV Người Lạ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fbe17d137e4_11241/index.m3u8?expire=1778719741&sign=2be65197b799e4e712fc7cd03c61b117",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CNCF CHL",
-            "team_a": "Toluca",
-            "team_b": "Los Angeles FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/725ccd5793be6b4f8dd917170dd17d04.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9c5ad5227377e12b87f77790d3d88c1c.png",
-            "time": "",
-            "blv": "BLV Người Lạ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8d203e3061_d962b284_20260507.png?v=d962b284",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-994434c704",
           "name": "Univ Catolica vs Cruzeiro Esporte Clube",
@@ -760,59 +689,6 @@
           }
         },
         {
-          "id": "thapcam-d8e9d3dbfc",
-          "name": "Crystal Palace vs FC Shakhtar Donetsk | 02:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d8e9d3dbfc",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d8e9d3dbfc",
-                  "name": "Crystal Palace vs FC Shakhtar Donetsk",
-                  "streams": [
-                    {
-                      "id": "st-d8e9d3dbfc",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa Conference League",
-            "team_a": "Crystal Palace",
-            "team_b": "FC Shakhtar Donetsk",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/42396d18444156e640c37476c2b41b93.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/141bcf6ab6d0bc7b8c67dc5eeb9f347d.png",
-            "time": "02:00 08/05",
-            "blv": "BLV Người Băng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d8e9d3dbfc_6c9f08ef_20260507.png?v=6c9f08ef",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-5d6d729c2d",
           "name": "RC Strasbourg Alsace vs Rayo Vallecano | 02:00 08/05",
           "type": "single",
@@ -861,6 +737,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5d6d729c2d_2792b730_20260507.png?v=2792b730",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-d8e9d3dbfc",
+          "name": "Crystal Palace vs FC Shakhtar Donetsk | 02:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d8e9d3dbfc",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d8e9d3dbfc",
+                  "name": "Crystal Palace vs FC Shakhtar Donetsk",
+                  "streams": [
+                    {
+                      "id": "st-d8e9d3dbfc",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa Conference League",
+            "team_a": "Crystal Palace",
+            "team_b": "FC Shakhtar Donetsk",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/42396d18444156e640c37476c2b41b93.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/141bcf6ab6d0bc7b8c67dc5eeb9f347d.png",
+            "time": "02:00 08/05",
+            "blv": "BLV Người Băng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d8e9d3dbfc_6c9f08ef_20260507.png?v=6c9f08ef",
             "width": 1600,
             "height": 1200
           }
