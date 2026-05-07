@@ -1557,7 +1557,7 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (3 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1629,77 +1629,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d78c5a1587_a74b6b19_20260507.png?v=a74b6b19",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-79209effab",
-          "name": "Stefanos Tsitsipas vs Tomas Machac | 21:20 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-79209effab",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-79209effab",
-                  "name": "Stefanos Tsitsipas vs Tomas Machac",
-                  "streams": [
-                    {
-                      "id": "st-79209effab",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b325f70c22",
-                          "name": "BLV Tôn Quyền",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fc774451ddc_793/index.m3u8?expire=1778758084&sign=569902966b8bf523a62080b95ae5eed8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Stefanos Tsitsipas",
-            "team_b": "Tomas Machac",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a799928704aee05cfc140d600ac3ceb0.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c2f833fe4f7f2bd0ccae5e314f3ce078.png",
-            "time": "21:20 07/05",
-            "blv": "BLV Tôn Quyền",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-79209effab_4b9f486e_20260507.png?v=4b9f486e",
             "width": 1600,
             "height": 1200
           }
