@@ -11,11 +11,82 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-bbc8716962",
+          "name": "FK Krasnodar vs Dynamo Moscow | 00:30 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bbc8716962",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-bbc8716962",
+                  "name": "FK Krasnodar vs Dynamo Moscow",
+                  "streams": [
+                    {
+                      "id": "st-bbc8716962",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5cba16d8e7",
+                          "name": "BLV Người Ngố",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fcc2f751ddc_14/index.m3u8?expire=1778777463&sign=2af122540be73aaff02d84c06ee1d79f",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Russian Cup",
+            "team_a": "FK Krasnodar",
+            "team_b": "Dynamo Moscow",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ee170662c1911f3d2f7746f6539f2604.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4f2e51a4694f68360a19648b651b30ca.png",
+            "time": "00:30 08/05",
+            "blv": "BLV Người Ngố",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bbc8716962_ad018d62_20260508.png?v=ad018d62",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-eb76b29868",
           "name": "DHJ Difaa Hassani Jadidi vs Hassania Agadir",
@@ -225,59 +296,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a8dd799bc4_98ef7a30_20260508.png?v=98ef7a30",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-bbc8716962",
-          "name": "FK Krasnodar vs Dynamo Moscow | 00:30 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bbc8716962",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-bbc8716962",
-                  "name": "FK Krasnodar vs Dynamo Moscow",
-                  "streams": [
-                    {
-                      "id": "st-bbc8716962",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Russian Cup",
-            "team_a": "FK Krasnodar",
-            "team_b": "Dynamo Moscow",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ee170662c1911f3d2f7746f6539f2604.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4f2e51a4694f68360a19648b651b30ca.png",
-            "time": "00:30 08/05",
-            "blv": "BLV Người Ngố",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bbc8716962_ad018d62_20260508.png?v=ad018d62",
             "width": 1600,
             "height": 1200
           }
