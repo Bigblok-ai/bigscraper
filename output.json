@@ -1237,59 +1237,6 @@
           }
         },
         {
-          "id": "thapcam-ccd4e5babb",
-          "name": "Toronto FC II vs New York Red Bulls B | 22:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ccd4e5babb",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-ccd4e5babb",
-                  "name": "Toronto FC II vs New York Red Bulls B",
-                  "streams": [
-                    {
-                      "id": "st-ccd4e5babb",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLS Next Pro",
-            "team_a": "Toronto FC II",
-            "team_b": "New York Red Bulls B",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d85b4da177906440b0b1616aff569914.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/12cdc8883966d78ca99be7ae7f349333.png",
-            "time": "22:00 08/05",
-            "blv": "BLV Max",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ccd4e5babb_52450c55_20260508.png?v=52450c55",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-3ba9a3cd5e",
           "name": "UTA Arad vs FK Csikszereda Miercurea Ciuc | 22:00 08/05",
           "type": "single",
@@ -1338,6 +1285,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3ba9a3cd5e_e282a766_20260508.png?v=e282a766",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-ccd4e5babb",
+          "name": "Toronto FC II vs New York Red Bulls B | 22:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ccd4e5babb",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-ccd4e5babb",
+                  "name": "Toronto FC II vs New York Red Bulls B",
+                  "streams": [
+                    {
+                      "id": "st-ccd4e5babb",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLS Next Pro",
+            "team_a": "Toronto FC II",
+            "team_b": "New York Red Bulls B",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d85b4da177906440b0b1616aff569914.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/12cdc8883966d78ca99be7ae7f349333.png",
+            "time": "22:00 08/05",
+            "blv": "BLV Max",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ccd4e5babb_52450c55_20260508.png?v=52450c55",
             "width": 1600,
             "height": 1200
           }
@@ -1681,82 +1681,11 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-17e65cc430",
-          "name": "Thiago Agustin Tirante vs Gianluca Cadenasso | 22:30 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-17e65cc430",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-17e65cc430",
-                  "name": "Thiago Agustin Tirante vs Gianluca Cadenasso",
-                  "streams": [
-                    {
-                      "id": "st-17e65cc430",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-800c005940",
-                          "name": "BLV Người Hầu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fcaf6c137e4_9657/index.m3u8?expire=1778772460&sign=dda705679f00dec9691720283b496b0d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Thiago Agustin Tirante",
-            "team_b": "Gianluca Cadenasso",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/79836114a9eba54028abf8859781616f.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4d2be9067c426090965c35f47a26d88f.png",
-            "time": "22:30 07/05",
-            "blv": "BLV Người Hầu",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-17e65cc430_29f5113e_20260508.png?v=29f5113e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-93a1b3bd32",
           "name": "Lorenzo Sonego vs Ignacio Buse | 00:00 08/05",
