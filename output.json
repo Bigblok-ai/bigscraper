@@ -2217,83 +2217,11 @@
     },
     {
       "id": "grp-776a2d64f8",
-      "name": "🏓 Bóng Bàn (1 LIVE)",
+      "name": "🏓 Bóng Bàn",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "thapcam-0b389dacee",
-          "name": "Brazil vs France | 01:30 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0b389dacee",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-0b389dacee",
-                  "name": "Brazil vs France",
-                  "streams": [
-                    {
-                      "id": "st-0b389dacee",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ea5362d49b",
-                          "name": "BLV Người Sói",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fe341151ddc_742/index.m3u8?expire=1778871953&sign=3d0ffaea3ea77f47bfc9fdcb460f01fd",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ITTF World Team Table Tennis Championships Finals London 2026",
-            "team_a": "Brazil",
-            "team_b": "France",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/056ba465118f898081491c59f338ae26.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/40212f6d758e035c28bc9fc47728af63.png",
-            "time": "01:30 09/05",
-            "blv": "BLV Người Sói",
-            "is_live": true,
-            "cate_name": "Bóng bàn"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0b389dacee_f8990cf6_20260509.png?v=f8990cf6",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-b69c24c415",
