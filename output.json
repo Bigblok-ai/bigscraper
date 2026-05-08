@@ -1467,6 +1467,59 @@
           }
         },
         {
+          "id": "thapcam-bed5b4d211",
+          "name": "TSG Hoffenheim vs SV Werder Bremen | 20:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bed5b4d211",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-bed5b4d211",
+                  "name": "TSG Hoffenheim vs SV Werder Bremen",
+                  "streams": [
+                    {
+                      "id": "st-bed5b4d211",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "TSG Hoffenheim",
+            "team_b": "SV Werder Bremen",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/72ab7862a610b350aef7650ec0e06e06.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/82e3b03a1df3d7ae3d38e9fdd24fe622.png",
+            "time": "20:30 09/05",
+            "blv": "BLV Người Điên",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bed5b4d211_a0f9eeb3_20260508.png?v=a0f9eeb3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-f93bd476c4",
           "name": "RB Leipzig vs FC St. Pauli | 20:30 09/05",
           "type": "single",
@@ -1568,59 +1621,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3e7bfd62aa_a0300053_20260508.png?v=a0300053",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-bed5b4d211",
-          "name": "TSG Hoffenheim vs SV Werder Bremen | 20:30 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bed5b4d211",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-bed5b4d211",
-                  "name": "TSG Hoffenheim vs SV Werder Bremen",
-                  "streams": [
-                    {
-                      "id": "st-bed5b4d211",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "TSG Hoffenheim",
-            "team_b": "SV Werder Bremen",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/72ab7862a610b350aef7650ec0e06e06.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/82e3b03a1df3d7ae3d38e9fdd24fe622.png",
-            "time": "20:30 09/05",
-            "blv": "BLV Người Điên",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bed5b4d211_a0f9eeb3_20260508.png?v=a0f9eeb3",
             "width": 1600,
             "height": 1200
           }
