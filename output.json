@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "thapcam-39391d3c09",
-          "name": "Dep.Independiente Medellin vs CR Flamengo | 07:30 08/05",
+          "name": "Dep.Independiente Medellin vs CR Flamengo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,7 +73,7 @@
             "team_b": "CR Flamengo",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6eef3985d6a6d69a6e5374e27b13b35f.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f19b2f9fa5b0c72acc262bc4f0d2cd77.png",
-            "time": "07:30 08/05",
+            "time": "",
             "blv": "BLV Người Lạ",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -353,59 +353,6 @@
           }
         },
         {
-          "id": "thapcam-ee7e7fbd00",
-          "name": "Philippines U17 Women vs Chinese Taipei U17 Women | 18:30 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ee7e7fbd00",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-ee7e7fbd00",
-                  "name": "Philippines U17 Women vs Chinese Taipei U17 Women",
-                  "streams": [
-                    {
-                      "id": "st-ee7e7fbd00",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "Philippines U17 Women",
-            "team_b": "Chinese Taipei U17 Women",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ba5a270beff01e94d4c372e5283ee654.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
-            "time": "18:30 08/05",
-            "blv": "BLV Chân Đất",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ee7e7fbd00_c78b79f1_20260508.png?v=c78b79f1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-302b7d4ac7",
           "name": "North Korea Women U17 vs Korea Rep. Women U17 | 18:30 08/05",
           "type": "single",
@@ -454,6 +401,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-302b7d4ac7_0874a446_20260508.png?v=0874a446",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-ee7e7fbd00",
+          "name": "Philippines U17 Women vs Chinese Taipei U17 Women | 18:30 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ee7e7fbd00",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-ee7e7fbd00",
+                  "name": "Philippines U17 Women vs Chinese Taipei U17 Women",
+                  "streams": [
+                    {
+                      "id": "st-ee7e7fbd00",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Philippines U17 Women",
+            "team_b": "Chinese Taipei U17 Women",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ba5a270beff01e94d4c372e5283ee654.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
+            "time": "18:30 08/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ee7e7fbd00_c78b79f1_20260508.png?v=c78b79f1",
             "width": 1600,
             "height": 1200
           }
