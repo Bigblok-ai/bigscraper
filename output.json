@@ -17,148 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-302b7d4ac7",
-          "name": "North Korea Women U17 vs Korea Rep. Women U17 | 18:30 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-302b7d4ac7",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-302b7d4ac7",
-                  "name": "North Korea Women U17 vs Korea Rep. Women U17",
-                  "streams": [
-                    {
-                      "id": "st-302b7d4ac7",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3b7a50d317",
-                          "name": "BLV Người Lạ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fdb96151ddc_11241/index.m3u8?expire=1778840545&sign=49a72aab5bad8138393e08ae7dea0d0f",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "North Korea Women U17",
-            "team_b": "Korea Rep. Women U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/566b83e60e3ffdb744bc3d1843fb4311.png",
-            "time": "18:30 08/05",
-            "blv": "BLV Người Lạ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-302b7d4ac7_0874a446_20260508.png?v=0874a446",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-ee7e7fbd00",
-          "name": "Philippines U17 Women vs Chinese Taipei U17 Women | 18:30 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ee7e7fbd00",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-ee7e7fbd00",
-                  "name": "Philippines U17 Women vs Chinese Taipei U17 Women",
-                  "streams": [
-                    {
-                      "id": "st-ee7e7fbd00",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3ac4feea6a",
-                          "name": "BLV Chân Đất",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fdc18651ddc_145/index.m3u8?expire=1778842630&sign=5446ef81c446cc92ee676bc5fb32a261",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "Philippines U17 Women",
-            "team_b": "Chinese Taipei U17 Women",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ba5a270beff01e94d4c372e5283ee654.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
-            "time": "18:30 08/05",
-            "blv": "BLV Chân Đất",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ee7e7fbd00_c78b79f1_20260508.png?v=c78b79f1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-d243b3afe2",
           "name": "Thanh Niên TP. Hồ Chí Minh vs Quy Nhon United",
           "type": "single",
@@ -296,6 +154,148 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-4b9089cebf_53718858_20260508.png?v=53718858",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-302b7d4ac7",
+          "name": "North Korea Women U17 vs Korea Rep. Women U17",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-302b7d4ac7",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-302b7d4ac7",
+                  "name": "North Korea Women U17 vs Korea Rep. Women U17",
+                  "streams": [
+                    {
+                      "id": "st-302b7d4ac7",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3b7a50d317",
+                          "name": "BLV Người Lạ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fdb96151ddc_11241/index.m3u8?expire=1778840545&sign=49a72aab5bad8138393e08ae7dea0d0f",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "North Korea Women U17",
+            "team_b": "Korea Rep. Women U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/566b83e60e3ffdb744bc3d1843fb4311.png",
+            "time": "",
+            "blv": "BLV Người Lạ",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-302b7d4ac7_0874a446_20260508.png?v=0874a446",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-ee7e7fbd00",
+          "name": "Philippines U17 Women vs Chinese Taipei U17 Women",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ee7e7fbd00",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-ee7e7fbd00",
+                  "name": "Philippines U17 Women vs Chinese Taipei U17 Women",
+                  "streams": [
+                    {
+                      "id": "st-ee7e7fbd00",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3ac4feea6a",
+                          "name": "BLV Chân Đất",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fdc18651ddc_145/index.m3u8?expire=1778842630&sign=5446ef81c446cc92ee676bc5fb32a261",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Philippines U17 Women",
+            "team_b": "Chinese Taipei U17 Women",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ba5a270beff01e94d4c372e5283ee654.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
+            "time": "",
+            "blv": "BLV Chân Đất",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ee7e7fbd00_c78b79f1_20260508.png?v=c78b79f1",
             "width": 1600,
             "height": 1200
           }
@@ -1598,77 +1598,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-f0b2575ae2",
-          "name": "Daniel Altmaier vs Alexander Zverev | 18:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f0b2575ae2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f0b2575ae2",
-                  "name": "Daniel Altmaier vs Alexander Zverev",
-                  "streams": [
-                    {
-                      "id": "st-f0b2575ae2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bce8ea7d27",
-                          "name": "BLV Người Hầu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fdc042137e4_9657/index.m3u8?expire=1778842306&sign=9387eb01bce54d9509c20600a1d2f9a4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Daniel Altmaier",
-            "team_b": "Alexander Zverev",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b5468d519cb7768941eaefe99da4a191.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/Fs2AoS8fSPu9qB9HdwSDwQVAICOz",
-            "time": "18:00 08/05",
-            "blv": "BLV Người Hầu",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f0b2575ae2_0a77116d_20260508.png?v=0a77116d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-ae4e52b0e5",
           "name": "Casper Ruud vs Zachary Svajda | 18:10 08/05",
           "type": "single",
@@ -1735,6 +1664,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ae4e52b0e5_5ff702c8_20260508.png?v=5ff702c8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-21ac808363",
+          "name": "Daniel Altmaier vs Alexander Zverev | 18:30 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-21ac808363",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-21ac808363",
+                  "name": "Daniel Altmaier vs Alexander Zverev",
+                  "streams": [
+                    {
+                      "id": "st-21ac808363",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bce8ea7d27",
+                          "name": "BLV Người Hầu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fdc042137e4_9657/index.m3u8?expire=1778842306&sign=9387eb01bce54d9509c20600a1d2f9a4",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Rome, Italy Men Singles",
+            "team_a": "Daniel Altmaier",
+            "team_b": "Alexander Zverev",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b5468d519cb7768941eaefe99da4a191.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/Fs2AoS8fSPu9qB9HdwSDwQVAICOz",
+            "time": "18:30 08/05",
+            "blv": "BLV Người Hầu",
+            "is_live": true,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-21ac808363_0a77116d_20260508.png?v=0a77116d",
             "width": 1600,
             "height": 1200
           }
