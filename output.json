@@ -1343,59 +1343,6 @@
           }
         },
         {
-          "id": "thapcam-f512a3c853",
-          "name": "CLB Thanh Hoa vs Hanoi FC | 18:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f512a3c853",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f512a3c853",
-                  "name": "CLB Thanh Hoa vs Hanoi FC",
-                  "streams": [
-                    {
-                      "id": "st-f512a3c853",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "CLB Thanh Hoa",
-            "team_b": "Hanoi FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c6c3cf855ef4fd3a0385d34606a858ab.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7146224d9ef4e5d2eb712b4e71bdfaa4.png",
-            "time": "18:00 09/05",
-            "blv": "BLV Max",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f512a3c853_ab3c6d58_20260508.png?v=ab3c6d58",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-b4c3ac9efd",
           "name": "Ninh Binh FC vs XM Hai Phong FC | 18:00 09/05",
           "type": "single",
@@ -1444,6 +1391,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b4c3ac9efd_90a69775_20260508.png?v=90a69775",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-f512a3c853",
+          "name": "CLB Thanh Hoa vs Hanoi FC | 18:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f512a3c853",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f512a3c853",
+                  "name": "CLB Thanh Hoa vs Hanoi FC",
+                  "streams": [
+                    {
+                      "id": "st-f512a3c853",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "CLB Thanh Hoa",
+            "team_b": "Hanoi FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c6c3cf855ef4fd3a0385d34606a858ab.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7146224d9ef4e5d2eb712b4e71bdfaa4.png",
+            "time": "18:00 09/05",
+            "blv": "BLV Max",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f512a3c853_ab3c6d58_20260508.png?v=ab3c6d58",
             "width": 1600,
             "height": 1200
           }
