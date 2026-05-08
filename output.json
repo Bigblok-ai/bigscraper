@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -154,6 +154,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-883b9969e0_59702224_20260508.png?v=59702224",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-d243b3afe2",
+          "name": "Thanh Niên TP. Hồ Chí Minh vs Quy Nhon United",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d243b3afe2",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d243b3afe2",
+                  "name": "Thanh Niên TP. Hồ Chí Minh vs Quy Nhon United",
+                  "streams": [
+                    {
+                      "id": "st-d243b3afe2",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2fffdaaed3",
+                          "name": "BLV Jayce",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fdb474137e4_181/index.m3u8?expire=1778839284&sign=1447206c041aa3717d81f30552f1faaa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National First Class League",
+            "team_a": "Thanh Niên TP. Hồ Chí Minh",
+            "team_b": "Quy Nhon United",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d6c94af253f905993d3aaf89b1c10415.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d8a1a7a944d3701818056b1632ad6ed5.png",
+            "time": "",
+            "blv": "BLV Jayce",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d243b3afe2_2fb1c3c7_20260508.png?v=2fb1c3c7",
             "width": 1600,
             "height": 1200
           }
@@ -1060,59 +1131,6 @@
           }
         },
         {
-          "id": "thapcam-0deaba9d57",
-          "name": "Mito Hollyhock vs Urawa Red Diamonds | 12:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0deaba9d57",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-0deaba9d57",
-                  "name": "Mito Hollyhock vs Urawa Red Diamonds",
-                  "streams": [
-                    {
-                      "id": "st-0deaba9d57",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Mito Hollyhock",
-            "team_b": "Urawa Red Diamonds",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ead844240532c4e12d3eb45d2087924.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ca15e36551392e8c99b53b5b2f8531d3.png",
-            "time": "12:00 09/05",
-            "blv": "BLV Tôn Quyền",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0deaba9d57_62a9a7ef_20260508.png?v=62a9a7ef",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-53b68f9bd9",
           "name": "Jeju SK FC vs Football Club Seoul | 12:00 09/05",
           "type": "single",
@@ -1161,6 +1179,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-53b68f9bd9_ca6460dd_20260508.png?v=ca6460dd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-0deaba9d57",
+          "name": "Mito Hollyhock vs Urawa Red Diamonds | 12:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0deaba9d57",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-0deaba9d57",
+                  "name": "Mito Hollyhock vs Urawa Red Diamonds",
+                  "streams": [
+                    {
+                      "id": "st-0deaba9d57",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Mito Hollyhock",
+            "team_b": "Urawa Red Diamonds",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ead844240532c4e12d3eb45d2087924.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ca15e36551392e8c99b53b5b2f8531d3.png",
+            "time": "12:00 09/05",
+            "blv": "BLV Tôn Quyền",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0deaba9d57_62a9a7ef_20260508.png?v=62a9a7ef",
             "width": 1600,
             "height": 1200
           }
