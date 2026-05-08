@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-b3d943c4c2",
-          "name": "Torino vs Sassuolo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b3d943c4c2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-b3d943c4c2",
-                  "name": "Torino vs Sassuolo",
-                  "streams": [
-                    {
-                      "id": "st-b3d943c4c2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8c9b332469",
-                          "name": "BLV Người Nhện",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fe2cfc137e4_32/index.m3u8?expire=1778870140&sign=60f1e7a044e70ce11d63eaf986aa9d0a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Torino",
-            "team_b": "Sassuolo",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f0856c1b16c32245a8d2c702ffe89ac5.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/616bf242a532f72e970648f2ead423cf.png",
-            "time": "",
-            "blv": "BLV Người Nhện",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b3d943c4c2_b89c0fed_20260509.png?v=b89c0fed",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-f7a5ff3f05",
           "name": "Levante vs CA Osasuna",
@@ -901,59 +830,6 @@
           }
         },
         {
-          "id": "thapcam-f93bd476c4",
-          "name": "RB Leipzig vs FC St. Pauli | 20:30 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f93bd476c4",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f93bd476c4",
-                  "name": "RB Leipzig vs FC St. Pauli",
-                  "streams": [
-                    {
-                      "id": "st-f93bd476c4",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "RB Leipzig",
-            "team_b": "FC St. Pauli",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/26a59fe5653a96ba72f4f1e4e08b6d4b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/65503b155488a643de688e8dfa849b1f.png",
-            "time": "20:30 09/05",
-            "blv": "BLV Jayce",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f93bd476c4_ed68319d_20260509.png?v=ed68319d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-3e7bfd62aa",
           "name": "VfB Stuttgart vs Bayer 04 Leverkusen | 20:30 09/05",
           "type": "single",
@@ -1055,6 +931,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-171f06b0ff_4d550b98_20260509.png?v=4d550b98",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-f93bd476c4",
+          "name": "RB Leipzig vs FC St. Pauli | 20:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f93bd476c4",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f93bd476c4",
+                  "name": "RB Leipzig vs FC St. Pauli",
+                  "streams": [
+                    {
+                      "id": "st-f93bd476c4",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "RB Leipzig",
+            "team_b": "FC St. Pauli",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/26a59fe5653a96ba72f4f1e4e08b6d4b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/65503b155488a643de688e8dfa849b1f.png",
+            "time": "20:30 09/05",
+            "blv": "BLV Jayce",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f93bd476c4_ed68319d_20260509.png?v=ed68319d",
             "width": 1600,
             "height": 1200
           }
@@ -1802,59 +1731,6 @@
           }
         },
         {
-          "id": "thapcam-cae72f89b0",
-          "name": "USM Alger vs Zamalek SC | 02:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cae72f89b0",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-cae72f89b0",
-                  "name": "USM Alger vs Zamalek SC",
-                  "streams": [
-                    {
-                      "id": "st-cae72f89b0",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CAF Confederation Cup",
-            "team_a": "USM Alger",
-            "team_b": "Zamalek SC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/802842336a0cf26a0592a780dce88051.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6ad4e821a96f050ba29f431fbf57801e.png",
-            "time": "02:00 10/05",
-            "blv": "BLV Max",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cae72f89b0_28b0a100_20260509.png?v=28b0a100",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-fa89252589",
           "name": "Bolton Wanderers vs Bradford City | 02:00 10/05",
           "type": "single",
@@ -1903,6 +1779,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-fa89252589_3a67e624_20260509.png?v=3a67e624",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-cae72f89b0",
+          "name": "USM Alger vs Zamalek SC | 02:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cae72f89b0",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-cae72f89b0",
+                  "name": "USM Alger vs Zamalek SC",
+                  "streams": [
+                    {
+                      "id": "st-cae72f89b0",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CAF Confederation Cup",
+            "team_a": "USM Alger",
+            "team_b": "Zamalek SC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/802842336a0cf26a0592a780dce88051.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6ad4e821a96f050ba29f431fbf57801e.png",
+            "time": "02:00 10/05",
+            "blv": "BLV Max",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cae72f89b0_28b0a100_20260509.png?v=28b0a100",
             "width": 1600,
             "height": 1200
           }
