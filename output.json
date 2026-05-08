@@ -70,59 +70,6 @@
           }
         },
         {
-          "id": "thapcam-8a34fd9928",
-          "name": "TPS Turku vs HJK Helsinki | 22:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8a34fd9928",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-8a34fd9928",
-                  "name": "TPS Turku vs HJK Helsinki",
-                  "streams": [
-                    {
-                      "id": "st-8a34fd9928",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Finnish Veikkausliiga",
-            "team_a": "TPS Turku",
-            "team_b": "HJK Helsinki",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f3aa37eff0023279c42b6e99eecc31d0.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fd1a9c51505300dec9c26e5847114851.png",
-            "time": "22:00 08/05",
-            "blv": "BLV Người Lạ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8a34fd9928_40e49d35_20260508.png?v=40e49d35",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-ccd4e5babb",
           "name": "Toronto FC II vs New York Red Bulls B | 22:00 08/05",
           "type": "single",
@@ -171,6 +118,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ccd4e5babb_52450c55_20260508.png?v=52450c55",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-8a34fd9928",
+          "name": "TPS Turku vs HJK Helsinki | 22:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8a34fd9928",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-8a34fd9928",
+                  "name": "TPS Turku vs HJK Helsinki",
+                  "streams": [
+                    {
+                      "id": "st-8a34fd9928",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Finnish Veikkausliiga",
+            "team_a": "TPS Turku",
+            "team_b": "HJK Helsinki",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f3aa37eff0023279c42b6e99eecc31d0.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fd1a9c51505300dec9c26e5847114851.png",
+            "time": "22:00 08/05",
+            "blv": "BLV Người Lạ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8a34fd9928_40e49d35_20260508.png?v=40e49d35",
             "width": 1600,
             "height": 1200
           }
@@ -1934,82 +1934,11 @@
     },
     {
       "id": "grp-776a2d64f8",
-      "name": "🏓 Bóng Bàn (1 LIVE)",
+      "name": "🏓 Bóng Bàn",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-ba14af0146",
-          "name": "Korea vs China | 18:30 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ba14af0146",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-ba14af0146",
-                  "name": "Korea vs China",
-                  "streams": [
-                    {
-                      "id": "st-ba14af0146",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd6814990d",
-                          "name": "BLV Người Cáo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fdc2f051ddc_790/index.m3u8?expire=1778842992&sign=79da97a69c470c89d4f992d417d2cd40",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ITTF World Team Table Tennis Championships Finals London 2026",
-            "team_a": "Korea",
-            "team_b": "China",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/e2d626a93740b95f6dc7047efe9653aa.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2349bbb109057db855c05eb903948d73.png",
-            "time": "18:30 08/05",
-            "blv": "BLV Người Cáo",
-            "is_live": true,
-            "cate_name": "Bóng bàn"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ba14af0146_7c1ed412_20260508.png?v=7c1ed412",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-7d24bdabed",
           "name": "France vs Romania | 23:00 08/05",
