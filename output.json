@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-39391d3c09",
-          "name": "Dep.Independiente Medellin vs CR Flamengo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-39391d3c09",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-39391d3c09",
-                  "name": "Dep.Independiente Medellin vs CR Flamengo",
-                  "streams": [
-                    {
-                      "id": "st-39391d3c09",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-00213e63a6",
-                          "name": "BLV Người Lạ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fd24a9137e4_11241/index.m3u8?expire=1778802473&sign=5114ae56c2b6d8d548be4b9174fe9986",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CONMEBOL Copa Libertadores",
-            "team_a": "Dep.Independiente Medellin",
-            "team_b": "CR Flamengo",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6eef3985d6a6d69a6e5374e27b13b35f.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f19b2f9fa5b0c72acc262bc4f0d2cd77.png",
-            "time": "",
-            "blv": "BLV Người Lạ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-39391d3c09_71500ec6_20260508.png?v=71500ec6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-33901b4fc5",
           "name": "Atletico Junior Barranquilla vs Cerro Porteno | 09:00 08/05",
