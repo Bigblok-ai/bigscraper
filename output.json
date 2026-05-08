@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-6f1e7a6bd4",
-          "name": "Borussia Dortmund vs Eintracht Frankfurt",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6f1e7a6bd4",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6f1e7a6bd4",
-                  "name": "Borussia Dortmund vs Eintracht Frankfurt",
-                  "streams": [
-                    {
-                      "id": "st-6f1e7a6bd4",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b3d31493c9",
-                          "name": "BLV Cá Mập",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fe266c51ddc_154/index.m3u8?expire=1778868460&sign=c031a1659bdccef882b0e8e24957cac6",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Borussia Dortmund",
-            "team_b": "Eintracht Frankfurt",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bbfacbdbe67705172c6414d7e9c21b58.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fe636189a2f3db78d0554c34f0bdaae6.png",
-            "time": "",
-            "blv": "BLV Cá Mập",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6f1e7a6bd4_ff9b66d1_20260509.png?v=ff9b66d1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-b3d943c4c2",
           "name": "Torino vs Sassuolo",
@@ -1484,59 +1413,6 @@
           }
         },
         {
-          "id": "thapcam-de3b31ad49",
-          "name": "Lazio vs Inter Milan | 23:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-de3b31ad49",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-de3b31ad49",
-                  "name": "Lazio vs Inter Milan",
-                  "streams": [
-                    {
-                      "id": "st-de3b31ad49",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Lazio",
-            "team_b": "Inter Milan",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5a2ff46efa33abc6b2908eb6279dfbf8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aa2245702c40f77799a5ad4b119581a8.png",
-            "time": "23:00 09/05",
-            "blv": "BLV Người Nhện",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-de3b31ad49_a34e2721_20260509.png?v=a34e2721",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-b2dd84decb",
           "name": "China U17 vs Japan U17 | 23:00 09/05",
           "type": "single",
@@ -1585,6 +1461,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b2dd84decb_112ab78d_20260509.png?v=112ab78d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-de3b31ad49",
+          "name": "Lazio vs Inter Milan | 23:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-de3b31ad49",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-de3b31ad49",
+                  "name": "Lazio vs Inter Milan",
+                  "streams": [
+                    {
+                      "id": "st-de3b31ad49",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Lazio",
+            "team_b": "Inter Milan",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5a2ff46efa33abc6b2908eb6279dfbf8.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aa2245702c40f77799a5ad4b119581a8.png",
+            "time": "23:00 09/05",
+            "blv": "BLV Người Nhện",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-de3b31ad49_a34e2721_20260509.png?v=a34e2721",
             "width": 1600,
             "height": 1200
           }
@@ -1961,6 +1890,59 @@
           }
         },
         {
+          "id": "thapcam-118a954d17",
+          "name": "Real Sociedad vs Real Betis | 02:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-118a954d17",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-118a954d17",
+                  "name": "Real Sociedad vs Real Betis",
+                  "streams": [
+                    {
+                      "id": "st-118a954d17",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Real Sociedad",
+            "team_b": "Real Betis",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/579db6e95905545973035e6eab8df2cd.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/018e260ad68bdad741c61e3171c4c608.png",
+            "time": "02:00 10/05",
+            "blv": "BLV Cá Mập",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-118a954d17_f54cd21d_20260509.png?v=f54cd21d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-cae72f89b0",
           "name": "USM Alger vs Zamalek SC | 02:00 10/05",
           "type": "single",
@@ -2062,59 +2044,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-fa89252589_3a67e624_20260509.png?v=3a67e624",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-118a954d17",
-          "name": "Real Sociedad vs Real Betis | 02:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-118a954d17",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-118a954d17",
-                  "name": "Real Sociedad vs Real Betis",
-                  "streams": [
-                    {
-                      "id": "st-118a954d17",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Real Sociedad",
-            "team_b": "Real Betis",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/579db6e95905545973035e6eab8df2cd.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/018e260ad68bdad741c61e3171c4c608.png",
-            "time": "02:00 10/05",
-            "blv": "BLV Cá Mập",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-118a954d17_f54cd21d_20260509.png?v=f54cd21d",
             "width": 1600,
             "height": 1200
           }
