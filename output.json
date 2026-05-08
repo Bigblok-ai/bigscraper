@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,148 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f7a5ff3f05_92afa23f_20260509.png?v=92afa23f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-51b047a70b",
-          "name": "CSKA 1948 Sofia vs CSKA Sofia",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-51b047a70b",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-51b047a70b",
-                  "name": "CSKA 1948 Sofia vs CSKA Sofia",
-                  "streams": [
-                    {
-                      "id": "st-51b047a70b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fcad921250",
-                          "name": "BLV Jayce",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fe0ed2137e4_181/index.m3u8?expire=1778862418&sign=a7b2fa7bf93741885f36afca27380175",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bulgarian First League",
-            "team_a": "CSKA 1948 Sofia",
-            "team_b": "CSKA Sofia",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/182f01e096ad1f495cc88d2369c45224.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3b19cae478679881554914e45d318742.png",
-            "time": "",
-            "blv": "BLV Jayce",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-51b047a70b_95262a81_20260509.png?v=95262a81",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-e0229ab281",
-          "name": "Viborg vs Sonderjyske",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e0229ab281",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e0229ab281",
-                  "name": "Viborg vs Sonderjyske",
-                  "streams": [
-                    {
-                      "id": "st-e0229ab281",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-61181d8bac",
-                          "name": "BLV Người Lạ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fe163a51ddc_11241/index.m3u8?expire=1778864314&sign=63244c043f825402a9591e6f35651c35",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Danish Superliga",
-            "team_a": "Viborg",
-            "team_b": "Sonderjyske",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c5beffcdc88a77f8494e85108b306062.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2a247b5fb7ff72e24a051b71a796d71b.png",
-            "time": "",
-            "blv": "BLV Người Lạ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e0229ab281_f357c3ad_20260509.png?v=f357c3ad",
             "width": 1600,
             "height": 1200
           }
@@ -372,6 +230,77 @@
           }
         },
         {
+          "id": "thapcam-b3d943c4c2",
+          "name": "Torino vs Sassuolo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b3d943c4c2",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-b3d943c4c2",
+                  "name": "Torino vs Sassuolo",
+                  "streams": [
+                    {
+                      "id": "st-b3d943c4c2",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8c9b332469",
+                          "name": "BLV Người Nhện",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fe2cfc137e4_32/index.m3u8?expire=1778870140&sign=60f1e7a044e70ce11d63eaf986aa9d0a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Torino",
+            "team_b": "Sassuolo",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f0856c1b16c32245a8d2c702ffe89ac5.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/616bf242a532f72e970648f2ead423cf.png",
+            "time": "",
+            "blv": "BLV Người Nhện",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b3d943c4c2_b89c0fed_20260509.png?v=b89c0fed",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-f35db6155e",
           "name": "RC Lens vs FC Nantes",
           "type": "single",
@@ -455,77 +384,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f35db6155e_87e71738_20260509.png?v=87e71738",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-b3d943c4c2",
-          "name": "Torino vs Sassuolo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b3d943c4c2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-b3d943c4c2",
-                  "name": "Torino vs Sassuolo",
-                  "streams": [
-                    {
-                      "id": "st-b3d943c4c2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8c9b332469",
-                          "name": "BLV Người Nhện",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fe2cfc137e4_32/index.m3u8?expire=1778870140&sign=60f1e7a044e70ce11d63eaf986aa9d0a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Torino",
-            "team_b": "Sassuolo",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f0856c1b16c32245a8d2c702ffe89ac5.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/616bf242a532f72e970648f2ead423cf.png",
-            "time": "",
-            "blv": "BLV Người Nhện",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b3d943c4c2_b89c0fed_20260509.png?v=b89c0fed",
             "width": 1600,
             "height": 1200
           }
@@ -1008,59 +866,6 @@
           }
         },
         {
-          "id": "thapcam-b4c3ac9efd",
-          "name": "Ninh Binh FC vs XM Hai Phong FC | 18:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b4c3ac9efd",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-b4c3ac9efd",
-                  "name": "Ninh Binh FC vs XM Hai Phong FC",
-                  "streams": [
-                    {
-                      "id": "st-b4c3ac9efd",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "Ninh Binh FC",
-            "team_b": "XM Hai Phong FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5452226660be0829fdb40967dd4b0b77.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fed18f35e0d187fb4c812f24a97c3e6a.png",
-            "time": "18:00 09/05",
-            "blv": "BLV Jayce",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b4c3ac9efd_90a69775_20260509.png?v=90a69775",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-f512a3c853",
           "name": "CLB Thanh Hoa vs Hanoi FC | 18:00 09/05",
           "type": "single",
@@ -1109,6 +914,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f512a3c853_ab3c6d58_20260509.png?v=ab3c6d58",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-b4c3ac9efd",
+          "name": "Ninh Binh FC vs XM Hai Phong FC | 18:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b4c3ac9efd",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-b4c3ac9efd",
+                  "name": "Ninh Binh FC vs XM Hai Phong FC",
+                  "streams": [
+                    {
+                      "id": "st-b4c3ac9efd",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "Ninh Binh FC",
+            "team_b": "XM Hai Phong FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5452226660be0829fdb40967dd4b0b77.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fed18f35e0d187fb4c812f24a97c3e6a.png",
+            "time": "18:00 09/05",
+            "blv": "BLV Jayce",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b4c3ac9efd_90a69775_20260509.png?v=90a69775",
             "width": 1600,
             "height": 1200
           }
@@ -1273,6 +1131,59 @@
           }
         },
         {
+          "id": "thapcam-f93bd476c4",
+          "name": "RB Leipzig vs FC St. Pauli | 20:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f93bd476c4",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f93bd476c4",
+                  "name": "RB Leipzig vs FC St. Pauli",
+                  "streams": [
+                    {
+                      "id": "st-f93bd476c4",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "RB Leipzig",
+            "team_b": "FC St. Pauli",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/26a59fe5653a96ba72f4f1e4e08b6d4b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/65503b155488a643de688e8dfa849b1f.png",
+            "time": "20:30 09/05",
+            "blv": "BLV Jayce",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f93bd476c4_ed68319d_20260509.png?v=ed68319d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-bed5b4d211",
           "name": "TSG Hoffenheim vs SV Werder Bremen | 20:30 09/05",
           "type": "single",
@@ -1321,59 +1232,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bed5b4d211_a0f9eeb3_20260509.png?v=a0f9eeb3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-171f06b0ff",
-          "name": "FC Augsburg vs Borussia Monchengladbach | 20:30 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-171f06b0ff",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-171f06b0ff",
-                  "name": "FC Augsburg vs Borussia Monchengladbach",
-                  "streams": [
-                    {
-                      "id": "st-171f06b0ff",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "FC Augsburg",
-            "team_b": "Borussia Monchengladbach",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/db4411a3c4ce1d0f092f5b9d1df08664.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/89cdadf6cf1eb6f8d2507de1e01f806c.png",
-            "time": "20:30 09/05",
-            "blv": "BLV Tôn Quyền",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-171f06b0ff_4d550b98_20260509.png?v=4d550b98",
             "width": 1600,
             "height": 1200
           }
@@ -1432,8 +1290,8 @@
           }
         },
         {
-          "id": "thapcam-f93bd476c4",
-          "name": "RB Leipzig vs FC St. Pauli | 20:30 09/05",
+          "id": "thapcam-171f06b0ff",
+          "name": "FC Augsburg vs Borussia Monchengladbach | 20:30 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1447,15 +1305,15 @@
           ],
           "sources": [
             {
-              "id": "src-f93bd476c4",
+              "id": "src-171f06b0ff",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-f93bd476c4",
-                  "name": "RB Leipzig vs FC St. Pauli",
+                  "id": "ct-171f06b0ff",
+                  "name": "FC Augsburg vs Borussia Monchengladbach",
                   "streams": [
                     {
-                      "id": "st-f93bd476c4",
+                      "id": "st-171f06b0ff",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1466,12 +1324,12 @@
           ],
           "org_metadata": {
             "league": "Bundesliga",
-            "team_a": "RB Leipzig",
-            "team_b": "FC St. Pauli",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/26a59fe5653a96ba72f4f1e4e08b6d4b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/65503b155488a643de688e8dfa849b1f.png",
+            "team_a": "FC Augsburg",
+            "team_b": "Borussia Monchengladbach",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/db4411a3c4ce1d0f092f5b9d1df08664.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/89cdadf6cf1eb6f8d2507de1e01f806c.png",
             "time": "20:30 09/05",
-            "blv": "BLV Jayce",
+            "blv": "BLV Tôn Quyền",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1479,7 +1337,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f93bd476c4_ed68319d_20260509.png?v=ed68319d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-171f06b0ff_4d550b98_20260509.png?v=4d550b98",
             "width": 1600,
             "height": 1200
           }
@@ -1697,59 +1555,6 @@
           }
         },
         {
-          "id": "thapcam-b2dd84decb",
-          "name": "China U17 vs Japan U17 | 23:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b2dd84decb",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-b2dd84decb",
-                  "name": "China U17 vs Japan U17",
-                  "streams": [
-                    {
-                      "id": "st-b2dd84decb",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "China U17",
-            "team_b": "Japan U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/56b46dcd3e801a496ca783ab0bd0f44d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3c4d97fd12b32034eecb81ef51583b26.png",
-            "time": "23:00 09/05",
-            "blv": "BLV Người Băng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b2dd84decb_112ab78d_20260509.png?v=112ab78d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-de3b31ad49",
           "name": "Lazio vs Inter Milan | 23:00 09/05",
           "type": "single",
@@ -1798,6 +1603,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-de3b31ad49_a34e2721_20260509.png?v=a34e2721",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-b2dd84decb",
+          "name": "China U17 vs Japan U17 | 23:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b2dd84decb",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-b2dd84decb",
+                  "name": "China U17 vs Japan U17",
+                  "streams": [
+                    {
+                      "id": "st-b2dd84decb",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "China U17",
+            "team_b": "Japan U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/56b46dcd3e801a496ca783ab0bd0f44d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3c4d97fd12b32034eecb81ef51583b26.png",
+            "time": "23:00 09/05",
+            "blv": "BLV Người Băng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b2dd84decb_112ab78d_20260509.png?v=112ab78d",
             "width": 1600,
             "height": 1200
           }
