@@ -11,11 +11,82 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-6f1e7a6bd4",
+          "name": "Borussia Dortmund vs Eintracht Frankfurt | 01:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f1e7a6bd4",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-6f1e7a6bd4",
+                  "name": "Borussia Dortmund vs Eintracht Frankfurt",
+                  "streams": [
+                    {
+                      "id": "st-6f1e7a6bd4",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b3d31493c9",
+                          "name": "BLV Cá Mập",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fe266c51ddc_154/index.m3u8?expire=1778868460&sign=c031a1659bdccef882b0e8e24957cac6",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Borussia Dortmund",
+            "team_b": "Eintracht Frankfurt",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bbfacbdbe67705172c6414d7e9c21b58.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fe636189a2f3db78d0554c34f0bdaae6.png",
+            "time": "01:30 09/05",
+            "blv": "BLV Cá Mập",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6f1e7a6bd4_ff9b66d1_20260509.png?v=ff9b66d1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-e0229ab281",
           "name": "Viborg vs Sonderjyske",
@@ -225,59 +296,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-efcfe31e12_bfa4b92d_20260509.png?v=bfa4b92d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-6f1e7a6bd4",
-          "name": "Borussia Dortmund vs Eintracht Frankfurt | 01:30 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6f1e7a6bd4",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6f1e7a6bd4",
-                  "name": "Borussia Dortmund vs Eintracht Frankfurt",
-                  "streams": [
-                    {
-                      "id": "st-6f1e7a6bd4",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Borussia Dortmund",
-            "team_b": "Eintracht Frankfurt",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bbfacbdbe67705172c6414d7e9c21b58.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fe636189a2f3db78d0554c34f0bdaae6.png",
-            "time": "01:30 09/05",
-            "blv": "BLV Cá Mập",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6f1e7a6bd4_ff9b66d1_20260509.png?v=ff9b66d1",
             "width": 1600,
             "height": 1200
           }
@@ -919,59 +937,6 @@
           }
         },
         {
-          "id": "thapcam-b4c3ac9efd",
-          "name": "Ninh Binh FC vs XM Hai Phong FC | 18:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b4c3ac9efd",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-b4c3ac9efd",
-                  "name": "Ninh Binh FC vs XM Hai Phong FC",
-                  "streams": [
-                    {
-                      "id": "st-b4c3ac9efd",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "Ninh Binh FC",
-            "team_b": "XM Hai Phong FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5452226660be0829fdb40967dd4b0b77.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fed18f35e0d187fb4c812f24a97c3e6a.png",
-            "time": "18:00 09/05",
-            "blv": "BLV Jayce",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b4c3ac9efd_90a69775_20260509.png?v=90a69775",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-f512a3c853",
           "name": "CLB Thanh Hoa vs Hanoi FC | 18:00 09/05",
           "type": "single",
@@ -1020,6 +985,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f512a3c853_ab3c6d58_20260509.png?v=ab3c6d58",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-b4c3ac9efd",
+          "name": "Ninh Binh FC vs XM Hai Phong FC | 18:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b4c3ac9efd",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-b4c3ac9efd",
+                  "name": "Ninh Binh FC vs XM Hai Phong FC",
+                  "streams": [
+                    {
+                      "id": "st-b4c3ac9efd",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "Ninh Binh FC",
+            "team_b": "XM Hai Phong FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5452226660be0829fdb40967dd4b0b77.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fed18f35e0d187fb4c812f24a97c3e6a.png",
+            "time": "18:00 09/05",
+            "blv": "BLV Jayce",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b4c3ac9efd_90a69775_20260509.png?v=90a69775",
             "width": 1600,
             "height": 1200
           }
@@ -1714,6 +1732,59 @@
           }
         },
         {
+          "id": "thapcam-666cef421d",
+          "name": "Manchester City vs Brentford | 23:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-666cef421d",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-666cef421d",
+                  "name": "Manchester City vs Brentford",
+                  "streams": [
+                    {
+                      "id": "st-666cef421d",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Manchester City",
+            "team_b": "Brentford",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c4a6528a2ee147b99c9885ef24385a4e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/60f1c7788be3148a370dbf59f914abfe.png",
+            "time": "23:30 09/05",
+            "blv": "BLV Người Lạ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-666cef421d_7e878622_20260509.png?v=7e878622",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-0910f9aa6a",
           "name": "VfL Wolfsburg vs FC Bayern Munich | 23:30 09/05",
           "type": "single",
@@ -1868,59 +1939,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46e498032f_4234b419_20260509.png?v=4234b419",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-666cef421d",
-          "name": "Manchester City vs Brentford | 23:30 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-666cef421d",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-666cef421d",
-                  "name": "Manchester City vs Brentford",
-                  "streams": [
-                    {
-                      "id": "st-666cef421d",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Manchester City",
-            "team_b": "Brentford",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c4a6528a2ee147b99c9885ef24385a4e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/60f1c7788be3148a370dbf59f914abfe.png",
-            "time": "23:30 09/05",
-            "blv": "BLV Người Lạ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-666cef421d_7e878622_20260509.png?v=7e878622",
             "width": 1600,
             "height": 1200
           }
@@ -2218,59 +2236,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7d24bdabed_034801b5_20260509.png?v=034801b5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-0b389dacee",
-          "name": "Brazil vs France | 01:30 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0b389dacee",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-0b389dacee",
-                  "name": "Brazil vs France",
-                  "streams": [
-                    {
-                      "id": "st-0b389dacee",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ITTF World Team Table Tennis Championships Finals London 2026",
-            "team_a": "Brazil",
-            "team_b": "France",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/056ba465118f898081491c59f338ae26.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/40212f6d758e035c28bc9fc47728af63.png",
-            "time": "01:30 09/05",
-            "blv": "BLV Người Sói",
-            "is_live": false,
-            "cate_name": "Bóng bàn"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0b389dacee_f8990cf6_20260509.png?v=f8990cf6",
             "width": 1600,
             "height": 1200
           }
