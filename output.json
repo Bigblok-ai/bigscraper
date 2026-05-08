@@ -2337,7 +2337,114 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "thapcam-88315904b8",
+          "name": "Suntory Sunbirds vs Nagoya | 11:05 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-88315904b8",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-88315904b8",
+                  "name": "Suntory Sunbirds vs Nagoya",
+                  "streams": [
+                    {
+                      "id": "st-88315904b8",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SV.League",
+            "team_a": "Suntory Sunbirds",
+            "team_b": "Nagoya",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/af0db4c8f3e2a1a7c1288bd082c27dc2.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/50b913a609b46fa04f65b4b864f1908b.png",
+            "time": "11:05 09/05",
+            "blv": "BLV Người Điên",
+            "is_live": false,
+            "cate_name": "Bóng chuyền"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-88315904b8_a4715b9b_20260509.png?v=a4715b9b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-afd0364b44",
+          "name": "Panasonic Panthers vs JTEKT | 16:05 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-afd0364b44",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-afd0364b44",
+                  "name": "Panasonic Panthers vs JTEKT",
+                  "streams": [
+                    {
+                      "id": "st-afd0364b44",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SV.League",
+            "team_a": "Panasonic Panthers",
+            "team_b": "JTEKT",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/0e98633c074063cfe9920c5258c67cc0.jpg",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/81fabb32dd005505e2dea6be18af5531.png",
+            "time": "16:05 09/05",
+            "blv": "BLV Người Điên",
+            "is_live": false,
+            "cate_name": "Bóng chuyền"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-afd0364b44_b614872e_20260509.png?v=b614872e",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-578f80eb49",
