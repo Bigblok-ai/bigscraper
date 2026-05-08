@@ -11,11 +11,153 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-80706c6cd3",
+          "name": "Vojvodina Novi Sad vs FK Čukarički | 23:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-80706c6cd3",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-80706c6cd3",
+                  "name": "Vojvodina Novi Sad vs FK Čukarički",
+                  "streams": [
+                    {
+                      "id": "st-80706c6cd3",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-68268bd5c8",
+                          "name": "BLV Lềnh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fe02da137e4_1549/index.m3u8?expire=1778859354&sign=129c0c9050a3d4adc8686595d6cb0fc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serbian Mozzart Bet Superliga",
+            "team_a": "Vojvodina Novi Sad",
+            "team_b": "FK Čukarički",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/40ce8b99981bc3199784a1f6d3a7b26c.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4ad5f5bcfdad804518271ed830bbecc1.png",
+            "time": "23:00 08/05",
+            "blv": "BLV Lềnh",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-80706c6cd3_4aa77dfb_20260508.png?v=4aa77dfb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-0faad63acf",
+          "name": "Rakow Czestochowa vs Korona Kielce | 23:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0faad63acf",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-0faad63acf",
+                  "name": "Rakow Czestochowa vs Korona Kielce",
+                  "streams": [
+                    {
+                      "id": "st-0faad63acf",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ac5063da8e",
+                          "name": "BLV Người Ngố",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fe021e51ddc_14/index.m3u8?expire=1778859166&sign=c02d2ef4b68b46181bd8a4a28bc00873",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PKO Bank Polski EKSTRAKLASA",
+            "team_a": "Rakow Czestochowa",
+            "team_b": "Korona Kielce",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c85e626f9676ad5e4dcc8cdc3fbd6852.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cafbf5b9dae7681bde5b5ea9ecc03198.png",
+            "time": "23:00 08/05",
+            "blv": "BLV Người Ngố",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0faad63acf_6a3f23b8_20260508.png?v=6a3f23b8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-a91ca9ee70",
           "name": "El Mokawloon El Arab vs El Gounah",
@@ -296,112 +438,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3ba9a3cd5e_e282a766_20260508.png?v=e282a766",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-0faad63acf",
-          "name": "Rakow Czestochowa vs Korona Kielce | 23:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0faad63acf",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-0faad63acf",
-                  "name": "Rakow Czestochowa vs Korona Kielce",
-                  "streams": [
-                    {
-                      "id": "st-0faad63acf",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PKO Bank Polski EKSTRAKLASA",
-            "team_a": "Rakow Czestochowa",
-            "team_b": "Korona Kielce",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c85e626f9676ad5e4dcc8cdc3fbd6852.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cafbf5b9dae7681bde5b5ea9ecc03198.png",
-            "time": "23:00 08/05",
-            "blv": "BLV Người Ngố",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0faad63acf_6a3f23b8_20260508.png?v=6a3f23b8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-80706c6cd3",
-          "name": "Vojvodina Novi Sad vs FK Čukarički | 23:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-80706c6cd3",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-80706c6cd3",
-                  "name": "Vojvodina Novi Sad vs FK Čukarički",
-                  "streams": [
-                    {
-                      "id": "st-80706c6cd3",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serbian Mozzart Bet Superliga",
-            "team_a": "Vojvodina Novi Sad",
-            "team_b": "FK Čukarički",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/40ce8b99981bc3199784a1f6d3a7b26c.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4ad5f5bcfdad804518271ed830bbecc1.png",
-            "time": "23:00 08/05",
-            "blv": "BLV Lềnh",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-80706c6cd3_4aa77dfb_20260508.png?v=4aa77dfb",
             "width": 1600,
             "height": 1200
           }
@@ -1202,59 +1238,6 @@
           }
         },
         {
-          "id": "thapcam-f512a3c853",
-          "name": "CLB Thanh Hoa vs Hanoi FC | 18:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f512a3c853",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f512a3c853",
-                  "name": "CLB Thanh Hoa vs Hanoi FC",
-                  "streams": [
-                    {
-                      "id": "st-f512a3c853",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "CLB Thanh Hoa",
-            "team_b": "Hanoi FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c6c3cf855ef4fd3a0385d34606a858ab.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7146224d9ef4e5d2eb712b4e71bdfaa4.png",
-            "time": "18:00 09/05",
-            "blv": "BLV Max",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f512a3c853_ab3c6d58_20260508.png?v=ab3c6d58",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-b4c3ac9efd",
           "name": "Ninh Binh FC vs XM Hai Phong FC | 18:00 09/05",
           "type": "single",
@@ -1303,6 +1286,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b4c3ac9efd_90a69775_20260508.png?v=90a69775",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-f512a3c853",
+          "name": "CLB Thanh Hoa vs Hanoi FC | 18:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f512a3c853",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f512a3c853",
+                  "name": "CLB Thanh Hoa vs Hanoi FC",
+                  "streams": [
+                    {
+                      "id": "st-f512a3c853",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "CLB Thanh Hoa",
+            "team_b": "Hanoi FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c6c3cf855ef4fd3a0385d34606a858ab.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7146224d9ef4e5d2eb712b4e71bdfaa4.png",
+            "time": "18:00 09/05",
+            "blv": "BLV Max",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f512a3c853_ab3c6d58_20260508.png?v=ab3c6d58",
             "width": 1600,
             "height": 1200
           }
@@ -1732,59 +1768,6 @@
           }
         },
         {
-          "id": "thapcam-d2e7bce8ee",
-          "name": "Sunderland vs Manchester United | 21:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d2e7bce8ee",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d2e7bce8ee",
-                  "name": "Sunderland vs Manchester United",
-                  "streams": [
-                    {
-                      "id": "st-d2e7bce8ee",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Sunderland",
-            "team_b": "Manchester United",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/957bdc50c307e2a9b526b34b3792da1a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d39ce586fd7278342dde33b3090b3f75.png",
-            "time": "21:00 09/05",
-            "blv": "BLV Siêu Bướng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d2e7bce8ee_a3cd1eb9_20260508.png?v=a3cd1eb9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-2b0203c809",
           "name": "Fulham vs Bournemouth AFC | 21:00 09/05",
           "type": "single",
@@ -1833,6 +1816,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2b0203c809_4aed5b71_20260508.png?v=4aed5b71",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-d2e7bce8ee",
+          "name": "Sunderland vs Manchester United | 21:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d2e7bce8ee",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d2e7bce8ee",
+                  "name": "Sunderland vs Manchester United",
+                  "streams": [
+                    {
+                      "id": "st-d2e7bce8ee",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Sunderland",
+            "team_b": "Manchester United",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/957bdc50c307e2a9b526b34b3792da1a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d39ce586fd7278342dde33b3090b3f75.png",
+            "time": "21:00 09/05",
+            "blv": "BLV Siêu Bướng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d2e7bce8ee_a3cd1eb9_20260508.png?v=a3cd1eb9",
             "width": 1600,
             "height": 1200
           }
@@ -2218,7 +2254,7 @@
     },
     {
       "id": "grp-776a2d64f8",
-      "name": "🏓 Bóng Bàn",
+      "name": "🏓 Bóng Bàn (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2231,10 +2267,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2249,7 +2285,25 @@
                     {
                       "id": "st-7d24bdabed",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0a58e15f24",
+                          "name": "BLV Người Sói",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fe0268137e4_742/index.m3u8?expire=1778859240&sign=4162db83bd7219b62903cb76a31b0015",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2264,7 +2318,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/4960e035c86739aa56c8947c9e4a5bed.png",
             "time": "23:00 08/05",
             "blv": "BLV Người Sói",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng bàn"
           },
           "image": {
