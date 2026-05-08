@@ -1234,6 +1234,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-d07d79d797",
+          "name": "Cerezo Osaka vs V-Varen Nagasaki | 14:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d07d79d797",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d07d79d797",
+                  "name": "Cerezo Osaka vs V-Varen Nagasaki",
+                  "streams": [
+                    {
+                      "id": "st-d07d79d797",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Cerezo Osaka",
+            "team_b": "V-Varen Nagasaki",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ab10ee503e539e55a9a11a9ff202405a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b28ace839956d8eacce11926ea5e43b3.png",
+            "time": "14:00 09/05",
+            "blv": "BLV Người Cò",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d07d79d797_02c9393a_20260508.png?v=02c9393a",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
