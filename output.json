@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-efcfe31e12",
-          "name": "Al Hilal vs Al Kholood",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-efcfe31e12",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-efcfe31e12",
-                  "name": "Al Hilal vs Al Kholood",
-                  "streams": [
-                    {
-                      "id": "st-efcfe31e12",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-138fdbc7bc",
-                          "name": "BLV Chân Đất",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fe17f9137e4_145/index.m3u8?expire=1778864761&sign=ba74b387db78ad9426656556040e7b24",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Arabia Kings Cup",
-            "team_a": "Al Hilal",
-            "team_b": "Al Kholood",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/07a555616afab7be32e00150eacf4197.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/068aa9b10aa4d47ab3a8fdbe8b716518.png",
-            "time": "",
-            "blv": "BLV Chân Đất",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-efcfe31e12_bfa4b92d_20260509.png?v=bfa4b92d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-6f1e7a6bd4",
           "name": "Borussia Dortmund vs Eintracht Frankfurt",
@@ -154,6 +83,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6f1e7a6bd4_ff9b66d1_20260509.png?v=ff9b66d1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-b3d943c4c2",
+          "name": "Torino vs Sassuolo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b3d943c4c2",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-b3d943c4c2",
+                  "name": "Torino vs Sassuolo",
+                  "streams": [
+                    {
+                      "id": "st-b3d943c4c2",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8c9b332469",
+                          "name": "BLV Người Nhện",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fe2cfc137e4_32/index.m3u8?expire=1778870140&sign=60f1e7a044e70ce11d63eaf986aa9d0a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Torino",
+            "team_b": "Sassuolo",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f0856c1b16c32245a8d2c702ffe89ac5.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/616bf242a532f72e970648f2ead423cf.png",
+            "time": "",
+            "blv": "BLV Người Nhện",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b3d943c4c2_b89c0fed_20260509.png?v=b89c0fed",
             "width": 1600,
             "height": 1200
           }
@@ -242,77 +242,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f35db6155e_87e71738_20260509.png?v=87e71738",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-b3d943c4c2",
-          "name": "Torino vs Sassuolo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b3d943c4c2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-b3d943c4c2",
-                  "name": "Torino vs Sassuolo",
-                  "streams": [
-                    {
-                      "id": "st-b3d943c4c2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8c9b332469",
-                          "name": "BLV Người Nhện",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fe2cfc137e4_32/index.m3u8?expire=1778870140&sign=60f1e7a044e70ce11d63eaf986aa9d0a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Torino",
-            "team_b": "Sassuolo",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f0856c1b16c32245a8d2c702ffe89ac5.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/616bf242a532f72e970648f2ead423cf.png",
-            "time": "",
-            "blv": "BLV Người Nhện",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b3d943c4c2_b89c0fed_20260509.png?v=b89c0fed",
             "width": 1600,
             "height": 1200
           }
@@ -1396,59 +1325,6 @@
           }
         },
         {
-          "id": "thapcam-d2e7bce8ee",
-          "name": "Sunderland vs Manchester United | 21:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d2e7bce8ee",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d2e7bce8ee",
-                  "name": "Sunderland vs Manchester United",
-                  "streams": [
-                    {
-                      "id": "st-d2e7bce8ee",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Sunderland",
-            "team_b": "Manchester United",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/957bdc50c307e2a9b526b34b3792da1a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d39ce586fd7278342dde33b3090b3f75.png",
-            "time": "21:00 09/05",
-            "blv": "BLV Siêu Bướng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d2e7bce8ee_a3cd1eb9_20260509.png?v=a3cd1eb9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-2b0203c809",
           "name": "Fulham vs Bournemouth AFC | 21:00 09/05",
           "type": "single",
@@ -1497,6 +1373,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2b0203c809_4aed5b71_20260509.png?v=4aed5b71",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-d2e7bce8ee",
+          "name": "Sunderland vs Manchester United | 21:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d2e7bce8ee",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d2e7bce8ee",
+                  "name": "Sunderland vs Manchester United",
+                  "streams": [
+                    {
+                      "id": "st-d2e7bce8ee",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Sunderland",
+            "team_b": "Manchester United",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/957bdc50c307e2a9b526b34b3792da1a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d39ce586fd7278342dde33b3090b3f75.png",
+            "time": "21:00 09/05",
+            "blv": "BLV Siêu Bướng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d2e7bce8ee_a3cd1eb9_20260509.png?v=a3cd1eb9",
             "width": 1600,
             "height": 1200
           }
