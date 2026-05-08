@@ -1500,6 +1500,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-f94af7fc48",
+          "name": "Elche vs Deportivo Alavés | 19:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f94af7fc48",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f94af7fc48",
+                  "name": "Elche vs Deportivo Alavés",
+                  "streams": [
+                    {
+                      "id": "st-f94af7fc48",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Elche",
+            "team_b": "Deportivo Alavés",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e5ecd0553885f1a3af731758dddce2ec.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fffbebaa7a0c3c2db7e8d637a3de1811.png",
+            "time": "19:00 09/05",
+            "blv": "BLV Người Ngố",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f94af7fc48_f19598e8_20260508.png?v=f19598e8",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1669,59 +1722,6 @@
           }
         },
         {
-          "id": "thapcam-f7384d4943",
-          "name": "Dino Prizmic vs Novak Djokovic | 19:10 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f7384d4943",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f7384d4943",
-                  "name": "Dino Prizmic vs Novak Djokovic",
-                  "streams": [
-                    {
-                      "id": "st-f7384d4943",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Dino Prizmic",
-            "team_b": "Novak Djokovic",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8bf80daa8f2b15e4117a90fe557e9ade.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a1666c927168025f31b8bdcf7ab611c3.png",
-            "time": "19:10 08/05",
-            "blv": "BLV Người Hầu",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f7384d4943_841fc7b3_20260508.png?v=841fc7b3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-95c0ef8fc6",
           "name": "Sebastian Baez vs Alexander Bublik | 19:30 08/05",
           "type": "single",
@@ -1882,82 +1882,11 @@
     },
     {
       "id": "grp-776a2d64f8",
-      "name": "🏓 Bóng Bàn (2 LIVE)",
+      "name": "🏓 Bóng Bàn (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-7bf9fe52be",
-          "name": "Ukraine vs Japan | 16:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7bf9fe52be",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-7bf9fe52be",
-                  "name": "Ukraine vs Japan",
-                  "streams": [
-                    {
-                      "id": "st-7bf9fe52be",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a86e2f7791",
-                          "name": "BLV Người Cáo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fda39b51ddc_790/index.m3u8?expire=1778834971&sign=8ae088044ade9eaa1dbdda7a6bdfae9f",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ITTF World Team Table Tennis Championships Finals London 2026",
-            "team_a": "Ukraine",
-            "team_b": "Japan",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/4da767d53111eb652331f22caef60566.jpg",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2272dc6d96fca4a7cd6f9f92e45e51ce.png",
-            "time": "16:00 08/05",
-            "blv": "BLV Người Cáo",
-            "is_live": true,
-            "cate_name": "Bóng bàn"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7bf9fe52be_3234c348_20260508.png?v=3234c348",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-ba14af0146",
           "name": "Korea vs China | 18:30 08/05",
