@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-2f7512be4f",
-          "name": "Japan Women U17 vs Australia Women U17",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2f7512be4f",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-2f7512be4f",
-                  "name": "Japan Women U17 vs Australia Women U17",
-                  "streams": [
-                    {
-                      "id": "st-2f7512be4f",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d1939d8977",
-                          "name": "BLV Lềnh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fda28d51ddc_1549/index.m3u8?expire=1778834701&sign=b00de245abd84ff3c35fbc46012a9516",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "Japan Women U17",
-            "team_b": "Australia Women U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a5cc0f9ca35d53a5332bf84dc9b79104.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f476c5c90ef26f3257a4a6c17374c1bc.png",
-            "time": "",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2f7512be4f_a5fca561_20260508.png?v=a5fca561",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-712930be73",
           "name": "Semen Padang vs Persik Kediri",
@@ -1344,64 +1273,11 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-9fcd92d72d",
-          "name": "Nuno Borges vs Rafael Jodar | 16:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9fcd92d72d",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9fcd92d72d",
-                  "name": "Nuno Borges vs Rafael Jodar",
-                  "streams": [
-                    {
-                      "id": "st-9fcd92d72d",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Nuno Borges",
-            "team_b": "Rafael Jodar",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3fd75840f3b5771c481286f6e1d91bcf.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6df68e87ef33da480611d1b13a603a21.png",
-            "time": "16:00 08/05",
-            "blv": "BLV Tôn Quyền",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9fcd92d72d_4e17c517_20260508.png?v=4e17c517",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-bb2700d565",
           "name": "Alex de Minaur vs Matteo Arnaldi | 16:00 08/05",
@@ -1410,10 +1286,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1428,7 +1304,25 @@
                     {
                       "id": "st-bb2700d565",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f3ec4dded8",
+                          "name": "BLV Người Hầu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fda3dc51ddc_9657/index.m3u8?expire=1778835036&sign=27132af0575921b2d0c9c2f4fca8d34c",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1443,7 +1337,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/54e0d5a1af27fe927230f7500b8e7098.png",
             "time": "16:00 08/05",
             "blv": "BLV Người Hầu",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Tennis"
           },
           "image": {
@@ -1757,7 +1651,7 @@
     },
     {
       "id": "grp-776a2d64f8",
-      "name": "🏓 Bóng Bàn",
+      "name": "🏓 Bóng Bàn (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1770,10 +1664,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1788,7 +1682,25 @@
                     {
                       "id": "st-7bf9fe52be",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a86e2f7791",
+                          "name": "BLV Người Cáo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fda39b51ddc_790/index.m3u8?expire=1778834971&sign=8ae088044ade9eaa1dbdda7a6bdfae9f",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1803,7 +1715,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2272dc6d96fca4a7cd6f9f92e45e51ce.png",
             "time": "16:00 08/05",
             "blv": "BLV Người Cáo",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng bàn"
           },
           "image": {
