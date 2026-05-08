@@ -1553,6 +1553,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-4e8adb9598",
+          "name": "Cagliari vs Udinese | 20:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4e8adb9598",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-4e8adb9598",
+                  "name": "Cagliari vs Udinese",
+                  "streams": [
+                    {
+                      "id": "st-4e8adb9598",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Cagliari",
+            "team_b": "Udinese",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/dba65c184e03c860ed919ce192b86c5e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c7140efe06d93642fcc9805077c49aa5.png",
+            "time": "20:00 09/05",
+            "blv": "BLV Người Nhện",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-4e8adb9598_4fe5ac4e_20260508.png?v=4fe5ac4e",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
