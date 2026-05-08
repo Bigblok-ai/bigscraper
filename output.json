@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-26fc9dfbbf",
-          "name": "India Women U17 vs Lebanon U17 Women",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-26fc9dfbbf",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-26fc9dfbbf",
-                  "name": "India Women U17 vs Lebanon U17 Women",
-                  "streams": [
-                    {
-                      "id": "st-26fc9dfbbf",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-411330666c",
-                          "name": "BLV Người Nhện",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fd941551ddc_32/index.m3u8?expire=1778830997&sign=4d0dcdd23b6464b7ca546b05662cc90d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "India Women U17",
-            "team_b": "Lebanon U17 Women",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a18a24058618b5ef80eec61300f85999.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5d0c20971b46597973cbf23b9bb0771b.png",
-            "time": "",
-            "blv": "BLV Người Nhện",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-26fc9dfbbf_34b6a023_20260508.png?v=34b6a023",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-712930be73",
           "name": "Semen Padang vs Persik Kediri | 15:30 08/05",
@@ -194,59 +123,6 @@
           }
         },
         {
-          "id": "thapcam-302b7d4ac7",
-          "name": "North Korea Women U17 vs Korea Rep. Women U17 | 18:30 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-302b7d4ac7",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-302b7d4ac7",
-                  "name": "North Korea Women U17 vs Korea Rep. Women U17",
-                  "streams": [
-                    {
-                      "id": "st-302b7d4ac7",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "North Korea Women U17",
-            "team_b": "Korea Rep. Women U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/566b83e60e3ffdb744bc3d1843fb4311.png",
-            "time": "18:30 08/05",
-            "blv": "BLV Người Lạ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-302b7d4ac7_0874a446_20260508.png?v=0874a446",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-ee7e7fbd00",
           "name": "Philippines U17 Women vs Chinese Taipei U17 Women | 18:30 08/05",
           "type": "single",
@@ -300,6 +176,59 @@
           }
         },
         {
+          "id": "thapcam-302b7d4ac7",
+          "name": "North Korea Women U17 vs Korea Rep. Women U17 | 18:30 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-302b7d4ac7",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-302b7d4ac7",
+                  "name": "North Korea Women U17 vs Korea Rep. Women U17",
+                  "streams": [
+                    {
+                      "id": "st-302b7d4ac7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "North Korea Women U17",
+            "team_b": "Korea Rep. Women U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/566b83e60e3ffdb744bc3d1843fb4311.png",
+            "time": "18:30 08/05",
+            "blv": "BLV Người Lạ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-302b7d4ac7_0874a446_20260508.png?v=0874a446",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-a91ca9ee70",
           "name": "El Mokawloon El Arab vs El Gounah | 21:00 08/05",
           "type": "single",
@@ -348,6 +277,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a91ca9ee70_0ac4fcf5_20260508.png?v=0ac4fcf5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-3ba9a3cd5e",
+          "name": "UTA Arad vs FK Csikszereda Miercurea Ciuc | 22:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3ba9a3cd5e",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-3ba9a3cd5e",
+                  "name": "UTA Arad vs FK Csikszereda Miercurea Ciuc",
+                  "streams": [
+                    {
+                      "id": "st-3ba9a3cd5e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Romanian Super Liga",
+            "team_a": "UTA Arad",
+            "team_b": "FK Csikszereda Miercurea Ciuc",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/acd5e194c961b091fcf0065a5d27a8f8.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bdfa2df481714f2ea787ee7fe973b4a6.png",
+            "time": "22:00 08/05",
+            "blv": "BLV Người Cò",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3ba9a3cd5e_e282a766_20260508.png?v=e282a766",
             "width": 1600,
             "height": 1200
           }
@@ -454,59 +436,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ccd4e5babb_52450c55_20260508.png?v=52450c55",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-3ba9a3cd5e",
-          "name": "UTA Arad vs FK Csikszereda Miercurea Ciuc | 22:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3ba9a3cd5e",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3ba9a3cd5e",
-                  "name": "UTA Arad vs FK Csikszereda Miercurea Ciuc",
-                  "streams": [
-                    {
-                      "id": "st-3ba9a3cd5e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Romanian Super Liga",
-            "team_a": "UTA Arad",
-            "team_b": "FK Csikszereda Miercurea Ciuc",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/acd5e194c961b091fcf0065a5d27a8f8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bdfa2df481714f2ea787ee7fe973b4a6.png",
-            "time": "22:00 08/05",
-            "blv": "BLV Người Cò",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3ba9a3cd5e_e282a766_20260508.png?v=e282a766",
             "width": 1600,
             "height": 1200
           }
@@ -777,59 +706,6 @@
           }
         },
         {
-          "id": "thapcam-f35db6155e",
-          "name": "RC Lens vs FC Nantes | 01:45 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f35db6155e",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f35db6155e",
-                  "name": "RC Lens vs FC Nantes",
-                  "streams": [
-                    {
-                      "id": "st-f35db6155e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "RC Lens",
-            "team_b": "FC Nantes",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b8c5038ebb0e21b09a72008b7cb6219f.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3e8ecd181a512ff663ff60ec85c8bed1.png",
-            "time": "01:45 09/05",
-            "blv": "BLV Người Rừng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f35db6155e_87e71738_20260508.png?v=87e71738",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-b3d943c4c2",
           "name": "Torino vs Sassuolo | 01:45 09/05",
           "type": "single",
@@ -878,6 +754,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b3d943c4c2_b89c0fed_20260508.png?v=b89c0fed",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-f35db6155e",
+          "name": "RC Lens vs FC Nantes | 01:45 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f35db6155e",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f35db6155e",
+                  "name": "RC Lens vs FC Nantes",
+                  "streams": [
+                    {
+                      "id": "st-f35db6155e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "RC Lens",
+            "team_b": "FC Nantes",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b8c5038ebb0e21b09a72008b7cb6219f.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3e8ecd181a512ff663ff60ec85c8bed1.png",
+            "time": "01:45 09/05",
+            "blv": "BLV Người Rừng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f35db6155e_87e71738_20260508.png?v=87e71738",
             "width": 1600,
             "height": 1200
           }
