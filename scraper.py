@@ -78,7 +78,7 @@ HEADERS = {
 BASE_URL      = "https://thapcam24h.net"
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
-THUMB_VERSION = "v7"
+THUMB_VERSION = "v1"
 
 CATE_MAP = {
     "Bóng đá":     "⚽ Bóng Đá",
@@ -295,23 +295,6 @@ def make_thumbnail(match, channel_id):
                 break
             font_size -= 3
         draw.text((W // 2, HEADER_H // 2), league_text,
-                  fill=(255, 255, 255), font=f, anchor="mm")
-
-    # BLV — footer, tự scale nếu quá dài
-    if match.get("blv"):
-        blv_text  = match['blv']
-        font_size = 58
-        f         = None
-        while font_size >= 28:
-            try:
-                f = ImageFont.truetype(FONT_BOLD, font_size)
-            except:
-                f = ImageFont.load_default()
-            bbox = draw.textbbox((0, 0), blv_text, font=f)
-            if (bbox[2] - bbox[0]) <= W - 60:
-                break
-            font_size -= 3
-        draw.text((W // 2, H - FOOTER_H // 2), blv_text,
                   fill=(255, 255, 255), font=f, anchor="mm")
 
     # Viền ngoài
