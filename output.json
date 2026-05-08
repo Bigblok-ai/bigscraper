@@ -1133,82 +1133,11 @@
     },
     {
       "id": "grp-d721cd64dc",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-55864a6c5c",
-          "name": "Detroit Pistons vs Cleveland Cavaliers | 06:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-55864a6c5c",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-55864a6c5c",
-                  "name": "Detroit Pistons vs Cleveland Cavaliers",
-                  "streams": [
-                    {
-                      "id": "st-55864a6c5c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2480c9c714",
-                          "name": "BLV Người Hầu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fd16d851ddc_9657/index.m3u8?expire=1778798936&sign=2f28037715f494b95f5ce4b1d3244899",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Detroit Pistons",
-            "team_b": "Cleveland Cavaliers",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3f82122a48e98eaccc5e71307eba801a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/57c938e35ceb2ee92562a09c4165fb47.png",
-            "time": "06:00 08/05",
-            "blv": "BLV Người Hầu",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-55864a6c5c_1b7715d0_20260508.png?v=1b7715d0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-c681001601",
           "name": "Oklahoma City Thunder vs Los Angeles Lakers | 08:30 08/05",
@@ -1440,6 +1369,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7bf9fe52be_3234c348_20260508.png?v=3234c348",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-ba14af0146",
+          "name": "Korea vs China | 18:30 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ba14af0146",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-ba14af0146",
+                  "name": "Korea vs China",
+                  "streams": [
+                    {
+                      "id": "st-ba14af0146",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ITTF World Team Table Tennis Championships Finals London 2026",
+            "team_a": "Korea",
+            "team_b": "China",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/e2d626a93740b95f6dc7047efe9653aa.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2349bbb109057db855c05eb903948d73.png",
+            "time": "18:30 08/05",
+            "blv": "BLV Người Cáo",
+            "is_live": false,
+            "cate_name": "Bóng bàn"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ba14af0146_7c1ed412_20260508.png?v=7c1ed412",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-7d24bdabed",
+          "name": "France vs Romania | 23:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7d24bdabed",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-7d24bdabed",
+                  "name": "France vs Romania",
+                  "streams": [
+                    {
+                      "id": "st-7d24bdabed",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ITTF World Team Table Tennis Championships Finals London 2026",
+            "team_a": "France",
+            "team_b": "Romania",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/40212f6d758e035c28bc9fc47728af63.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/4960e035c86739aa56c8947c9e4a5bed.png",
+            "time": "23:00 08/05",
+            "blv": "BLV Người Sói",
+            "is_live": false,
+            "cate_name": "Bóng bàn"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7d24bdabed_034801b5_20260508.png?v=034801b5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-0b389dacee",
+          "name": "Brazil vs France | 01:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0b389dacee",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-0b389dacee",
+                  "name": "Brazil vs France",
+                  "streams": [
+                    {
+                      "id": "st-0b389dacee",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ITTF World Team Table Tennis Championships Finals London 2026",
+            "team_a": "Brazil",
+            "team_b": "France",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/056ba465118f898081491c59f338ae26.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/40212f6d758e035c28bc9fc47728af63.png",
+            "time": "01:30 09/05",
+            "blv": "BLV Người Sói",
+            "is_live": false,
+            "cate_name": "Bóng bàn"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0b389dacee_f8990cf6_20260508.png?v=f8990cf6",
             "width": 1600,
             "height": 1200
           }
