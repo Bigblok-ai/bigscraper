@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,6 +83,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-712930be73_2e1efdb8_20260508.png?v=2e1efdb8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-883b9969e0",
+          "name": "Bac Ninh vs Truong Tuoi Dong Nai",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-883b9969e0",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-883b9969e0",
+                  "name": "Bac Ninh vs Truong Tuoi Dong Nai",
+                  "streams": [
+                    {
+                      "id": "st-883b9969e0",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5a3a1c9727",
+                          "name": "BLV Người Nhớt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fdacb6137e4_14232/index.m3u8?expire=1778837302&sign=e5558add7d25a1be910a2be885899bac",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National First Class League",
+            "team_a": "Bac Ninh",
+            "team_b": "Truong Tuoi Dong Nai",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/40b7d679de613aedfb80bcaba85fa7e0.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a9741c7972e214b1c312092c8b51acd8.png",
+            "time": "",
+            "blv": "BLV Người Nhớt",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-883b9969e0_59702224_20260508.png?v=59702224",
             "width": 1600,
             "height": 1200
           }
