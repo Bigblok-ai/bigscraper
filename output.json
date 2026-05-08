@@ -2413,82 +2413,11 @@
     },
     {
       "id": "grp-578f80eb49",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-af9787b72c",
-          "name": "Võ Thuật | 18:30 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-af9787b72c",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-af9787b72c",
-                  "name": "Võ Thuật",
-                  "streams": [
-                    {
-                      "id": "st-af9787b72c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3bd5f3ac65",
-                          "name": "BLV Người Rừng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fdc1ef137e4_148/index.m3u8?expire=1778842735&sign=ab6e1d1f13c88fc4b76deaeac327c4bc",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "",
-            "team_a": "Võ Thuật",
-            "team_b": "",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-dev/categories/2025/04/04/c0c91a80ab09a27d4a216f92292c8327.png",
-            "logo_b": "",
-            "time": "18:30 08/05",
-            "blv": "BLV Người Rừng",
-            "is_live": true,
-            "cate_name": "Võ Thuật"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-af9787b72c_19a0eefa_20260508.png?v=19a0eefa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-8b4edf4062",
           "name": "Võ Thuật | 20:00 09/05",
