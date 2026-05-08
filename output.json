@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,77 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ee7e7fbd00_c78b79f1_20260508.png?v=c78b79f1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-302b7d4ac7",
-          "name": "North Korea Women U17 vs Korea Rep. Women U17",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-302b7d4ac7",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-302b7d4ac7",
-                  "name": "North Korea Women U17 vs Korea Rep. Women U17",
-                  "streams": [
-                    {
-                      "id": "st-302b7d4ac7",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3b7a50d317",
-                          "name": "BLV Người Lạ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fdb96151ddc_11241/index.m3u8?expire=1778840545&sign=49a72aab5bad8138393e08ae7dea0d0f",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "North Korea Women U17",
-            "team_b": "Korea Rep. Women U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/566b83e60e3ffdb744bc3d1843fb4311.png",
-            "time": "",
-            "blv": "BLV Người Lạ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-302b7d4ac7_0874a446_20260508.png?v=0874a446",
             "width": 1600,
             "height": 1200
           }
@@ -1272,59 +1201,6 @@
           }
         },
         {
-          "id": "thapcam-b4c3ac9efd",
-          "name": "Ninh Binh FC vs XM Hai Phong FC | 18:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b4c3ac9efd",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-b4c3ac9efd",
-                  "name": "Ninh Binh FC vs XM Hai Phong FC",
-                  "streams": [
-                    {
-                      "id": "st-b4c3ac9efd",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "Ninh Binh FC",
-            "team_b": "XM Hai Phong FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5452226660be0829fdb40967dd4b0b77.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fed18f35e0d187fb4c812f24a97c3e6a.png",
-            "time": "18:00 09/05",
-            "blv": "BLV Jayce",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b4c3ac9efd_90a69775_20260508.png?v=90a69775",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-f512a3c853",
           "name": "CLB Thanh Hoa vs Hanoi FC | 18:00 09/05",
           "type": "single",
@@ -1373,6 +1249,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f512a3c853_ab3c6d58_20260508.png?v=ab3c6d58",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-b4c3ac9efd",
+          "name": "Ninh Binh FC vs XM Hai Phong FC | 18:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b4c3ac9efd",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-b4c3ac9efd",
+                  "name": "Ninh Binh FC vs XM Hai Phong FC",
+                  "streams": [
+                    {
+                      "id": "st-b4c3ac9efd",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "Ninh Binh FC",
+            "team_b": "XM Hai Phong FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5452226660be0829fdb40967dd4b0b77.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fed18f35e0d187fb4c812f24a97c3e6a.png",
+            "time": "18:00 09/05",
+            "blv": "BLV Jayce",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b4c3ac9efd_90a69775_20260508.png?v=90a69775",
             "width": 1600,
             "height": 1200
           }
@@ -1556,7 +1485,7 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1628,6 +1557,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cdb7af074a_0a77116d_20260508.png?v=0a77116d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-95c0ef8fc6",
+          "name": "Sebastian Baez vs Alexander Bublik | 19:30 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-95c0ef8fc6",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-95c0ef8fc6",
+                  "name": "Sebastian Baez vs Alexander Bublik",
+                  "streams": [
+                    {
+                      "id": "st-95c0ef8fc6",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8291c2b2ff",
+                          "name": "BLV Tôn Quyền",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fde20851ddc_793/index.m3u8?expire=1778850952&sign=f2e8239d6424bc0f84e3dd33b60b805a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Rome, Italy Men Singles",
+            "team_a": "Sebastian Baez",
+            "team_b": "Alexander Bublik",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c224ae7c0ac67634513e747b61dc44ac.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/48b5ceec7c7af6986d4b60420aeaf160.png",
+            "time": "19:30 08/05",
+            "blv": "BLV Tôn Quyền",
+            "is_live": true,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-95c0ef8fc6_d8ac98dd_20260508.png?v=d8ac98dd",
             "width": 1600,
             "height": 1200
           }
@@ -1724,6 +1724,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-af9787b72c_19a0eefa_20260508.png?v=19a0eefa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-8b4edf4062",
+          "name": "Võ Thuật | 20:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8b4edf4062",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-8b4edf4062",
+                  "name": "Võ Thuật",
+                  "streams": [
+                    {
+                      "id": "st-8b4edf4062",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "Võ Thuật",
+            "team_b": "",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-dev/categories/2025/04/04/c0c91a80ab09a27d4a216f92292c8327.png",
+            "logo_b": "",
+            "time": "20:00 09/05",
+            "blv": "Sóng Sạch 1",
+            "is_live": false,
+            "cate_name": "Võ Thuật"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8b4edf4062_19a0eefa_20260508.png?v=19a0eefa",
             "width": 1600,
             "height": 1200
           }
