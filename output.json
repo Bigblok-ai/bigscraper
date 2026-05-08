@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "thapcam-a91ca9ee70",
-          "name": "El Mokawloon El Arab vs El Gounah | 21:00 08/05",
+          "name": "El Mokawloon El Arab vs El Gounah",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,7 +73,7 @@
             "team_b": "El Gounah",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d2ba8945533ebbda0bcccf6cf21a4bd4.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/35e665fa4086e183fda582249d625c2b.png",
-            "time": "21:00 08/05",
+            "time": "",
             "blv": "BLV Người Điên",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -83,6 +83,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a91ca9ee70_0ac4fcf5_20260508.png?v=0ac4fcf5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-3ba9a3cd5e",
+          "name": "UTA Arad vs FK Csikszereda Miercurea Ciuc | 22:00 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3ba9a3cd5e",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-3ba9a3cd5e",
+                  "name": "UTA Arad vs FK Csikszereda Miercurea Ciuc",
+                  "streams": [
+                    {
+                      "id": "st-3ba9a3cd5e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Romanian Super Liga",
+            "team_a": "UTA Arad",
+            "team_b": "FK Csikszereda Miercurea Ciuc",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/acd5e194c961b091fcf0065a5d27a8f8.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bdfa2df481714f2ea787ee7fe973b4a6.png",
+            "time": "22:00 08/05",
+            "blv": "BLV Người Cò",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3ba9a3cd5e_e282a766_20260508.png?v=e282a766",
             "width": 1600,
             "height": 1200
           }
@@ -189,59 +242,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8a34fd9928_40e49d35_20260508.png?v=40e49d35",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-3ba9a3cd5e",
-          "name": "UTA Arad vs FK Csikszereda Miercurea Ciuc | 22:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3ba9a3cd5e",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3ba9a3cd5e",
-                  "name": "UTA Arad vs FK Csikszereda Miercurea Ciuc",
-                  "streams": [
-                    {
-                      "id": "st-3ba9a3cd5e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Romanian Super Liga",
-            "team_a": "UTA Arad",
-            "team_b": "FK Csikszereda Miercurea Ciuc",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/acd5e194c961b091fcf0065a5d27a8f8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bdfa2df481714f2ea787ee7fe973b4a6.png",
-            "time": "22:00 08/05",
-            "blv": "BLV Người Cò",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3ba9a3cd5e_e282a766_20260508.png?v=e282a766",
             "width": 1600,
             "height": 1200
           }
@@ -1413,59 +1413,6 @@
           }
         },
         {
-          "id": "thapcam-f93bd476c4",
-          "name": "RB Leipzig vs FC St. Pauli | 20:30 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f93bd476c4",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f93bd476c4",
-                  "name": "RB Leipzig vs FC St. Pauli",
-                  "streams": [
-                    {
-                      "id": "st-f93bd476c4",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "RB Leipzig",
-            "team_b": "FC St. Pauli",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/26a59fe5653a96ba72f4f1e4e08b6d4b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/65503b155488a643de688e8dfa849b1f.png",
-            "time": "20:30 09/05",
-            "blv": "BLV Max",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f93bd476c4_ed68319d_20260508.png?v=ed68319d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-171f06b0ff",
           "name": "FC Augsburg vs Borussia Monchengladbach | 20:30 09/05",
           "type": "single",
@@ -1572,6 +1519,59 @@
           }
         },
         {
+          "id": "thapcam-f93bd476c4",
+          "name": "RB Leipzig vs FC St. Pauli | 20:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f93bd476c4",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f93bd476c4",
+                  "name": "RB Leipzig vs FC St. Pauli",
+                  "streams": [
+                    {
+                      "id": "st-f93bd476c4",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "RB Leipzig",
+            "team_b": "FC St. Pauli",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/26a59fe5653a96ba72f4f1e4e08b6d4b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/65503b155488a643de688e8dfa849b1f.png",
+            "time": "20:30 09/05",
+            "blv": "BLV Max",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f93bd476c4_ed68319d_20260508.png?v=ed68319d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-bed5b4d211",
           "name": "TSG Hoffenheim vs SV Werder Bremen | 20:30 09/05",
           "type": "single",
@@ -1625,8 +1625,8 @@
           }
         },
         {
-          "id": "thapcam-390d5140e2",
-          "name": "Brighton Hove Albion vs Wolverhampton Wanderers | 21:00 09/05",
+          "id": "thapcam-d2e7bce8ee",
+          "name": "Sunderland vs Manchester United | 21:00 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1640,15 +1640,15 @@
           ],
           "sources": [
             {
-              "id": "src-390d5140e2",
+              "id": "src-d2e7bce8ee",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-390d5140e2",
-                  "name": "Brighton Hove Albion vs Wolverhampton Wanderers",
+                  "id": "ct-d2e7bce8ee",
+                  "name": "Sunderland vs Manchester United",
                   "streams": [
                     {
-                      "id": "st-390d5140e2",
+                      "id": "st-d2e7bce8ee",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1659,12 +1659,12 @@
           ],
           "org_metadata": {
             "league": "English Premier League",
-            "team_a": "Brighton Hove Albion",
-            "team_b": "Wolverhampton Wanderers",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9b43a690d5a09f1e319f036821e8e1d3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5759932ca2512c6701d86dfbd58380a7.png",
+            "team_a": "Sunderland",
+            "team_b": "Manchester United",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/957bdc50c307e2a9b526b34b3792da1a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d39ce586fd7278342dde33b3090b3f75.png",
             "time": "21:00 09/05",
-            "blv": "BLV Lềnh",
+            "blv": "BLV Siêu Bướng",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1672,7 +1672,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-390d5140e2_9d030f96_20260508.png?v=9d030f96",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d2e7bce8ee_a3cd1eb9_20260508.png?v=a3cd1eb9",
             "width": 1600,
             "height": 1200
           }
@@ -1731,8 +1731,8 @@
           }
         },
         {
-          "id": "thapcam-d2e7bce8ee",
-          "name": "Sunderland vs Manchester United | 21:00 09/05",
+          "id": "thapcam-390d5140e2",
+          "name": "Brighton Hove Albion vs Wolverhampton Wanderers | 21:00 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1746,15 +1746,15 @@
           ],
           "sources": [
             {
-              "id": "src-d2e7bce8ee",
+              "id": "src-390d5140e2",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-d2e7bce8ee",
-                  "name": "Sunderland vs Manchester United",
+                  "id": "ct-390d5140e2",
+                  "name": "Brighton Hove Albion vs Wolverhampton Wanderers",
                   "streams": [
                     {
-                      "id": "st-d2e7bce8ee",
+                      "id": "st-390d5140e2",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1765,12 +1765,12 @@
           ],
           "org_metadata": {
             "league": "English Premier League",
-            "team_a": "Sunderland",
-            "team_b": "Manchester United",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/957bdc50c307e2a9b526b34b3792da1a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d39ce586fd7278342dde33b3090b3f75.png",
+            "team_a": "Brighton Hove Albion",
+            "team_b": "Wolverhampton Wanderers",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9b43a690d5a09f1e319f036821e8e1d3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5759932ca2512c6701d86dfbd58380a7.png",
             "time": "21:00 09/05",
-            "blv": "BLV Siêu Bướng",
+            "blv": "BLV Lềnh",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1778,7 +1778,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d2e7bce8ee_a3cd1eb9_20260508.png?v=a3cd1eb9",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-390d5140e2_9d030f96_20260508.png?v=9d030f96",
             "width": 1600,
             "height": 1200
           }
@@ -1803,82 +1803,11 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-ae4e52b0e5",
-          "name": "Casper Ruud vs Zachary Svajda | 18:10 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ae4e52b0e5",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-ae4e52b0e5",
-                  "name": "Casper Ruud vs Zachary Svajda",
-                  "streams": [
-                    {
-                      "id": "st-ae4e52b0e5",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3848b5eee5",
-                          "name": "BLV Tôn Quyền",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fdc36a51ddc_793/index.m3u8?expire=1778843114&sign=a3ec68397fe2989e819072d3903ec4dd",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Casper Ruud",
-            "team_b": "Zachary Svajda",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/74333a05a20c9c27863391ba5ba2024e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fcd7cb0945395153f94a3506384dbb09.png",
-            "time": "18:10 08/05",
-            "blv": "BLV Tôn Quyền",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ae4e52b0e5_5ff702c8_20260508.png?v=5ff702c8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-7b122c0de8",
           "name": "Daniel Altmaier vs Alexander Zverev | 20:40 08/05",
