@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-d243b3afe2",
-          "name": "Thanh Niên TP. Hồ Chí Minh vs Quy Nhon United",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d243b3afe2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d243b3afe2",
-                  "name": "Thanh Niên TP. Hồ Chí Minh vs Quy Nhon United",
-                  "streams": [
-                    {
-                      "id": "st-d243b3afe2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2fffdaaed3",
-                          "name": "BLV Jayce",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fdb474137e4_181/index.m3u8?expire=1778839284&sign=1447206c041aa3717d81f30552f1faaa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National First Class League",
-            "team_a": "Thanh Niên TP. Hồ Chí Minh",
-            "team_b": "Quy Nhon United",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d6c94af253f905993d3aaf89b1c10415.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d8a1a7a944d3701818056b1632ad6ed5.png",
-            "time": "",
-            "blv": "BLV Jayce",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d243b3afe2_2fb1c3c7_20260508.png?v=2fb1c3c7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-4b9089cebf",
           "name": "SHB Da Nang vs Becamex Ho Chi Minh City",
@@ -159,77 +88,6 @@
           }
         },
         {
-          "id": "thapcam-302b7d4ac7",
-          "name": "North Korea Women U17 vs Korea Rep. Women U17",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-302b7d4ac7",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-302b7d4ac7",
-                  "name": "North Korea Women U17 vs Korea Rep. Women U17",
-                  "streams": [
-                    {
-                      "id": "st-302b7d4ac7",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3b7a50d317",
-                          "name": "BLV Người Lạ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fdb96151ddc_11241/index.m3u8?expire=1778840545&sign=49a72aab5bad8138393e08ae7dea0d0f",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "North Korea Women U17",
-            "team_b": "Korea Rep. Women U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/566b83e60e3ffdb744bc3d1843fb4311.png",
-            "time": "",
-            "blv": "BLV Người Lạ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-302b7d4ac7_0874a446_20260508.png?v=0874a446",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-ee7e7fbd00",
           "name": "Philippines U17 Women vs Chinese Taipei U17 Women",
           "type": "single",
@@ -296,6 +154,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ee7e7fbd00_c78b79f1_20260508.png?v=c78b79f1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-302b7d4ac7",
+          "name": "North Korea Women U17 vs Korea Rep. Women U17",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-302b7d4ac7",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-302b7d4ac7",
+                  "name": "North Korea Women U17 vs Korea Rep. Women U17",
+                  "streams": [
+                    {
+                      "id": "st-302b7d4ac7",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3b7a50d317",
+                          "name": "BLV Người Lạ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fdb96151ddc_11241/index.m3u8?expire=1778840545&sign=49a72aab5bad8138393e08ae7dea0d0f",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "North Korea Women U17",
+            "team_b": "Korea Rep. Women U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/566b83e60e3ffdb744bc3d1843fb4311.png",
+            "time": "",
+            "blv": "BLV Người Lạ",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-302b7d4ac7_0874a446_20260508.png?v=0874a446",
             "width": 1600,
             "height": 1200
           }
