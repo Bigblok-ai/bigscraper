@@ -88,6 +88,77 @@
           }
         },
         {
+          "id": "thapcam-ccd4e5babb",
+          "name": "Toronto FC II vs New York Red Bulls B",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ccd4e5babb",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-ccd4e5babb",
+                  "name": "Toronto FC II vs New York Red Bulls B",
+                  "streams": [
+                    {
+                      "id": "st-ccd4e5babb",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-99494e395b",
+                          "name": "BLV Max",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fde598137e4_35/index.m3u8?expire=1778851864&sign=9562c29a915fd332e67cc73d9beefc54",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLS Next Pro",
+            "team_a": "Toronto FC II",
+            "team_b": "New York Red Bulls B",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d85b4da177906440b0b1616aff569914.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/12cdc8883966d78ca99be7ae7f349333.png",
+            "time": "",
+            "blv": "BLV Max",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ccd4e5babb_52450c55_20260508.png?v=52450c55",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-8a34fd9928",
           "name": "TPS Turku vs HJK Helsinki",
           "type": "single",
@@ -230,50 +301,32 @@
           }
         },
         {
-          "id": "thapcam-ccd4e5babb",
-          "name": "Toronto FC II vs New York Red Bulls B",
+          "id": "thapcam-0faad63acf",
+          "name": "Rakow Czestochowa vs Korona Kielce | 23:00 08/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-ccd4e5babb",
+              "id": "src-0faad63acf",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-ccd4e5babb",
-                  "name": "Toronto FC II vs New York Red Bulls B",
+                  "id": "ct-0faad63acf",
+                  "name": "Rakow Czestochowa vs Korona Kielce",
                   "streams": [
                     {
-                      "id": "st-ccd4e5babb",
+                      "id": "st-0faad63acf",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-99494e395b",
-                          "name": "BLV Max",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fde598137e4_35/index.m3u8?expire=1778851864&sign=9562c29a915fd332e67cc73d9beefc54",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -281,21 +334,21 @@
             }
           ],
           "org_metadata": {
-            "league": "MLS Next Pro",
-            "team_a": "Toronto FC II",
-            "team_b": "New York Red Bulls B",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d85b4da177906440b0b1616aff569914.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/12cdc8883966d78ca99be7ae7f349333.png",
-            "time": "",
-            "blv": "BLV Max",
-            "is_live": true,
+            "league": "PKO Bank Polski EKSTRAKLASA",
+            "team_a": "Rakow Czestochowa",
+            "team_b": "Korona Kielce",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c85e626f9676ad5e4dcc8cdc3fbd6852.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cafbf5b9dae7681bde5b5ea9ecc03198.png",
+            "time": "23:00 08/05",
+            "blv": "BLV Người Ngố",
+            "is_live": false,
             "cate_name": "Bóng đá"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ccd4e5babb_52450c55_20260508.png?v=52450c55",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0faad63acf_6a3f23b8_20260508.png?v=6a3f23b8",
             "width": 1600,
             "height": 1200
           }
@@ -349,59 +402,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-80706c6cd3_4aa77dfb_20260508.png?v=4aa77dfb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-0faad63acf",
-          "name": "Rakow Czestochowa vs Korona Kielce | 23:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0faad63acf",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-0faad63acf",
-                  "name": "Rakow Czestochowa vs Korona Kielce",
-                  "streams": [
-                    {
-                      "id": "st-0faad63acf",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PKO Bank Polski EKSTRAKLASA",
-            "team_a": "Rakow Czestochowa",
-            "team_b": "Korona Kielce",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c85e626f9676ad5e4dcc8cdc3fbd6852.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cafbf5b9dae7681bde5b5ea9ecc03198.png",
-            "time": "23:00 08/05",
-            "blv": "BLV Người Ngố",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0faad63acf_6a3f23b8_20260508.png?v=6a3f23b8",
             "width": 1600,
             "height": 1200
           }
@@ -1202,59 +1202,6 @@
           }
         },
         {
-          "id": "thapcam-b4c3ac9efd",
-          "name": "Ninh Binh FC vs XM Hai Phong FC | 18:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b4c3ac9efd",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-b4c3ac9efd",
-                  "name": "Ninh Binh FC vs XM Hai Phong FC",
-                  "streams": [
-                    {
-                      "id": "st-b4c3ac9efd",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "Ninh Binh FC",
-            "team_b": "XM Hai Phong FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5452226660be0829fdb40967dd4b0b77.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fed18f35e0d187fb4c812f24a97c3e6a.png",
-            "time": "18:00 09/05",
-            "blv": "BLV Jayce",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b4c3ac9efd_90a69775_20260508.png?v=90a69775",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-f512a3c853",
           "name": "CLB Thanh Hoa vs Hanoi FC | 18:00 09/05",
           "type": "single",
@@ -1303,6 +1250,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f512a3c853_ab3c6d58_20260508.png?v=ab3c6d58",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-b4c3ac9efd",
+          "name": "Ninh Binh FC vs XM Hai Phong FC | 18:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b4c3ac9efd",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-b4c3ac9efd",
+                  "name": "Ninh Binh FC vs XM Hai Phong FC",
+                  "streams": [
+                    {
+                      "id": "st-b4c3ac9efd",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "Ninh Binh FC",
+            "team_b": "XM Hai Phong FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5452226660be0829fdb40967dd4b0b77.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fed18f35e0d187fb4c812f24a97c3e6a.png",
+            "time": "18:00 09/05",
+            "blv": "BLV Jayce",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b4c3ac9efd_90a69775_20260508.png?v=90a69775",
             "width": 1600,
             "height": 1200
           }
@@ -1732,59 +1732,6 @@
           }
         },
         {
-          "id": "thapcam-2b0203c809",
-          "name": "Fulham vs Bournemouth AFC | 21:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2b0203c809",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-2b0203c809",
-                  "name": "Fulham vs Bournemouth AFC",
-                  "streams": [
-                    {
-                      "id": "st-2b0203c809",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Fulham",
-            "team_b": "Bournemouth AFC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/29982511f1ea861967c3e6478d6a8a68.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/240b30d333c97d293752ab7afd77ccd6.png",
-            "time": "21:00 09/05",
-            "blv": "BLV Người Ngố",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2b0203c809_4aed5b71_20260508.png?v=4aed5b71",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-d2e7bce8ee",
           "name": "Sunderland vs Manchester United | 21:00 09/05",
           "type": "single",
@@ -1833,6 +1780,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d2e7bce8ee_a3cd1eb9_20260508.png?v=a3cd1eb9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-2b0203c809",
+          "name": "Fulham vs Bournemouth AFC | 21:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2b0203c809",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-2b0203c809",
+                  "name": "Fulham vs Bournemouth AFC",
+                  "streams": [
+                    {
+                      "id": "st-2b0203c809",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Fulham",
+            "team_b": "Bournemouth AFC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/29982511f1ea861967c3e6478d6a8a68.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/240b30d333c97d293752ab7afd77ccd6.png",
+            "time": "21:00 09/05",
+            "blv": "BLV Người Ngố",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2b0203c809_4aed5b71_20260508.png?v=4aed5b71",
             "width": 1600,
             "height": 1200
           }
@@ -1916,8 +1916,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-d041ba0b6d",
-          "name": "Sebastian Baez vs Alexander Bublik | 22:30 08/05",
+          "id": "thapcam-c7cc4df53d",
+          "name": "Sebastian Baez vs Alexander Bublik | 22:40 08/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1931,15 +1931,15 @@
           ],
           "sources": [
             {
-              "id": "src-d041ba0b6d",
+              "id": "src-c7cc4df53d",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-d041ba0b6d",
+                  "id": "ct-c7cc4df53d",
                   "name": "Sebastian Baez vs Alexander Bublik",
                   "streams": [
                     {
-                      "id": "st-d041ba0b6d",
+                      "id": "st-c7cc4df53d",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -1972,7 +1972,7 @@
             "team_b": "Alexander Bublik",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c224ae7c0ac67634513e747b61dc44ac.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/48b5ceec7c7af6986d4b60420aeaf160.png",
-            "time": "22:30 08/05",
+            "time": "22:40 08/05",
             "blv": "BLV Tôn Quyền",
             "is_live": true,
             "cate_name": "Tennis"
@@ -1981,7 +1981,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d041ba0b6d_d8ac98dd_20260508.png?v=d8ac98dd",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c7cc4df53d_d8ac98dd_20260508.png?v=d8ac98dd",
             "width": 1600,
             "height": 1200
           }
