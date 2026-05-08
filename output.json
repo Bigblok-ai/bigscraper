@@ -230,77 +230,6 @@
           }
         },
         {
-          "id": "thapcam-ccd4e5babb",
-          "name": "Toronto FC II vs New York Red Bulls B",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ccd4e5babb",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-ccd4e5babb",
-                  "name": "Toronto FC II vs New York Red Bulls B",
-                  "streams": [
-                    {
-                      "id": "st-ccd4e5babb",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-99494e395b",
-                          "name": "BLV Max",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fde598137e4_35/index.m3u8?expire=1778851864&sign=9562c29a915fd332e67cc73d9beefc54",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLS Next Pro",
-            "team_a": "Toronto FC II",
-            "team_b": "New York Red Bulls B",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d85b4da177906440b0b1616aff569914.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/12cdc8883966d78ca99be7ae7f349333.png",
-            "time": "",
-            "blv": "BLV Max",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ccd4e5babb_52450c55_20260508.png?v=52450c55",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-8a34fd9928",
           "name": "TPS Turku vs HJK Helsinki",
           "type": "single",
@@ -438,6 +367,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3ba9a3cd5e_e282a766_20260508.png?v=e282a766",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-ccd4e5babb",
+          "name": "Toronto FC II vs New York Red Bulls B",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ccd4e5babb",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-ccd4e5babb",
+                  "name": "Toronto FC II vs New York Red Bulls B",
+                  "streams": [
+                    {
+                      "id": "st-ccd4e5babb",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-99494e395b",
+                          "name": "BLV Max",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fde598137e4_35/index.m3u8?expire=1778851864&sign=9562c29a915fd332e67cc73d9beefc54",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLS Next Pro",
+            "team_a": "Toronto FC II",
+            "team_b": "New York Red Bulls B",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d85b4da177906440b0b1616aff569914.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/12cdc8883966d78ca99be7ae7f349333.png",
+            "time": "",
+            "blv": "BLV Max",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ccd4e5babb_52450c55_20260508.png?v=52450c55",
             "width": 1600,
             "height": 1200
           }
@@ -1768,59 +1768,6 @@
           }
         },
         {
-          "id": "thapcam-2b0203c809",
-          "name": "Fulham vs Bournemouth AFC | 21:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2b0203c809",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-2b0203c809",
-                  "name": "Fulham vs Bournemouth AFC",
-                  "streams": [
-                    {
-                      "id": "st-2b0203c809",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Fulham",
-            "team_b": "Bournemouth AFC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/29982511f1ea861967c3e6478d6a8a68.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/240b30d333c97d293752ab7afd77ccd6.png",
-            "time": "21:00 09/05",
-            "blv": "BLV Người Ngố",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2b0203c809_4aed5b71_20260508.png?v=4aed5b71",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-d2e7bce8ee",
           "name": "Sunderland vs Manchester United | 21:00 09/05",
           "type": "single",
@@ -1869,6 +1816,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d2e7bce8ee_a3cd1eb9_20260508.png?v=a3cd1eb9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-2b0203c809",
+          "name": "Fulham vs Bournemouth AFC | 21:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2b0203c809",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-2b0203c809",
+                  "name": "Fulham vs Bournemouth AFC",
+                  "streams": [
+                    {
+                      "id": "st-2b0203c809",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Fulham",
+            "team_b": "Bournemouth AFC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/29982511f1ea861967c3e6478d6a8a68.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/240b30d333c97d293752ab7afd77ccd6.png",
+            "time": "21:00 09/05",
+            "blv": "BLV Người Ngố",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2b0203c809_4aed5b71_20260508.png?v=4aed5b71",
             "width": 1600,
             "height": 1200
           }
