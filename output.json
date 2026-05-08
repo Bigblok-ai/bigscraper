@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-712930be73",
-          "name": "Semen Padang vs Persik Kediri",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-712930be73",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-712930be73",
-                  "name": "Semen Padang vs Persik Kediri",
-                  "streams": [
-                    {
-                      "id": "st-712930be73",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4c9f49c207",
-                          "name": "BLV Chân Đất",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fd999a51ddc_145/index.m3u8?expire=1778832410&sign=e758af8c61963ffe45520adbb2524cfc",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "Semen Padang",
-            "team_b": "Persik Kediri",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/84cbbc8bc40a15d27aafc116d775cd27.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ba93b52107e379dbcf350e144e0f80a8.png",
-            "time": "",
-            "blv": "BLV Chân Đất",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-712930be73_2e1efdb8_20260508.png?v=2e1efdb8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-883b9969e0",
           "name": "Bac Ninh vs Truong Tuoi Dong Nai",
@@ -1064,7 +993,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c546591ee334f23d5d2a1722a9750fb5.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/58acfb611aacd5c14358ff8f94004f70.png",
             "time": "06:00 09/05",
-            "blv": "BLV Người Băng",
+            "blv": "BLV Chân Đất",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1276,7 +1205,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1d4c98a8072a4c3c0efc42a790d9c8cb.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e5f515e5720cd281a1a53ce2950992b1.png",
             "time": "13:00 09/05",
-            "blv": "BLV Chân Đất",
+            "blv": "BLV Người Băng",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1521,7 +1450,7 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1593,77 +1522,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9fcd92d72d_4e17c517_20260508.png?v=4e17c517",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-bb2700d565",
-          "name": "Alex de Minaur vs Matteo Arnaldi | 16:00 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bb2700d565",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-bb2700d565",
-                  "name": "Alex de Minaur vs Matteo Arnaldi",
-                  "streams": [
-                    {
-                      "id": "st-bb2700d565",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e511446967",
-                          "name": "BLV Người Hầu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fdafb851ddc_9657/index.m3u8?expire=1778838072&sign=d9663907140ae964694d0920d662223e",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Alex de Minaur",
-            "team_b": "Matteo Arnaldi",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f293e9915cbbd2c75528ab4fe3bc6671.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/54e0d5a1af27fe927230f7500b8e7098.png",
-            "time": "16:00 08/05",
-            "blv": "BLV Người Hầu",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bb2700d565_1819780b_20260508.png?v=1819780b",
             "width": 1600,
             "height": 1200
           }
