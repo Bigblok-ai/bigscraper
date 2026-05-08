@@ -1910,7 +1910,7 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1987,8 +1987,8 @@
           }
         },
         {
-          "id": "thapcam-f6aad57894",
-          "name": "Dino Prizmic vs Novak Djokovic | 21:50 08/05",
+          "id": "thapcam-d041ba0b6d",
+          "name": "Sebastian Baez vs Alexander Bublik | 22:30 08/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2002,15 +2002,86 @@
           ],
           "sources": [
             {
-              "id": "src-f6aad57894",
+              "id": "src-d041ba0b6d",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-f6aad57894",
+                  "id": "ct-d041ba0b6d",
+                  "name": "Sebastian Baez vs Alexander Bublik",
+                  "streams": [
+                    {
+                      "id": "st-d041ba0b6d",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8291c2b2ff",
+                          "name": "BLV Tôn Quyền",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fde20851ddc_793/index.m3u8?expire=1778850952&sign=f2e8239d6424bc0f84e3dd33b60b805a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Rome, Italy Men Singles",
+            "team_a": "Sebastian Baez",
+            "team_b": "Alexander Bublik",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c224ae7c0ac67634513e747b61dc44ac.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/48b5ceec7c7af6986d4b60420aeaf160.png",
+            "time": "22:30 08/05",
+            "blv": "BLV Tôn Quyền",
+            "is_live": true,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d041ba0b6d_d8ac98dd_20260508.png?v=d8ac98dd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-7ceef469f4",
+          "name": "Dino Prizmic vs Novak Djokovic | 22:30 08/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7ceef469f4",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-7ceef469f4",
                   "name": "Dino Prizmic vs Novak Djokovic",
                   "streams": [
                     {
-                      "id": "st-f6aad57894",
+                      "id": "st-7ceef469f4",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -2043,7 +2114,7 @@
             "team_b": "Novak Djokovic",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8bf80daa8f2b15e4117a90fe557e9ade.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a1666c927168025f31b8bdcf7ab611c3.png",
-            "time": "21:50 08/05",
+            "time": "22:30 08/05",
             "blv": "BLV Người Hầu",
             "is_live": true,
             "cate_name": "Tennis"
@@ -2052,60 +2123,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f6aad57894_841fc7b3_20260508.png?v=841fc7b3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-d041ba0b6d",
-          "name": "Sebastian Baez vs Alexander Bublik | 22:30 08/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d041ba0b6d",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d041ba0b6d",
-                  "name": "Sebastian Baez vs Alexander Bublik",
-                  "streams": [
-                    {
-                      "id": "st-d041ba0b6d",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Sebastian Baez",
-            "team_b": "Alexander Bublik",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c224ae7c0ac67634513e747b61dc44ac.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/48b5ceec7c7af6986d4b60420aeaf160.png",
-            "time": "22:30 08/05",
-            "blv": "BLV Tôn Quyền",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d041ba0b6d_d8ac98dd_20260508.png?v=d8ac98dd",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7ceef469f4_841fc7b3_20260508.png?v=841fc7b3",
             "width": 1600,
             "height": 1200
           }
