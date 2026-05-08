@@ -724,59 +724,6 @@
           }
         },
         {
-          "id": "thapcam-b3d943c4c2",
-          "name": "Torino vs Sassuolo | 01:45 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b3d943c4c2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-b3d943c4c2",
-                  "name": "Torino vs Sassuolo",
-                  "streams": [
-                    {
-                      "id": "st-b3d943c4c2",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Torino",
-            "team_b": "Sassuolo",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f0856c1b16c32245a8d2c702ffe89ac5.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/616bf242a532f72e970648f2ead423cf.png",
-            "time": "01:45 09/05",
-            "blv": "BLV Người Nhện",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b3d943c4c2_b89c0fed_20260508.png?v=b89c0fed",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-f35db6155e",
           "name": "RC Lens vs FC Nantes | 01:45 09/05",
           "type": "single",
@@ -825,6 +772,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f35db6155e_87e71738_20260508.png?v=87e71738",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-b3d943c4c2",
+          "name": "Torino vs Sassuolo | 01:45 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b3d943c4c2",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-b3d943c4c2",
+                  "name": "Torino vs Sassuolo",
+                  "streams": [
+                    {
+                      "id": "st-b3d943c4c2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Torino",
+            "team_b": "Sassuolo",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f0856c1b16c32245a8d2c702ffe89ac5.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/616bf242a532f72e970648f2ead423cf.png",
+            "time": "01:45 09/05",
+            "blv": "BLV Người Nhện",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b3d943c4c2_b89c0fed_20260508.png?v=b89c0fed",
             "width": 1600,
             "height": 1200
           }
