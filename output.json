@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "thapcam-10f61cb2f2",
-          "name": "International Miami B vs Chattanooga | 06:00 09/05",
+          "name": "International Miami B vs Chattanooga",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,7 +73,7 @@
             "team_b": "Chattanooga",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c546591ee334f23d5d2a1722a9750fb5.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/58acfb611aacd5c14358ff8f94004f70.png",
-            "time": "06:00 09/05",
+            "time": "",
             "blv": "BLV Chân Đất",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -512,59 +512,6 @@
           }
         },
         {
-          "id": "thapcam-b4c3ac9efd",
-          "name": "Ninh Binh FC vs XM Hai Phong FC | 18:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b4c3ac9efd",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-b4c3ac9efd",
-                  "name": "Ninh Binh FC vs XM Hai Phong FC",
-                  "streams": [
-                    {
-                      "id": "st-b4c3ac9efd",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "Ninh Binh FC",
-            "team_b": "XM Hai Phong FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5452226660be0829fdb40967dd4b0b77.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fed18f35e0d187fb4c812f24a97c3e6a.png",
-            "time": "18:00 09/05",
-            "blv": "BLV Jayce",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b4c3ac9efd_eb9dadc0_20260509.png?v=eb9dadc0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-f512a3c853",
           "name": "CLB Thanh Hoa vs Hanoi FC | 18:00 09/05",
           "type": "single",
@@ -613,6 +560,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f512a3c853_8948173a_20260509.png?v=8948173a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-b4c3ac9efd",
+          "name": "Ninh Binh FC vs XM Hai Phong FC | 18:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b4c3ac9efd",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-b4c3ac9efd",
+                  "name": "Ninh Binh FC vs XM Hai Phong FC",
+                  "streams": [
+                    {
+                      "id": "st-b4c3ac9efd",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "Ninh Binh FC",
+            "team_b": "XM Hai Phong FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5452226660be0829fdb40967dd4b0b77.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fed18f35e0d187fb4c812f24a97c3e6a.png",
+            "time": "18:00 09/05",
+            "blv": "BLV Jayce",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b4c3ac9efd_eb9dadc0_20260509.png?v=eb9dadc0",
             "width": 1600,
             "height": 1200
           }
@@ -777,8 +777,8 @@
           }
         },
         {
-          "id": "thapcam-f93bd476c4",
-          "name": "RB Leipzig vs FC St. Pauli | 20:30 09/05",
+          "id": "thapcam-bed5b4d211",
+          "name": "TSG Hoffenheim vs SV Werder Bremen | 20:30 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -792,15 +792,15 @@
           ],
           "sources": [
             {
-              "id": "src-f93bd476c4",
+              "id": "src-bed5b4d211",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-f93bd476c4",
-                  "name": "RB Leipzig vs FC St. Pauli",
+                  "id": "ct-bed5b4d211",
+                  "name": "TSG Hoffenheim vs SV Werder Bremen",
                   "streams": [
                     {
-                      "id": "st-f93bd476c4",
+                      "id": "st-bed5b4d211",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -811,12 +811,12 @@
           ],
           "org_metadata": {
             "league": "Bundesliga",
-            "team_a": "RB Leipzig",
-            "team_b": "FC St. Pauli",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/26a59fe5653a96ba72f4f1e4e08b6d4b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/65503b155488a643de688e8dfa849b1f.png",
+            "team_a": "TSG Hoffenheim",
+            "team_b": "SV Werder Bremen",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/72ab7862a610b350aef7650ec0e06e06.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/82e3b03a1df3d7ae3d38e9fdd24fe622.png",
             "time": "20:30 09/05",
-            "blv": "BLV Jayce",
+            "blv": "BLV Người Điên",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -824,7 +824,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f93bd476c4_7a6af576_20260509.png?v=7a6af576",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bed5b4d211_c652efd2_20260509.png?v=c652efd2",
             "width": 1600,
             "height": 1200
           }
@@ -936,8 +936,8 @@
           }
         },
         {
-          "id": "thapcam-bed5b4d211",
-          "name": "TSG Hoffenheim vs SV Werder Bremen | 20:30 09/05",
+          "id": "thapcam-f93bd476c4",
+          "name": "RB Leipzig vs FC St. Pauli | 20:30 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -951,15 +951,15 @@
           ],
           "sources": [
             {
-              "id": "src-bed5b4d211",
+              "id": "src-f93bd476c4",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-bed5b4d211",
-                  "name": "TSG Hoffenheim vs SV Werder Bremen",
+                  "id": "ct-f93bd476c4",
+                  "name": "RB Leipzig vs FC St. Pauli",
                   "streams": [
                     {
-                      "id": "st-bed5b4d211",
+                      "id": "st-f93bd476c4",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -970,12 +970,12 @@
           ],
           "org_metadata": {
             "league": "Bundesliga",
-            "team_a": "TSG Hoffenheim",
-            "team_b": "SV Werder Bremen",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/72ab7862a610b350aef7650ec0e06e06.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/82e3b03a1df3d7ae3d38e9fdd24fe622.png",
+            "team_a": "RB Leipzig",
+            "team_b": "FC St. Pauli",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/26a59fe5653a96ba72f4f1e4e08b6d4b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/65503b155488a643de688e8dfa849b1f.png",
             "time": "20:30 09/05",
-            "blv": "BLV Người Điên",
+            "blv": "BLV Jayce",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -983,60 +983,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bed5b4d211_c652efd2_20260509.png?v=c652efd2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-d2e7bce8ee",
-          "name": "Sunderland vs Manchester United | 21:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d2e7bce8ee",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d2e7bce8ee",
-                  "name": "Sunderland vs Manchester United",
-                  "streams": [
-                    {
-                      "id": "st-d2e7bce8ee",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Sunderland",
-            "team_b": "Manchester United",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/957bdc50c307e2a9b526b34b3792da1a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d39ce586fd7278342dde33b3090b3f75.png",
-            "time": "21:00 09/05",
-            "blv": "BLV Siêu Bướng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d2e7bce8ee_42b8495b_20260509.png?v=42b8495b",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f93bd476c4_7a6af576_20260509.png?v=7a6af576",
             "width": 1600,
             "height": 1200
           }
@@ -1148,6 +1095,59 @@
           }
         },
         {
+          "id": "thapcam-d2e7bce8ee",
+          "name": "Sunderland vs Manchester United | 21:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d2e7bce8ee",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d2e7bce8ee",
+                  "name": "Sunderland vs Manchester United",
+                  "streams": [
+                    {
+                      "id": "st-d2e7bce8ee",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Sunderland",
+            "team_b": "Manchester United",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/957bdc50c307e2a9b526b34b3792da1a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d39ce586fd7278342dde33b3090b3f75.png",
+            "time": "21:00 09/05",
+            "blv": "BLV Siêu Bướng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d2e7bce8ee_42b8495b_20260509.png?v=42b8495b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-ce6e4ebed2",
           "name": "Sevilla FC vs RCD Espanyol de Barcelona | 21:15 09/05",
           "type": "single",
@@ -1196,6 +1196,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ce6e4ebed2_9181808b_20260509.png?v=9181808b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-de3b31ad49",
+          "name": "Lazio vs Inter Milan | 23:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-de3b31ad49",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-de3b31ad49",
+                  "name": "Lazio vs Inter Milan",
+                  "streams": [
+                    {
+                      "id": "st-de3b31ad49",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Lazio",
+            "team_b": "Inter Milan",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5a2ff46efa33abc6b2908eb6279dfbf8.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aa2245702c40f77799a5ad4b119581a8.png",
+            "time": "23:00 09/05",
+            "blv": "BLV Người Nhện",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-de3b31ad49_9151c973_20260509.png?v=9151c973",
             "width": 1600,
             "height": 1200
           }
@@ -1254,8 +1307,8 @@
           }
         },
         {
-          "id": "thapcam-de3b31ad49",
-          "name": "Lazio vs Inter Milan | 23:00 09/05",
+          "id": "thapcam-46e498032f",
+          "name": "Qatar U17 vs Indonesia U17 | 23:30 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1269,15 +1322,15 @@
           ],
           "sources": [
             {
-              "id": "src-de3b31ad49",
+              "id": "src-46e498032f",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-de3b31ad49",
-                  "name": "Lazio vs Inter Milan",
+                  "id": "ct-46e498032f",
+                  "name": "Qatar U17 vs Indonesia U17",
                   "streams": [
                     {
-                      "id": "st-de3b31ad49",
+                      "id": "st-46e498032f",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1287,13 +1340,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Lazio",
-            "team_b": "Inter Milan",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5a2ff46efa33abc6b2908eb6279dfbf8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aa2245702c40f77799a5ad4b119581a8.png",
-            "time": "23:00 09/05",
-            "blv": "BLV Người Nhện",
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Qatar U17",
+            "team_b": "Indonesia U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8583e166d6e955dd01525d25b53b4439.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a222bcd619abdcee951b28cae8d1cce6.png",
+            "time": "23:30 09/05",
+            "blv": "BLV Người Nhớt",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1301,7 +1354,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-de3b31ad49_9151c973_20260509.png?v=9151c973",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46e498032f_66d2d99c_20260509.png?v=66d2d99c",
             "width": 1600,
             "height": 1200
           }
@@ -1461,59 +1514,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a804647621_567041f2_20260509.png?v=567041f2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-46e498032f",
-          "name": "Qatar U17 vs Indonesia U17 | 23:30 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-46e498032f",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-46e498032f",
-                  "name": "Qatar U17 vs Indonesia U17",
-                  "streams": [
-                    {
-                      "id": "st-46e498032f",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Qatar U17",
-            "team_b": "Indonesia U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8583e166d6e955dd01525d25b53b4439.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a222bcd619abdcee951b28cae8d1cce6.png",
-            "time": "23:30 09/05",
-            "blv": "BLV Người Nhớt",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46e498032f_66d2d99c_20260509.png?v=66d2d99c",
             "width": 1600,
             "height": 1200
           }
