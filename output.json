@@ -88,77 +88,6 @@
           }
         },
         {
-          "id": "thapcam-b4c3ac9efd",
-          "name": "Ninh Binh FC vs XM Hai Phong FC | 18:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b4c3ac9efd",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-b4c3ac9efd",
-                  "name": "Ninh Binh FC vs XM Hai Phong FC",
-                  "streams": [
-                    {
-                      "id": "st-b4c3ac9efd",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8bd471e738",
-                          "name": "BLV Jayce",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff0cc4137e4_181/index.m3u8?expire=1778927428&sign=a79a831c71134cbdd34d91fb989ac188",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "Ninh Binh FC",
-            "team_b": "XM Hai Phong FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5452226660be0829fdb40967dd4b0b77.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fed18f35e0d187fb4c812f24a97c3e6a.png",
-            "time": "18:00 09/05",
-            "blv": "BLV Jayce",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b4c3ac9efd_8af5f823_20260509.png?v=8af5f823",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-f345192810",
           "name": "Sydney FC vs Newcastle Jets",
           "type": "single",
@@ -296,6 +225,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5aa55dfad9_e4f7a674_20260509.png?v=e4f7a674",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-b4c3ac9efd",
+          "name": "Ninh Binh FC vs XM Hai Phong FC",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b4c3ac9efd",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-b4c3ac9efd",
+                  "name": "Ninh Binh FC vs XM Hai Phong FC",
+                  "streams": [
+                    {
+                      "id": "st-b4c3ac9efd",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8bd471e738",
+                          "name": "BLV Jayce",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69ff0cc4137e4_181/index.m3u8?expire=1778927428&sign=a79a831c71134cbdd34d91fb989ac188",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "Ninh Binh FC",
+            "team_b": "XM Hai Phong FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5452226660be0829fdb40967dd4b0b77.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fed18f35e0d187fb4c812f24a97c3e6a.png",
+            "time": "",
+            "blv": "BLV Jayce",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b4c3ac9efd_8af5f823_20260509.png?v=8af5f823",
             "width": 1600,
             "height": 1200
           }
@@ -672,6 +672,59 @@
           }
         },
         {
+          "id": "thapcam-d2e7bce8ee",
+          "name": "Sunderland vs Manchester United | 21:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d2e7bce8ee",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d2e7bce8ee",
+                  "name": "Sunderland vs Manchester United",
+                  "streams": [
+                    {
+                      "id": "st-d2e7bce8ee",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Sunderland",
+            "team_b": "Manchester United",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/957bdc50c307e2a9b526b34b3792da1a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d39ce586fd7278342dde33b3090b3f75.png",
+            "time": "21:00 09/05",
+            "blv": "BLV Siêu Bướng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d2e7bce8ee_87d1073c_20260509.png?v=87d1073c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-390d5140e2",
           "name": "Brighton Hove Albion vs Wolverhampton Wanderers | 21:00 09/05",
           "type": "single",
@@ -773,59 +826,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2b0203c809_08a7a749_20260509.png?v=08a7a749",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-d2e7bce8ee",
-          "name": "Sunderland vs Manchester United | 21:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d2e7bce8ee",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d2e7bce8ee",
-                  "name": "Sunderland vs Manchester United",
-                  "streams": [
-                    {
-                      "id": "st-d2e7bce8ee",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Sunderland",
-            "team_b": "Manchester United",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/957bdc50c307e2a9b526b34b3792da1a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d39ce586fd7278342dde33b3090b3f75.png",
-            "time": "21:00 09/05",
-            "blv": "BLV Siêu Bướng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d2e7bce8ee_87d1073c_20260509.png?v=87d1073c",
             "width": 1600,
             "height": 1200
           }
@@ -990,8 +990,8 @@
           }
         },
         {
-          "id": "thapcam-666cef421d",
-          "name": "Manchester City vs Brentford | 23:30 09/05",
+          "id": "thapcam-46e498032f",
+          "name": "Qatar U17 vs Indonesia U17 | 23:30 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1005,15 +1005,15 @@
           ],
           "sources": [
             {
-              "id": "src-666cef421d",
+              "id": "src-46e498032f",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-666cef421d",
-                  "name": "Manchester City vs Brentford",
+                  "id": "ct-46e498032f",
+                  "name": "Qatar U17 vs Indonesia U17",
                   "streams": [
                     {
-                      "id": "st-666cef421d",
+                      "id": "st-46e498032f",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1023,13 +1023,13 @@
             }
           ],
           "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Manchester City",
-            "team_b": "Brentford",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c4a6528a2ee147b99c9885ef24385a4e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/60f1c7788be3148a370dbf59f914abfe.png",
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Qatar U17",
+            "team_b": "Indonesia U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8583e166d6e955dd01525d25b53b4439.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a222bcd619abdcee951b28cae8d1cce6.png",
             "time": "23:30 09/05",
-            "blv": "BLV Người Lạ",
+            "blv": "BLV Người Nhớt",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1037,7 +1037,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-666cef421d_2592379a_20260509.png?v=2592379a",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46e498032f_485490fd_20260509.png?v=485490fd",
             "width": 1600,
             "height": 1200
           }
@@ -1149,8 +1149,8 @@
           }
         },
         {
-          "id": "thapcam-46e498032f",
-          "name": "Qatar U17 vs Indonesia U17 | 23:30 09/05",
+          "id": "thapcam-666cef421d",
+          "name": "Manchester City vs Brentford | 23:30 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1164,15 +1164,15 @@
           ],
           "sources": [
             {
-              "id": "src-46e498032f",
+              "id": "src-666cef421d",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-46e498032f",
-                  "name": "Qatar U17 vs Indonesia U17",
+                  "id": "ct-666cef421d",
+                  "name": "Manchester City vs Brentford",
                   "streams": [
                     {
-                      "id": "st-46e498032f",
+                      "id": "st-666cef421d",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1182,13 +1182,13 @@
             }
           ],
           "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Qatar U17",
-            "team_b": "Indonesia U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8583e166d6e955dd01525d25b53b4439.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a222bcd619abdcee951b28cae8d1cce6.png",
+            "league": "English Premier League",
+            "team_a": "Manchester City",
+            "team_b": "Brentford",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c4a6528a2ee147b99c9885ef24385a4e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/60f1c7788be3148a370dbf59f914abfe.png",
             "time": "23:30 09/05",
-            "blv": "BLV Người Nhớt",
+            "blv": "BLV Người Lạ",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1196,7 +1196,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-46e498032f_485490fd_20260509.png?v=485490fd",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-666cef421d_2592379a_20260509.png?v=2592379a",
             "width": 1600,
             "height": 1200
           }
@@ -2419,6 +2419,112 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-034da413c2",
+          "name": "Cong An Ho Chi Minh City vs Song Lam Nghe An | 18:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-034da413c2",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-034da413c2",
+                  "name": "Cong An Ho Chi Minh City vs Song Lam Nghe An",
+                  "streams": [
+                    {
+                      "id": "st-034da413c2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "Cong An Ho Chi Minh City",
+            "team_b": "Song Lam Nghe An",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/99dd3ac7267c0e3870d9ad785e6f9661.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7f95b001711ce3978d498602e1d2c9fd.png",
+            "time": "18:00 10/05",
+            "blv": "BLV Tôn Quyền",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-034da413c2_5cb06a33_20260509.png?v=5cb06a33",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-c4037fe3dc",
+          "name": "Hong Linh Ha Tinh vs The Cong Viettel | 18:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c4037fe3dc",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-c4037fe3dc",
+                  "name": "Hong Linh Ha Tinh vs The Cong Viettel",
+                  "streams": [
+                    {
+                      "id": "st-c4037fe3dc",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "Hong Linh Ha Tinh",
+            "team_b": "The Cong Viettel",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/83dd94c5ca68e8f9a3980f036afcb511.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/840e2d7165cf2a34ec6c65a1fd9b58a9.png",
+            "time": "18:00 10/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c4037fe3dc_9dca8b30_20260509.png?v=9dca8b30",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2446,8 +2552,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-d32539d3c3",
-          "name": "Tomas Martin Etcheverry vs Mattia Bellucci | 17:50 09/05",
+          "id": "thapcam-b2e18a9c21",
+          "name": "Tomas Martin Etcheverry vs Mattia Bellucci | 18:10 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2461,15 +2567,15 @@
           ],
           "sources": [
             {
-              "id": "src-d32539d3c3",
+              "id": "src-b2e18a9c21",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-d32539d3c3",
+                  "id": "ct-b2e18a9c21",
                   "name": "Tomas Martin Etcheverry vs Mattia Bellucci",
                   "streams": [
                     {
-                      "id": "st-d32539d3c3",
+                      "id": "st-b2e18a9c21",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -2502,7 +2608,7 @@
             "team_b": "Mattia Bellucci",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/551bebb7859d790bfb65a5a412c5efcd.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7050cf38907e575ecc1512260df4e7fc.png",
-            "time": "17:50 09/05",
+            "time": "18:10 09/05",
             "blv": "BLV Người Hầu",
             "is_live": true,
             "cate_name": "Tennis"
@@ -2511,7 +2617,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d32539d3c3_b4d8efd7_20260509.png?v=b4d8efd7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b2e18a9c21_b4d8efd7_20260509.png?v=b4d8efd7",
             "width": 1600,
             "height": 1200
           }
