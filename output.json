@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -105,8 +105,8 @@
           }
         },
         {
-          "id": "thapcam-390d5140e2",
-          "name": "Brighton Hove Albion vs Wolverhampton Wanderers",
+          "id": "thapcam-de3b31ad49",
+          "name": "Lazio vs Inter Milan | 23:00 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -120,23 +120,23 @@
           ],
           "sources": [
             {
-              "id": "src-390d5140e2",
+              "id": "src-de3b31ad49",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-390d5140e2",
-                  "name": "Brighton Hove Albion vs Wolverhampton Wanderers",
+                  "id": "ct-de3b31ad49",
+                  "name": "Lazio vs Inter Milan",
                   "streams": [
                     {
-                      "id": "st-390d5140e2",
+                      "id": "st-de3b31ad49",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-32e24b37eb",
-                          "name": "BLV Lềnh",
+                          "id": "lnk-098b60a19a",
+                          "name": "BLV Người Nhện",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff3290137e4_1549/index.m3u8?expire=1778937104&sign=c3115071ce2318723a724f99d292a80e",
+                          "url": "https://cdn-hls.phogatv8.com/live/69ff58ee137e4_32/index.m3u8?expire=1778946926&sign=7602190ec5c4aaed92c5bc60c49a3844",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -156,13 +156,13 @@
             }
           ],
           "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Brighton Hove Albion",
-            "team_b": "Wolverhampton Wanderers",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9b43a690d5a09f1e319f036821e8e1d3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5759932ca2512c6701d86dfbd58380a7.png",
-            "time": "",
-            "blv": "BLV Lềnh",
+            "league": "Italian Serie A",
+            "team_a": "Lazio",
+            "team_b": "Inter Milan",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5a2ff46efa33abc6b2908eb6279dfbf8.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aa2245702c40f77799a5ad4b119581a8.png",
+            "time": "23:00 09/05",
+            "blv": "BLV Người Nhện",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -170,7 +170,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-390d5140e2_88817086_20260509.png?v=88817086",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-de3b31ad49_a8c870bc_20260509.png?v=a8c870bc",
             "width": 1600,
             "height": 1200
           }
@@ -242,111 +242,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2b0203c809_08a7a749_20260509.png?v=08a7a749",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-d2e7bce8ee",
-          "name": "Sunderland vs Manchester United",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d2e7bce8ee",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d2e7bce8ee",
-                  "name": "Sunderland vs Manchester United",
-                  "streams": [
-                    {
-                      "id": "st-d2e7bce8ee",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-973a1288b4",
-                          "name": "BLV Siêu Bướng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff371651ddc_154/index.m3u8?expire=1778938262&sign=2ebe1373f75582de787aa2b69f131915",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-93fa49afe0",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff3791137e4_151/index.m3u8?expire=1778938385&sign=2da1068760e4d66ec84aa702a15848fd",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-41f56581c3",
-                          "name": "Link HD 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff357251ddc_145/index.m3u8?expire=1778937842&sign=a3f4e06a615b94637135cc76ccfbbe55",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Sunderland",
-            "team_b": "Manchester United",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/957bdc50c307e2a9b526b34b3792da1a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d39ce586fd7278342dde33b3090b3f75.png",
-            "time": "",
-            "blv": "BLV Siêu Bướng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d2e7bce8ee_87d1073c_20260509.png?v=87d1073c",
             "width": 1600,
             "height": 1200
           }
@@ -2278,59 +2173,6 @@
           }
         },
         {
-          "id": "thapcam-9a777d9f62",
-          "name": "Cremonese vs Pisa | 20:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9a777d9f62",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9a777d9f62",
-                  "name": "Cremonese vs Pisa",
-                  "streams": [
-                    {
-                      "id": "st-9a777d9f62",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Cremonese",
-            "team_b": "Pisa",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0b0e25267dabd15c405070329df5fbdb.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7ca5de14056c7290f6787e0943aa11ad.png",
-            "time": "20:00 10/05",
-            "blv": "BLV Người Băng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9a777d9f62_5ea617ca_20260509.png?v=5ea617ca",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-33b6adc027",
           "name": "Fiorentina vs Genoa | 20:00 10/05",
           "type": "single",
@@ -2384,8 +2226,8 @@
           }
         },
         {
-          "id": "thapcam-d4755aae0c",
-          "name": "Burnley vs Aston Villa | 20:00 10/05",
+          "id": "thapcam-9a777d9f62",
+          "name": "Cremonese vs Pisa | 20:00 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2399,15 +2241,68 @@
           ],
           "sources": [
             {
-              "id": "src-d4755aae0c",
+              "id": "src-9a777d9f62",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-d4755aae0c",
-                  "name": "Burnley vs Aston Villa",
+                  "id": "ct-9a777d9f62",
+                  "name": "Cremonese vs Pisa",
                   "streams": [
                     {
-                      "id": "st-d4755aae0c",
+                      "id": "st-9a777d9f62",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Cremonese",
+            "team_b": "Pisa",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0b0e25267dabd15c405070329df5fbdb.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7ca5de14056c7290f6787e0943aa11ad.png",
+            "time": "20:00 10/05",
+            "blv": "BLV Người Băng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9a777d9f62_5ea617ca_20260509.png?v=5ea617ca",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-972b78d6f2",
+          "name": "Nottingham Forest vs Newcastle United | 20:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-972b78d6f2",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-972b78d6f2",
+                  "name": "Nottingham Forest vs Newcastle United",
+                  "streams": [
+                    {
+                      "id": "st-972b78d6f2",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -2418,12 +2313,12 @@
           ],
           "org_metadata": {
             "league": "English Premier League",
-            "team_a": "Burnley",
-            "team_b": "Aston Villa",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1091af5aa9fc4a30411785954edb9159.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c32d6a906083118cac2cb796edaab3.png",
+            "team_a": "Nottingham Forest",
+            "team_b": "Newcastle United",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/62572999d107f777efa4aeb907443527.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5dbe320855e3ba772dbce54f940c6fa5.png",
             "time": "20:00 10/05",
-            "blv": "BLV Người Nhện",
+            "blv": "BLV Cá Mập",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -2431,7 +2326,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d4755aae0c_a78624d2_20260509.png?v=a78624d2",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-972b78d6f2_38c53344_20260509.png?v=38c53344",
             "width": 1600,
             "height": 1200
           }
@@ -2490,8 +2385,8 @@
           }
         },
         {
-          "id": "thapcam-972b78d6f2",
-          "name": "Nottingham Forest vs Newcastle United | 20:00 10/05",
+          "id": "thapcam-d4755aae0c",
+          "name": "Burnley vs Aston Villa | 20:00 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2505,15 +2400,15 @@
           ],
           "sources": [
             {
-              "id": "src-972b78d6f2",
+              "id": "src-d4755aae0c",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-972b78d6f2",
-                  "name": "Nottingham Forest vs Newcastle United",
+                  "id": "ct-d4755aae0c",
+                  "name": "Burnley vs Aston Villa",
                   "streams": [
                     {
-                      "id": "st-972b78d6f2",
+                      "id": "st-d4755aae0c",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -2524,12 +2419,12 @@
           ],
           "org_metadata": {
             "league": "English Premier League",
-            "team_a": "Nottingham Forest",
-            "team_b": "Newcastle United",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/62572999d107f777efa4aeb907443527.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5dbe320855e3ba772dbce54f940c6fa5.png",
+            "team_a": "Burnley",
+            "team_b": "Aston Villa",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1091af5aa9fc4a30411785954edb9159.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c32d6a906083118cac2cb796edaab3.png",
             "time": "20:00 10/05",
-            "blv": "BLV Cá Mập",
+            "blv": "BLV Người Nhện",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -2537,7 +2432,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-972b78d6f2_38c53344_20260509.png?v=38c53344",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d4755aae0c_a78624d2_20260509.png?v=a78624d2",
             "width": 1600,
             "height": 1200
           }
@@ -2649,59 +2544,6 @@
           }
         },
         {
-          "id": "thapcam-45824f573d",
-          "name": "West Ham United vs Arsenal | 22:30 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-45824f573d",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-45824f573d",
-                  "name": "West Ham United vs Arsenal",
-                  "streams": [
-                    {
-                      "id": "st-45824f573d",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "West Ham United",
-            "team_b": "Arsenal",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d71ebda5c7fbca9093a1c2978c46f619.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d6f5debc456da1119256ab66462ab510.png",
-            "time": "22:30 10/05",
-            "blv": "BLV Người Rừng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-45824f573d_9755c1b1_20260509.png?v=9755c1b1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-951ed2fae2",
           "name": "FC Köln vs 1. FC Heidenheim 1846 | 22:30 10/05",
           "type": "single",
@@ -2750,6 +2592,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-951ed2fae2_0901d3af_20260509.png?v=0901d3af",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-45824f573d",
+          "name": "West Ham United vs Arsenal | 22:30 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-45824f573d",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-45824f573d",
+                  "name": "West Ham United vs Arsenal",
+                  "streams": [
+                    {
+                      "id": "st-45824f573d",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "West Ham United",
+            "team_b": "Arsenal",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d71ebda5c7fbca9093a1c2978c46f619.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d6f5debc456da1119256ab66462ab510.png",
+            "time": "22:30 10/05",
+            "blv": "BLV Người Rừng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-45824f573d_9755c1b1_20260509.png?v=9755c1b1",
             "width": 1600,
             "height": 1200
           }
