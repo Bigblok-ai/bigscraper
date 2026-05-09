@@ -11,14 +11,85 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
+          "id": "thapcam-c6832829cb",
+          "name": "Sevilla FC vs RCD Espanyol de Barcelona",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c6832829cb",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-c6832829cb",
+                  "name": "Sevilla FC vs RCD Espanyol de Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-c6832829cb",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ff07b87b10",
+                          "name": "BLV Siêu Quậy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69ff3901137e4_26/index.m3u8?expire=1778938753&sign=2d6b41013899749003f287d5c6b40405",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Sevilla FC",
+            "team_b": "RCD Espanyol de Barcelona",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d20ed1da4f299cc3ef0e1e9eb06eced1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/214049d4df11756a2eb21bbd8266e2a1.png",
+            "time": "",
+            "blv": "BLV Siêu Quậy",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c6832829cb_08d1e6bf_20260509.png?v=08d1e6bf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-de3b31ad49",
-          "name": "Lazio vs Inter Milan | 23:00 09/05",
+          "name": "Lazio vs Inter Milan",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,7 +144,7 @@
             "team_b": "Inter Milan",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5a2ff46efa33abc6b2908eb6279dfbf8.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aa2245702c40f77799a5ad4b119581a8.png",
-            "time": "23:00 09/05",
+            "time": "",
             "blv": "BLV Người Nhện",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -89,7 +160,7 @@
         },
         {
           "id": "thapcam-b2dd84decb",
-          "name": "China U17 vs Japan U17 | 23:00 09/05",
+          "name": "China U17 vs Japan U17",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -161,7 +232,7 @@
             "team_b": "Japan U17",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/56b46dcd3e801a496ca783ab0bd0f44d.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3c4d97fd12b32034eecb81ef51583b26.png",
-            "time": "23:00 09/05",
+            "time": "",
             "blv": "BLV Người Băng",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -171,148 +242,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b2dd84decb_2f673d19_20260509.png?v=2f673d19",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-2b0203c809",
-          "name": "Fulham vs Bournemouth AFC",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2b0203c809",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-2b0203c809",
-                  "name": "Fulham vs Bournemouth AFC",
-                  "streams": [
-                    {
-                      "id": "st-2b0203c809",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0d71fe432e",
-                          "name": "BLV Người Ngố",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff3a9751ddc_14/index.m3u8?expire=1778939159&sign=ff9bda23465af816a5bca14e1179190c",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Fulham",
-            "team_b": "Bournemouth AFC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/29982511f1ea861967c3e6478d6a8a68.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/240b30d333c97d293752ab7afd77ccd6.png",
-            "time": "",
-            "blv": "BLV Người Ngố",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2b0203c809_08a7a749_20260509.png?v=08a7a749",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-c6832829cb",
-          "name": "Sevilla FC vs RCD Espanyol de Barcelona",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c6832829cb",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-c6832829cb",
-                  "name": "Sevilla FC vs RCD Espanyol de Barcelona",
-                  "streams": [
-                    {
-                      "id": "st-c6832829cb",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ff07b87b10",
-                          "name": "BLV Siêu Quậy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff3901137e4_26/index.m3u8?expire=1778938753&sign=2d6b41013899749003f287d5c6b40405",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Sevilla FC",
-            "team_b": "RCD Espanyol de Barcelona",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d20ed1da4f299cc3ef0e1e9eb06eced1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/214049d4df11756a2eb21bbd8266e2a1.png",
-            "time": "",
-            "blv": "BLV Siêu Quậy",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c6832829cb_08d1e6bf_20260509.png?v=08d1e6bf",
             "width": 1600,
             "height": 1200
           }
@@ -2751,6 +2680,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-dafbb3ce9e_07dc5dd7_20260509.png?v=07dc5dd7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-afa85d2dd1",
+          "name": "Al-Riyadh vs Al Fateh SC | 23:05 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-afa85d2dd1",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-afa85d2dd1",
+                  "name": "Al-Riyadh vs Al Fateh SC",
+                  "streams": [
+                    {
+                      "id": "st-afa85d2dd1",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al-Riyadh",
+            "team_b": "Al Fateh SC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aa2d8e24a68822387257f31d692c4297.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/625f099ab7eeec5bde434ec68723fdff.png",
+            "time": "23:05 10/05",
+            "blv": "BLV Người Nhện",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-afa85d2dd1_2ce44cec_20260509.png?v=2ce44cec",
             "width": 1600,
             "height": 1200
           }
