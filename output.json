@@ -11,11 +11,82 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-d07d79d797",
+          "name": "Cerezo Osaka vs V-Varen Nagasaki | 14:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d07d79d797",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d07d79d797",
+                  "name": "Cerezo Osaka vs V-Varen Nagasaki",
+                  "streams": [
+                    {
+                      "id": "st-d07d79d797",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0a7a7c7047",
+                          "name": "BLV Người Cò",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fed69c51ddc_14559/index.m3u8?expire=1778913564&sign=241c9b907232a95c7040318f5343b058",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Cerezo Osaka",
+            "team_b": "V-Varen Nagasaki",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ab10ee503e539e55a9a11a9ff202405a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b28ace839956d8eacce11926ea5e43b3.png",
+            "time": "14:00 09/05",
+            "blv": "BLV Người Cò",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d07d79d797_ea3f7214_20260509.png?v=ea3f7214",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-0deaba9d57",
           "name": "Mito Hollyhock vs Urawa Red Diamonds",
@@ -154,59 +225,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-53b68f9bd9_4b66b98f_20260509.png?v=4b66b98f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-d07d79d797",
-          "name": "Cerezo Osaka vs V-Varen Nagasaki | 14:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d07d79d797",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d07d79d797",
-                  "name": "Cerezo Osaka vs V-Varen Nagasaki",
-                  "streams": [
-                    {
-                      "id": "st-d07d79d797",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Cerezo Osaka",
-            "team_b": "V-Varen Nagasaki",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ab10ee503e539e55a9a11a9ff202405a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b28ace839956d8eacce11926ea5e43b3.png",
-            "time": "14:00 09/05",
-            "blv": "BLV Người Cò",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d07d79d797_ea3f7214_20260509.png?v=ea3f7214",
             "width": 1600,
             "height": 1200
           }
@@ -2595,8 +2613,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-61a5df1c6d",
-          "name": "ĐÔ HUY HOÀNG vs JOHN ALMANZA | 20:00 09/05",
+          "id": "thapcam-0de06b0e89",
+          "name": "BAN VĂN HOÀNG vs Zhou Luo | 20:00 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2610,15 +2628,15 @@
           ],
           "sources": [
             {
-              "id": "src-61a5df1c6d",
+              "id": "src-0de06b0e89",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-61a5df1c6d",
-                  "name": "ĐÔ HUY HOÀNG vs JOHN ALMANZA",
+                  "id": "ct-0de06b0e89",
+                  "name": "BAN VĂN HOÀNG vs Zhou Luo",
                   "streams": [
                     {
-                      "id": "st-61a5df1c6d",
+                      "id": "st-0de06b0e89",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -2629,10 +2647,10 @@
           ],
           "org_metadata": {
             "league": "LION Championship 31",
-            "team_a": "ĐÔ HUY HOÀNG",
-            "team_b": "JOHN ALMANZA",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/224a4d37396a6f238fa0f3d3e026ba1c.jpg",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/9e49fcbca7d893804fe4ce51b7a32483.jpg",
+            "team_a": "BAN VĂN HOÀNG",
+            "team_b": "Zhou Luo",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/1c63e7b327ff2c2b0c51787e400c67b8.jpg",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/b95edbde9913693524357e154e08f06c.jpg",
             "time": "20:00 09/05",
             "blv": "Sóng Sạch 1",
             "is_live": false,
@@ -2642,7 +2660,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-61a5df1c6d_7d946925_20260509.png?v=7d946925",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0de06b0e89_cf5e3926_20260509.png?v=cf5e3926",
             "width": 1600,
             "height": 1200
           }
