@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,77 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f94af7fc48_f08fe2d1_20260509.png?v=f08fe2d1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-5aa55dfad9",
-          "name": "Daejeon Citizen vs Pohang Steelers",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5aa55dfad9",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-5aa55dfad9",
-                  "name": "Daejeon Citizen vs Pohang Steelers",
-                  "streams": [
-                    {
-                      "id": "st-5aa55dfad9",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6a185cf8fb",
-                          "name": "BLV Người Lạ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fef7ad51ddc_11241/index.m3u8?expire=1778922029&sign=2b6e2eeebd621054a263f290c36dc08d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Daejeon Citizen",
-            "team_b": "Pohang Steelers",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/090eeb1513e8f1d0cf6d8647d10b2eea.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6f05c460789939ac83282bd0686446f1.png",
-            "time": "",
-            "blv": "BLV Người Lạ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5aa55dfad9_e4f7a674_20260509.png?v=e4f7a674",
             "width": 1600,
             "height": 1200
           }
@@ -2610,6 +2539,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bcae00f02e_be246761_20260509.png?v=be246761",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-8bdd66de5f",
+          "name": "RCD Mallorca vs Villarreal CF | 19:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8bdd66de5f",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-8bdd66de5f",
+                  "name": "RCD Mallorca vs Villarreal CF",
+                  "streams": [
+                    {
+                      "id": "st-8bdd66de5f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "RCD Mallorca",
+            "team_b": "Villarreal CF",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fdef90456d2a2eee09976c558457aec7.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aee62af96a956756cc29fe4831286357.png",
+            "time": "19:00 10/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8bdd66de5f_330c4799_20260509.png?v=330c4799",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-51a85a9608",
+          "name": "Qingdao Hainiu FC vs Dalian Yingbo FC | 19:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-51a85a9608",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-51a85a9608",
+                  "name": "Qingdao Hainiu FC vs Dalian Yingbo FC",
+                  "streams": [
+                    {
+                      "id": "st-51a85a9608",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Football Super League",
+            "team_a": "Qingdao Hainiu FC",
+            "team_b": "Dalian Yingbo FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c1bc80f45a0bf86310ec6e56980c1757.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0e5467034917e26c6e60a7162711c150.png",
+            "time": "19:00 10/05",
+            "blv": "BLV Người Cò",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-51a85a9608_045ccda7_20260509.png?v=045ccda7",
             "width": 1600,
             "height": 1200
           }
