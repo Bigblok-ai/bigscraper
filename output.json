@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -296,94 +296,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bed5b4d211_6556eb21_20260509.png?v=6556eb21",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-45663d0e24",
-          "name": "Liverpool vs Chelsea",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-45663d0e24",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-45663d0e24",
-                  "name": "Liverpool vs Chelsea",
-                  "streams": [
-                    {
-                      "id": "st-45663d0e24",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8182acce8a",
-                          "name": "BLV Cá Mập",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff1072137e4_148/index.m3u8?expire=1778928370&sign=80ad97d18b0c6a58a7abdbf882d92436",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8cca5b0da2",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff12ce51ddc_154/index.m3u8?expire=1778928974&sign=c648330839f86fd9a8cc42a667dced31",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Liverpool",
-            "team_b": "Chelsea",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1cb3d08adac0e2dc1c4f10429d055bfe.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b365ad0e85e2b1bcbf63f7a0f2f70a79.png",
-            "time": "",
-            "blv": "BLV Cá Mập",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-45663d0e24_0f1cfb67_20260509.png?v=0f1cfb67",
             "width": 1600,
             "height": 1200
           }
@@ -2840,6 +2752,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-972b78d6f2_38c53344_20260509.png?v=38c53344",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-485f31c1f1",
+          "name": "Hamburger SV vs SC Freiburg | 20:30 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-485f31c1f1",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-485f31c1f1",
+                  "name": "Hamburger SV vs SC Freiburg",
+                  "streams": [
+                    {
+                      "id": "st-485f31c1f1",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Hamburger SV",
+            "team_b": "SC Freiburg",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/81f8f9e258e6b73bc522bab06730720a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6508946c9a5fe22a8784b905b25e8c79.png",
+            "time": "20:30 10/05",
+            "blv": "BLV Người Ngố",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-485f31c1f1_5c9dc1fb_20260509.png?v=5c9dc1fb",
             "width": 1600,
             "height": 1200
           }
