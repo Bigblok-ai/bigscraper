@@ -3001,6 +3001,112 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-59009eafec",
+          "name": "India U17 vs Uzbekistan U17 | 00:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-59009eafec",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-59009eafec",
+                  "name": "India U17 vs Uzbekistan U17",
+                  "streams": [
+                    {
+                      "id": "st-59009eafec",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "India U17",
+            "team_b": "Uzbekistan U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/603df20031dd4c1ff7c57750ade6f96d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9a351d67c7d778c962fcfd734a25913d.png",
+            "time": "00:00 11/05",
+            "blv": "BLV Jayce",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-59009eafec_12d1d4ad_20260510.png?v=12d1d4ad",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-9d32c68cda",
+          "name": "1. FSV Mainz 05 vs 1. FC Union Berlin | 00:30 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9d32c68cda",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-9d32c68cda",
+                  "name": "1. FSV Mainz 05 vs 1. FC Union Berlin",
+                  "streams": [
+                    {
+                      "id": "st-9d32c68cda",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "1. FSV Mainz 05",
+            "team_b": "1. FC Union Berlin",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/903089d338485f6c68fbc5da690a0628.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/45ab4c846b0d4df5b002c571b16112dc.png",
+            "time": "00:30 11/05",
+            "blv": "BLV Người Cỏ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9d32c68cda_25cea824_20260510.png?v=25cea824",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -3366,82 +3472,11 @@
     },
     {
       "id": "grp-776a2d64f8",
-      "name": "🏓 Bóng Bàn (1 LIVE)",
+      "name": "🏓 Bóng Bàn",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-44d43d3917",
-          "name": "Chinese Taipei vs Japan | 23:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-44d43d3917",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-44d43d3917",
-                  "name": "Chinese Taipei vs Japan",
-                  "streams": [
-                    {
-                      "id": "st-44d43d3917",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-61407de21d",
-                          "name": "BLV Người Cáo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff53b3137e4_790/index.m3u8?expire=1778945587&sign=4dfad041ab3ba8d7cb758a1554eeb848",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ITTF World Team Table Tennis Championships Finals London 2026",
-            "team_a": "Chinese Taipei",
-            "team_b": "Japan",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0be1fa6b11fb62e041a76dbfebe74ac0.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2272dc6d96fca4a7cd6f9f92e45e51ce.png",
-            "time": "23:00 09/05",
-            "blv": "BLV Người Cáo",
-            "is_live": true,
-            "cate_name": "Bóng bàn"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-44d43d3917_8a4f7439_20260510.png?v=8a4f7439",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-c71f62f8a5",
           "name": "China vs France | 01:30 10/05",
