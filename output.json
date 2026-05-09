@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (9 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,94 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3d828d41c7_c9a1209e_20260510.png?v=c9a1209e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-b2dd84decb",
-          "name": "China U17 vs Japan U17",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b2dd84decb",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-b2dd84decb",
-                  "name": "China U17 vs Japan U17",
-                  "streams": [
-                    {
-                      "id": "st-b2dd84decb",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4b1085d4d5",
-                          "name": "BLV Người Băng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff531451ddc_11/index.m3u8?expire=1778945428&sign=8e4cc44f6f72159fd055b9e600b824f1",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-52557b6cfc",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff5510137e4_19092/index.m3u8?expire=1778945936&sign=830ec9cc878bd7b8e243e1319badd5f4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "China U17",
-            "team_b": "Japan U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/56b46dcd3e801a496ca783ab0bd0f44d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3c4d97fd12b32034eecb81ef51583b26.png",
-            "time": "",
-            "blv": "BLV Người Băng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b2dd84decb_2f673d19_20260510.png?v=2f673d19",
             "width": 1600,
             "height": 1200
           }
@@ -3051,6 +2963,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9d32c68cda_25cea824_20260510.png?v=25cea824",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-6baa2bda55",
+          "name": "Al Ittihad Club vs Damac | 01:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6baa2bda55",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-6baa2bda55",
+                  "name": "Al Ittihad Club vs Damac",
+                  "streams": [
+                    {
+                      "id": "st-6baa2bda55",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al Ittihad Club",
+            "team_b": "Damac",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/dea986d20115216c05d1a45ba9a6162e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5f0fa2c7f5502f43700281d32ee636d2.png",
+            "time": "01:00 11/05",
+            "blv": "BLV Người Băng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6baa2bda55_c88368eb_20260510.png?v=c88368eb",
             "width": 1600,
             "height": 1200
           }
