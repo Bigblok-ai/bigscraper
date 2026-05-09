@@ -301,77 +301,6 @@
           }
         },
         {
-          "id": "thapcam-2b0203c809",
-          "name": "Fulham vs Bournemouth AFC",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2b0203c809",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-2b0203c809",
-                  "name": "Fulham vs Bournemouth AFC",
-                  "streams": [
-                    {
-                      "id": "st-2b0203c809",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0d71fe432e",
-                          "name": "BLV Người Ngố",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff3a9751ddc_14/index.m3u8?expire=1778939159&sign=ff9bda23465af816a5bca14e1179190c",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Fulham",
-            "team_b": "Bournemouth AFC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/29982511f1ea861967c3e6478d6a8a68.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/240b30d333c97d293752ab7afd77ccd6.png",
-            "time": "",
-            "blv": "BLV Người Ngố",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2b0203c809_08a7a749_20260509.png?v=08a7a749",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-390d5140e2",
           "name": "Brighton Hove Albion vs Wolverhampton Wanderers",
           "type": "single",
@@ -438,6 +367,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-390d5140e2_88817086_20260509.png?v=88817086",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-2b0203c809",
+          "name": "Fulham vs Bournemouth AFC",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2b0203c809",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-2b0203c809",
+                  "name": "Fulham vs Bournemouth AFC",
+                  "streams": [
+                    {
+                      "id": "st-2b0203c809",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0d71fe432e",
+                          "name": "BLV Người Ngố",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69ff3a9751ddc_14/index.m3u8?expire=1778939159&sign=ff9bda23465af816a5bca14e1179190c",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Fulham",
+            "team_b": "Bournemouth AFC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/29982511f1ea861967c3e6478d6a8a68.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/240b30d333c97d293752ab7afd77ccd6.png",
+            "time": "",
+            "blv": "BLV Người Ngố",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2b0203c809_08a7a749_20260509.png?v=08a7a749",
             "width": 1600,
             "height": 1200
           }
@@ -3024,82 +3024,11 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-fdf39a3120",
-          "name": "Tomas Martin Etcheverry vs Mattia Bellucci | 19:20 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fdf39a3120",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-fdf39a3120",
-                  "name": "Tomas Martin Etcheverry vs Mattia Bellucci",
-                  "streams": [
-                    {
-                      "id": "st-fdf39a3120",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7aebb87da1",
-                          "name": "BLV Người Hầu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff0c9b51ddc_9657/index.m3u8?expire=1778927387&sign=a8a76e45ea6cc559e832d0641c2417e6",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Tomas Martin Etcheverry",
-            "team_b": "Mattia Bellucci",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/551bebb7859d790bfb65a5a412c5efcd.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7050cf38907e575ecc1512260df4e7fc.png",
-            "time": "19:20 09/05",
-            "blv": "BLV Người Hầu",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-fdf39a3120_b4d8efd7_20260509.png?v=b4d8efd7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-7d5de54282",
           "name": "Flavio Cobolli vs Terence Atmane | 21:00 09/05",
