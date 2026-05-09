@@ -1893,82 +1893,11 @@
     },
     {
       "id": "grp-d721cd64dc",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-9a30f00065",
-          "name": "Philadelphia 76ers vs New York Knicks | 06:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9a30f00065",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9a30f00065",
-                  "name": "Philadelphia 76ers vs New York Knicks",
-                  "streams": [
-                    {
-                      "id": "st-9a30f00065",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a07cfebe78",
-                          "name": "BLV Người Hầu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fe67c451ddc_9657/index.m3u8?expire=1778885188&sign=0f2199c798258b1b53d84727dfd085e9",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Philadelphia 76ers",
-            "team_b": "New York Knicks",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/06e7bde6cca98873fe971fad4e67a9b6.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/49f8b0ef2ed529b44dba6ebb99a0d5ff.png",
-            "time": "06:00 09/05",
-            "blv": "BLV Người Hầu",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9a30f00065_5c6205a3_20260509.png?v=5c6205a3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-1b12da4d89",
           "name": "Minnesota Timberwolves vs San Antonio Spurs | 08:30 09/05",
@@ -2056,7 +1985,273 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "thapcam-f8a59c4053",
+          "name": "Andrey Rublev vs Miomir Kecmanovic | 16:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f8a59c4053",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f8a59c4053",
+                  "name": "Andrey Rublev vs Miomir Kecmanovic",
+                  "streams": [
+                    {
+                      "id": "st-f8a59c4053",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Rome, Italy Men Singles",
+            "team_a": "Andrey Rublev",
+            "team_b": "Miomir Kecmanovic",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/07acc0b56b6a296cd89a70e5952f025b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b05bfff08f0853a9a0eca076c6ae9650.png",
+            "time": "16:00 09/05",
+            "blv": "BLV Người Hầu",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f8a59c4053_86d1f97f_20260509.png?v=86d1f97f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-fecb3a8c5c",
+          "name": "Tomas Martin Etcheverry vs Mattia Bellucci | 17:10 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fecb3a8c5c",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-fecb3a8c5c",
+                  "name": "Tomas Martin Etcheverry vs Mattia Bellucci",
+                  "streams": [
+                    {
+                      "id": "st-fecb3a8c5c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Rome, Italy Men Singles",
+            "team_a": "Tomas Martin Etcheverry",
+            "team_b": "Mattia Bellucci",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/551bebb7859d790bfb65a5a412c5efcd.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7050cf38907e575ecc1512260df4e7fc.png",
+            "time": "17:10 09/05",
+            "blv": "BLV Người Hầu",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-fecb3a8c5c_e215f3ab_20260509.png?v=e215f3ab",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-40fa5d33f6",
+          "name": "Nikoloz Basilashvili vs Ben Shelton | 18:20 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-40fa5d33f6",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-40fa5d33f6",
+                  "name": "Nikoloz Basilashvili vs Ben Shelton",
+                  "streams": [
+                    {
+                      "id": "st-40fa5d33f6",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Rome, Italy Men Singles",
+            "team_a": "Nikoloz Basilashvili",
+            "team_b": "Ben Shelton",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/452cb78d874a5c2244c43141abb67724.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c66bf663ed13a8a01fef6e1ec452f786.png",
+            "time": "18:20 09/05",
+            "blv": "BLV Người Hầu",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-40fa5d33f6_ddbc5b54_20260509.png?v=ddbc5b54",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-d074ab8606",
+          "name": "Alexei Popyrin vs Jakub Mensik | 20:40 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d074ab8606",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d074ab8606",
+                  "name": "Alexei Popyrin vs Jakub Mensik",
+                  "streams": [
+                    {
+                      "id": "st-d074ab8606",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Rome, Italy Men Singles",
+            "team_a": "Alexei Popyrin",
+            "team_b": "Jakub Mensik",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ff7126c702dacb0624f223c0bc0d66ad.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7860bd1cc0b69275e51f2bf5f8a2177d.png",
+            "time": "20:40 09/05",
+            "blv": "BLV Người Hầu",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d074ab8606_c0992bdd_20260509.png?v=c0992bdd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-dc759bb00c",
+          "name": "Jannik Sinner vs Sebastian Ofner | 00:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dc759bb00c",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-dc759bb00c",
+                  "name": "Jannik Sinner vs Sebastian Ofner",
+                  "streams": [
+                    {
+                      "id": "st-dc759bb00c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Rome, Italy Men Singles",
+            "team_a": "Jannik Sinner",
+            "team_b": "Sebastian Ofner",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/29bec7a5222eeb9e4851ab9d465b55cb.png",
+            "time": "00:00 10/05",
+            "blv": "BLV Người Sói",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-dc759bb00c_bbd60c11_20260509.png?v=bbd60c11",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-9102198393",
