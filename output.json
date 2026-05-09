@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-9172694104",
-          "name": "Toronto FC vs Inter Miami CF | 00:10 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9172694104",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9172694104",
-                  "name": "Toronto FC vs Inter Miami CF",
-                  "streams": [
-                    {
-                      "id": "st-9172694104",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e77c968842",
-                          "name": "BLV Jayce",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff6039137e4_181/index.m3u8?expire=1778948793&sign=29f4ec808485d72036e96ab32c54a515",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United States Major League Soccer",
-            "team_a": "Toronto FC",
-            "team_b": "Inter Miami CF",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a6f6290d4b7699729dc19349484841bf.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/976fe1d29c112f4baeb844cdda2f04cb.png",
-            "time": "00:10 10/05",
-            "blv": "BLV Jayce",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9172694104_18df1865_20260510.png?v=18df1865",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-be2bcadef7",
           "name": "Myanmar U17 vs Tajikistan U17 | 00:30 10/05",
