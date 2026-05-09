@@ -88,77 +88,6 @@
           }
         },
         {
-          "id": "thapcam-de3b31ad49",
-          "name": "Lazio vs Inter Milan",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-de3b31ad49",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-de3b31ad49",
-                  "name": "Lazio vs Inter Milan",
-                  "streams": [
-                    {
-                      "id": "st-de3b31ad49",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf996b7854",
-                          "name": "BLV Người Nhện",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff58f1137e4_32/index.m3u8?expire=1778946929&sign=0dc9ea5b5f02dcce646e76772c93901b",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Lazio",
-            "team_b": "Inter Milan",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5a2ff46efa33abc6b2908eb6279dfbf8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aa2245702c40f77799a5ad4b119581a8.png",
-            "time": "",
-            "blv": "BLV Người Nhện",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-de3b31ad49_a8c870bc_20260509.png?v=a8c870bc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-b2dd84decb",
           "name": "China U17 vs Japan U17",
           "type": "single",
@@ -242,6 +171,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b2dd84decb_2f673d19_20260509.png?v=2f673d19",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-de3b31ad49",
+          "name": "Lazio vs Inter Milan",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-de3b31ad49",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-de3b31ad49",
+                  "name": "Lazio vs Inter Milan",
+                  "streams": [
+                    {
+                      "id": "st-de3b31ad49",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf996b7854",
+                          "name": "BLV Người Nhện",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69ff58f1137e4_32/index.m3u8?expire=1778946929&sign=0dc9ea5b5f02dcce646e76772c93901b",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Lazio",
+            "team_b": "Inter Milan",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5a2ff46efa33abc6b2908eb6279dfbf8.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aa2245702c40f77799a5ad4b119581a8.png",
+            "time": "",
+            "blv": "BLV Người Nhện",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-de3b31ad49_a8c870bc_20260509.png?v=a8c870bc",
             "width": 1600,
             "height": 1200
           }
@@ -2102,8 +2102,8 @@
           }
         },
         {
-          "id": "thapcam-9a777d9f62",
-          "name": "Cremonese vs Pisa | 20:00 10/05",
+          "id": "thapcam-537896fadf",
+          "name": "Crystal Palace vs Everton | 20:00 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2117,15 +2117,15 @@
           ],
           "sources": [
             {
-              "id": "src-9a777d9f62",
+              "id": "src-537896fadf",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-9a777d9f62",
-                  "name": "Cremonese vs Pisa",
+                  "id": "ct-537896fadf",
+                  "name": "Crystal Palace vs Everton",
                   "streams": [
                     {
-                      "id": "st-9a777d9f62",
+                      "id": "st-537896fadf",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -2135,13 +2135,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Cremonese",
-            "team_b": "Pisa",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0b0e25267dabd15c405070329df5fbdb.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7ca5de14056c7290f6787e0943aa11ad.png",
+            "league": "English Premier League",
+            "team_a": "Crystal Palace",
+            "team_b": "Everton",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/42396d18444156e640c37476c2b41b93.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9592d1e0be6375b9e6c5ef169b7aa864.png",
             "time": "20:00 10/05",
-            "blv": "BLV Người Băng",
+            "blv": "BLV Lềnh",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -2149,60 +2149,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9a777d9f62_5ea617ca_20260509.png?v=5ea617ca",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-33b6adc027",
-          "name": "Fiorentina vs Genoa | 20:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-33b6adc027",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-33b6adc027",
-                  "name": "Fiorentina vs Genoa",
-                  "streams": [
-                    {
-                      "id": "st-33b6adc027",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Fiorentina",
-            "team_b": "Genoa",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/858d87ded0cce014bae0c9681af48524.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/51474fb68c7da46b9c20ebddccec7766.png",
-            "time": "20:00 10/05",
-            "blv": "BLV Người Cò",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-33b6adc027_a57223fe_20260509.png?v=a57223fe",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-537896fadf_964c2af0_20260509.png?v=964c2af0",
             "width": 1600,
             "height": 1200
           }
@@ -2261,59 +2208,6 @@
           }
         },
         {
-          "id": "thapcam-537896fadf",
-          "name": "Crystal Palace vs Everton | 20:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-537896fadf",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-537896fadf",
-                  "name": "Crystal Palace vs Everton",
-                  "streams": [
-                    {
-                      "id": "st-537896fadf",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Crystal Palace",
-            "team_b": "Everton",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/42396d18444156e640c37476c2b41b93.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9592d1e0be6375b9e6c5ef169b7aa864.png",
-            "time": "20:00 10/05",
-            "blv": "BLV Lềnh",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-537896fadf_964c2af0_20260509.png?v=964c2af0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-972b78d6f2",
           "name": "Nottingham Forest vs Newcastle United | 20:00 10/05",
           "type": "single",
@@ -2362,6 +2256,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-972b78d6f2_38c53344_20260509.png?v=38c53344",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-33b6adc027",
+          "name": "Fiorentina vs Genoa | 20:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-33b6adc027",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-33b6adc027",
+                  "name": "Fiorentina vs Genoa",
+                  "streams": [
+                    {
+                      "id": "st-33b6adc027",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Fiorentina",
+            "team_b": "Genoa",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/858d87ded0cce014bae0c9681af48524.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/51474fb68c7da46b9c20ebddccec7766.png",
+            "time": "20:00 10/05",
+            "blv": "BLV Người Cò",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-33b6adc027_a57223fe_20260509.png?v=a57223fe",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-9a777d9f62",
+          "name": "Cremonese vs Pisa | 20:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9a777d9f62",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-9a777d9f62",
+                  "name": "Cremonese vs Pisa",
+                  "streams": [
+                    {
+                      "id": "st-9a777d9f62",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Cremonese",
+            "team_b": "Pisa",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0b0e25267dabd15c405070329df5fbdb.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7ca5de14056c7290f6787e0943aa11ad.png",
+            "time": "20:00 10/05",
+            "blv": "BLV Người Băng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9a777d9f62_5ea617ca_20260509.png?v=5ea617ca",
             "width": 1600,
             "height": 1200
           }
@@ -2473,59 +2473,6 @@
           }
         },
         {
-          "id": "thapcam-45824f573d",
-          "name": "West Ham United vs Arsenal | 22:30 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-45824f573d",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-45824f573d",
-                  "name": "West Ham United vs Arsenal",
-                  "streams": [
-                    {
-                      "id": "st-45824f573d",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "West Ham United",
-            "team_b": "Arsenal",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d71ebda5c7fbca9093a1c2978c46f619.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d6f5debc456da1119256ab66462ab510.png",
-            "time": "22:30 10/05",
-            "blv": "BLV Người Rừng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-45824f573d_9755c1b1_20260509.png?v=9755c1b1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-951ed2fae2",
           "name": "FC Köln vs 1. FC Heidenheim 1846 | 22:30 10/05",
           "type": "single",
@@ -2579,8 +2526,8 @@
           }
         },
         {
-          "id": "thapcam-50297ee9d7",
-          "name": "Parma vs AS Roma | 23:00 10/05",
+          "id": "thapcam-45824f573d",
+          "name": "West Ham United vs Arsenal | 22:30 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2594,15 +2541,15 @@
           ],
           "sources": [
             {
-              "id": "src-50297ee9d7",
+              "id": "src-45824f573d",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-50297ee9d7",
-                  "name": "Parma vs AS Roma",
+                  "id": "ct-45824f573d",
+                  "name": "West Ham United vs Arsenal",
                   "streams": [
                     {
-                      "id": "st-50297ee9d7",
+                      "id": "st-45824f573d",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -2612,13 +2559,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Parma",
-            "team_b": "AS Roma",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9fadd87d190982c8082dddf1567e0b9b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7a192686d30c1ad031d2fb605eaf2f2a.png",
-            "time": "23:00 10/05",
-            "blv": "BLV Tôn Quyền",
+            "league": "English Premier League",
+            "team_a": "West Ham United",
+            "team_b": "Arsenal",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d71ebda5c7fbca9093a1c2978c46f619.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d6f5debc456da1119256ab66462ab510.png",
+            "time": "22:30 10/05",
+            "blv": "BLV Người Rừng",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -2626,7 +2573,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-50297ee9d7_c14f0a2b_20260509.png?v=c14f0a2b",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-45824f573d_9755c1b1_20260509.png?v=9755c1b1",
             "width": 1600,
             "height": 1200
           }
@@ -2680,6 +2627,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-dafbb3ce9e_07dc5dd7_20260509.png?v=07dc5dd7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-50297ee9d7",
+          "name": "Parma vs AS Roma | 23:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-50297ee9d7",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-50297ee9d7",
+                  "name": "Parma vs AS Roma",
+                  "streams": [
+                    {
+                      "id": "st-50297ee9d7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Parma",
+            "team_b": "AS Roma",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9fadd87d190982c8082dddf1567e0b9b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7a192686d30c1ad031d2fb605eaf2f2a.png",
+            "time": "23:00 10/05",
+            "blv": "BLV Tôn Quyền",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-50297ee9d7_c14f0a2b_20260509.png?v=c14f0a2b",
             "width": 1600,
             "height": 1200
           }
