@@ -2899,83 +2899,11 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "thapcam-a6153e58d3",
-          "name": "Alexei Popyrin vs Jakub Mensik | 02:50 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a6153e58d3",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-a6153e58d3",
-                  "name": "Alexei Popyrin vs Jakub Mensik",
-                  "streams": [
-                    {
-                      "id": "st-a6153e58d3",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b0cd1800ae",
-                          "name": "BLV Người Hầu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff7525137e4_9657/index.m3u8?expire=1778954149&sign=aac39de5d7e0bb1cea6d2e3e6fc32671",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Alexei Popyrin",
-            "team_b": "Jakub Mensik",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ff7126c702dacb0624f223c0bc0d66ad.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7860bd1cc0b69275e51f2bf5f8a2177d.png",
-            "time": "02:50 10/05",
-            "blv": "BLV Người Hầu",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a6153e58d3_dfe877ae_20260510.png?v=dfe877ae",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-9102198393",
