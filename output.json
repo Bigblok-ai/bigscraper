@@ -17,77 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-ce6e4ebed2",
-          "name": "Sevilla FC vs RCD Espanyol de Barcelona | 21:15 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ce6e4ebed2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-ce6e4ebed2",
-                  "name": "Sevilla FC vs RCD Espanyol de Barcelona",
-                  "streams": [
-                    {
-                      "id": "st-ce6e4ebed2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ff07b87b10",
-                          "name": "BLV Siêu Quậy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff3901137e4_26/index.m3u8?expire=1778938753&sign=2d6b41013899749003f287d5c6b40405",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Sevilla FC",
-            "team_b": "RCD Espanyol de Barcelona",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d20ed1da4f299cc3ef0e1e9eb06eced1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/214049d4df11756a2eb21bbd8266e2a1.png",
-            "time": "21:15 09/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ce6e4ebed2_08d1e6bf_20260509.png?v=08d1e6bf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-171f06b0ff",
           "name": "FC Augsburg vs Borussia Monchengladbach",
           "type": "single",
@@ -614,6 +543,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d2e7bce8ee_87d1073c_20260509.png?v=87d1073c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-ce6e4ebed2",
+          "name": "Sevilla FC vs RCD Espanyol de Barcelona",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ce6e4ebed2",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-ce6e4ebed2",
+                  "name": "Sevilla FC vs RCD Espanyol de Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-ce6e4ebed2",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ff07b87b10",
+                          "name": "BLV Siêu Quậy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69ff3901137e4_26/index.m3u8?expire=1778938753&sign=2d6b41013899749003f287d5c6b40405",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Sevilla FC",
+            "team_b": "RCD Espanyol de Barcelona",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d20ed1da4f299cc3ef0e1e9eb06eced1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/214049d4df11756a2eb21bbd8266e2a1.png",
+            "time": "",
+            "blv": "BLV Siêu Quậy",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ce6e4ebed2_08d1e6bf_20260509.png?v=08d1e6bf",
             "width": 1600,
             "height": 1200
           }
