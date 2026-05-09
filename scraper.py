@@ -8,6 +8,7 @@ import os
 from datetime import datetime, timezone, timedelta
 from PIL import Image, ImageDraw, ImageFont
 from io import BytesIO
+import unicodedata
 
 # ─────────────────────────────────────────────────────────────────────────────
 # TIMEZONE & IS_LIVE
@@ -78,7 +79,7 @@ HEADERS = {
 BASE_URL      = "https://thapcam24h.net"
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
-THUMB_VERSION = "v2"  # Đã tăng version để tự động cập nhật thumbnail mới
+THUMB_VERSION = "v3"  # Nâng version để ép regenerate thumbnail
 
 CATE_MAP = {
     "Bóng đá":     "⚽ Bóng Đá",
@@ -162,6 +163,11 @@ def is_within_range(match_time: str, cate_name: str = "Bóng đá") -> bool:
     lower = now - timedelta(hours=6)
     upper = now + timedelta(hours=24)
     return lower <= kickoff <= upper
+
+
+def remove_diacritics(text):
+    """Bỏ dấu tiếng Việt để so sánh (VD: Võ Thuật -> Vo Thuat)."""
+    return unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('ascii')
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -399,26 +405,32 @@ def get_matches():
                     if logo_tag:
                         logo_a = logo_tag.get("src", "")
 
-                # FIX: Nếu web chỉ trả về tên Category chung chung, fallback lấy tên giải từ URL
-                if team_a == cate_name and not team_b:
-                    parts = href.strip("/").split("/")
-                    if len(parts) >= 3:
-                        slug = parts[2]  # VD: 'ufc-328-0400-10-05-2026'
-                        # Tách phần text trước chuỗi thời gian
-                        slug_match = re.match(r"^(.*?)-\d{4}-\d{2}-\d{2}-\d{4}$", slug)
-                        if slug_match:
-                            event_from_slug = slug_match.group(1).replace("-", " ").title()
-                            if event_from_slug:
-                                if not league:
-                                    league = event_from_slug  # Gán tên giải để vẽ Header thumbnail
-                                team_a = event_from_slug      # Gán tên giải thay vì chữ "Võ Thuật"
-
             # ── League ────────────────────────────────────────────────────
             league_tag = card.select_one("div.grid-match__league")
             league     = ""
             if league_tag:
                 # Lấy text, bỏ qua img alt
                 league = league_tag.get_text(strip=True)
+
+            # ── FIX: Fallback từ URL nếu web chỉ trả tên Category (VD: UFC 328) ──
+            if team_a == cate_name and not team_b and not league:
+                parts = href.strip("/").split("/")
+                if len(parts) >= 2:
+                    # Lấy phần slug (ví dụ: ufc-328-0400-10-05-2026)
+                    slug = parts[-2] if len(parts) >= 3 and parts[-1].isdigit() else parts[-1]
+                    
+                    # Bỏ phần ngày giờ dạng -0400-10-05-2026 hoặc -10-05-2026 ở cuối
+                    clean_slug = re.sub(r"(?:-\d{2,4}){2,4}$", "", slug)
+                    if not clean_slug or clean_slug.isdigit():
+                        clean_slug = slug  # Fallback nếu xóa hết
+                    
+                    # Nếu clean_slug có giá trị và khác với tên category (vo-thuat)
+                    cate_slug = remove_diacritics(cate_name).lower().replace(" ", "-")
+                    if clean_slug and clean_slug.lower() != cate_slug:
+                        event_from_slug = clean_slug.replace("-", " ").title()
+                        if event_from_slug:
+                            league = event_from_slug
+                            team_a = event_from_slug
 
             # Bỏ giải châu Mỹ (chỉ bóng đá)
             if cate_name == "Bóng đá" and is_excluded_league(league):
