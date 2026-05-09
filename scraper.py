@@ -78,7 +78,7 @@ HEADERS = {
 BASE_URL      = "https://thapcam24h.net"
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
-THUMB_VERSION = "v1"
+THUMB_VERSION = "v2"  # Đã tăng version để tự động cập nhật thumbnail mới
 
 CATE_MAP = {
     "Bóng đá":     "⚽ Bóng Đá",
@@ -336,7 +336,6 @@ def cleanup_old_thumbs(days: int = 3):
         print(f"Da xoa {removed} thumbnail cu (>{days} ngay)")
 
 
-
 # ─────────────────────────────────────────────────────────────────────────────
 # SCRAPE MATCHES
 # ─────────────────────────────────────────────────────────────────────────────
@@ -399,6 +398,20 @@ def get_matches():
                     logo_tag = card.select_one("div.gname-first__item img.team__logo")
                     if logo_tag:
                         logo_a = logo_tag.get("src", "")
+
+                # FIX: Nếu web chỉ trả về tên Category chung chung, fallback lấy tên giải từ URL
+                if team_a == cate_name and not team_b:
+                    parts = href.strip("/").split("/")
+                    if len(parts) >= 3:
+                        slug = parts[2]  # VD: 'ufc-328-0400-10-05-2026'
+                        # Tách phần text trước chuỗi thời gian
+                        slug_match = re.match(r"^(.*?)-\d{4}-\d{2}-\d{2}-\d{4}$", slug)
+                        if slug_match:
+                            event_from_slug = slug_match.group(1).replace("-", " ").title()
+                            if event_from_slug:
+                                if not league:
+                                    league = event_from_slug  # Gán tên giải để vẽ Header thumbnail
+                                team_a = event_from_slug      # Gán tên giải thay vì chữ "Võ Thuật"
 
             # ── League ────────────────────────────────────────────────────
             league_tag = card.select_one("div.grid-match__league")
