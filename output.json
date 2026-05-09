@@ -301,77 +301,6 @@
           }
         },
         {
-          "id": "thapcam-390d5140e2",
-          "name": "Brighton Hove Albion vs Wolverhampton Wanderers",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-390d5140e2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-390d5140e2",
-                  "name": "Brighton Hove Albion vs Wolverhampton Wanderers",
-                  "streams": [
-                    {
-                      "id": "st-390d5140e2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-32e24b37eb",
-                          "name": "BLV Lềnh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff3290137e4_1549/index.m3u8?expire=1778937104&sign=c3115071ce2318723a724f99d292a80e",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Brighton Hove Albion",
-            "team_b": "Wolverhampton Wanderers",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9b43a690d5a09f1e319f036821e8e1d3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5759932ca2512c6701d86dfbd58380a7.png",
-            "time": "",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-390d5140e2_88817086_20260509.png?v=88817086",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-2b0203c809",
           "name": "Fulham vs Bournemouth AFC",
           "type": "single",
@@ -438,6 +367,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2b0203c809_08a7a749_20260509.png?v=08a7a749",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-390d5140e2",
+          "name": "Brighton Hove Albion vs Wolverhampton Wanderers",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-390d5140e2",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-390d5140e2",
+                  "name": "Brighton Hove Albion vs Wolverhampton Wanderers",
+                  "streams": [
+                    {
+                      "id": "st-390d5140e2",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-32e24b37eb",
+                          "name": "BLV Lềnh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69ff3290137e4_1549/index.m3u8?expire=1778937104&sign=c3115071ce2318723a724f99d292a80e",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Brighton Hove Albion",
+            "team_b": "Wolverhampton Wanderers",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9b43a690d5a09f1e319f036821e8e1d3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5759932ca2512c6701d86dfbd58380a7.png",
+            "time": "",
+            "blv": "BLV Lềnh",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-390d5140e2_88817086_20260509.png?v=88817086",
             "width": 1600,
             "height": 1200
           }
@@ -548,7 +548,7 @@
           }
         },
         {
-          "id": "thapcam-ce6e4ebed2",
+          "id": "thapcam-c6832829cb",
           "name": "Sevilla FC vs RCD Espanyol de Barcelona",
           "type": "single",
           "display": "thumbnail-only",
@@ -563,15 +563,15 @@
           ],
           "sources": [
             {
-              "id": "src-ce6e4ebed2",
+              "id": "src-c6832829cb",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-ce6e4ebed2",
+                  "id": "ct-c6832829cb",
                   "name": "Sevilla FC vs RCD Espanyol de Barcelona",
                   "streams": [
                     {
-                      "id": "st-ce6e4ebed2",
+                      "id": "st-c6832829cb",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -613,7 +613,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ce6e4ebed2_08d1e6bf_20260509.png?v=08d1e6bf",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c6832829cb_08d1e6bf_20260509.png?v=08d1e6bf",
             "width": 1600,
             "height": 1200
           }
