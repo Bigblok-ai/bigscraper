@@ -2552,8 +2552,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-b2e18a9c21",
-          "name": "Tomas Martin Etcheverry vs Mattia Bellucci | 18:10 09/05",
+          "id": "thapcam-730e66f86d",
+          "name": "Tomas Martin Etcheverry vs Mattia Bellucci | 18:20 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2567,15 +2567,15 @@
           ],
           "sources": [
             {
-              "id": "src-b2e18a9c21",
+              "id": "src-730e66f86d",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-b2e18a9c21",
+                  "id": "ct-730e66f86d",
                   "name": "Tomas Martin Etcheverry vs Mattia Bellucci",
                   "streams": [
                     {
-                      "id": "st-b2e18a9c21",
+                      "id": "st-730e66f86d",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -2608,7 +2608,7 @@
             "team_b": "Mattia Bellucci",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/551bebb7859d790bfb65a5a412c5efcd.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7050cf38907e575ecc1512260df4e7fc.png",
-            "time": "18:10 09/05",
+            "time": "18:20 09/05",
             "blv": "BLV Người Hầu",
             "is_live": true,
             "cate_name": "Tennis"
@@ -2617,14 +2617,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b2e18a9c21_b4d8efd7_20260509.png?v=b4d8efd7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-730e66f86d_b4d8efd7_20260509.png?v=b4d8efd7",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "thapcam-d074ab8606",
-          "name": "Alexei Popyrin vs Jakub Mensik | 20:40 09/05",
+          "id": "thapcam-0bde7941bf",
+          "name": "Nikoloz Basilashvili vs Ben Shelton | 19:40 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2638,15 +2638,68 @@
           ],
           "sources": [
             {
-              "id": "src-d074ab8606",
+              "id": "src-0bde7941bf",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-d074ab8606",
+                  "id": "ct-0bde7941bf",
+                  "name": "Nikoloz Basilashvili vs Ben Shelton",
+                  "streams": [
+                    {
+                      "id": "st-0bde7941bf",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Rome, Italy Men Singles",
+            "team_a": "Nikoloz Basilashvili",
+            "team_b": "Ben Shelton",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/452cb78d874a5c2244c43141abb67724.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c66bf663ed13a8a01fef6e1ec452f786.png",
+            "time": "19:40 09/05",
+            "blv": "BLV Người Hầu",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0bde7941bf_f57ebba0_20260509.png?v=f57ebba0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-7c79f3fb2f",
+          "name": "Alexei Popyrin vs Jakub Mensik | 22:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7c79f3fb2f",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-7c79f3fb2f",
                   "name": "Alexei Popyrin vs Jakub Mensik",
                   "streams": [
                     {
-                      "id": "st-d074ab8606",
+                      "id": "st-7c79f3fb2f",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -2661,7 +2714,7 @@
             "team_b": "Jakub Mensik",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ff7126c702dacb0624f223c0bc0d66ad.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7860bd1cc0b69275e51f2bf5f8a2177d.png",
-            "time": "20:40 09/05",
+            "time": "22:00 09/05",
             "blv": "BLV Người Hầu",
             "is_live": false,
             "cate_name": "Tennis"
@@ -2670,7 +2723,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d074ab8606_a5fb2dde_20260509.png?v=a5fb2dde",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7c79f3fb2f_a5fb2dde_20260509.png?v=a5fb2dde",
             "width": 1600,
             "height": 1200
           }
@@ -2871,82 +2924,11 @@
     },
     {
       "id": "grp-776a2d64f8",
-      "name": "🏓 Bóng Bàn (1 LIVE)",
+      "name": "🏓 Bóng Bàn",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-f26049d4cd",
-          "name": "Germany vs Japan | 16:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f26049d4cd",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f26049d4cd",
-                  "name": "Germany vs Japan",
-                  "streams": [
-                    {
-                      "id": "st-f26049d4cd",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5aacd38be8",
-                          "name": "BLV Người Sói",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69fef34b137e4_742/index.m3u8?expire=1778920907&sign=4915f2c0e345b8ec0d258c9545a27b3f",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ITTF World Team Table Tennis Championships Finals London 2026",
-            "team_a": "Germany",
-            "team_b": "Japan",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/3f1891a7d5288eb855bd9b545486e72e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2272dc6d96fca4a7cd6f9f92e45e51ce.png",
-            "time": "16:00 09/05",
-            "blv": "BLV Người Sói",
-            "is_live": true,
-            "cate_name": "Bóng bàn"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f26049d4cd_f509f6c3_20260509.png?v=f509f6c3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-ef6c5e5d9f",
           "name": "China vs Romania | 18:30 09/05",
