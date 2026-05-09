@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-118a954d17",
-          "name": "Real Sociedad vs Real Betis | 02:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-118a954d17",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-118a954d17",
-                  "name": "Real Sociedad vs Real Betis",
-                  "streams": [
-                    {
-                      "id": "st-118a954d17",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dc752de698",
-                          "name": "BLV Lềnh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff7c2e137e4_1549/index.m3u8?expire=1778955950&sign=630e33ed3c7d7053d764e6f57dfbe0ff",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Real Sociedad",
-            "team_b": "Real Betis",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/579db6e95905545973035e6eab8df2cd.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/018e260ad68bdad741c61e3171c4c608.png",
-            "time": "02:00 10/05",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-118a954d17_eed12f74_20260510.png?v=eed12f74",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-b8a3f16cc8",
           "name": "Atlanta United vs Los Angeles Galaxy | 06:30 10/05",
