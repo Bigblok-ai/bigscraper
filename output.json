@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-178c1b02bf",
-          "name": "Lecce vs Juventus | 01:45 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-178c1b02bf",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-178c1b02bf",
-                  "name": "Lecce vs Juventus",
-                  "streams": [
-                    {
-                      "id": "st-178c1b02bf",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d87ad6557a",
-                          "name": "BLV Người Rừng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff79f2137e4_148/index.m3u8?expire=1778955378&sign=271724f78f87e80433e337561ec0cfdc",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Lecce",
-            "team_b": "Juventus",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/777d0840066313da8c0f85977e9178be.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/314ca8463a6fd047b11d474287b24c50.png",
-            "time": "01:45 10/05",
-            "blv": "BLV Người Rừng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-178c1b02bf_9dac22ab_20260510.png?v=9dac22ab",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-118a954d17",
           "name": "Real Sociedad vs Real Betis | 02:00 10/05",
