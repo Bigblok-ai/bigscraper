@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -352,8 +352,8 @@
           }
         },
         {
-          "id": "thapcam-c6832829cb",
-          "name": "Sevilla FC vs RCD Espanyol de Barcelona",
+          "id": "thapcam-c4a74dcd2b",
+          "name": "Toronto FC vs Inter Miami CF | 00:00 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -367,23 +367,23 @@
           ],
           "sources": [
             {
-              "id": "src-c6832829cb",
+              "id": "src-c4a74dcd2b",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-c6832829cb",
-                  "name": "Sevilla FC vs RCD Espanyol de Barcelona",
+                  "id": "ct-c4a74dcd2b",
+                  "name": "Toronto FC vs Inter Miami CF",
                   "streams": [
                     {
-                      "id": "st-c6832829cb",
+                      "id": "st-c4a74dcd2b",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-ff07b87b10",
-                          "name": "BLV Siêu Quậy",
+                          "id": "lnk-e77c968842",
+                          "name": "BLV Jayce",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff3901137e4_26/index.m3u8?expire=1778938753&sign=2d6b41013899749003f287d5c6b40405",
+                          "url": "https://cdn-hls.phogatv8.com/live/69ff6039137e4_181/index.m3u8?expire=1778948793&sign=29f4ec808485d72036e96ab32c54a515",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -403,12 +403,83 @@
             }
           ],
           "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Sevilla FC",
-            "team_b": "RCD Espanyol de Barcelona",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d20ed1da4f299cc3ef0e1e9eb06eced1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/214049d4df11756a2eb21bbd8266e2a1.png",
-            "time": "",
+            "league": "United States Major League Soccer",
+            "team_a": "Toronto FC",
+            "team_b": "Inter Miami CF",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a6f6290d4b7699729dc19349484841bf.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/976fe1d29c112f4baeb844cdda2f04cb.png",
+            "time": "00:00 10/05",
+            "blv": "BLV Jayce",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c4a74dcd2b_7c30b601_20260509.png?v=7c30b601",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-33dc48c143",
+          "name": "Thailand U17 vs Saudi Arabia U17 | 00:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-33dc48c143",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-33dc48c143",
+                  "name": "Thailand U17 vs Saudi Arabia U17",
+                  "streams": [
+                    {
+                      "id": "st-33dc48c143",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-54e5f7205a",
+                          "name": "BLV Siêu Quậy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69ff612c137e4_26/index.m3u8?expire=1778949036&sign=752da2b2abeb902a8cebcea88d98d9b2",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Thailand U17",
+            "team_b": "Saudi Arabia U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/51c3745e99294178891085f6c3f265e2.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/081372dd82f5917deb2d2fa64e052173.png",
+            "time": "00:00 10/05",
             "blv": "BLV Siêu Quậy",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -417,7 +488,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c6832829cb_08d1e6bf_20260509.png?v=08d1e6bf",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-33dc48c143_24fd919a_20260509.png?v=24fd919a",
             "width": 1600,
             "height": 1200
           }
@@ -577,112 +648,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b2dd84decb_2f673d19_20260509.png?v=2f673d19",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-c4a74dcd2b",
-          "name": "Toronto FC vs Inter Miami CF | 00:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c4a74dcd2b",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-c4a74dcd2b",
-                  "name": "Toronto FC vs Inter Miami CF",
-                  "streams": [
-                    {
-                      "id": "st-c4a74dcd2b",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United States Major League Soccer",
-            "team_a": "Toronto FC",
-            "team_b": "Inter Miami CF",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a6f6290d4b7699729dc19349484841bf.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/976fe1d29c112f4baeb844cdda2f04cb.png",
-            "time": "00:00 10/05",
-            "blv": "BLV Jayce",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c4a74dcd2b_7c30b601_20260509.png?v=7c30b601",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-33dc48c143",
-          "name": "Thailand U17 vs Saudi Arabia U17 | 00:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-33dc48c143",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-33dc48c143",
-                  "name": "Thailand U17 vs Saudi Arabia U17",
-                  "streams": [
-                    {
-                      "id": "st-33dc48c143",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Thailand U17",
-            "team_b": "Saudi Arabia U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/51c3745e99294178891085f6c3f265e2.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/081372dd82f5917deb2d2fa64e052173.png",
-            "time": "00:00 10/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-33dc48c143_24fd919a_20260509.png?v=24fd919a",
             "width": 1600,
             "height": 1200
           }
@@ -1430,59 +1395,6 @@
           }
         },
         {
-          "id": "thapcam-6e8cf90aa0",
-          "name": "Kashiwa Reysol vs Kawasaki Frontale | 14:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6e8cf90aa0",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6e8cf90aa0",
-                  "name": "Kashiwa Reysol vs Kawasaki Frontale",
-                  "streams": [
-                    {
-                      "id": "st-6e8cf90aa0",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Kashiwa Reysol",
-            "team_b": "Kawasaki Frontale",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d272859d78eb8ca7a14753f4293fbf45.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/937795c0851c1e794e96a5cb660fcd59.png",
-            "time": "14:00 10/05",
-            "blv": "BLV Người Điên",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6e8cf90aa0_b192c26e_20260509.png?v=b192c26e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-366bc6b04b",
           "name": "Nagoya Grampus vs Kyoto Sanga | 14:00 10/05",
           "type": "single",
@@ -1531,6 +1443,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-366bc6b04b_73db7c70_20260509.png?v=73db7c70",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-6e8cf90aa0",
+          "name": "Kashiwa Reysol vs Kawasaki Frontale | 14:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6e8cf90aa0",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-6e8cf90aa0",
+                  "name": "Kashiwa Reysol vs Kawasaki Frontale",
+                  "streams": [
+                    {
+                      "id": "st-6e8cf90aa0",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Kashiwa Reysol",
+            "team_b": "Kawasaki Frontale",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d272859d78eb8ca7a14753f4293fbf45.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/937795c0851c1e794e96a5cb660fcd59.png",
+            "time": "14:00 10/05",
+            "blv": "BLV Người Điên",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6e8cf90aa0_b192c26e_20260509.png?v=b192c26e",
             "width": 1600,
             "height": 1200
           }
@@ -3218,59 +3183,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-63fd8c57a3_f57ebba0_20260509.png?v=f57ebba0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-dc759bb00c",
-          "name": "Jannik Sinner vs Sebastian Ofner | 00:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dc759bb00c",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-dc759bb00c",
-                  "name": "Jannik Sinner vs Sebastian Ofner",
-                  "streams": [
-                    {
-                      "id": "st-dc759bb00c",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Jannik Sinner",
-            "team_b": "Sebastian Ofner",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/29bec7a5222eeb9e4851ab9d465b55cb.png",
-            "time": "00:00 10/05",
-            "blv": "BLV Người Sói",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-dc759bb00c_b812b822_20260509.png?v=b812b822",
             "width": 1600,
             "height": 1200
           }
