@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-3e7bfd62aa",
-          "name": "VfB Stuttgart vs Bayer 04 Leverkusen",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3e7bfd62aa",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3e7bfd62aa",
-                  "name": "VfB Stuttgart vs Bayer 04 Leverkusen",
-                  "streams": [
-                    {
-                      "id": "st-3e7bfd62aa",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-068a9628b3",
-                          "name": "BLV Người Cò",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff31d9137e4_14559/index.m3u8?expire=1778936921&sign=136cd089f91199ae14499651a7e6e8a3",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "VfB Stuttgart",
-            "team_b": "Bayer 04 Leverkusen",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bfdd500484330d63a723cbc396df762c.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d3205f3ddca07dc01c822ea0de24a0e7.png",
-            "time": "",
-            "blv": "BLV Người Cò",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3e7bfd62aa_21e10f37_20260509.png?v=21e10f37",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-390d5140e2",
           "name": "Brighton Hove Albion vs Wolverhampton Wanderers",
