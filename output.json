@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (9 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-de3b31ad49",
-          "name": "Lazio vs Inter Milan",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-de3b31ad49",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-de3b31ad49",
-                  "name": "Lazio vs Inter Milan",
-                  "streams": [
-                    {
-                      "id": "st-de3b31ad49",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf996b7854",
-                          "name": "BLV Người Nhện",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff58f1137e4_32/index.m3u8?expire=1778946929&sign=0dc9ea5b5f02dcce646e76772c93901b",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Lazio",
-            "team_b": "Inter Milan",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5a2ff46efa33abc6b2908eb6279dfbf8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aa2245702c40f77799a5ad4b119581a8.png",
-            "time": "",
-            "blv": "BLV Người Nhện",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-de3b31ad49_a8c870bc_20260510.png?v=a8c870bc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-b2dd84decb",
           "name": "China U17 vs Japan U17",
@@ -719,59 +648,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-be2bcadef7_5f54e358_20260510.png?v=5f54e358",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-3d828d41c7",
-          "name": "Le Boc Tham Vong Chung Ket Vck Asian Cup 2027 | 01:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3d828d41c7",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3d828d41c7",
-                  "name": "Le Boc Tham Vong Chung Ket Vck Asian Cup 2027",
-                  "streams": [
-                    {
-                      "id": "st-3d828d41c7",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Le Boc Tham Vong Chung Ket Vck Asian Cup 2027",
-            "team_a": "Le Boc Tham Vong Chung Ket Vck Asian Cup 2027",
-            "team_b": "",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-dev/categories/2025/03/21/e4fcfbad8ac9e791d01f2176f02e9794.png",
-            "logo_b": "",
-            "time": "01:00 10/05",
-            "blv": "BLV Người Nhện",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3d828d41c7_c9a1209e_20260510.png?v=c9a1209e",
             "width": 1600,
             "height": 1200
           }
@@ -3235,82 +3111,11 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-63fd8c57a3",
-          "name": "Nikoloz Basilashvili vs Ben Shelton | 22:15 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-63fd8c57a3",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-63fd8c57a3",
-                  "name": "Nikoloz Basilashvili vs Ben Shelton",
-                  "streams": [
-                    {
-                      "id": "st-63fd8c57a3",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e288414e38",
-                          "name": "BLV Người Hầu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff4ec651ddc_9657/index.m3u8?expire=1778944326&sign=c516d4ce1000d1abd34548613f1a9771",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Nikoloz Basilashvili",
-            "team_b": "Ben Shelton",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/452cb78d874a5c2244c43141abb67724.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c66bf663ed13a8a01fef6e1ec452f786.png",
-            "time": "22:15 09/05",
-            "blv": "BLV Người Hầu",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-63fd8c57a3_f57ebba0_20260510.png?v=f57ebba0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-dc759bb00c",
           "name": "Jannik Sinner vs Sebastian Ofner | 00:00 10/05",
