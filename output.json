@@ -2225,59 +2225,6 @@
           }
         },
         {
-          "id": "thapcam-972b78d6f2",
-          "name": "Nottingham Forest vs Newcastle United | 20:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-972b78d6f2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-972b78d6f2",
-                  "name": "Nottingham Forest vs Newcastle United",
-                  "streams": [
-                    {
-                      "id": "st-972b78d6f2",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Nottingham Forest",
-            "team_b": "Newcastle United",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/62572999d107f777efa4aeb907443527.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5dbe320855e3ba772dbce54f940c6fa5.png",
-            "time": "20:00 10/05",
-            "blv": "BLV Cá Mập",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-972b78d6f2_38c53344_20260509.png?v=38c53344",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-537896fadf",
           "name": "Crystal Palace vs Everton | 20:00 10/05",
           "type": "single",
@@ -2379,6 +2326,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d4755aae0c_a78624d2_20260509.png?v=a78624d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-972b78d6f2",
+          "name": "Nottingham Forest vs Newcastle United | 20:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-972b78d6f2",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-972b78d6f2",
+                  "name": "Nottingham Forest vs Newcastle United",
+                  "streams": [
+                    {
+                      "id": "st-972b78d6f2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Nottingham Forest",
+            "team_b": "Newcastle United",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/62572999d107f777efa4aeb907443527.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5dbe320855e3ba772dbce54f940c6fa5.png",
+            "time": "20:00 10/05",
+            "blv": "BLV Cá Mập",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-972b78d6f2_38c53344_20260509.png?v=38c53344",
             "width": 1600,
             "height": 1200
           }
