@@ -1893,7 +1893,7 @@
     },
     {
       "id": "grp-d721cd64dc",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1965,6 +1965,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9a30f00065_5c6205a3_20260509.png?v=5c6205a3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-1b12da4d89",
+          "name": "Minnesota Timberwolves vs San Antonio Spurs | 08:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1b12da4d89",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-1b12da4d89",
+                  "name": "Minnesota Timberwolves vs San Antonio Spurs",
+                  "streams": [
+                    {
+                      "id": "st-1b12da4d89",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b56c963a32",
+                          "name": "BLV Người Hầu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69fe90d251ddc_9657/index.m3u8?expire=1778895698&sign=b2c0bc998f094c9c7807c0e70ca7b820",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Minnesota Timberwolves",
+            "team_b": "San Antonio Spurs",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/38794d0ac418d8f2d03bd17a2623f3ed.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5305d1a7b721b5bef418041eff53ba82.png",
+            "time": "08:30 09/05",
+            "blv": "BLV Người Hầu",
+            "is_live": true,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1b12da4d89_fe78c8e1_20260509.png?v=fe78c8e1",
             "width": 1600,
             "height": 1200
           }
