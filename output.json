@@ -2842,6 +2842,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-2f3a14a7d7",
+          "name": "Clube de Regatas Vasco da Gama vs Athletico Paranaense | 06:30 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2f3a14a7d7",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-2f3a14a7d7",
+                  "name": "Clube de Regatas Vasco da Gama vs Athletico Paranaense",
+                  "streams": [
+                    {
+                      "id": "st-2f3a14a7d7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Brazilian Serie A",
+            "team_a": "Clube de Regatas Vasco da Gama",
+            "team_b": "Athletico Paranaense",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f110dc3a4406e67ecbc46511a7ea83f7.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1b54e9fdbe9c936023c55299da4165b7.png",
+            "time": "06:30 11/05",
+            "blv": "BLV Người Băng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2f3a14a7d7_bb70ee6e_20260510.png?v=bb70ee6e",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
