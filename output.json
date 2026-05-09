@@ -17,94 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-45663d0e24",
-          "name": "Liverpool vs Chelsea | 18:30 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-45663d0e24",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-45663d0e24",
-                  "name": "Liverpool vs Chelsea",
-                  "streams": [
-                    {
-                      "id": "st-45663d0e24",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8182acce8a",
-                          "name": "BLV Cá Mập",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff1072137e4_148/index.m3u8?expire=1778928370&sign=80ad97d18b0c6a58a7abdbf882d92436",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8cca5b0da2",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff12ce51ddc_154/index.m3u8?expire=1778928974&sign=c648330839f86fd9a8cc42a667dced31",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Liverpool",
-            "team_b": "Chelsea",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1cb3d08adac0e2dc1c4f10429d055bfe.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b365ad0e85e2b1bcbf63f7a0f2f70a79.png",
-            "time": "18:30 09/05",
-            "blv": "BLV Cá Mập",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-45663d0e24_0f1cfb67_20260509.png?v=0f1cfb67",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-f345192810",
           "name": "Sydney FC vs Newcastle Jets",
           "type": "single",
@@ -384,6 +296,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b4c3ac9efd_8af5f823_20260509.png?v=8af5f823",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-45663d0e24",
+          "name": "Liverpool vs Chelsea",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-45663d0e24",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-45663d0e24",
+                  "name": "Liverpool vs Chelsea",
+                  "streams": [
+                    {
+                      "id": "st-45663d0e24",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8182acce8a",
+                          "name": "BLV Cá Mập",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69ff1072137e4_148/index.m3u8?expire=1778928370&sign=80ad97d18b0c6a58a7abdbf882d92436",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8cca5b0da2",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69ff12ce51ddc_154/index.m3u8?expire=1778928974&sign=c648330839f86fd9a8cc42a667dced31",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Liverpool",
+            "team_b": "Chelsea",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1cb3d08adac0e2dc1c4f10429d055bfe.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b365ad0e85e2b1bcbf63f7a0f2f70a79.png",
+            "time": "",
+            "blv": "BLV Cá Mập",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-45663d0e24_0f1cfb67_20260509.png?v=0f1cfb67",
             "width": 1600,
             "height": 1200
           }
@@ -2557,6 +2557,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-034da413c2_5cb06a33_20260509.png?v=5cb06a33",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-3f62bf69ab",
+          "name": "Beijing Guoan FC vs Shanghai Port FC | 18:35 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3f62bf69ab",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-3f62bf69ab",
+                  "name": "Beijing Guoan FC vs Shanghai Port FC",
+                  "streams": [
+                    {
+                      "id": "st-3f62bf69ab",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Football Super League",
+            "team_a": "Beijing Guoan FC",
+            "team_b": "Shanghai Port FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e7af298237651113dfeafc32ff734a24.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c4e143e537412003565cdb7c2d212538.png",
+            "time": "18:35 10/05",
+            "blv": "BLV Jayce",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3f62bf69ab_a153c90b_20260509.png?v=a153c90b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-bcae00f02e",
+          "name": "Zhejiang Professional FC vs Tianjin Jinmen Tiger FC | 18:35 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bcae00f02e",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-bcae00f02e",
+                  "name": "Zhejiang Professional FC vs Tianjin Jinmen Tiger FC",
+                  "streams": [
+                    {
+                      "id": "st-bcae00f02e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Football Super League",
+            "team_a": "Zhejiang Professional FC",
+            "team_b": "Tianjin Jinmen Tiger FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cc1aef5e69e8d01ba3d3712f24040347.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e0080960b4e935d70f4037aaf3a0b917.png",
+            "time": "18:35 10/05",
+            "blv": "BLV Người Điên",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bcae00f02e_be246761_20260509.png?v=be246761",
             "width": 1600,
             "height": 1200
           }
