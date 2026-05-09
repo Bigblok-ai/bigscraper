@@ -159,77 +159,6 @@
           }
         },
         {
-          "id": "thapcam-de3b31ad49",
-          "name": "Lazio vs Inter Milan",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-de3b31ad49",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-de3b31ad49",
-                  "name": "Lazio vs Inter Milan",
-                  "streams": [
-                    {
-                      "id": "st-de3b31ad49",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf996b7854",
-                          "name": "BLV Người Nhện",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff58f1137e4_32/index.m3u8?expire=1778946929&sign=0dc9ea5b5f02dcce646e76772c93901b",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Lazio",
-            "team_b": "Inter Milan",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5a2ff46efa33abc6b2908eb6279dfbf8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aa2245702c40f77799a5ad4b119581a8.png",
-            "time": "",
-            "blv": "BLV Người Nhện",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-de3b31ad49_a8c870bc_20260510.png?v=a8c870bc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-b2dd84decb",
           "name": "China U17 vs Japan U17",
           "type": "single",
@@ -313,6 +242,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b2dd84decb_2f673d19_20260510.png?v=2f673d19",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-de3b31ad49",
+          "name": "Lazio vs Inter Milan",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-de3b31ad49",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-de3b31ad49",
+                  "name": "Lazio vs Inter Milan",
+                  "streams": [
+                    {
+                      "id": "st-de3b31ad49",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf996b7854",
+                          "name": "BLV Người Nhện",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69ff58f1137e4_32/index.m3u8?expire=1778946929&sign=0dc9ea5b5f02dcce646e76772c93901b",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Lazio",
+            "team_b": "Inter Milan",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5a2ff46efa33abc6b2908eb6279dfbf8.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aa2245702c40f77799a5ad4b119581a8.png",
+            "time": "",
+            "blv": "BLV Người Nhện",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-de3b31ad49_a8c870bc_20260510.png?v=a8c870bc",
             "width": 1600,
             "height": 1200
           }
@@ -1713,59 +1713,6 @@
           }
         },
         {
-          "id": "thapcam-416809bfa8",
-          "name": "Hoang Anh Gia Lai vs PVF CAND | 17:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-416809bfa8",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-416809bfa8",
-                  "name": "Hoang Anh Gia Lai vs PVF CAND",
-                  "streams": [
-                    {
-                      "id": "st-416809bfa8",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "Hoang Anh Gia Lai",
-            "team_b": "PVF CAND",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/df2ae58b9e658494b940b0bd782901b8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/16b802abec41440eb4996fc68f16125b.png",
-            "time": "17:00 10/05",
-            "blv": "BLV Lềnh",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-416809bfa8_293bd10f_20260510.png?v=293bd10f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-1fd6986b91",
           "name": "Shenzhen Peng City FC vs Shandong Taishan FC | 17:00 10/05",
           "type": "single",
@@ -1814,6 +1761,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1fd6986b91_28d66bf2_20260510.png?v=28d66bf2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-416809bfa8",
+          "name": "Hoang Anh Gia Lai vs PVF CAND | 17:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-416809bfa8",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-416809bfa8",
+                  "name": "Hoang Anh Gia Lai vs PVF CAND",
+                  "streams": [
+                    {
+                      "id": "st-416809bfa8",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "Hoang Anh Gia Lai",
+            "team_b": "PVF CAND",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/df2ae58b9e658494b940b0bd782901b8.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/16b802abec41440eb4996fc68f16125b.png",
+            "time": "17:00 10/05",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-416809bfa8_293bd10f_20260510.png?v=293bd10f",
             "width": 1600,
             "height": 1200
           }
@@ -2243,59 +2243,6 @@
           }
         },
         {
-          "id": "thapcam-9a777d9f62",
-          "name": "Cremonese vs Pisa | 20:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9a777d9f62",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9a777d9f62",
-                  "name": "Cremonese vs Pisa",
-                  "streams": [
-                    {
-                      "id": "st-9a777d9f62",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Cremonese",
-            "team_b": "Pisa",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0b0e25267dabd15c405070329df5fbdb.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7ca5de14056c7290f6787e0943aa11ad.png",
-            "time": "20:00 10/05",
-            "blv": "BLV Người Băng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9a777d9f62_5ea617ca_20260510.png?v=5ea617ca",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-33b6adc027",
           "name": "Fiorentina vs Genoa | 20:00 10/05",
           "type": "single",
@@ -2349,8 +2296,8 @@
           }
         },
         {
-          "id": "thapcam-d4755aae0c",
-          "name": "Burnley vs Aston Villa | 20:00 10/05",
+          "id": "thapcam-972b78d6f2",
+          "name": "Nottingham Forest vs Newcastle United | 20:00 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2364,15 +2311,15 @@
           ],
           "sources": [
             {
-              "id": "src-d4755aae0c",
+              "id": "src-972b78d6f2",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-d4755aae0c",
-                  "name": "Burnley vs Aston Villa",
+                  "id": "ct-972b78d6f2",
+                  "name": "Nottingham Forest vs Newcastle United",
                   "streams": [
                     {
-                      "id": "st-d4755aae0c",
+                      "id": "st-972b78d6f2",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -2383,12 +2330,12 @@
           ],
           "org_metadata": {
             "league": "English Premier League",
-            "team_a": "Burnley",
-            "team_b": "Aston Villa",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1091af5aa9fc4a30411785954edb9159.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c32d6a906083118cac2cb796edaab3.png",
+            "team_a": "Nottingham Forest",
+            "team_b": "Newcastle United",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/62572999d107f777efa4aeb907443527.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5dbe320855e3ba772dbce54f940c6fa5.png",
             "time": "20:00 10/05",
-            "blv": "BLV Người Nhện",
+            "blv": "BLV Cá Mập",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -2396,7 +2343,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d4755aae0c_a78624d2_20260510.png?v=a78624d2",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-972b78d6f2_38c53344_20260510.png?v=38c53344",
             "width": 1600,
             "height": 1200
           }
@@ -2455,8 +2402,8 @@
           }
         },
         {
-          "id": "thapcam-972b78d6f2",
-          "name": "Nottingham Forest vs Newcastle United | 20:00 10/05",
+          "id": "thapcam-d4755aae0c",
+          "name": "Burnley vs Aston Villa | 20:00 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2470,15 +2417,15 @@
           ],
           "sources": [
             {
-              "id": "src-972b78d6f2",
+              "id": "src-d4755aae0c",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-972b78d6f2",
-                  "name": "Nottingham Forest vs Newcastle United",
+                  "id": "ct-d4755aae0c",
+                  "name": "Burnley vs Aston Villa",
                   "streams": [
                     {
-                      "id": "st-972b78d6f2",
+                      "id": "st-d4755aae0c",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -2489,12 +2436,12 @@
           ],
           "org_metadata": {
             "league": "English Premier League",
-            "team_a": "Nottingham Forest",
-            "team_b": "Newcastle United",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/62572999d107f777efa4aeb907443527.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5dbe320855e3ba772dbce54f940c6fa5.png",
+            "team_a": "Burnley",
+            "team_b": "Aston Villa",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1091af5aa9fc4a30411785954edb9159.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a3c32d6a906083118cac2cb796edaab3.png",
             "time": "20:00 10/05",
-            "blv": "BLV Cá Mập",
+            "blv": "BLV Người Nhện",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -2502,7 +2449,60 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-972b78d6f2_38c53344_20260510.png?v=38c53344",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d4755aae0c_a78624d2_20260510.png?v=a78624d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-9a777d9f62",
+          "name": "Cremonese vs Pisa | 20:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9a777d9f62",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-9a777d9f62",
+                  "name": "Cremonese vs Pisa",
+                  "streams": [
+                    {
+                      "id": "st-9a777d9f62",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Cremonese",
+            "team_b": "Pisa",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0b0e25267dabd15c405070329df5fbdb.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7ca5de14056c7290f6787e0943aa11ad.png",
+            "time": "20:00 10/05",
+            "blv": "BLV Người Băng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9a777d9f62_5ea617ca_20260510.png?v=5ea617ca",
             "width": 1600,
             "height": 1200
           }
@@ -2614,59 +2614,6 @@
           }
         },
         {
-          "id": "thapcam-951ed2fae2",
-          "name": "FC Köln vs 1. FC Heidenheim 1846 | 22:30 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-951ed2fae2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-951ed2fae2",
-                  "name": "FC Köln vs 1. FC Heidenheim 1846",
-                  "streams": [
-                    {
-                      "id": "st-951ed2fae2",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "FC Köln",
-            "team_b": "1. FC Heidenheim 1846",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/887b7663a0d47031528921d9972ae3a6.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/65ee743f20fa7db286fdeda4d33c6980.png",
-            "time": "22:30 10/05",
-            "blv": "BLV Người Cò",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-951ed2fae2_0901d3af_20260510.png?v=0901d3af",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-45824f573d",
           "name": "West Ham United vs Arsenal | 22:30 10/05",
           "type": "single",
@@ -2720,8 +2667,8 @@
           }
         },
         {
-          "id": "thapcam-dafbb3ce9e",
-          "name": "Vietnam U17 vs South Korea U17 | 23:00 10/05",
+          "id": "thapcam-951ed2fae2",
+          "name": "FC Köln vs 1. FC Heidenheim 1846 | 22:30 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2735,15 +2682,15 @@
           ],
           "sources": [
             {
-              "id": "src-dafbb3ce9e",
+              "id": "src-951ed2fae2",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-dafbb3ce9e",
-                  "name": "Vietnam U17 vs South Korea U17",
+                  "id": "ct-951ed2fae2",
+                  "name": "FC Köln vs 1. FC Heidenheim 1846",
                   "streams": [
                     {
-                      "id": "st-dafbb3ce9e",
+                      "id": "st-951ed2fae2",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -2753,13 +2700,13 @@
             }
           ],
           "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Vietnam U17",
-            "team_b": "South Korea U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e20aa94f550f3d4fb4055ac9629a7324.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/900e5c48f63a866d738d166729599162.png",
-            "time": "23:00 10/05",
-            "blv": "BLV Người Lạ",
+            "league": "Bundesliga",
+            "team_a": "FC Köln",
+            "team_b": "1. FC Heidenheim 1846",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/887b7663a0d47031528921d9972ae3a6.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/65ee743f20fa7db286fdeda4d33c6980.png",
+            "time": "22:30 10/05",
+            "blv": "BLV Người Cò",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -2767,7 +2714,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-dafbb3ce9e_07dc5dd7_20260510.png?v=07dc5dd7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-951ed2fae2_0901d3af_20260510.png?v=0901d3af",
             "width": 1600,
             "height": 1200
           }
@@ -2821,6 +2768,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-50297ee9d7_c14f0a2b_20260510.png?v=c14f0a2b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-dafbb3ce9e",
+          "name": "Vietnam U17 vs South Korea U17 | 23:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dafbb3ce9e",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-dafbb3ce9e",
+                  "name": "Vietnam U17 vs South Korea U17",
+                  "streams": [
+                    {
+                      "id": "st-dafbb3ce9e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Vietnam U17",
+            "team_b": "South Korea U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e20aa94f550f3d4fb4055ac9629a7324.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/900e5c48f63a866d738d166729599162.png",
+            "time": "23:00 10/05",
+            "blv": "BLV Người Lạ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-dafbb3ce9e_07dc5dd7_20260510.png?v=07dc5dd7",
             "width": 1600,
             "height": 1200
           }
