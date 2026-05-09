@@ -79,7 +79,7 @@ HEADERS = {
 BASE_URL      = "https://thapcam24h.net"
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
-THUMB_VERSION = "v3"  # Nâng version để ép regenerate thumbnail
+THUMB_VERSION = "v4"  # Nâng version để ép regenerate thumbnail sau khi fix logic giờ
 
 CATE_MAP = {
     "Bóng đá":     "⚽ Bóng Đá",
@@ -168,6 +168,28 @@ def is_within_range(match_time: str, cate_name: str = "Bóng đá") -> bool:
 def remove_diacritics(text):
     """Bỏ dấu tiếng Việt để so sánh (VD: Võ Thuật -> Vo Thuat)."""
     return unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('ascii')
+
+
+def extract_time_from_slug(href: str) -> str:
+    """
+    Lấy giờ từ URL (VD: .../man-city-vs-brentford-2200-10-05/123) → '22:00 10/05'
+    """
+    parts = href.strip("/").split("/")
+    slug = parts[-2] if len(parts) >= 3 and parts[-1].isdigit() else parts[-1]
+    
+    # Tìm dạng HHMM-DD-MM-YYYY hoặc HHMM-DD-MM ở cuối slug
+    m = re.search(r'(\d{2})(\d{2})-(\d{1,2})-(\d{1,2})(?:-\d{4})?$', slug)
+    if m:
+        h, mi, d, mo = m.groups()
+        return f"{h}:{mi} {d}/{mo}"
+        
+    # Tìm dạng HH-MM-DD-MM-YYYY (dùng dấu gạch ngang)
+    m = re.search(r'-(\d{2})-(\d{2})-(\d{1,2})-(\d{1,2})(?:-\d{4})?$', slug)
+    if m:
+        h, mi, d, mo = m.groups()
+        return f"{h}:{mi} {d}/{mo}"
+        
+    return ""
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -444,6 +466,13 @@ def get_matches():
             else:
                 datef = card.select_one("div.grid-match__datef")
                 match_time = normalize_time(datef.get_text(strip=True)) if datef else ""
+
+            # FIX: Khi trận đang LIVE, web thường xóa chữ giờ hoặc thay bằng chữ "LIVE"
+            # Fallback: Lấy giờ từ URL slug
+            if not match_time or match_time.lower() in ("live", "đang diễn ra"):
+                slug_time = extract_time_from_slug(href)
+                if slug_time:
+                    match_time = slug_time
 
             # Lọc 24h (chỉ bóng đá)
             if not is_within_range(match_time, cate_name):
