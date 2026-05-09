@@ -1888,6 +1888,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-7849cb8dd8",
+          "name": "Bahia vs Cruzeiro Esporte Clube | 07:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7849cb8dd8",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-7849cb8dd8",
+                  "name": "Bahia vs Cruzeiro Esporte Clube",
+                  "streams": [
+                    {
+                      "id": "st-7849cb8dd8",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Brazilian Serie A",
+            "team_a": "Bahia",
+            "team_b": "Cruzeiro Esporte Clube",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/20456802ad5f8243dc282c4650c414e1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b1cac6380900d22bdb0d31763c658434.png",
+            "time": "07:00 10/05",
+            "blv": "BLV Jayce",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7849cb8dd8_d858b396_20260509.png?v=d858b396",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
