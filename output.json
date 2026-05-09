@@ -11,11 +11,99 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-45663d0e24",
+          "name": "Liverpool vs Chelsea | 18:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-45663d0e24",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-45663d0e24",
+                  "name": "Liverpool vs Chelsea",
+                  "streams": [
+                    {
+                      "id": "st-45663d0e24",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-745199e25a",
+                          "name": "BLV Cá Mập",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69ff12ce51ddc_154/index.m3u8?expire=1778928974&sign=c648330839f86fd9a8cc42a667dced31",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-2ea4710557",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69ff1072137e4_148/index.m3u8?expire=1778928370&sign=80ad97d18b0c6a58a7abdbf882d92436",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Liverpool",
+            "team_b": "Chelsea",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1cb3d08adac0e2dc1c4f10429d055bfe.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b365ad0e85e2b1bcbf63f7a0f2f70a79.png",
+            "time": "18:30 09/05",
+            "blv": "BLV Cá Mập",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-45663d0e24_0f1cfb67_20260509.png?v=0f1cfb67",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-f345192810",
           "name": "Sydney FC vs Newcastle Jets",
@@ -296,59 +384,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b4c3ac9efd_8af5f823_20260509.png?v=8af5f823",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-45663d0e24",
-          "name": "Liverpool vs Chelsea | 18:30 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-45663d0e24",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-45663d0e24",
-                  "name": "Liverpool vs Chelsea",
-                  "streams": [
-                    {
-                      "id": "st-45663d0e24",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Liverpool",
-            "team_b": "Chelsea",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1cb3d08adac0e2dc1c4f10429d055bfe.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b365ad0e85e2b1bcbf63f7a0f2f70a79.png",
-            "time": "18:30 09/05",
-            "blv": "BLV Cá Mập",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-45663d0e24_0f1cfb67_20260509.png?v=0f1cfb67",
             "width": 1600,
             "height": 1200
           }
@@ -2924,7 +2959,7 @@
     },
     {
       "id": "grp-776a2d64f8",
-      "name": "🏓 Bóng Bàn",
+      "name": "🏓 Bóng Bàn (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2937,10 +2972,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2955,7 +2990,25 @@
                     {
                       "id": "st-ef6c5e5d9f",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-9bb708d3c7",
+                          "name": "BLV Người Sói",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69ff1737137e4_742/index.m3u8?expire=1778930103&sign=fc176c0ab0a3e6634f53cfb269bc2f2f",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2970,7 +3023,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/4960e035c86739aa56c8947c9e4a5bed.png",
             "time": "18:30 09/05",
             "blv": "BLV Người Sói",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng bàn"
           },
           "image": {
