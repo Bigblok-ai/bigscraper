@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-33dc48c143",
-          "name": "Thailand U17 vs Saudi Arabia U17 | 00:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-33dc48c143",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-33dc48c143",
-                  "name": "Thailand U17 vs Saudi Arabia U17",
-                  "streams": [
-                    {
-                      "id": "st-33dc48c143",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-54e5f7205a",
-                          "name": "BLV Siêu Quậy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff612c137e4_26/index.m3u8?expire=1778949036&sign=752da2b2abeb902a8cebcea88d98d9b2",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Thailand U17",
-            "team_b": "Saudi Arabia U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/51c3745e99294178891085f6c3f265e2.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/081372dd82f5917deb2d2fa64e052173.png",
-            "time": "00:00 10/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-33dc48c143_21ee85f9_20260510.png?v=21ee85f9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-9172694104",
           "name": "Toronto FC vs Inter Miami CF | 00:10 10/05",
