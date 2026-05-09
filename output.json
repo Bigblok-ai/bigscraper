@@ -2830,82 +2830,11 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-dc759bb00c",
-          "name": "Jannik Sinner vs Sebastian Ofner | 00:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dc759bb00c",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-dc759bb00c",
-                  "name": "Jannik Sinner vs Sebastian Ofner",
-                  "streams": [
-                    {
-                      "id": "st-dc759bb00c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bdfdd1020d",
-                          "name": "BLV Người Sói",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff66ce51ddc_742/index.m3u8?expire=1778950478&sign=da349f8eb67829492720861467bec1e0",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Jannik Sinner",
-            "team_b": "Sebastian Ofner",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/29bec7a5222eeb9e4851ab9d465b55cb.png",
-            "time": "00:00 10/05",
-            "blv": "BLV Người Sói",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-dc759bb00c_9977942c_20260510.png?v=9977942c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-40127a8289",
           "name": "Alexei Popyrin vs Jakub Mensik | 01:30 10/05",
