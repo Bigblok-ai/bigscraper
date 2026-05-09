@@ -11,11 +11,258 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-390d5140e2",
+          "name": "Brighton Hove Albion vs Wolverhampton Wanderers | 21:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-390d5140e2",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-390d5140e2",
+                  "name": "Brighton Hove Albion vs Wolverhampton Wanderers",
+                  "streams": [
+                    {
+                      "id": "st-390d5140e2",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-32e24b37eb",
+                          "name": "BLV Lềnh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69ff3290137e4_1549/index.m3u8?expire=1778937104&sign=c3115071ce2318723a724f99d292a80e",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Brighton Hove Albion",
+            "team_b": "Wolverhampton Wanderers",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9b43a690d5a09f1e319f036821e8e1d3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5759932ca2512c6701d86dfbd58380a7.png",
+            "time": "21:00 09/05",
+            "blv": "BLV Lềnh",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-390d5140e2_88817086_20260509.png?v=88817086",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-2b0203c809",
+          "name": "Fulham vs Bournemouth AFC | 21:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2b0203c809",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-2b0203c809",
+                  "name": "Fulham vs Bournemouth AFC",
+                  "streams": [
+                    {
+                      "id": "st-2b0203c809",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0d71fe432e",
+                          "name": "BLV Người Ngố",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69ff3a9751ddc_14/index.m3u8?expire=1778939159&sign=ff9bda23465af816a5bca14e1179190c",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Fulham",
+            "team_b": "Bournemouth AFC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/29982511f1ea861967c3e6478d6a8a68.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/240b30d333c97d293752ab7afd77ccd6.png",
+            "time": "21:00 09/05",
+            "blv": "BLV Người Ngố",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2b0203c809_08a7a749_20260509.png?v=08a7a749",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-d2e7bce8ee",
+          "name": "Sunderland vs Manchester United | 21:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d2e7bce8ee",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d2e7bce8ee",
+                  "name": "Sunderland vs Manchester United",
+                  "streams": [
+                    {
+                      "id": "st-d2e7bce8ee",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-973a1288b4",
+                          "name": "BLV Siêu Bướng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/69ff371651ddc_154/index.m3u8?expire=1778938262&sign=2ebe1373f75582de787aa2b69f131915",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-93fa49afe0",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69ff3791137e4_151/index.m3u8?expire=1778938385&sign=2da1068760e4d66ec84aa702a15848fd",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-41f56581c3",
+                          "name": "Link HD 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/69ff357251ddc_145/index.m3u8?expire=1778937842&sign=a3f4e06a615b94637135cc76ccfbbe55",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Sunderland",
+            "team_b": "Manchester United",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/957bdc50c307e2a9b526b34b3792da1a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d39ce586fd7278342dde33b3090b3f75.png",
+            "time": "21:00 09/05",
+            "blv": "BLV Siêu Bướng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d2e7bce8ee_87d1073c_20260509.png?v=87d1073c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-f94af7fc48",
           "name": "Elche vs Deportivo Alavés",
@@ -367,165 +614,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bed5b4d211_6556eb21_20260509.png?v=6556eb21",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-390d5140e2",
-          "name": "Brighton Hove Albion vs Wolverhampton Wanderers | 21:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-390d5140e2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-390d5140e2",
-                  "name": "Brighton Hove Albion vs Wolverhampton Wanderers",
-                  "streams": [
-                    {
-                      "id": "st-390d5140e2",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Brighton Hove Albion",
-            "team_b": "Wolverhampton Wanderers",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9b43a690d5a09f1e319f036821e8e1d3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5759932ca2512c6701d86dfbd58380a7.png",
-            "time": "21:00 09/05",
-            "blv": "BLV Lềnh",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-390d5140e2_88817086_20260509.png?v=88817086",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-2b0203c809",
-          "name": "Fulham vs Bournemouth AFC | 21:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2b0203c809",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-2b0203c809",
-                  "name": "Fulham vs Bournemouth AFC",
-                  "streams": [
-                    {
-                      "id": "st-2b0203c809",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Fulham",
-            "team_b": "Bournemouth AFC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/29982511f1ea861967c3e6478d6a8a68.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/240b30d333c97d293752ab7afd77ccd6.png",
-            "time": "21:00 09/05",
-            "blv": "BLV Người Ngố",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2b0203c809_08a7a749_20260509.png?v=08a7a749",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-d2e7bce8ee",
-          "name": "Sunderland vs Manchester United | 21:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d2e7bce8ee",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d2e7bce8ee",
-                  "name": "Sunderland vs Manchester United",
-                  "streams": [
-                    {
-                      "id": "st-d2e7bce8ee",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Sunderland",
-            "team_b": "Manchester United",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/957bdc50c307e2a9b526b34b3792da1a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d39ce586fd7278342dde33b3090b3f75.png",
-            "time": "21:00 09/05",
-            "blv": "BLV Siêu Bướng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d2e7bce8ee_87d1073c_20260509.png?v=87d1073c",
             "width": 1600,
             "height": 1200
           }
@@ -3013,8 +3101,8 @@
           }
         },
         {
-          "id": "thapcam-95559b5413",
-          "name": "Flavio Cobolli vs Terence Atmane | 19:40 09/05",
+          "id": "thapcam-7d5de54282",
+          "name": "Flavio Cobolli vs Terence Atmane | 21:00 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3028,15 +3116,15 @@
           ],
           "sources": [
             {
-              "id": "src-95559b5413",
+              "id": "src-7d5de54282",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-95559b5413",
+                  "id": "ct-7d5de54282",
                   "name": "Flavio Cobolli vs Terence Atmane",
                   "streams": [
                     {
-                      "id": "st-95559b5413",
+                      "id": "st-7d5de54282",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -3069,7 +3157,7 @@
             "team_b": "Terence Atmane",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c241ca862f518d645e9b7464455d175d.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/65da41436c7adbdd21790b830ebf4024.png",
-            "time": "19:40 09/05",
+            "time": "21:00 09/05",
             "blv": "BLV Người Sói",
             "is_live": true,
             "cate_name": "Tennis"
@@ -3078,7 +3166,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-95559b5413_95c0d986_20260509.png?v=95c0d986",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7d5de54282_95c0d986_20260509.png?v=95c0d986",
             "width": 1600,
             "height": 1200
           }
