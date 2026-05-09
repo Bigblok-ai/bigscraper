@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -88,111 +88,6 @@
           }
         },
         {
-          "id": "thapcam-666cef421d",
-          "name": "Manchester City vs Brentford",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-666cef421d",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-666cef421d",
-                  "name": "Manchester City vs Brentford",
-                  "streams": [
-                    {
-                      "id": "st-666cef421d",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-178755391f",
-                          "name": "BLV Người Lạ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff593751ddc_1549/index.m3u8?expire=1778946999&sign=63fe235ce7e706d2546c6a4ea5ac9888",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f5dd42ee83",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff592e51ddc_151/index.m3u8?expire=1778946990&sign=bfde67a36ba065238988aad1b11b25e4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-97c96b5f00",
-                          "name": "Link HD 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff5275137e4_11241/index.m3u8?expire=1778945269&sign=3d1de0f96fddac67a12b793b4d3e6bcc",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Manchester City",
-            "team_b": "Brentford",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c4a6528a2ee147b99c9885ef24385a4e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/60f1c7788be3148a370dbf59f914abfe.png",
-            "time": "",
-            "blv": "BLV Người Lạ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-666cef421d_2592379a_20260510.png?v=2592379a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-0910f9aa6a",
           "name": "VfL Wolfsburg vs FC Bayern Munich",
           "type": "single",
@@ -259,77 +154,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0910f9aa6a_2251cd71_20260510.png?v=2251cd71",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-a804647621",
-          "name": "Atletico Madrid vs RC Celta",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a804647621",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-a804647621",
-                  "name": "Atletico Madrid vs RC Celta",
-                  "streams": [
-                    {
-                      "id": "st-a804647621",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6637de0bb5",
-                          "name": "BLV Cá Mập",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff5a0151ddc_154/index.m3u8?expire=1778947201&sign=dca49f7dcd195923dfbe0b1c93d6a06c",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Atletico Madrid",
-            "team_b": "RC Celta",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/390977b0421bce136c562057ea171ecf.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fd954d083ee85a6f1a3f2471dc756242.png",
-            "time": "",
-            "blv": "BLV Cá Mập",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a804647621_e92b074d_20260510.png?v=e92b074d",
             "width": 1600,
             "height": 1200
           }
