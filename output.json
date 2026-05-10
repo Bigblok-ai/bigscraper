@@ -17,77 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-366bc6b04b",
-          "name": "Nagoya Grampus vs Kyoto Sanga | 14:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-366bc6b04b",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-366bc6b04b",
-                  "name": "Nagoya Grampus vs Kyoto Sanga",
-                  "streams": [
-                    {
-                      "id": "st-366bc6b04b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c79c4427f0",
-                          "name": "BLV Chân Đất",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a002a00137e4_145/index.m3u8?expire=1779000448&sign=b7f4c04987905adeb5c5bf9d27d8d005",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Nagoya Grampus",
-            "team_b": "Kyoto Sanga",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/32aa68e1fa3d62dad572d19b21a09353.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7d6fa50ea67cde7d66612a8189897ba5.png",
-            "time": "14:00 10/05",
-            "blv": "BLV Chân Đất",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-366bc6b04b_246ad6c1_20260510.png?v=246ad6c1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-6e8cf90aa0",
           "name": "Kashiwa Reysol vs Kawasaki Frontale | 14:00 10/05",
           "type": "single",
@@ -154,6 +83,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6e8cf90aa0_beb68a39_20260510.png?v=beb68a39",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-366bc6b04b",
+          "name": "Nagoya Grampus vs Kyoto Sanga | 14:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-366bc6b04b",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-366bc6b04b",
+                  "name": "Nagoya Grampus vs Kyoto Sanga",
+                  "streams": [
+                    {
+                      "id": "st-366bc6b04b",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c79c4427f0",
+                          "name": "BLV Chân Đất",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a002a00137e4_145/index.m3u8?expire=1779000448&sign=b7f4c04987905adeb5c5bf9d27d8d005",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Nagoya Grampus",
+            "team_b": "Kyoto Sanga",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/32aa68e1fa3d62dad572d19b21a09353.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7d6fa50ea67cde7d66612a8189897ba5.png",
+            "time": "14:00 10/05",
+            "blv": "BLV Chân Đất",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-366bc6b04b_246ad6c1_20260510.png?v=246ad6c1",
             "width": 1600,
             "height": 1200
           }
@@ -278,6 +278,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ea7e0cb81b_bbe976a6_20260510.png?v=bbe976a6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-ce94cb58fc",
+          "name": "Persija Jakarta vs Persib Bandung | 15:30 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ce94cb58fc",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-ce94cb58fc",
+                  "name": "Persija Jakarta vs Persib Bandung",
+                  "streams": [
+                    {
+                      "id": "st-ce94cb58fc",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indonesian Liga 1",
+            "team_a": "Persija Jakarta",
+            "team_b": "Persib Bandung",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/10db29eabad13994d9729d8983f8d21a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b2004093bf25a5a8d1768970d6e49d71.png",
+            "time": "15:30 10/05",
+            "blv": "BLV Người Cỏ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ce94cb58fc_c1bf6936_20260510.png?v=c1bf6936",
             "width": 1600,
             "height": 1200
           }
@@ -799,7 +852,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c1bc80f45a0bf86310ec6e56980c1757.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0e5467034917e26c6e60a7162711c150.png",
             "time": "19:00 10/05",
-            "blv": "BLV Người Cò",
+            "blv": "BLV Người Cỏ",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
