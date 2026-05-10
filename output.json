@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-9a777d9f62",
-          "name": "Cremonese vs Pisa | 20:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9a777d9f62",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9a777d9f62",
-                  "name": "Cremonese vs Pisa",
-                  "streams": [
-                    {
-                      "id": "st-9a777d9f62",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-08618ac3b0",
-                          "name": "BLV Người Băng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a0079d551ddc_11/index.m3u8?expire=1779020885&sign=99946d0a33936c2ac1e1f13cf4dd8505",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Cremonese",
-            "team_b": "Pisa",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0b0e25267dabd15c405070329df5fbdb.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7ca5de14056c7290f6787e0943aa11ad.png",
-            "time": "20:00 10/05",
-            "blv": "BLV Người Băng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9a777d9f62_c58e6f03_20260510.png?v=c58e6f03",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-33b6adc027",
           "name": "Fiorentina vs Genoa | 20:00 10/05",
@@ -2446,8 +2375,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-07cb828344",
-          "name": "Learner Tien vs Alexander Bublik | 21:40 10/05",
+          "id": "thapcam-1d78dd86d9",
+          "name": "Learner Tien vs Alexander Bublik | 21:50 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2461,15 +2390,15 @@
           ],
           "sources": [
             {
-              "id": "src-07cb828344",
+              "id": "src-1d78dd86d9",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-07cb828344",
+                  "id": "ct-1d78dd86d9",
                   "name": "Learner Tien vs Alexander Bublik",
                   "streams": [
                     {
-                      "id": "st-07cb828344",
+                      "id": "st-1d78dd86d9",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -2502,7 +2431,7 @@
             "team_b": "Alexander Bublik",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/Fuue3ODA1VOSiquEuTM6LXhpoD4b",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/48b5ceec7c7af6986d4b60420aeaf160.png",
-            "time": "21:40 10/05",
+            "time": "21:50 10/05",
             "blv": "BLV Người Hầu",
             "is_live": true,
             "cate_name": "Tennis"
@@ -2511,7 +2440,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-07cb828344_266e3cd7_20260510.png?v=266e3cd7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1d78dd86d9_266e3cd7_20260510.png?v=266e3cd7",
             "width": 1600,
             "height": 1200
           }
@@ -2662,61 +2591,7 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "thapcam-e81086a5d7",
-          "name": "Japan vs China | 22:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e81086a5d7",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e81086a5d7",
-                  "name": "Japan vs China",
-                  "streams": [
-                    {
-                      "id": "st-e81086a5d7",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ITTF World Team Table Tennis Championships Finals London 2026",
-            "team_a": "Japan",
-            "team_b": "China",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2272dc6d96fca4a7cd6f9f92e45e51ce.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2349bbb109057db855c05eb903948d73.png",
-            "time": "22:00 10/05",
-            "blv": "BLV Người Sói",
-            "is_live": false,
-            "cate_name": "Bóng bàn"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e81086a5d7_092cb238_20260510.png?v=092cb238",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-b69c24c415",
