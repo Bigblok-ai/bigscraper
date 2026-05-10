@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (10 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-6e4332f804",
-          "name": "AC Milan vs Atalanta | 01:45 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6e4332f804",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6e4332f804",
-                  "name": "AC Milan vs Atalanta",
-                  "streams": [
-                    {
-                      "id": "st-6e4332f804",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8f41454183",
-                          "name": "BLV Người Cò",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a00cd6d137e5_14559/index.m3u8?expire=1779042285&sign=b91ad333024466f5aea8db5a7e1dbeab",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "AC Milan",
-            "team_b": "Atalanta",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/643ef4101b017dc1495dbd9e9d5cce28.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/45c9647899b8bf2fb6f988c6c33b964c.png",
-            "time": "01:45 11/05",
-            "blv": "BLV Người Cò",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6e4332f804_98e79cdd_20260511.png?v=98e79cdd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-9be0ed07d2",
           "name": "Angers SCO vs RC Strasbourg Alsace | 02:00 11/05",
@@ -296,6 +225,148 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b0a9242f19_d75e0f06_20260511.png?v=d75e0f06",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-8187368e88",
+          "name": "Metz vs Lorient | 02:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8187368e88",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-8187368e88",
+                  "name": "Metz vs Lorient",
+                  "streams": [
+                    {
+                      "id": "st-8187368e88",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-98769f139d",
+                          "name": "BLV Người Lạ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a00c77a51ddc_11241/index.m3u8?expire=1779040762&sign=c358a9a1ae444ee6d7adcb3ed0954d5e",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "Metz",
+            "team_b": "Lorient",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/16fd214da24aef0bbb775e44fe7e79f2.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b593727321793084b1f7804aebedc31a.png",
+            "time": "02:00 11/05",
+            "blv": "BLV Người Lạ",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8187368e88_01ae8183_20260511.png?v=01ae8183",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-a645121dbb",
+          "name": "AS Monaco vs LOSC Lille | 02:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a645121dbb",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-a645121dbb",
+                  "name": "AS Monaco vs LOSC Lille",
+                  "streams": [
+                    {
+                      "id": "st-a645121dbb",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b055be4ae7",
+                          "name": "BLV Siêu Quậy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a00cf4b51ddc_26/index.m3u8?expire=1779042763&sign=c73647f1d1a0c8c83ae6dc26d96c6e84",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "AS Monaco",
+            "team_b": "LOSC Lille",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/693af0d277fe3179594695614dce8666.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/28e94925fdcc848f86a544a1cedcceed.png",
+            "time": "02:00 11/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a645121dbb_28e36688_20260511.png?v=28e36688",
             "width": 1600,
             "height": 1200
           }
@@ -614,148 +685,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a9bc686547_dabae868_20260511.png?v=dabae868",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-a645121dbb",
-          "name": "AS Monaco vs LOSC Lille | 02:00 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a645121dbb",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-a645121dbb",
-                  "name": "AS Monaco vs LOSC Lille",
-                  "streams": [
-                    {
-                      "id": "st-a645121dbb",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b055be4ae7",
-                          "name": "BLV Siêu Quậy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a00cf4b51ddc_26/index.m3u8?expire=1779042763&sign=c73647f1d1a0c8c83ae6dc26d96c6e84",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "AS Monaco",
-            "team_b": "LOSC Lille",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/693af0d277fe3179594695614dce8666.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/28e94925fdcc848f86a544a1cedcceed.png",
-            "time": "02:00 11/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a645121dbb_28e36688_20260511.png?v=28e36688",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-8187368e88",
-          "name": "Metz vs Lorient | 02:00 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8187368e88",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-8187368e88",
-                  "name": "Metz vs Lorient",
-                  "streams": [
-                    {
-                      "id": "st-8187368e88",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-98769f139d",
-                          "name": "BLV Người Lạ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a00c77a51ddc_11241/index.m3u8?expire=1779040762&sign=c358a9a1ae444ee6d7adcb3ed0954d5e",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "Metz",
-            "team_b": "Lorient",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/16fd214da24aef0bbb775e44fe7e79f2.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b593727321793084b1f7804aebedc31a.png",
-            "time": "02:00 11/05",
-            "blv": "BLV Người Lạ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8187368e88_01ae8183_20260511.png?v=01ae8183",
             "width": 1600,
             "height": 1200
           }
