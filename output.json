@@ -11,116 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-45824f573d",
-          "name": "West Ham United vs Arsenal | 22:30 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-45824f573d",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-45824f573d",
-                  "name": "West Ham United vs Arsenal",
-                  "streams": [
-                    {
-                      "id": "st-45824f573d",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bcb01bafa1",
-                          "name": "BLV Người Rừng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a009d7951ddc_154/index.m3u8?expire=1779030009&sign=7cca7497d56e526b1ba7aa8102a790b5",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c03831788f",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a00a09a51ddc_151/index.m3u8?expire=1779030810&sign=3d4c34886c7a82f1411d41b17303b666",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-0ffec5f20c",
-                          "name": "Link HD 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a009c5c137e5_148/index.m3u8?expire=1779029724&sign=cb50aac1ae87bb67bc4f67018d8f2c0e",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "West Ham United",
-            "team_b": "Arsenal",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d71ebda5c7fbca9093a1c2978c46f619.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d6f5debc456da1119256ab66462ab510.png",
-            "time": "22:30 10/05",
-            "blv": "BLV Người Rừng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-45824f573d_a152bdf1_20260511.png?v=a152bdf1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-50297ee9d7",
           "name": "Parma vs AS Roma | 23:00 10/05",
