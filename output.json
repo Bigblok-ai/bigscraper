@@ -2330,6 +2330,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-35dbe17fe2",
+          "name": "Fratria vs FC Dunav Ruse | 00:15 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-35dbe17fe2",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-35dbe17fe2",
+                  "name": "Fratria vs FC Dunav Ruse",
+                  "streams": [
+                    {
+                      "id": "st-35dbe17fe2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bulgarian Vtora Liga",
+            "team_a": "Fratria",
+            "team_b": "FC Dunav Ruse",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aabb904ffc5c2e13819a80381208bb68.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5c1b71658722f554a095a3687b548717.png",
+            "time": "00:15 12/05",
+            "blv": "BLV Người Ngố",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-35dbe17fe2_09fb5374_20260511.png?v=09fb5374",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
