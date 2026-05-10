@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -154,77 +154,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-585cb274a6_0224db80_20260510.png?v=0224db80",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-9a777d9f62",
-          "name": "Cremonese vs Pisa | 20:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9a777d9f62",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9a777d9f62",
-                  "name": "Cremonese vs Pisa",
-                  "streams": [
-                    {
-                      "id": "st-9a777d9f62",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-08618ac3b0",
-                          "name": "BLV Người Băng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a0079d551ddc_11/index.m3u8?expire=1779020885&sign=99946d0a33936c2ac1e1f13cf4dd8505",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Cremonese",
-            "team_b": "Pisa",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0b0e25267dabd15c405070329df5fbdb.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7ca5de14056c7290f6787e0943aa11ad.png",
-            "time": "20:00 10/05",
-            "blv": "BLV Người Băng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9a777d9f62_c58e6f03_20260510.png?v=c58e6f03",
             "width": 1600,
             "height": 1200
           }
@@ -384,6 +313,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d4755aae0c_6647931c_20260510.png?v=6647931c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-9a777d9f62",
+          "name": "Cremonese vs Pisa | 20:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9a777d9f62",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-9a777d9f62",
+                  "name": "Cremonese vs Pisa",
+                  "streams": [
+                    {
+                      "id": "st-9a777d9f62",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-08618ac3b0",
+                          "name": "BLV Người Băng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a0079d551ddc_11/index.m3u8?expire=1779020885&sign=99946d0a33936c2ac1e1f13cf4dd8505",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Cremonese",
+            "team_b": "Pisa",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0b0e25267dabd15c405070329df5fbdb.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7ca5de14056c7290f6787e0943aa11ad.png",
+            "time": "20:00 10/05",
+            "blv": "BLV Người Băng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9a777d9f62_c58e6f03_20260510.png?v=c58e6f03",
             "width": 1600,
             "height": 1200
           }
@@ -643,10 +643,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -661,7 +661,25 @@
                     {
                       "id": "st-974065a584",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6fc0e59393",
+                          "name": "BLV Người Điên",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a008a7d137e5_1984/index.m3u8?expire=1779025149&sign=9dde6571e42ce48193384fc7ce51a798",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -676,7 +694,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3b54543c1a584e2e9948d655142996d3.png",
             "time": "21:15 10/05",
             "blv": "BLV Người Điên",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
