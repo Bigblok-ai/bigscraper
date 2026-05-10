@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (10 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-3f62bf69ab",
-          "name": "Beijing Guoan FC vs Shanghai Port FC | 18:35 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3f62bf69ab",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3f62bf69ab",
-                  "name": "Beijing Guoan FC vs Shanghai Port FC",
-                  "streams": [
-                    {
-                      "id": "st-3f62bf69ab",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-006329d8df",
-                          "name": "BLV Jayce",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a0066bd137e4_181/index.m3u8?expire=1779015997&sign=8effe0d1daacfd69068f33684a543537",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Football Super League",
-            "team_a": "Beijing Guoan FC",
-            "team_b": "Shanghai Port FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e7af298237651113dfeafc32ff734a24.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c4e143e537412003565cdb7c2d212538.png",
-            "time": "18:35 10/05",
-            "blv": "BLV Jayce",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3f62bf69ab_777d8288_20260510.png?v=777d8288",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-8bdd66de5f",
           "name": "RCD Mallorca vs Villarreal CF | 19:00 10/05",
