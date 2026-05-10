@@ -11,153 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-a9bc686547",
-          "name": "Paris Saint Germain vs Stade Brestois 29 | 02:00 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a9bc686547",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-a9bc686547",
-                  "name": "Paris Saint Germain vs Stade Brestois 29",
-                  "streams": [
-                    {
-                      "id": "st-a9bc686547",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9dbd2a3371",
-                          "name": "BLV Lềnh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a00cdf051ddc_1549/index.m3u8?expire=1779042416&sign=8485fb67925ab84fbac5883522e8f27b",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "Paris Saint Germain",
-            "team_b": "Stade Brestois 29",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3b720f181ce9993f9422d276acf7b292.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bb7e6346a3860008e4ff266ba3b655e8.png",
-            "time": "02:00 11/05",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a9bc686547_dabae868_20260511.png?v=dabae868",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-9be0ed07d2",
-          "name": "Angers SCO vs RC Strasbourg Alsace | 02:00 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9be0ed07d2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9be0ed07d2",
-                  "name": "Angers SCO vs RC Strasbourg Alsace",
-                  "streams": [
-                    {
-                      "id": "st-9be0ed07d2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-46057691b0",
-                          "name": "BLV Người Rừng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a00d0d8137e5_148/index.m3u8?expire=1779043160&sign=3c9b48801590b4a90e041e56a38464e7",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "Angers SCO",
-            "team_b": "RC Strasbourg Alsace",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/526150064f4f983d670deb33fa6385b6.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/998db478bf7c06d5817bf846987a0d0a.png",
-            "time": "02:00 11/05",
-            "blv": "BLV Người Rừng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9be0ed07d2_a07fcb62_20260511.png?v=a07fcb62",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-2f3a14a7d7",
           "name": "Clube de Regatas Vasco da Gama vs Athletico Paranaense | 06:30 11/05",
@@ -265,59 +123,6 @@
           }
         },
         {
-          "id": "thapcam-509537720d",
-          "name": "Japan Women U17 vs Korea Rep. Women U17 | 14:00 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-509537720d",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-509537720d",
-                  "name": "Japan Women U17 vs Korea Rep. Women U17",
-                  "streams": [
-                    {
-                      "id": "st-509537720d",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "Japan Women U17",
-            "team_b": "Korea Rep. Women U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a5cc0f9ca35d53a5332bf84dc9b79104.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/566b83e60e3ffdb744bc3d1843fb4311.png",
-            "time": "14:00 11/05",
-            "blv": "BLV Cá Mập",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-509537720d_5dd3b744_20260511.png?v=5dd3b744",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-0b529450da",
           "name": "Vietnam U17 Women vs Australia Women U17 | 14:00 11/05",
           "type": "single",
@@ -366,6 +171,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0b529450da_272ae867_20260511.png?v=272ae867",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-509537720d",
+          "name": "Japan Women U17 vs Korea Rep. Women U17 | 14:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-509537720d",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-509537720d",
+                  "name": "Japan Women U17 vs Korea Rep. Women U17",
+                  "streams": [
+                    {
+                      "id": "st-509537720d",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Japan Women U17",
+            "team_b": "Korea Rep. Women U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a5cc0f9ca35d53a5332bf84dc9b79104.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/566b83e60e3ffdb744bc3d1843fb4311.png",
+            "time": "14:00 11/05",
+            "blv": "BLV Cá Mập",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-509537720d_5dd3b744_20260511.png?v=5dd3b744",
             "width": 1600,
             "height": 1200
           }
@@ -742,59 +600,6 @@
           }
         },
         {
-          "id": "thapcam-e434136c49",
-          "name": "Al-Kahrbaa Club vs Newroz SC | 21:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e434136c49",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e434136c49",
-                  "name": "Al-Kahrbaa Club vs Newroz SC",
-                  "streams": [
-                    {
-                      "id": "st-e434136c49",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Iraq Stars League",
-            "team_a": "Al-Kahrbaa Club",
-            "team_b": "Newroz SC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/80e44a97384b61801716ab030c10bfd1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d24ce6a9273a1f719aa3b590e27a7a78.png",
-            "time": "21:30 11/05",
-            "blv": "BLV Người Rừng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e434136c49_a546a695_20260511.png?v=a546a695",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-3f364aa43c",
           "name": "Spartak Moscow vs Rubin Kazan | 21:30 11/05",
           "type": "single",
@@ -843,59 +648,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3f364aa43c_58d88622_20260511.png?v=58d88622",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-e80c4e069c",
-          "name": "Al Karkh vs Amanat Baghdad | 21:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e80c4e069c",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e80c4e069c",
-                  "name": "Al Karkh vs Amanat Baghdad",
-                  "streams": [
-                    {
-                      "id": "st-e80c4e069c",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Iraq Stars League",
-            "team_a": "Al Karkh",
-            "team_b": "Amanat Baghdad",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/21f6e246791eccf1b9b3822f8d08c8d4.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/51314043c4560f92e05af70fd57035be.png",
-            "time": "21:30 11/05",
-            "blv": "BLV Người Cò",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e80c4e069c_ba2288a7_20260511.png?v=ba2288a7",
             "width": 1600,
             "height": 1200
           }
@@ -954,8 +706,8 @@
           }
         },
         {
-          "id": "thapcam-de4e5bd5d8",
-          "name": "Metaloglobus vs Hermannstadt | 22:00 11/05",
+          "id": "thapcam-e80c4e069c",
+          "name": "Al Karkh vs Amanat Baghdad | 21:30 11/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -969,15 +721,15 @@
           ],
           "sources": [
             {
-              "id": "src-de4e5bd5d8",
+              "id": "src-e80c4e069c",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-de4e5bd5d8",
-                  "name": "Metaloglobus vs Hermannstadt",
+                  "id": "ct-e80c4e069c",
+                  "name": "Al Karkh vs Amanat Baghdad",
                   "streams": [
                     {
-                      "id": "st-de4e5bd5d8",
+                      "id": "st-e80c4e069c",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -987,13 +739,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Romanian Super Liga",
-            "team_a": "Metaloglobus",
-            "team_b": "Hermannstadt",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6e39bd08aa15c7ac22e3be6a56606c36.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/732ac055b269060b9864fe152a82c9cf.png",
-            "time": "22:00 11/05",
-            "blv": "BLV Người Đá",
+            "league": "Iraq Stars League",
+            "team_a": "Al Karkh",
+            "team_b": "Amanat Baghdad",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/21f6e246791eccf1b9b3822f8d08c8d4.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/51314043c4560f92e05af70fd57035be.png",
+            "time": "21:30 11/05",
+            "blv": "BLV Người Cò",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1001,7 +753,60 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-de4e5bd5d8_f151100e_20260511.png?v=f151100e",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e80c4e069c_ba2288a7_20260511.png?v=ba2288a7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-e434136c49",
+          "name": "Al-Kahrbaa Club vs Newroz SC | 21:30 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e434136c49",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-e434136c49",
+                  "name": "Al-Kahrbaa Club vs Newroz SC",
+                  "streams": [
+                    {
+                      "id": "st-e434136c49",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Iraq Stars League",
+            "team_a": "Al-Kahrbaa Club",
+            "team_b": "Newroz SC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/80e44a97384b61801716ab030c10bfd1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d24ce6a9273a1f719aa3b590e27a7a78.png",
+            "time": "21:30 11/05",
+            "blv": "BLV Người Rừng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e434136c49_a546a695_20260511.png?v=a546a695",
             "width": 1600,
             "height": 1200
           }
@@ -1055,6 +860,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8d6509eff8_2f2860b7_20260511.png?v=2f2860b7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-de4e5bd5d8",
+          "name": "Metaloglobus vs Hermannstadt | 22:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-de4e5bd5d8",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-de4e5bd5d8",
+                  "name": "Metaloglobus vs Hermannstadt",
+                  "streams": [
+                    {
+                      "id": "st-de4e5bd5d8",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Romanian Super Liga",
+            "team_a": "Metaloglobus",
+            "team_b": "Hermannstadt",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6e39bd08aa15c7ac22e3be6a56606c36.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/732ac055b269060b9864fe152a82c9cf.png",
+            "time": "22:00 11/05",
+            "blv": "BLV Người Đá",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-de4e5bd5d8_f151100e_20260511.png?v=f151100e",
             "width": 1600,
             "height": 1200
           }
