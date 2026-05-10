@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,94 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-50297ee9d7_e8db3b9a_20260511.png?v=e8db3b9a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-dafbb3ce9e",
-          "name": "Vietnam U17 vs South Korea U17 | 23:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dafbb3ce9e",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-dafbb3ce9e",
-                  "name": "Vietnam U17 vs South Korea U17",
-                  "streams": [
-                    {
-                      "id": "st-dafbb3ce9e",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7e2c41ae67",
-                          "name": "BLV Người Lạ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a00a1a251ddc_11241/index.m3u8?expire=1779031074&sign=49b86727a48803681f8918114480e2c6",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f1d74d9d8d",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a009d2d137e5_1549/index.m3u8?expire=1779029933&sign=eee55a3fc97d622ff61b41448071c2aa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Vietnam U17",
-            "team_b": "South Korea U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e20aa94f550f3d4fb4055ac9629a7324.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/900e5c48f63a866d738d166729599162.png",
-            "time": "23:00 10/05",
-            "blv": "BLV Người Lạ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-dafbb3ce9e_1ce631ce_20260511.png?v=1ce631ce",
             "width": 1600,
             "height": 1200
           }
@@ -2243,6 +2155,112 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-6830ae58c7",
+          "name": "Al Taawoun vs Al Ahli SFC | 01:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6830ae58c7",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-6830ae58c7",
+                  "name": "Al Taawoun vs Al Ahli SFC",
+                  "streams": [
+                    {
+                      "id": "st-6830ae58c7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al Taawoun",
+            "team_b": "Al Ahli SFC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/440da1fad5d16ada9a9742bf5d14c98e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a0a227a6100628d3213e1fc321acd4f2.png",
+            "time": "01:00 12/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6830ae58c7_f28af312_20260511.png?v=f28af312",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-0c31fd81a4",
+          "name": "Fotbal Club FCSB vs FC Unirea 2004 Slobozia | 01:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0c31fd81a4",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-0c31fd81a4",
+                  "name": "Fotbal Club FCSB vs FC Unirea 2004 Slobozia",
+                  "streams": [
+                    {
+                      "id": "st-0c31fd81a4",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Romanian Super Liga",
+            "team_a": "Fotbal Club FCSB",
+            "team_b": "FC Unirea 2004 Slobozia",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a413daa882f96b18ddb1f0e8c9dbfda7.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b17f903b42eebe1e7ad55f4f346d2bf8.png",
+            "time": "01:00 12/05",
+            "blv": "BLV Người Cò",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0c31fd81a4_91415cbc_20260511.png?v=91415cbc",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2371,7 +2389,7 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2455,10 +2473,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2473,7 +2491,25 @@
                     {
                       "id": "st-4dd392ec4b",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-8e3a220f81",
+                          "name": "BLV Người Sói",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a00c71951ddc_742/index.m3u8?expire=1779040665&sign=378d3b37af9d7eb9cc10255634d48a11",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2488,7 +2524,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6df68e87ef33da480611d1b13a603a21.png",
             "time": "01:10 11/05",
             "blv": "BLV Người Sói",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Tennis"
           },
           "image": {
@@ -2536,83 +2572,11 @@
     },
     {
       "id": "grp-776a2d64f8",
-      "name": "🏓 Bóng Bàn (1 LIVE)",
+      "name": "🏓 Bóng Bàn",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "thapcam-e81086a5d7",
-          "name": "Japan vs China | 22:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e81086a5d7",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e81086a5d7",
-                  "name": "Japan vs China",
-                  "streams": [
-                    {
-                      "id": "st-e81086a5d7",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3e0c2e6c64",
-                          "name": "BLV Người Sói",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a009ca6137e5_742/index.m3u8?expire=1779029798&sign=4462f4ee9baa77981e34ca6b3132ca52",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ITTF World Team Table Tennis Championships Finals London 2026",
-            "team_a": "Japan",
-            "team_b": "China",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2272dc6d96fca4a7cd6f9f92e45e51ce.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2349bbb109057db855c05eb903948d73.png",
-            "time": "22:00 10/05",
-            "blv": "BLV Người Sói",
-            "is_live": true,
-            "cate_name": "Bóng bàn"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e81086a5d7_092cb238_20260511.png?v=092cb238",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-b69c24c415",
