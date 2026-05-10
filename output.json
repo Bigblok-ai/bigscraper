@@ -3063,7 +3063,61 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "thapcam-4dd392ec4b",
+          "name": "Matteo Arnaldi vs Rafael Jodar | 01:10 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4dd392ec4b",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-4dd392ec4b",
+                  "name": "Matteo Arnaldi vs Rafael Jodar",
+                  "streams": [
+                    {
+                      "id": "st-4dd392ec4b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Rome, Italy Men Singles",
+            "team_a": "Matteo Arnaldi",
+            "team_b": "Rafael Jodar",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/54e0d5a1af27fe927230f7500b8e7098.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6df68e87ef33da480611d1b13a603a21.png",
+            "time": "01:10 11/05",
+            "blv": "BLV Người Sói",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-4dd392ec4b_0990f48b_20260510.png?v=0990f48b",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-9102198393",
