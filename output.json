@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-974065a584",
-          "name": "Athletic Club vs Valencia CF | 21:15 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-974065a584",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-974065a584",
-                  "name": "Athletic Club vs Valencia CF",
-                  "streams": [
-                    {
-                      "id": "st-974065a584",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6fc0e59393",
-                          "name": "BLV Người Điên",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a008a7d137e5_1984/index.m3u8?expire=1779025149&sign=9dde6571e42ce48193384fc7ce51a798",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Athletic Club",
-            "team_b": "Valencia CF",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/abbb31d42c55612737713aac6567a226.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3b54543c1a584e2e9948d655142996d3.png",
-            "time": "21:15 10/05",
-            "blv": "BLV Người Điên",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-974065a584_8b6b50e1_20260510.png?v=8b6b50e1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-45824f573d",
           "name": "West Ham United vs Arsenal | 22:30 10/05",
@@ -264,6 +193,77 @@
           }
         },
         {
+          "id": "thapcam-50297ee9d7",
+          "name": "Parma vs AS Roma | 23:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-50297ee9d7",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-50297ee9d7",
+                  "name": "Parma vs AS Roma",
+                  "streams": [
+                    {
+                      "id": "st-50297ee9d7",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4f21f9ba1",
+                          "name": "BLV Tôn Quyền",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a00aa77137e5_793/index.m3u8?expire=1779033335&sign=6bbf4e2d8e5d719a8cb7bc3059b3af22",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Parma",
+            "team_b": "AS Roma",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9fadd87d190982c8082dddf1567e0b9b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7a192686d30c1ad031d2fb605eaf2f2a.png",
+            "time": "23:00 10/05",
+            "blv": "BLV Tôn Quyền",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-50297ee9d7_e8db3b9a_20260510.png?v=e8db3b9a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-dafbb3ce9e",
           "name": "Vietnam U17 vs South Korea U17 | 23:00 10/05",
           "type": "single",
@@ -347,77 +347,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-dafbb3ce9e_1ce631ce_20260510.png?v=1ce631ce",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-50297ee9d7",
-          "name": "Parma vs AS Roma | 23:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-50297ee9d7",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-50297ee9d7",
-                  "name": "Parma vs AS Roma",
-                  "streams": [
-                    {
-                      "id": "st-50297ee9d7",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4f21f9ba1",
-                          "name": "BLV Tôn Quyền",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a00aa77137e5_793/index.m3u8?expire=1779033335&sign=6bbf4e2d8e5d719a8cb7bc3059b3af22",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Parma",
-            "team_b": "AS Roma",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9fadd87d190982c8082dddf1567e0b9b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7a192686d30c1ad031d2fb605eaf2f2a.png",
-            "time": "23:00 10/05",
-            "blv": "BLV Tôn Quyền",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-50297ee9d7_e8db3b9a_20260510.png?v=e8db3b9a",
             "width": 1600,
             "height": 1200
           }
