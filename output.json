@@ -17,77 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-ea7e0cb81b",
-          "name": "Persita Tangerang vs Persijap Jepara | 15:30 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ea7e0cb81b",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-ea7e0cb81b",
-                  "name": "Persita Tangerang vs Persijap Jepara",
-                  "streams": [
-                    {
-                      "id": "st-ea7e0cb81b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-751320851a",
-                          "name": "BLV Siêu Quậy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a003ad7137e4_26/index.m3u8?expire=1779004759&sign=49c117f9f1daa16d85b68ee956f177e5",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "Persita Tangerang",
-            "team_b": "Persijap Jepara",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/da85ffb03146e72ce9928729dcabda51.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f4bd932b7d276a93696f4491f334c932.png",
-            "time": "15:30 10/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ea7e0cb81b_bbe976a6_20260510.png?v=bbe976a6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-ce94cb58fc",
           "name": "Persija Jakarta vs Persib Bandung | 15:30 10/05",
           "type": "single",
@@ -154,6 +83,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ce94cb58fc_c1bf6936_20260510.png?v=c1bf6936",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-ea7e0cb81b",
+          "name": "Persita Tangerang vs Persijap Jepara | 15:30 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ea7e0cb81b",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-ea7e0cb81b",
+                  "name": "Persita Tangerang vs Persijap Jepara",
+                  "streams": [
+                    {
+                      "id": "st-ea7e0cb81b",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-751320851a",
+                          "name": "BLV Siêu Quậy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a003ad7137e4_26/index.m3u8?expire=1779004759&sign=49c117f9f1daa16d85b68ee956f177e5",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indonesian Liga 1",
+            "team_a": "Persita Tangerang",
+            "team_b": "Persijap Jepara",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/da85ffb03146e72ce9928729dcabda51.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f4bd932b7d276a93696f4491f334c932.png",
+            "time": "15:30 10/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ea7e0cb81b_bbe976a6_20260510.png?v=bbe976a6",
             "width": 1600,
             "height": 1200
           }
@@ -1803,8 +1803,8 @@
           }
         },
         {
-          "id": "thapcam-b73248e654",
-          "name": "AJ Auxerre vs OGC Nice | 02:00 11/05",
+          "id": "thapcam-1d4dde146f",
+          "name": "FC Barcelona vs Real Madrid | 02:00 11/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1818,15 +1818,15 @@
           ],
           "sources": [
             {
-              "id": "src-b73248e654",
+              "id": "src-1d4dde146f",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-b73248e654",
-                  "name": "AJ Auxerre vs OGC Nice",
+                  "id": "ct-1d4dde146f",
+                  "name": "FC Barcelona vs Real Madrid",
                   "streams": [
                     {
-                      "id": "st-b73248e654",
+                      "id": "st-1d4dde146f",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1836,13 +1836,13 @@
             }
           ],
           "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "AJ Auxerre",
-            "team_b": "OGC Nice",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8c03e57af9e8bec20a3ed2f5aaddf78b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ff8991853f7aabce7cb66f09cda0c58e.png",
+            "league": "Spanish La Liga",
+            "team_a": "FC Barcelona",
+            "team_b": "Real Madrid",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f378eb1ea04e53999b89051aa3244de6.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7dacaa934fe4be00f23c1e209b5ef947.png",
             "time": "02:00 11/05",
-            "blv": "BLV Chân Đất",
+            "blv": "BLV Cá Mập",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1850,272 +1850,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b73248e654_e18da11b_20260510.png?v=e18da11b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-b0a9242f19",
-          "name": "Havre Athletic Club vs Marseille | 02:00 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b0a9242f19",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-b0a9242f19",
-                  "name": "Havre Athletic Club vs Marseille",
-                  "streams": [
-                    {
-                      "id": "st-b0a9242f19",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "Havre Athletic Club",
-            "team_b": "Marseille",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8fd50a53dad5ea4fd2d32bd3ce727f58.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a450173b3d636ba2c86d3d7c5bdc4026.png",
-            "time": "02:00 11/05",
-            "blv": "BLV Người Nhện",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b0a9242f19_d75e0f06_20260510.png?v=d75e0f06",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-8187368e88",
-          "name": "Metz vs Lorient | 02:00 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8187368e88",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-8187368e88",
-                  "name": "Metz vs Lorient",
-                  "streams": [
-                    {
-                      "id": "st-8187368e88",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "Metz",
-            "team_b": "Lorient",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/16fd214da24aef0bbb775e44fe7e79f2.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b593727321793084b1f7804aebedc31a.png",
-            "time": "02:00 11/05",
-            "blv": "BLV Người Lạ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8187368e88_01ae8183_20260510.png?v=01ae8183",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-a645121dbb",
-          "name": "AS Monaco vs LOSC Lille | 02:00 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a645121dbb",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-a645121dbb",
-                  "name": "AS Monaco vs LOSC Lille",
-                  "streams": [
-                    {
-                      "id": "st-a645121dbb",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "AS Monaco",
-            "team_b": "LOSC Lille",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/693af0d277fe3179594695614dce8666.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/28e94925fdcc848f86a544a1cedcceed.png",
-            "time": "02:00 11/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a645121dbb_28e36688_20260510.png?v=28e36688",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-a9bc686547",
-          "name": "Paris Saint Germain vs Stade Brestois 29 | 02:00 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a9bc686547",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-a9bc686547",
-                  "name": "Paris Saint Germain vs Stade Brestois 29",
-                  "streams": [
-                    {
-                      "id": "st-a9bc686547",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "Paris Saint Germain",
-            "team_b": "Stade Brestois 29",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3b720f181ce9993f9422d276acf7b292.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bb7e6346a3860008e4ff266ba3b655e8.png",
-            "time": "02:00 11/05",
-            "blv": "BLV Lềnh",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a9bc686547_dabae868_20260510.png?v=dabae868",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-7faadc6fe0",
-          "name": "Stade Rennais FC vs Paris FC | 02:00 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7faadc6fe0",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-7faadc6fe0",
-                  "name": "Stade Rennais FC vs Paris FC",
-                  "streams": [
-                    {
-                      "id": "st-7faadc6fe0",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "Stade Rennais FC",
-            "team_b": "Paris FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/eab8f0e847742fd328bb581299bd99ca.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/83a982f8219a768e7cd29d1ac765b199.png",
-            "time": "02:00 11/05",
-            "blv": "BLV Người Điên",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7faadc6fe0_7db18cd9_20260510.png?v=7db18cd9",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1d4dde146f_b25c391d_20260510.png?v=b25c391d",
             "width": 1600,
             "height": 1200
           }
@@ -2174,8 +1909,8 @@
           }
         },
         {
-          "id": "thapcam-1d4dde146f",
-          "name": "FC Barcelona vs Real Madrid | 02:00 11/05",
+          "id": "thapcam-7faadc6fe0",
+          "name": "Stade Rennais FC vs Paris FC | 02:00 11/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2189,15 +1924,15 @@
           ],
           "sources": [
             {
-              "id": "src-1d4dde146f",
+              "id": "src-7faadc6fe0",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-1d4dde146f",
-                  "name": "FC Barcelona vs Real Madrid",
+                  "id": "ct-7faadc6fe0",
+                  "name": "Stade Rennais FC vs Paris FC",
                   "streams": [
                     {
-                      "id": "st-1d4dde146f",
+                      "id": "st-7faadc6fe0",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -2207,13 +1942,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "FC Barcelona",
-            "team_b": "Real Madrid",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f378eb1ea04e53999b89051aa3244de6.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7dacaa934fe4be00f23c1e209b5ef947.png",
+            "league": "French Ligue 1",
+            "team_a": "Stade Rennais FC",
+            "team_b": "Paris FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/eab8f0e847742fd328bb581299bd99ca.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/83a982f8219a768e7cd29d1ac765b199.png",
             "time": "02:00 11/05",
-            "blv": "BLV Cá Mập",
+            "blv": "BLV Người Điên",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -2221,7 +1956,272 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1d4dde146f_b25c391d_20260510.png?v=b25c391d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7faadc6fe0_7db18cd9_20260510.png?v=7db18cd9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-a9bc686547",
+          "name": "Paris Saint Germain vs Stade Brestois 29 | 02:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a9bc686547",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-a9bc686547",
+                  "name": "Paris Saint Germain vs Stade Brestois 29",
+                  "streams": [
+                    {
+                      "id": "st-a9bc686547",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "Paris Saint Germain",
+            "team_b": "Stade Brestois 29",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3b720f181ce9993f9422d276acf7b292.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bb7e6346a3860008e4ff266ba3b655e8.png",
+            "time": "02:00 11/05",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a9bc686547_dabae868_20260510.png?v=dabae868",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-8187368e88",
+          "name": "Metz vs Lorient | 02:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8187368e88",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-8187368e88",
+                  "name": "Metz vs Lorient",
+                  "streams": [
+                    {
+                      "id": "st-8187368e88",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "Metz",
+            "team_b": "Lorient",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/16fd214da24aef0bbb775e44fe7e79f2.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b593727321793084b1f7804aebedc31a.png",
+            "time": "02:00 11/05",
+            "blv": "BLV Người Lạ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8187368e88_01ae8183_20260510.png?v=01ae8183",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-b0a9242f19",
+          "name": "Havre Athletic Club vs Marseille | 02:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b0a9242f19",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-b0a9242f19",
+                  "name": "Havre Athletic Club vs Marseille",
+                  "streams": [
+                    {
+                      "id": "st-b0a9242f19",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "Havre Athletic Club",
+            "team_b": "Marseille",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8fd50a53dad5ea4fd2d32bd3ce727f58.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a450173b3d636ba2c86d3d7c5bdc4026.png",
+            "time": "02:00 11/05",
+            "blv": "BLV Người Nhện",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b0a9242f19_d75e0f06_20260510.png?v=d75e0f06",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-b73248e654",
+          "name": "AJ Auxerre vs OGC Nice | 02:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b73248e654",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-b73248e654",
+                  "name": "AJ Auxerre vs OGC Nice",
+                  "streams": [
+                    {
+                      "id": "st-b73248e654",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "AJ Auxerre",
+            "team_b": "OGC Nice",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8c03e57af9e8bec20a3ed2f5aaddf78b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ff8991853f7aabce7cb66f09cda0c58e.png",
+            "time": "02:00 11/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b73248e654_e18da11b_20260510.png?v=e18da11b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-a645121dbb",
+          "name": "AS Monaco vs LOSC Lille | 02:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a645121dbb",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-a645121dbb",
+                  "name": "AS Monaco vs LOSC Lille",
+                  "streams": [
+                    {
+                      "id": "st-a645121dbb",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "AS Monaco",
+            "team_b": "LOSC Lille",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/693af0d277fe3179594695614dce8666.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/28e94925fdcc848f86a544a1cedcceed.png",
+            "time": "02:00 11/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a645121dbb_28e36688_20260510.png?v=28e36688",
             "width": 1600,
             "height": 1200
           }
@@ -2328,6 +2328,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-4795b07977_a250adf2_20260510.png?v=a250adf2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-4430560dda",
+          "name": "Akron Togliatti vs FK Rostov | 17:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4430560dda",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-4430560dda",
+                  "name": "Akron Togliatti vs FK Rostov",
+                  "streams": [
+                    {
+                      "id": "st-4430560dda",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Russian Premier League",
+            "team_a": "Akron Togliatti",
+            "team_b": "FK Rostov",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d5a6f7b99c55a87b8a47337e7fe64588.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1279b7ad21c72f2ab7bda8b972c2858e.png",
+            "time": "17:00 11/05",
+            "blv": "BLV Người Điên",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-4430560dda_02c028c7_20260510.png?v=02c028c7",
             "width": 1600,
             "height": 1200
           }
@@ -2748,11 +2801,82 @@
     },
     {
       "id": "grp-776a2d64f8",
-      "name": "🏓 Bóng Bàn",
+      "name": "🏓 Bóng Bàn (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-0af91725e3",
+          "name": "China vs Japan | 17:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0af91725e3",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-0af91725e3",
+                  "name": "China vs Japan",
+                  "streams": [
+                    {
+                      "id": "st-0af91725e3",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8fbb7007b",
+                          "name": "BLV Người Sói",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a0056dd137e4_742/index.m3u8?expire=1779011933&sign=58487441f5ca0072f35ad4424d904ba6",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ITTF World Team Table Tennis Championships Finals London 2026",
+            "team_a": "China",
+            "team_b": "Japan",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2349bbb109057db855c05eb903948d73.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2272dc6d96fca4a7cd6f9f92e45e51ce.png",
+            "time": "17:00 10/05",
+            "blv": "BLV Người Sói",
+            "is_live": true,
+            "cate_name": "Bóng bàn"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0af91725e3_d08e3b84_20260510.png?v=d08e3b84",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-e81086a5d7",
           "name": "Japan vs China | 22:00 10/05",
