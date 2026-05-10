@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-cc44796a18",
-          "name": "Zweigen Kanazawa FC vs Albirex Niigata | 11:30 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cc44796a18",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-cc44796a18",
-                  "name": "Zweigen Kanazawa FC vs Albirex Niigata",
-                  "streams": [
-                    {
-                      "id": "st-cc44796a18",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c1fe0dad84",
-                          "name": "BLV Người Lạ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a0008ff137e4_11241/index.m3u8?expire=1778991999&sign=d6aa63fb10187d9153896cbec5a72016",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J2/J3 100 Year Vision League",
-            "team_a": "Zweigen Kanazawa FC",
-            "team_b": "Albirex Niigata",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/646d000d7498d416110aad94ff53e8fb.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a4bfaa33f9e24bdb4a4952a0b4aab142.png",
-            "time": "11:30 10/05",
-            "blv": "BLV Người Lạ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cc44796a18_c3deb498_20260510.png?v=c3deb498",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-df9c3e2a3b",
           "name": "Yokohama F. Marinos vs Kashima Antlers | 12:00 10/05",
@@ -379,10 +308,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -397,7 +326,25 @@
                     {
                       "id": "st-6e8cf90aa0",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8a4f5bfff",
+                          "name": "BLV Người Điên",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a00278551ddc_1984/index.m3u8?expire=1778999813&sign=a98ef979f8e550e3c04a776e28f43f12",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -412,7 +359,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/937795c0851c1e794e96a5cb660fcd59.png",
             "time": "14:00 10/05",
             "blv": "BLV Người Điên",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -432,10 +379,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -450,7 +397,25 @@
                     {
                       "id": "st-366bc6b04b",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c79c4427f0",
+                          "name": "BLV Chân Đất",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a002a00137e4_145/index.m3u8?expire=1779000448&sign=b7f4c04987905adeb5c5bf9d27d8d005",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -465,7 +430,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7d6fa50ea67cde7d66612a8189897ba5.png",
             "time": "14:00 10/05",
             "blv": "BLV Chân Đất",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
