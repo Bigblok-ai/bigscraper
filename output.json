@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -237,10 +237,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -255,7 +255,25 @@
                     {
                       "id": "st-1fd6986b91",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-522d78cd9d",
+                          "name": "BLV Người Lạ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a00505d137e4_11241/index.m3u8?expire=1779010269&sign=ba47946c38ee972e2fa87ee10e4f8906",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -270,7 +288,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/85c080cf02a7161687ddd5b5800dc303.png",
             "time": "17:00 10/05",
             "blv": "BLV Người Lạ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -290,10 +308,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -308,7 +326,25 @@
                     {
                       "id": "st-416809bfa8",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-883520cf2a",
+                          "name": "BLV Lềnh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a004f93137e4_1549/index.m3u8?expire=1779010067&sign=bbcf50d5066888557bb4c7da2fde3697",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -323,7 +359,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/16b802abec41440eb4996fc68f16125b.png",
             "time": "17:00 10/05",
             "blv": "BLV Lềnh",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -2717,59 +2753,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-0af91725e3",
-          "name": "China vs Japan | 17:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0af91725e3",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-0af91725e3",
-                  "name": "China vs Japan",
-                  "streams": [
-                    {
-                      "id": "st-0af91725e3",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ITTF World Team Table Tennis Championships Finals London 2026",
-            "team_a": "China",
-            "team_b": "Japan",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2349bbb109057db855c05eb903948d73.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2272dc6d96fca4a7cd6f9f92e45e51ce.png",
-            "time": "17:00 10/05",
-            "blv": "BLV Người Sói",
-            "is_live": false,
-            "cate_name": "Bóng bàn"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0af91725e3_d08e3b84_20260510.png?v=d08e3b84",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-e81086a5d7",
           "name": "Japan vs China | 22:00 10/05",
