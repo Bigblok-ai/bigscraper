@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -259,6 +259,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-951ed2fae2_cf5e01bf_20260510.png?v=cf5e01bf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-50297ee9d7",
+          "name": "Parma vs AS Roma | 23:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-50297ee9d7",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-50297ee9d7",
+                  "name": "Parma vs AS Roma",
+                  "streams": [
+                    {
+                      "id": "st-50297ee9d7",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4f21f9ba1",
+                          "name": "BLV Tôn Quyền",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a00aa77137e5_793/index.m3u8?expire=1779033335&sign=6bbf4e2d8e5d719a8cb7bc3059b3af22",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Parma",
+            "team_b": "AS Roma",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9fadd87d190982c8082dddf1567e0b9b.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7a192686d30c1ad031d2fb605eaf2f2a.png",
+            "time": "23:00 10/05",
+            "blv": "BLV Tôn Quyền",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-50297ee9d7_e8db3b9a_20260510.png?v=e8db3b9a",
             "width": 1600,
             "height": 1200
           }
@@ -2251,8 +2322,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-f2bfa15018",
-          "name": "Learner Tien vs Alexander Bublik | 23:00 10/05",
+          "id": "thapcam-9def964d9d",
+          "name": "Learner Tien vs Alexander Bublik | 22:50 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2266,15 +2337,15 @@
           ],
           "sources": [
             {
-              "id": "src-f2bfa15018",
+              "id": "src-9def964d9d",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-f2bfa15018",
+                  "id": "ct-9def964d9d",
                   "name": "Learner Tien vs Alexander Bublik",
                   "streams": [
                     {
-                      "id": "st-f2bfa15018",
+                      "id": "st-9def964d9d",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -2307,7 +2378,7 @@
             "team_b": "Alexander Bublik",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/Fuue3ODA1VOSiquEuTM6LXhpoD4b",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/48b5ceec7c7af6986d4b60420aeaf160.png",
-            "time": "23:00 10/05",
+            "time": "22:50 10/05",
             "blv": "BLV Người Hầu",
             "is_live": true,
             "cate_name": "Tennis"
@@ -2316,7 +2387,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f2bfa15018_266e3cd7_20260510.png?v=266e3cd7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9def964d9d_266e3cd7_20260510.png?v=266e3cd7",
             "width": 1600,
             "height": 1200
           }
