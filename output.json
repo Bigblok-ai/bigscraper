@@ -2913,6 +2913,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-4795b07977",
+          "name": "Los Angeles FC vs Houston Dynamo | 08:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4795b07977",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-4795b07977",
+                  "name": "Los Angeles FC vs Houston Dynamo",
+                  "streams": [
+                    {
+                      "id": "st-4795b07977",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "United States Major League Soccer",
+            "team_a": "Los Angeles FC",
+            "team_b": "Houston Dynamo",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9c5ad5227377e12b87f77790d3d88c1c.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2d21e6bbd505075b1bc6df8b5a887e8f.png",
+            "time": "08:00 11/05",
+            "blv": "BLV Jayce",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-4795b07977_a250adf2_20260510.png?v=a250adf2",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
