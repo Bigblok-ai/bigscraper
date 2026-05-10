@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-d39725b373",
-          "name": "FC Anyang vs Jeonbuk Hyundai Motors | 14:30 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d39725b373",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d39725b373",
-                  "name": "FC Anyang vs Jeonbuk Hyundai Motors",
-                  "streams": [
-                    {
-                      "id": "st-d39725b373",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ca065d1da2",
-                          "name": "BLV Người Lạ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a0028a0137e4_11241/index.m3u8?expire=1779000096&sign=0e0d87f2f5470fe933ee2dccef943867",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "FC Anyang",
-            "team_b": "Jeonbuk Hyundai Motors",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cda2e60a4e984dc6f4ed091ec44fc5bb.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ee2117f952745163fecfa4b74a6a2bea.png",
-            "time": "14:30 10/05",
-            "blv": "BLV Người Lạ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d39725b373_56afc4c0_20260510.png?v=56afc4c0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-ea7e0cb81b",
           "name": "Persita Tangerang vs Persijap Jepara | 15:30 10/05",
