@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-416809bfa8",
-          "name": "Hoang Anh Gia Lai vs PVF CAND | 17:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-416809bfa8",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-416809bfa8",
-                  "name": "Hoang Anh Gia Lai vs PVF CAND",
-                  "streams": [
-                    {
-                      "id": "st-416809bfa8",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-883520cf2a",
-                          "name": "BLV Lềnh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a004f93137e4_1549/index.m3u8?expire=1779010067&sign=bbcf50d5066888557bb4c7da2fde3697",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "Hoang Anh Gia Lai",
-            "team_b": "PVF CAND",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/df2ae58b9e658494b940b0bd782901b8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/16b802abec41440eb4996fc68f16125b.png",
-            "time": "17:00 10/05",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-416809bfa8_e3b3478d_20260510.png?v=e3b3478d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-9485045bc2",
           "name": "Hellas Verona vs Como | 17:30 10/05",
@@ -2223,6 +2152,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-4430560dda_02c028c7_20260510.png?v=02c028c7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-a90abb8451",
+          "name": "Bali United vs Borneo FC | 19:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a90abb8451",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-a90abb8451",
+                  "name": "Bali United vs Borneo FC",
+                  "streams": [
+                    {
+                      "id": "st-a90abb8451",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indonesian Liga 1",
+            "team_a": "Bali United",
+            "team_b": "Borneo FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/09fe2ecf88f68970da755f8655d5da8a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5a0893c2c8fbdbbf734c07c71c8025b4.png",
+            "time": "19:00 11/05",
+            "blv": "BLV Tôn Quyền",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a90abb8451_3984d7d5_20260510.png?v=3984d7d5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-91ad39f588",
+          "name": "Bhayangkara Presisi Indonesia FC vs Madura United | 19:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-91ad39f588",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-91ad39f588",
+                  "name": "Bhayangkara Presisi Indonesia FC vs Madura United",
+                  "streams": [
+                    {
+                      "id": "st-91ad39f588",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indonesian Liga 1",
+            "team_a": "Bhayangkara Presisi Indonesia FC",
+            "team_b": "Madura United",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/837cf9a178940067578b7343018e003a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/320ff18ba51acdf34c92311dec8186a7.png",
+            "time": "19:00 11/05",
+            "blv": "BLV Jayce",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-91ad39f588_2d567992_20260510.png?v=2d567992",
             "width": 1600,
             "height": 1200
           }
