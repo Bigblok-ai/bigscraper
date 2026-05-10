@@ -2865,83 +2865,11 @@
     },
     {
       "id": "grp-d721cd64dc",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "thapcam-44425f5433",
-          "name": "Los Angeles Lakers vs Oklahoma City Thunder | 07:30 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-44425f5433",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-44425f5433",
-                  "name": "Los Angeles Lakers vs Oklahoma City Thunder",
-                  "streams": [
-                    {
-                      "id": "st-44425f5433",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-52a62dd718",
-                          "name": "BLV Người Sói",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ffd1a8137e4_742/index.m3u8?expire=1778977832&sign=e98b4487731bffab083881e5f2f13b7c",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Los Angeles Lakers",
-            "team_b": "Oklahoma City Thunder",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fa6f985041ec3f9729172380ae9cebf8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/319e03be75fee4098a83b1d0e01940b7.png",
-            "time": "07:30 10/05",
-            "blv": "BLV Người Sói",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-44425f5433_570604a3_20260510.png?v=570604a3",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-0b6b498c58",
@@ -3292,61 +3220,34 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "grp-578f80eb49",
-      "name": "🥊 Võ Thuật (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "thapcam-680fe3b020",
-          "name": "Ufc 328 | 04:00 10/05",
+          "id": "thapcam-e6aeeba82c",
+          "name": "Panasonic Panthers vs JTEKT | 16:05 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-680fe3b020",
+              "id": "src-e6aeeba82c",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-680fe3b020",
-                  "name": "Ufc 328",
+                  "id": "ct-e6aeeba82c",
+                  "name": "Panasonic Panthers vs JTEKT",
                   "streams": [
                     {
-                      "id": "st-680fe3b020",
+                      "id": "st-e6aeeba82c",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6db008db71",
-                          "name": "BLV Người Rừng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ff9c6c51ddc_148/index.m3u8?expire=1778964204&sign=667fd987c47f87575d1002bb64b9c230",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -3354,26 +3255,34 @@
             }
           ],
           "org_metadata": {
-            "league": "Ufc 328",
-            "team_a": "Ufc 328",
-            "team_b": "",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-dev/categories/2025/04/04/c0c91a80ab09a27d4a216f92292c8327.png",
-            "logo_b": "",
-            "time": "04:00 10/05",
+            "league": "SV.League",
+            "team_a": "Panasonic Panthers",
+            "team_b": "JTEKT",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/0e98633c074063cfe9920c5258c67cc0.jpg",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/81fabb32dd005505e2dea6be18af5531.png",
+            "time": "16:05 10/05",
             "blv": "BLV Người Rừng",
-            "is_live": true,
-            "cate_name": "Võ Thuật"
+            "is_live": false,
+            "cate_name": "Bóng chuyền"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-680fe3b020_4e77becf_20260510.png?v=4e77becf",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e6aeeba82c_3e419951_20260510.png?v=3e419951",
             "width": 1600,
             "height": 1200
           }
         }
       ]
+    },
+    {
+      "id": "grp-578f80eb49",
+      "name": "🥊 Võ Thuật",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": []
     },
     {
       "id": "grp-7873677346",
