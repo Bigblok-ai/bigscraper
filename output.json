@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-6e8cf90aa0",
-          "name": "Kashiwa Reysol vs Kawasaki Frontale | 14:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6e8cf90aa0",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6e8cf90aa0",
-                  "name": "Kashiwa Reysol vs Kawasaki Frontale",
-                  "streams": [
-                    {
-                      "id": "st-6e8cf90aa0",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8a4f5bfff",
-                          "name": "BLV Người Điên",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a00278551ddc_1984/index.m3u8?expire=1778999813&sign=a98ef979f8e550e3c04a776e28f43f12",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Kashiwa Reysol",
-            "team_b": "Kawasaki Frontale",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d272859d78eb8ca7a14753f4293fbf45.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/937795c0851c1e794e96a5cb660fcd59.png",
-            "time": "14:00 10/05",
-            "blv": "BLV Người Điên",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6e8cf90aa0_beb68a39_20260510.png?v=beb68a39",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-366bc6b04b",
           "name": "Nagoya Grampus vs Kyoto Sanga | 14:00 10/05",
@@ -2511,11 +2440,82 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-30b4891d7b",
+          "name": "Casper Ruud vs Jiri Lehecka | 16:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-30b4891d7b",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-30b4891d7b",
+                  "name": "Casper Ruud vs Jiri Lehecka",
+                  "streams": [
+                    {
+                      "id": "st-30b4891d7b",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1e416b13d6",
+                          "name": "BLV Người Hầu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a0047de51ddc_9657/index.m3u8?expire=1779008094&sign=4e793d9a59a06ad912df55215cd211bf",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Rome, Italy Men Singles",
+            "team_a": "Casper Ruud",
+            "team_b": "Jiri Lehecka",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/74333a05a20c9c27863391ba5ba2024e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e2d186170a9c0f8810834319a4543a66.png",
+            "time": "16:00 10/05",
+            "blv": "BLV Người Hầu",
+            "is_live": true,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-30b4891d7b_108344b9_20260510.png?v=108344b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-693375ecb0",
           "name": "Alexander Blockx vs Alexander Zverev | 18:00 10/05",
@@ -2740,7 +2740,7 @@
     },
     {
       "id": "grp-5cf95d73f3",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2753,10 +2753,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2771,7 +2771,25 @@
                     {
                       "id": "st-e6aeeba82c",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-83cc037155",
+                          "name": "BLV Người Rừng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a0043e4137e4_148/index.m3u8?expire=1779007076&sign=30dd9e7f8abcac9e9d262f9881648e4f",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2786,7 +2804,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/81fabb32dd005505e2dea6be18af5531.png",
             "time": "16:05 10/05",
             "blv": "BLV Người Rừng",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng chuyền"
           },
           "image": {
