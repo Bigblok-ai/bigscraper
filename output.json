@@ -2247,82 +2247,11 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-9def964d9d",
-          "name": "Learner Tien vs Alexander Bublik | 22:50 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9def964d9d",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9def964d9d",
-                  "name": "Learner Tien vs Alexander Bublik",
-                  "streams": [
-                    {
-                      "id": "st-9def964d9d",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3d28498b62",
-                          "name": "BLV Người Hầu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a008883137e5_9657/index.m3u8?expire=1779024643&sign=7bee6dde13752345b018071d6cc4c3be",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Learner Tien",
-            "team_b": "Alexander Bublik",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/Fuue3ODA1VOSiquEuTM6LXhpoD4b",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/48b5ceec7c7af6986d4b60420aeaf160.png",
-            "time": "22:50 10/05",
-            "blv": "BLV Người Hầu",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9def964d9d_266e3cd7_20260511.png?v=266e3cd7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-4dd392ec4b",
           "name": "Matteo Arnaldi vs Rafael Jodar | 01:10 11/05",
