@@ -11,153 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (12 LIVE)",
+      "name": "⚽ Bóng Đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-c4037fe3dc",
-          "name": "Hong Linh Ha Tinh vs The Cong Viettel | 18:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c4037fe3dc",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-c4037fe3dc",
-                  "name": "Hong Linh Ha Tinh vs The Cong Viettel",
-                  "streams": [
-                    {
-                      "id": "st-c4037fe3dc",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-72ff1305e7",
-                          "name": "BLV Chân Đất",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a005f8c51ddc_145/index.m3u8?expire=1779014156&sign=fad9944b8a6960d4aa89d15fccb07247",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "Hong Linh Ha Tinh",
-            "team_b": "The Cong Viettel",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/83dd94c5ca68e8f9a3980f036afcb511.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/840e2d7165cf2a34ec6c65a1fd9b58a9.png",
-            "time": "18:00 10/05",
-            "blv": "BLV Chân Đất",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c4037fe3dc_3d384aed_20260510.png?v=3d384aed",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-034da413c2",
-          "name": "Cong An Ho Chi Minh City vs Song Lam Nghe An | 18:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-034da413c2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-034da413c2",
-                  "name": "Cong An Ho Chi Minh City vs Song Lam Nghe An",
-                  "streams": [
-                    {
-                      "id": "st-034da413c2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-37892e43c0",
-                          "name": "BLV Tôn Quyền",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a003b8851ddc_793/index.m3u8?expire=1779004936&sign=1beff79cc8fe788839df84c8d8940234",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "Cong An Ho Chi Minh City",
-            "team_b": "Song Lam Nghe An",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/99dd3ac7267c0e3870d9ad785e6f9661.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7f95b001711ce3978d498602e1d2c9fd.png",
-            "time": "18:00 10/05",
-            "blv": "BLV Tôn Quyền",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-034da413c2_b5eb6efb_20260510.png?v=b5eb6efb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-3f62bf69ab",
           "name": "Beijing Guoan FC vs Shanghai Port FC | 18:35 10/05",
@@ -301,77 +159,6 @@
           }
         },
         {
-          "id": "thapcam-51a85a9608",
-          "name": "Qingdao Hainiu FC vs Dalian Yingbo FC | 19:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-51a85a9608",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-51a85a9608",
-                  "name": "Qingdao Hainiu FC vs Dalian Yingbo FC",
-                  "streams": [
-                    {
-                      "id": "st-51a85a9608",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b18cc42f86",
-                          "name": "BLV Người Đá",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a007061137e4_19092/index.m3u8?expire=1779018465&sign=518d8192d364d2c4d7520edcf9395b0f",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Football Super League",
-            "team_a": "Qingdao Hainiu FC",
-            "team_b": "Dalian Yingbo FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c1bc80f45a0bf86310ec6e56980c1757.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0e5467034917e26c6e60a7162711c150.png",
-            "time": "19:00 10/05",
-            "blv": "BLV Người Đá",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-51a85a9608_47ffedb0_20260510.png?v=47ffedb0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-8bdd66de5f",
           "name": "RCD Mallorca vs Villarreal CF | 19:00 10/05",
           "type": "single",
@@ -438,6 +225,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8bdd66de5f_b575ff1a_20260510.png?v=b575ff1a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-51a85a9608",
+          "name": "Qingdao Hainiu FC vs Dalian Yingbo FC | 19:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-51a85a9608",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-51a85a9608",
+                  "name": "Qingdao Hainiu FC vs Dalian Yingbo FC",
+                  "streams": [
+                    {
+                      "id": "st-51a85a9608",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b18cc42f86",
+                          "name": "BLV Người Đá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a007061137e4_19092/index.m3u8?expire=1779018465&sign=518d8192d364d2c4d7520edcf9395b0f",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Football Super League",
+            "team_a": "Qingdao Hainiu FC",
+            "team_b": "Dalian Yingbo FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c1bc80f45a0bf86310ec6e56980c1757.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0e5467034917e26c6e60a7162711c150.png",
+            "time": "19:00 10/05",
+            "blv": "BLV Người Đá",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-51a85a9608_47ffedb0_20260510.png?v=47ffedb0",
             "width": 1600,
             "height": 1200
           }
@@ -2429,8 +2287,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-fac99ddcf7",
-          "name": "Learner Tien vs Alexander Bublik | 21:00 10/05",
+          "id": "thapcam-368f970cc6",
+          "name": "Learner Tien vs Alexander Bublik | 21:05 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2444,15 +2302,15 @@
           ],
           "sources": [
             {
-              "id": "src-fac99ddcf7",
+              "id": "src-368f970cc6",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-fac99ddcf7",
+                  "id": "ct-368f970cc6",
                   "name": "Learner Tien vs Alexander Bublik",
                   "streams": [
                     {
-                      "id": "st-fac99ddcf7",
+                      "id": "st-368f970cc6",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -2467,7 +2325,7 @@
             "team_b": "Alexander Bublik",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/Fuue3ODA1VOSiquEuTM6LXhpoD4b",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/48b5ceec7c7af6986d4b60420aeaf160.png",
-            "time": "21:00 10/05",
+            "time": "21:05 10/05",
             "blv": "BLV Người Hầu",
             "is_live": false,
             "cate_name": "Tennis"
@@ -2476,7 +2334,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-fac99ddcf7_266e3cd7_20260510.png?v=266e3cd7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-368f970cc6_266e3cd7_20260510.png?v=266e3cd7",
             "width": 1600,
             "height": 1200
           }
