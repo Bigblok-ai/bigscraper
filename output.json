@@ -88,77 +88,6 @@
           }
         },
         {
-          "id": "thapcam-9be0ed07d2",
-          "name": "Angers SCO vs RC Strasbourg Alsace | 02:00 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9be0ed07d2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9be0ed07d2",
-                  "name": "Angers SCO vs RC Strasbourg Alsace",
-                  "streams": [
-                    {
-                      "id": "st-9be0ed07d2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-46057691b0",
-                          "name": "BLV Người Rừng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a00d0d8137e5_148/index.m3u8?expire=1779043160&sign=3c9b48801590b4a90e041e56a38464e7",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "Angers SCO",
-            "team_b": "RC Strasbourg Alsace",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/526150064f4f983d670deb33fa6385b6.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/998db478bf7c06d5817bf846987a0d0a.png",
-            "time": "02:00 11/05",
-            "blv": "BLV Người Rừng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9be0ed07d2_a07fcb62_20260511.png?v=a07fcb62",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-b73248e654",
           "name": "AJ Auxerre vs OGC Nice | 02:00 11/05",
           "type": "single",
@@ -443,6 +372,77 @@
           }
         },
         {
+          "id": "thapcam-a9bc686547",
+          "name": "Paris Saint Germain vs Stade Brestois 29 | 02:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a9bc686547",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-a9bc686547",
+                  "name": "Paris Saint Germain vs Stade Brestois 29",
+                  "streams": [
+                    {
+                      "id": "st-a9bc686547",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9dbd2a3371",
+                          "name": "BLV Lềnh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a00cdf051ddc_1549/index.m3u8?expire=1779042416&sign=8485fb67925ab84fbac5883522e8f27b",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "Paris Saint Germain",
+            "team_b": "Stade Brestois 29",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3b720f181ce9993f9422d276acf7b292.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bb7e6346a3860008e4ff266ba3b655e8.png",
+            "time": "02:00 11/05",
+            "blv": "BLV Lềnh",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a9bc686547_dabae868_20260511.png?v=dabae868",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-7faadc6fe0",
           "name": "Stade Rennais FC vs Paris FC | 02:00 11/05",
           "type": "single",
@@ -690,8 +690,8 @@
           }
         },
         {
-          "id": "thapcam-a9bc686547",
-          "name": "Paris Saint Germain vs Stade Brestois 29 | 02:00 11/05",
+          "id": "thapcam-9be0ed07d2",
+          "name": "Angers SCO vs RC Strasbourg Alsace | 02:00 11/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -705,23 +705,23 @@
           ],
           "sources": [
             {
-              "id": "src-a9bc686547",
+              "id": "src-9be0ed07d2",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-a9bc686547",
-                  "name": "Paris Saint Germain vs Stade Brestois 29",
+                  "id": "ct-9be0ed07d2",
+                  "name": "Angers SCO vs RC Strasbourg Alsace",
                   "streams": [
                     {
-                      "id": "st-a9bc686547",
+                      "id": "st-9be0ed07d2",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-9dbd2a3371",
-                          "name": "BLV Lềnh",
+                          "id": "lnk-46057691b0",
+                          "name": "BLV Người Rừng",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a00cdf051ddc_1549/index.m3u8?expire=1779042416&sign=8485fb67925ab84fbac5883522e8f27b",
+                          "url": "https://cdn-hls.phogatv8.com/live/6a00d0d8137e5_148/index.m3u8?expire=1779043160&sign=3c9b48801590b4a90e041e56a38464e7",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -742,12 +742,12 @@
           ],
           "org_metadata": {
             "league": "French Ligue 1",
-            "team_a": "Paris Saint Germain",
-            "team_b": "Stade Brestois 29",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3b720f181ce9993f9422d276acf7b292.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bb7e6346a3860008e4ff266ba3b655e8.png",
+            "team_a": "Angers SCO",
+            "team_b": "RC Strasbourg Alsace",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/526150064f4f983d670deb33fa6385b6.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/998db478bf7c06d5817bf846987a0d0a.png",
             "time": "02:00 11/05",
-            "blv": "BLV Lềnh",
+            "blv": "BLV Người Rừng",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -755,7 +755,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a9bc686547_dabae868_20260511.png?v=dabae868",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9be0ed07d2_a07fcb62_20260511.png?v=a07fcb62",
             "width": 1600,
             "height": 1200
           }
@@ -1026,59 +1026,6 @@
           }
         },
         {
-          "id": "thapcam-bef26b2c51",
-          "name": "North Korea Women U17 vs Thailand U17 Women | 18:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bef26b2c51",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-bef26b2c51",
-                  "name": "North Korea Women U17 vs Thailand U17 Women",
-                  "streams": [
-                    {
-                      "id": "st-bef26b2c51",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "North Korea Women U17",
-            "team_b": "Thailand U17 Women",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f5c29f4d0153b28ef8802fe964122c65.png",
-            "time": "18:30 11/05",
-            "blv": "BLV Max",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bef26b2c51_440bbda3_20260511.png?v=440bbda3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-395b3fbaa9",
           "name": "China U17 Women vs India Women U17 | 18:30 11/05",
           "type": "single",
@@ -1127,6 +1074,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-395b3fbaa9_c0cef920_20260511.png?v=c0cef920",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-bef26b2c51",
+          "name": "North Korea Women U17 vs Thailand U17 Women | 18:30 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bef26b2c51",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-bef26b2c51",
+                  "name": "North Korea Women U17 vs Thailand U17 Women",
+                  "streams": [
+                    {
+                      "id": "st-bef26b2c51",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "North Korea Women U17",
+            "team_b": "Thailand U17 Women",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f5c29f4d0153b28ef8802fe964122c65.png",
+            "time": "18:30 11/05",
+            "blv": "BLV Max",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bef26b2c51_440bbda3_20260511.png?v=440bbda3",
             "width": 1600,
             "height": 1200
           }
