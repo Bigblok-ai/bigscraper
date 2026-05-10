@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-df9c3e2a3b",
-          "name": "Yokohama F. Marinos vs Kashima Antlers | 12:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-df9c3e2a3b",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-df9c3e2a3b",
-                  "name": "Yokohama F. Marinos vs Kashima Antlers",
-                  "streams": [
-                    {
-                      "id": "st-df9c3e2a3b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f475a22e78",
-                          "name": "BLV Siêu Quậy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a0009af137e4_26/index.m3u8?expire=1778992175&sign=defaabbf5b2f1a941001fd5c3c0e7fab",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Yokohama F. Marinos",
-            "team_b": "Kashima Antlers",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/78ddaaa79d9502f5e2df0fbb6261f937.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/90ca524b1b1c17911b1bf8e425c8d96d.png",
-            "time": "12:00 10/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-df9c3e2a3b_643910cc_20260510.png?v=643910cc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-0d4835fac6",
           "name": "Gamba Osaka vs Sanfrecce Hiroshima | 13:00 10/05",
