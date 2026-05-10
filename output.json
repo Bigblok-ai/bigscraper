@@ -88,8 +88,8 @@
           }
         },
         {
-          "id": "thapcam-885e47f7be",
-          "name": "San Jose Earthquakes vs Vancouver Whitecaps | 09:40 10/05",
+          "id": "thapcam-cc44796a18",
+          "name": "Zweigen Kanazawa FC vs Albirex Niigata | 11:30 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -103,23 +103,23 @@
           ],
           "sources": [
             {
-              "id": "src-885e47f7be",
+              "id": "src-cc44796a18",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-885e47f7be",
-                  "name": "San Jose Earthquakes vs Vancouver Whitecaps",
+                  "id": "ct-cc44796a18",
+                  "name": "Zweigen Kanazawa FC vs Albirex Niigata",
                   "streams": [
                     {
-                      "id": "st-885e47f7be",
+                      "id": "st-cc44796a18",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-7b22bdc859",
-                          "name": "BLV Tôn Quyền",
+                          "id": "lnk-c1fe0dad84",
+                          "name": "BLV Người Lạ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/69ffe1dc137e4_793/index.m3u8?expire=1778981980&sign=bdedf910662eea29afb4874dc708a40f",
+                          "url": "https://cdn-hls.phogatv8.com/live/6a0008ff137e4_11241/index.m3u8?expire=1778991999&sign=d6aa63fb10187d9153896cbec5a72016",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -139,13 +139,13 @@
             }
           ],
           "org_metadata": {
-            "league": "United States Major League Soccer",
-            "team_a": "San Jose Earthquakes",
-            "team_b": "Vancouver Whitecaps",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7079d708b4e391c0c26b20da7b2fb32c.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/527dcdb6260004a2c8f61fae9345f133.png",
-            "time": "09:40 10/05",
-            "blv": "BLV Tôn Quyền",
+            "league": "J2/J3 100 Year Vision League",
+            "team_a": "Zweigen Kanazawa FC",
+            "team_b": "Albirex Niigata",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/646d000d7498d416110aad94ff53e8fb.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a4bfaa33f9e24bdb4a4952a0b4aab142.png",
+            "time": "11:30 10/05",
+            "blv": "BLV Người Lạ",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -153,7 +153,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-885e47f7be_3b862e0f_20260510.png?v=3b862e0f",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cc44796a18_c3deb498_20260510.png?v=c3deb498",
             "width": 1600,
             "height": 1200
           }
@@ -3277,10 +3277,27 @@
                       "stream_links": [
                         {
                           "id": "lnk-6db008db71",
-                          "name": "BLV Người Rừng",
+                          "name": "Sóng Sạch 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.phogatv8.com/live/69ff9c6c51ddc_148/index.m3u8?expire=1778964204&sign=667fd987c47f87575d1002bb64b9c230",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ced9505b76",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a0009a7137e4_2/index.m3u8?expire=1778992167&sign=45b10b1395e5f9dc1fc6251524ac47c7",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3306,7 +3323,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-dev/categories/2025/04/04/c0c91a80ab09a27d4a216f92292c8327.png",
             "logo_b": "",
             "time": "07:00 10/05",
-            "blv": "BLV Người Rừng",
+            "blv": "Sóng Sạch 1",
             "is_live": true,
             "cate_name": "Võ Thuật"
           },
