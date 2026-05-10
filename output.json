@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-9485045bc2",
-          "name": "Hellas Verona vs Como | 17:30 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9485045bc2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9485045bc2",
-                  "name": "Hellas Verona vs Como",
-                  "streams": [
-                    {
-                      "id": "st-9485045bc2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c185229401",
-                          "name": "BLV Người Nhện",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a005e0051ddc_32/index.m3u8?expire=1779013760&sign=4d6a55e41e7605f458c9766cde425a58",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Hellas Verona",
-            "team_b": "Como",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b8e39abb18bb1c69396c59ff73ecf124.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5f7059f40965e5a2cc00987e6bac2f32.png",
-            "time": "17:30 10/05",
-            "blv": "BLV Người Nhện",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9485045bc2_29f9090c_20260510.png?v=29f9090c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-c4037fe3dc",
           "name": "Hong Linh Ha Tinh vs The Cong Viettel | 18:00 10/05",
@@ -2353,85 +2282,14 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-693375ecb0",
-          "name": "Alexander Blockx vs Alexander Zverev | 18:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-693375ecb0",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-693375ecb0",
-                  "name": "Alexander Blockx vs Alexander Zverev",
-                  "streams": [
-                    {
-                      "id": "st-693375ecb0",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e85e3521a1",
-                          "name": "BLV Người Hầu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a00601751ddc_9657/index.m3u8?expire=1779014295&sign=34b98d8b18c5db3435351fe702f22062",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Alexander Blockx",
-            "team_b": "Alexander Zverev",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c071d420407817f1ae8548b0f5e89b3c.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/Fs2AoS8fSPu9qB9HdwSDwQVAICOz",
-            "time": "18:00 10/05",
-            "blv": "BLV Người Hầu",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-693375ecb0_4ee432e9_20260510.png?v=4ee432e9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-62acde5c9c",
-          "name": "Learner Tien vs Alexander Bublik | 20:30 10/05",
+          "id": "thapcam-3cb2bf1301",
+          "name": "Learner Tien vs Alexander Bublik | 21:10 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2445,15 +2303,15 @@
           ],
           "sources": [
             {
-              "id": "src-62acde5c9c",
+              "id": "src-3cb2bf1301",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-62acde5c9c",
+                  "id": "ct-3cb2bf1301",
                   "name": "Learner Tien vs Alexander Bublik",
                   "streams": [
                     {
-                      "id": "st-62acde5c9c",
+                      "id": "st-3cb2bf1301",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -2468,7 +2326,7 @@
             "team_b": "Alexander Bublik",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/Fuue3ODA1VOSiquEuTM6LXhpoD4b",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/48b5ceec7c7af6986d4b60420aeaf160.png",
-            "time": "20:30 10/05",
+            "time": "21:10 10/05",
             "blv": "BLV Người Hầu",
             "is_live": false,
             "cate_name": "Tennis"
@@ -2477,7 +2335,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-62acde5c9c_266e3cd7_20260510.png?v=266e3cd7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3cb2bf1301_266e3cd7_20260510.png?v=266e3cd7",
             "width": 1600,
             "height": 1200
           }
