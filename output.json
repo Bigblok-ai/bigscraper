@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-585cb274a6",
-          "name": "Cong An Ha Noi FC vs Thep Xanh Nam Dinh FC | 19:15 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-585cb274a6",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-585cb274a6",
-                  "name": "Cong An Ha Noi FC vs Thep Xanh Nam Dinh FC",
-                  "streams": [
-                    {
-                      "id": "st-585cb274a6",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d916f65799",
-                          "name": "BLV Người Lạ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a0071fd137e4_11241/index.m3u8?expire=1779018877&sign=8d329a4ff0e908c34e590c41fcf22a3f",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "Cong An Ha Noi FC",
-            "team_b": "Thep Xanh Nam Dinh FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f3dde7370cf875e4e657b4331b1b4a31.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bc5db4dd418cb566a4475649876b55bb.png",
-            "time": "19:15 10/05",
-            "blv": "BLV Người Lạ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-585cb274a6_0224db80_20260510.png?v=0224db80",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-9a777d9f62",
           "name": "Cremonese vs Pisa | 20:00 10/05",
@@ -2299,7 +2228,7 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2312,10 +2241,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2330,7 +2259,25 @@
                     {
                       "id": "st-a0d7e7dea9",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-3d28498b62",
+                          "name": "BLV Người Hầu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a008883137e5_9657/index.m3u8?expire=1779024643&sign=7bee6dde13752345b018071d6cc4c3be",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2345,7 +2292,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/48b5ceec7c7af6986d4b60420aeaf160.png",
             "time": "21:30 10/05",
             "blv": "BLV Người Hầu",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Tennis"
           },
           "image": {
