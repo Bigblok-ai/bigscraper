@@ -11,11 +11,82 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-bb250cf1ed",
+          "name": "FC Tokyo vs Tokyo Verdy | 13:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bb250cf1ed",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-bb250cf1ed",
+                  "name": "FC Tokyo vs Tokyo Verdy",
+                  "streams": [
+                    {
+                      "id": "st-bb250cf1ed",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-31268cf0f5",
+                          "name": "BLV Tôn Quyền",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a003a1051ddc_793/index.m3u8?expire=1779004560&sign=3c5d74d4f12be9777d2abe6ee36a78cb",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "FC Tokyo",
+            "team_b": "Tokyo Verdy",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/333df39860930a21cf72b4e9664723ab.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2a8adb34e764602183a7bee8f51726e4.png",
+            "time": "13:00 10/05",
+            "blv": "BLV Tôn Quyền",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bb250cf1ed_c48d4c32_20260510.png?v=c48d4c32",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-6e8cf90aa0",
           "name": "Kashiwa Reysol vs Kawasaki Frontale | 14:00 10/05",
