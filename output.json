@@ -2299,56 +2299,38 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-368f970cc6",
-          "name": "Learner Tien vs Alexander Bublik | 21:05 10/05",
+          "id": "thapcam-a0d7e7dea9",
+          "name": "Learner Tien vs Alexander Bublik | 21:30 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-368f970cc6",
+              "id": "src-a0d7e7dea9",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-368f970cc6",
+                  "id": "ct-a0d7e7dea9",
                   "name": "Learner Tien vs Alexander Bublik",
                   "streams": [
                     {
-                      "id": "st-368f970cc6",
+                      "id": "st-a0d7e7dea9",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3d28498b62",
-                          "name": "BLV Người Hầu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a008883137e5_9657/index.m3u8?expire=1779024643&sign=7bee6dde13752345b018071d6cc4c3be",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -2361,16 +2343,16 @@
             "team_b": "Alexander Bublik",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/Fuue3ODA1VOSiquEuTM6LXhpoD4b",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/48b5ceec7c7af6986d4b60420aeaf160.png",
-            "time": "21:05 10/05",
+            "time": "21:30 10/05",
             "blv": "BLV Người Hầu",
-            "is_live": true,
+            "is_live": false,
             "cate_name": "Tennis"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-368f970cc6_266e3cd7_20260510.png?v=266e3cd7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a0d7e7dea9_266e3cd7_20260510.png?v=266e3cd7",
             "width": 1600,
             "height": 1200
           }
@@ -2517,99 +2499,11 @@
     },
     {
       "id": "grp-776a2d64f8",
-      "name": "🏓 Bóng Bàn (1 LIVE)",
+      "name": "🏓 Bóng Bàn",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-0af91725e3",
-          "name": "China vs Japan | 17:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0af91725e3",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-0af91725e3",
-                  "name": "China vs Japan",
-                  "streams": [
-                    {
-                      "id": "st-0af91725e3",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8fbb7007b",
-                          "name": "Sóng Sạch 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a0056dd137e4_742/index.m3u8?expire=1779011933&sign=58487441f5ca0072f35ad4424d904ba6",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ea5d699564",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a0057bb51ddc_2/index.m3u8?expire=1779012155&sign=7c96bd8a52f92be1d1d109ac7224c1c3",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ITTF World Team Table Tennis Championships Finals London 2026",
-            "team_a": "China",
-            "team_b": "Japan",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2349bbb109057db855c05eb903948d73.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/2272dc6d96fca4a7cd6f9f92e45e51ce.png",
-            "time": "17:00 10/05",
-            "blv": "Sóng Sạch 1",
-            "is_live": true,
-            "cate_name": "Bóng bàn"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0af91725e3_d08e3b84_20260510.png?v=d08e3b84",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-e81086a5d7",
           "name": "Japan vs China | 22:00 10/05",
