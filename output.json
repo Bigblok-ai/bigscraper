@@ -230,6 +230,77 @@
           }
         },
         {
+          "id": "thapcam-9a777d9f62",
+          "name": "Cremonese vs Pisa | 20:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9a777d9f62",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-9a777d9f62",
+                  "name": "Cremonese vs Pisa",
+                  "streams": [
+                    {
+                      "id": "st-9a777d9f62",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-08618ac3b0",
+                          "name": "BLV Người Băng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a0079d551ddc_11/index.m3u8?expire=1779020885&sign=99946d0a33936c2ac1e1f13cf4dd8505",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Cremonese",
+            "team_b": "Pisa",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0b0e25267dabd15c405070329df5fbdb.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7ca5de14056c7290f6787e0943aa11ad.png",
+            "time": "20:00 10/05",
+            "blv": "BLV Người Băng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9a777d9f62_c58e6f03_20260510.png?v=c58e6f03",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-33b6adc027",
           "name": "Fiorentina vs Genoa | 20:00 10/05",
           "type": "single",
@@ -384,77 +455,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d4755aae0c_6647931c_20260510.png?v=6647931c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-9a777d9f62",
-          "name": "Cremonese vs Pisa | 20:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9a777d9f62",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9a777d9f62",
-                  "name": "Cremonese vs Pisa",
-                  "streams": [
-                    {
-                      "id": "st-9a777d9f62",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-08618ac3b0",
-                          "name": "BLV Người Băng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a0079d551ddc_11/index.m3u8?expire=1779020885&sign=99946d0a33936c2ac1e1f13cf4dd8505",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Cremonese",
-            "team_b": "Pisa",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0b0e25267dabd15c405070329df5fbdb.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7ca5de14056c7290f6787e0943aa11ad.png",
-            "time": "20:00 10/05",
-            "blv": "BLV Người Băng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9a777d9f62_c58e6f03_20260510.png?v=c58e6f03",
             "width": 1600,
             "height": 1200
           }
@@ -1926,6 +1926,112 @@
           }
         },
         {
+          "id": "thapcam-0b529450da",
+          "name": "Vietnam U17 Women vs Australia Women U17 | 14:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0b529450da",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-0b529450da",
+                  "name": "Vietnam U17 Women vs Australia Women U17",
+                  "streams": [
+                    {
+                      "id": "st-0b529450da",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Vietnam U17 Women",
+            "team_b": "Australia Women U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0062546fba2350caff9e4b31101550c4.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f476c5c90ef26f3257a4a6c17374c1bc.png",
+            "time": "14:00 11/05",
+            "blv": "BLV Siêu Bướng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0b529450da_272ae867_20260510.png?v=272ae867",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-509537720d",
+          "name": "Japan Women U17 vs Korea Rep. Women U17 | 14:00 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-509537720d",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-509537720d",
+                  "name": "Japan Women U17 vs Korea Rep. Women U17",
+                  "streams": [
+                    {
+                      "id": "st-509537720d",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Japan Women U17",
+            "team_b": "Korea Rep. Women U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a5cc0f9ca35d53a5332bf84dc9b79104.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/566b83e60e3ffdb744bc3d1843fb4311.png",
+            "time": "14:00 11/05",
+            "blv": "BLV Cá Mập",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-509537720d_5dd3b744_20260510.png?v=5dd3b744",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-4430560dda",
           "name": "Akron Togliatti vs FK Rostov | 17:00 11/05",
           "type": "single",
@@ -2157,7 +2263,7 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2170,10 +2276,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2188,7 +2294,25 @@
                     {
                       "id": "st-368f970cc6",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-3d28498b62",
+                          "name": "BLV Người Hầu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a008883137e5_9657/index.m3u8?expire=1779024643&sign=7bee6dde13752345b018071d6cc4c3be",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2203,7 +2327,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/48b5ceec7c7af6986d4b60420aeaf160.png",
             "time": "21:05 10/05",
             "blv": "BLV Người Hầu",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Tennis"
           },
           "image": {
