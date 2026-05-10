@@ -88,77 +88,6 @@
           }
         },
         {
-          "id": "thapcam-416809bfa8",
-          "name": "Hoang Anh Gia Lai vs PVF CAND | 17:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-416809bfa8",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-416809bfa8",
-                  "name": "Hoang Anh Gia Lai vs PVF CAND",
-                  "streams": [
-                    {
-                      "id": "st-416809bfa8",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-883520cf2a",
-                          "name": "BLV Lềnh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a004f93137e4_1549/index.m3u8?expire=1779010067&sign=bbcf50d5066888557bb4c7da2fde3697",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "Hoang Anh Gia Lai",
-            "team_b": "PVF CAND",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/df2ae58b9e658494b940b0bd782901b8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/16b802abec41440eb4996fc68f16125b.png",
-            "time": "17:00 10/05",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-416809bfa8_e3b3478d_20260510.png?v=e3b3478d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-1fd6986b91",
           "name": "Shenzhen Peng City FC vs Shandong Taishan FC | 17:00 10/05",
           "type": "single",
@@ -225,6 +154,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1fd6986b91_565c7588_20260510.png?v=565c7588",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-416809bfa8",
+          "name": "Hoang Anh Gia Lai vs PVF CAND | 17:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-416809bfa8",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-416809bfa8",
+                  "name": "Hoang Anh Gia Lai vs PVF CAND",
+                  "streams": [
+                    {
+                      "id": "st-416809bfa8",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-883520cf2a",
+                          "name": "BLV Lềnh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a004f93137e4_1549/index.m3u8?expire=1779010067&sign=bbcf50d5066888557bb4c7da2fde3697",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "Hoang Anh Gia Lai",
+            "team_b": "PVF CAND",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/df2ae58b9e658494b940b0bd782901b8.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/16b802abec41440eb4996fc68f16125b.png",
+            "time": "17:00 10/05",
+            "blv": "BLV Lềnh",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-416809bfa8_e3b3478d_20260510.png?v=e3b3478d",
             "width": 1600,
             "height": 1200
           }
