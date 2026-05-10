@@ -2922,61 +2922,7 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "thapcam-44425f5433",
-          "name": "Los Angeles Lakers vs Oklahoma City Thunder | 07:30 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-44425f5433",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-44425f5433",
-                  "name": "Los Angeles Lakers vs Oklahoma City Thunder",
-                  "streams": [
-                    {
-                      "id": "st-44425f5433",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Los Angeles Lakers",
-            "team_b": "Oklahoma City Thunder",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fa6f985041ec3f9729172380ae9cebf8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/319e03be75fee4098a83b1d0e01940b7.png",
-            "time": "07:30 10/05",
-            "blv": "BLV Người Sói",
-            "is_live": false,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-44425f5433_570604a3_20260510.png?v=570604a3",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-0b6b498c58",
