@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (11 LIVE)",
+      "name": "⚽ Bóng Đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,77 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3f62bf69ab_777d8288_20260510.png?v=777d8288",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-bcae00f02e",
-          "name": "Zhejiang Professional FC vs Tianjin Jinmen Tiger FC | 18:35 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bcae00f02e",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-bcae00f02e",
-                  "name": "Zhejiang Professional FC vs Tianjin Jinmen Tiger FC",
-                  "streams": [
-                    {
-                      "id": "st-bcae00f02e",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cdc3067ae3",
-                          "name": "BLV Người Điên",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a0065f3137e4_1984/index.m3u8?expire=1779015795&sign=a970bc35a84e29e1ce9f7954b05f5448",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Football Super League",
-            "team_a": "Zhejiang Professional FC",
-            "team_b": "Tianjin Jinmen Tiger FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/cc1aef5e69e8d01ba3d3712f24040347.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e0080960b4e935d70f4037aaf3a0b917.png",
-            "time": "18:35 10/05",
-            "blv": "BLV Người Điên",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bcae00f02e_a73c798b_20260510.png?v=a73c798b",
             "width": 1600,
             "height": 1200
           }
