@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -88,8 +88,8 @@
           }
         },
         {
-          "id": "thapcam-3f364aa43c",
-          "name": "Spartak Moscow vs Rubin Kazan | 21:30 11/05",
+          "id": "thapcam-e80c4e069c",
+          "name": "Al Karkh vs Amanat Baghdad | 21:30 11/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -103,23 +103,23 @@
           ],
           "sources": [
             {
-              "id": "src-3f364aa43c",
+              "id": "src-e80c4e069c",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-3f364aa43c",
-                  "name": "Spartak Moscow vs Rubin Kazan",
+                  "id": "ct-e80c4e069c",
+                  "name": "Al Karkh vs Amanat Baghdad",
                   "streams": [
                     {
-                      "id": "st-3f364aa43c",
+                      "id": "st-e80c4e069c",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-3c1c1e837c",
-                          "name": "BLV Người Lạ",
+                          "id": "lnk-6f9f6da724",
+                          "name": "BLV Người Cò",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a01ddef51ddc_11241/index.m3u8?expire=1779112047&sign=e988393a316d48cb4d6f37cf72eb8005",
+                          "url": "https://cdn-hls.phogatv8.com/live/6a01e1e751ddd_14559/index.m3u8?expire=1779113063&sign=111f960a47a572afc110b7cdea2dea09",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -139,13 +139,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Russian Premier League",
-            "team_a": "Spartak Moscow",
-            "team_b": "Rubin Kazan",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b989806732eaf15246ab56e07d0b8a2e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/db58fdf26d9c934236772a9721fa750b.png",
+            "league": "Iraq Stars League",
+            "team_a": "Al Karkh",
+            "team_b": "Amanat Baghdad",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/21f6e246791eccf1b9b3822f8d08c8d4.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/51314043c4560f92e05af70fd57035be.png",
             "time": "21:30 11/05",
-            "blv": "BLV Người Lạ",
+            "blv": "BLV Người Cò",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -153,7 +153,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3f364aa43c_58d88622_20260511.png?v=58d88622",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e80c4e069c_ba2288a7_20260511.png?v=ba2288a7",
             "width": 1600,
             "height": 1200
           }
@@ -230,8 +230,8 @@
           }
         },
         {
-          "id": "thapcam-e80c4e069c",
-          "name": "Al Karkh vs Amanat Baghdad | 21:30 11/05",
+          "id": "thapcam-3f364aa43c",
+          "name": "Spartak Moscow vs Rubin Kazan | 21:30 11/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -245,23 +245,23 @@
           ],
           "sources": [
             {
-              "id": "src-e80c4e069c",
+              "id": "src-3f364aa43c",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-e80c4e069c",
-                  "name": "Al Karkh vs Amanat Baghdad",
+                  "id": "ct-3f364aa43c",
+                  "name": "Spartak Moscow vs Rubin Kazan",
                   "streams": [
                     {
-                      "id": "st-e80c4e069c",
+                      "id": "st-3f364aa43c",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-6f9f6da724",
-                          "name": "BLV Người Cò",
+                          "id": "lnk-3c1c1e837c",
+                          "name": "BLV Người Lạ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a01e1e751ddd_14559/index.m3u8?expire=1779113063&sign=111f960a47a572afc110b7cdea2dea09",
+                          "url": "https://cdn-hls.phogatv8.com/live/6a01ddef51ddc_11241/index.m3u8?expire=1779112047&sign=e988393a316d48cb4d6f37cf72eb8005",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -281,13 +281,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Iraq Stars League",
-            "team_a": "Al Karkh",
-            "team_b": "Amanat Baghdad",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/21f6e246791eccf1b9b3822f8d08c8d4.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/51314043c4560f92e05af70fd57035be.png",
+            "league": "Russian Premier League",
+            "team_a": "Spartak Moscow",
+            "team_b": "Rubin Kazan",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b989806732eaf15246ab56e07d0b8a2e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/db58fdf26d9c934236772a9721fa750b.png",
             "time": "21:30 11/05",
-            "blv": "BLV Người Cò",
+            "blv": "BLV Người Lạ",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -295,78 +295,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e80c4e069c_ba2288a7_20260511.png?v=ba2288a7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-fbb3636d5e",
-          "name": "Al-Najaf vs Erbil SC | 21:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fbb3636d5e",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-fbb3636d5e",
-                  "name": "Al-Najaf vs Erbil SC",
-                  "streams": [
-                    {
-                      "id": "st-fbb3636d5e",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d0fabd1d27",
-                          "name": "BLV Chân Đất",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a01de59137e5_145/index.m3u8?expire=1779112153&sign=d3f8691a2e31448ddcbf689008ecbf72",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Iraq Stars League",
-            "team_a": "Al-Najaf",
-            "team_b": "Erbil SC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/eafc7aff48cafadff3f8aea277f437fe.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3a52398498773a8ed0006583046d8050.png",
-            "time": "21:30 11/05",
-            "blv": "BLV Chân Đất",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-fbb3636d5e_79ac2533_20260511.png?v=79ac2533",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3f364aa43c_58d88622_20260511.png?v=58d88622",
             "width": 1600,
             "height": 1200
           }
@@ -796,59 +725,6 @@
           }
         },
         {
-          "id": "thapcam-6830ae58c7",
-          "name": "Al Taawoun vs Al Ahli SFC | 01:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6830ae58c7",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6830ae58c7",
-                  "name": "Al Taawoun vs Al Ahli SFC",
-                  "streams": [
-                    {
-                      "id": "st-6830ae58c7",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al Taawoun",
-            "team_b": "Al Ahli SFC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/440da1fad5d16ada9a9742bf5d14c98e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a0a227a6100628d3213e1fc321acd4f2.png",
-            "time": "01:00 12/05",
-            "blv": "BLV Chân Đất",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6830ae58c7_f28af312_20260511.png?v=f28af312",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-0c31fd81a4",
           "name": "Fotbal Club FCSB vs FC Unirea 2004 Slobozia | 01:00 12/05",
           "type": "single",
@@ -897,6 +773,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0c31fd81a4_91415cbc_20260511.png?v=91415cbc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-6830ae58c7",
+          "name": "Al Taawoun vs Al Ahli SFC | 01:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6830ae58c7",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-6830ae58c7",
+                  "name": "Al Taawoun vs Al Ahli SFC",
+                  "streams": [
+                    {
+                      "id": "st-6830ae58c7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al Taawoun",
+            "team_b": "Al Ahli SFC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/440da1fad5d16ada9a9742bf5d14c98e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a0a227a6100628d3213e1fc321acd4f2.png",
+            "time": "01:00 12/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6830ae58c7_f28af312_20260511.png?v=f28af312",
             "width": 1600,
             "height": 1200
           }
@@ -1114,6 +1043,59 @@
           }
         },
         {
+          "id": "thapcam-58640fd01e",
+          "name": "Benfica vs Sporting Braga | 02:15 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-58640fd01e",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-58640fd01e",
+                  "name": "Benfica vs Sporting Braga",
+                  "streams": [
+                    {
+                      "id": "st-58640fd01e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Portuguese Primera Liga",
+            "team_a": "Benfica",
+            "team_b": "Sporting Braga",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/78360445c12fa3fdc8b489486fff4eb6.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1fe75f826dab40e6e89cbe961c7e9116.png",
+            "time": "02:15 12/05",
+            "blv": "BLV Người Băng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-58640fd01e_f06f211c_20260511.png?v=f06f211c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-e247887671",
           "name": "CF Estrela Amadora SAD vs FC Famalicao | 02:15 12/05",
           "type": "single",
@@ -1167,8 +1149,8 @@
           }
         },
         {
-          "id": "thapcam-58640fd01e",
-          "name": "Benfica vs Sporting Braga | 02:15 12/05",
+          "id": "thapcam-de467cb853",
+          "name": "Incheon United Club vs Pohang Steelers | 17:30 12/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1182,15 +1164,15 @@
           ],
           "sources": [
             {
-              "id": "src-58640fd01e",
+              "id": "src-de467cb853",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-58640fd01e",
-                  "name": "Benfica vs Sporting Braga",
+                  "id": "ct-de467cb853",
+                  "name": "Incheon United Club vs Pohang Steelers",
                   "streams": [
                     {
-                      "id": "st-58640fd01e",
+                      "id": "st-de467cb853",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1200,13 +1182,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "Benfica",
-            "team_b": "Sporting Braga",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/78360445c12fa3fdc8b489486fff4eb6.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1fe75f826dab40e6e89cbe961c7e9116.png",
-            "time": "02:15 12/05",
-            "blv": "BLV Người Băng",
+            "league": "Korean K League 1",
+            "team_a": "Incheon United Club",
+            "team_b": "Pohang Steelers",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/36559689046e7d1d4f597c1a0bf9c5d6.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6f05c460789939ac83282bd0686446f1.png",
+            "time": "17:30 12/05",
+            "blv": "BLV Siêu Quậy",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1214,7 +1196,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-58640fd01e_f06f211c_20260511.png?v=f06f211c",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-de467cb853_5c41a853_20260511.png?v=5c41a853",
             "width": 1600,
             "height": 1200
           }
@@ -1326,59 +1308,6 @@
           }
         },
         {
-          "id": "thapcam-de467cb853",
-          "name": "Incheon United Club vs Pohang Steelers | 17:30 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-de467cb853",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-de467cb853",
-                  "name": "Incheon United Club vs Pohang Steelers",
-                  "streams": [
-                    {
-                      "id": "st-de467cb853",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Incheon United Club",
-            "team_b": "Pohang Steelers",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/36559689046e7d1d4f597c1a0bf9c5d6.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6f05c460789939ac83282bd0686446f1.png",
-            "time": "17:30 12/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-de467cb853_5c41a853_20260511.png?v=5c41a853",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-77da62adcb",
           "name": "FK Epitsentr Dunayivtsi vs Polissya Zhytomyr | 19:30 12/05",
           "type": "single",
@@ -1432,59 +1361,6 @@
           }
         },
         {
-          "id": "thapcam-bda228ae34",
-          "name": "Inter Turku vs JS Hercules | 21:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bda228ae34",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-bda228ae34",
-                  "name": "Inter Turku vs JS Hercules",
-                  "streams": [
-                    {
-                      "id": "st-bda228ae34",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Finland Suomen Cup",
-            "team_a": "Inter Turku",
-            "team_b": "JS Hercules",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f26fb30a9c60dd634d8b2f36afe0e8f1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ac53c099d618e999e1e521527307c15.png",
-            "time": "21:00 12/05",
-            "blv": "BLV Người Lạ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bda228ae34_caeb5cd5_20260511.png?v=caeb5cd5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-c4d8b0b3a9",
           "name": "El Gounah vs Kahraba Ismailia | 21:00 12/05",
           "type": "single",
@@ -1533,6 +1409,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c4d8b0b3a9_6f23ba81_20260511.png?v=6f23ba81",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-bda228ae34",
+          "name": "Inter Turku vs JS Hercules | 21:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bda228ae34",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-bda228ae34",
+                  "name": "Inter Turku vs JS Hercules",
+                  "streams": [
+                    {
+                      "id": "st-bda228ae34",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Finland Suomen Cup",
+            "team_a": "Inter Turku",
+            "team_b": "JS Hercules",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f26fb30a9c60dd634d8b2f36afe0e8f1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ac53c099d618e999e1e521527307c15.png",
+            "time": "21:00 12/05",
+            "blv": "BLV Người Lạ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bda228ae34_caeb5cd5_20260511.png?v=caeb5cd5",
             "width": 1600,
             "height": 1200
           }
@@ -1823,7 +1752,7 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1907,10 +1836,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1925,7 +1854,25 @@
                     {
                       "id": "st-471f150a02",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-3b47d6dbfb",
+                          "name": "BLV Người Sói",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a01e9b651ddd_742/index.m3u8?expire=1779115062&sign=ae6cd6321fb0c4dbfa8837f2aa7f18fb",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1940,7 +1887,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/38ff5f900772fc6de71f7cd43767f45a.png",
             "time": "21:55 11/05",
             "blv": "BLV Người Sói",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Tennis"
           },
           "image": {
