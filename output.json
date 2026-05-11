@@ -88,77 +88,6 @@
           }
         },
         {
-          "id": "thapcam-e434136c49",
-          "name": "Al-Kahrbaa Club vs Newroz SC | 21:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e434136c49",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e434136c49",
-                  "name": "Al-Kahrbaa Club vs Newroz SC",
-                  "streams": [
-                    {
-                      "id": "st-e434136c49",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6a6958c846",
-                          "name": "BLV Người Rừng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a01e31951ddd_148/index.m3u8?expire=1779113369&sign=a1f64d6139cc842e1875788f4b8ba221",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Iraq Stars League",
-            "team_a": "Al-Kahrbaa Club",
-            "team_b": "Newroz SC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/80e44a97384b61801716ab030c10bfd1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d24ce6a9273a1f719aa3b590e27a7a78.png",
-            "time": "21:30 11/05",
-            "blv": "BLV Người Rừng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e434136c49_a546a695_20260511.png?v=a546a695",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-3f364aa43c",
           "name": "Spartak Moscow vs Rubin Kazan | 21:30 11/05",
           "type": "single",
@@ -225,6 +154,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3f364aa43c_58d88622_20260511.png?v=58d88622",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-e434136c49",
+          "name": "Al-Kahrbaa Club vs Newroz SC | 21:30 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e434136c49",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-e434136c49",
+                  "name": "Al-Kahrbaa Club vs Newroz SC",
+                  "streams": [
+                    {
+                      "id": "st-e434136c49",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6a6958c846",
+                          "name": "BLV Người Rừng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a01e31951ddd_148/index.m3u8?expire=1779113369&sign=a1f64d6139cc842e1875788f4b8ba221",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Iraq Stars League",
+            "team_a": "Al-Kahrbaa Club",
+            "team_b": "Newroz SC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/80e44a97384b61801716ab030c10bfd1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d24ce6a9273a1f719aa3b590e27a7a78.png",
+            "time": "21:30 11/05",
+            "blv": "BLV Người Rừng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e434136c49_a546a695_20260511.png?v=a546a695",
             "width": 1600,
             "height": 1200
           }
