@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-8b03c000f3",
-          "name": "East Bengal FC vs Minerva Punjab | 21:00 11/05",
+          "id": "thapcam-fbb3636d5e",
+          "name": "Al-Najaf vs Erbil SC | 21:30 11/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,94 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-8b03c000f3",
+              "id": "src-fbb3636d5e",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-8b03c000f3",
-                  "name": "East Bengal FC vs Minerva Punjab",
+                  "id": "ct-fbb3636d5e",
+                  "name": "Al-Najaf vs Erbil SC",
                   "streams": [
                     {
-                      "id": "st-8b03c000f3",
+                      "id": "st-fbb3636d5e",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-b640be3bca",
-                          "name": "BLV Người Ngố",
+                          "id": "lnk-d0fabd1d27",
+                          "name": "BLV Chân Đất",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a01d9e951ddc_14/index.m3u8?expire=1779111017&sign=267e8d3ed69768d3dacf3b7af46b29b5",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indian Super League",
-            "team_a": "East Bengal FC",
-            "team_b": "Minerva Punjab",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/21649c3d173c8f4ec9d526432ad9f088.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4e120222885562430b61627e85374a80.png",
-            "time": "21:00 11/05",
-            "blv": "BLV Người Ngố",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8b03c000f3_6320c13d_20260511.png?v=6320c13d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-e434136c49",
-          "name": "Al-Kahrbaa Club vs Newroz SC | 21:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e434136c49",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e434136c49",
-                  "name": "Al-Kahrbaa Club vs Newroz SC",
-                  "streams": [
-                    {
-                      "id": "st-e434136c49",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6a6958c846",
-                          "name": "BLV Người Rừng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a01e31951ddd_148/index.m3u8?expire=1779113369&sign=a1f64d6139cc842e1875788f4b8ba221",
+                          "url": "https://cdn-hls.phogatv8.com/live/6a01de59137e5_145/index.m3u8?expire=1779112153&sign=d3f8691a2e31448ddcbf689008ecbf72",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -140,12 +69,12 @@
           ],
           "org_metadata": {
             "league": "Iraq Stars League",
-            "team_a": "Al-Kahrbaa Club",
-            "team_b": "Newroz SC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/80e44a97384b61801716ab030c10bfd1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d24ce6a9273a1f719aa3b590e27a7a78.png",
+            "team_a": "Al-Najaf",
+            "team_b": "Erbil SC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/eafc7aff48cafadff3f8aea277f437fe.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3a52398498773a8ed0006583046d8050.png",
             "time": "21:30 11/05",
-            "blv": "BLV Người Rừng",
+            "blv": "BLV Chân Đất",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -153,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e434136c49_a546a695_20260511.png?v=a546a695",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-fbb3636d5e_79ac2533_20260511.png?v=79ac2533",
             "width": 1600,
             "height": 1200
           }
@@ -230,8 +159,8 @@
           }
         },
         {
-          "id": "thapcam-fbb3636d5e",
-          "name": "Al-Najaf vs Erbil SC | 21:30 11/05",
+          "id": "thapcam-e434136c49",
+          "name": "Al-Kahrbaa Club vs Newroz SC | 21:30 11/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -245,23 +174,23 @@
           ],
           "sources": [
             {
-              "id": "src-fbb3636d5e",
+              "id": "src-e434136c49",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-fbb3636d5e",
-                  "name": "Al-Najaf vs Erbil SC",
+                  "id": "ct-e434136c49",
+                  "name": "Al-Kahrbaa Club vs Newroz SC",
                   "streams": [
                     {
-                      "id": "st-fbb3636d5e",
+                      "id": "st-e434136c49",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-d0fabd1d27",
-                          "name": "BLV Chân Đất",
+                          "id": "lnk-6a6958c846",
+                          "name": "BLV Người Rừng",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a01de59137e5_145/index.m3u8?expire=1779112153&sign=d3f8691a2e31448ddcbf689008ecbf72",
+                          "url": "https://cdn-hls.phogatv8.com/live/6a01e31951ddd_148/index.m3u8?expire=1779113369&sign=a1f64d6139cc842e1875788f4b8ba221",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -282,12 +211,12 @@
           ],
           "org_metadata": {
             "league": "Iraq Stars League",
-            "team_a": "Al-Najaf",
-            "team_b": "Erbil SC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/eafc7aff48cafadff3f8aea277f437fe.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3a52398498773a8ed0006583046d8050.png",
+            "team_a": "Al-Kahrbaa Club",
+            "team_b": "Newroz SC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/80e44a97384b61801716ab030c10bfd1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d24ce6a9273a1f719aa3b590e27a7a78.png",
             "time": "21:30 11/05",
-            "blv": "BLV Chân Đất",
+            "blv": "BLV Người Rừng",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -295,7 +224,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-fbb3636d5e_79ac2533_20260511.png?v=79ac2533",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e434136c49_a546a695_20260511.png?v=a546a695",
             "width": 1600,
             "height": 1200
           }
@@ -514,59 +443,6 @@
           }
         },
         {
-          "id": "thapcam-259e346943",
-          "name": "Al-Jazira(UAE) vs Al-Wasl SC | 23:45 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-259e346943",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-259e346943",
-                  "name": "Al-Jazira(UAE) vs Al-Wasl SC",
-                  "streams": [
-                    {
-                      "id": "st-259e346943",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United Arab Emirates Adnoc Pro-League",
-            "team_a": "Al-Jazira(UAE)",
-            "team_b": "Al-Wasl SC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9352b8e0b9515b84abf716a32c42777e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/17b767b98695df2fb512e992dd8a7af4.png",
-            "time": "23:45 11/05",
-            "blv": "BLV Max",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-259e346943_a2728f5d_20260511.png?v=a2728f5d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-0ffe2d5cbf",
           "name": "Khor Fakkan SSC vs Al-Wahda FC | 23:45 11/05",
           "type": "single",
@@ -615,6 +491,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0ffe2d5cbf_71e72e02_20260511.png?v=71e72e02",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-259e346943",
+          "name": "Al-Jazira(UAE) vs Al-Wasl SC | 23:45 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-259e346943",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-259e346943",
+                  "name": "Al-Jazira(UAE) vs Al-Wasl SC",
+                  "streams": [
+                    {
+                      "id": "st-259e346943",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "United Arab Emirates Adnoc Pro-League",
+            "team_a": "Al-Jazira(UAE)",
+            "team_b": "Al-Wasl SC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9352b8e0b9515b84abf716a32c42777e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/17b767b98695df2fb512e992dd8a7af4.png",
+            "time": "23:45 11/05",
+            "blv": "BLV Max",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-259e346943_a2728f5d_20260511.png?v=a2728f5d",
             "width": 1600,
             "height": 1200
           }
@@ -1256,59 +1185,6 @@
           }
         },
         {
-          "id": "thapcam-54a2ff10e5",
-          "name": "Gangwon Football Club vs Daejeon Citizen | 17:30 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-54a2ff10e5",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-54a2ff10e5",
-                  "name": "Gangwon Football Club vs Daejeon Citizen",
-                  "streams": [
-                    {
-                      "id": "st-54a2ff10e5",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Gangwon Football Club",
-            "team_b": "Daejeon Citizen",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/771a93ae7f62b1a47a71c3d62b89dca3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/090eeb1513e8f1d0cf6d8647d10b2eea.png",
-            "time": "17:30 12/05",
-            "blv": "BLV Người Băng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-54a2ff10e5_4314a47e_20260511.png?v=4314a47e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-7b60f59c99",
           "name": "Gwangju Football Club vs Football Club Seoul | 17:30 12/05",
           "type": "single",
@@ -1357,6 +1233,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7b60f59c99_04335eeb_20260511.png?v=04335eeb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-54a2ff10e5",
+          "name": "Gangwon Football Club vs Daejeon Citizen | 17:30 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-54a2ff10e5",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-54a2ff10e5",
+                  "name": "Gangwon Football Club vs Daejeon Citizen",
+                  "streams": [
+                    {
+                      "id": "st-54a2ff10e5",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Gangwon Football Club",
+            "team_b": "Daejeon Citizen",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/771a93ae7f62b1a47a71c3d62b89dca3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/090eeb1513e8f1d0cf6d8647d10b2eea.png",
+            "time": "17:30 12/05",
+            "blv": "BLV Người Băng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-54a2ff10e5_4314a47e_20260511.png?v=4314a47e",
             "width": 1600,
             "height": 1200
           }
@@ -1688,59 +1617,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-6293258fb4",
-          "name": "Cleveland Cavaliers vs Detroit Pistons | 07:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6293258fb4",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6293258fb4",
-                  "name": "Cleveland Cavaliers vs Detroit Pistons",
-                  "streams": [
-                    {
-                      "id": "st-6293258fb4",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Cleveland Cavaliers",
-            "team_b": "Detroit Pistons",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/57c938e35ceb2ee92562a09c4165fb47.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3f82122a48e98eaccc5e71307eba801a.png",
-            "time": "07:00 12/05",
-            "blv": "BLV Người Hầu",
-            "is_live": false,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6293258fb4_2b9c6420_20260511.png?v=2b9c6420",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-6d80e7e784",
           "name": "Los Angeles Lakers vs Oklahoma City Thunder | 09:30 12/05",
