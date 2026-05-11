@@ -1342,59 +1342,6 @@
           }
         },
         {
-          "id": "thapcam-58640fd01e",
-          "name": "Benfica vs Sporting Braga | 02:15 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-58640fd01e",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-58640fd01e",
-                  "name": "Benfica vs Sporting Braga",
-                  "streams": [
-                    {
-                      "id": "st-58640fd01e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "Benfica",
-            "team_b": "Sporting Braga",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/78360445c12fa3fdc8b489486fff4eb6.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1fe75f826dab40e6e89cbe961c7e9116.png",
-            "time": "02:15 12/05",
-            "blv": "BLV Người Băng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-58640fd01e_f06f211c_20260511.png?v=f06f211c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-e247887671",
           "name": "CF Estrela Amadora SAD vs FC Famalicao | 02:15 12/05",
           "type": "single",
@@ -1443,6 +1390,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e247887671_c60ff542_20260511.png?v=c60ff542",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-58640fd01e",
+          "name": "Benfica vs Sporting Braga | 02:15 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-58640fd01e",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-58640fd01e",
+                  "name": "Benfica vs Sporting Braga",
+                  "streams": [
+                    {
+                      "id": "st-58640fd01e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Portuguese Primera Liga",
+            "team_a": "Benfica",
+            "team_b": "Sporting Braga",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/78360445c12fa3fdc8b489486fff4eb6.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1fe75f826dab40e6e89cbe961c7e9116.png",
+            "time": "02:15 12/05",
+            "blv": "BLV Người Băng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-58640fd01e_f06f211c_20260511.png?v=f06f211c",
             "width": 1600,
             "height": 1200
           }
