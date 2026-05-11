@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-dd9c16c355",
-          "name": "FC Pari Nizhniy Novgorod vs CSKA Moscow | 19:15 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dd9c16c355",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-dd9c16c355",
-                  "name": "FC Pari Nizhniy Novgorod vs CSKA Moscow",
-                  "streams": [
-                    {
-                      "id": "st-dd9c16c355",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-09d05b716c",
-                          "name": "BLV Người Điên",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a01c52e51ddc_1984/index.m3u8?expire=1779105710&sign=cc941065edd684d0bb878a3cd592cf61",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Russian Premier League",
-            "team_a": "FC Pari Nizhniy Novgorod",
-            "team_b": "CSKA Moscow",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5cf9048be5c1b4c7b7cb573230467256.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1eae81e51945df5660e24dc6f0ea353c.png",
-            "time": "19:15 11/05",
-            "blv": "BLV Người Điên",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-dd9c16c355_2190ffb7_20260511.png?v=2190ffb7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-8b03c000f3",
           "name": "East Bengal FC vs Minerva Punjab | 21:00 11/05",
@@ -159,32 +88,50 @@
           }
         },
         {
-          "id": "thapcam-e434136c49",
-          "name": "Al-Kahrbaa Club vs Newroz SC | 21:30 11/05",
+          "id": "thapcam-3f364aa43c",
+          "name": "Spartak Moscow vs Rubin Kazan | 21:30 11/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-e434136c49",
+              "id": "src-3f364aa43c",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-e434136c49",
-                  "name": "Al-Kahrbaa Club vs Newroz SC",
+                  "id": "ct-3f364aa43c",
+                  "name": "Spartak Moscow vs Rubin Kazan",
                   "streams": [
                     {
-                      "id": "st-e434136c49",
+                      "id": "st-3f364aa43c",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-3c1c1e837c",
+                          "name": "BLV Người Lạ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a01ddef51ddc_11241/index.m3u8?expire=1779112047&sign=e988393a316d48cb4d6f37cf72eb8005",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -192,21 +139,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Iraq Stars League",
-            "team_a": "Al-Kahrbaa Club",
-            "team_b": "Newroz SC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/80e44a97384b61801716ab030c10bfd1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d24ce6a9273a1f719aa3b590e27a7a78.png",
+            "league": "Russian Premier League",
+            "team_a": "Spartak Moscow",
+            "team_b": "Rubin Kazan",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b989806732eaf15246ab56e07d0b8a2e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/db58fdf26d9c934236772a9721fa750b.png",
             "time": "21:30 11/05",
-            "blv": "BLV Người Rừng",
-            "is_live": false,
+            "blv": "BLV Người Lạ",
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e434136c49_a546a695_20260511.png?v=a546a695",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3f364aa43c_58d88622_20260511.png?v=58d88622",
             "width": 1600,
             "height": 1200
           }
@@ -219,10 +166,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -237,7 +184,25 @@
                     {
                       "id": "st-fbb3636d5e",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-d0fabd1d27",
+                          "name": "BLV Chân Đất",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a01de59137e5_145/index.m3u8?expire=1779112153&sign=d3f8691a2e31448ddcbf689008ecbf72",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -252,7 +217,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3a52398498773a8ed0006583046d8050.png",
             "time": "21:30 11/05",
             "blv": "BLV Chân Đất",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -272,10 +237,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -290,7 +255,25 @@
                     {
                       "id": "st-e80c4e069c",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6f9f6da724",
+                          "name": "BLV Người Cò",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a01e1e751ddd_14559/index.m3u8?expire=1779113063&sign=111f960a47a572afc110b7cdea2dea09",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -305,7 +288,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/51314043c4560f92e05af70fd57035be.png",
             "time": "21:30 11/05",
             "blv": "BLV Người Cò",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -318,32 +301,50 @@
           }
         },
         {
-          "id": "thapcam-3f364aa43c",
-          "name": "Spartak Moscow vs Rubin Kazan | 21:30 11/05",
+          "id": "thapcam-e434136c49",
+          "name": "Al-Kahrbaa Club vs Newroz SC | 21:30 11/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-3f364aa43c",
+              "id": "src-e434136c49",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-3f364aa43c",
-                  "name": "Spartak Moscow vs Rubin Kazan",
+                  "id": "ct-e434136c49",
+                  "name": "Al-Kahrbaa Club vs Newroz SC",
                   "streams": [
                     {
-                      "id": "st-3f364aa43c",
+                      "id": "st-e434136c49",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6a6958c846",
+                          "name": "BLV Người Rừng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a01e31951ddd_148/index.m3u8?expire=1779113369&sign=a1f64d6139cc842e1875788f4b8ba221",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -351,21 +352,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Russian Premier League",
-            "team_a": "Spartak Moscow",
-            "team_b": "Rubin Kazan",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b989806732eaf15246ab56e07d0b8a2e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/db58fdf26d9c934236772a9721fa750b.png",
+            "league": "Iraq Stars League",
+            "team_a": "Al-Kahrbaa Club",
+            "team_b": "Newroz SC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/80e44a97384b61801716ab030c10bfd1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d24ce6a9273a1f719aa3b590e27a7a78.png",
             "time": "21:30 11/05",
-            "blv": "BLV Người Lạ",
-            "is_live": false,
+            "blv": "BLV Người Rừng",
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3f364aa43c_58d88622_20260511.png?v=58d88622",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e434136c49_a546a695_20260511.png?v=a546a695",
             "width": 1600,
             "height": 1200
           }
@@ -1113,6 +1114,59 @@
           }
         },
         {
+          "id": "thapcam-e247887671",
+          "name": "CF Estrela Amadora SAD vs FC Famalicao | 02:15 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e247887671",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-e247887671",
+                  "name": "CF Estrela Amadora SAD vs FC Famalicao",
+                  "streams": [
+                    {
+                      "id": "st-e247887671",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Portuguese Primera Liga",
+            "team_a": "CF Estrela Amadora SAD",
+            "team_b": "FC Famalicao",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/606eca9e363f1c1e62542f8b23fdc71a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/abd59f62f69ef9f59a8121c3baadd882.png",
+            "time": "02:15 12/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e247887671_c60ff542_20260511.png?v=c60ff542",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-58640fd01e",
           "name": "Benfica vs Sporting Braga | 02:15 12/05",
           "type": "single",
@@ -1166,8 +1220,8 @@
           }
         },
         {
-          "id": "thapcam-e247887671",
-          "name": "CF Estrela Amadora SAD vs FC Famalicao | 02:15 12/05",
+          "id": "thapcam-54a2ff10e5",
+          "name": "Gangwon Football Club vs Daejeon Citizen | 17:30 12/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1181,15 +1235,15 @@
           ],
           "sources": [
             {
-              "id": "src-e247887671",
+              "id": "src-54a2ff10e5",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-e247887671",
-                  "name": "CF Estrela Amadora SAD vs FC Famalicao",
+                  "id": "ct-54a2ff10e5",
+                  "name": "Gangwon Football Club vs Daejeon Citizen",
                   "streams": [
                     {
-                      "id": "st-e247887671",
+                      "id": "st-54a2ff10e5",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1199,13 +1253,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "CF Estrela Amadora SAD",
-            "team_b": "FC Famalicao",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/606eca9e363f1c1e62542f8b23fdc71a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/abd59f62f69ef9f59a8121c3baadd882.png",
-            "time": "02:15 12/05",
-            "blv": "BLV Siêu Quậy",
+            "league": "Korean K League 1",
+            "team_a": "Gangwon Football Club",
+            "team_b": "Daejeon Citizen",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/771a93ae7f62b1a47a71c3d62b89dca3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/090eeb1513e8f1d0cf6d8647d10b2eea.png",
+            "time": "17:30 12/05",
+            "blv": "BLV Người Băng",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1213,7 +1267,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e247887671_c60ff542_20260511.png?v=c60ff542",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-54a2ff10e5_4314a47e_20260511.png?v=4314a47e",
             "width": 1600,
             "height": 1200
           }
@@ -1320,59 +1374,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7b60f59c99_04335eeb_20260511.png?v=04335eeb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-54a2ff10e5",
-          "name": "Gangwon Football Club vs Daejeon Citizen | 17:30 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-54a2ff10e5",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-54a2ff10e5",
-                  "name": "Gangwon Football Club vs Daejeon Citizen",
-                  "streams": [
-                    {
-                      "id": "st-54a2ff10e5",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Gangwon Football Club",
-            "team_b": "Daejeon Citizen",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/771a93ae7f62b1a47a71c3d62b89dca3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/090eeb1513e8f1d0cf6d8647d10b2eea.png",
-            "time": "17:30 12/05",
-            "blv": "BLV Người Băng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-54a2ff10e5_4314a47e_20260511.png?v=4314a47e",
             "width": 1600,
             "height": 1200
           }
