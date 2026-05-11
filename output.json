@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -438,6 +438,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-de4e5bd5d8_f151100e_20260511.png?v=f151100e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-5736787dad",
+          "name": "Spaeri FC vs Gagra FC | 22:20 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5736787dad",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-5736787dad",
+                  "name": "Spaeri FC vs Gagra FC",
+                  "streams": [
+                    {
+                      "id": "st-5736787dad",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a6f69b3f7a",
+                          "name": "BLV Siêu Quậy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a01e5e251ddd_26/index.m3u8?expire=1779114082&sign=13e2b69467e0d4ca03785ae8738e347a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Georgia Erovnuli Liga",
+            "team_a": "Spaeri FC",
+            "team_b": "Gagra FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/432c13e823ffcc46ee9255384e525629.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e450729cae3ba8210e9a08134b9258a1.png",
+            "time": "22:20 11/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5736787dad_2f2860b7_20260511.png?v=2f2860b7",
             "width": 1600,
             "height": 1200
           }
@@ -1397,59 +1468,6 @@
           }
         },
         {
-          "id": "thapcam-bda228ae34",
-          "name": "Inter Turku vs JS Hercules | 21:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bda228ae34",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-bda228ae34",
-                  "name": "Inter Turku vs JS Hercules",
-                  "streams": [
-                    {
-                      "id": "st-bda228ae34",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Finland Suomen Cup",
-            "team_a": "Inter Turku",
-            "team_b": "JS Hercules",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f26fb30a9c60dd634d8b2f36afe0e8f1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ac53c099d618e999e1e521527307c15.png",
-            "time": "21:00 12/05",
-            "blv": "BLV Người Lạ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bda228ae34_caeb5cd5_20260511.png?v=caeb5cd5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-c4d8b0b3a9",
           "name": "El Gounah vs Kahraba Ismailia | 21:00 12/05",
           "type": "single",
@@ -1551,6 +1569,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9cf9721957_c59d6696_20260511.png?v=c59d6696",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-bda228ae34",
+          "name": "Inter Turku vs JS Hercules | 21:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bda228ae34",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-bda228ae34",
+                  "name": "Inter Turku vs JS Hercules",
+                  "streams": [
+                    {
+                      "id": "st-bda228ae34",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Finland Suomen Cup",
+            "team_a": "Inter Turku",
+            "team_b": "JS Hercules",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f26fb30a9c60dd634d8b2f36afe0e8f1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ac53c099d618e999e1e521527307c15.png",
+            "time": "21:00 12/05",
+            "blv": "BLV Người Lạ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bda228ae34_caeb5cd5_20260511.png?v=caeb5cd5",
             "width": 1600,
             "height": 1200
           }
