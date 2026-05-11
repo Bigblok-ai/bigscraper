@@ -1642,6 +1642,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-77da62adcb",
+          "name": "FK Epitsentr Dunayivtsi vs Polissya Zhytomyr | 19:30 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-77da62adcb",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-77da62adcb",
+                  "name": "FK Epitsentr Dunayivtsi vs Polissya Zhytomyr",
+                  "streams": [
+                    {
+                      "id": "st-77da62adcb",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ukrainian Premier League",
+            "team_a": "FK Epitsentr Dunayivtsi",
+            "team_b": "Polissya Zhytomyr",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9d88620f3979529583d07f5790ac2dac.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/af718a29d1eacceec7da5c5815b1679b.png",
+            "time": "19:30 12/05",
+            "blv": "BLV Người Đá",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-77da62adcb_73672cad_20260511.png?v=73672cad",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
