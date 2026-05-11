@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -308,10 +308,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -326,7 +326,25 @@
                     {
                       "id": "st-7254f6adbf",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2aee40c03f",
+                          "name": "BLV Người Nhện",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a0201c151ddd_32/index.m3u8?expire=1779121217&sign=e13016bcfa04b8ad3e6bc589faeb7b7b",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -341,7 +359,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b16d1e3b04364c5cd64203d8b4ef76e2.png",
             "time": "23:50 11/05",
             "blv": "BLV Người Nhện",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1082,7 +1100,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2e8e1e2a893d37e3f7260e97c807c28a.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ad010af729c420626d1865ad744168d3.png",
             "time": "17:30 12/05",
-            "blv": "BLV Tôn Quyền",
+            "blv": "BLV Người Ngố",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1347,7 +1365,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f26fb30a9c60dd634d8b2f36afe0e8f1.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ac53c099d618e999e1e521527307c15.png",
             "time": "21:00 12/05",
-            "blv": "BLV Người Lạ",
+            "blv": "BLV Jayce",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1559,7 +1577,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/068aa9b10aa4d47ab3a8fdbe8b716518.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/47edbc8776467d4a14314c82b25344ab.png",
             "time": "23:20 12/05",
-            "blv": "BLV Chân Đất",
+            "blv": "BLV Người Đá",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
