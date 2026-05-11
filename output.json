@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-0ffe2d5cbf",
-          "name": "Khor Fakkan SSC vs Al-Wahda FC | 23:45 11/05",
+          "id": "thapcam-95cffb3300",
+          "name": "Randers FC vs Odense BK | 00:00 12/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-0ffe2d5cbf",
+              "id": "src-95cffb3300",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-0ffe2d5cbf",
-                  "name": "Khor Fakkan SSC vs Al-Wahda FC",
+                  "id": "ct-95cffb3300",
+                  "name": "Randers FC vs Odense BK",
                   "streams": [
                     {
-                      "id": "st-0ffe2d5cbf",
+                      "id": "st-95cffb3300",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-197316df25",
-                          "name": "BLV Tôn Quyền",
+                          "id": "lnk-59379ed521",
+                          "name": "BLV Người Điên",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a01e11f137e5_793/index.m3u8?expire=1779112863&sign=0085535c938409f2abeb8ae1c5590b17",
+                          "url": "https://cdn-hls.phogatv8.com/live/6a02025c137e5_1984/index.m3u8?expire=1779121372&sign=402a52cb98fb4cb81d62a34e87f4dc57",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,13 +68,13 @@
             }
           ],
           "org_metadata": {
-            "league": "United Arab Emirates Adnoc Pro-League",
-            "team_a": "Khor Fakkan SSC",
-            "team_b": "Al-Wahda FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e1113e780b7ceaee329d95bedc2de575.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/da5a07224920e4856d3b14e7e1a86741.png",
-            "time": "23:45 11/05",
-            "blv": "BLV Tôn Quyền",
+            "league": "Danish Superliga",
+            "team_a": "Randers FC",
+            "team_b": "Odense BK",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/502144248e65e9d4c4f26a04f2021d69.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/de4422160e9ec4e8e9e1f9517ca0e51a.png",
+            "time": "00:00 12/05",
+            "blv": "BLV Người Điên",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -82,78 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0ffe2d5cbf_71e72e02_20260512.png?v=71e72e02",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-7254f6adbf",
-          "name": "NEOM Sports Club vs Al Shabab FC | 23:50 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7254f6adbf",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-7254f6adbf",
-                  "name": "NEOM Sports Club vs Al Shabab FC",
-                  "streams": [
-                    {
-                      "id": "st-7254f6adbf",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2aee40c03f",
-                          "name": "BLV Người Nhện",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a0201c151ddd_32/index.m3u8?expire=1779121217&sign=e13016bcfa04b8ad3e6bc589faeb7b7b",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "NEOM Sports Club",
-            "team_b": "Al Shabab FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e5516d35314acec9169f33834a199842.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b16d1e3b04364c5cd64203d8b4ef76e2.png",
-            "time": "23:50 11/05",
-            "blv": "BLV Người Nhện",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7254f6adbf_d782a2af_20260512.png?v=d782a2af",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-95cffb3300_327abd1f_20260512.png?v=327abd1f",
             "width": 1600,
             "height": 1200
           }
@@ -230,77 +159,6 @@
           }
         },
         {
-          "id": "thapcam-95cffb3300",
-          "name": "Randers FC vs Odense BK | 00:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-95cffb3300",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-95cffb3300",
-                  "name": "Randers FC vs Odense BK",
-                  "streams": [
-                    {
-                      "id": "st-95cffb3300",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-59379ed521",
-                          "name": "BLV Người Điên",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a02025c137e5_1984/index.m3u8?expire=1779121372&sign=402a52cb98fb4cb81d62a34e87f4dc57",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Danish Superliga",
-            "team_a": "Randers FC",
-            "team_b": "Odense BK",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/502144248e65e9d4c4f26a04f2021d69.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/de4422160e9ec4e8e9e1f9517ca0e51a.png",
-            "time": "00:00 12/05",
-            "blv": "BLV Người Điên",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-95cffb3300_327abd1f_20260512.png?v=327abd1f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-35dbe17fe2",
           "name": "Fratria vs FC Dunav Ruse | 00:15 12/05",
           "type": "single",
@@ -372,77 +230,6 @@
           }
         },
         {
-          "id": "thapcam-0c31fd81a4",
-          "name": "Fotbal Club FCSB vs FC Unirea 2004 Slobozia | 01:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0c31fd81a4",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-0c31fd81a4",
-                  "name": "Fotbal Club FCSB vs FC Unirea 2004 Slobozia",
-                  "streams": [
-                    {
-                      "id": "st-0c31fd81a4",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d1576d9840",
-                          "name": "BLV Người Cò",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a0213ef137e5_14559/index.m3u8?expire=1779125871&sign=4e9150c301de9474cbf2dc314590bb24",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Romanian Super Liga",
-            "team_a": "Fotbal Club FCSB",
-            "team_b": "FC Unirea 2004 Slobozia",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a413daa882f96b18ddb1f0e8c9dbfda7.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b17f903b42eebe1e7ad55f4f346d2bf8.png",
-            "time": "01:00 12/05",
-            "blv": "BLV Người Cò",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0c31fd81a4_91415cbc_20260512.png?v=91415cbc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-6830ae58c7",
           "name": "Al Taawoun vs Al Ahli SFC | 01:00 12/05",
           "type": "single",
@@ -509,6 +296,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6830ae58c7_f28af312_20260512.png?v=f28af312",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-0c31fd81a4",
+          "name": "Fotbal Club FCSB vs FC Unirea 2004 Slobozia | 01:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0c31fd81a4",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-0c31fd81a4",
+                  "name": "Fotbal Club FCSB vs FC Unirea 2004 Slobozia",
+                  "streams": [
+                    {
+                      "id": "st-0c31fd81a4",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d1576d9840",
+                          "name": "BLV Người Cò",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a0213ef137e5_14559/index.m3u8?expire=1779125871&sign=4e9150c301de9474cbf2dc314590bb24",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Romanian Super Liga",
+            "team_a": "Fotbal Club FCSB",
+            "team_b": "FC Unirea 2004 Slobozia",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a413daa882f96b18ddb1f0e8c9dbfda7.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b17f903b42eebe1e7ad55f4f346d2bf8.png",
+            "time": "01:00 12/05",
+            "blv": "BLV Người Cò",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0c31fd81a4_91415cbc_20260512.png?v=91415cbc",
             "width": 1600,
             "height": 1200
           }
@@ -602,59 +460,6 @@
           }
         },
         {
-          "id": "thapcam-dad23479d1",
-          "name": "Tottenham Hotspur vs Leeds United | 02:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dad23479d1",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-dad23479d1",
-                  "name": "Tottenham Hotspur vs Leeds United",
-                  "streams": [
-                    {
-                      "id": "st-dad23479d1",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Tottenham Hotspur",
-            "team_b": "Leeds United",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8b22ab4041e666b996a2d96f20dea707.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1d7680c902207ad6cc3a40bc5125bdf5.png",
-            "time": "02:00 12/05",
-            "blv": "BLV Siêu Bướng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-dad23479d1_b4b67e02_20260512.png?v=b4b67e02",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-e509312458",
           "name": "Rayo Vallecano vs Girona FC | 02:00 12/05",
           "type": "single",
@@ -662,10 +467,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -680,7 +485,25 @@
                     {
                       "id": "st-e509312458",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-3069329acc",
+                          "name": "BLV Người Đá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a021bc351ddd_19092/index.m3u8?expire=1779127875&sign=548519a7826d1c0145331b2e2f740ea6",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -695,7 +518,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/006ce259b33ef72dd5570cfa8dc39f38.png",
             "time": "02:00 12/05",
             "blv": "BLV Người Đá",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -715,10 +538,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -733,7 +556,25 @@
                     {
                       "id": "st-14675dbdf2",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-93c4f3ddf3",
+                          "name": "BLV Người Lạ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a02238c137e5_11241/index.m3u8?expire=1779129868&sign=e5838ad337dd87859cc7a82bcb5bafa9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -748,7 +589,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/262691204102d2200797f0ac34efb316.png",
             "time": "02:00 12/05",
             "blv": "BLV Người Lạ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -756,6 +597,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-14675dbdf2_409dea43_20260512.png?v=409dea43",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-dad23479d1",
+          "name": "Tottenham Hotspur vs Leeds United | 02:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dad23479d1",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-dad23479d1",
+                  "name": "Tottenham Hotspur vs Leeds United",
+                  "streams": [
+                    {
+                      "id": "st-dad23479d1",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-85a458c269",
+                          "name": "BLV Siêu Bướng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a0220a551ddd_35/index.m3u8?expire=1779129125&sign=955ce84671858d26ca2a26fd843283a1",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-61f5dc8335",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a022193137e5_151/index.m3u8?expire=1779129363&sign=2348788b05a5f2d9380da9bbe887e33b",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Tottenham Hotspur",
+            "team_b": "Leeds United",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8b22ab4041e666b996a2d96f20dea707.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1d7680c902207ad6cc3a40bc5125bdf5.png",
+            "time": "02:00 12/05",
+            "blv": "BLV Siêu Bướng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-dad23479d1_b4b67e02_20260512.png?v=b4b67e02",
             "width": 1600,
             "height": 1200
           }
@@ -973,59 +902,6 @@
           }
         },
         {
-          "id": "thapcam-7b60f59c99",
-          "name": "Gwangju Football Club vs Football Club Seoul | 17:30 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7b60f59c99",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-7b60f59c99",
-                  "name": "Gwangju Football Club vs Football Club Seoul",
-                  "streams": [
-                    {
-                      "id": "st-7b60f59c99",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Gwangju Football Club",
-            "team_b": "Football Club Seoul",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2e8e1e2a893d37e3f7260e97c807c28a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ad010af729c420626d1865ad744168d3.png",
-            "time": "17:30 12/05",
-            "blv": "BLV Người Ngố",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7b60f59c99_04335eeb_20260512.png?v=04335eeb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-54a2ff10e5",
           "name": "Gangwon Football Club vs Daejeon Citizen | 17:30 12/05",
           "type": "single",
@@ -1074,6 +950,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-54a2ff10e5_4314a47e_20260512.png?v=4314a47e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-7b60f59c99",
+          "name": "Gwangju Football Club vs Football Club Seoul | 17:30 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7b60f59c99",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-7b60f59c99",
+                  "name": "Gwangju Football Club vs Football Club Seoul",
+                  "streams": [
+                    {
+                      "id": "st-7b60f59c99",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Gwangju Football Club",
+            "team_b": "Football Club Seoul",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2e8e1e2a893d37e3f7260e97c807c28a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ad010af729c420626d1865ad744168d3.png",
+            "time": "17:30 12/05",
+            "blv": "BLV Người Ngố",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7b60f59c99_04335eeb_20260512.png?v=04335eeb",
             "width": 1600,
             "height": 1200
           }
