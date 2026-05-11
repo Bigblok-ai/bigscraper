@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-86ba4d797a",
-          "name": "Los Angeles FC vs Houston Dynamo | 08:10 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-86ba4d797a",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-86ba4d797a",
-                  "name": "Los Angeles FC vs Houston Dynamo",
-                  "streams": [
-                    {
-                      "id": "st-86ba4d797a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b546e67fe6",
-                          "name": "BLV Jayce",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a01240351ddc_181/index.m3u8?expire=1779064451&sign=fb7bd70764214e8825d28c4a8e86c5c3",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United States Major League Soccer",
-            "team_a": "Los Angeles FC",
-            "team_b": "Houston Dynamo",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9c5ad5227377e12b87f77790d3d88c1c.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2d21e6bbd505075b1bc6df8b5a887e8f.png",
-            "time": "08:10 11/05",
-            "blv": "BLV Jayce",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-86ba4d797a_a250adf2_20260511.png?v=a250adf2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-509537720d",
           "name": "Japan Women U17 vs Korea Rep. Women U17 | 14:00 11/05",
@@ -247,59 +176,6 @@
           }
         },
         {
-          "id": "thapcam-bef26b2c51",
-          "name": "North Korea Women U17 vs Thailand U17 Women | 18:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bef26b2c51",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-bef26b2c51",
-                  "name": "North Korea Women U17 vs Thailand U17 Women",
-                  "streams": [
-                    {
-                      "id": "st-bef26b2c51",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "North Korea Women U17",
-            "team_b": "Thailand U17 Women",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f5c29f4d0153b28ef8802fe964122c65.png",
-            "time": "18:30 11/05",
-            "blv": "BLV Max",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bef26b2c51_440bbda3_20260511.png?v=440bbda3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-395b3fbaa9",
           "name": "China U17 Women vs India Women U17 | 18:30 11/05",
           "type": "single",
@@ -348,6 +224,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-395b3fbaa9_c0cef920_20260511.png?v=c0cef920",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-bef26b2c51",
+          "name": "North Korea Women U17 vs Thailand U17 Women | 18:30 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bef26b2c51",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-bef26b2c51",
+                  "name": "North Korea Women U17 vs Thailand U17 Women",
+                  "streams": [
+                    {
+                      "id": "st-bef26b2c51",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "North Korea Women U17",
+            "team_b": "Thailand U17 Women",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f5c29f4d0153b28ef8802fe964122c65.png",
+            "time": "18:30 11/05",
+            "blv": "BLV Max",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bef26b2c51_440bbda3_20260511.png?v=440bbda3",
             "width": 1600,
             "height": 1200
           }
@@ -1413,59 +1342,6 @@
           }
         },
         {
-          "id": "thapcam-dad23479d1",
-          "name": "Tottenham Hotspur vs Leeds United | 02:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dad23479d1",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-dad23479d1",
-                  "name": "Tottenham Hotspur vs Leeds United",
-                  "streams": [
-                    {
-                      "id": "st-dad23479d1",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Tottenham Hotspur",
-            "team_b": "Leeds United",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8b22ab4041e666b996a2d96f20dea707.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1d7680c902207ad6cc3a40bc5125bdf5.png",
-            "time": "02:00 12/05",
-            "blv": "BLV Siêu Bướng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-dad23479d1_b4b67e02_20260511.png?v=b4b67e02",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-e509312458",
           "name": "Rayo Vallecano vs Girona FC | 02:00 12/05",
           "type": "single",
@@ -1514,6 +1390,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e509312458_0b45d085_20260511.png?v=0b45d085",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-dad23479d1",
+          "name": "Tottenham Hotspur vs Leeds United | 02:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dad23479d1",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-dad23479d1",
+                  "name": "Tottenham Hotspur vs Leeds United",
+                  "streams": [
+                    {
+                      "id": "st-dad23479d1",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Tottenham Hotspur",
+            "team_b": "Leeds United",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8b22ab4041e666b996a2d96f20dea707.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1d7680c902207ad6cc3a40bc5125bdf5.png",
+            "time": "02:00 12/05",
+            "blv": "BLV Siêu Bướng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-dad23479d1_b4b67e02_20260511.png?v=b4b67e02",
             "width": 1600,
             "height": 1200
           }
