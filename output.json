@@ -1676,7 +1676,61 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "thapcam-d983648838",
+          "name": "Kaloyana Nalbantova vs Tidapron KLEEBYEESUN | 09:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d983648838",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-d983648838",
+                  "name": "Kaloyana Nalbantova vs Tidapron KLEEBYEESUN",
+                  "streams": [
+                    {
+                      "id": "st-d983648838",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TOYOTA Thailand Open 2026 _ Sân 1",
+            "team_a": "Kaloyana Nalbantova",
+            "team_b": "Tidapron KLEEBYEESUN",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/da3d6918c6229d8ff51efa2a13acceef.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/5deeb3bc762a94509749b16483c9b229.jpg",
+            "time": "09:00 12/05",
+            "blv": "BLV Chân Đất",
+            "is_live": false,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d983648838_cc0fe789_20260511.png?v=cc0fe789",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-0c493d20a1",
