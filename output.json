@@ -2019,82 +2019,11 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-3cfdeec2f5",
-          "name": "Jannik Sinner vs Alexei Popyrin | 20:50 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3cfdeec2f5",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3cfdeec2f5",
-                  "name": "Jannik Sinner vs Alexei Popyrin",
-                  "streams": [
-                    {
-                      "id": "st-3cfdeec2f5",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-df64ccb231",
-                          "name": "BLV Người Hầu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a01d7d151ddc_9657/index.m3u8?expire=1779110481&sign=504223a5d4947b5d25b176ca1815fd8a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Jannik Sinner",
-            "team_b": "Alexei Popyrin",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ff7126c702dacb0624f223c0bc0d66ad.png",
-            "time": "20:50 11/05",
-            "blv": "BLV Người Hầu",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3cfdeec2f5_1e527913_20260511.png?v=1e527913",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-f629cce2f3",
           "name": "Pablo Llamas Ruiz vs Daniil Medvedev | 22:10 11/05",
