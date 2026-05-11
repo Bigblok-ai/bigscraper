@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -159,59 +159,6 @@
           }
         },
         {
-          "id": "thapcam-0ffe2d5cbf",
-          "name": "Khor Fakkan SSC vs Al-Wahda FC | 23:45 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0ffe2d5cbf",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-0ffe2d5cbf",
-                  "name": "Khor Fakkan SSC vs Al-Wahda FC",
-                  "streams": [
-                    {
-                      "id": "st-0ffe2d5cbf",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United Arab Emirates Adnoc Pro-League",
-            "team_a": "Khor Fakkan SSC",
-            "team_b": "Al-Wahda FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e1113e780b7ceaee329d95bedc2de575.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/da5a07224920e4856d3b14e7e1a86741.png",
-            "time": "23:45 11/05",
-            "blv": "BLV Tôn Quyền",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0ffe2d5cbf_71e72e02_20260511.png?v=71e72e02",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-259e346943",
           "name": "Al-Jazira(UAE) vs Al-Wasl SC | 23:45 11/05",
           "type": "single",
@@ -219,10 +166,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -237,7 +184,25 @@
                     {
                       "id": "st-259e346943",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-05aa0804d3",
+                          "name": "BLV Max",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a01ef5551ddd_35/index.m3u8?expire=1779116501&sign=6738e0c863533dfc0066d084e0a825b6",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -252,7 +217,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/17b767b98695df2fb512e992dd8a7af4.png",
             "time": "23:45 11/05",
             "blv": "BLV Max",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -260,6 +225,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-259e346943_a2728f5d_20260511.png?v=a2728f5d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-0ffe2d5cbf",
+          "name": "Khor Fakkan SSC vs Al-Wahda FC | 23:45 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0ffe2d5cbf",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-0ffe2d5cbf",
+                  "name": "Khor Fakkan SSC vs Al-Wahda FC",
+                  "streams": [
+                    {
+                      "id": "st-0ffe2d5cbf",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-197316df25",
+                          "name": "BLV Tôn Quyền",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a01e11f137e5_793/index.m3u8?expire=1779112863&sign=0085535c938409f2abeb8ae1c5590b17",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "United Arab Emirates Adnoc Pro-League",
+            "team_a": "Khor Fakkan SSC",
+            "team_b": "Al-Wahda FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e1113e780b7ceaee329d95bedc2de575.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/da5a07224920e4856d3b14e7e1a86741.png",
+            "time": "23:45 11/05",
+            "blv": "BLV Tôn Quyền",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0ffe2d5cbf_71e72e02_20260511.png?v=71e72e02",
             "width": 1600,
             "height": 1200
           }
@@ -795,6 +831,59 @@
           }
         },
         {
+          "id": "thapcam-58640fd01e",
+          "name": "Benfica vs Sporting Braga | 02:15 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-58640fd01e",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-58640fd01e",
+                  "name": "Benfica vs Sporting Braga",
+                  "streams": [
+                    {
+                      "id": "st-58640fd01e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Portuguese Primera Liga",
+            "team_a": "Benfica",
+            "team_b": "Sporting Braga",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/78360445c12fa3fdc8b489486fff4eb6.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1fe75f826dab40e6e89cbe961c7e9116.png",
+            "time": "02:15 12/05",
+            "blv": "BLV Người Băng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-58640fd01e_f06f211c_20260511.png?v=f06f211c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-e247887671",
           "name": "CF Estrela Amadora SAD vs FC Famalicao | 02:15 12/05",
           "type": "single",
@@ -848,8 +937,8 @@
           }
         },
         {
-          "id": "thapcam-58640fd01e",
-          "name": "Benfica vs Sporting Braga | 02:15 12/05",
+          "id": "thapcam-6c030f8328",
+          "name": "Rio Ave vs Sporting CP | 02:15 12/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -863,15 +952,15 @@
           ],
           "sources": [
             {
-              "id": "src-58640fd01e",
+              "id": "src-6c030f8328",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-58640fd01e",
-                  "name": "Benfica vs Sporting Braga",
+                  "id": "ct-6c030f8328",
+                  "name": "Rio Ave vs Sporting CP",
                   "streams": [
                     {
-                      "id": "st-58640fd01e",
+                      "id": "st-6c030f8328",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -882,12 +971,12 @@
           ],
           "org_metadata": {
             "league": "Portuguese Primera Liga",
-            "team_a": "Benfica",
-            "team_b": "Sporting Braga",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/78360445c12fa3fdc8b489486fff4eb6.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1fe75f826dab40e6e89cbe961c7e9116.png",
+            "team_a": "Rio Ave",
+            "team_b": "Sporting CP",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e83b163c8501f897012bcc29adfae2b9.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6a5153c73922a32013b9bc6cfbc20b26.png",
             "time": "02:15 12/05",
-            "blv": "BLV Người Băng",
+            "blv": "BLV Người Điên",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -895,7 +984,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-58640fd01e_f06f211c_20260511.png?v=f06f211c",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6c030f8328_a270c1ee_20260511.png?v=a270c1ee",
             "width": 1600,
             "height": 1200
           }
