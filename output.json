@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-a90abb8451",
-          "name": "Bali United vs Borneo FC | 19:00 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a90abb8451",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-a90abb8451",
-                  "name": "Bali United vs Borneo FC",
-                  "streams": [
-                    {
-                      "id": "st-a90abb8451",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-833b5dce4f",
-                          "name": "BLV Tôn Quyền",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a01c0c0137e5_793/index.m3u8?expire=1779104576&sign=5ca4fdf4813cb6bd71699a133274a7bf",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "Bali United",
-            "team_b": "Borneo FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/09fe2ecf88f68970da755f8655d5da8a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5a0893c2c8fbdbbf734c07c71c8025b4.png",
-            "time": "19:00 11/05",
-            "blv": "BLV Tôn Quyền",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a90abb8451_3984d7d5_20260511.png?v=3984d7d5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-dd9c16c355",
           "name": "FC Pari Nizhniy Novgorod vs CSKA Moscow | 19:15 11/05",
@@ -225,6 +154,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8b03c000f3_6320c13d_20260511.png?v=6320c13d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-3f364aa43c",
+          "name": "Spartak Moscow vs Rubin Kazan | 21:30 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3f364aa43c",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-3f364aa43c",
+                  "name": "Spartak Moscow vs Rubin Kazan",
+                  "streams": [
+                    {
+                      "id": "st-3f364aa43c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Russian Premier League",
+            "team_a": "Spartak Moscow",
+            "team_b": "Rubin Kazan",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b989806732eaf15246ab56e07d0b8a2e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/db58fdf26d9c934236772a9721fa750b.png",
+            "time": "21:30 11/05",
+            "blv": "BLV Người Lạ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3f364aa43c_58d88622_20260511.png?v=58d88622",
             "width": 1600,
             "height": 1200
           }
@@ -384,59 +366,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e434136c49_a546a695_20260511.png?v=a546a695",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-3f364aa43c",
-          "name": "Spartak Moscow vs Rubin Kazan | 21:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3f364aa43c",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3f364aa43c",
-                  "name": "Spartak Moscow vs Rubin Kazan",
-                  "streams": [
-                    {
-                      "id": "st-3f364aa43c",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Russian Premier League",
-            "team_a": "Spartak Moscow",
-            "team_b": "Rubin Kazan",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b989806732eaf15246ab56e07d0b8a2e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/db58fdf26d9c934236772a9721fa750b.png",
-            "time": "21:30 11/05",
-            "blv": "BLV Người Lạ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3f364aa43c_58d88622_20260511.png?v=58d88622",
             "width": 1600,
             "height": 1200
           }
@@ -866,59 +795,6 @@
           }
         },
         {
-          "id": "thapcam-0c31fd81a4",
-          "name": "Fotbal Club FCSB vs FC Unirea 2004 Slobozia | 01:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0c31fd81a4",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-0c31fd81a4",
-                  "name": "Fotbal Club FCSB vs FC Unirea 2004 Slobozia",
-                  "streams": [
-                    {
-                      "id": "st-0c31fd81a4",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Romanian Super Liga",
-            "team_a": "Fotbal Club FCSB",
-            "team_b": "FC Unirea 2004 Slobozia",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a413daa882f96b18ddb1f0e8c9dbfda7.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b17f903b42eebe1e7ad55f4f346d2bf8.png",
-            "time": "01:00 12/05",
-            "blv": "BLV Người Cò",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0c31fd81a4_91415cbc_20260511.png?v=91415cbc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-6830ae58c7",
           "name": "Al Taawoun vs Al Ahli SFC | 01:00 12/05",
           "type": "single",
@@ -972,6 +848,59 @@
           }
         },
         {
+          "id": "thapcam-0c31fd81a4",
+          "name": "Fotbal Club FCSB vs FC Unirea 2004 Slobozia | 01:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0c31fd81a4",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-0c31fd81a4",
+                  "name": "Fotbal Club FCSB vs FC Unirea 2004 Slobozia",
+                  "streams": [
+                    {
+                      "id": "st-0c31fd81a4",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Romanian Super Liga",
+            "team_a": "Fotbal Club FCSB",
+            "team_b": "FC Unirea 2004 Slobozia",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a413daa882f96b18ddb1f0e8c9dbfda7.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b17f903b42eebe1e7ad55f4f346d2bf8.png",
+            "time": "01:00 12/05",
+            "blv": "BLV Người Cò",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0c31fd81a4_91415cbc_20260511.png?v=91415cbc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-2098a86c97",
           "name": "Napoli vs Bologna | 01:45 12/05",
           "type": "single",
@@ -1020,6 +949,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2098a86c97_12352c54_20260511.png?v=12352c54",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-e509312458",
+          "name": "Rayo Vallecano vs Girona FC | 02:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e509312458",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-e509312458",
+                  "name": "Rayo Vallecano vs Girona FC",
+                  "streams": [
+                    {
+                      "id": "st-e509312458",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Rayo Vallecano",
+            "team_b": "Girona FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5005d8feab109ce64e40beb98073cc1f.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/006ce259b33ef72dd5570cfa8dc39f38.png",
+            "time": "02:00 12/05",
+            "blv": "BLV Người Đá",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e509312458_0b45d085_20260511.png?v=0b45d085",
             "width": 1600,
             "height": 1200
           }
@@ -1131,59 +1113,6 @@
           }
         },
         {
-          "id": "thapcam-e509312458",
-          "name": "Rayo Vallecano vs Girona FC | 02:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e509312458",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e509312458",
-                  "name": "Rayo Vallecano vs Girona FC",
-                  "streams": [
-                    {
-                      "id": "st-e509312458",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Rayo Vallecano",
-            "team_b": "Girona FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5005d8feab109ce64e40beb98073cc1f.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/006ce259b33ef72dd5570cfa8dc39f38.png",
-            "time": "02:00 12/05",
-            "blv": "BLV Người Đá",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e509312458_0b45d085_20260511.png?v=0b45d085",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-58640fd01e",
           "name": "Benfica vs Sporting Braga | 02:15 12/05",
           "type": "single",
@@ -1285,6 +1214,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e247887671_c60ff542_20260511.png?v=c60ff542",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-54a2ff10e5",
+          "name": "Gangwon Football Club vs Daejeon Citizen | 17:30 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-54a2ff10e5",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-54a2ff10e5",
+                  "name": "Gangwon Football Club vs Daejeon Citizen",
+                  "streams": [
+                    {
+                      "id": "st-54a2ff10e5",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Gangwon Football Club",
+            "team_b": "Daejeon Citizen",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/771a93ae7f62b1a47a71c3d62b89dca3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/090eeb1513e8f1d0cf6d8647d10b2eea.png",
+            "time": "17:30 12/05",
+            "blv": "BLV Người Băng",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-54a2ff10e5_4314a47e_20260511.png?v=4314a47e",
             "width": 1600,
             "height": 1200
           }
@@ -1396,59 +1378,6 @@
           }
         },
         {
-          "id": "thapcam-54a2ff10e5",
-          "name": "Gangwon Football Club vs Daejeon Citizen | 17:30 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-54a2ff10e5",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-54a2ff10e5",
-                  "name": "Gangwon Football Club vs Daejeon Citizen",
-                  "streams": [
-                    {
-                      "id": "st-54a2ff10e5",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Gangwon Football Club",
-            "team_b": "Daejeon Citizen",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/771a93ae7f62b1a47a71c3d62b89dca3.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/090eeb1513e8f1d0cf6d8647d10b2eea.png",
-            "time": "17:30 12/05",
-            "blv": "BLV Người Băng",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-54a2ff10e5_4314a47e_20260511.png?v=4314a47e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-77da62adcb",
           "name": "FK Epitsentr Dunayivtsi vs Polissya Zhytomyr | 19:30 12/05",
           "type": "single",
@@ -1502,8 +1431,8 @@
           }
         },
         {
-          "id": "thapcam-9cf9721957",
-          "name": "Pharco vs Modern Sport FC | 21:00 12/05",
+          "id": "thapcam-bda228ae34",
+          "name": "Inter Turku vs JS Hercules | 21:00 12/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1517,15 +1446,15 @@
           ],
           "sources": [
             {
-              "id": "src-9cf9721957",
+              "id": "src-bda228ae34",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-9cf9721957",
-                  "name": "Pharco vs Modern Sport FC",
+                  "id": "ct-bda228ae34",
+                  "name": "Inter Turku vs JS Hercules",
                   "streams": [
                     {
-                      "id": "st-9cf9721957",
+                      "id": "st-bda228ae34",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1535,13 +1464,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Egyptian Premier League",
-            "team_a": "Pharco",
-            "team_b": "Modern Sport FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/abc7123841c5174901b57ace767891ca.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/53f4bc55c48cd39be78fa4fa69645f31.png",
+            "league": "Finland Suomen Cup",
+            "team_a": "Inter Turku",
+            "team_b": "JS Hercules",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f26fb30a9c60dd634d8b2f36afe0e8f1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ac53c099d618e999e1e521527307c15.png",
             "time": "21:00 12/05",
-            "blv": "BLV Người Rừng",
+            "blv": "BLV Người Lạ",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1549,7 +1478,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9cf9721957_c59d6696_20260511.png?v=c59d6696",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bda228ae34_caeb5cd5_20260511.png?v=caeb5cd5",
             "width": 1600,
             "height": 1200
           }
@@ -1608,8 +1537,8 @@
           }
         },
         {
-          "id": "thapcam-bda228ae34",
-          "name": "Inter Turku vs JS Hercules | 21:00 12/05",
+          "id": "thapcam-9cf9721957",
+          "name": "Pharco vs Modern Sport FC | 21:00 12/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1623,15 +1552,15 @@
           ],
           "sources": [
             {
-              "id": "src-bda228ae34",
+              "id": "src-9cf9721957",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-bda228ae34",
-                  "name": "Inter Turku vs JS Hercules",
+                  "id": "ct-9cf9721957",
+                  "name": "Pharco vs Modern Sport FC",
                   "streams": [
                     {
-                      "id": "st-bda228ae34",
+                      "id": "st-9cf9721957",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1641,13 +1570,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Finland Suomen Cup",
-            "team_a": "Inter Turku",
-            "team_b": "JS Hercules",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f26fb30a9c60dd634d8b2f36afe0e8f1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ac53c099d618e999e1e521527307c15.png",
+            "league": "Egyptian Premier League",
+            "team_a": "Pharco",
+            "team_b": "Modern Sport FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/abc7123841c5174901b57ace767891ca.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/53f4bc55c48cd39be78fa4fa69645f31.png",
             "time": "21:00 12/05",
-            "blv": "BLV Người Lạ",
+            "blv": "BLV Người Rừng",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1655,7 +1584,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bda228ae34_caeb5cd5_20260511.png?v=caeb5cd5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9cf9721957_c59d6696_20260511.png?v=c59d6696",
             "width": 1600,
             "height": 1200
           }
