@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -237,10 +237,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -255,7 +255,25 @@
                     {
                       "id": "st-8b03c000f3",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b640be3bca",
+                          "name": "BLV Người Ngố",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a01d9e951ddc_14/index.m3u8?expire=1779111017&sign=267e8d3ed69768d3dacf3b7af46b29b5",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -270,7 +288,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/4e120222885562430b61627e85374a80.png",
             "time": "21:00 11/05",
             "blv": "BLV Người Ngố",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1687,8 +1705,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-7e65ddc7dc",
-          "name": "Jannik Sinner vs Alexei Popyrin | 20:45 11/05",
+          "id": "thapcam-3cfdeec2f5",
+          "name": "Jannik Sinner vs Alexei Popyrin | 20:50 11/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1702,15 +1720,15 @@
           ],
           "sources": [
             {
-              "id": "src-7e65ddc7dc",
+              "id": "src-3cfdeec2f5",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-7e65ddc7dc",
+                  "id": "ct-3cfdeec2f5",
                   "name": "Jannik Sinner vs Alexei Popyrin",
                   "streams": [
                     {
-                      "id": "st-7e65ddc7dc",
+                      "id": "st-3cfdeec2f5",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -1743,7 +1761,7 @@
             "team_b": "Alexei Popyrin",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ff7126c702dacb0624f223c0bc0d66ad.png",
-            "time": "20:45 11/05",
+            "time": "20:50 11/05",
             "blv": "BLV Người Hầu",
             "is_live": true,
             "cate_name": "Tennis"
@@ -1752,7 +1770,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7e65ddc7dc_1e527913_20260511.png?v=1e527913",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3cfdeec2f5_1e527913_20260511.png?v=1e527913",
             "width": 1600,
             "height": 1200
           }
