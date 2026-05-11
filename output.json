@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (9 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,77 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0ffe2d5cbf_71e72e02_20260512.png?v=71e72e02",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-259e346943",
-          "name": "Al-Jazira(UAE) vs Al-Wasl SC | 23:45 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-259e346943",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-259e346943",
-                  "name": "Al-Jazira(UAE) vs Al-Wasl SC",
-                  "streams": [
-                    {
-                      "id": "st-259e346943",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-05aa0804d3",
-                          "name": "BLV Max",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a01ef5551ddd_35/index.m3u8?expire=1779116501&sign=6738e0c863533dfc0066d084e0a825b6",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United Arab Emirates Adnoc Pro-League",
-            "team_a": "Al-Jazira(UAE)",
-            "team_b": "Al-Wasl SC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9352b8e0b9515b84abf716a32c42777e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/17b767b98695df2fb512e992dd8a7af4.png",
-            "time": "23:45 11/05",
-            "blv": "BLV Max",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-259e346943_a2728f5d_20260512.png?v=a2728f5d",
             "width": 1600,
             "height": 1200
           }
@@ -673,59 +602,6 @@
           }
         },
         {
-          "id": "thapcam-14675dbdf2",
-          "name": "Millwall vs Hull City | 02:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-14675dbdf2",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-14675dbdf2",
-                  "name": "Millwall vs Hull City",
-                  "streams": [
-                    {
-                      "id": "st-14675dbdf2",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Football League Championship",
-            "team_a": "Millwall",
-            "team_b": "Hull City",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0ae228b68fbaf8bb4accc5fafe482a43.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/262691204102d2200797f0ac34efb316.png",
-            "time": "02:00 12/05",
-            "blv": "BLV Người Lạ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-14675dbdf2_409dea43_20260512.png?v=409dea43",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-dad23479d1",
           "name": "Tottenham Hotspur vs Leeds United | 02:00 12/05",
           "type": "single",
@@ -827,6 +703,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e509312458_0b45d085_20260512.png?v=0b45d085",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-14675dbdf2",
+          "name": "Millwall vs Hull City | 02:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-14675dbdf2",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-14675dbdf2",
+                  "name": "Millwall vs Hull City",
+                  "streams": [
+                    {
+                      "id": "st-14675dbdf2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Football League Championship",
+            "team_a": "Millwall",
+            "team_b": "Hull City",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0ae228b68fbaf8bb4accc5fafe482a43.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/262691204102d2200797f0ac34efb316.png",
+            "time": "02:00 12/05",
+            "blv": "BLV Người Lạ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-14675dbdf2_409dea43_20260512.png?v=409dea43",
             "width": 1600,
             "height": 1200
           }
@@ -1203,59 +1132,6 @@
           }
         },
         {
-          "id": "thapcam-9cf9721957",
-          "name": "Pharco vs Modern Sport FC | 21:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9cf9721957",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-9cf9721957",
-                  "name": "Pharco vs Modern Sport FC",
-                  "streams": [
-                    {
-                      "id": "st-9cf9721957",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Egyptian Premier League",
-            "team_a": "Pharco",
-            "team_b": "Modern Sport FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/abc7123841c5174901b57ace767891ca.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/53f4bc55c48cd39be78fa4fa69645f31.png",
-            "time": "21:00 12/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9cf9721957_c59d6696_20260512.png?v=c59d6696",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-c4d8b0b3a9",
           "name": "El Gounah vs Kahraba Ismailia | 21:00 12/05",
           "type": "single",
@@ -1304,6 +1180,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c4d8b0b3a9_6f23ba81_20260512.png?v=6f23ba81",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-9cf9721957",
+          "name": "Pharco vs Modern Sport FC | 21:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9cf9721957",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-9cf9721957",
+                  "name": "Pharco vs Modern Sport FC",
+                  "streams": [
+                    {
+                      "id": "st-9cf9721957",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "Pharco",
+            "team_b": "Modern Sport FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/abc7123841c5174901b57ace767891ca.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/53f4bc55c48cd39be78fa4fa69645f31.png",
+            "time": "21:00 12/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-9cf9721957_c59d6696_20260512.png?v=c59d6696",
             "width": 1600,
             "height": 1200
           }
