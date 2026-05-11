@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-259e346943",
-          "name": "Al-Jazira(UAE) vs Al-Wasl SC | 23:45 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-259e346943",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-259e346943",
-                  "name": "Al-Jazira(UAE) vs Al-Wasl SC",
-                  "streams": [
-                    {
-                      "id": "st-259e346943",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-05aa0804d3",
-                          "name": "BLV Max",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a01ef5551ddd_35/index.m3u8?expire=1779116501&sign=6738e0c863533dfc0066d084e0a825b6",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United Arab Emirates Adnoc Pro-League",
-            "team_a": "Al-Jazira(UAE)",
-            "team_b": "Al-Wasl SC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9352b8e0b9515b84abf716a32c42777e.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/17b767b98695df2fb512e992dd8a7af4.png",
-            "time": "23:45 11/05",
-            "blv": "BLV Max",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-259e346943_a2728f5d_20260512.png?v=a2728f5d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-0ffe2d5cbf",
           "name": "Khor Fakkan SSC vs Al-Wahda FC | 23:45 11/05",
@@ -154,6 +83,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0ffe2d5cbf_71e72e02_20260512.png?v=71e72e02",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-259e346943",
+          "name": "Al-Jazira(UAE) vs Al-Wasl SC | 23:45 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-259e346943",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-259e346943",
+                  "name": "Al-Jazira(UAE) vs Al-Wasl SC",
+                  "streams": [
+                    {
+                      "id": "st-259e346943",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-05aa0804d3",
+                          "name": "BLV Max",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a01ef5551ddd_35/index.m3u8?expire=1779116501&sign=6738e0c863533dfc0066d084e0a825b6",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "United Arab Emirates Adnoc Pro-League",
+            "team_a": "Al-Jazira(UAE)",
+            "team_b": "Al-Wasl SC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9352b8e0b9515b84abf716a32c42777e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/17b767b98695df2fb512e992dd8a7af4.png",
+            "time": "23:45 11/05",
+            "blv": "BLV Max",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-259e346943_a2728f5d_20260512.png?v=a2728f5d",
             "width": 1600,
             "height": 1200
           }
@@ -450,10 +450,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -468,7 +468,25 @@
                     {
                       "id": "st-0c31fd81a4",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-d1576d9840",
+                          "name": "BLV Người Cò",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a0213ef137e5_14559/index.m3u8?expire=1779125871&sign=4e9150c301de9474cbf2dc314590bb24",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -483,7 +501,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b17f903b42eebe1e7ad55f4f346d2bf8.png",
             "time": "01:00 12/05",
             "blv": "BLV Người Cò",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -503,10 +521,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -521,7 +539,25 @@
                     {
                       "id": "st-6830ae58c7",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-d09014ae99",
+                          "name": "BLV Chân Đất",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a02127d137e5_145/index.m3u8?expire=1779125501&sign=c8952293343c210414660d8859337860",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -536,7 +572,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a0a227a6100628d3213e1fc321acd4f2.png",
             "time": "01:00 12/05",
             "blv": "BLV Chân Đất",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
