@@ -1842,82 +1842,11 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-f629cce2f3",
-          "name": "Pablo Llamas Ruiz vs Daniil Medvedev | 22:10 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f629cce2f3",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f629cce2f3",
-                  "name": "Pablo Llamas Ruiz vs Daniil Medvedev",
-                  "streams": [
-                    {
-                      "id": "st-f629cce2f3",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3b47d6dbfb",
-                          "name": "BLV Người Sói",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a01e9b651ddd_742/index.m3u8?expire=1779115062&sign=ae6cd6321fb0c4dbfa8837f2aa7f18fb",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Pablo Llamas Ruiz",
-            "team_b": "Daniil Medvedev",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3fad657756700ad69376f898f2fbca06.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/38ff5f900772fc6de71f7cd43767f45a.png",
-            "time": "22:10 11/05",
-            "blv": "BLV Người Sói",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f629cce2f3_94869b8b_20260512.png?v=94869b8b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-a05da031e4",
           "name": "Flavio Cobolli vs Thiago Agustin Tirante | 00:00 12/05",
