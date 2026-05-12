@@ -1813,7 +1813,7 @@
     },
     {
       "id": "grp-0b6b498c58",
-      "name": "🏸 Cầu Lông (3 LIVE)",
+      "name": "🏸 Cầu Lông (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1993,100 +1993,12 @@
             "width": 1600,
             "height": 1200
           }
-        },
-        {
-          "id": "thapcam-57d45f82c1",
-          "name": "FAN Ka Yan / YAU Mau Ying vs HSU Ya Ching / SUNG Yu-Hsuan | 21:22 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-57d45f82c1",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-57d45f82c1",
-                  "name": "FAN Ka Yan / YAU Mau Ying vs HSU Ya Ching / SUNG Yu-Hsuan",
-                  "streams": [
-                    {
-                      "id": "st-57d45f82c1",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-432a4eaf45",
-                          "name": "Sóng Sạch 3",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a028835137e5_148/index.m3u8?expire=1779155637&sign=afbad5c67ca7a928abff193ef8466ea7",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c5416e3bd4",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a02a6fc137e5_3/index.m3u8?expire=1779163516&sign=6296fcb0181b5a342d583515cc505f36",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TOYOTA Thailand Open 2026 _ Sân 4",
-            "team_a": "FAN Ka Yan / YAU Mau Ying",
-            "team_b": "HSU Ya Ching / SUNG Yu-Hsuan",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/6e61d0b0ef9ddefa63448cea3c2eff7b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/be23e182ac2f835fbfb1f1553ec1d33f.png",
-            "time": "21:22 12/05",
-            "blv": "Sóng Sạch 3",
-            "is_live": true,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-57d45f82c1_29b295bf_20260512.png?v=29b295bf",
-            "width": 1600,
-            "height": 1200
-          }
         }
       ]
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (3 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2158,77 +2070,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bf8397525f_b0f9ee93_20260512.png?v=b0f9ee93",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-3b79894f80",
-          "name": "Jannik Sinner vs Andrea Pellegrino | 20:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3b79894f80",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3b79894f80",
-                  "name": "Jannik Sinner vs Andrea Pellegrino",
-                  "streams": [
-                    {
-                      "id": "st-3b79894f80",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1314ee7de8",
-                          "name": "BLV Người Hầu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a03229e51ddd_9657/index.m3u8?expire=1779195166&sign=10d967cd400e8b8831bcaa372cf3031a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Jannik Sinner",
-            "team_b": "Andrea Pellegrino",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5d07148fa1d610d524ecbea5ca61cd27.png",
-            "time": "20:00 12/05",
-            "blv": "BLV Người Hầu",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3b79894f80_8c521046_20260512.png?v=8c521046",
             "width": 1600,
             "height": 1200
           }
