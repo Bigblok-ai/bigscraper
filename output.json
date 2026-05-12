@@ -1871,6 +1871,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-aaed62ef19",
+          "name": "Buriram United vs Johor Darul Ta'zim FC | 19:00 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aaed62ef19",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-aaed62ef19",
+                  "name": "Buriram United vs Johor Darul Ta'zim FC",
+                  "streams": [
+                    {
+                      "id": "st-aaed62ef19",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asean Club Championship Shopee Cup",
+            "team_a": "Buriram United",
+            "team_b": "Johor Darul Ta'zim FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/649a85f258f62ec83a62983488e4b347.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3ab85cf20a3ed001a60a9fcd8ec09afe.png",
+            "time": "19:00 13/05",
+            "blv": "BLV Người Nhện",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-aaed62ef19_2aa49711_20260512.png?v=2aa49711",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1889,94 +1942,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-e739d320ca",
-          "name": "Alexander DUNN / Julie MACPHERSON vs HU Ling Fang / HENG Yu Chieh | 18:10 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e739d320ca",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-e739d320ca",
-                  "name": "Alexander DUNN / Julie MACPHERSON vs HU Ling Fang / HENG Yu Chieh",
-                  "streams": [
-                    {
-                      "id": "st-e739d320ca",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-457ab22b57",
-                          "name": "Sóng Sạch 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a0285f651ddd_145/index.m3u8?expire=1779155062&sign=1169d6d28a4e8038511a6ada087422a4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-70b481d173",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a02a67551ddd_2/index.m3u8?expire=1779163381&sign=c900bbdc8993802df0d95d840be93263",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TOYOTA Thailand Open 2026 _ Sân 1",
-            "team_a": "Alexander DUNN / Julie MACPHERSON",
-            "team_b": "HU Ling Fang / HENG Yu Chieh",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/38ceb089b72d907ecb63ac8733de5c3c.svg",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/730c042c41eb01510223e38e319723ce.png",
-            "time": "18:10 12/05",
-            "blv": "Sóng Sạch 1",
-            "is_live": true,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e739d320ca_9fa2e30c_20260512.png?v=9fa2e30c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-c6e1bdd908",
           "name": "Jiří KRÁL / Ondřej KRÁL vs XIE Haonan / ZENG Wei Han | 18:15 12/05",
@@ -2237,6 +2202,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b9e4e88d7a_6987feba_20260512.png?v=6987feba",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-4386ffea92",
+          "name": "CHAROENKITAMORN / Worrapol THONGSA-NGA vs HUANG / LIU Yang | 18:50 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4386ffea92",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-4386ffea92",
+                  "name": "CHAROENKITAMORN / Worrapol THONGSA-NGA vs HUANG / LIU Yang",
+                  "streams": [
+                    {
+                      "id": "st-4386ffea92",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-457ab22b57",
+                          "name": "Sóng Sạch 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a0285f651ddd_145/index.m3u8?expire=1779155062&sign=1169d6d28a4e8038511a6ada087422a4",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-70b481d173",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a02a67551ddd_2/index.m3u8?expire=1779163381&sign=c900bbdc8993802df0d95d840be93263",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TOYOTA Thailand Open 2026 _ Sân 1",
+            "team_a": "CHAROENKITAMORN / Worrapol THONGSA-NGA",
+            "team_b": "HUANG / LIU Yang",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/95e992c7df9112305621d10b62e41253.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/c8b7e3702502b7429172ddc7e6992cf5.png",
+            "time": "18:50 12/05",
+            "blv": "Sóng Sạch 1",
+            "is_live": true,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-4386ffea92_b31d13f7_20260512.png?v=b31d13f7",
             "width": 1600,
             "height": 1200
           }
