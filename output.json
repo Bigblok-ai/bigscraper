@@ -1451,99 +1451,11 @@
     },
     {
       "id": "grp-d721cd64dc",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-6293258fb4",
-          "name": "Cleveland Cavaliers vs Detroit Pistons | 07:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6293258fb4",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-6293258fb4",
-                  "name": "Cleveland Cavaliers vs Detroit Pistons",
-                  "streams": [
-                    {
-                      "id": "st-6293258fb4",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a870350cc3",
-                          "name": "BLV Người Sói",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a026cd451ddd_742/index.m3u8?expire=1779148628&sign=f1bd5712c5f02034dac33ed26ef57e8b",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f2e30e49fc",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a02697051ddd_9657/index.m3u8?expire=1779147760&sign=9fb031362f52bf7f347f4e957b91b632",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Cleveland Cavaliers",
-            "team_b": "Detroit Pistons",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/57c938e35ceb2ee92562a09c4165fb47.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3f82122a48e98eaccc5e71307eba801a.png",
-            "time": "07:00 12/05",
-            "blv": "BLV Người Sói",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6293258fb4_2b9c6420_20260512.png?v=2b9c6420",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-6d80e7e784",
           "name": "Los Angeles Lakers vs Oklahoma City Thunder | 09:30 12/05",
@@ -1730,94 +1642,6 @@
           }
         },
         {
-          "id": "thapcam-2d817753d5",
-          "name": "LO Sin Yan Happy vs AKKHARAWONG | 09:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2d817753d5",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-2d817753d5",
-                  "name": "LO Sin Yan Happy vs AKKHARAWONG",
-                  "streams": [
-                    {
-                      "id": "st-2d817753d5",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-357fb25151",
-                          "name": "BLV Tôn Quyền",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a02870551ddd_1960/index.m3u8?expire=1779155333&sign=d3ba53e4b00a473006272a414409ef18",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e4ef424631",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a028a1b137e5_793/index.m3u8?expire=1779156123&sign=6b5a4ca783dfe20979d99407fbf5c0ea",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TOYOTA Thailand Open 2026 _ Sân 2",
-            "team_a": "LO Sin Yan Happy",
-            "team_b": "AKKHARAWONG",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/121987e26211dba14539952f28399c5b.jpg",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/74800033dffc8277e51b81db63af3271.png",
-            "time": "09:00 12/05",
-            "blv": "BLV Tôn Quyền",
-            "is_live": true,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2d817753d5_eff58060_20260512.png?v=eff58060",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-5853ce3d81",
           "name": "Thalita Ramadhani WIRYAWAN vs THET HTAR THUZAR | 09:10 12/05",
           "type": "single",
@@ -1989,6 +1813,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-023193bb4d_160f6f60_20260512.png?v=160f6f60",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-75ccb86c0a",
+          "name": "DONG Tian Yao vs Patcharakit APIRATCHATASET | 09:30 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-75ccb86c0a",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-75ccb86c0a",
+                  "name": "DONG Tian Yao vs Patcharakit APIRATCHATASET",
+                  "streams": [
+                    {
+                      "id": "st-75ccb86c0a",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-357fb25151",
+                          "name": "BLV Tôn Quyền",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a02870551ddd_1960/index.m3u8?expire=1779155333&sign=d3ba53e4b00a473006272a414409ef18",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e4ef424631",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a028a1b137e5_793/index.m3u8?expire=1779156123&sign=6b5a4ca783dfe20979d99407fbf5c0ea",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TOYOTA Thailand Open 2026 _ Sân 2",
+            "team_a": "DONG Tian Yao",
+            "team_b": "Patcharakit APIRATCHATASET",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/d2879f0a31bacaf397510159f61fa825.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/82378d05430c55725cb31ed13fe83679.png",
+            "time": "09:30 12/05",
+            "blv": "BLV Tôn Quyền",
+            "is_live": true,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-75ccb86c0a_4c2d37c3_20260512.png?v=4c2d37c3",
             "width": 1600,
             "height": 1200
           }
