@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -281,77 +281,6 @@
           }
         },
         {
-          "id": "thapcam-0d4b8dbfc9",
-          "name": "RC Celta vs Levante | 00:00 13/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0d4b8dbfc9",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-0d4b8dbfc9",
-                  "name": "RC Celta vs Levante",
-                  "streams": [
-                    {
-                      "id": "st-0d4b8dbfc9",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-50f8d87764",
-                          "name": "BLV Người Rừng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a0348a7137e5_148/index.m3u8?expire=1779204903&sign=bc9c9fd59bb41ea2468f932f5b9e02dc",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "RC Celta",
-            "team_b": "Levante",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fd954d083ee85a6f1a3f2471dc756242.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/13e2038bd23a38ce32a3eb259c8bf7d8.png",
-            "time": "00:00 13/05",
-            "blv": "BLV Người Rừng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0d4b8dbfc9_40086128_20260513.png?v=40086128",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-4ba364212c",
           "name": "Wadi Degla SC vs Ismaily SC | 00:00 13/05",
           "type": "single",
@@ -565,6 +494,77 @@
           }
         },
         {
+          "id": "thapcam-0d4b8dbfc9",
+          "name": "RC Celta vs Levante | 00:00 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0d4b8dbfc9",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-0d4b8dbfc9",
+                  "name": "RC Celta vs Levante",
+                  "streams": [
+                    {
+                      "id": "st-0d4b8dbfc9",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-50f8d87764",
+                          "name": "BLV Người Rừng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a0348a7137e5_148/index.m3u8?expire=1779204903&sign=bc9c9fd59bb41ea2468f932f5b9e02dc",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "RC Celta",
+            "team_b": "Levante",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fd954d083ee85a6f1a3f2471dc756242.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/13e2038bd23a38ce32a3eb259c8bf7d8.png",
+            "time": "00:00 13/05",
+            "blv": "BLV Người Rừng",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0d4b8dbfc9_40086128_20260513.png?v=40086128",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-3496aeeb51",
           "name": "Real Betis vs Elche | 01:00 13/05",
           "type": "single",
@@ -572,10 +572,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -590,7 +590,42 @@
                     {
                       "id": "st-3496aeeb51",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ed7f9f8c5f",
+                          "name": "BLV Cá Mập",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a03642e51ddd_154/index.m3u8?expire=1779211950&sign=a22a7f8050718a9756da8f4e53853081",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9aa6e3fbd3",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a03642551ddd_26/index.m3u8?expire=1779211941&sign=efe8a6df338f50e07dc4177e16155839",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -605,7 +640,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e5ecd0553885f1a3af731758dddce2ec.png",
             "time": "01:00 13/05",
             "blv": "BLV Cá Mập",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -625,10 +660,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -643,7 +678,42 @@
                     {
                       "id": "st-727d49ad0e",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b67eda98a3",
+                          "name": "BLV Lềnh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a036458137e5_1549/index.m3u8?expire=1779211992&sign=1093587f8be7019e8ca279c9543ee1b5",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-91a273f387",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a03649851ddd_32/index.m3u8?expire=1779212056&sign=9528b52ef1a84ee58f0587341d79a64e",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -658,7 +728,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/07a555616afab7be32e00150eacf4197.png",
             "time": "01:00 13/05",
             "blv": "BLV Lềnh",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -678,10 +748,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -696,7 +766,25 @@
                     {
                       "id": "st-e89978e64b",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-5063a4a585",
+                          "name": "BLV Người Lạ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a03623c51ddd_11241/index.m3u8?expire=1779211452&sign=d1f969af2e1f12298dcd134e6ad33e1c",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -711,7 +799,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/5f2dea169afabe7ad4ec91c0624c68a2.png",
             "time": "01:00 13/05",
             "blv": "BLV Người Lạ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
