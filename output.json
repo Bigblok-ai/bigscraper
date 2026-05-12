@@ -1512,73 +1512,38 @@
     },
     {
       "id": "grp-0b6b498c58",
-      "name": "🏸 Cầu Lông (3 LIVE)",
+      "name": "🏸 Cầu Lông",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-b7bb5ce9e9",
-          "name": "Satwiksaija Rankireddy/ Chirag Shetty vs ERWIANSYAH / MAULANA | 15:55 12/05",
+          "id": "thapcam-495c4adee5",
+          "name": "Satwiksaija Rankireddy/ Chirag Shetty vs ERWIANSYAH / MAULANA | 17:00 12/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-b7bb5ce9e9",
+              "id": "src-495c4adee5",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-b7bb5ce9e9",
+                  "id": "ct-495c4adee5",
                   "name": "Satwiksaija Rankireddy/ Chirag Shetty vs ERWIANSYAH / MAULANA",
                   "streams": [
                     {
-                      "id": "st-b7bb5ce9e9",
+                      "id": "st-495c4adee5",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-457ab22b57",
-                          "name": "Sóng Sạch 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a0285f651ddd_145/index.m3u8?expire=1779155062&sign=1169d6d28a4e8038511a6ada087422a4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-70b481d173",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a02a67551ddd_2/index.m3u8?expire=1779163381&sign=c900bbdc8993802df0d95d840be93263",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1591,99 +1556,47 @@
             "team_b": "ERWIANSYAH / MAULANA",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/ac89b9c1a72eacc242008b216f7322ec.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/4f348c270fcf75dc1071ca8b6ace38e6.png",
-            "time": "15:55 12/05",
+            "time": "17:00 12/05",
             "blv": "Sóng Sạch 1",
-            "is_live": true,
+            "is_live": false,
             "cate_name": "Cầu Lông"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-b7bb5ce9e9_8f2b3fc0_20260512.png?v=8f2b3fc0",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-495c4adee5_8f2b3fc0_20260512.png?v=8f2b3fc0",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "thapcam-3e3ceac281",
-          "name": "Rin IWANAGA/Kie NAKANISH vs Lauren LAM /  Allison Quynh LEE | 15:55 12/05",
+          "id": "thapcam-6c8cf2933e",
+          "name": "Rin IWANAGA/Kie NAKANISH vs Lauren LAM /  Allison Quynh LEE | 17:00 12/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-3e3ceac281",
+              "id": "src-6c8cf2933e",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-3e3ceac281",
+                  "id": "ct-6c8cf2933e",
                   "name": "Rin IWANAGA/Kie NAKANISH vs Lauren LAM /  Allison Quynh LEE",
                   "streams": [
                     {
-                      "id": "st-3e3ceac281",
+                      "id": "st-6c8cf2933e",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b900cbd62c",
-                          "name": "BLV Người Lạ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a028a1b137e5_793/index.m3u8?expire=1779156123&sign=6b5a4ca783dfe20979d99407fbf5c0ea",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-1eb7a8722b",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a02a6c4137e5_1960/index.m3u8?expire=1779163460&sign=e1cffc8b6c995f5803cca0f47d67b607",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f7c1e5b616",
-                          "name": "Link HD 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a02e78c51ddd_11241/index.m3u8?expire=1779180044&sign=4b778897ba52c207e6d1dd6d2490cf75",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1696,82 +1609,47 @@
             "team_b": "Lauren LAM /  Allison Quynh LEE",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/d47a9e63a7301929e6331256934228b2.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/7d6baf11aa102bceafc538857cf98d97.png",
-            "time": "15:55 12/05",
+            "time": "17:00 12/05",
             "blv": "BLV Người Lạ",
-            "is_live": true,
+            "is_live": false,
             "cate_name": "Cầu Lông"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3e3ceac281_697726f7_20260512.png?v=697726f7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6c8cf2933e_697726f7_20260512.png?v=697726f7",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "thapcam-bbe3bbe783",
-          "name": "Ong Xin Yee/ Carmen Ting vs MEIDA / NASTINE | 15:55 12/05",
+          "id": "thapcam-e367a3ab4f",
+          "name": "Ong Xin Yee/ Carmen Ting vs MEIDA / NASTINE | 17:00 12/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-bbe3bbe783",
+              "id": "src-e367a3ab4f",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-bbe3bbe783",
+                  "id": "ct-e367a3ab4f",
                   "name": "Ong Xin Yee/ Carmen Ting vs MEIDA / NASTINE",
                   "streams": [
                     {
-                      "id": "st-bbe3bbe783",
+                      "id": "st-e367a3ab4f",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-432a4eaf45",
-                          "name": "Sóng Sạch 3",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a028835137e5_148/index.m3u8?expire=1779155637&sign=afbad5c67ca7a928abff193ef8466ea7",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c5416e3bd4",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a02a6fc137e5_3/index.m3u8?expire=1779163516&sign=6296fcb0181b5a342d583515cc505f36",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1784,16 +1662,16 @@
             "team_b": "MEIDA / NASTINE",
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/ce08cc9db2e45e9048aa17d32c4679f5.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/936bac90e7f8b13c87e407a9c16e0cdc.png",
-            "time": "15:55 12/05",
+            "time": "17:00 12/05",
             "blv": "Sóng Sạch 3",
-            "is_live": true,
+            "is_live": false,
             "cate_name": "Cầu Lông"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bbe3bbe783_0ed82b8f_20260512.png?v=0ed82b8f",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e367a3ab4f_0ed82b8f_20260512.png?v=0ed82b8f",
             "width": 1600,
             "height": 1200
           }
