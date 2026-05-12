@@ -1548,7 +1548,7 @@
     },
     {
       "id": "grp-0b6b498c58",
-      "name": "🏸 Cầu Lông",
+      "name": "🏸 Cầu Lông (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1561,10 +1561,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1579,7 +1579,42 @@
                     {
                       "id": "st-d983648838",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-457ab22b57",
+                          "name": "Sóng Sạch 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a0285f651ddd_145/index.m3u8?expire=1779155062&sign=1169d6d28a4e8038511a6ada087422a4",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b8a09727ae",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a0286c0137e5_2/index.m3u8?expire=1779155264&sign=98788645a88822666649a20f5610e977",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1594,7 +1629,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/5deeb3bc762a94509749b16483c9b229.jpg",
             "time": "09:00 12/05",
             "blv": "Sóng Sạch 1",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Cầu Lông"
           },
           "image": {
@@ -1614,10 +1649,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1632,7 +1667,25 @@
                     {
                       "id": "st-2d817753d5",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ef21c8579",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a02870551ddd_1960/index.m3u8?expire=1779155333&sign=d3ba53e4b00a473006272a414409ef18",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1647,7 +1700,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/74800033dffc8277e51b81db63af3271.png",
             "time": "09:00 12/05",
             "blv": "Sóng Sạch 2",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Cầu Lông"
           },
           "image": {
@@ -1699,7 +1752,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/353e8b7aaa3de3e079b692aef9a8d474.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/ad65f1bbcd99babf16d2211b1c43f4cb.png",
             "time": "09:10 12/05",
-            "blv": "BLV Cá Mập",
+            "blv": "Sóng Sạch 3",
             "is_live": false,
             "cate_name": "Cầu Lông"
           },
@@ -1752,7 +1805,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/e45a45d3c2706f0018fbbd26f004f09e.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/da9c709aaf5fef2976870565c3927927.png",
             "time": "09:10 12/05",
-            "blv": "BLV Người Rừng",
+            "blv": "Sóng Sạch 4",
             "is_live": false,
             "cate_name": "Cầu Lông"
           },
@@ -1876,112 +1929,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-89fea769f1_74b81dce_20260512.png?v=74b81dce",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-d62b93fbd7",
-          "name": "Karen Khachanov vs Dino Prizmic | 16:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d62b93fbd7",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d62b93fbd7",
-                  "name": "Karen Khachanov vs Dino Prizmic",
-                  "streams": [
-                    {
-                      "id": "st-d62b93fbd7",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Karen Khachanov",
-            "team_b": "Dino Prizmic",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8bf38e477d945555872642f32648300b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8bf80daa8f2b15e4117a90fe557e9ade.png",
-            "time": "16:00 12/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d62b93fbd7_3c18d2db_20260512.png?v=3c18d2db",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-eec5abfdc3",
-          "name": "Luciano Darderi vs Alexander Zverev | 16:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eec5abfdc3",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-eec5abfdc3",
-                  "name": "Luciano Darderi vs Alexander Zverev",
-                  "streams": [
-                    {
-                      "id": "st-eec5abfdc3",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Luciano Darderi",
-            "team_b": "Alexander Zverev",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/614b17a5a67a65bb7d8eb65a7f442cf4.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/Fs2AoS8fSPu9qB9HdwSDwQVAICOz",
-            "time": "16:00 12/05",
-            "blv": "BLV Người Hầu",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-eec5abfdc3_b0f9ee93_20260512.png?v=b0f9ee93",
             "width": 1600,
             "height": 1200
           }
