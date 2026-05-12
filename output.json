@@ -2264,7 +2264,7 @@
     },
     {
       "id": "grp-d721cd64dc",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2277,10 +2277,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2295,7 +2295,42 @@
                     {
                       "id": "st-92ffbb0e22",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e56bc21d43",
+                          "name": "BLV Jackay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a03ba42137e5_28362/index.m3u8?expire=1779233986&sign=a1149a9acaa7f196e750a1137c813e31",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-70397374ee",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a03b95f51ddd_9657/index.m3u8?expire=1779233759&sign=d3462d4610f86b1967beacba4d3e7358",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2310,7 +2345,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/38794d0ac418d8f2d03bd17a2623f3ed.png",
             "time": "07:00 13/05",
             "blv": "BLV Jackay",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng rổ"
           },
           "image": {
@@ -2493,61 +2528,7 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "thapcam-ab48411c82",
-          "name": "Panas Kuala Lumpur Open | 07:00 13/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ab48411c82",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-ab48411c82",
-                  "name": "Panas Kuala Lumpur Open",
-                  "streams": [
-                    {
-                      "id": "st-ab48411c82",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Panas Kuala Lumpur Open",
-            "team_a": "Panas Kuala Lumpur Open",
-            "team_b": "",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/categories/2026/04/02/2566643ba5bc08379d16185885627cd2.svg",
-            "logo_b": "",
-            "time": "07:00 13/05",
-            "blv": "Sóng Sạch 1",
-            "is_live": false,
-            "cate_name": "Pickleball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ab48411c82_728334c9_20260513.png?v=728334c9",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     }
   ]
 }
