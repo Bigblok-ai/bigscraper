@@ -1884,99 +1884,11 @@
     },
     {
       "id": "grp-0b6b498c58",
-      "name": "🏸 Cầu Lông (4 LIVE)",
+      "name": "🏸 Cầu Lông (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-bccea73a79",
-          "name": "BAO Li Jing ,CAO Zi Han vs HSIEH Pei Shan, HUNG En-Tzu | 20:45 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bccea73a79",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-bccea73a79",
-                  "name": "BAO Li Jing ,CAO Zi Han vs HSIEH Pei Shan, HUNG En-Tzu",
-                  "streams": [
-                    {
-                      "id": "st-bccea73a79",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f23eae2505",
-                          "name": "BLV Người Điên",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a02a74151ddd_2429/index.m3u8?expire=1779163585&sign=8c09b7962bd2b89f6a9e63da0657b555",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-5999a27eb2",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a02e86f51ddd_1984/index.m3u8?expire=1779180271&sign=703815109fae6a6a28a3ace55d0f0602",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TOYOTA Thailand Open 2026 _ Sân 3",
-            "team_a": "BAO Li Jing ,CAO Zi Han",
-            "team_b": "HSIEH Pei Shan, HUNG En-Tzu",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/6000f170a38851de72e5a4591e3ba72f.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/b68152cc92f1e11e592a8df9f37acd11.png",
-            "time": "20:45 12/05",
-            "blv": "BLV Người Điên",
-            "is_live": true,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bccea73a79_735fd88a_20260512.png?v=735fd88a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-e18a9c62a8",
           "name": "Zhi-Wei HE / HUANG Jui-Hsuan vs CHEN Cheng Kuan / LIU Kuang Heng | 20:50 12/05",
