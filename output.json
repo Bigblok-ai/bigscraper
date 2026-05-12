@@ -1234,6 +1234,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-5a3a99243d",
+          "name": "San Martin Tucuman vs Gimnasia Jujuy | 07:10 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5a3a99243d",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-5a3a99243d",
+                  "name": "San Martin Tucuman vs Gimnasia Jujuy",
+                  "streams": [
+                    {
+                      "id": "st-5a3a99243d",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ARG Primera Nacional",
+            "team_a": "San Martin Tucuman",
+            "team_b": "Gimnasia Jujuy",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b6cd6f7995d906fc541b42b8219df67a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7d7b9e138ba2e346728f56701654c43a.png",
+            "time": "07:10 13/05",
+            "blv": "BLV Người Cò",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-5a3a99243d_7cbf150c_20260512.png?v=7cbf150c",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
