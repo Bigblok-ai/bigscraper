@@ -11,187 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (10 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-05298473c9",
-          "name": "Japan U17 vs Indonesia U17 | 23:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-05298473c9",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-05298473c9",
-                  "name": "Japan U17 vs Indonesia U17",
-                  "streams": [
-                    {
-                      "id": "st-05298473c9",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f87e6074a5",
-                          "name": "BLV Siêu Bướng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a0346fc137e5_151/index.m3u8?expire=1779204476&sign=e4253335a0412f38c5fb68d5ca285d57",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-af6775f67c",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a034a10137e5_35/index.m3u8?expire=1779205264&sign=8c33218aa520469a77b382f9f284e013",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Japan U17",
-            "team_b": "Indonesia U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3c4d97fd12b32034eecb81ef51583b26.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a222bcd619abdcee951b28cae8d1cce6.png",
-            "time": "23:00 12/05",
-            "blv": "BLV Siêu Bướng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-05298473c9_8a43128d_20260513.png?v=8a43128d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-c0134f5d7c",
-          "name": "China U17 vs Qatar U17 | 23:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c0134f5d7c",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-c0134f5d7c",
-                  "name": "China U17 vs Qatar U17",
-                  "streams": [
-                    {
-                      "id": "st-c0134f5d7c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a95f50c961",
-                          "name": "BLV Cá Mập",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a033edb137e5_154/index.m3u8?expire=1779202395&sign=af6bbe0cb6440f5bdad896fc8c875fce",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-fbe4faff3c",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a03469f137e5_1549/index.m3u8?expire=1779204383&sign=49f6cda8dc7cf364f77a84c1270808cf",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "China U17",
-            "team_b": "Qatar U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/56b46dcd3e801a496ca783ab0bd0f44d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8583e166d6e955dd01525d25b53b4439.png",
-            "time": "23:00 12/05",
-            "blv": "BLV Cá Mập",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c0134f5d7c_0af05857_20260513.png?v=0af05857",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-0abd5b4dd4",
           "name": "Al Kholood vs Al Okhdood | 23:20 12/05",
@@ -281,6 +105,77 @@
           }
         },
         {
+          "id": "thapcam-52d19d87b6",
+          "name": "Thailand U17 vs Myanmar U17 | 00:00 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-52d19d87b6",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-52d19d87b6",
+                  "name": "Thailand U17 vs Myanmar U17",
+                  "streams": [
+                    {
+                      "id": "st-52d19d87b6",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3a18e0ff47",
+                          "name": "BLV Người Cò",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a035c2351ddd_14559/index.m3u8?expire=1779209891&sign=e66d152864bd207a6108f6a318b553a8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Thailand U17",
+            "team_b": "Myanmar U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/51c3745e99294178891085f6c3f265e2.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fbbcb591970475f0c7737c04c9d2f2da.png",
+            "time": "00:00 13/05",
+            "blv": "BLV Người Cò",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-52d19d87b6_3998e1d7_20260513.png?v=3998e1d7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-1df4e99522",
           "name": "Saudi Arabia U17 vs Tajikistan U17 | 00:00 13/05",
           "type": "single",
@@ -347,77 +242,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1df4e99522_29e7da95_20260513.png?v=29e7da95",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-0d4b8dbfc9",
-          "name": "RC Celta vs Levante | 00:00 13/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0d4b8dbfc9",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-0d4b8dbfc9",
-                  "name": "RC Celta vs Levante",
-                  "streams": [
-                    {
-                      "id": "st-0d4b8dbfc9",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-50f8d87764",
-                          "name": "BLV Người Rừng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a0348a7137e5_148/index.m3u8?expire=1779204903&sign=bc9c9fd59bb41ea2468f932f5b9e02dc",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "RC Celta",
-            "team_b": "Levante",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fd954d083ee85a6f1a3f2471dc756242.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/13e2038bd23a38ce32a3eb259c8bf7d8.png",
-            "time": "00:00 13/05",
-            "blv": "BLV Người Rừng",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0d4b8dbfc9_40086128_20260513.png?v=40086128",
             "width": 1600,
             "height": 1200
           }
@@ -494,8 +318,8 @@
           }
         },
         {
-          "id": "thapcam-52d19d87b6",
-          "name": "Thailand U17 vs Myanmar U17 | 00:00 13/05",
+          "id": "thapcam-0d4b8dbfc9",
+          "name": "RC Celta vs Levante | 00:00 13/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -509,111 +333,23 @@
           ],
           "sources": [
             {
-              "id": "src-52d19d87b6",
+              "id": "src-0d4b8dbfc9",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-52d19d87b6",
-                  "name": "Thailand U17 vs Myanmar U17",
+                  "id": "ct-0d4b8dbfc9",
+                  "name": "RC Celta vs Levante",
                   "streams": [
                     {
-                      "id": "st-52d19d87b6",
+                      "id": "st-0d4b8dbfc9",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-3a18e0ff47",
-                          "name": "BLV Người Cò",
+                          "id": "lnk-50f8d87764",
+                          "name": "BLV Người Rừng",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a035c2351ddd_14559/index.m3u8?expire=1779209891&sign=e66d152864bd207a6108f6a318b553a8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Thailand U17",
-            "team_b": "Myanmar U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/51c3745e99294178891085f6c3f265e2.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fbbcb591970475f0c7737c04c9d2f2da.png",
-            "time": "00:00 13/05",
-            "blv": "BLV Người Cò",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-52d19d87b6_3998e1d7_20260513.png?v=3998e1d7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-3496aeeb51",
-          "name": "Real Betis vs Elche | 01:00 13/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3496aeeb51",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-3496aeeb51",
-                  "name": "Real Betis vs Elche",
-                  "streams": [
-                    {
-                      "id": "st-3496aeeb51",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ed7f9f8c5f",
-                          "name": "BLV Cá Mập",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a03642e51ddd_154/index.m3u8?expire=1779211950&sign=a22a7f8050718a9756da8f4e53853081",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9aa6e3fbd3",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a03642551ddd_26/index.m3u8?expire=1779211941&sign=efe8a6df338f50e07dc4177e16155839",
+                          "url": "https://cdn-hls.phogatv8.com/live/6a0348a7137e5_148/index.m3u8?expire=1779204903&sign=bc9c9fd59bb41ea2468f932f5b9e02dc",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -634,12 +370,12 @@
           ],
           "org_metadata": {
             "league": "Spanish La Liga",
-            "team_a": "Real Betis",
-            "team_b": "Elche",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/018e260ad68bdad741c61e3171c4c608.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e5ecd0553885f1a3af731758dddce2ec.png",
-            "time": "01:00 13/05",
-            "blv": "BLV Cá Mập",
+            "team_a": "RC Celta",
+            "team_b": "Levante",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fd954d083ee85a6f1a3f2471dc756242.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/13e2038bd23a38ce32a3eb259c8bf7d8.png",
+            "time": "00:00 13/05",
+            "blv": "BLV Người Rừng",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -647,7 +383,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3496aeeb51_205767d1_20260513.png?v=205767d1",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0d4b8dbfc9_40086128_20260513.png?v=40086128",
             "width": 1600,
             "height": 1200
           }
@@ -807,6 +543,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-e89978e64b_bdf04eb7_20260513.png?v=bdf04eb7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-3496aeeb51",
+          "name": "Real Betis vs Elche | 01:00 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3496aeeb51",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-3496aeeb51",
+                  "name": "Real Betis vs Elche",
+                  "streams": [
+                    {
+                      "id": "st-3496aeeb51",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ed7f9f8c5f",
+                          "name": "BLV Cá Mập",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a03642e51ddd_154/index.m3u8?expire=1779211950&sign=a22a7f8050718a9756da8f4e53853081",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9aa6e3fbd3",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a03642551ddd_26/index.m3u8?expire=1779211941&sign=efe8a6df338f50e07dc4177e16155839",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Real Betis",
+            "team_b": "Elche",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/018e260ad68bdad741c61e3171c4c608.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e5ecd0553885f1a3af731758dddce2ec.png",
+            "time": "01:00 13/05",
+            "blv": "BLV Cá Mập",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3496aeeb51_205767d1_20260513.png?v=205767d1",
             "width": 1600,
             "height": 1200
           }
@@ -1342,6 +1166,59 @@
           }
         },
         {
+          "id": "thapcam-a7afd736eb",
+          "name": "Bucheon FC 1995 vs Jeonbuk Hyundai Motors | 17:30 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a7afd736eb",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-a7afd736eb",
+                  "name": "Bucheon FC 1995 vs Jeonbuk Hyundai Motors",
+                  "streams": [
+                    {
+                      "id": "st-a7afd736eb",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Bucheon FC 1995",
+            "team_b": "Jeonbuk Hyundai Motors",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/640f8c62cb294e1cc308a44ed2a62891.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ee2117f952745163fecfa4b74a6a2bea.png",
+            "time": "17:30 13/05",
+            "blv": "BLV Người Đá",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a7afd736eb_53f1df4b_20260513.png?v=53f1df4b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-85eb254c5b",
           "name": "FC Anyang vs Gimcheon Sangmu Football Club | 17:30 13/05",
           "type": "single",
@@ -1443,59 +1320,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ed60eef153_78ef6131_20260513.png?v=78ef6131",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-a7afd736eb",
-          "name": "Bucheon FC 1995 vs Jeonbuk Hyundai Motors | 17:30 13/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a7afd736eb",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-a7afd736eb",
-                  "name": "Bucheon FC 1995 vs Jeonbuk Hyundai Motors",
-                  "streams": [
-                    {
-                      "id": "st-a7afd736eb",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Bucheon FC 1995",
-            "team_b": "Jeonbuk Hyundai Motors",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/640f8c62cb294e1cc308a44ed2a62891.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ee2117f952745163fecfa4b74a6a2bea.png",
-            "time": "17:30 13/05",
-            "blv": "BLV Người Đá",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a7afd736eb_53f1df4b_20260513.png?v=53f1df4b",
             "width": 1600,
             "height": 1200
           }
@@ -2137,6 +1961,59 @@
           }
         },
         {
+          "id": "thapcam-cfa2cae482",
+          "name": "Ittihad Alexandria SC vs Tala'ea El Gaish | 00:00 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cfa2cae482",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-cfa2cae482",
+                  "name": "Ittihad Alexandria SC vs Tala'ea El Gaish",
+                  "streams": [
+                    {
+                      "id": "st-cfa2cae482",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "Ittihad Alexandria SC",
+            "team_b": "Tala'ea El Gaish",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/56484f26eac26f8e279ea2172c48632d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bacc15441ed99eaad038d4ceb86751d6.png",
+            "time": "00:00 14/05",
+            "blv": "BLV Tôn Quyền",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cfa2cae482_2f07b401_20260513.png?v=2f07b401",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-4ce927265e",
           "name": "Stade Brestois 29 vs RC Strasbourg Alsace | 00:00 14/05",
           "type": "single",
@@ -2190,59 +2067,6 @@
           }
         },
         {
-          "id": "thapcam-461449253e",
-          "name": "RCD Espanyol de Barcelona vs Athletic Club | 00:00 14/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-461449253e",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-461449253e",
-                  "name": "RCD Espanyol de Barcelona vs Athletic Club",
-                  "streams": [
-                    {
-                      "id": "st-461449253e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "RCD Espanyol de Barcelona",
-            "team_b": "Athletic Club",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/214049d4df11756a2eb21bbd8266e2a1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/abbb31d42c55612737713aac6567a226.png",
-            "time": "00:00 14/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-461449253e_d6534bdc_20260513.png?v=d6534bdc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-2b425272fa",
           "name": "Villarreal CF vs Sevilla FC | 00:00 14/05",
           "type": "single",
@@ -2282,7 +2106,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/aee62af96a956756cc29fe4831286357.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d20ed1da4f299cc3ef0e1e9eb06eced1.png",
             "time": "00:00 14/05",
-            "blv": "BLV Cá Mập",
+            "blv": "BLV Người Băng",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -2291,59 +2115,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2b425272fa_29a1e0ca_20260513.png?v=29a1e0ca",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-cfa2cae482",
-          "name": "Ittihad Alexandria SC vs Tala'ea El Gaish | 00:00 14/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cfa2cae482",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-cfa2cae482",
-                  "name": "Ittihad Alexandria SC vs Tala'ea El Gaish",
-                  "streams": [
-                    {
-                      "id": "st-cfa2cae482",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Egyptian Premier League",
-            "team_a": "Ittihad Alexandria SC",
-            "team_b": "Tala'ea El Gaish",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/56484f26eac26f8e279ea2172c48632d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bacc15441ed99eaad038d4ceb86751d6.png",
-            "time": "00:00 14/05",
-            "blv": "BLV Tôn Quyền",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cfa2cae482_2f07b401_20260513.png?v=2f07b401",
             "width": 1600,
             "height": 1200
           }
@@ -2561,6 +2332,59 @@
           }
         },
         {
+          "id": "thapcam-461449253e",
+          "name": "RCD Espanyol de Barcelona vs Athletic Club | 00:00 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-461449253e",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-461449253e",
+                  "name": "RCD Espanyol de Barcelona vs Athletic Club",
+                  "streams": [
+                    {
+                      "id": "st-461449253e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "RCD Espanyol de Barcelona",
+            "team_b": "Athletic Club",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/214049d4df11756a2eb21bbd8266e2a1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/abbb31d42c55612737713aac6567a226.png",
+            "time": "00:00 14/05",
+            "blv": "BLV Siêu Quậy",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-461449253e_d6534bdc_20260513.png?v=d6534bdc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-3392db86bd",
           "name": "Genclerbirligi vs Trabzonspor | 00:30 14/05",
           "type": "single",
@@ -2609,6 +2433,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3392db86bd_2b64e954_20260513.png?v=2b64e954",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-cfdd0fa62a",
+          "name": "NK Brinje Grosuplje vs NK Aluminij | 01:00 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cfdd0fa62a",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-cfdd0fa62a",
+                  "name": "NK Brinje Grosuplje vs NK Aluminij",
+                  "streams": [
+                    {
+                      "id": "st-cfdd0fa62a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Slovenia Cup",
+            "team_a": "NK Brinje Grosuplje",
+            "team_b": "NK Aluminij",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9832435b0fa7308b996c5aa7fca4fa5c.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8e61634a08ce4e22f54cfef1c6b48b6a.png",
+            "time": "01:00 14/05",
+            "blv": "BLV Người Lạ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cfdd0fa62a_f960069a_20260513.png?v=f960069a",
             "width": 1600,
             "height": 1200
           }
