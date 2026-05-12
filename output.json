@@ -1995,6 +1995,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-c347a989e2",
+          "name": "IFK Mariehamn vs Puiu | 22:30 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c347a989e2",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-c347a989e2",
+                  "name": "IFK Mariehamn vs Puiu",
+                  "streams": [
+                    {
+                      "id": "st-c347a989e2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Finland Suomen Cup",
+            "team_a": "IFK Mariehamn",
+            "team_b": "Puiu",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/41140c6f793b378e8cad7087ebce5066.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/03d689da8c14fd2625da1029828c216e.png",
+            "time": "22:30 13/05",
+            "blv": "BLV Người Lạ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c347a989e2_e053bdbe_20260512.png?v=e053bdbe",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
