@@ -1554,94 +1554,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-32772ae04e",
-          "name": "Manav CHOUDHARY vs LEE Zii Jia | 10:20 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-32772ae04e",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-32772ae04e",
-                  "name": "Manav CHOUDHARY vs LEE Zii Jia",
-                  "streams": [
-                    {
-                      "id": "st-32772ae04e",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-432a4eaf45",
-                          "name": "Sóng Sạch 3",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a028835137e5_148/index.m3u8?expire=1779155637&sign=afbad5c67ca7a928abff193ef8466ea7",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c5416e3bd4",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a02a6fc137e5_3/index.m3u8?expire=1779163516&sign=6296fcb0181b5a342d583515cc505f36",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TOYOTA Thailand Open 2026 _ Sân 4",
-            "team_a": "Manav CHOUDHARY",
-            "team_b": "LEE Zii Jia",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/3639850ac1a647aab3a3b1cec1bd76b8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/882df5a6af3e9ab04bcdaa536565c042.png",
-            "time": "10:20 12/05",
-            "blv": "Sóng Sạch 3",
-            "is_live": true,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-32772ae04e_c8248eea_20260512.png?v=c8248eea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-c20f114ea7",
           "name": "DONG Tian Yao vs Patcharakit APIRATCHATASET | 10:30 12/05",
           "type": "single",
@@ -1901,6 +1813,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3b4be04ea2_b77b728e_20260512.png?v=b77b728e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-573d11e5f6",
+          "name": "HU Zhe An vs ZHU Xuan Chen | 11:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-573d11e5f6",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-573d11e5f6",
+                  "name": "HU Zhe An vs ZHU Xuan Chen",
+                  "streams": [
+                    {
+                      "id": "st-573d11e5f6",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-432a4eaf45",
+                          "name": "Sóng Sạch 3",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a028835137e5_148/index.m3u8?expire=1779155637&sign=afbad5c67ca7a928abff193ef8466ea7",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-c5416e3bd4",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a02a6fc137e5_3/index.m3u8?expire=1779163516&sign=6296fcb0181b5a342d583515cc505f36",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TOYOTA Thailand Open 2026 _ Sân 4",
+            "team_a": "HU Zhe An",
+            "team_b": "ZHU Xuan Chen",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/04f51ccc7bf149b6761a73e33d881378.jpg",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/963751af90dc72b32e0efb22a0a80e25.png",
+            "time": "11:00 12/05",
+            "blv": "Sóng Sạch 3",
+            "is_live": true,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-573d11e5f6_c222c2ec_20260512.png?v=c222c2ec",
             "width": 1600,
             "height": 1200
           }
