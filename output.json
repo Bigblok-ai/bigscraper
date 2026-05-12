@@ -1581,27 +1581,10 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-357fb25151",
+                          "id": "lnk-b900cbd62c",
                           "name": "BLV Tôn Quyền",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a02870551ddd_1960/index.m3u8?expire=1779155333&sign=d3ba53e4b00a473006272a414409ef18",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e4ef424631",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
                           "url": "https://cdn-hls.phogatv8.com/live/6a028a1b137e5_793/index.m3u8?expire=1779156123&sign=6b5a4ca783dfe20979d99407fbf5c0ea",
                           "request_headers": [
                             {
@@ -1670,27 +1653,10 @@
                       "stream_links": [
                         {
                           "id": "lnk-0bc2068814",
-                          "name": "Sóng Sạch 3",
+                          "name": "BLV Cá Mập",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.phogatv8.com/live/6a028738137e5_154/index.m3u8?expire=1779155384&sign=815f05c0fd76123ff4377df4be7fe877",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c2bf1c1392",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a02876f137e5_3/index.m3u8?expire=1779155439&sign=d38209e475a237feab8f2e3e0ef44a78",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1716,7 +1682,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/bb7d4d7dad14bae12e885808f4ffd240.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/866f1799607d0b54b67f6229c8d22921.png",
             "time": "09:45 12/05",
-            "blv": "Sóng Sạch 3",
+            "blv": "BLV Cá Mập",
             "is_live": true,
             "cate_name": "Cầu Lông"
           },
@@ -1725,94 +1691,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0a79403b3f_6f11bd7f_20260512.png?v=6f11bd7f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-c5f38fdbc1",
-          "name": "Amartya PRATIWI vs PAI Yu Po | 09:45 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c5f38fdbc1",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-c5f38fdbc1",
-                  "name": "Amartya PRATIWI vs PAI Yu Po",
-                  "streams": [
-                    {
-                      "id": "st-c5f38fdbc1",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-432a4eaf45",
-                          "name": "Sóng Sạch 4",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a028835137e5_148/index.m3u8?expire=1779155637&sign=afbad5c67ca7a928abff193ef8466ea7",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-5142f36fc9",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a0287b8137e5_2429/index.m3u8?expire=1779155512&sign=180854fd489ed4ed5138f753e7328477",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TOYOTA Thailand Open 2026 _ Sân 4",
-            "team_a": "Amartya PRATIWI",
-            "team_b": "PAI Yu Po",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/dd9da46772a2d0924773bce9c3b6c2ad.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/57c5ea86cb681c28cdb864a45f86a9a2.jpg",
-            "time": "09:45 12/05",
-            "blv": "Sóng Sạch 4",
-            "is_live": true,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c5f38fdbc1_4c82c48c_20260512.png?v=4c82c48c",
             "width": 1600,
             "height": 1200
           }
@@ -1846,27 +1724,10 @@
                       "stream_links": [
                         {
                           "id": "lnk-457ab22b57",
-                          "name": "Sóng Sạch 1",
+                          "name": "BLV Chân Đất",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.phogatv8.com/live/6a0285f651ddd_145/index.m3u8?expire=1779155062&sign=1169d6d28a4e8038511a6ada087422a4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b8a09727ae",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a0286c0137e5_2/index.m3u8?expire=1779155264&sign=98788645a88822666649a20f5610e977",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1892,7 +1753,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/0344c84d58704bed8e1e3eba6844ddc7.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/063953871b05747cc053bef4d9ca10f0.jpg",
             "time": "10:00 12/05",
-            "blv": "Sóng Sạch 1",
+            "blv": "BLV Chân Đất",
             "is_live": true,
             "cate_name": "Cầu Lông"
           },
@@ -1901,6 +1762,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-04ec843c1b_29edad1e_20260512.png?v=29edad1e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-32772ae04e",
+          "name": "Manav CHOUDHARY vs LEE Zii Jia | 10:20 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-32772ae04e",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-32772ae04e",
+                  "name": "Manav CHOUDHARY vs LEE Zii Jia",
+                  "streams": [
+                    {
+                      "id": "st-32772ae04e",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-432a4eaf45",
+                          "name": "BLV Người Rừng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a028835137e5_148/index.m3u8?expire=1779155637&sign=afbad5c67ca7a928abff193ef8466ea7",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TOYOTA Thailand Open 2026 _ Sân 4",
+            "team_a": "Manav CHOUDHARY",
+            "team_b": "LEE Zii Jia",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/3639850ac1a647aab3a3b1cec1bd76b8.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/882df5a6af3e9ab04bcdaa536565c042.png",
+            "time": "10:20 12/05",
+            "blv": "BLV Người Rừng",
+            "is_live": true,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-32772ae04e_c8248eea_20260512.png?v=c8248eea",
             "width": 1600,
             "height": 1200
           }
