@@ -1924,6 +1924,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-34ca6782d0",
+          "name": "Slavia Sofia vs FC Dobrudzha | 19:15 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-34ca6782d0",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-34ca6782d0",
+                  "name": "Slavia Sofia vs FC Dobrudzha",
+                  "streams": [
+                    {
+                      "id": "st-34ca6782d0",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bulgarian First League",
+            "team_a": "Slavia Sofia",
+            "team_b": "FC Dobrudzha",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e087c9b939975c0cb726253fc3c3e418.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/058ab0bb7d4a90ccef7c471cb9029b2f.png",
+            "time": "19:15 13/05",
+            "blv": "BLV Người Ngố",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-34ca6782d0_ed91c6a6_20260512.png?v=ed91c6a6",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
