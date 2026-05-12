@@ -2454,6 +2454,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-3392db86bd",
+          "name": "Genclerbirligi vs Trabzonspor | 00:30 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3392db86bd",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-3392db86bd",
+                  "name": "Genclerbirligi vs Trabzonspor",
+                  "streams": [
+                    {
+                      "id": "st-3392db86bd",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TUR Kupası",
+            "team_a": "Genclerbirligi",
+            "team_b": "Trabzonspor",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/ec111e88997dce5a5f76c26b8e85d7f3.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9dc9c8f928d5cafdc90a747fe0439c2d.png",
+            "time": "00:30 14/05",
+            "blv": "BLV Tôn Quyền",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-3392db86bd_2b64e954_20260513.png?v=2b64e954",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2529,83 +2582,11 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "thapcam-d703179b71",
-          "name": "Andrey Rublev vs Nikoloz Basilashvili | 22:10 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d703179b71",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-d703179b71",
-                  "name": "Andrey Rublev vs Nikoloz Basilashvili",
-                  "streams": [
-                    {
-                      "id": "st-d703179b71",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fac83480ca",
-                          "name": "BLV Siêu Quậy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a032c4551ddd_26/index.m3u8?expire=1779197637&sign=49e600c0526b937645210305bc667791",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Andrey Rublev",
-            "team_b": "Nikoloz Basilashvili",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/07acc0b56b6a296cd89a70e5952f025b.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/452cb78d874a5c2244c43141abb67724.png",
-            "time": "22:10 12/05",
-            "blv": "BLV Siêu Quậy",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-d703179b71_74b81dce_20260513.png?v=74b81dce",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-9102198393",
