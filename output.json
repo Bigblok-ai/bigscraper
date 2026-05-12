@@ -2082,6 +2082,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "thapcam-c73626244d",
+          "name": "Juventude vs Sao Paulo | 05:00 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c73626244d",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-c73626244d",
+                  "name": "Juventude vs Sao Paulo",
+                  "streams": [
+                    {
+                      "id": "st-c73626244d",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Brazilian Cup",
+            "team_a": "Juventude",
+            "team_b": "Sao Paulo",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7a9a6275e29e0f51ea68ba1ec740bf1e.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/31f5171de0e1404fdebcef19cd7cd409.png",
+            "time": "05:00 14/05",
+            "blv": "BLV Người Ngố",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-c73626244d_a5a9e93c_20260513.png?v=a5a9e93c",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
