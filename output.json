@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -159,77 +159,6 @@
           }
         },
         {
-          "id": "thapcam-bda228ae34",
-          "name": "Inter Turku vs JS Hercules | 21:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bda228ae34",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-bda228ae34",
-                  "name": "Inter Turku vs JS Hercules",
-                  "streams": [
-                    {
-                      "id": "st-bda228ae34",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b72b4548a2",
-                          "name": "BLV Tôn Quyền",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a03267751ddd_793/index.m3u8?expire=1779196151&sign=6b8980922ff30166574772774f5be948",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Finland Suomen Cup",
-            "team_a": "Inter Turku",
-            "team_b": "JS Hercules",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f26fb30a9c60dd634d8b2f36afe0e8f1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/9ac53c099d618e999e1e521527307c15.png",
-            "time": "21:00 12/05",
-            "blv": "BLV Tôn Quyền",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-bda228ae34_caeb5cd5_20260512.png?v=caeb5cd5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-7cb29f890c",
           "name": "SJK Seinajoen vs PEPO Lappeenranta | 22:00 12/05",
           "type": "single",
@@ -308,10 +237,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -326,7 +255,42 @@
                     {
                       "id": "st-05298473c9",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f87e6074a5",
+                          "name": "BLV Siêu Bướng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a0346fc137e5_151/index.m3u8?expire=1779204476&sign=e4253335a0412f38c5fb68d5ca285d57",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-af6775f67c",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a034a10137e5_35/index.m3u8?expire=1779205264&sign=8c33218aa520469a77b382f9f284e013",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -341,7 +305,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a222bcd619abdcee951b28cae8d1cce6.png",
             "time": "23:00 12/05",
             "blv": "BLV Siêu Bướng",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -361,10 +325,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -379,7 +343,42 @@
                     {
                       "id": "st-c0134f5d7c",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a95f50c961",
+                          "name": "BLV Cá Mập",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a033edb137e5_154/index.m3u8?expire=1779202395&sign=af6bbe0cb6440f5bdad896fc8c875fce",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-fbe4faff3c",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a03469f137e5_1549/index.m3u8?expire=1779204383&sign=49f6cda8dc7cf364f77a84c1270808cf",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -394,7 +393,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8583e166d6e955dd01525d25b53b4439.png",
             "time": "23:00 12/05",
             "blv": "BLV Cá Mập",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
