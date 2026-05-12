@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-1df4e99522",
-          "name": "Saudi Arabia U17 vs Tajikistan U17 | 00:00 13/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1df4e99522",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-1df4e99522",
-                  "name": "Saudi Arabia U17 vs Tajikistan U17",
-                  "streams": [
-                    {
-                      "id": "st-1df4e99522",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7840ee6a86",
-                          "name": "BLV Người Điên",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a03561051ddd_1984/index.m3u8?expire=1779208336&sign=7d5344cbf22ed79db78bba8c06527719",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Saudi Arabia U17",
-            "team_b": "Tajikistan U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/081372dd82f5917deb2d2fa64e052173.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2efe07c30596a4250cae3d525d711a4d.png",
-            "time": "00:00 13/05",
-            "blv": "BLV Người Điên",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1df4e99522_29e7da95_20260513.png?v=29e7da95",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-e89978e64b",
           "name": "Real Madrid U21 vs Borussia Dortmund II | 01:00 13/05",
@@ -565,59 +494,6 @@
           }
         },
         {
-          "id": "thapcam-88c4cba5b7",
-          "name": "Fluminense RJ vs Operario Ferroviario PR | 07:30 13/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-88c4cba5b7",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-88c4cba5b7",
-                  "name": "Fluminense RJ vs Operario Ferroviario PR",
-                  "streams": [
-                    {
-                      "id": "st-88c4cba5b7",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Brazilian Cup",
-            "team_a": "Fluminense RJ",
-            "team_b": "Operario Ferroviario PR",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a6bce9adfac7903426bed2b253991a18.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d10de41c21595dcf71ffbf4c3c105660.png",
-            "time": "07:30 13/05",
-            "blv": "BLV Người Ngố",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-88c4cba5b7_e70bcd06_20260513.png?v=e70bcd06",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-6bc1de819f",
           "name": "SV Brazil Juniors vs SV Estrella | 07:30 13/05",
           "type": "single",
@@ -666,6 +542,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-6bc1de819f_8abab574_20260513.png?v=8abab574",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-88c4cba5b7",
+          "name": "Fluminense RJ vs Operario Ferroviario PR | 07:30 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-88c4cba5b7",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-88c4cba5b7",
+                  "name": "Fluminense RJ vs Operario Ferroviario PR",
+                  "streams": [
+                    {
+                      "id": "st-88c4cba5b7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Brazilian Cup",
+            "team_a": "Fluminense RJ",
+            "team_b": "Operario Ferroviario PR",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a6bce9adfac7903426bed2b253991a18.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d10de41c21595dcf71ffbf4c3c105660.png",
+            "time": "07:30 13/05",
+            "blv": "BLV Người Ngố",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-88c4cba5b7_e70bcd06_20260513.png?v=e70bcd06",
             "width": 1600,
             "height": 1200
           }
@@ -883,8 +812,8 @@
           }
         },
         {
-          "id": "thapcam-195b9f3eaf",
-          "name": "Thep Xanh Nam Dinh FC vs Selangor FC | 17:30 13/05",
+          "id": "thapcam-ed60eef153",
+          "name": "Ulsan HD FC vs Jeju SK FC | 17:30 13/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -898,15 +827,15 @@
           ],
           "sources": [
             {
-              "id": "src-195b9f3eaf",
+              "id": "src-ed60eef153",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-195b9f3eaf",
-                  "name": "Thep Xanh Nam Dinh FC vs Selangor FC",
+                  "id": "ct-ed60eef153",
+                  "name": "Ulsan HD FC vs Jeju SK FC",
                   "streams": [
                     {
-                      "id": "st-195b9f3eaf",
+                      "id": "st-ed60eef153",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -916,13 +845,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Asean Club Championship Shopee Cup",
-            "team_a": "Thep Xanh Nam Dinh FC",
-            "team_b": "Selangor FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bc5db4dd418cb566a4475649876b55bb.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/585f46e1975ca0a4cce84365f5290111.png",
+            "league": "Korean K League 1",
+            "team_a": "Ulsan HD FC",
+            "team_b": "Jeju SK FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fe07fb888ebcb282192332cb8aed21b1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2d2abe914435bb9b7140cf2154c50de9.png",
             "time": "17:30 13/05",
-            "blv": "BLV Lềnh",
+            "blv": "BLV Tôn Quyền",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -930,7 +859,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-195b9f3eaf_32c2e719_20260513.png?v=32c2e719",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ed60eef153_78ef6131_20260513.png?v=78ef6131",
             "width": 1600,
             "height": 1200
           }
@@ -989,59 +918,6 @@
           }
         },
         {
-          "id": "thapcam-ed60eef153",
-          "name": "Ulsan HD FC vs Jeju SK FC | 17:30 13/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ed60eef153",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-ed60eef153",
-                  "name": "Ulsan HD FC vs Jeju SK FC",
-                  "streams": [
-                    {
-                      "id": "st-ed60eef153",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Ulsan HD FC",
-            "team_b": "Jeju SK FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fe07fb888ebcb282192332cb8aed21b1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2d2abe914435bb9b7140cf2154c50de9.png",
-            "time": "17:30 13/05",
-            "blv": "BLV Tôn Quyền",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-ed60eef153_78ef6131_20260513.png?v=78ef6131",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-a7afd736eb",
           "name": "Bucheon FC 1995 vs Jeonbuk Hyundai Motors | 17:30 13/05",
           "type": "single",
@@ -1090,6 +966,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-a7afd736eb_53f1df4b_20260513.png?v=53f1df4b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-195b9f3eaf",
+          "name": "Thep Xanh Nam Dinh FC vs Selangor FC | 17:30 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-195b9f3eaf",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-195b9f3eaf",
+                  "name": "Thep Xanh Nam Dinh FC vs Selangor FC",
+                  "streams": [
+                    {
+                      "id": "st-195b9f3eaf",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asean Club Championship Shopee Cup",
+            "team_a": "Thep Xanh Nam Dinh FC",
+            "team_b": "Selangor FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bc5db4dd418cb566a4475649876b55bb.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/585f46e1975ca0a4cce84365f5290111.png",
+            "time": "17:30 13/05",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-195b9f3eaf_32c2e719_20260513.png?v=32c2e719",
             "width": 1600,
             "height": 1200
           }
@@ -1466,8 +1395,8 @@
           }
         },
         {
-          "id": "thapcam-f60d297320",
-          "name": "Al Kuwait SC vs Svay Rieng FC | 23:00 13/05",
+          "id": "thapcam-28bf5e1336",
+          "name": "Arka Gdynia vs Gornik Zabrze | 23:00 13/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1481,15 +1410,15 @@
           ],
           "sources": [
             {
-              "id": "src-f60d297320",
+              "id": "src-28bf5e1336",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-f60d297320",
-                  "name": "Al Kuwait SC vs Svay Rieng FC",
+                  "id": "ct-28bf5e1336",
+                  "name": "Arka Gdynia vs Gornik Zabrze",
                   "streams": [
                     {
-                      "id": "st-f60d297320",
+                      "id": "st-28bf5e1336",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1499,13 +1428,13 @@
             }
           ],
           "org_metadata": {
-            "league": "AFC Challenge League",
-            "team_a": "Al Kuwait SC",
-            "team_b": "Svay Rieng FC",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b292fe77f1c6c63d12782e565ea3e92f.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8b784b23ff2eac9bbdb4437cbc291d52.png",
+            "league": "PKO Bank Polski EKSTRAKLASA",
+            "team_a": "Arka Gdynia",
+            "team_b": "Gornik Zabrze",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8ad2a2e612382ffd08afd5ab57ebfcf1.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0f66aafde07d8ce9a2ad882abfbe4aac.png",
             "time": "23:00 13/05",
-            "blv": "BLV Max",
+            "blv": "BLV Jayce",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1513,7 +1442,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f60d297320_23df0575_20260513.png?v=23df0575",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-28bf5e1336_2885a732_20260513.png?v=2885a732",
             "width": 1600,
             "height": 1200
           }
@@ -1572,59 +1501,6 @@
           }
         },
         {
-          "id": "thapcam-28bf5e1336",
-          "name": "Arka Gdynia vs Gornik Zabrze | 23:00 13/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-28bf5e1336",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-28bf5e1336",
-                  "name": "Arka Gdynia vs Gornik Zabrze",
-                  "streams": [
-                    {
-                      "id": "st-28bf5e1336",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PKO Bank Polski EKSTRAKLASA",
-            "team_a": "Arka Gdynia",
-            "team_b": "Gornik Zabrze",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8ad2a2e612382ffd08afd5ab57ebfcf1.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/0f66aafde07d8ce9a2ad882abfbe4aac.png",
-            "time": "23:00 13/05",
-            "blv": "BLV Jayce",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-28bf5e1336_2885a732_20260513.png?v=2885a732",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-777749e1ec",
           "name": "Uzbekistan U17 vs Australia U17 | 23:00 13/05",
           "type": "single",
@@ -1673,6 +1549,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-777749e1ec_36be806b_20260513.png?v=36be806b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-f60d297320",
+          "name": "Al Kuwait SC vs Svay Rieng FC | 23:00 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f60d297320",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f60d297320",
+                  "name": "Al Kuwait SC vs Svay Rieng FC",
+                  "streams": [
+                    {
+                      "id": "st-f60d297320",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Challenge League",
+            "team_a": "Al Kuwait SC",
+            "team_b": "Svay Rieng FC",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/b292fe77f1c6c63d12782e565ea3e92f.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/8b784b23ff2eac9bbdb4437cbc291d52.png",
+            "time": "23:00 13/05",
+            "blv": "BLV Max",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f60d297320_23df0575_20260513.png?v=23df0575",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-cfa2cae482",
+          "name": "Ittihad Alexandria SC vs Tala'ea El Gaish | 00:00 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cfa2cae482",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-cfa2cae482",
+                  "name": "Ittihad Alexandria SC vs Tala'ea El Gaish",
+                  "streams": [
+                    {
+                      "id": "st-cfa2cae482",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "Ittihad Alexandria SC",
+            "team_b": "Tala'ea El Gaish",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/56484f26eac26f8e279ea2172c48632d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bacc15441ed99eaad038d4ceb86751d6.png",
+            "time": "00:00 14/05",
+            "blv": "BLV Tôn Quyền",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cfa2cae482_2f07b401_20260513.png?v=2f07b401",
             "width": 1600,
             "height": 1200
           }
@@ -1731,112 +1713,6 @@
           }
         },
         {
-          "id": "thapcam-2ff9fb3022",
-          "name": "FC Universitatea Cluj vs CS Universitatea Craiova | 00:00 14/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2ff9fb3022",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-2ff9fb3022",
-                  "name": "FC Universitatea Cluj vs CS Universitatea Craiova",
-                  "streams": [
-                    {
-                      "id": "st-2ff9fb3022",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Romanian Cup",
-            "team_a": "FC Universitatea Cluj",
-            "team_b": "CS Universitatea Craiova",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/74c37787bcf9656e1372913981f69859.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d8fef73043961d11ed61a37476a54568.png",
-            "time": "00:00 14/05",
-            "blv": "BLV Người Lạ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2ff9fb3022_cae6ac99_20260513.png?v=cae6ac99",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-f5a71cdd78",
-          "name": "Vietnam U17 vs United Arab Emirates U17 | 00:00 14/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f5a71cdd78",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-f5a71cdd78",
-                  "name": "Vietnam U17 vs United Arab Emirates U17",
-                  "streams": [
-                    {
-                      "id": "st-f5a71cdd78",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Vietnam U17",
-            "team_b": "United Arab Emirates U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e20aa94f550f3d4fb4055ac9629a7324.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c6a69c23ab69873f6e96868f5f0abacb.png",
-            "time": "00:00 14/05",
-            "blv": "BLV Lềnh",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f5a71cdd78_5d395846_20260513.png?v=5d395846",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-461449253e",
           "name": "RCD Espanyol de Barcelona vs Athletic Club | 00:00 14/05",
           "type": "single",
@@ -1890,6 +1766,59 @@
           }
         },
         {
+          "id": "thapcam-2ff9fb3022",
+          "name": "FC Universitatea Cluj vs CS Universitatea Craiova | 00:00 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2ff9fb3022",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-2ff9fb3022",
+                  "name": "FC Universitatea Cluj vs CS Universitatea Craiova",
+                  "streams": [
+                    {
+                      "id": "st-2ff9fb3022",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Romanian Cup",
+            "team_a": "FC Universitatea Cluj",
+            "team_b": "CS Universitatea Craiova",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/74c37787bcf9656e1372913981f69859.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/d8fef73043961d11ed61a37476a54568.png",
+            "time": "00:00 14/05",
+            "blv": "BLV Người Lạ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2ff9fb3022_cae6ac99_20260513.png?v=cae6ac99",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-2b425272fa",
           "name": "Villarreal CF vs Sevilla FC | 00:00 14/05",
           "type": "single",
@@ -1938,59 +1867,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2b425272fa_29a1e0ca_20260513.png?v=29a1e0ca",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-cfa2cae482",
-          "name": "Ittihad Alexandria SC vs Tala'ea El Gaish | 00:00 14/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cfa2cae482",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-cfa2cae482",
-                  "name": "Ittihad Alexandria SC vs Tala'ea El Gaish",
-                  "streams": [
-                    {
-                      "id": "st-cfa2cae482",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Egyptian Premier League",
-            "team_a": "Ittihad Alexandria SC",
-            "team_b": "Tala'ea El Gaish",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/56484f26eac26f8e279ea2172c48632d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/bacc15441ed99eaad038d4ceb86751d6.png",
-            "time": "00:00 14/05",
-            "blv": "BLV Tôn Quyền",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cfa2cae482_2f07b401_20260513.png?v=2f07b401",
             "width": 1600,
             "height": 1200
           }
@@ -2102,6 +1978,59 @@
           }
         },
         {
+          "id": "thapcam-f5a71cdd78",
+          "name": "Vietnam U17 vs United Arab Emirates U17 | 00:00 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f5a71cdd78",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-f5a71cdd78",
+                  "name": "Vietnam U17 vs United Arab Emirates U17",
+                  "streams": [
+                    {
+                      "id": "st-f5a71cdd78",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Vietnam U17",
+            "team_b": "United Arab Emirates U17",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/e20aa94f550f3d4fb4055ac9629a7324.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/c6a69c23ab69873f6e96868f5f0abacb.png",
+            "time": "00:00 14/05",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-f5a71cdd78_5d395846_20260513.png?v=5d395846",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "thapcam-3392db86bd",
           "name": "Genclerbirligi vs Trabzonspor | 00:30 14/05",
           "type": "single",
@@ -2203,6 +2132,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-cfdd0fa62a_f960069a_20260513.png?v=f960069a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "thapcam-1e439396f5",
+          "name": "Stockport County vs Stevenage Borough | 02:00 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1e439396f5",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-1e439396f5",
+                  "name": "Stockport County vs Stevenage Borough",
+                  "streams": [
+                    {
+                      "id": "st-1e439396f5",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Football League One",
+            "team_a": "Stockport County",
+            "team_b": "Stevenage Borough",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a241e25d4563952e552e95b17af92b56.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1a0c6fa48e5e2310224f38ced1dd83e6.png",
+            "time": "02:00 14/05",
+            "blv": "BLV Người Đá",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1e439396f5_86fdf9a3_20260513.png?v=86fdf9a3",
             "width": 1600,
             "height": 1200
           }
@@ -2362,59 +2344,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-2518fed4e6_fee79843_20260513.png?v=fee79843",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-1e439396f5",
-          "name": "Stockport County vs Stevenage Borough | 02:00 14/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1e439396f5",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-1e439396f5",
-                  "name": "Stockport County vs Stevenage Borough",
-                  "streams": [
-                    {
-                      "id": "st-1e439396f5",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Football League One",
-            "team_a": "Stockport County",
-            "team_b": "Stevenage Borough",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/a241e25d4563952e552e95b17af92b56.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1a0c6fa48e5e2310224f38ced1dd83e6.png",
-            "time": "02:00 14/05",
-            "blv": "BLV Người Đá",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1e439396f5_86fdf9a3_20260513.png?v=86fdf9a3",
             "width": 1600,
             "height": 1200
           }
