@@ -1581,7 +1581,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-0bc2068814",
-                          "name": "Sóng Sạch 4",
+                          "name": "BLV Người Điên",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.phogatv8.com/live/6a028738137e5_154/index.m3u8?expire=1779155384&sign=815f05c0fd76123ff4377df4be7fe877",
@@ -1612,6 +1612,23 @@
                               "value": "Mozilla/5.0"
                             }
                           ]
+                        },
+                        {
+                          "id": "lnk-007d764657",
+                          "name": "Link HD 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a02e86f51ddd_1984/index.m3u8?expire=1779180271&sign=703815109fae6a6a28a3ace55d0f0602",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -1627,7 +1644,7 @@
             "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/353e8b7aaa3de3e079b692aef9a8d474.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/063953871b05747cc053bef4d9ca10f0.jpg",
             "time": "14:30 12/05",
-            "blv": "Sóng Sạch 4",
+            "blv": "BLV Người Điên",
             "is_live": true,
             "cate_name": "Cầu Lông"
           },
@@ -1690,6 +1707,23 @@
                           "type": "hls",
                           "default": false,
                           "url": "https://cdn-hls.phogatv8.com/live/6a02a6c4137e5_1960/index.m3u8?expire=1779163460&sign=e1cffc8b6c995f5803cca0f47d67b607",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f7c1e5b616",
+                          "name": "Link HD 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a02e78c51ddd_11241/index.m3u8?expire=1779180044&sign=4b778897ba52c207e6d1dd6d2490cf75",
                           "request_headers": [
                             {
                               "key": "Referer",
