@@ -2245,11 +2245,82 @@
     },
     {
       "id": "grp-0c493d20a1",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-7c7c0cf30a",
+          "name": "Rafael Jodar vs Learner Tien | 17:25 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7c7c0cf30a",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-7c7c0cf30a",
+                  "name": "Rafael Jodar vs Learner Tien",
+                  "streams": [
+                    {
+                      "id": "st-7c7c0cf30a",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5f3c47833c",
+                          "name": "BLV Người Hầu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a0301af51ddd_9657/index.m3u8?expire=1779186735&sign=7c5d23ad532b374d23e5e63e9bcef3ec",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Rome, Italy Men Singles",
+            "team_a": "Rafael Jodar",
+            "team_b": "Learner Tien",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/6df68e87ef33da480611d1b13a603a21.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/Fuue3ODA1VOSiquEuTM6LXhpoD4b",
+            "time": "17:25 12/05",
+            "blv": "BLV Người Hầu",
+            "is_live": true,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7c7c0cf30a_0c2b560b_20260512.png?v=0c2b560b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-c4655afd06",
           "name": "Luciano Darderi vs Alexander Zverev | 19:00 12/05",
