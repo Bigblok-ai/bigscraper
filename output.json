@@ -1902,100 +1902,11 @@
     },
     {
       "id": "grp-0b6b498c58",
-      "name": "🏸 Cầu Lông (1 LIVE)",
+      "name": "🏸 Cầu Lông",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "thapcam-51f8726e2f",
-          "name": "YEUNG Nga Ting/YEUNG Pui Lam vs Phattharin | 21:08 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-51f8726e2f",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-51f8726e2f",
-                  "name": "YEUNG Nga Ting/YEUNG Pui Lam vs Phattharin",
-                  "streams": [
-                    {
-                      "id": "st-51f8726e2f",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-457ab22b57",
-                          "name": "Sóng Sạch 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a0285f651ddd_145/index.m3u8?expire=1779155062&sign=1169d6d28a4e8038511a6ada087422a4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-70b481d173",
-                          "name": "Link HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a02a67551ddd_2/index.m3u8?expire=1779163381&sign=c900bbdc8993802df0d95d840be93263",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TOYOTA Thailand Open 2026 _ Sân 1",
-            "team_a": "YEUNG Nga Ting/YEUNG Pui Lam",
-            "team_b": "Phattharin",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/d152215b878bd34f2f2d046d93ebb0e2.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/408532c93a3945b96ad3b4949aad4b08.png",
-            "time": "21:08 12/05",
-            "blv": "Sóng Sạch 1",
-            "is_live": true,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-51f8726e2f_b950fcfa_20260512.png?v=b950fcfa",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-0c493d20a1",
