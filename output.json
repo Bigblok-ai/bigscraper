@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "grp-2bd7230b6f",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "thapcam-7cb29f890c",
-          "name": "SJK Seinajoen vs PEPO Lappeenranta | 22:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7cb29f890c",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-7cb29f890c",
-                  "name": "SJK Seinajoen vs PEPO Lappeenranta",
-                  "streams": [
-                    {
-                      "id": "st-7cb29f890c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5bb2efd2e7",
-                          "name": "BLV Người Ngố",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.phogatv8.com/live/6a03391e137e5_14/index.m3u8?expire=1779200926&sign=9dccb89df2925f0ea633086f851305ac",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://thapcam24h.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Finland Suomen Cup",
-            "team_a": "SJK Seinajoen",
-            "team_b": "PEPO Lappeenranta",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/1102270dc5201968f3eeffbc20da56bc.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/934535dc581e59cf47d5121fb1fe4186.jpg",
-            "time": "22:00 12/05",
-            "blv": "BLV Người Ngố",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-7cb29f890c_d4673a1e_20260512.png?v=d4673a1e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "thapcam-05298473c9",
           "name": "Japan U17 vs Indonesia U17 | 23:00 12/05",
@@ -342,10 +271,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -360,7 +289,25 @@
                     {
                       "id": "st-0d4b8dbfc9",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-50f8d87764",
+                          "name": "BLV Người Rừng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a0348a7137e5_148/index.m3u8?expire=1779204903&sign=bc9c9fd59bb41ea2468f932f5b9e02dc",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -375,7 +322,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/13e2038bd23a38ce32a3eb259c8bf7d8.png",
             "time": "00:00 13/05",
             "blv": "BLV Người Rừng",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -395,10 +342,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -413,7 +360,25 @@
                     {
                       "id": "st-4ba364212c",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-3c77f03074",
+                          "name": "BLV Tôn Quyền",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a035698137e5_793/index.m3u8?expire=1779208472&sign=005df693c81e4aea0753c42f4782eb49",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -428,7 +393,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/3766cad0712ddc9181a091d2d78d61c8.png",
             "time": "00:00 13/05",
             "blv": "BLV Tôn Quyền",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -448,10 +413,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -466,7 +431,25 @@
                     {
                       "id": "st-1df4e99522",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-7840ee6a86",
+                          "name": "BLV Người Điên",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a03561051ddd_1984/index.m3u8?expire=1779208336&sign=7d5344cbf22ed79db78bba8c06527719",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -481,7 +464,7 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/2efe07c30596a4250cae3d525d711a4d.png",
             "time": "00:00 13/05",
             "blv": "BLV Người Điên",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -489,59 +472,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1df4e99522_29e7da95_20260512.png?v=29e7da95",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "thapcam-52d19d87b6",
-          "name": "Thailand U17 vs Myanmar U17 | 00:00 13/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-52d19d87b6",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-52d19d87b6",
-                  "name": "Thailand U17 vs Myanmar U17",
-                  "streams": [
-                    {
-                      "id": "st-52d19d87b6",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Thailand U17",
-            "team_b": "Myanmar U17",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/51c3745e99294178891085f6c3f265e2.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/fbbcb591970475f0c7737c04c9d2f2da.png",
-            "time": "00:00 13/05",
-            "blv": "BLV Jayce",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-52d19d87b6_3998e1d7_20260512.png?v=3998e1d7",
             "width": 1600,
             "height": 1200
           }
