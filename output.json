@@ -1860,59 +1860,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "thapcam-91a5746b36",
-          "name": "Lorenzo Musetti vs Casper Ruud | 16:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-91a5746b36",
-              "name": "ThapcamTV",
-              "contents": [
-                {
-                  "id": "ct-91a5746b36",
-                  "name": "Lorenzo Musetti vs Casper Ruud",
-                  "streams": [
-                    {
-                      "id": "st-91a5746b36",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Rome, Italy Men Singles",
-            "team_a": "Lorenzo Musetti",
-            "team_b": "Casper Ruud",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/f4ca478e4a2bdf725584d92eccc72cb8.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/74333a05a20c9c27863391ba5ba2024e.png",
-            "time": "16:00 12/05",
-            "blv": "BLV Người Hầu",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-91a5746b36_ed4d51cf_20260512.png?v=ed4d51cf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "thapcam-13380b4e2d",
           "name": "Rafael Jodar vs Learner Tien | 17:10 12/05",
           "type": "single",
