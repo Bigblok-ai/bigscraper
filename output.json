@@ -2716,11 +2716,82 @@
     },
     {
       "id": "grp-9102198393",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "thapcam-1ab6a64318",
+          "name": "Lường Đức Thiện vs Nguyễn Thanh Nam | 09:30 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1ab6a64318",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-1ab6a64318",
+                  "name": "Lường Đức Thiện vs Nguyễn Thanh Nam",
+                  "streams": [
+                    {
+                      "id": "st-1ab6a64318",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-adba232cd4",
+                          "name": "BLV Jayce",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a03e3ed137e5_181/index.m3u8?expire=1779244653&sign=2273c1f2d2a4b8c045463ac6c2e0b8d5",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BOX BILLIARDS ALL STAR VIETNAM INVITATIONAL 2026",
+            "team_a": "Lường Đức Thiện",
+            "team_b": "Nguyễn Thanh Nam",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/8c7841585d2182b6eebc10454251bd2d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/60d2ae0075b93719c78ca5effdd6238b.png",
+            "time": "09:30 13/05",
+            "blv": "BLV Jayce",
+            "is_live": true,
+            "cate_name": "Billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-1ab6a64318_3c2b2434_20260513.png?v=3c2b2434",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "thapcam-0ddb5d590d",
           "name": "Dương Quốc Hoàng vs Nguyễn Anh Tuấn | 10:00 13/05",
@@ -2775,8 +2846,8 @@
           }
         },
         {
-          "id": "thapcam-8f85c5fcf5",
-          "name": "Lường Đức Thiện vs Nguyễn Thanh Nam | 10:00 13/05",
+          "id": "thapcam-0d486acabd",
+          "name": "Đặng Thành Kiên vs Nguyễn Hoàng Phong | 10:00 13/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2790,15 +2861,15 @@
           ],
           "sources": [
             {
-              "id": "src-8f85c5fcf5",
+              "id": "src-0d486acabd",
               "name": "ThapcamTV",
               "contents": [
                 {
-                  "id": "ct-8f85c5fcf5",
-                  "name": "Lường Đức Thiện vs Nguyễn Thanh Nam",
+                  "id": "ct-0d486acabd",
+                  "name": "Đặng Thành Kiên vs Nguyễn Hoàng Phong",
                   "streams": [
                     {
-                      "id": "st-8f85c5fcf5",
+                      "id": "st-0d486acabd",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -2809,12 +2880,12 @@
           ],
           "org_metadata": {
             "league": "BOX BILLIARDS ALL STAR VIETNAM INVITATIONAL 2026",
-            "team_a": "Lường Đức Thiện",
-            "team_b": "Nguyễn Thanh Nam",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/8c7841585d2182b6eebc10454251bd2d.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/60d2ae0075b93719c78ca5effdd6238b.png",
+            "team_a": "Đặng Thành Kiên",
+            "team_b": "Nguyễn Hoàng Phong",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/cms/ac047289b446737f955921ab4b58adbd.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/cms/9145b3998b645a8bbb14b1899b5f8395.jpg",
             "time": "10:00 13/05",
-            "blv": "BLV Jayce",
+            "blv": "BLV Người Ngố",
             "is_live": false,
             "cate_name": "Billiards"
           },
@@ -2822,7 +2893,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-8f85c5fcf5_3c2b2434_20260513.png?v=3c2b2434",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-0d486acabd_f1095cf3_20260513.png?v=f1095cf3",
             "width": 1600,
             "height": 1200
           }
@@ -2970,11 +3041,83 @@
     },
     {
       "id": "grp-b69c24c415",
-      "name": "🏸 Pickleball",
+      "name": "🏸 Pickleball (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "thapcam-12dc3d936b",
+          "name": "Deportes Iquique Women vs Deportes Iquique Women | 09:00 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-12dc3d936b",
+              "name": "ThapcamTV",
+              "contents": [
+                {
+                  "id": "ct-12dc3d936b",
+                  "name": "Deportes Iquique Women vs Deportes Iquique Women",
+                  "streams": [
+                    {
+                      "id": "st-12dc3d936b",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-faa74777f9",
+                          "name": "Sóng Sạch 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.phogatv8.com/live/6a03e3d8137e5_2/index.m3u8?expire=1779244632&sign=f7ef37d4cd9b24d909edd8f4ddb62922",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://thapcam24h.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Panas Kuala Lumpur Open 2026",
+            "team_a": "Deportes Iquique Women",
+            "team_b": "Deportes Iquique Women",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7945fdd32fa7525740a1e1d3220ba48d.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-phogatv/football/team/logo/7945fdd32fa7525740a1e1d3220ba48d.png",
+            "time": "09:00 13/05",
+            "blv": "Sóng Sạch 1",
+            "is_live": true,
+            "cate_name": "Pickleball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/bigscraper/refs/heads/main/thumbs/thapcam-12dc3d936b_db562406_20260513.png?v=db562406",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     }
   ]
 }
